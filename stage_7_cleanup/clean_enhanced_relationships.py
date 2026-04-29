@@ -1,9 +1,10 @@
 import json
+import os
 from pathlib import Path
 
 # Define input and output file paths
-INPUT_FILE = Path("graph_structures/imp/enhanced_relationships_new_1.json")
-OUTPUT_FILE = Path("graph_structures/imp/enhanced_relationships_new_cleaned_1.json") # Overwrite the original
+INPUT_FILE = Path(os.getenv("ENHANCED_RELATIONSHIPS_PATH", "./data/enhanced_relationships.json"))
+OUTPUT_FILE = Path(os.getenv("CLEANED_RELATIONSHIPS_PATH", "./data/enhanced_relationships_cleaned.json"))
 
 def clean_relationships(input_path: Path, output_path: Path):
     if not input_path.exists():

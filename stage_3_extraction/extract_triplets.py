@@ -17,19 +17,19 @@ class TripletExtraction(BaseModel):
 def load_prompt_template() -> str:
     """Load the prompt template from prompt_v1.py"""
     import sys
-    sys.path.append('/Users/sujitkhanna/Desktop/ongoing_projects/graph_structures/triplet_extraction/prompts')
+    sys.path.append(os.getenv("PROMPTS_DIR", "./prompts"))
     from prompt_v1 import prompt_1
     return prompt_1
 
 def load_chunk_content() -> str:
     """Load the chunk content from chunk_2.txt"""
-    chunk_path = '/Users/sujitkhanna/Desktop/ongoing_projects/graph_structures/triplet_extraction/chunks/alphabet/chunk_2.txt'
+    chunk_path = os.getenv("CHUNK_PATH", "./data/chunks/sample_chunk.txt")
     with open(chunk_path, 'r', encoding='utf-8') as f:
         return f.read()
 
 def load_document_theme() -> str:
     """Load the document theme from theme.txt"""
-    theme_path = '/Users/sujitkhanna/Desktop/ongoing_projects/graph_structures/triplet_extraction/chunks/alphabet/themes/theme.txt'
+    theme_path = os.getenv("THEME_PATH", "./data/themes/sample_theme.txt")
     with open(theme_path, 'r', encoding='utf-8') as f:
         return f.read()
 
@@ -161,7 +161,7 @@ def main():
     print(f"- Scenarios: {len(triplets.get('scenarios', []))}")
     
     # Save triplets to JSON
-    output_dir = '/Users/sujitkhanna/Desktop/ongoing_projects/graph_structures/triplet_extraction/triplets'
+    output_dir = os.getenv("TRIPLETS_DIR", "./data/triplets")
     filepath = save_triplets_to_json(triplets, output_dir)
     
     print(f"\nTriplets saved to: {filepath}")

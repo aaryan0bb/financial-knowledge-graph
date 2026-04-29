@@ -94,8 +94,8 @@ enhancer_agent = Agent(
 # Runner logic – batches of 10
 # ---------------------------------------------------------------------------
 
-INPUT_JSON = Path("graph_structures/imp/merged_with_similarity_only_description_k100_sim_threshold_0.75_with_properties.json")
-OUTPUT_JSON = Path("graph_structures/imp/enhanced_relationships_new_1.json")
+INPUT_JSON = Path(os.getenv("MERGED_JSON_PATH", "./data/merged.json"))
+OUTPUT_JSON = Path(os.getenv("ENHANCED_RELATIONSHIPS_PATH", "./data/enhanced_relationships.json"))
 BATCH_SIZE = 20
 
 if not os.environ.get("OPENAI_API_KEY"):
