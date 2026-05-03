@@ -110,8 +110,8 @@ def _clean_properties(props: Dict[str, Any]) -> Dict[str, Any]:
     return cleaned
 
 # --- Configuration from environment ---
-MERGED_JSON_PATH = Path(os.getenv("MERGED_JSON_PATH", "./data/merged_1.json"))
-ENHANCED_JSON_PATH = Path(os.getenv("ENHANCED_JSON_PATH", "./data/enhanced_relationships_cleaned.json"))
+MERGED_JSON_PATH = Path(os.getenv("MERGED_JSON_PATH", "./data/merged.json"))
+ENHANCED_JSON_PATH = Path(os.getenv("CLEANED_RELATIONSHIPS_PATH", "./data/enhanced_relationships_cleaned.json"))
 
 BOLT_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USERNAME", "neo4j")
