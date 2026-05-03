@@ -94,7 +94,7 @@ enhancer_agent = Agent(
 # Runner logic – batches of 10
 # ---------------------------------------------------------------------------
 
-INPUT_JSON = Path(os.getenv("MERGED_JSON_PATH", "./data/merged.json"))
+INPUT_JSON = Path(os.getenv("SIMILARITY_EDGES_PATH", "./data/similarity_edges.json"))
 OUTPUT_JSON = Path(os.getenv("ENHANCED_RELATIONSHIPS_PATH", "./data/enhanced_relationships.json"))
 BATCH_SIZE = 20
 
