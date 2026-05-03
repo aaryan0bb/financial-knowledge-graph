@@ -1,0 +1,521 @@
+
+
+ J.P.Morgan | Data Assets & Alpha Group 
+
+   US MARKET INTELLIGENCE | MORNING BRIEFING 
+
+JULY 24, 2025 
+
+IDEAS & INSIGHTS - IN BRIEF 
+   .   US MKT INTEL - thoughts on the trading environment. Reiterate our Tactical Bullish call. 
+       WHITE HOUSE AI ACTION PLAN - Josh Meyers (Tech Sector Spec) gives his view on the 
+       directive 
+   ·   MEME STOCKS - Manish Sinha (Delta-One, Factor Spec) gives his view on the resurgence of 
+       these theme. 
+       NIKOS - Where are market liquidity conditions still impaired? 
+
+MORNING UPDATES 
+   ·   SPX +0.1%, NDX +0.3%, RTY -0.3%. WTI +130bps at $66.10, NatGas +58bps to $3.10, UK 
+       NatGas +56bps to £0.7900, Gold -67bps to $3,365, Silver -42bps to $39.10, 10Y @ 4.392%, and 
+      VIX @ 15.30. 
+       US: Futs are higher led by Tech with small caps lower after yesterday's outperformance. The Al 
+       Theme is driving Tech following GOOG earnings with capex boost helping AVGO/NVDA; TSLA - 
+       6% on choppy guidance. Cyclicals stronger pre-mkt led by Industrials. Bond yields are 1bp from 
+       2s to 30s with USD seeing its first bid in 5 sessions. Cmdtys are higher led by Ags/Energy with 
+      weakness in both Base/Precious. Today's macro data focus is on Flash PMIs, Jobless Claims, 
+      Home Sales, and regional Fed activity indicators. 
+       EU/UK: Major markets are all higher ex-Italy with Spain/UK leading. Regional yield curves are 
+       mostly bear flattening with PMIs reflecting stronger Srvcs but flat Mfg; Germany printed below 
+       expectations. RU/UKR talks led to talk of a ceasefire, a prisoner swap, and potential mtg of 
+       leadership at the end of Aug. The APAC session saw Japan leading with strength in both 
+       China/HK. Yield/Domestics are leading, Quality is lagging; Value flat to Growth, Cyclicals flat to 
+       Defensives. UKX +0.9%, SX5E +0.6%, SXXP +0.5%, DAX +0.8%. CSI +0.7%, HSI +0.5%, NKY 
+       +1.6%, ASX -0.3%, KOSPI +0.2%. 
+
+CATALYSTS TODAY (WEEK AHEAD) 
+page_end
+
+       US MACRO DATA: Chicago Fed Nat Activity Index and Initial/Continuing Jobless Claims at 
+       8:30am ET. PMI-Mfg, PMI-Srvcs, and PMI-Composite at 9:45am ET. New Home Sales at 
+       10am ET. Kansas City Fed Mfg Activity at 11am ET. Building Permits (revision). 
+    · US EARNINGS: AAL, AMP, BX, BYD, CHX, CNP, DAR, DECK, DLR, DOW, EW, FLEX, HON, 
+       INTC, KDP, LHX, LUV, NDAQ, NEM, POOL, SF, SLM, TRU, TSCO, TXT, UNP, VC, VLO, WAB, 
+       WST, WY 
+    . GLOBAL MACRO DATA: (Germany) GfK Consumer Confidence at 2am ET. (France) 
+       Manufacturing Confidence at 2:45am ET. (France) PMIs at 3:15am ET. (Germany) PMIs at 
+       3:30am ET. (Eurozone) PMIs at 4am ET. (UK) PMIs at 4:30am ET. (Eurozone) ECB at 
+       8:15am ET. (UK) GfK Consumer Confidence at 7:01pm ET. (Japan) Tokyo CPI at 7:30pm 
+       ET. 
+
+JPM MARKET INTEL EQUITY & MACRO NARRATIVE 
+Another day, another record high. With the US / Japan deal announced and the US / EU deal on deck it 
+feels like not even a soft earnings print from a major company can derail this bullish run. That said, 
+today we get a look at the next batch of meaningful macro data ahead of next Friday's NFP print. While 
+Bullishness is not yet consensus, client conversation reveal that even those that skewed bearish are 
+throwing in the towel. The combination of the Momentum Unwind and Meme Mania 2.0 are reducing 
+(eliminating?) people's ability to hold alpha shorts. Combine that with positive comments on M&A 
+pipeline and the impending buyback bid and the storm clouds appear to be lifting ahead of the 
+previously feared Aug 1 deadline. Now, if that US / EU hits the tape, we get a deal from China next 
+week, and the macro data holds up and look for this market to take a significant step higher. If we had 
+this conversation a month ago (or even last week) this would seem like a tail-risk, now it feels like this is 
+the base case. 
+
+    . INITIAL JOBLESS CLAIMS - Feroli sees claims increasing from 221k to 225k, which below the 
+       4-week moving average of 229.5k. The YTD high is 250k. 
+    . FLASH PMIs - Feroli sees PMI-Mfg printing 52.0 vs. 52.7 survey; 52.9 prior. He sees PMI- 
+       Srvcs printing 53.0 vs. 53.0 survey; 52.9 prior. Feroli notes that last month's MFG print was the 
+       highest since 2022 and sees a step down despite stronger Empire Mfg and Philly Fed readings. 
+       For Srvcs, sees the index moving sideways despite the potential for tariff escalation to weight on 
+       activity. 
+       US MKT INTEL - Tactically Bullish. A hypothesis is based on (i) resilient macro data, (ii) 
+       positive earnings growth and (iii) thawing trade rhetoric. 
+page_end
+
+       MONETIZATION MENU (repost from July 21 Morning Briefing) - We like longs in MegaCap 
+       Tech, Cyclicals, and high beta plays. At the country/region-level, we like Australia, China (Tech), 
+       and Japan but think the US will outperform RoW in the near-term. We would consider longs in 
+       VIX or VIX products as well as SPX puts/put spreads to hedge any near-term downside 
+
+WHITE HOUSE'S AI ACTION PLAN - Josh Meyers; a full copy of the action plan is here 
+       BOOST TO DOMESTIC SEMICONDUCTOR PRODUCTION: 1) Restoration of U.S. 
+       Semiconductor Manufacturing (streamlining regulations & reducing policy requirements to drive 
+       capital investment in fabs and R&D; sounds like they will reform, not eliminate, CHIPS); 2) 
+       Enhanced Export Controls & Supply Chain Security (including plugging gaps in current controls 
+       to protect IP, but also meeting global demand for Al by exporting our full Al technology stack - 
+       hardware, models, software, applications, and standards - to all countries willing to join our Al 
+       alliance). 
+   ·   ACCELERATION OF TECH HARDWARE DEMAND & INFRASTRUCTURE UPGRADES: 1) 
+       Investment in AI & DC Infrastructure (build high-security datacenters and a robust Al 
+       infrastructure backbone); 2) Expedited Environmental Permitting and Infrastructure Development 
+       (shorten timelines and lower costs) 
+       SEMI-CAP GROWTH: 1) Support for AI-Enabling Technologies (emphasizing domestic 
+       production, workforce training, and infrastructure investment - including data centers and 
+       upgraded electrical grids); 2) Increased Gov't & Trade Support. 
+       CHINA: Pages 20-21 seems to take a hardline on Chinese influence, and to focus on export 
+       control - including enhanced monitoring (which China may not like) and exploring "new measures 
+       to address gaps in semiconductor manufacturing export controls, coupled with enhanced 
+       enforcement" together with our allies ... globally. 
+
+MEME STOCKS - Manish Sinha 
+
+   ·   Retail buying is showing similarities to 2021 levels, prompting analysis of current patterns. Retail 
+       purchases in high short interest stocks may indicate current market behavior. 
+    . Historical instances of similar retail sentiment bounces occurred during COVID and when the 10- 
+       year yield hit 5% at the end of 2023. 
+       In both scenarios, retail buying on short interest stocks recovered to neutral or slightly positive 
+       levels. The current squeeze sentiment indicator is comparable to levels seen during the COVID 
+       bounce and GME squeezes in 2021. 2021 buying was driven by a new growth cycle due to 
+       vaccines and increased COVID-related money supply. 
+page_end
+
+   .   Dubravko notes that the current cycle isn't quite like 2021, but retail bounce levels similar to 
+      COVID and rate changes in 2024 are possible. 
+   . Trade deals before August 1st could sustain buying, potentially reaching past levels. August may 
+      provide clarity on macroeconomic conditions and trade deals if buying continues. 
+       RECOMMENDATION: Maintain a hedge on Momentum {JPMPURE Index} and negative Beta 
+      exposure {JPBPURE Index} until the end of the month. 
+
+SHORT INTEREST RETAIL FLOW 
+
+                      Short Interest Retail Flows 
+  8 
+
+ 6 
+
+ 4 
+
+ 2 
+
+ 0 
+
+ -2 
+
+ -4 
+ -6                    Vaccine         Inflation 
+
+ -8               Covid                        Rate 5% 
+4/13/2019 4/13/2020   4/13/2021 4/13/2022   4/13/2023 4/13/2024 4/13/2025 
+
+Source: JPM Delta-One 
+
+JPM MEME BASKET [JPXXMEME INDEX] vs. SPX vs. NDX 
+
+    | Date | Short Interest Retail Flows | Event/Annotation | Trend Line |
+    |---|---|---|---|
+    | 4/13/2019 | -2.5 | | |
+    | Jul 2019 | 1.5 | | |
+    | Oct 2019 | -0.5 | | |
+    | Feb 2020 | 3.0 | | |
+    | Mar 2020 | -7.5 | Covid dip | |
+    | Jun 2020 | -1.0 | | |
+    | Oct 2020 | 1.0 | | |
+    | Jan 2021 | 7.0 | Vaccine peak | |
+    | Apr 2021 | 3.0 | | 7.0 |
+    | Aug 2021 | -1.5 | | |
+    | Dec 2021 | 0.5 | | |
+    | Mar 2022 | 3.5 | Inflation peak | |
+    | Apr 2022 | 1.5 | | 4.5 |
+    | Aug 2022 | -3.0 | | |
+    | Dec 2022 | 0.5 | | |
+    | Mar 2023 | 3.5 | | |
+    | Apr 2023 | 1.5 | | 2.0 |
+    | Aug 2023 | -3.0 | | |
+    | Oct 2023 | -7.0 | Rate 5% dip | |
+    | Jan 2024 | 1.5 | | |
+    | Apr 2024 | -1.0 | | -0.5 |
+    | Aug 2024 | -3.5 | | |
+    | Dec 2024 | -2.0 | | |
+    | Feb 2025 | -1.5 | Current bounce | |
+    | Apr 2025 | -1.0 | | -1.5 |
+
+    Summary:
+    The chart, "Short Interest Retail Flows," displays a time series from April 2019 through April 2025, illustrating the cyclical nature of retail sentiment towards heavily shorted stocks. The Y-axis, ranging from -8 to 8, represents these flows, with positive values indicating retail buying and negative values indicating selling or covering. Key trends include significant cyclical swings and an overarching declining trend in the peaks of retail buying, as indicated by the red downtrend line starting from the 2021 peak. Notable inflection points show retail flows bottoming out and subsequently bouncing during periods like the "Covid" downturn (March 2020, to ~0), the "Rate 5%" event (October 2023, to ~+1.5), and a current bounce in early 2025. The highest retail buying peak occurred in early 2021 (Vaccine, ~7.0), followed by a lower peak in early 2022 (Inflation, ~3.5), suggesting diminishing strength in these bounces over time.
+
+    Explanation:
+    This chart directly supports the discussion on "MEME STOCKS," illustrating how "Retail buying is showing similarities to 2021 levels" and how "Historical instances of similar retail sentiment bounces occurred during COVID and when the 10-year yield hit 5%." The pattern of retail flows repeatedly recovering from negative sentiment to neutral or positive levels, particularly after significant market events, highlights their ongoing role as a "backstop to drawdowns in Equities," as described in the broader market context provided.
+
+page_end
+
+                              V         TaDIC T Actatcu Data Dala 
+  Normalized As               Track Annotate News O. Zoom 
+         Of 12/31/2024 
+      Last Price 
+   JPXXMEME Index 140.09                                                  140.09 
+   SPX Index 108.00 
+   NDX Index 110.13 
+                                                                          130 
+
+                                                                         120 
+
+                                                                         110 12 
+                                                                          108.00 
+                                                                         >100 
+
+                                                                          90 
+
+                                                                          80 
+                                                   Source: Bloomberg 
+
+     Jan       Feb       Mar        Apr       May        Jun        Jul 
+                                    2025 
+
+NIKOS: Where are market liquidity conditions still impaired? His full note is here 
+
+    · Market liquidity conditions have seen notable improvement for US Equities, 10y Bunds and 
+       corporate bond ETFs, remain somewhat impaired for Eurostoxx & Nikkei futures and 10y USTs 
+       & JGBs, and have deteriorated for bitcoin & Ethereum futures. 
+
+       Why is market vol so low? Despite elevated uncertainty and elevated volatility in economic 
+       forecasts and surprises, realized macro volatility (i.e. realized GDP and inflation vol) has been 
+       rather subdued since 2023. 
+    . In turn, low realized macro volatility helped to induce low market volatility in conjunction with 
+       other factors such as retail investors and corporate buybacks continuing to act as a backstop to 
+
+       drawdowns in Equities, as well as economic and financial leverage overall remaining relatively 
+       contained and thus far not served to amplify these shocks. 
+
+       Within alternative asset classes, digital assets and hedge funds have been seeing an 
+       acceleration of inflows this year, in sharp contrast to the weak fundraising seen in private equity 
+       and private credit. 
+
+       Hedge funds have produced positive alpha so far in 2025, for a fifth year in a row 
+
+US LIQUIDITY PROXY vs. SPX 
+
+    | Date (2025) | JPXXMEME Index | SPX Index | NDX Index |
+    |---------------|----------------|-----------|-----------|
+    | Jan 1         | 100.00         | 100.00    | 100.00    |
+    | Jan 15        | 105.00         | 103.00    | 103.00    |
+    | Feb 1         | 117.00         | 108.00    | 108.00    |
+    | Feb 15        | 105.00         | 105.00    | 105.00    |
+    | Feb 28        | 89.00          | 99.00     | 99.00     |
+    | Mar 15        | 78.00          | 93.00     | 93.00     |
+    | Mar 31        | 68.00          | 89.00     | 89.00     |
+    | Apr 15        | 88.00          | 95.00     | 95.00     |
+    | Apr 30        | 100.00         | 100.00    | 100.00    |
+    | May 15        | 115.00         | 103.00    | 104.00    |
+    | May 31        | 125.00         | 105.00    | 106.00    |
+    | Jun 15        | 135.00         | 107.00    | 108.00    |
+    | Jun 30        | 138.00         | 107.50    | 109.50    |
+    | Jul 15        | 140.00         | 108.00    | 110.00    |
+    | Last Price    | 140.09         | 108.00    | 110.13    |
+
+    Summary: This time series chart illustrates the normalized performance of the JPXXMEME Index, SPX Index, and NDX Index from January to July 2025, with all indices normalized to 100 as of December 31, 2024. All three indices initially rose in early 2025, peaking in early February, before experiencing a notable decline through late March. The JPXXMEME Index showed significantly higher volatility, plunging to a low near 65, while SPX and NDX saw milder drops to around 89. From April onwards, all indices recovered, but the JPXXMEME Index demonstrated remarkable outperformance, soaring to 140.09 by July, while SPX and NDX achieved more modest gains, ending at 108.00 and 110.13, respectively.
+
+    Explanation: The JPXXMEME Index likely represents a basket of "meme stocks" or retail-driven equities, as implied by the reference to "JPM MEME BASKET" and the discussion of "retail investors" in the surrounding text. Its extreme volatility and sharp recovery, distinct from the broader SPX and NDX indices, suggest a strong influence of retail flows and sentiment on this specific market segment. This dynamic aligns with the broader context of retail investors acting as a backstop to equity drawdowns, showcasing their significant impact on particular asset classes in 2025.
+
+page_end
+
+                            Track Annotate # News O, Zoom            -6500 
+                                                                     6352.30 
+  6.8M- 
+                                                                     -6000 
+  6.6M- 
+                                                                     -5500 
+ 6.409M 
+                                                                     -5000 
+  6.2M 
+
+  6M                                                                 -4500 
+
+  5.8M                                                               4000 
+
+  5.6M                                            US Liquidity Proxy Index (L1) 6.409M 
+                          Source: Bloomberg; JPM Mkt Intel SPX Index - Last Price (R1) 6352.30 -3500 
+
+            2022              2023             2024           2025 
+
+NEWS LINKS 
+
+   .   EU Sees Progress Toward US Trade Deal With 15% Tariffs (BBG) 
+   ·   Stocks Climb on US-EU Trade Reports as Bonds Slide (BBG) 
+
+   .   Bessent, Lutnick Hail Japan Finance Pledge in Tariff Deal (BBG) 
+   ·   Bond Traders Step Up 2026 Fed Cut Bets After Trump Bashes Powell (BBG) 
+
+      Japan Trade Deal Offers US Automakers Relief, Not New Markets (BBG) 
+      June home sales drop as prices hit record high (CNBC) 
+
+   ·   Mortgage demand flatlines at low levels, as mortgage rates hit 4-week high (CNBC) 
+   .   Institutional landlords see new competition from an unexpected source (CNBC) 
+
+   .   BOJ sees trade deal as raising chance of meeting inflation goal (RTRS) 
+
+   .   UK borrows more as inflation adds to debt bill, and Reeves' headache (RTRS) 
+
+   ·   US existing home sales hit nine-month low in June (RTRS) 
+   .   Home Prices Hit Record High in June, Dragging Down Sales (WSJ) 
+
+       EU Seeks 15% Baseline Tariffs In U.S. Trade Deal (WSJ) 
+
+      Trump Administration Pledges to Stimulate Al Use and Exports (WSJ) 
+
+WEEKLY ECONOMIC DATA / EARNINGS 
+US CALENDAR 
+ECONOMICS 
+
+      JUL 21 - Leading Index at 10am ET. 
+
+    | Approx. Date | US Liquidity Proxy (M) | SPX Index |
+    |---------------|------------------------|-----------|
+    | Early 2022    | 6.8                    | 6100      |
+    | Mid 2022      | 5.7                    | 3800      |
+    | End 2022      | 5.8                    | 4000      |
+    | Mid 2023      | 6.4                    | 4500      |
+    | End 2023      | 5.8                    | 4700      |
+    | Mid 2024      | 6.0                    | 5700      |
+    | End 2024      | 6.4                    | 6000      |
+    | Early 2025    | 5.8                    | 6100      |
+    | Mid 2025      | 6.409                  | 6352.30   |
+
+    Summary: This dual-axis line chart displays the trend of the US Liquidity Proxy Index (blue line, left Y-axis in millions) and the SPX Index (black line, right Y-axis) from early 2022 to mid-2025. Initially, in 2022, both indices exhibited a correlated decline, followed by a period of volatility for liquidity while SPX began a steady ascent. A notable divergence emerged from late 2023 through mid-2025, particularly highlighted by the red dashed oval: the SPX Index experienced a strong, sustained surge to a peak of 6352.30 by mid-2025, even as the US Liquidity Proxy saw a sharp dip in early 2025 before recovering to 6.409M.
+
+    Explanation: The chart illustrates that while US liquidity conditions have experienced significant fluctuations, including a sharp recovery in mid-2025 after a dip, the SPX Index has maintained a strong upward trajectory, reaching new highs. This persistent strength in equities, despite periods of liquidity impairment, aligns with the broader context of improved market liquidity conditions for US Equities, low realized macro volatility, and factors like retail investor and corporate buyback support acting as a backstop against drawdowns, as mentioned in the accompanying text. The recent divergence suggests that these underlying supportive factors might be driving equity performance independently of short-term liquidity dips.
+
+page_end
+
+     JUL 22 - Philly Fed Non-Mfg Activity at 8:30am ET. Richmond Fed Mfg Index and Business 
+
+      Conditions at 10am ET. 
+                                                              10am ET. 
+      JUL 23 - Mortgage Applications at 7am ET. Existing Home Sales at 
+                                                                       at 8:30am ET. 
+      JUL 24 - Chicago Fed Nat Activity Index and Initial/Continuing Jobless Claims 
+                                                                Sales at 10am ET. 
+     PMI-Mfg, PMI-Srvcs, and PMI-Composite at 9:45am ET. New Home 
+
+     Kansas City Fed Mfg Activity at 11am ET. Building Permits (revision). 
+
+      JUL 25 - Durable/Cap Goods Orders at 8:30am ET. Kansas City Fed Services Activity and 
+
+      Bloomberg July United States Economic Survey at 11am ET. 
+
+EARNINGS (JPM US Earnings Calendar here; US Analyst Focus List here) 
+
+   · JUL 21 - AGNC, ARE, CLF, DPZ, MEDP, ROP, VZ 
+
+      JUL 22 - BKR, COF, CRCL, CSGP, DGX, DHI, DHR, EFX, ENPH, EQT, GM, HAL, IPG, IQV, 
+
+      ISRG, IVZ, KEY, KO, LMT, MSCI, NOC, PCAR, PEGA, PHM, PM, RTX, SHW, SYF, THC, TXN, 
+      VBTX 
+
+   · JUL 23 - APH, BSX, CCI, CME, CMG, COOP, CSX, FAF, FCX, FI, GD, GEV, GOOGL, HAS, 
+
+      HLT, IBM, KNX, LII, LVS, LW, MCO, MOH, NEE, NLY, NOW, NTRS, ORLY, OTIS, QS, SEI, T, 
+
+      TDY, TMO, TMUS, TSLA, URI, VKTX 
+
+      JUL 24 - AAL, AMP, BX, BYD, CHX, CNP, DAR, DECK, DLR, DOW, EW, FLEX, HON, INTC, 
+
+      KDP, LHX, LUV, NDAQ, NEM, POOL, SF, SLM, TRU, TSCO, TXT, UNP, VC, VLO, WAB, WST, 
+      WY 
+
+      JUL 25 - BAH, CHTR, CNC, FIX, FLG, HCA, PSX, ROG, SAIA, SKX, XRX 
+                         SPX 2025 Q2 EARNINGS CALENDAR 
+                                       % SECTOR RPTG 
+  Start End SPX TECH   HC   FIN DISCR INDU TELS STAPLS ENERGY UTIL MATR RE 
+  14-Jul 18-Jul 10% 0% 11% 42% 0%    12% 11%   6%    6%   0% 0%    8% 
+  21-Jul 25-Jul 16% 6% 14% 11% 25%   29% 32%   18% 11%   13% 26%   15% 
+  28-Jul 1-Aug 38% 50% 25% 25% 47%   28% 34%   25%       43% 48%   52% 
+                                                    29% 36%   17% 16% 
+  4-Aug 8-Aug 11% 6%   27% 4%   9%   20% 7%    3% 
+                                                          0% 0%    0% 
+  11-Aug 15-Aug 1% 3% 1%    0%   0% 3%    0%   0%    0% 
+                                                     0%   0% 0%    0% 
+  18-Aug 22-Aug 3% 4% 1%    0% 12%   0%   0%   14% 
+                                                     0%   0% 0%    0% 
+  25-Aug 29-Aug 9% 30% 0%   0%   1% 0%    0%   1% 
+                                                          0% 0%    0% 
+  1-Sep 5-Sep 3%   9% 0%    0%   0% 1%    0%   1%    0% 
+
+ Source: Bloomberg, JPM US Market Intelligent data as of 7/17/2025 
+
+ GLOBAL CALENDAR 
+
+       JUL 21 - (Canada) IP at 8:30am ET. 
+page_end
+
+      JUL 22 - (UK) Public Finances at 2am ET. 
+   . JUL 23 - (Eurozone) Consumer Confidence at 10am ET. (Japan) PMIs at 8:30pm ET. 
+      JUL 24 - (Germany) GfK Consumer Confidence at 2am ET. (France) Manufacturing 
+      Confidence at 2:45am ET. (France) PMIs at 3:15am ET. (Germany) PMIs at 3:30am ET. 
+      (Eurozone) PMIs at 4am ET. (UK) PMIs at 4:30am ET. (Eurozone) ECB at 8:15am ET. 
+      (UK) GfK Consumer Confidence at 7:01pm ET. (Japan) Tokyo CPI at 7:30pm ET. 
+      JUL 25 - (UK) Retail Sales at 2am ET. (France) Consumer Confidence at 2:45am ET. 
+      (Germany) IFO Business Climate at 4am ET. 
+
+NEAR TERM CATALYSTS - CPI (Aug 12, Sep 11), ISM-Mfg (Aug 1, Sep 2), ISM-Srvcs (Aug 5, Sep 
+4), PMI-Mfg (Jul 24, Aug 21), PMI-Srvcs (Jul 24, Aug 21), NFP (Aug 1, Sep 5), PCE (Aug 29, Sep 26), 
+Retail Sales (Aug 15, Sep 16). FED DATES: Jul 30, Sep 17; Jackson Hole Aug 21-23. 
+
+POLITICAL CATALYSTS 
+      JUL 24-25 - EU-China Summit (POLITICO) 
+      JUL 27-30 - US-China Trade Talk 
+      JUL 31 - Oral argument of IEEPA tariff case appeal. 
+      AUG 1 - New tariff deadline announced by Trump for the countries to negotiate new trade 
+      agreements. 
+   · AUG 12 - The 90-day China tariff pause ends. 
+   · OCT 18 - JCPOA (Iran nuclear deal) is set to expire. 
+
+J.P.Morgan | Data Assets & Alpha Group 
+
+J.P. Morgan Global Market Intelligence Contacts 
+
+Andrew Tyler Federico Manicardi Ellen Wang     Victoria Campos 
+
+    | Name | Role/Area |
+    |------|-----------|
+    | Andrew Tyler | Market Intelligence |
+    | Federico Manicardi | Market Intelligence |
+    | Ellen Wang | Market Intelligence |
+    | Victoria Campos | Market Intelligence |
+
+    Summary: The figure displays four black and white headshot photographs of individuals. There are no traditional axes, categories, or time ranges as it is not a chart or graph. The images depict the key contacts associated with J.P. Morgan's Global Market Intelligence team. As these are static portraits, there are no trends, shifts, inflection points, or numerical values to analyze within the visual itself.
+
+    Explanation: These individuals are listed as J.P. Morgan Global Market Intelligence contacts, playing a role within the broader Data Assets & Alpha Group. As indicated by the surrounding text, they provide high-frequency data-driven market insights and trade ideas, leveraging macro, fundamental, and political inputs, available through various J.P. Morgan platforms and publications.
+
+page_end
+
+Data Assets & Alpha - delivering high frequency J. P. Morgan trading data and associated insights from the Market, Data and 
+Positioning Intelligence teams. Available through written product on JP Morgan Markets, conference calls & podcasts via 
+platforms including Apple, Google and Spotify, and data feeds via the Data Query application & Fusion platform. 
+
+To sign up to this content or other written pieces from the Data Assets & Alpha Group, you may follow the steps 
+below: 1) visit jpmm.com, select My Research => My Research Subscriptions (or use this link to MRS: 
+https://markets.jpmorgan.com/#research.my_subscriptions.) 2) Navigate to "Sales & Trading" and subscribe to 
+either Publication "DI, MI, PI" or to Authors. 
+
+Eloise Goulder | Head of Data Assets & Alpha Group | +44-203-493-0748 | eloise.goulder@jpmorgan.com 
+
+   DA&A Website         JPM Markets      Conference Calls       Podcasts        Fusion & DataQuery 
+
+     WWW. 
+                                                                               Fusion 
+                                                                                  by J.P.Morgan 
+
+Market Intelligence 
+High frequency data-driven market insights and trade ideas leveraging macro, fundamental and political inputs 
+
+Andrew Tyler | 1-212-622-8067 | andrew.m.tyler@jpmorgan.com 
+Federico Manicardi | +44-207-7427008 | federico.manicardi@jpmorgan.com 
+Ellen Wang | +1-212-270-0533 | ellen.z.wang@jpmorgan.com 
+Victoria Campos | +44-203-493-4898 | victoria.mf.campos@jpmorgan.com 
+
+Data Intelligence 
+Proprietary data and signals from our industry-leading Markets business, including equity signals, retail sentiment and volatility 
+marks 
+
+Luca Rainero | +44-207-1348534 | luca.rainero@jpmorgan.com 
+Edwina Lowe | +44-207-7423138 | edwina.lowe@jpmorgan.com 
+Gunel Mammadov | gunel.mammadova@jpmorgan.com 
+
+Positioning Intelligence 
+Proprietary positioning and flows-based data and analysis, based on the J. P. Morgan Prime book, Retail investor and ETF flows, 
+among other sources. Data sets including positioning, flows, crowding, leverage, performance and alpha, and grouped by sector, 
+industry, factor and strategy 
+
+John Schlegel | +1-212-622-6512 | john.j.schlegel@jpmchase.com 
+Jigar Vakharia | +44-203-493-0275 | jigar.r.vakharia@jpmorgan.com 
+Kimia Ahmadi | +44-203-493-5080 | kimia.ahmadi@jpmorgan.com 
+Sunny Potharaju | +1-212-622-3688 | sunny.potharaju@jpmorgan.com 
+
+    | Channel Type | Description |
+    |---|---|
+    | DA&A Website | Web-based platform for accessing content |
+    | JPM Markets | Online platform likely for market data and analysis |
+    | Conference Calls | Live audio/video discussions and presentations |
+    | Podcasts | On-demand audio content, likely featuring insights and analysis |
+    | Fusion & DataQuery | Data platforms for accessing and querying financial data |
+
+    Summary: The figure presents five distinct channels or platforms through which J.P. Morgan's Data Assets & Alpha group delivers its financial intelligence and data. These channels are represented by descriptive icons: a computer for "DA&A Website," a line chart for "JPM Markets," a mobile phone for "Conference Calls," a microphone for "Podcasts," and a stylized logo for "Fusion & DataQuery." The visual is categorical, illustrating different modalities for content and data dissemination rather than displaying quantitative trends or time-series data.
+
+    Explanation: This visual reinforces the information provided in the surrounding text, which details how J.P. Morgan's Data Assets & Alpha group delivers high-frequency trading data and insights. The chart illustrates the specific avenues mentioned: written products on JPM Markets, audio content via conference calls and podcasts, and data feeds through Fusion and Data Query applications, highlighting the multi-platform access available to institutional clients.
+
+page_end
+
+                                   jpmorgan.com | Privacy Policy | Online Activity Safeguards | Cookies Policy 
+J.P. Morgan Market Intelligence is a product of the Prime Finance business of J.P. Morgan Securities LLC and the intellectual property thereof. It is not a product of the 
+Research Department and is intended for distribution to institutional and professional customers only and is not intended for retail customer use. It may not be reproduced, 
+redistributed, or transmitted, in whole or in part, without J.P. Morgan's consent. Any unauthorized use is strictly prohibited. 
+
+This material may include summaries and references to recently published research notes and reports by J.P. Morgan's Research Departments. For complete details on 
+the specific companies mentioned, including analyst certification, valuations, and important investment banking related disclosures, you should refer to the most recently 
+published note or report, which is available through www.jpmm.com. You may also find a link to the complete disclosure information on all companies covered by J.P. 
+Morgan's Equity Research Department on the log-in page of our institutional client website, https://jpmm.com/research/disclosures. This material also may include market 
+commentary prepared by the individual author on specific companies or instruments that J.P. Morgan's Research Departments may or may not cover. Unless otherwise 
+specifically stated, any views or opinions expressed herein are solely those of the individual author and may differ from the views and opinions expressed by J.P. Morgan's 
+Research Departments or other divisions of J.P. Morgan and its affiliates. 
+
+Structured securities, options, futures, and other derivatives are complex instruments, may involve a high degree of risk, and may be appropriate investments only for 
+sophisticated investors who are capable of understanding and assuming the risks involved. Because of the importance of tax considerations to many option transactions, 
+the investor considering options should consult with his/her tax advisor as to how taxes affect the outcome of contemplated option transactions. For further information on 
+the risks involved with various option strategies, please consult the Options Clearing Corporations Characteristics and Risks of Standardized Options. The document can 
+be viewed at: http://www.optionsclearing.com/publications/riskstoc.pdf. 
+
+This material is provided for information only and is not intended as a recommendation or an offer or solicitation for the purchase or sale of any security or financial 
+instrument. This material is not a complete analysis of all material facts respecting any issuer, industry, or security or of your investment objectives, parameters, needs or 
+financial situation, and therefore is not a sufficient basis alone on which to base an investment decision. J.P. Morgan and its affiliates may have positions (long or short), 
+effect transactions or make markets in securities or financial instruments mentioned herein (or options with respect thereto), or provide advice or loans to, or participate in 
+the underwriting or restructuring of the obligations of, issuers mentioned herein. Moreover, a J.P. Morgan trading desk may have acted on the basis of this material. The 
+information contained herein is as of the date and time referenced above and J.P. Morgan does not undertake any obligation to update such information. All market prices, 
+data and other information are not warranted as to completeness or accuracy and are subject to change without notice. Past performance is not indicative of future results. 
+The investments discussed may fluctuate in price or value. Changes in rates of exchange may have an adverse effect on the value of investments. Transactions involving 
+financial instruments mentioned herein may not be suitable for all investors. J.P. Morgan has no obligation to update the Trade Idea(s). The validity period for the Trade 
+Idea(s) is short term, it will last only as long as the market conditions at the time of dissemination. Any dates and times stated in the Trade Idea(s) may not be precise or 
+exact and should be used for guidance only. Unless stated otherwise in the Trade Idea(s), the date and time of dissemination are the date and time the relevant Trade 
+Idea(s) are communicated. J.P. Morgan may today, or in the future, do business or enter into transactions on a principal basis for any issuer(s) or financial instrument(s) to 
+which the Trade Idea(s) directly or indirectly relate, including in response to the applicable Trade Idea(s). J.P. Morgan employees or agents may personally hold 
+investments or enter transactions for any issuer(s) or financial instrument(s) to which the Trade Idea(s) directly or indirectly relate, including in response to the applicable 
+Trade Idea(s). 
+
+Supporting documentation or any claims, comparisons, recommendations, statistics, or other technical data will be supplied upon request. J.P. Morgan is the marketing 
+name for the Corporate & Investment Bank of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide. J.P. Morgan Securities LLC, member of SIPC, FINRA 
+and NYSE. Clients should contact their salespersons at, and execute transactions through, a J.P. Morgan entity qualified in their home jurisdiction unless governing law 
+permits otherwise. 
+
+IRS Circular 230 Disclosure: JPMorgan Chase & Co. and its affiliates do not provide tax advice. Accordingly, any discussion of U.S. tax matters contained herein (including 
+any attachments) is not intended or written to be used, and cannot be used, in connection with the promotion, marketing or recommendation by anyone unaffiliated with 
+JPMorgan Chase & Co. of any of the matters addressed herein or for the purpose of avoiding U.S. tax related penalties. 
+
+Copyright   2025 JPMorgan Chase & Co. All rights reserved. 
+page_end

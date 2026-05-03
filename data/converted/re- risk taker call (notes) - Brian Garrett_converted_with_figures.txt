@@ -1,0 +1,355 @@
+
+
+re: risk taker call (notes) 
+FICC and Equities | 23 July 2025 | 7:20PM UTC 
+yesterday we hosted our bi-weekly vol risk taker call ... join us next time for 
+positioning, trades ideas, flows ... email us to be added to invite going forward 
+
+beloware notes and ideas - reach out to trade 
+
+     Eason - US index vol trading 
+
+1/ vix term structure is extremelyßteep - the august vix future is trading 18.15 
+last vs spot 15.4 (2.75pts) - chart i ... for those unwilling to sell the future 
+outright (because you value your sleep / summer vacation), the desk likes put 
+spreads or ratioslas a trade for roll down (2-3 : 1 payouts) ... max loss long put is 
+premium paid max loss short put is significant 
+
+2/ spx index gamma has been perpetually "low" but it has not been perpetually 
+"cheap" - the rise of derivative income products continues to supply market 
+makers with short dated optionality. Said another way, if you want to express 
+view at index level, it does not cost much things are starting to realize, and 
+intraday / daily straddles offerdecent value 
+
+3/ option put vol skew is elevated (10dp / 40dp vol ratio) chart ii ... longer 
+dated spreads look attractive       100% / 80% put spread costs 2.8%) - 
+30delta at inception / minimal theta / lilong (cheap) vega ... barrier put options 
+are offering 80-85% discount vs the vanilla (reach out for iterations) ... max loss 
+premium paid 
+
+4/ desk highlight, despite the low absolute level of implied vol - investors have 
+been hesitant to spend any real premium in eitherdirection ... my anecdote, if 
+looking for a "non consensus trade" equity downside certainly falls in that 
+bucket 
+
+chart i :: VIX roll down (VIX - UX1 avg) 
+page_end
+
+  123Jul2015-                                  -3Sep2025- 0.6 
+
+                                                        0.5 
+                                                        0.4 
+                                                        0.3 
+                                                        0.2 
+                                                        0.1 
+                                                        0 
+                                                       -- 0.1 
+                                                       2-0.2 
+                                            VIX vs UX1 rolldown 
+                                             (normalized) 
+                                                        0.3 
+   2016 2017 2018 2019 2020 2021 2022   2023 2024 2025 
+ - . vixroll index px_last 
+
+source :: gs global bankingand markets / as of 23july25 // past performance not 
+indicative future return 
+
+chart ii :: spx 6 month 10dp / 40dp vol skew ratio 
+
+  H21Jul2010-                                  -29Sep2025- 
+
+                                             spx 6m 40dp / 10dp vol skew (ratio) 
+                                                       -1.34 
+                                                       -1.32 
+                                                       -1.3 
+                                                       ·1.28 
+                                                       1.26 
+                                                       1.24 
+                                                       -1.22 
+                                                       -1.2 
+                                                        1.18 
+      2012   2014   2016   2018   2020   2022   2024 
+ - SPX 6m put vol skew ratio (10dp/40dp) --- last 
+ ? 
+source :: gs global banking and markets / as of 23july25 // past performance not 
+indicative future return 
+
+Nick Anaya - US single stock vol trading 
+
+1/ the average implied move for earnings all stocks is extremely low (470bps) ... 
+the setup feels complacent into the print and could provide relief rallies ... we 
+think QQQ gamma screens@heap in the short run relative to SPX - chart iii 
+
+2/ favorite trade idea into earnings is AMZN upside ... tariff impacts, cloud 
+business fears, secondary supply fears have lead to decent underperformance in 
+the               NVDA, META, etc by 20%) ytd ... AMZN call@kew is flat into 
+
+    | Date       | Normalized VIX Rolldown |
+    |------------|-------------------------|
+    | Jul 2015   | 0.50                    |
+    | Oct 2015   | 0.10                    |
+    | Jan 2016   | -0.10                   |
+    | Jul 2016   | 0.05                    |
+    | Jan 2017   | -0.05                   |
+    | Jul 2017   | -0.10                   |
+    | Jan 2018   | 0.30                    |
+    | Jul 2018   | 0.00                    |
+    | Jan 2019   | -0.15                   |
+    | Jul 2019   | 0.00                    |
+    | Jan 2020   | 0.40                    |
+    | Apr 2020   | 0.00                    |
+    | Jul 2020   | 0.05                    |
+    | Jan 2021   | 0.00                    |
+    | Jul 2021   | -0.10                   |
+    | Jan 2022   | 0.10                    |
+    | Jul 2022   | -0.10                   |
+    | Jan 2023   | -0.15                   |
+    | Jul 2023   | 0.00                    |
+    | Jan 2024   | -0.05                   |
+    | Jul 2024   | 0.05                    |
+    | Jan 2025   | 0.55                    |
+    | Jul 2025   | -0.16                   |
+
+    Summary: The chart, "VIX vs UX1 rolldown (normalized)," tracks the difference between the VIX spot index and the front-month VIX future (UX1) from July 2015 to early September 2025. The y-axis, ranging from -0.3 to 0.6, indicates backwardation (positive values, spot > future) or contango (negative values, spot < future). The series exhibits significant volatility, with sharp positive spikes (backwardation) observed in late 2015, early 2018, early 2020 (likely reflecting market stress), and a pronounced peak in early 2025. The most recent data point, circled around July 2025, shows a notable negative rolldown of approximately -0.16, indicating a period of steep contango.
+
+    Explanation: This visualization directly illustrates the concept of the VIX term structure, a key topic discussed in the surrounding text. The current negative rolldown value, circled at approximately -0.16, corroborates the accompanying text's observation that the VIX term structure is "extremely steep," meaning the August VIX future is trading significantly higher than the spot VIX. This condition of contango makes strategies designed to profit from "roll down," such as buying put spreads, particularly attractive as the future price is expected to converge towards the lower spot price over time.
+
+    | Date      | SPX 6m 10dp/40dp Put Vol Skew Ratio |
+    |-----------|-------------------------------------|
+    | Jul 2010  | 1.24                                |
+    | Jan 2011  | 1.28                                |
+    | Jul 2011  | 1.28                                |
+    | Jan 2012  | 1.24                                |
+    | Jul 2012  | 1.25                                |
+    | Jan 2013  | 1.23                                |
+    | Jul 2013  | 1.20                                |
+    | Jan 2014  | 1.28                                |
+    | Jul 2014  | 1.28                                |
+    | Jan 2015  | 1.30                                |
+    | Jul 2015  | 1.28                                |
+    | Jan 2016  | 1.24                                |
+    | Jul 2016  | 1.28                                |
+    | Jan 2017  | 1.28                                |
+    | Jul 2017  | 1.32                                |
+    | Jan 2018  | 1.34                                |
+    | Jul 2018  | 1.28                                |
+    | Jan 2019  | 1.25                                |
+    | Jul 2019  | 1.28                                |
+    | Jan 2020  | 1.30                                |
+    | Jul 2020  | 1.28                                |
+    | Jan 2021  | 1.35                                |
+    | Jul 2021  | 1.36                                |
+    | Jan 2022  | 1.25                                |
+    | Jul 2022  | 1.18                                |
+    | Jan 2023  | 1.28                                |
+    | Jul 2023  | 1.32                                |
+    | Jan 2024  | 1.33                                |
+    | Jul 2024  | 1.30                                |
+    | Jan 2025  | 1.32                                |
+    | Jul 2025  | 1.34                                |
+
+    Summary: This line chart displays the SPX 6-month 10-delta/40-delta put vol skew ratio from July 2010 to September 2025. The Y-axis ranges from approximately 1.18 to 1.36. The ratio generally trended upwards from 2010, reaching significant peaks around mid-2018 (~1.35) and mid-2021 (~1.36), indicating periods of heightened demand for deep out-of-the-money puts. Following the 2021 peak, the ratio sharply declined to a trough of around 1.18 in mid-2022, but has since risen steadily, currently standing at an elevated level of approximately 1.34 as of July 2025, near its historical highs.
+
+    Explanation: The elevated SPX 6-month 10-delta/40-delta put vol skew ratio, as indicated by the current level of 1.34, signifies that deep out-of-the-money (OTM) puts (10-delta) are priced significantly higher relative to less out-of-the-money puts (40-delta). This suggests that market participants are paying a substantial premium for downside protection, reflecting heightened concerns about a potential sharp decline in the S&P 500. The accompanying text suggests that when this skew is elevated, "longer dated spreads look attractive," implying potential trading opportunities in option strategies that capitalize on this market dynamic.
+
+page_end
+
+earnings, the Aug 235/255 call spread costs 4.50 (ref 228.45, 31 delta) ... max 
+loss premium paid 
+
+3/ favorite trade into end of the month is NVDA                  (or pick your 
+side) ... NVDA 2 week implied vol is at 5 year lows        iv ... while 1Aug expiry 
+does not capture NVDA earnings outright, it does capture Mag              prints, 
+and NVDA carries a high correlation on the back of AI spend 
+out of Mag 7 management ... INVDA 1Aug straddle is 4.3% ... max loss premium 
+paid 
+ ? 
+chart iii :: NDX - SPX vol spread (3m absolute) 
+
+  123Jul2021-                                    -6Aug2025- 8 
+
+                                                         -7.5 
+                                                         -7 
+                                                         -6.5 
+                                                         6 
+                                                         -5.5 
+                                                         -5 
+                                                         -4.5 
+                                                         -4 
+
+                                            NVDA - SPX vol spread 
+                                                         -3 
+                                                         -2.5 
+  2021 2022           2023         2024          2025 
+       Jan    Jul    Jan   Jul    Jan    Jul    Jan    Jul 
+ - NDX - SPX 3m ATM vol spread (absolute) --- last 
+ ? 
+
+source :: global banking and markets / as of 23july25 // past performance not 
+indicative future return 
+
+chart iv :: NVDA 2 week ATM implied vol 
+ 123Jul2020-                                     -3Sep2025- 95 
+                                                         -90 
+                                                         -85 
+                                                         -80 
+                                                         -75 
+                                                         -70 
+                                                         -65 
+                                                         -60 
+                                                         -55 
+                                                         -50 
+                                                         -45 
+                                                         -40 
+                                                         -35 
+                                          NVDA 2w ATM implied -30 
+                                                         -25 
+  2020 2021      2022       2023       2024       2025 
+     Jan   Jul Jan    Jul Jan   Jul   Jan Jul   Jan   Jul 
+ - NVDA 2w ATM implied --- last 
+
+    | Date     | NDX - SPX Vol Spread (absolute) |
+    |----------|---------------------------------|
+    | Jul 2021 | 4.2                             |
+    | Aug 2021 | 3.0                             |
+    | Oct 2021 | 5.0                             |
+    | Dec 2021 | 4.0                             |
+    | Jan 2022 | 6.0                             |
+    | Feb 2022 | 7.8                             |
+    | Apr 2022 | 5.5                             |
+    | Jun 2022 | 4.0                             |
+    | Aug 2022 | 6.0                             |
+    | Oct 2022 | 4.0                             |
+    | Dec 2022 | 5.5                             |
+    | Jan 2023 | 5.0                             |
+    | Mar 2023 | 3.0                             |
+    | May 2023 | 5.0                             |
+    | Jul 2023 | 4.0                             |
+    | Sep 2023 | 6.5                             |
+    | Dec 2023 | 4.0                             |
+    | Jan 2024 | 4.5                             |
+    | Mar 2024 | 3.8                             |
+    | May 2024 | 5.0                             |
+    | Jul 2024 | 4.0                             |
+    | Sep 2024 | 5.5                             |
+    | Dec 2024 | 4.0                             |
+    | Jan 2025 | 4.0                             |
+    | Mar 2025 | 3.8                             |
+    | Jul 2025 | 3.5                             |
+
+    Summary: The chart displays the absolute 3-month ATM (At-The-Money) implied volatility spread between the Nasdaq 100 (NDX) and the S&P 500 (SPX) from July 2021 to August 2025. The Y-axis ranges from 2.5 to 8.0. The spread has shown significant volatility, peaking near 7.8 in February 2022 and again around 6.5 in September 2023. It has generally fluctuated, oscillating between troughs near 3.0-4.0 and various peaks. The most recent data point, circled and labeled "NVDA - SPX vol spread," is around 3.5 in July 2025, near the lower end of its observed range for the period.
+
+    Explanation: This chart indicates the relative implied volatility of the tech-heavy Nasdaq 100 compared to the broader S&P 500. A low spread, as seen in the current 3.5 value, suggests that the market expects less relative volatility from major tech stocks (like NVIDIA, a key component linked by annotation) compared to the overall market, which aligns with the surrounding text mentioning "complacency" and "extremely low" implied moves for earnings. This compression in the NDX-SPX vol spread could be interpreted as a market view that tech earnings and future performance are less uncertain or less prone to outsized volatility relative to the broader market.
+
+    | Date | NVDA 2w ATM Implied Vol (%) |
+    |------|-----------------------------|
+    | 2020-07 | 60 |
+    | 2020-08 | 50 |
+    | 2020-09 | 60 |
+    | 2020-11 | 30 |
+    | 2021-01 | 40 |
+    | 2021-02 | 65 |
+    | 2021-04 | 40 |
+    | 2021-07 | 65 |
+    | 2021-09 | 45 |
+    | 2021-11 | 70 |
+    | 2022-01 | 90 |
+    | 2022-03 | 60 |
+    | 2022-05 | 80 |
+    | 2022-07 | 50 |
+    | 2022-09 | 70 |
+    | 2022-12 | 35 |
+    | 2023-01 | 40 |
+    | 2023-04 | 80 |
+    | 2023-07 | 40 |
+    | 2023-09 | 75 |
+    | 2023-11 | 40 |
+    | 2024-01 | 30 |
+    | 2024-03 | 85 |
+    | 2024-05 | 45 |
+    | 2024-07 | 80 |
+    | 2024-09 | 50 |
+    | 2024-11 | 70 |
+    | 2025-01 | 60 |
+    | 2025-03 | 85 |
+    | 2025-07 | 35 |
+
+    Summary: This chart displays the NVDA 2-week At-The-Money (ATM) implied volatility from July 2020 to September 2025. The x-axis represents time, showing yearly and half-yearly markers, while the y-axis indicates implied volatility ranging from approximately 25% to 95%. The data series, shown as a dark blue line, exhibits a highly volatile pattern with frequent and significant spikes, often exceeding 80%, followed by sharp declines. Notable peaks occurred in early 2022, mid-2023, and early 2024, consistently reaching levels above 80%. The implied volatility typically bottoms out between 30% and 40%, with the current level (circled around July 2025) being approximately 35%, a point marked by a dashed horizontal line indicating the "last" value.
+
+    Explanation: The current low level of NVDA's 2-week ATM implied volatility, explicitly noted as being near 5-year lows in the accompanying text, is highlighted as a significant market condition. While this implied vol does not directly capture NVDA's earnings, it is influenced by the earnings reports of the "Mag 7" tech giants due to NVDA's high correlation with overall AI spending sentiment within these companies. This suggests that the current implied volatility might be considered low or "complacent" by market participants, potentially offering an attractive entry point for specific options strategies.
+
+page_end
+
+source :: gs global banking markets / as of 23july25 // past performance not 
+indicative future return 
+
+Max Lukianchikov - US Credit ETF + CDX vol trading 
+
+1/ the rally in credit mirrors that of equities, as cash credit spreads trade at 
+historical lows (1st percentile in the history of the product - not a typo) - chart v 
+
+2/ as with the other asset classes, Elmplied vol in the credit complex is extremely 
+low ... 3 month ATM options in HYG trade with a 4 implied vol handle (with the 
+caveat that five day realized is below 1 vol point) 
+
+3/ vol skew is steep and HYG offers a strong hedge for risk off coupled with2 
+higher yields the ETF embeds sensitivity to both yields and spread and the 
+implied correlation is attractive 
+ ? 
+4/ favorite implementations are HYG Oct 79/73 put spread for $0.50 (ref 80.43, 
+34 delta) or HYG Nov 79/73 put spread for $0.64 (ref 80.43, 38 delta) ... max loss 
+premium paid 
+
+5/ in terms of flow, unlikethe equity index book, the desk have seen demand 
+from non-traditional investors looking to spend premium on credit hedges ... 4 
+vol handle implied certainly waking up those looking for "low cost convexity" 
+ ? 
+chart v USD IG spread (20y lookback) 
+
+  H22Jul2005-                                -8Jul2026- 650 
+                                                    600 
+                                                    550 
+                                                    500 
+                                                    450 
+                                                   -400 
+                                                   -350 
+                                                   -300 
+                                                   -250 
+                                            USD IG Spread 
+                                             (1st pctl) -200 
+                                                   -150 
+                                                    100 
+                                                    50 
+                                                    0 
+       2008 2011     2014   2017   2020   2023   2026 
+ - USD IG Spread --- last 
+ ? 
+source :: gs global banking and markets / as of 23july25 // past performance not 
+indicative future return 
+
+    | Date      | USD IG Spread |
+    |-----------|---------------|
+    | Jul 2005  | 70            |
+    | Mid 2007  | 80            |
+    | Oct 2008  | 600           |
+    | Apr 2009  | 350           |
+    | Sep 2011  | 250           |
+    | Apr 2012  | 180           |
+    | Jun 2014  | 100           |
+    | Feb 2016  | 180           |
+    | Nov 2018  | 150           |
+    | Mar 2020  | 380           |
+    | Oct 2020  | 100           |
+    | Oct 2022  | 150           |
+    | Jul 2023  | 80            |
+    | Jul 2025  | 70            |
+    | Jul 2026  | 70            |
+
+    Summary: This chart visualizes the USD Investment Grade (IG) spread over a 20-year span, from July 2005 to July 2026, with the Y-axis indicating spread levels. The primary trend reveals that credit spreads are highly reactive to macroeconomic shocks, evidenced by major spikes during the 2008 Global Financial Crisis (peaking over 600) and the 2020 COVID-19 pandemic (reaching around 380). Currently, spreads have compressed significantly, trading near historical lows, marked by a dashed line at the 1st percentile, and a circled point indicating current levels around 70-80, which are projected to remain low through 2026.
+
+    Explanation: The chart's depiction of USD IG spreads at their 1st percentile historical lows, as corroborated by the accompanying text, suggests an exceptionally tight credit market environment. This "rally in credit" mirrors the equity market performance, implying strong investor confidence and low perceived credit risk, or perhaps a hunt for yield in an environment of broadly suppressed volatility across financial assets.
+
+page_end
+
+Brian 
+page_end

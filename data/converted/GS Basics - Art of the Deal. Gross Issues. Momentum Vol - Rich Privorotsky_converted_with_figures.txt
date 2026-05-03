@@ -1,0 +1,100 @@
+
+
+GS Basics - Art of the Deal. Gross Issues. Momentum Vol 
+FICC and Equities | 23 July 2025 | 6:53AM UTC 
+Big Japan rally overnight, with NKY futures up over 4%-likely amplified by 
+levered product flows. Japanese autos surged double digits after a 15% tariff deal 
+caught the market off guard (Polymarket had odds of a Japan deal by Aug 1 at 
+~20% ) . In the context of 25% tariffs on Canada and Mexico, think mkt surprised 
+Japan auto's securing a more favorable status-even compared to what some U.S. 
+automakers pay to import their own supply chains. Think 15% Japan tariffs 
+would have been unthinkable just months ago ... now, Japan's stock market is near 
+all-time highs ... art of the deal. 
+
+Another consequence: Political uncertainty in Japan -Ishiba now denying that 
+he will be stepping down after earlier reports from Yomiuri newspaper. The 
+40yr auction went poorly, Long-end yields are pushing higher again. Equities 
+globally haven't cared about this      but I remain vigilant. These 
+fiscal/structural questions aren't going away ... lot of paper around today 
+globally (see below) 
+
+Europe should trade up in sympathy, especially after recent hedges being set 
+fearing trade escalation. Expect European autos to open sharply higher on 
+this, then I think there will be some debate if this emboldens the US to push for a 
+more aggressive deal vs the Europeans to acquiesce given what appears to be a 
+global baseline that is creeping higher outside of them. 
+
+Earnings season continues to be mixed. Earnings are still supporting the bid in 
+AI-related names, but the bar feels it has been raised. TXN guided to 
+something that seemed more gradual and is down high single digits post 
+market. SAP cloud booking a touch light of very high expectations and should 
+trade lower. Think real mixed bag: SHW/LMT/GM/Nokia/ASM/MSCI/PM all 
+degrees of disappointing with a number of guidance cuts mixed in. On the 
+flipside things like US homebuilders rallied aggressively led 
+by DHI and Pulte (both up double digits) as bookings better on low bar despite 
+weaker ASPs (Trump considering removing cap gains for home purchases helps 
+too). 
+
+Gross felt disgusting again. GSPUWSHI most short vs least short basket rallied 
++2%. KSS was up over 100% at one point yesterday-some serious meme-era 
+echoes. I'm old enough to remember the quant quake of August 2007, and how 
+quickly that unwind unfolded. I do think performance issues have crept in over 
+the last 6 weeks. Systematic crowd has underperformed fundamental L/S, and 
+gross remains elevated vs historical levels, due in part to the sheer proliferation 
+of quant-driven strategies. The Japan move won't help-momentum drawdown 
+is being exacerbated by shortßqueezes. 
+page_end
+
+Price action has been very choppy. We've exited the early-July nirvana and 
+are entering the chop I feared. Focus today: GOOG/TSLA and the U.S. 20yr 
+auction/UK 15yr/German 10yr. 
+
+Side-note: The ratio of 1M realized volatility in US Momentum vs SPX has reached 
+high end of range. Historically, this signals a period where momentum chops 
+sideways until volatility settles. 
+
+ Momentum (GSPUMOMO) / SPX Realized 1 Month Volatility (Rolling 1 year Z-score) 
+  21 Jan 11                                                         22 Jul 25 
+                                                                          6.00 
+
+                                                                          4.00 
+                                                                           3.48 
+                                                                          2.00 
+
+                                                                          0.00 
+
+                                                                          -2.00 
+     2012      2014      2016      2018     2020       2022     2024 
+  zscores 
+
+Source: Marquee, as of 23/7/2025. Past Performance is not indicative of forward 
+returns. 
+
+    | Date      | Z-score |
+    |-----------|---------|
+    | 2011 Jan  | 0.5     |
+    | 2012 Early| 3.0     |
+    | 2012 Mid  | -1.5    |
+    | 2013 Mid  | 2.0     |
+    | 2014 Early| 2.5     |
+    | 2015 Early| -1.0    |
+    | 2015 Mid  | 3.0     |
+    | 2016 Early| 4.0     |
+    | 2017 Early| -1.0    |
+    | 2017 Late | 4.5     |
+    | 2018 Mid  | -2.0    |
+    | 2019 Early| 3.0     |
+    | 2020 Early| 5.0     |
+    | 2020 Mid  | 1.0     |
+    | 2021 Early| -0.5    |
+    | 2022 Early| 3.5     |
+    | 2023 Early| -1.0    |
+    | 2023 Late | 4.0     |
+    | 2024 Early| 2.0     |
+    | 2025 Mid  | 3.48    |
+
+    Summary: This chart, titled "Momentum (GSPUMOMO) / SPX Realized 1 Month Volatility (Rolling 1 year Z-score)", tracks the relative volatility of the US Momentum factor against the S&P 500 from January 2011 to July 2025. The Y-axis represents the Z-score, indicating how many standard deviations the ratio is from its rolling one-year mean. The line demonstrates significant volatility, frequently spiking above 2.00 and occasionally dipping below 0.00. Key peaks occurred around early 2016, late 2017, early 2020, and late 2023, with the most recent reading in July 2025 standing at 3.48, which is near multi-year highs.
+
+    Explanation: The current high Z-score of 3.48 for the momentum-to-SPX volatility ratio indicates that momentum stocks are experiencing significantly higher realized volatility compared to the broader market. As noted in the accompanying text, this condition, where the ratio reaches the "high end of range," historically signals a period where momentum strategies tend to trade sideways until volatility subsides. This aligns with the report's observation of "choppy" price action and potential "performance issues" for systematic strategies.
+
+page_end

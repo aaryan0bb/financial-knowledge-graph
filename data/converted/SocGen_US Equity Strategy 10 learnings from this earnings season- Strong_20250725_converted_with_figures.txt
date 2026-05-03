@@ -1,0 +1,1587 @@
+
+
+        SOCIETE GENERALE                                                                                                 EQUITY STRATEGY 
+        Cross Asset Research                                                                                                     25 July 2025 
+
+ US Equity Strategy 
+
+10 learnings from this earnings season: Strong 
+
+      Head of US Equity Strategy/Multi- 1) Biggest sales beat in 4 years: 30% of firms have now reported, with 84% beating EPS and 
+       Asset Strategist 
+      Manish Kabra                        79% beating top-line estimates. In past years, profit margin surprises mainly drove the 
+      +44 20 7762 4243 
+      manish.kabra@sgcib.com              beats, but the latest earnings show the strongest top-line surprises in 4 years (cover chart). 
+                                    2) Rational behaviour: Stocks that beat have outperformed by 0.9%, while misses 
+       Head of Equity Strategy            underperformed by 1.5%, reflecting classic market rationality. 
+       Charles de Boissezon 
+       +33 1 42 13 58 41             3) Profit margins broadening: S&P 500 profit margins continue to rise, including the ex-Tech 
+       charles.de-boissezon@sgcib.com     sectors (cover chart). 
+                                     4)   Highest EPS revision ratio in 3 years: The EPS revision ratio stands at 1.4, its highest level 
+                                          in 3 years, indicating 14 upgrades for every 10 downgrades. 
+                                     5)   US leads: S&P 500 EPS revisions have led global revisions for 10 weeks, outperforming 
+                                         global EPS 74% of the time over 5 years. Reported EPS is at a 2-year high versus other 
+                                          benchmarks, such as European stocks. 
+                                     6) USD offsets tariffs: A 10% USD drop adds a 4% positive EPS impact, while a 10% tariff rate 
+Inside the note                          subtracts 3%. Improving trade deficits and a weak USD policy goes hand in hand. 
+Earnings Summary (pg 2)              7) Sector and style trends: Communications and Tech firms have all beaten EPS and sales; 
+Corporate Activities (pg 5) 
+                                          Materials and Consumer sectors lag. Quality and Momentum styles lead; Value and Small- 
+SG House View (pg 6) 
+                                          cap are lagging. 
+SG Turning Point Signals (pg 7) 
+                                     8) Rate-sensitive sectors and styles are lagging as they await Fed cuts. 
+                                     9) Corporate activity is strengthening: S&P 500 revenue per employee has hit new highs. 
+                                          Capex to sales is rising across sectors; leverage is at its lowest since 2014. Buybacks are up 
+                                          16%, and dividends up 6% over 12 months. M&A and IPOs are edging up gradually. 
+                                          Corporate signals show firm corporate activity but no peak equity fears yet 
+Related strategy notes: 
+                                     10) Our view on S&P 500: The secular backdrop of structurally higher nominal growth is firmly 
+                                          intact post the global fiscal policy shifts. Strong returns from S&P 500 last 3 months proved 
+Slideshow - US Equity 
+                                                  US outlook, crisis of confidence is short-term .... The S&P 500 is now only a few 
+Outlook: New Global Order                 our our 
+                                          points away from our end-2025 target. However, we still see upside risk as the Fed card has 
+                                          not fully played out, either on curve steepening or the unfinished business of weakeing 
+Equity Strategy -                         USD. Moreover, the peak excitement for US stocks involves the broadenign of the index 
+'Deglobalisation': New Global            performance. S&P 500 should range: 5500-6750 and we see bubble risk only beyond 7500 
+Trade Order 
+                                          (see pg 22 of our US Equity Slidepack) 
+                                     Sales and EPS beats are strong                         Profit margins are rising outside of Tech too 
+                                       110               % firms with Sales beats            14%       - S&P                    Profit Margin 14% 
+                                                         % firms with EPS beats                              500 ex-Tech: 12m trailing 
+                                                                                    90                   S&P 500: 12m trailing Profit Margin 
+                                        90 
+                                                                                             12%                                            12% 
+                                                                                    70 
+                                       70 
+With thanks to Noe Senelet-                                                                                                                 10% 
+                                       50                                           50       10% 
+Maïté Research Associates, for 
+their contribution to this report      30 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q3 Q2 Q1 Q4 Q3 Q2 Q1 30 8%                          8% 
+                                          2008 2009 2010 2010 2011 2012 2013 2013 2014 2015 2016 2016 2018 2019 Q4 2019 2020 2021 2022 2022 2023 2024 2025 
+                                                               2017                           6%                                            6% 
+                                                                                                 04 05 07 09 11 13 15 17 19 21 23 25 
+                                     Source: Refinitiv, SG Cross Asset Research/Equity Strategy Source: Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+ Societe Generale ("SG") does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that SG may 
+ have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their 
+ investment decision. PLEASE SEE APPENDIX AT THE END OF THIS REPORT FOR THE ANALYST(S) CERTIFICATION(S), IMPORTANT DISCLOSURES AND 
+ DISCLAIMERS. ALTERNATIVELY, VISIT OUR GLOBAL RESEARCH DISCLOSURE WEBSITE 
+
+    | Year | S&P 500: 12m Trailing Profit Margin (%) | S&P 500 ex-Tech: 12m Trailing Profit Margin (%) |
+    |------|-----------------------------------------|-------------------------------------------------|
+    | 2004 | 8.0                                     | 7.8                                             |
+    | 2005 | 8.8                                     | 8.5                                             |
+    | 2006 | 9.5                                     | 9.2                                             |
+    | 2007 | 10.0                                    | 9.8                                             |
+    | 2008 | 7.0                                     | 6.5                                             |
+    | 2009 | 6.0                                     | 6.0                                             |
+    | 2010 | 8.0                                     | 8.2                                             |
+    | 2011 | 9.0                                     | 8.8                                             |
+    | 2012 | 9.5                                     | 9.2                                             |
+    | 2013 | 10.0                                    | 9.5                                             |
+    | 2014 | 10.2                                    | 9.8                                             |
+    | 2015 | 10.5                                    | 10.2                                            |
+    | 2016 | 10.8                                    | 10.5                                            |
+    | 2017 | 11.5                                    | 10.8                                            |
+    | 2018 | 12.0                                    | 11.0                                            |
+    | 2019 | 11.0                                    | 10.5                                            |
+    | 2020 | 10.0                                    | 8.5                                             |
+    | 2021 | 13.0                                    | 11.8                                            |
+    | 2022 | 11.8                                    | 10.8                                            |
+    | 2023 | 12.0                                    | 11.0                                            |
+    | 2024 | 12.5                                    | 11.2                                            |
+    | 2025 | 12.8                                    | 11.5                                            |
+
+    Summary: This time series chart illustrates the 12-month trailing profit margins for the S&P 500 and S&P 500 ex-Tech indices from 2004 to mid-2025. The Y-axis represents profit margin percentages ranging from 6% to 14%. Both lines generally trend upwards over the two-decade period, indicating long-term growth in corporate profitability. Key dips are visible during the 2008-2009 financial crisis, where both margins plummeted to a low of approximately 6%, and again around 2020 (COVID-19 pandemic), with the S&P 500 ex-Tech margin seeing a more pronounced drop. The S&P 500 consistently maintains a higher profit margin, peaking at around 13% in 2021, and shows a strong recovery post-2020, with both indices nearing their historical highs by 2025.
+
+    Explanation: The chart directly supports the broader narrative of robust corporate performance and "broadening" profit margins, as highlighted in the accompanying text (point 3). The consistent increase in profit margins, even for the ex-Tech sectors, suggests a healthier and more widespread profitability across the US equity market. This underpins the positive outlook for the S&P 500, aligning with the report's assessment of strong earnings and a secular backdrop of higher nominal growth.
+
+    | Quarter | % firms with Sales beats | % firms with EPS beats |
+    |---------|--------------------------|------------------------|
+    | 2008 Q3 | 52%                      | 58%                    |
+    | 2009 Q2 | 40%                      | 60%                    |
+    | 2010 Q1 | 70%                      | 78%                    |
+    | 2010 Q4 | 65%                      | 73%                    |
+    | 2011 Q3 | 72%                      | 72%                    |
+    | 2012 Q2 | 45%                      | 65%                    |
+    | 2013 Q1 | 60%                      | 70%                    |
+    | 2013 Q4 | 70%                      | 70%                    |
+    | 2014 Q3 | 55%                      | 65%                    |
+    | 2015 Q2 | 60%                      | 70%                    |
+    | 2016 Q1 | 50%                      | 70%                    |
+    | 2016 Q4 | 70%                      | 75%                    |
+    | 2017 Q3 | 75%                      | 85%                    |
+    | 2018 Q2 | 78%                      | 88%                    |
+    | 2019 Q1 | 70%                      | 80%                    |
+    | 2019 Q4 | 58%                      | 70%                    |
+    | 2020 Q3 | 70%                      | 80%                    |
+    | 2020 Q4 | 80%                      | 90%                    |
+    | 2021 Q1 | 90%                      | 95%                    |
+    | 2021 Q2 | 75%                      | 90%                    |
+    | 2022 Q1 | 75%                      | 78%                    |
+    | 2022 Q4 | 55%                      | 70%                    |
+    | 2023 Q3 | 55%                      | 78%                    |
+    | 2024 Q2 | 52%                      | 78%                    |
+    | 2025 Q1 | 78%                      | 92%                    |
+
+    Summary: This line chart, spanning from Q3 2008 to Q1 2025, illustrates the percentage of firms beating sales and EPS estimates over time. The Y-axis represents the percentage of firms, ranging from 30% to 110%. Generally, the percentage of firms beating EPS estimates (red line) has consistently been higher than those beating sales estimates (black line). Both metrics show significant cyclicality, with noticeable dips in late 2011-early 2012 and late 2019. A peak for both lines occurred around Q1 2021, where Sales beats reached 90% and EPS beats soared to 95%. Following this peak, there was a decline, especially for Sales beats, which recently bottomed out around 52% in Q2 2024. However, the most recent data for Q1 2025 shows a sharp rebound, with Sales beats surging to 78% and EPS beats to 92%.
+
+    Explanation: This chart underpins the report's finding of a robust earnings season, particularly highlighting the "biggest sales beat in 4 years" as stated on the page. The strong resurgence in both sales and EPS beats in Q1 2025, following a period of decline, signals a renewed strength in corporate performance. This positive trend aligns with the overall optimistic outlook presented in the report, which mentions a strong S&P 500 performance, rising profit margins, and nearing the end-2025 target, suggesting a healthy and potentially growing equity market.
+
+    | Quarter | % Firms with Sales Beats | % Firms with EPS Beats |
+    |---------|--------------------------|------------------------|
+    | Q3 2008 | 50%                      | 60%                    |
+    | Q2 2009 | 75%                      | 85%                    |
+    | Q1 2010 | 70%                      | 80%                    |
+    | Q4 2010 | 70%                      | 80%                    |
+    | Q3 2011 | 65%                      | 75%                    |
+    | Q2 2012 | 60%                      | 70%                    |
+    | Q1 2013 | 60%                      | 70%                    |
+    | Q4 2013 | 65%                      | 75%                    |
+    | Q3 2014 | 60%                      | 70%                    |
+    | Q2 2015 | 60%                      | 70%                    |
+    | Q1 2016 | 55%                      | 65%                    |
+    | Q4 2016 | 65%                      | 75%                    |
+    | Q2 2018 | 70%                      | 80%                    |
+    | Q3 2019 | 60%                      | 80%                    |
+    | Q4 2019 | 60%                      | 80%                    |
+    | Q2 2020 | 80%                      | 90%                    |
+    | Q1 2021 | 85%                      | 90%                    |
+    | Q2 2022 | 70%                      | 80%                    |
+    | Q1 2023 | 70%                      | 80%                    |
+    | Q2 2024 | 80%                      | 85%                    |
+    | Q1 2025 | 75%                      | 85%                    |
+
+    Summary: The chart displays the percentage of S&P 500 firms that beat sales and EPS estimates quarterly from Q3 2008 to Q1 2025. The Y-axis ranges from 30% to 100%. A key trend is that the percentage of firms beating EPS estimates consistently remains higher than those beating sales estimates, often by 5-10 percentage points. Both metrics show volatility but generally recovered from troughs around 2008-2009 and 2016. A notable inflection point occurred in Q2 2020, where both sales and EPS beat percentages surged, with EPS beats peaking near 90% and sales beats reaching 85% by Q1 2021, indicating strong corporate performance post-pandemic. Recent quarters show sustained high beat rates, particularly for EPS, hovering around 85%.
+
+    Explanation: This chart highlights the S&P 500's strong corporate performance in exceeding market expectations, particularly in earnings, over a significant period. The sustained high percentage of firms beating estimates, even through economic fluctuations, suggests effective management and adaptability. This data reinforces the broader positive sentiment regarding US equities mentioned in the document, implying a fundamental strength that supports market rallies and investor confidence despite various macroeconomic challenges.
+
+    | Quarter | % Firms with Sales Beats | % Firms with EPS Beats |
+    |---------|--------------------------|------------------------|
+    | Q3 2008 | 60%                      | 55%                    |
+    | Q2 2009 | 60%                      | 75%                    |
+    | Q1 2010 | 70%                      | 80%                    |
+    | Q4 2010 | 75%                      | 85%                    |
+    | Q3 2011 | 70%                      | 75%                    |
+    | Q2 2012 | 70%                      | 75%                    |
+    | Q1 2013 | 75%                      | 70%                    |
+    | Q4 2013 | 70%                      | 70%                    |
+    | Q3 2014 | 65%                      | 65%                    |
+    | Q2 2015 | 60%                      | 65%                    |
+    | Q1 2016 | 55%                      | 60%                    |
+    | Q4 2016 | 70%                      | 75%                    |
+    | Q3 2018 | 70%                      | 75%                    |
+    | Q2 2019 | 70%                      | 70%                    |
+    | Q4 2019 | 75%                      | 70%                    |
+    | Q3 2020 | 100%                     | 90%                    |
+    | Q2 2021 | 80%                      | 80%                    |
+    | Q1 2022 | 70%                      | 70%                    |
+    | Q4 2022 | 75%                      | 70%                    |
+    | Q3 2023 | 75%                      | 80%                    |
+    | Q2 2024 | 85%                      | 85%                    |
+    | Q1 2025 | 80%                      | 80%                    |
+    | Q2 2025 | 79%                      | 84%                    |
+
+    Summary: This time series chart illustrates the percentage of S&P 500 firms that beat sales and EPS (Earnings Per Share) estimates, spanning from Q3 2008 to Q2 2025. The Y-axis ranges from 30% to 110%, showing the proportion of companies outperforming expectations. A key trend observed is the significant peak in sales beats, reaching nearly 100% in Q3 2020, while EPS beats also showed strong performance around that period. The latest reported figures for Q2 2025 indicate robust performance, with 79% of firms beating sales estimates and 84% beating EPS estimates, reflecting a strong earnings season and the "strongest top-line surprises in 4 years" (since the 2020 peak).
+
+    Explanation: The data in this chart underscores the overall strength of corporate earnings in the US, particularly highlighting the robust sales performance. This aligns with point 1 of the "10 learnings from this earnings season" on the page, emphasizing that recent earnings show the biggest sales beat in four years and strong EPS beat rates. Such consistent outperformance in earnings contributes to a positive outlook for US equities, suggesting underlying corporate health and a potentially supportive environment for stock market performance.
+
+page_end
+
+     SOCIETE GENERALE 
+                                                                                                                                         US Equity Strategy 
+     Cross Asset Research 
+
+                                         US Earnings Summary 
+
+Chart 1. S&P 500: % of firms beating EPS estimates                               Chart 2. S&P 500: % of firms missing EPS estimates 
+
+        %                                                                                  % 
+    90                                     2Q25 EPS reporting season 90            40                                                  2Q25 EPS             40 
+                                                                                                                                   reporting season 
+    85                                                                  85 
+                                                                                   35                                                                       35 
+             +1SD 
+    80                                                                  80 
+                                                                                   30                                                                       30 
+    75         Avg                                                       75 
+                                                                                                 +1SD 
+                                                                                   25                                                                       25 
+    70                                                                  70 
+                                                                                                                          Avg 
+                                               -                                   20                                                                       20 
+    65                                                                  65 
+
+                                                                        60          15                                                                      15 
+    60        -1SD                                                                              -1SD 
+
+    55                                                                   55         10                                                                       10 
+
+    50     2Q09 1Q10 4Q10 3Q11           3Q17 1Q19 4Q19        3Q23 2Q24 50                                                        4Q19 3Q20   4Q22 3Q23 2Q24 5 
+                                                                                     5 3Q08 2Q09 1Q10 4Q10 3Q11 2Q12 1Q13 4Q13 3Q14 2Q15 1Q16 4Q16 2Q18 
+
+        3Q08          2Q12 1Q13 4Q13 3Q14 2Q15 1Q16 4Q16 2Q18 3Q20 2Q21 1Q22 4Q22                                          3Q17 1Q19     2Q21 1Q22      1Q25 
+
+                                                                                                          Cross Asset Research/Equity Strategy 
+ Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy              Source: FactSet, Refinitiv, SG 
+
+                                                                                                           Sales beat per sector 
+ Chart 3. Sales and EPS beats show strong margin resilience                          Chart 4. EPS and 
+
+                                                                                                                 Total      Number     % with      % with 
+   100                                                                  100 
+                % firms with Sales beats     -% firms with EPS beats                             Sector       Companies    Reported EPS beat Sales beat 
+    90                                                                  90 
+                                                                                            Communication          24          8        100%        100% 
+    80                                                                  80 
+                                                                                            Tech                   68          14       100%        100% 
+                                                                                                                   31          4        100%        75% 
+    70                                                                  70                  Real Estate 
+                                                                                            Health Care            60          12       92%        100% 
+    60                                                                  60 
+                                                                                            Industrials            78          32       88%         72% 
+    50                                                                  50                  Financials             74          39        87%        77% 
+
+                                                                                            Energy                 22           6        83%        83% 
+    40                                                                  40 
+                                                                                            Staples                38          11       73%         64% 
+    30 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 Q4 Q3 Q2 Q1 30              Cons. Discr.           51          21       67%         86% 
+
+        2008 2009 2010 2010 2011 2012 2013 2016 2019 2019 2021 2022 2024 2025               Materials              26           6       50%         33% 
+                                                                                            Utilities              31           2        50%        50% 
+                           2013 2014 2015 2016 2017 2018 2020 2022 2023 
+                                                                                            S&P 500                503         155      84%         79% 
+                                                                                                           SG Cross Asset Research/Equity Strategy 
+ Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy                  Source: FactSet, Refinitiv, 
+
+                                                                                                                                firms that beat or miss 
+ Chart 5. Performance of firms that beat or miss estimates in                     Chart 6. Relative performance of 
+                                                                                               over last six seasons 
+ the current season (+/- 2 days)                                                  estimates 
+
+                    Absolute performance       Relative performance                  3.0% 
+                                                                                                                    Beat "Mis3.2% 
+                     1.8% 
+     2.0%                                                                            2.0%                                            1.3% 
+                                                                                            1.1% 
+                                                                                                                                                      0.9% 
+     1.5%                                                                            1.0% 
+                                                                                                 0.3% 0.1%         0.3%                   0.10% 
+                             0.9% 
+     1.0%                                                                            0.0% 
+
+                                                    0.3%                                                                0.0% 
+     0.5%                                                                                                   0.2º                                 -0.3% 
+                                                                                    -1.0% 
+                                                                                             -0.7% 
+     0.0%                                                                                                           -1.2% 
+                                                                                    -2.0%                                                              -1.5% 
+                                                                                                                                            -1.90% 
+    -0.5%                                                                                                                        -2.1% 
+                                                                                    -3.0%                -2.5% 
+    -1.0%                                                                                                                  -3.2%      -2.9% 
+                                                                                     -4.0% 
+     -1.5%                                                                                         -3.9%                                          -3.9% 
+                                                            -1.5%                   -5.0%                      -4.4% 
+     -2.0%                                                                                  4Q22 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 
+                         Beat                           Miss 
+
+                                                                                                                    Research/Equity Strategy 
+ Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy               Source: FactSet, Refinitiv, SG Cross Asset 
+
+                                                                                                                                                               2 
+                                          25 July 2025 
+
+    | Period | % Firms Missing EPS Estimates |
+    |---|---|
+    | Average | 19.0% |
+    | +1SD | 24.0% |
+    | -1SD | 14.0% |
+    | 3Q08 | 37.0% |
+    | 2Q09 | 30.0% |
+    | 1Q10 | 17.0% |
+    | 4Q10 | 20.0% |
+    | 3Q11 | 25.0% |
+    | 2Q12 | 18.0% |
+    | 1Q13 | 15.0% |
+    | 4Q13 | 17.0% |
+    | 3Q14 | 16.0% |
+    | 2Q15 | 18.0% |
+    | 1Q16 | 19.0% |
+    | 4Q16 | 16.0% |
+    | 3Q17 | 15.0% |
+    | 2Q18 | 14.0% |
+    | 1Q19 | 16.0% |
+    | 4Q19 | 18.0% |
+    | 3Q20 | 18.0% |
+    | 2Q21 | 11.0% |
+    | 1Q22 | 18.0% |
+    | 4Q22 | 26.0% |
+    | 3Q23 | 18.0% |
+    | 2Q24 | 18.0% |
+    | 1Q25 | 19.0% |
+    | 2Q25 | 12.0% |
+
+    Summary: This bar chart displays the percentage of S&P 500 firms that missed EPS estimates on a quarterly basis, spanning from 3Q08 to the 2Q25 reporting season. The chart includes horizontal lines indicating the historical average (Avg), +1 standard deviation (+1SD), and -1 standard deviation (-1SD) from this average. Historically, the percentage of misses has fluctuated, with peaks during economic downturns (e.g., 37% in 3Q08) and notable lows (e.g., 11% in 2Q21). The most recent 2Q25 reporting season stands out with a remarkably low 12% of firms missing EPS estimates, falling significantly below the -1SD band and approaching the lowest point observed in the entire series.
+
+    Explanation: This chart, titled "S&P 500: % of firms missing EPS estimates," supports the overall positive assessment of the current earnings season. The exceptionally low percentage of firms missing estimates in 2Q25 directly complements the earlier context provided that 84% of firms are beating EPS estimates, indicating broad-based strength in corporate earnings. This suggests that the current earnings season is performing well above historical averages in terms of companies meeting or exceeding market expectations.
+
+    | Quarter | Beat Performance | Miss Performance |
+    |---------|------------------|------------------|
+    | 4Q22    | 1.1%             | -0.7%            |
+    | 1Q23    | 0.3%             | -3.9%            |
+    | 2Q23    | 0.1%             | -2.5%            |
+    | 3Q23    | 0.3%             | -4.4%            |
+    | 4Q23    | 0.3%             | -1.2%            |
+    | 1Q24    | 2.2%             | -3.2%            |
+    | 2Q24    | 1.3%             | -2.1%            |
+    | 3Q24    | 0.10%            | -2.9%            |
+    | 4Q24    | ~0.0%            | -1.90%           |
+    | 1Q25    | ~0.0%            | -3.9%            |
+    | 2Q25    | 0.9%             | -1.5%            |
+
+    Summary: This bar chart, titled "Relative performance of firms that beat or miss estimates over last six seasons," illustrates the average stock performance of S&P 500 companies based on their earnings results from 4Q22 to 2Q25. The Y-axis measures relative performance in percentages, with "Beat" (grey bars) indicating outperformance and "Miss" (red bars) showing underperformance. A consistent trend shows that firms beating estimates generally experience positive relative performance, while those missing estimates consistently underperform, often by a significantly larger margin. The largest "Beat" outperformance was 2.2% in 1Q24, while the most severe "Miss" underperformance was -4.4% in 3Q23.
+
+    Explanation: The chart directly supports the broader context's assertion of "rational behaviour" in the market, where "stocks that beat have outperformed... while misses underperformed." The consistently larger magnitude of negative performance for firms missing estimates, compared to the positive performance for those beating, indicates a strong market penalty for unmet expectations. This highlights that despite an overall strong earnings season, as suggested by other data on the page, the market remains highly sensitive to individual company performance against forecasts.
+
+    | Date    | % firms with Sales beats | % firms with EPS beats |
+    |---------|--------------------------|------------------------|
+    | 2008 Q3 | 55%                      | 52%                    |
+    | 2008 Q4 | 40%                      | 40%                    |
+    | 2009 Q4 | 70%                      | 70%                    |
+    | 2010 Q4 | 70%                      | 65%                    |
+    | 2011 Q4 | 60%                      | 65%                    |
+    | 2012 Q4 | 60%                      | 60%                    |
+    | 2013 Q4 | 65%                      | 65%                    |
+    | 2014 Q4 | 55%                      | 65%                    |
+    | 2015 Q4 | 45%                      | 60%                    |
+    | 2016 Q4 | 65%                      | 70%                    |
+    | 2017 Q4 | 75%                      | 80%                    |
+    | 2018 Q4 | 60%                      | 75%                    |
+    | 2019 Q4 | 65%                      | 75%                    |
+    | 2020 Q1 | 60%                      | 65%                    |
+    | 2020 Q2 | 55%                      | 60%                    |
+    | 2020 Q3 | 65%                      | 75%                    |
+    | 2020 Q4 | 70%                      | 80%                    |
+    | 2021 Q1 | 90%                      | 90%                    |
+    | 2021 Q2 | 85%                      | 85%                    |
+    | 2021 Q3 | 80%                      | 80%                    |
+    | 2021 Q4 | 75%                      | 75%                    |
+    | 2022 Q1 | 75%                      | 80%                    |
+    | 2022 Q2 | 70%                      | 75%                    |
+    | 2022 Q3 | 65%                      | 70%                    |
+    | 2022 Q4 | 70%                      | 80%                    |
+    | 2023 Q1 | 65%                      | 75%                    |
+    | 2023 Q2 | 60%                      | 75%                    |
+    | 2023 Q3 | 60%                      | 75%                    |
+    | 2023 Q4 | 60%                      | 75%                    |
+    | 2024 Q2 | 60%                      | 75%                    |
+    | 2024 Q4 | 60%                      | 75%                    |
+    | 2025 Q1 | 78%                      | 85%                    |
+
+    Summary: This time series chart displays the percentage of S&P 500 firms beating Sales and EPS estimates quarterly from Q3 2008 to Q1 2025. The Y-axis ranges from 30% to 100%. Both metrics rebounded sharply from a low point in late 2008/early 2009 (around 40%) and showed significant volatility over the years. A peak for both Sales and EPS beats occurred around Q1 2021, reaching approximately 90%. After declining to relative lows by Q3 2022, the highlighted period (Q3 2022 - Q1 2025) shows Sales beats generally fluctuating lower than EPS beats, but both experienced a sharp rebound in Q1 2025, with EPS beats rising to 85% and Sales beats to 78%.
+
+    Explanation: The chart, titled "Sales and EPS beats show strong margin resilience," indicates a robust underlying performance of S&P 500 companies in beating analyst estimates. The strong rebound observed in Q1 2025 aligns with the broader report's commentary on a strong earnings season, specifically noting "biggest sales beat in 4 years" for 2Q25, suggesting continued positive momentum in corporate fundamentals. This resilience in earnings performance contributes to a positive outlook for the equity market.
+
+    | Quarter | % Firms Beating EPS |
+    |---------|---------------------|
+    | 3Q08    | 56%                 |
+    | 2Q09    | 71%                 |
+    | 1Q10    | 72%                 |
+    | 4Q10    | 66%                 |
+    | 3Q11    | 60%                 |
+    | 2Q12    | 60%                 |
+    | 1Q13    | 72%                 |
+    | 4Q13    | 71%                 |
+    | 3Q14    | 72%                 |
+    | 2Q15    | 73%                 |
+    | 1Q16    | 72%                 |
+    | 4Q16    | 61%                 |
+    | 3Q17    | 78%                 |
+    | 2Q18    | 80%                 |
+    | 1Q19    | 78%                 |
+    | 4Q19    | 80%                 |
+    | 3Q20    | 85%                 |
+    | 2Q21    | 89%                 |
+    | 1Q22    | 70%                 |
+    | 4Q22    | 75%                 |
+    | 3Q23    | 78%                 |
+    | 2Q24    | 80%                 |
+    | 2Q25    | 84%                 |
+
+    Summary: This bar chart displays the percentage of S&P 500 firms beating EPS estimates on a quarterly basis, spanning from 3Q08 to 2Q25. It includes a historical average line and bands for plus/minus one standard deviation to contextualize performance. The data reveals periods of lower EPS beat rates, particularly during 2008-2012, with notable troughs around 56-61%. Post-2017, the trend generally shifts towards higher beat rates, frequently exceeding the average, with peaks in 3Q20 (85%) and 2Q21 (89%). The most recent 2Q25 reporting season shows a strong performance, with 84% of firms beating EPS estimates, placing it well above the average and within the upper standard deviation band.
+
+    Explanation: The robust 84% EPS beat rate for the 2Q25 reporting season, highlighted in the chart, corroborates the accompanying text's assertion of a strong earnings season, described as having the "biggest sales beat in 4 years" and 84% of firms beating EPS. This consistent performance above historical averages and within the upper band suggests a healthy corporate earnings environment that could continue to support a positive outlook for US equities.
+
+    | Category | Absolute Performance | Relative Performance |
+    |----------|----------------------|----------------------|
+    | Beat     | 1.8%                 | 0.9%                 |
+    | Miss     | 0.3%                 | -1.5%                |
+
+    Summary: This bar chart, titled "Performance of firms that beat or miss estimates in the current season (+/- 2 days)", illustrates the immediate stock price reaction to earnings surprises. The X-axis categorizes firms as either "Beat" or "Miss" in their earnings estimates, while the Y-axis quantifies their percentage performance. Firms that beat estimates experienced a positive absolute performance of 1.8% and a relative outperformance of 0.9%. Conversely, firms that missed estimates showed a slight positive absolute performance of 0.3% but a notable negative relative performance of -1.5%, highlighting the market's clear differentiation between positive and negative surprises.
+
+    Explanation: This chart provides a crucial insight into market rationality, directly supporting the "10 learnings from this earnings season" mentioned on page 1, specifically point #2 regarding "Rational behaviour." It quantitatively demonstrates that stocks respond predictably to earnings outcomes, with firms beating estimates outperforming and those missing estimates underperforming. The significant negative relative performance for misses underscores the penalty for failing to meet expectations in the current earnings season.
+
+page_end
+
+     SOCIETE GENERALE 
+     Cross Asset Research                                                                                                        US Equity Strategy 
+
+Chart 7. Sector and style EPS beats this season                              Chart 8. Three-months change in 12-month forward EPS 
+                                Reported (%) EPS % positive surprises            6    % 
+           Communication Services 33%             100% 
+           Information Technology 33%             100%                           5 
+            Real Estate            33%            100%                           4 
+           Health Care             20%            92% 
+           Industrials             41%            88%                            3 
+            Financials             53%            87%                            2 
+           Energy                  27%             83% 
+            Consumer Staples       29%             73%                           1 
+            Consumer Discretionary 41%             67%                           0 
+           Utilities                23%            50%                                                   3m change of 12m fwd EPS 
+           Materials                23%            50%                          -1 
+            All                    31%             84%                                                  3m change of 12m fwd Sales 
+                                                                                -2 
+           Momentum                 25%            92%                          -3 
+            Quality                28%             90% 
+            Growth                  26%            86% 
+                                                                                                                                               500 
+            Risk                   32%             82%                                                                             Tech serv. 
+            Size                    25%            77%                                                       estate                        S&P 
+                                                                                       Energy    Staples Utilities                   Com. 
+            Value                   30%            74%                                                   Real 
+                                                                                                   Cross Asset Research/Equity Materials 
+Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy          Source: FactSet, Refinitiv, SG    Industrials Strategy Financials 
+                                                                               Healthcare 
+                                                                                        Discretionary 
+
+Chart 9. Nasdaq-100 EPS growth to show profit growth                         Chart 10. Magnificent-7 earnings release date 
+rate slowdown for next 6-months 
+                             Nasdaq-100: 12m Fwd EPS growth 
+   80%                                                                             Name         2025 Q1        2025 Q2      2025 Q3       2025 Q4 
+                             Nasdaq-100: 12m trailing EPS growth 
+                              Expected EPS growth 
+   60%                                                                             Tesla         22 Apr         23 Jul       15 Oct        28 Jan 
+
+   40% 
+                                                                                 Alphabet        24 Apr         23 Jul       28 Oct       03 Feb 
+   20% 
+                                                                                   Meta          30 Apr         30 Jul       22 Oct        04 Feb 
+    0% 
+                                                                                 Microsoft       30 Apr         30 Jul        28 Oct       04 Feb 
+  -20% 
+
+                                                                                  Amazon         01 May         31 Jul       23 Oct        29 Jan 
+  -40% 
+
+  -60%                                                                             Apple         01 May         31 Jul       23 Oct        29 Jan 
+
+  -80%                                                                             Nvidia        28 May        27 Aug        12 Nov        12 Feb 
+        96 98 00 02     04 06 08     10 12   14 16   18 20 22 24 26 
+Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy          Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+Chart 11. S&P 500 EPS revision ratio (breadth measure of EPS)                Chart 12. S&P 500 EPS revision ratio per sector 
+                                                                                3.0 
+                                                                                                                    Latest   4w 
+  1.8                       -2025                  .2026            1.8                   2.6    2.5 
+           More than 1                                                          2.5 
+  1.6     = More stocks                                             1.6 
+         see EPS upgrades                                                       2.0 
+  1.4                                                               1.4 
+                                                                                 1.5 1.3               1.3      1.1 
+  1.2                                                               1.2                                     1.2         1.1 1.1 
+                                                                                                                                   1.0 
+  1.0                                                                1.0         1.0                                                    0.8   0.7 
+
+   0.8                                                              0.8 
+                                                                                0.5 
+   0.6                                                               0.6 
+                                                                                0.0 
+  0.4                                                               0.4 
+                                                                                     500 
+  0.2                                                               0.2                   Tech                        Care 
+    07/24     09/24     11/24     01/25    03/25     05/25     07/25             S&P                     Utilities         Energy          Staples 
+                                                                                             Materials            Health             Telecom. 
+Source: Refinitiv, SG Cross Asset Research/Equity Strategy                   Source: Refinitiv, SG Cross Asset Financials Research/Equity Industrials Strategy 
+                                                                                                                            Discretionary 
+
+                                                                                                                                                     3 
+                                      25 July 2025 
+
+    | Date | 2025 EPS Revision Ratio | 2026 EPS Revision Ratio |
+    |---|---|---|
+    | 07/24 | 0.80 | 0.75 |
+    | Early Aug 24 | 1.25 | 1.00 |
+    | Mid Aug 24 | 1.30 | 1.05 |
+    | Early Sep 24 | 1.20 | 1.00 |
+    | Mid Sep 24 | 1.00 | 0.90 |
+    | Late Sep 24 | 0.80 | 0.70 |
+    | Early Oct 24 | 0.80 | 0.70 |
+    | Late Oct 24 | 1.10 | 0.90 |
+    | Early Nov 24 | 1.35 | 0.90 |
+    | Mid Nov 24 | 1.20 | 0.85 |
+    | Late Nov 24 | 0.80 | 0.80 |
+    | Mid Dec 24 | 0.70 | 0.70 |
+    | Early Jan 25 | 0.60 | 0.60 |
+    | Late Jan 25 | 0.65 | 0.60 |
+    | Early Feb 25 | 0.70 | 0.60 |
+    | Early Mar 25 | 0.60 | 0.50 |
+    | Mid Mar 25 | 0.40 | 0.40 |
+    | Late Mar 25 | 0.30 | 0.30 |
+    | Early Apr 25 | 0.30 | 0.30 |
+    | Late Apr 25 | 0.70 | 0.70 |
+    | Early May 25 | 1.00 | 0.90 |
+    | Mid May 25 | 1.10 | 1.10 |
+    | Late May 25 | 1.25 | 1.20 |
+    | Early Jun 25 | 1.30 | 1.25 |
+    | Mid Jun 25 | 1.50 | 1.30 |
+    | Late Jun 25 | 1.55 | 1.20 |
+    | Late Jul 25 | 1.55 | 1.30 |
+
+    Summary: The chart, "S&P 500 EPS revision ratio (breadth measure of EPS)", tracks the ratio of EPS upgrades to downgrades for S&P 500 stocks for 2025 (red line) and 2026 (grey line) estimates, spanning from July 2024 to July 2025. A ratio above 1.0 (dashed line) signifies more upgrades. Both ratios initially fluctuated above 1.0 in late 2024, with 2025 peaking at 1.35 in early November. They then experienced a significant decline, bottoming out around 0.3 in late March 2025, indicating a period of widespread downgrades. Subsequently, both staged a sharp rebound from April 2025, with the 2025 ratio surging to 1.55 by July 2025, its highest point in the period shown, while 2026 also recovered above 1.0 to 1.3.
+
+    Explanation: This EPS revision ratio serves as a key breadth measure, reflecting the overall sentiment among analysts toward future S&P 500 earnings. The recent strong recovery and current high levels, particularly for 2025 estimates, suggest a marked improvement in corporate earnings outlook. This positive trend in analyst revisions aligns with the broader narrative of robust earnings season performance highlighted on the previous page, indicating increasing confidence in the underlying profitability of S&P 500 companies.
+
+    | Year | 12m Fwd EPS Growth (%) | 12m Trailing EPS Growth (%) | Expected EPS Growth (%) |
+    |---|---|---|---|
+    | 1996 | 20 | 15 | N/A |
+    | 1998 | 30 | 35 | N/A |
+    | 2000 | 20 | 15 | N/A |
+    | 2001 | -40 | -30 | N/A |
+    | 2002 | -10 | -60 | N/A |
+    | 2003 | 40 | 20 | N/A |
+    | 2004 | 60 | 60 | N/A |
+    | 2005 | 10 | 10 | N/A |
+    | 2008 | 10 | 10 | N/A |
+    | 2009 | -10 | -20 | N/A |
+    | 2010 | 50 | 45 | N/A |
+    | 2012 | 0 | 0 | N/A |
+    | 2014 | 15 | 15 | N/A |
+    | 2016 | 0 | 5 | N/A |
+    | 2018 | 25 | 20 | N/A |
+    | 2019 | 5 | 10 | N/A |
+    | 2020 | 0 | 0 | N/A |
+    | 2021 | 45 | 45 | N/A |
+    | 2022 | -10 | -10 | N/A |
+    | 2023 | 35 | 35 | N/A |
+    | 2024 | 20 | 20 | N/A |
+    | 2025 | 15 | 15 | 10 |
+    | 2026 | N/A | N/A | 15 |
+
+    Summary:
+    This time-series chart, spanning 1996 to 2026, illustrates the Nasdaq-100's 12-month forward and trailing EPS growth rates, alongside a projection for expected EPS growth. The two primary metrics largely track each other, exhibiting significant volatility with dramatic peaks (e.g., ~60% in 2004, ~45% in 2021) and deep troughs (e.g., -60% trailing in 2002, -20% trailing in 2009). The chart highlights a recent strong rebound in EPS growth peaking around 35% in 2023, followed by a decline into 2024. Crucially, the "Expected EPS growth" line projects a further slowdown from current levels (around 15%) to approximately 10% by late 2025, before a modest recovery towards 15% by 2026, signaling a deceleration in profit growth for the immediate future.
+
+    Explanation:
+    This projected slowdown in Nasdaq-100 EPS growth for the latter half of 2025 suggests a potential moderation in the profit momentum of the tech-heavy index. Given the significant weight of large technology companies (like the Magnificent-7, whose earnings dates are listed nearby) within the Nasdaq-100, this deceleration could signal a period of more tempered earnings performance for these market leaders, contrasting with earlier strong earnings beats observed for the Technology sector this season.
+
+    | Sector/Index | Latest EPS Revision Ratio | 4w EPS Revision Ratio |
+    |--------------|---------------------------|-----------------------|
+    | S&P 500      | 1.3                       | 1.3                   |
+    | Tech         | 2.6                       | 2.2                   |
+    | Materials    | 2.5                       | 1.0                   |
+    | Financials   | 1.3                       | 1.4                   |
+    | Utilities    | 1.2                       | 0.8                   |
+    | Industrials  | 1.1                       | 1.7                   |
+    | Health Care  | 1.1                       | 1.4                   |
+    | Energy       | 1.1                       | 0.7                   |
+    | Discretionary| 1.0                       | 0.9                   |
+    | Telecom.     | 0.8                       | 1.8                   |
+    | Staples      | 0.7                       | 0.9                   |
+
+    Summary: This bar chart, "S&P 500 EPS revision ratio per sector," displays the "Latest" (grey bars) and "4 weeks ago" (red bars) EPS revision ratios for the S&P 500 index and ten major sectors. The X-axis lists the sectors, while the Y-axis represents the revision ratio from 0.0 to 3.0. Tech (2.6) and Materials (2.5) currently show the highest ratios, indicating strong positive earnings revision momentum, though Materials saw a significant drop from its 4-week ago level (from ~2.5 to 1.0). Conversely, Telecom. (0.8) and Staples (0.7) have the lowest latest ratios. Notably, Industrials, Health Care, and Telecom. have experienced significant increases in their ratios over the past four weeks, with Telecom. nearly doubling from 0.8 to 1.8.
+
+    Explanation: This chart provides a granular view of analyst sentiment regarding future earnings, as the EPS revision ratio is a breadth measure indicating whether more analysts are upgrading (ratio > 1.0) or downgrading (ratio < 1.0) earnings estimates. The divergence in sector-specific trends highlights shifting expectations, with some sectors like Telecom. and Industrials gaining positive momentum, while others like Materials and Energy are seeing a cooling of positive revisions. This sectoral re-evaluation of earnings forecasts likely reflects recent economic data, company performance, or sector-specific catalysts, collectively shaping the broader market's earnings outlook for the S&P 500, which itself maintains a stable 1.3 ratio.
+
+    | Sector                   | 3m fwd EPS Change (%) | 3m fwd Sales Change (%) |
+    |--------------------------|-----------------------|-------------------------|
+    | Healthcare               | -2.2%                 | 1.0%                    |
+    | Energy                   | -0.5%                 | -0.1%                   |
+    | Consumer Discretionary   | -0.2%                 | 0.8%                    |
+    | Consumer Staples         | 0.0%                  | 0.5%                    |
+    | Utilities                | 1.3%                  | 0.3%                    |
+    | Real Estate              | 1.6%                  | 0.5%                    |
+    | Industrials              | 2.5%                  | 1.5%                    |
+    | Materials                | 2.6%                  | 2.5%                    |
+    | Financials               | 3.1%                  | 0.6%                    |
+    | Tech                     | 3.9%                  | 2.9%                    |
+    | Communication Services   | 5.0%                  | 2.4%                    |
+    | S&P 500                  | 2.1%                  | 1.2%                    |
+
+    Summary: This bar chart illustrates the 3-month change in 12-month forward (fwd) EPS and Sales estimates across various S&P 500 sectors, with values ranging from -3% to 6% on the Y-axis. The X-axis lists the sectors and the overall S&P 500. A primary trend shows that most sectors have experienced positive revisions in forward EPS and Sales expectations over the last three months, particularly in Tech and Communication Services, which lead with the highest EPS revisions (3.9% and 5.0% respectively). Notably, Healthcare and Energy show negative EPS revisions, with Healthcare experiencing the largest decline at -2.2% for EPS, contrasting sharply with its positive sales revision. Financials exhibit a significant divergence, with a strong EPS revision (3.1%) but a modest sales revision (0.6%). Overall, the S&P 500 shows positive revisions of 2.1% for EPS and 1.2% for Sales.
+
+    Explanation: This chart provides insight into the directional changes in analyst expectations for future corporate profitability, as reflected in forward EPS and Sales revisions. Positive revisions, especially across a broad range of sectors and for the S&P 500 overall, suggest improving market sentiment regarding the earnings outlook. The strong performance of Tech and Communication Services aligns with the trend of these sectors driving overall market growth, as also implied by Chart 9 on Nasdaq-100 EPS growth. The divergence between EPS and Sales revisions in some sectors, such as Financials, could indicate efficiency gains or margin expansion rather than pure top-line growth.
+
+page_end
+
+    SOCIETE GENERALE 
+    Cross Asset Research                                                                                              US Equity Strategy 
+
+Chart 13. Contribution to 2025 S&P500 earnings growth per             Chart 14. Contribution to 2026 S&P500 earnings growth per 
+sector (numbers represent expected EPS growth)                        sector (numbers represent expected EPS growth) 
+    12   9.5 
+                                                                          16 13.9 16.6   - 18.4 
+            16.1    119.4 
+    10             -                                                      14                  18.2 
+                                                                          12                      16.7 
+     8 
+                                                                          10          11.91           16.6 14.8, 
+     6                   16.5                                              8                                 14.3 
+     A 4         3.2|        13.6                                          6                                     12.5 11.3 
+                                                                           4 
+     2                           11.7 6.1                                                                                 9.4 8.5 
+                                          4.2 3.6 1.2                      2                                                      7.5 
+                                                                           0 
+     0 
+     -2                                               -0.2 -2.9-11.8 
+
+                                                                                            Tech                        serv. 
+                   Tech serv.                                                                              estate 
+                                                        estate                                                            Utilities Staples 
+                                                           Energy         S&P500       Energy           Real        Com. 
+                                      Utilities    Staples Real                              Materials 
+    S&P500          Com. 
+                                         Materials                           excl.               Industrials Financials Healthcare 
+       excl.            Healthcare Industrials Financials                 500 Nasdaq-100 Nasdaq-100 
+          Nasdaq-100                                                                               Discretionary 
+     500 Nasdaq-100                        Discretionary 
+                                                                       S&P 
+ S&P 
+Source: Refinitiv, SG Cross Asset Research/Equity Strategy            Source: Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+S&P 500 EPS growth: expectations and reported                         Nasdaq-100 (NDX) EPS growth: expectations and reported 
+                                                                                      -Nasdaq-100: 12m Fwd EPS growth 
+  60%          -S&P 500: 12m Fwd EPS growth                             80% 
+                    S&P 500: 12m reported EPS growth                    60%              Nasdaq-100: 12m reported EPS growth 
+  40% 
+                                                                        40% 
+  20% 
+                                                                        20% 
+
+   0%                                                                    0% 
+
+                                                                       -20% 
+ -20% 
+                                                                       -40% 
+ -40% 
+                                                                       -60% 
+
+ -60%                                                                  -80% 
+      96 98 00 02 04 06 08 09 11        13 15 17 19 21    23 25             96 98 00 02 04 06 08 09 11        13 15 17 19 21    23 25 
+Source: Refinitiv, SG Cross Asset Research/Equity Strategy            Source: Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+S&P 500 Number of Employees                                           S&P 500 Revenue per Employees 
+
+ 120                  -S&P 500 - Employees (mn)                 120   180,000           -S&P 500 Sales per Employee (US$)         180,000 
+
+ 115                                                            115   160,000                                                     160,000 
+
+ 110                                                            110    140,000                                                     140,000 
+
+ 105                                                            105    120,000                                                     120,000 
+
+100                                                             100    100,000                                                     100,000 
+
+ 95                                                             95     80,000                                                     80,000 
+
+ 90                                                            90      60,000                                                     60,000 
+    09      12      14     16      18     20      22      24                  09     12    14     16     18    20     22     24 
+
+Source: Refinitiv, SG Cross Asset Research/Equity Strategy             Source: Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+                                   25 July 2025                                                                                         4 
+
+    | Year | Sales per Employee (US$) |
+    |------|--------------------------|
+    | 2009 | 78,000                   |
+    | 2010 | 84,000                   |
+    | 2011 | 90,000                   |
+    | 2012 | 94,000                   |
+    | 2013 | 97,000                   |
+    | 2014 | 99,000                   |
+    | 2015 | 96,000                   |
+    | 2016 | 94,000                   |
+    | 2017 | 104,000                  |
+    | 2018 | 111,000                  |
+    | 2019 | 117,000                  |
+    | 2019.5 | 118,000                  |
+    | 2020.0 | 115,000                  |
+    | 2020.5 | 113,000                  |
+    | 2021.0 | 118,000                  |
+    | 2021.5 | 125,000                  |
+    | 2022.0 | 135,000                  |
+    | 2022.5 | 140,000                  |
+    | 2023.0 | 145,000                  |
+    | 2023.5 | 150,000                  |
+    | 2024.0 | 154,000                  |
+    | 2024.5 | 156,000                  |
+
+    Summary: The chart displays the S&P 500 Sales per Employee in US dollars from 2009 to mid-2024, illustrating productivity trends over time. After an initial increase from ~$78,000 in 2009 to a peak of ~$99,000 in 2014, the metric experienced a slight dip and plateau until 2016. A steady recovery and growth followed until a minor dip in early 2020, likely due to the pandemic. Post-2020, there has been a remarkable and sustained acceleration, with Sales per Employee surging from ~$113,000 to approximately $156,000 by mid-2024, indicating significant productivity gains.
+
+    Explanation: This increasing trend in S&P 500 Sales per Employee, particularly the sharp rise since 2020, suggests enhanced corporate efficiency and productivity within the index. Coupled with the preceding chart on S&P 500 employee numbers (which showed a more stable or slightly increasing trend), this indicates that companies are generating more revenue per worker, likely through technological adoption, process optimization, or a shift towards higher-value activities. This improved productivity contributes positively to earnings growth and overall financial health for S&P 500 companies.
+
+    | Year | S&P 500 Employees (mn) |
+    |------|------------------------|
+    | 2009 | 90.8                   |
+    | 2010 | 91.5                   |
+    | 2011 | 92.5                   |
+    | 2012 | 95.8                   |
+    | 2013 | 94.2                   |
+    | 2014 | 96.5                   |
+    | 2015 | 98.5                   |
+    | 2016 | 102.0                  |
+    | 2017 | 104.0                  |
+    | 2018 | 105.8                  |
+    | 2019 | 106.5                  |
+    | 2020 | 106.8                  |
+    | 2021 | 110.5                  |
+    | 2022 | 113.0                  |
+    | 2023 | 116.5                  |
+    | 2024 | 117.5                  |
+
+    Summary: The line chart titled "S&P 500 Number of Employees" tracks the total number of employees for S&P 500 companies in millions from 2009 to 2024. The X-axis represents years, and the Y-axis indicates the employee count. The primary trend shows a consistent upward trajectory in S&P 500 employment over the past 15 years, rising from approximately 90.8 million in 2009 to 117.5 million by 2024. Notable inflections include a slight dip around 2013 and another, more pronounced flattening/slight dip around 2020, likely reflecting the impact of the COVID-19 pandemic, before resuming its strong growth trend to a new peak in 2024.
+
+    Explanation: This chart provides insight into the underlying operational growth and resource allocation within S&P 500 companies. The consistent increase in employee numbers, despite minor fluctuations, suggests sustained expansion and investment in human capital, which underpins the financial performance discussed in other charts on the page, such as EPS growth. This robust employment trend aligns with the "Corporate Activities: Firming up" theme on the subsequent page, indicating a healthy and expanding corporate sector in the US.
+
+    | Year | S&P 500: 12m Fwd EPS Growth (%) | S&P 500: 12m Reported EPS Growth (%) |
+    |------|---------------------------------|-------------------------------------|
+    | 1996 | 12%                             | 12%                                 |
+    | 1998 | 10%                             | 8%                                  |
+    | 2000 | 18%                             | 20%                                 |
+    | 2001 | -15%                            | -15%                                |
+    | 2002 | -18%                            | -12%                                |
+    | 2003 | 10%                             | 5%                                  |
+    | 2005 | 20%                             | 18%                                 |
+    | 2007 | 10%                             | 12%                                 |
+    | 2008 | -25%                            | -20%                                |
+    | 2009 | -38%                            | -35%                                |
+    | 2010 | 45%                             | 42%                                 |
+    | 2011 | 10%                             | 5%                                  |
+    | 2013 | 5%                              | 5%                                  |
+    | 2015 | -5%                             | 0%                                  |
+    | 2017 | 22%                             | 20%                                 |
+    | 2018 | 15%                             | 20%                                 |
+    | 2019 | 0%                              | 5%                                  |
+    | 2020 | -20%                            | -15%                                |
+    | 2021 | 45%                             | 50%                                 |
+    | 2022 | 10%                             | 5%                                  |
+    | 2023 | -5%                             | 0%                                  |
+    | 2024 | 12%                             | 10%                                 |
+    | 2025 | 10%                             | 8%                                  |
+
+    Summary: This line chart displays the S&P 500's 12-month Forward EPS growth and 12-month Reported EPS growth from 1996 to 2025. The Y-axis represents percentage growth, ranging from -60% to 60%. Both forward and reported EPS growth generally track each other closely, showing high volatility during periods of economic stress. Notable dips occurred around 2001-2002 (dot-com bust), 2008-2009 (Global Financial Crisis, reaching nearly -40%), and 2020 (COVID-19 pandemic, dropping to -20%), followed by sharp rebounds to over 40-50% in 2010 and 2021, respectively. The current period (2023-2025) shows a more moderate, positive growth trend for both metrics.
+
+    Explanation: This chart provides a crucial historical perspective on S&P 500 earnings, highlighting the cyclical nature and sensitivity to major economic events, a theme echoed in other EPS-focused charts on the page. The close correlation between forward-looking expectations and reported actuals suggests a market that largely incorporates available information, though forward estimates can sometimes anticipate sharper declines or recoveries. The recent moderation in EPS growth, following the post-pandemic surge, implies a return to more sustainable, albeit slower, earnings expansion compared to the extreme fluctuations of the past two decades.
+
+    | Year | Nasdaq-100: 12m Fwd EPS Growth | Nasdaq-100: 12m Reported EPS Growth |
+    |------|--------------------------------|-------------------------------------|
+    | 1996 | 10%                            | 15%                                 |
+    | 1997 | 40%                            | 30%                                 |
+    | 1998 | 20%                            | 10%                                 |
+    | 1999 | 40%                            | 35%                                 |
+    | 2000 | 45%                            | 40%                                 |
+    | 2001 | -50%                           | -55%                                |
+    | 2002 | -45%                           | -60%                                |
+    | 2003 | 55%                            | 45%                                 |
+    | 2004 | 50%                            | 60%                                 |
+    | 2005 | 15%                            | 10%                                 |
+    | 2006 | 10%                            | 15%                                 |
+    | 2007 | 10%                            | 10%                                 |
+    | 2008 | 0%                             | 0%                                  |
+    | 2009 | -25%                           | -30%                                |
+    | 2010 | 60%                            | 55%                                 |
+    | 2011 | 20%                            | 15%                                 |
+    | 2012 | 0%                             | 5%                                  |
+    | 2013 | 20%                            | 20%                                 |
+    | 2014 | 10%                            | 15%                                 |
+    | 2015 | 0%                             | 0%                                  |
+    | 2016 | 15%                            | 15%                                 |
+    | 2017 | 25%                            | 25%                                 |
+    | 2018 | 10%                            | 10%                                 |
+    | 2019 | 0%                             | 0%                                  |
+    | 2020 | 25%                            | 20%                                 |
+    | 2021 | 45%                            | 45%                                 |
+    | 2022 | 15%                            | 20%                                 |
+    | 2023 | -10%                           | -15%                                |
+    | 2024 | 35%                            | 30%                                 |
+    | 2025 | 20%                            | 15%                                 |
+
+    Summary: This line chart, titled "Nasdaq-100 (NDX) EPS growth: expectations and reported," displays the annual percentage change in 12-month forward EPS growth and 12-month reported EPS growth for the Nasdaq-100 index from 1996 to 2025. The X-axis represents time, while the Y-axis shows the growth rate ranging from -80% to 80%. Both forward (dark green) and reported (light gray) EPS growth rates exhibit significant volatility and generally track each other closely, reflecting the highly cyclical nature of the technology-heavy Nasdaq-100. Notable inflection points include sharp declines during the dot-com bust (2000-2002) and the Global Financial Crisis (2008-2009), followed by robust recoveries peaking around 2004 and 2010-2011. A more recent decline in 2023 is followed by an expected rebound into 2024 and 2025, though with a deceleration in growth from the peak of 2021.
+
+    Explanation: This chart provides a crucial perspective on the earnings health and outlook for the Nasdaq-100, which is heavily weighted towards technology and growth companies. The close correlation between forward and reported EPS growth suggests that analysts' expectations tend to align with actual outcomes over time, though forward estimates may sometimes lead or lag reported results during periods of rapid change. The extreme fluctuations underscore the sensitivity of these growth-oriented companies to broader economic cycles and innovation trends, supporting the surrounding context on corporate activities and earnings revisions found elsewhere in the report.
+
+    | Category                  | Expected EPS Growth (%) |
+    |---------------------------|-------------------------|
+    | S&P500                    | 9.5                     |
+    | Nasdaq-100                | 16.1                    |
+    | S&P 500 excl. Nasdaq-100  | 3.2                     |
+    | Tech                      | 19.4                    |
+    | Com. serv.                | 16.5                    |
+    | Healthcare                | 13.6                    |
+    | Industrials               | 11.7                    |
+    | Financials                | 6.1                     |
+    | Utilities                 | 4.2                     |
+    | Materials                 | 3.6                     |
+    | Discretionary             | 1.2                     |
+    | Staples                   | -0.2                    |
+    | Real estate               | -2.9                    |
+    | Energy                    | -11.8                   |
+
+    Summary: This chart, titled "Contribution to 2025 S&P500 earnings growth per sector," illustrates the expected EPS growth percentages across various market indices and S&P 500 sectors for the year 2025. The Y-axis represents the expected EPS growth in percentage. Key trends show that Technology (19.4%) and Communication Services (16.5%) are projected to be the strongest contributors to growth, while sectors like Staples (-0.2%), Real Estate (-2.9%), and especially Energy (-11.8%) are expected to see negative growth. The Nasdaq-100's expected growth (16.1%) significantly outpaces the overall S&P 500 (9.5%), and the S&P 500 excluding Nasdaq-100 shows a much lower growth rate of 3.2%, highlighting the outsized impact of Nasdaq-100 components.
+
+    Explanation: The data underscores a bifurcated outlook for 2025 S&P 500 earnings growth, heavily skewed towards technology and related sectors. This concentration of growth in a few dominant sectors suggests that broader market EPS performance is highly reliant on the continued strong performance of these areas, echoing trends observed in previous periods of tech leadership.
+
+    | Category                  | Expected EPS Growth (%) |
+    |---------------------------|-------------------------|
+    | S&P500                    | 13.9                    |
+    | Nasdaq-100                | 16.6                    |
+    | S&P 500 excl. Nasdaq-100  | 11.9                    |
+    | Energy                    | 18.4                    |
+    | Tech                      | 18.2                    |
+    | Materials                 | 16.7                    |
+    | Industrials               | 16.6                    |
+    | Discretionary             | 14.8                    |
+    | Real estate               | 14.3                    |
+    | Financials                | 12.5                    |
+    | Healthcare                | 11.3                    |
+    | Com. serv.                | 9.4                     |
+    | Utilities                 | 8.5                     |
+    | Staples                   | 7.5                     |
+
+    Summary: This waterfall-style chart illustrates the expected EPS growth rates for 2026 across major US market indices and individual S&P 500 sectors. The X-axis lists the indices/sectors, while the Y-axis quantifies expected EPS growth in percentages. A dashed line separates the aggregate indices (S&P 500, Nasdaq-100, S&P 500 excluding Nasdaq-100) from the individual sectors. The data reveals that Energy (18.4%) and Tech (18.2%) are projected to lead earnings growth significantly, well above the overall S&P 500 (13.9%), while defensive sectors like Utilities (8.5%) and Staples (7.5%) show the lowest growth expectations.
+
+    Explanation: This chart, when viewed alongside Chart 13 (which shows 2025 projections), suggests a notable broadening of expected S&P 500 earnings growth in 2026. While Technology and Energy sectors continue to be strong drivers, the significant rise in expected EPS growth for "S&P 500 excl. Nasdaq-100" from 3.2% in 2025 to 11.9% in 2026 indicates a more widespread recovery in corporate profitability beyond just the largest tech companies.
+
+page_end
+
+     SOCIETE GENERALE 
+    Cross Asset Research                                                                                             US Equity Strategy 
+
+                                   Corporate Activities: Firming up 
+
+S&P 500: Leverage ratio: Lowest since 2015                           S&P 500 buyback +16% and Dividends +6% over last 12-months 
+
+                -Net Debt to EBITDA - Debt to Total Assets, rhs 34%     USD Bn 
+                                                                                                       -Dividends            USD Bn 
+  2.1                                                                                         Buyback 
+                                                                        1200                                                    1200 
+                                                              32% 
+  1.9 
+                                                                        1000                                                    1000 
+                                                             30% 
+  1.7 
+                                                                         800                                                    800 
+                                                             28% 
+  1.5 
+                                                                         600                                                    600 
+                                                             26% 
+  1.3 
+                                                                         400                                                    400 
+  1.1                                                        24% 
+
+                                                                         200                                                    200 
+  0.9                                                         22% 
+                                                                           0                                  -                 0 
+  0.7                                                         20% 
+    99 01   03   05 07   09 11   13   15 17   19 21    23 25                 90 93   96 99   02 05   08 11   14 17   20 23    26 
+
+Source: Bloomberg, FactSet, SG Cross Asset Research/Equity Strategy Source: FactSet, Refinitiv, SG Cross Asset Research/Equity Strategy 
+
+Capex to Sales is strong for Tech but improving for ex-Tech          Corporate activities (M&A + IPO), +23% last 12-month 
+sectors too 
+
+            S&P 500 (ex Tech, Comm., Fins)    S&P 500 (Ex-Fins) 
+                                                                             US Corporate Activities - Rolling 12m average (US$ Bn) 
+  8.5% 
+
+                                                                                                                     Meme stocks peak 
+                                                                        700 
+                                                                                                            Trump 1.0 
+  7.5% 
+                                                                        600 
+                                                                        500                GFC Peak 
+
+  6.5%                                                                  400 TMT Peak 
+
+                                                                        300 
+                                                                        200 
+  5.5% 
+                                                                        100 
+
+                                                                          0 
+  4.5%                                                                      99 01   03 05   07 09   11 13   15 17   19 21   23 25 
+      93 95 96 98 99 01 02 03 05 06 08 09 10 12 13 15 16 18 19 20 22 23 25 
+
+Source: Bloomberg, FactSet, SG Cross Asset Research/Equity Strategy Source: Bloomberg, FactSet, SG Cross Asset Research/Equity Strategy 
+
+                                  25 July 2025                                                                                        5 
+
+    | Year | US Corporate Activities (US$ Bn) | Annotation |
+    |---|---|---|
+    | 1999 | 230 | |
+    | 2000 | 300 | TMT Peak |
+    | 2002 | 100 | |
+    | 2004 | 200 | |
+    | 2007 | 400 | GFC Peak |
+    | 2009 | 130 | |
+    | 2011 | 200 | |
+    | 2013 | 240 | |
+    | 2016 | 550 | |
+    | 2017 | 500 | Trump 1.0 |
+    | 2019 | 400 | |
+    | 2021 | 680 | Meme stocks peak |
+    | 2023 | 320 | |
+    | 2025 | 450 | |
+
+    Summary: This line chart tracks the US Corporate Activities, comprising M&A and IPOs, as a rolling 12-month average in billions of US dollars from 1999 to 2025. The Y-axis ranges from 0 to 700 US$ Bn. The chart illustrates significant cycles in corporate activity, starting from a peak around $300bn during the TMT era in 2000, falling to a trough of $100bn by 2002. A subsequent peak around $400bn occurred during the GFC era in 2007, followed by another sharp decline. Corporate activities experienced a robust resurgence from 2009, peaking at over $550bn in 2016 before a slight dip (labeled "Trump 1.0" at $500bn in 2017), and then surging to an all-time high near $680bn in 2021 (labeled "Meme stocks peak"). After this peak, activities declined sharply to a recent trough of $320bn in 2023 but have since shown a significant rebound, currently reaching around $450bn in 2025.
+
+    Explanation: The chart demonstrates the cyclical nature of US corporate activities (M&A + IPOs) and indicates that, after a post-Meme Stocks peak decline, this sector is now in the "early stages of coming back," as stated in the broader context. This firming up of corporate activities, including a reported +23% increase over the last 12 months, provides a positive backdrop for US equities. This trend, combined with expectations of a Fed rate-cutting cycle and a positive regulatory environment, is seen as offsetting valuation concerns, supporting a positive outlook for the S&P 500.
+
+    | Year | Buyback (USD Bn) | Dividends (USD Bn) |
+    |------|------------------|--------------------|
+    | 1990 | 50               | 60                 |
+    | 1993 | 70               | 80                 |
+    | 1996 | 100              | 100                |
+    | 1998 | 200              | 110                |
+    | 2000 | 150              | 120                |
+    | 2002 | 150              | 130                |
+    | 2005 | 250              | 180                |
+    | 2007 | 550              | 250                |
+    | 2008 | 600              | 280                |
+    | 2009 | 350              | 260                |
+    | 2011 | 400              | 300                |
+    | 2013 | 500              | 350                |
+    | 2015 | 600              | 420                |
+    | 2017 | 650              | 480                |
+    | 2018 | 900              | 500                |
+    | 2019 | 800              | 520                |
+    | 2020 | 550              | 530                |
+    | 2021 | 800              | 570                |
+    | 2022 | 1100             | 600                |
+    | 2023 | 900              | 650                |
+    | 2025 | 1000             | 700                |
+
+    Summary: This line chart illustrates the historical trends of S&P 500 corporate Buybacks and Dividends, measured in USD Billions, from 1990 to an projected 2026. Dividends (red line) show a remarkably consistent and steady upward trajectory, experiencing only minor dips, such as a slight slowdown around the 2008 financial crisis. In contrast, Buybacks (grey line) exhibit much higher volatility and growth, characterized by sharp peaks and troughs correlating with economic cycles, notably peaks around 1999 (dot-com), 2008 (pre-GFC), 2018, and a significant new high of over $1.1 trillion in 2022. While buybacks generally exceed dividends, the gap has widened substantially since the mid-2000s, though both show strong recovery and growth post-2020.
+
+    Explanation: The chart's trends align with the overall theme of "Corporate Activities: Firming up" on the page, indicating robust corporate financial health and shareholder returns. The context notes a significant increase in S&P 500 buybacks (+16%) and dividends (+6%) over the last 12 months, reflecting companies' willingness and capacity to return capital to shareholders. This suggests a positive outlook on corporate policy, further supported by the accompanying text stating these activities "offsets the valuation concern until the FED rate cutting-cycle is closer to the end."
+
+    | Year | Net Debt to EBITDA | Debt to Total Assets |
+    |:-----|:-------------------|:---------------------|
+    | 1999 | 1.80               | 27.0%                |
+    | 2000 | 1.85               | 27.5%                |
+    | 2001 | 1.95               | 28.0%                |
+    | 2002 | 1.80               | 28.5%                |
+    | 2003 | 1.70               | 29.0%                |
+    | 2004 | 1.45               | 26.5%                |
+    | 2005 | 0.95               | 22.0%                |
+    | 2006 | 0.80               | 21.0%                |
+    | 2007 | 0.75               | 20.5%                |
+    | 2008 | 0.90               | 21.5%                |
+    | 2009 | 1.25               | 25.0%                |
+    | 2010 | 1.00               | 23.0%                |
+    | 2011 | 0.80               | 21.5%                |
+    | 2012 | 0.95               | 22.5%                |
+    | 2013 | 1.15               | 24.5%                |
+    | 2014 | 1.30               | 25.5%                |
+    | 2015 | 1.45               | 27.0%                |
+    | 2016 | 1.75               | 29.0%                |
+    | 2017 | 1.80               | 30.5%                |
+    | 2018 | 1.90               | 31.5%                |
+    | 2019 | 1.95               | 32.0%                |
+    | 2020 | 2.05               | 31.0%                |
+    | 2021 | 1.75               | 29.5%                |
+    | 2022 | 1.60               | 28.5%                |
+    | 2023 | 1.50               | 28.0%                |
+    | 2024 | 1.45               | 28.0%                |
+    | 2025 (early) | 1.30               | 27.5%                |
+    | 2025 (mid) | 1.05               | 27.5%                |
+
+    Summary: This chart, titled "S&P 500: Leverage ratio: Lowest since 2015," illustrates the historical trends of S&P 500 companies' Net Debt to EBITDA (left Y-axis) and Debt to Total Assets (right Y-axis) ratios from 1999 to mid-2025. Both leverage ratios generally declined from early 2000s peaks until troughs around 2007-2008, followed by a steady increase that peaked again around 2019-2020. Post-2020, both indicators show a declining trend, with Net Debt to EBITDA experiencing a sharp drop in early 2025 to its lowest point since 2015.
+
+    Explanation: The recent significant decline in S&P 500 leverage ratios, particularly Net Debt to EBITDA, indicates a strengthening balance sheet among US corporates. This deleveraging trend, as highlighted in the broader context on page 6, is a positive factor for the US equity outlook, helping to mitigate concerns related to market valuations.
+
+    | Year | S&P 500 (ex Tech, Comm., Fins) % | S&P 500 (Ex-Fins) % |
+    |---|---|---|
+    | 1993 | 6.0 | 6.5 |
+    | 1995 | 6.4 | 6.8 |
+    | 1996 | 6.8 | 7.1 |
+    | 1998 | 6.5 | 7.0 |
+    | 1999 | 7.2 | 7.5 |
+    | 2001 | 7.7 | 8.1 |
+    | 2002 | 7.7 | 8.2 |
+    | 2003 | 5.8 | 5.9 |
+    | 2005 | 5.5 | 5.7 |
+    | 2006 | 6.1 | 6.3 |
+    | 2008 | 6.6 | 6.8 |
+    | 2009 | 5.5 | 5.6 |
+    | 2010 | 6.0 | 6.2 |
+    | 2012 | 6.5 | 6.8 |
+    | 2013 | 6.7 | 6.9 |
+    | 2015 | 6.9 | 7.2 |
+    | 2016 | 6.3 | 6.5 |
+    | 2018 | 6.5 | 6.7 |
+    | 2019 | 6.1 | 6.4 |
+    | 2020 | 5.0 | 5.6 |
+    | 2022 | 5.7 | 6.5 |
+    | 2023 | 6.0 | 6.8 |
+    | 2025 | 6.2 | 7.4 |
+
+    Summary: This line chart, titled "Capex to Sales is strong for Tech but improving for ex-Tech sectors too", displays the Capex to Sales ratio for two segments of the S&P 500 from 1993 to 2025. The Y-axis represents the percentage ratio, ranging from 4.5% to 8.5%, while the X-axis denotes the years. The red line tracks "S&P 500 (Ex-Fins)," consistently showing higher Capex to Sales ratios than the grey line representing "S&P 500 (ex Tech, Comm., Fins)." Both series exhibit cyclical patterns, peaking around 2001-2002, 2008, and 2015, followed by significant declines, notably hitting troughs around 2003, 2009, and 2020. Post-2020, both ratios show a strong recovery, with the "S&P 500 (Ex-Fins)" segment showing a steeper recent increase, projected to reach 7.4% by 2025, while the "S&P 500 (ex Tech, Comm., Fins)" also improves but remains at a lower level around 6.2%.
+
+    Explanation: The chart illustrates a positive trend in corporate capital expenditure relative to sales across various S&P 500 sectors, signaling increasing investment. The strong recovery in the "S&P 500 (Ex-Fins)" ratio, which includes Technology, reinforces the observation that Capex for tech-heavy sectors is robust. Simultaneously, the improving "S&P 500 (ex Tech, Comm., Fins)" ratio indicates that capital spending is broadening across other industries, aligning with the page's broader theme of "Corporate Activities: Firming up" and suggesting a healthy investment cycle supporting earnings growth and revenue per employee.
+
+page_end
+
+ SOCIETE GENERALE 
+Cross Asset Research                                                                                                                  US Equity Strategy 
+
+                                    SG View on                   US Equities 
+
+                                    US Equity Outlook 
+
+                                     Indicators            Impact on Risk Assets   Comments 
+                                     Macro fundamentals 
+                                     GDP & Inflation                =              GDP growth slowing vs. last 2 years; Inflation higher but stable 
+                                     Liquidity                      +              Fed on the verge of rate cutting cycle (4 cuts expected in 1 year) 
+                                     US Political risk               =             Far from midterm elections 
+                                     Geopolitical risk               +             Trade war, tension in the Middle East 
+                                     Earnings growth 
+                                     Sales growth                    +             Sales growth steady at +5% 
+                                     Corporate margins               +             At new highs; Revenue per Employee rising 
+                                     EPS vs. Rest of the W           +             S&P 500 at 30-year highs vs. Global EPS cycle 
+                                     Valuation 
+                                     vs History                     --             22x 12m Fwd PE vs. long-term average of 16x 
+                                     vs Bond Yield                                  Equity Risk Premium near cycle-lows but not in 'bubble' territory 
+                                     vs RoW                          -              1.5x more expensive than Europe 
+                                     Corporate Policy 
+                                     Balance sheet                  ++             Privat sector leverage is falling and net-debt equity ratio is lowest since 2014 
+                                     Dividend                       =              Dividend yield at 1.2% but growing at 6.6% last 12-months 
+                                     Buybacks                        =              Net Buyback yield at 1.5%, growing at 16% last 12-motnhs 
+                                     M&A                             +             M&A Cycle is in early stages of coming back; Regulatory backdrop is net positive 
+                                     Flows                           +             Strong inflows into Equities and Fixed Income funds (+$380bn YTD) 
+                                                                                   S&P 500 growth backdrop, increase in coprorate activities offsets the 
+                                       SG House View                 + 
+                                                                                   valuation concern until the FED rate cutting-cycle is closer to the end 
+                                    Source: SG Cross Asset Research/Equity Strategy 
+
+                                    25 July 2025                                                                                                           6 
+page_end
+
+      SOCIETE GENERALE 
+                                                                                                                                                 US Equity Strategy 
+     Cross Asset Research 
+
+                                           SG Turning Point Signals 
+
+                                                                                                                                       S&P 500 
+SG Breadth of x-asset Indicator summary                                               SG Breadth of x-asset Indicator with 
+                                        18-Jul-25     11-Jul-25      04-Jul-25 
+  Equities                                                                               6400                                                                    6400 
+                                                                                                  S&P 500 
+  Cyclical vs Defensive                                                 + 
+                                                                                         6200                                                                    6200 
+  High vs Low Risk                        +             +               + 
+  % of members > 50d                      +              + 
+                                                                                         6000                                                                    6000 
+  Credit                                                 +              + 
+  US HY                                                                                  5800                                                                    5800 
+                                                         +              + 
+  Euro HY                                 + 
+  Commodities                                                                            5600                                                                    5600 
+  Copper vs Gold                                                        + 
+                                                                                         5400                                                                    5400 
+   Oil                                    +              + 
+  FX                                                                                     5200                                                                    5200 
+  AUD                                                    +              + 
+                                                                        +                5000                                                                    5000 
+  SEK 
+                                           + 
+                                                         +              +                                                                                        4800 
+   Cryptocurrencies                                                                      4800                                                                07/25 
+                                                                                               02/24 03/24 04/24 05/24      10/24 11/24    02/25 03/25 05/25 
+  Volatility 
+  VIX (inverted)                           +                            +                                     06/24 07/24 08/24 09/24 12/24 01/25 04/25 06/25 
+  % Positive                             55%           64%            91% 
+                                                                                                                  Breadth of Cross-Asset Indicator: from red (0%) to blue (100%). 
+ SG Breadth of Cross-Asset Indicator: percentage of cross-asset signals that have a positive 4-weeks change. Colors refers to the SG 
+Latest data as of 07/02/2025. Source: Bloomberg, Refinitiv SG Cross Asset Research/Equity Strategy 
+
+S&P 500 EPS revisions                                                                  S&P 500 EPS revisions per sector 
+                                                                                                   - 
+ 5.0                                                                          70         3.0 
+            S&P 500 YoY%, Right HS                                     %                             2.6    2.5 
+                                                                             60 
+                                                                                         2.5                                                       Latest 
+ 4.0                                                                         50 
+                                                                                                                                                   1w ago 
+                                                                                         2.0 
+                                            ERR, weekly data                 40 
+ 3.0                                                                                                               1.3 
+                                                                              30         1.5   1.3                      1.2    1.1 
+                                                                                                                                      1.1   1.1 
+                                                                                                                                                   1.0 
+                                                                              20          1.0                                                           0.8    0.7 
+  2.0 
+                                                                              10 
+                                                                                         0.5 
+                                                                              0 
+  1.0 
+                                                                                          0.0 
+                                                                            - - 10 
+                       ERR, 3m average 
+  0.0                                                                         -20              500 
+                                                                                                    Tech                            Care 
+                                                                                           S&P 
+                                                                                                                      Utilities          Energy             Staples 
+                                                              01/25 07/25                               Materials              Health               Telecom. 
+  07/20 01/21   07/21 01/22 07/22 01/23   07/23 01/24 07/24                                                  Financials 
+ Source: SG Cross Asset Research/Equity Strategy                                       Source: Refinitiv, SG Cross Asset Research/Equity Industrials Strategy 
+
+                                                                                                                                          Discretionary 
+
+                                                                                                                                     vs. Defensives 
+ SG Global Cycle indicator: still above average and saw first                          SG Sector Signals: Neutral Cyclical 
+ improvement since Q4'24 
+
+    2.5                                                                       2.5 
+                                SG Global Cycle Indicator 
+    2.0                                                                       2.0         SG Sector Signals: July'25                 Factor ranking (1= best) 
+                                                                                                                                            Price   Contrarian to 
+    1.5                                                                       1.5         Sector             Signal   Overall rank Earnings Momentum sell-side Macro 
+                                                                                                                                                    ratings shifts 
+    1.0                                                                       1.0 
+                                                                                          Staples           Bullish      1         9          6         1         1 
+                                                                                                            Bullish       2         5         9         2         3 
+    0.5                                                                       0.5         Real Estate 
+                               Trump 1.0 Tariffs                                          Industrials       Bullish       3         4        2          6         9 
+    0.0                                                                       0.0         Communication     Bullish      A 4        3         1         9         8 
+                                                                                          Utilities         Neutral       5         8         5         7         2 
+   -0.5                                                                       -0.5                                                                      8         10 
+                                                                                          Technology        Neutral      6          1         3 
+                                                                                          Financials        Neutral       7         2         4        10         7 
+   -1.0                                                                       -1.0 
+                                                                                          Health Care       Bearish       8         6        11         5         4 
+                                                                                                                                              7        11         5 
+   -1.5                                                                       -1.5        Materials         Bearish      9          7 
+                                                                                          Energy            Bearish      10        11        10         4         6 
+   -2.0                                                                       -2.0                                                                      3         11 
+                                                                                          Discretionary     Bearish      11        10         8 
+                 FED Capitulation 
+    -2.5                                                                      -2.5 
+         15          17           19           21          23           25 
+                                                                                                                    Research/Equity Strategy. Four-factor framework. 1) Earnings = 
+ Source: Refinitiv, Bloomberg, OECD, SG Cross Asset Research/Equity Strategy            Source: Refinitiv, SG Cross Asset 
+                                                                                        EPS revision ratio (breadth measure) and EPS momentum (magnitude measure). 2) Price 
+                                                                                        momentum = 3- and 6-month changes. 3) Sell-side ratings revision: current vs 12-month average. 
+                                                                                        4) Macro = beta preference against the SG Global Cycle Indicator. 
+
+                                                                                                                                                                         7 
+                                            25 July 2025 
+
+    | Year | SG Global Cycle Indicator | Event |
+    |---|---|---|
+    | 2015.0 | -0.4 | |
+    | 2015.5 | 0.0 | |
+    | 2016.0 | 0.5 | |
+    | 2016.5 | 0.8 | |
+    | 2017.0 | 1.2 | |
+    | 2017.5 | 1.0 | |
+    | 2018.0 | 0.5 | |
+    | 2018.5 | -0.5 | Trump 1.0 Tariffs |
+    | 2018.8 | -1.5 | FED Capitulation |
+    | 2019.0 | -1.2 | |
+    | 2019.5 | -0.7 | |
+    | 2020.0 | 0.8 | |
+    | 2020.5 | 1.3 | |
+    | 2021.0 | 1.6 | |
+    | 2021.5 | 1.0 | |
+    | 2022.0 | -0.5 | |
+    | 2022.5 | -1.7 | |
+    | 2023.0 | -1.5 | |
+    | 2023.5 | 0.0 | |
+    | 2024.0 | 1.0 | |
+    | 2024.5 | 0.9 | |
+    | 2025.0 | 0.8 | |
+
+    Summary: This line chart displays the SG Global Cycle Indicator from 2015 to 2025, with years on the X-axis and indicator values (ranging from -2.5 to 2.5) on the Y-axis. The indicator exhibits a distinct cyclical pattern, characterized by significant peaks around 2017 (1.2) and 2021 (1.6), and sharp troughs in late 2018 (-1.5, associated with "FED Capitulation" and "Trump 1.0 Tariffs") and mid-2022 (-1.7). Currently, in 2025, the indicator is positive, hovering around 0.8, showing a recovery trend from its 2022 low.
+
+    Explanation: The chart illustrates the fluctuating but recently improving health of the global economic cycle. As stated in the chart's title, the SG Global Cycle Indicator is "still above average and saw first improvement since Q4'24." This positive trend in a key macro indicator aligns with and supports Societe Generale's "SG House View" for US Equities, which is broadly positive due to a supportive growth backdrop and increasing corporate activity.
+
+    | Sector        | Latest EPS Revision | EPS Revision (1w ago) |
+    |---------------|---------------------|-----------------------|
+    | S&P 500       | 1.3                 | 1.3                   |
+    | Tech          | 2.6                 | 1.8                   |
+    | Materials     | 2.5                 | 1.7                   |
+    | Financials    | 1.3                 | 1.2                   |
+    | Utilities     | 1.2                 | 0.9                   |
+    | Industrials   | 1.1                 | 1.4                   |
+    | Health Care   | 1.1                 | 1.0                   |
+    | Energy        | 1.1                 | 1.2                   |
+    | Discretionary | 1.0                 | 1.0                   |
+    | Telecom.      | 0.8                 | 2.1                   |
+    | Staples       | 0.7                 | 0.8                   |
+
+    Summary: This bar chart displays S&P 500 and sector-specific EPS (Earnings Per Share) revisions, comparing the "Latest" values with those from "1w ago". The Y-axis represents the EPS revision magnitude. Technology and Materials show the highest "Latest" revisions at 2.6 and 2.5 respectively, considerably above the overall S&P 500 average of 1.3. A notable shift is observed in Telecom. which experienced a significant negative revision, plummeting from 2.1 a week ago to 0.8 currently, making it the lowest performer. Industrials also saw a moderate decline in revisions, while most other sectors remained relatively stable or showed minor changes.
+
+    Explanation: This chart, detailing S&P 500 EPS revisions per sector, offers a crucial granular view complementing the broader S&P 500 EPS trends presented elsewhere on the page. The varying EPS revision momentum across sectors, such as the strong upward trend in Tech and Materials versus the sharp decline in Telecom., directly influences the "SG Sector Signals" ranking, which evaluates sectors based on earnings momentum and other factors. Such detailed insights into sector-specific earnings outlooks are vital for informing allocation strategies and understanding the market's underlying health, especially when assessing the "Neutral Cyclical vs. Defensives" signal.
+
+    | Date   | S&P 500 YoY% (%) | ERR Weekly Data (%) | ERR 3m Avg (%) |
+    |--------|------------------|---------------------|----------------|
+    | 07/20  | 0.5              | 5                   | -5             |
+    | 10/20  | 2.0              | 15                  | 10             |
+    | 01/21  | 2.1              | 20                  | 15             |
+    | 04/21  | 4.5              | 50                  | 28             |
+    | 07/21  | 3.0              | 30                  | 26             |
+    | 10/21  | 2.0              | 15                  | 18             |
+    | 01/22  | 1.0              | 0                   | 5              |
+    | 04/22  | 0.5              | -10                 | -5             |
+    | 07/22  | 0.0              | -10                 | -10            |
+    | 10/22  | -0.5             | -5                  | -8             |
+    | 01/23  | -0.5             | 0                   | -2             |
+    | 04/23  | 1.0              | 15                  | 5              |
+    | 07/23  | 2.0              | 30                  | 10             |
+    | 10/23  | 2.5              | 25                  | 15             |
+    | 01/24  | 3.0              | 35                  | 20             |
+    | 04/24  | 3.5              | 30                  | 25             |
+    | 07/24  | 3.0              | 20                  | 20             |
+    | 10/24  | 2.0              | 10                  | 10             |
+    | 01/25  | 0.5              | -5                  | -5             |
+    | 04/25  | 1.5              | 10                  | -2             |
+    | 07/25  | 1.8              | 5                   | -0.5           |
+
+    Summary: This line chart, spanning from July 2020 to July 2025, illustrates the S&P 500 Year-over-Year percentage change (left axis) against the Earnings Revision Ratio (ERR) (right axis). The ERR is presented as volatile weekly data (grey shaded area) and a smoother 3-month average (red line). Both S&P 500 YoY% and ERR show cyclical patterns, peaking in mid-2021 and early-to-mid 2024, and reaching troughs in mid-2022/early 2023. Notably, the S&P 500 YoY% peaked near 4.5% while ERR weekly data exceeded 50% in Q2 2021, followed by a period where both turned negative. After a rebound and peak in early 2024, both indicators experienced a sharp decline into early 2025, with ERR turning negative again, before showing a modest rebound by July 2025.
+
+    Explanation: This chart on "S&P 500 EPS revisions" is a key component of Societe Generale's "US Equity Strategy" and "SG Turning Point Signals." Earnings revisions are considered a forward-looking indicator for equity market performance. The recent rebound in both the S&P 500 YoY% and ERR suggests an improving outlook for corporate earnings, which could support a more positive stance on US equities, aligning with the broader "SG House View" for strong inflows into equities mentioned elsewhere in the report.
+
+    | Date | S&P 500 Index | Cross-Asset Indicator Breadth |
+    |---|---|---|
+    | Feb 2024 | 5000 | High (Blue) |
+    | Mar 2024 | 5150 | Mixed |
+    | Apr 2024 | 5200 | Mixed / Low (Red) |
+    | May 2024 | 5100 | High (Blue) |
+    | Jun 2024 | 5400 | Mixed |
+    | Jul 2024 | 5600 | High (Blue) |
+    | Aug 2024 | 5400 | Mixed / Low (Red) |
+    | Sep 2024 | 5650 | High (Blue) |
+    | Oct 2024 | 5800 | High (Blue) |
+    | Nov 2024 | 5950 | High (Blue) |
+    | Dec 2024 | 6050 | High (Blue) |
+    | Jan 2025 | 6100 | High (Blue) |
+    | Feb 2025 | 6150 | Mixed / Low (Red) |
+    | Mar 2025 | 5800 | Low (Red) |
+    | Apr 2025 | 5200 | Low (Red) |
+    | May 2025 | 5800 | High (Blue) |
+    | Jun 2025 | 6000 | High (Blue) |
+    | Jul 2025 | 6300 | High (Blue) |
+
+    Summary: This chart displays the S&P 500 index performance from February 2024 to July 2025 (left and right Y-axes) as a black line, overlaid on a background of vertical bars representing the "Breadth of Cross-Asset Indicator." The indicator's color ranges from red (0% positive signals, low breadth) to blue (100% positive signals, high breadth). The S&P 500 showed a steady upward trend until early 2025, reaching a peak around 6150 in February 2025, coinciding with mostly high breadth. A sharp correction occurred from February to April 2025, dropping to about 5200, during which the indicator was predominantly low (red). Subsequently, the S&P 500 rebounded strongly, reaching new highs above 6300 by July 2025, supported by a return to high cross-asset breadth.
+
+    Explanation: The chart visualizes "SG Turning Point Signals" for the S&P 500, suggesting that the "Breadth of Cross-Asset Indicator" serves as a crucial sentiment gauge. Periods of low breadth (red), indicating a small percentage of cross-asset signals with positive 4-week changes, appear to correspond with significant market downturns, such as the major correction witnessed in Q1 2025. Conversely, high breadth (blue) is consistently associated with periods of market recovery and sustained growth, underscoring the importance of broad-based positive market momentum for equity performance.
+
+page_end
+
+SOCIETE GENERALE 
+Cross Asset Research                                                                                                               US Equity Strategy 
+
+  Global Head of Economics, 
+  Cross-Asset & Quant Research 
+  Kokou Agbo Bloua 
+  +44 20 7762 5433 
+  kokou.agbo-bloua@sgcib.com 
+
+                                        CROSS ASSET RESEARCH - EQUITY STRATEGY 
+
+  Global Head of Equity strategy - Paris 
+  Charles de Boissezon 
+   +33 42 13 58 41 
+  charles.de-boissezon@sgcib.com 
+
+  Head of European Equity strategy - Paris Equity strategist (Europe)- Paris     Equity strategist - Paris               Head of US Equity strategy - London 
+  Roland Kaloyan                           Kevin Redureau                        Henri Quadrelli                         Manish Kabra 
+  +33 1 58 98 04 88                        +33 1 58 98 02 30                     +33 1 42 13 37 33                       +44 20 77624243 
+  roland.kaloyan@sgcib.com                 kevin.redureau@sgcib.com              henri.quadrelli@sgcib.com               manish.kabra@sgcib.com 
+
+  Head of Asia Equity strategy             Asia Equity strategist                 Equity strategist                      Japan equity strategist 
+  Frank Benzimra                           Rajat Agarwal                         Makhdoom M. Raina                       Tsutomu Saito 
+  +852 2166 4309                           +91 80 6731 5184                       +91 80 6731 1232                       +81 3 6777 8710 
+  frank.benzimra@sgcib.com                 rajat.agarwal@sgcib.com               makhdoom-muteeb.raina@sgcib.com         tsutomu.saito@sgcib.com 
+
+                                   25 July 2025                                                                                                         8 
+
+    The provided image `page_8_fig_1.jpg` does not contain any financial charts, graphs, or structured data. It appears to be a photo of a person. Therefore, it is not possible to extract a Markdown table or provide a summary and explanation of financial trends from this image.
+
+    | Name | Title | Region/Location | Phone | Email |
+    |---|---|---|---|---|
+    | Kokou Agbo Bloua | Global Head of Economics, Cross-Asset & Quant Research | Global | +44 20 7762 5433 | kokou.agbo-bloua@sgcib.com |
+    | Charles de Boissezon | Global Head of Equity strategy | Paris | +33 42 13 58 41 | charles.de-boissezon@sgcib.com |
+    | Roland Kaloyan | Head of European Equity strategy | Paris | +33 1 58 98 04 88 | roland.kaloyan@sgcib.com |
+    | Kevin Redureau | Equity strategist (Europe) | Paris | +33 1 58 98 02 30 | kevin.redureau@sgcib.com |
+    | Henri Quadrelli | Equity strategist | Paris | +33 1 42 13 37 33 | henri.quadrelli@sgcib.com |
+    | Manish Kabra | Head of US Equity strategy | London | +44 20 77624243 | manish.kabra@sgcib.com |
+    | Frank Benzimra | Head of Asia Equity strategy | Asia | +852 2166 4309 | frank.benzimra@sgcib.com |
+    | Rajat Agarwal | Asia Equity strategist | Asia | +91 80 6731 5184 | rajat.agarwal@sgcib.com |
+    | Makhdoom M. Raina | Equity strategist | Asia | +91 80 6731 1232 | makhdoom-muteeb.raina@sgcib.com |
+    | Tsutomu Saito | Japan equity strategist | Japan | +81 3 6777 8710 | tsutomu.saito@sgcib.com |
+
+    Summary: The provided image `page_8_fig_2.jpg` is a headshot of Manish Kabra, the Head of US Equity Strategy in London, serving as a visual component within an organizational directory. The surrounding full-page context, which the figure is a part of, presents structured contact information for key personnel in Societe Generale's Cross Asset Research - Equity Strategy department as of July 25, 2025. The data dimensions include analyst names, their specialized titles (e.g., Global Head, regional equity strategy heads, and equity strategists), and their respective geographical locations (Paris, London, Asia, Japan), along with direct contact details (phone numbers and email addresses). This section functions as an informational registry rather than a financial chart showing trends or shifts.
+
+    Explanation: This detailed contact list for the Cross Asset Research - Equity Strategy team at Societe Generale provides essential organizational context for the associated financial reports. It clearly outlines the global presence and specialized roles within the research team, highlighting the comprehensive coverage from economics and quantitative research to specific equity markets in key regions like Europe, the US, and Asia. This structure underscores the expertise and diverse perspectives contributing to the analysis and insights presented throughout the broader document.
+
+    | N/A | N/A | N/A |
+    |---|---|---|
+    | The attached image `page_8_fig_3.jpg` is a headshot and does not contain structured data (e.g., charts, tables, time series) as defined in the instructions. It falls under "logos, icons, or decorative shapes" which are to be ignored. Therefore, no data table can be extracted from this specific figure. | | |
+
+    Summary: The attached image, "page_8_fig_3.jpg," is a headshot of an individual and does not contain any visual elements that qualify as structured data (e.g., charts, tables, time series) for financial analysis. As per the instructions, decorative shapes and icons are to be ignored. Consequently, it is not possible to identify chart dimensions, describe primary trends or shifts, or pinpoint inflection points, peaks, or unusual values from this specific figure.
+
+    Explanation: The surrounding page context on page 8 primarily consists of contact information for the Societe Generale Cross Asset Research and US Equity Strategy teams. While this text itself represents structured information, the specific image provided for analysis is a photograph of an individual, not a financial chart or table from which economic figures or trends could be derived.
+
+    The provided image `page_8_fig_4.jpg` depicts a portrait of an individual, not a financial chart or table containing structured data. The surrounding text on page 8 lists contact information for various Societe Generale research personnel. Therefore, I cannot extract structured data or provide a summary and explanation based on a financial chart from this page.
+
+    The provided image `page_8_fig_5.jpg` is a photograph of an individual and does not contain any structured financial or economic data, such as charts, graphs, or tables. Therefore, it is not possible to extract a Markdown table or describe trends, axes, or data points from this image. The page context indicates this page is a directory of analysts, and the image is likely a portrait of one of them.
+
+    | Data | N/A |
+    |---|---|
+    | The attached image `page_8_fig_6.jpg` contains a photograph of a person and does not include any structured financial data, charts, or graphs from which a table or summary of trends can be extracted. | |
+
+    Summary: The provided image, `page_8_fig_6.jpg`, is a photograph of an individual, likely an analyst. It does not contain any financial charts, graphs, or structured data. Therefore, it is not possible to extract key dimensions, primary trends, or inflection points as requested.
+
+    Explanation: Since the image is a photograph of a person and not a financial chart, there is no broader financial context or takeaway insight to be derived from it. The surrounding page text (page 8) further confirms that this page is dedicated to listing contact information for various Societe Generale Cross Asset Research analysts, and does not present any financial data visualizations.
+
+    The provided image `page_8_fig_7.jpg` is a photograph of a person and does not contain any structured financial or economic data, charts, or tables. Therefore, I cannot extract a Markdown table or provide a summary based on the image.
+
+    | Note | Detail |
+    |---|---|
+    | Figure Content | The attached figure (page_8_fig_8.jpg) is a portrait image of an individual. |
+    | Data Presence | It does not contain any structured financial or economic data, charts, or tables. |
+
+    Summary: The attached figure **page_8_fig_8.jpg** does not depict a financial chart, graph, or structured data table. Instead, it is an image of a person, which falls under decorative elements and does not contain quantifiable information for analysis of trends, shifts, or specific data points as requested.
+
+    Explanation: As the figure does not present any financial or economic data, it cannot be interpreted in the broader context of market trends, economic indicators, or investment implications. The full-page context on page 8 primarily lists contact information for Societe Generale's Cross Asset Research and US Equity Strategy teams, which is not directly related to the content of the image itself.
+
+    | Role | Name | Phone | Email | Location |
+    |---|---|---|---|---|
+    | Global Head of Economics, Cross-Asset & Quant Research | Kokou Agbo Bloua | +44 20 7762 5433 | kokou.agbo-bloua@sgcib.com | London |
+    | Global Head of Equity strategy - Paris | Charles de Boissezon | +33 42 13 58 41 | charles.de-boissezon@sgcib.com | Paris |
+    | Head of European Equity strategy - Paris | Roland Kaloyan | +33 1 58 98 04 88 | roland.kaloyan@sgcib.com | Paris |
+    | Equity strategist (Europe) - Paris | Kevin Redureau | +33 1 58 98 02 30 | kevin.redureau@sgcib.com | Paris |
+    | Equity strategist - Paris | Henri Quadrelli | +33 1 42 13 37 33 | henri.quadrelli@sgcib.com | Paris |
+    | Head of US Equity strategy - London | Manish Kabra | +44 20 77624243 | manish.kabra@sgcib.com | London |
+    | Head of Asia Equity strategy | Frank Benzimra | +852 2166 4309 | frank.benzimra@sgcib.com | Hong Kong |
+    | Asia Equity strategist | Rajat Agarwal | +91 80 6731 5184 | rajat.agarwal@sgcib.com | India |
+    | Equity strategist | Makhdoom M. Raina | +91 80 6731 1232 | makhdoom-muteeb.raina@sgcib.com | India |
+    | Japan equity strategist | Tsutomu Saito | +81 3 6777 8710 | tsutomu.saito@sgcib.com | Japan |
+
+    Summary: The provided figure, `page_8_fig_9.jpg`, is a structured directory of key personnel within Societe Generale's Cross Asset Research - Equity Strategy division, rather than a financial chart. It details the roles, names, phone numbers, and email addresses of various strategists and heads across different geographical locations. The key dimensions display the organizational structure, highlighting leadership roles such as Global Heads and regional Heads (e.g., European, US, Asia), alongside specific Equity Strategists. The primary distribution shows a global presence with significant teams based in Paris, London, and Asia (Hong Kong, India, Japan).
+
+    Explanation: This structured contact information page serves to provide readers with direct access to the firm's research experts, demonstrating the depth and breadth of their global equity strategy team. It underscores Societe Generale's commitment to transparent communication by making key analysts readily available, thereby facilitating client engagement and reinforcing the credibility and accessibility of their research insights.
+
+    | Column1 | Column2 | Column3 |
+    |---------|---------|---------|
+    |         |         |         |
+
+    Summary: The attached image **page_8_fig_10.jpg** depicts a headshot of an individual, not a financial chart or structured data. Therefore, it is not possible to extract any key dimensions, primary trends, or inflection points as requested.
+
+    Explanation: The provided image does not contain any visual elements related to financial or economic figures, making it impossible to analyze or interpret in the context of a financial analyst role. Page 8 of the full context lists contact information for the Societe Generale Cross Asset Research team, and does not include any charts or data tables.
+
+    | Role | Name | Phone | Email | Location |
+    |---|---|---|---|---|
+    | Global Head of Economics, Cross-Asset & Quant Research | Kokou Agbo Bloua | +44 20 7762 5433 | kokou.agbo-bloua@sgcib.com | London |
+    | Global Head of Equity Strategy | Charles de Boissezon | +33 42 13 58 41 | charles.de-boissezon@sgcib.com | Paris |
+    | Head of European Equity Strategy | Roland Kaloyan | +33 1 58 98 04 88 | roland.kaloyan@sgcib.com | Paris |
+    | Equity Strategist (Europe) | Kevin Redureau | +33 1 58 98 02 30 | kevin.redureau@sgcib.com | Paris |
+    | Equity Strategist | Henri Quadrelli | +33 1 42 13 37 33 | henri.quadrelli@sgcib.com | Paris |
+    | Head of US Equity Strategy | Manish Kabra | +44 20 7762 4243 | manish.kabra@sgcib.com | London |
+    | Head of Asia Equity Strategy | Frank Benzimra | +852 2166 4309 | frank.benzimra@sgcib.com | Asia (Hong Kong) |
+    | Asia Equity Strategist | Rajat Agarwal | +91 80 6731 5184 | rajat.agarwal@sgcib.com | Asia (Bangalore) |
+    | Equity Strategist | Makhdoom M. Raina | +91 80 6731 1232 | makhdoom-muteeb.raina@sgcib.com | Asia (Bangalore) |
+    | Japan Equity Strategist | Tsutomu Saito | +81 3 6777 8710 | tsutomu.saito@sgcib.com | Japan (Tokyo) |
+
+    Summary: The provided figure, page_8_fig_11.jpg, serves as a contact directory for key personnel within Societe Generale's Cross Asset Research and Equity Strategy teams. It lists individuals by their names, specific roles (e.g., Global Head, Regional Head, Equity Strategist), their direct phone numbers, and email addresses. The personnel are geographically distributed across major financial hubs including London, Paris, Asia (Hong Kong, Bangalore), and Japan (Tokyo). Notably, this page does not contain any financial charts, graphs, or structured economic data for analysis of market trends or shifts.
+
+    Explanation: This page primarily functions as an operational resource, providing contact details for the experts responsible for the financial analysis and insights presented in other sections of the report. While it doesn't offer direct financial or economic data, it is integral to the firm's client engagement and research dissemination strategy, facilitating direct communication with the authors of the market views and sector signals.
+
+page_end
+
+       SOCIETE GENERALE 
+       Cross Asset Research                                                                                                                          US Equity Strategy 
+
+                                                                                                                           Report completed on 25 July 2025 15:20 CET 
+                                                                              APPENDIX 
+
+ ANALYST CERTIFICATION 
+Each research analyst listed in this report, who is primarily responsible for the preparation of the content of this report, certifies that all of the views expressed in this publication 
+ accurately reflect that analyst's personal views about any and all of the subject securities or issuers and that no part of that analyst's compensation was, is, or will be, directly or 
+ indirectly, related to the specific recommendations or views in this publication. 
+
+ MAD2MAR DISCLAIMER 
+ Click here for historical MAD2MAR recommendations over the past 12 months 
+
+ Important Disclaimer 
+ MSCI DISCLAIMER: The MSCI sourced information is the exclusive property of Morgan Stanley Capital International Inc. (MSCI). Without prior written permission of MSCI, this 
+information and any other MSCI intellectual property may not be reproduced, redisseminated or used to create any financial products, including any indices. This information is 
+ provided on an 'as is' basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or 
+ compiling the information hereby expressly disclaim all warranties of originality, accuracy, completeness, merchantability or fitness for a particular purpose with respect to any 
+ of this information. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the 
+ information have any liability for any damages of any kind. MSCI, Morgan Stanley Capital International and the MSCI indexes are service marks of MSCI and its affiliates or such 
+similar language as may be provided by or approved in advance by MSCI. 
+
+ FOR DISCLOSURES PERTAINING TO COMPENDIUM REPORTS OR RECOMMENDATIONS OR ESTIMATES MADE ON SECURITIES OTHER THAN THE PRIMARY SUBJECT OF THIS 
+ RESEARCH REPORT, PLEASE VISIT OUR GLOBAL RESEARCH DISCLOSURE WEBSITE AT https://insight-public.sgmarkets.com/compliance/equity or call +1 (212).278.6000 in 
+the U.S. 
+
+SG has mandatory research policies and procedures that are reasonably designed to (i) ensure that purported facts in research reports are based on reliable information and (ii) 
+ to prevent improper selective or tiered dissemination of research reports. The analyst(s) responsible for preparing this report receive compensation that is based on various 
+ factors including SG's total revenues, a portion of which are generated by investment banking activities. 
+
+Non-U.S. Analyst Disclosure 
+ The legal entity(ies) employing the analyst(s) listed in this report, and their location, can be determined by the country code of their phone number, as follows: 
+ +33 Societe Generale; Paris, France 
+ +44 SG London; London UK 
+ +1 SG New York or SG Americas Securities LLC , New York, USA 
++852 SG Hong Kong; Hong Kong, China 
++81 SG Securities Japan Ltd; Tokyo, Japan 
+ +91 Societe Generale Global Solution Centre Pvt Ltd; Bangalore, India 
+ +49 Societe Generale; Frankfurt, Germany 
+ +34 Societe Generale; Madrid, Spain 
+ +39 Societe Generale; Milan, Italy 
+ +41 Societe Generale; Geneva, Switzerland 
+ +82 SG Securities Korea Co., Ltd; Seoul, South Korea 
++48 Societe Generale; Warsaw, Poland 
+ +212 Societe Generale Africa Technologis & Services; Casablanca, Morocco 
+Where this report has been prepared by research analyst(s) employed by a non-US affiliate, such analyst(s), is/are (unless otherwise expressly noted below) not registered as 
+ associated persons of Societe Generale or any other SEC registered broker-dealer and are not licensed or qualified as research analysts with FINRA. Accordingly, such analyst(s) 
+ may not be subject to FINRA's restrictions regarding (among other things) communications by research analysts with a subject company, interactions between research analysts 
+and investment banking personnel, participation by research analysts in solicitation and marketing activities relating to investment banking transactions, public appearances 
+ by research analysts, and trading securities held by a research analyst account. 
+
+ Important Notice 
+Sections of this publication that are contributed by non-independent analysts should not be construed as investment research as such have not been prepared in accordance 
+ with legal requirements designed to promote the independence of investment research. Therefore, even if such sections contain a research recommendation, such sections 
+ should be treated as a marketing communication and not as investment research. SG is required to have policies in place to manage the conflicts which may arise in the 
+ production of its research, including preventing dealing ahead of investment research. 
+
+Other Material Conflicts 
+                  (SG), SG Americas Securities LLC and Societe Generale Capital Canada Inc. (together, "SG Entities") have been engaged by Bernstein Institutional Services LLC 
+and Sanford C. Bernstein (Canada) Limited (together, "Bernstein Entities") to introduce potential clients to Bernstein Entities. 
+While SG Entities and Bernstein Entities have certain business relationships, SG Entities are not a current advisory client. 
+SG Entities receive cash compensation from Bernstein Entities for its referral services, which is based on the revenue Bernstein Entities earn from clients referred by SG Entities. 
+ The fee payable to SG Entities for its referral of clients to Bernstein Entities presents a strong economic incentive for SG Entities to actively seek clients on behalf of Bernstein 
+ Entities. 
+ Prospective clients should be aware that SG Entities are therefore subject to certain conflicts of interest, including an incentive to recommend Bernstein Entities over other 
+services providers from which we do not receive compensation, or from which we receive less compensation, for recommending them. 
+
+Important Disclaimers 
+ Material contained in this publication was prepared by financial analysts employed by Societe Generale or one of its affiliates. Material contained in this publication has been 
+ produced in accordance with the regulatory provisions concerning investment research. This publication is not a marketing communication. Societe Generale has organisational 
+arrangements and information barriers in place to ensure the objectivity and independence of financial analysts and of the investment research they produce and to manage 
+ the conflicts which may arise in the production of its investment research. Information concerning conflicts of interest and Societe Generale's management of such conflicts is 
+contained in Societe Generale's Policies for Managing Conflicts of Interests in Connection with Investment Research which is available at: https://insight- 
+ public.sgmarkets.com/compliance/equity. 
+ The financial        responsible for preparing this publication receive compensation that is based on various factors inclu ding Societe Generale's total revenues, a portion of 
+which are generated by investment services and activities and other ancillary services, no part of the financial analysts' compensation was, is, or will be related, directly or 
+indirectly, to the specific recommendations or views expressed in this publication. Societe Generale does, from time to time, deal, trade in, profit from, hold, act as market- 
+
+                                            25 July 2025                                                                                                                   9 
+page_end
+
+      SOCIETE GENERALE 
+      Cross Asset Research                                                                                                                       US Equity Strategy 
+
+makers or advisers, brokers or bankers in relation to the securities, or derivatives thereof, of persons, firms or entities mentioned in this publication and may be represented on 
+the board of such persons, firms or entities. Societe Generale does, from time to time, act as a principal trader in equities or debt securities that may be referred to in this 
+publication and may hold equity or debt securities positions or related derivatives. Societe Generale is under no obligation to disclose or take account of this document when 
+advising or dealing with or on behalf of customers. Employees of Societe Generale, or individuals connected to them, may from time to time have a position in or hold any of the 
+investments or related investments mentioned in this publication. 
+The views expressed in this publication reflect the financial analysts' personal views about the issuers or securities covered and may differ from the views and opinions of others 
+at, or other departments or divisions of, Societe Generale and its affiliates. Though material contained in this publication is believed to be reliable and has been obtained from 
+public sources believed to be reliable, neither Societe Generale, any representatives, directors, employees of Societe Generale nor any other entities affiliated with Societe 
+Generale make any representations or warranties, expressed or implied, with respect to the completeness or accuracy of any of the information contained in this publication or 
+any other information (whether communicated in written or oral form) transferred or made available to you. 
+The views of Societe Generale reflected in this publication may change without notice. In addition, Societe Generale may issue other publications that are inconsistent with, and 
+reach different conclusions from, the information presented in this publication and is under no obligation to ensure that such other publications are brought to the attention of 
+any recipient of this publication. Where the views presented in this publication differ from any previous publications concerning the same financial instrument or issuer that has 
+been disseminated during the preceding 12-month period, the change(s) and the date of that previous recommendation will be indicated. 
+Any past performance or simulated past performance contained in this publication is not a reliable indicator of future performance. Forecasts of future performance are based 
+on assumptions that may not be realized and are not a reliable indicator of future performance. 
+To the maximum extent possible at law, Societe Generale does not accept any liability whatsoever arising from the use of the material or information contained herein. 
+The information herein is not intended to be an offer to buy or sell, or a solicitation of an offer to buy or sell, any securities or financial instruments. 
+Investments in general, and derivatives in particular, involve numerous risks, including, among others, market, counterparty default and liquidity risk. The value of securities 
+and financial instruments is subject to currency exchange rate fluctuation that may have a positive or negative effect on the price of such securities or financial instruments, and 
+investors in securities and financial instruments assume this risk. 
+Societe Generale does not provide, and has not provided, any advice, including personal recommendations, investment advice or tax advice. The financial instruments discussed 
+in this publication may not be suitable for all investors and investors must make their own informed decisions and seek their own advice regarding the appropriateness of 
+investing in financial instruments or implementing strategies discussed herein. This publication is not intended for use by or targeted to retail customers. Should a retail customer 
+or potential retail customer obtain a copy of this publication he/she should not base his/her investment decisions solely on the basis of this publication and must seek 
+independent financial advice. 
+Trading in options involves additional risks and is not suitable for all investors. An option may become worthless by its expiration date, as it is a depreciating asset. Option 
+ownership could result in significant loss or gain, especially for options of unhedged positions. Prior to buying or selling an option, investors must review the "Characteristics 
+and Risks of Standardized Options" at https://www.theocc.com/company-information/documents-and-archives/options-disclosure-document or from your SG representative. 
+Analysis of option trading strategies does not consider the cost of commissions. Supporting documentation for options trading strategies is available upon request. 
+
+Notice to French Investors: This publication is issued in France by or through Societe Generale ("SG") which is authorised and supervised by the Autorite de Contrôle Prudentiel 
+et de Résolution (ACPR) and regulated by the Autorité des Marchés Financiers (AMF). 
+Notice to U.K. Investors: Societe Generale is a French credit institution (bank) authorised by the Autorite de Contrôle Prudentiel (the French Prudential Control Authority) and 
+the Prudential Regulation Authority and subject to limited regulation by the Financial Conduct Authority and Prudential Regulation Authority. Details about the extent of our 
+authorisation and regulation by the Prudential Regulation Authority, and regulation by the Financial Conduct Authority are available from us on request. 
+Notice to Swiss Investors: This document is provided in Switzerland by or through Societe Generale Paris, Zurich Branch, and is provided only to qualified investors as defined 
+in article 10 of the Swiss Collective Investment Scheme Act ("CISA") and related provisions of the Collective Investment Scheme Ordinance and in strict compliance with 
+applicable Swiss law and regulations. The products mentioned in this document may not be suitable for all types of investors. This document is based on the Directives on the 
+Independence of Financial Research issued by the Swiss Bankers Association (SBA) in January 2008. 
+Notice to Polish Investors: this document has been issued in Poland by Societe Generale S.A. Oddzial w Polsce ("the Branch") with its registered office in Warsaw (Poland) at 
+111 Marszałkowska St. The Branch is supervised by the Polish Financial Supervision Authority and the French "Autorité de Contrôle Prudentiel". This report is addressed to 
+financial institutions only, as defined in the Act on trading in financial instruments. The Branch certifies that this document has been elaborated with due diligence and care. 
+Notice to U.S. Investors: For purposes of SEC Rule 15a-6, SG Americas Securities LLC ("SGAS") takes responsibility for this research report. This report is intended for institutional 
+investors only. Any U.S. person wishing to discuss this report or effect transactions in any security discussed herein should do so with or through SGAS, a U.S. registered broker- 
+dealer and futures commission merchant (FCM). SGAS is a member of FINRA, NYSE and NFA. Its registered address at 245 Park Avenue, New York, NY, 10167. (212)-278-6000. 
+Notice to Canadian Investors: This document is for information purposes only and is intended for use by Permitted Clients, as defined under National Instrument 31-103, 
+Accredited Investors, as defined under National Instrument 45-106, Accredited Counterparties as defined under the Derivatives Act (Québec) and "Qualified Parties" as defined 
+under the ASC, BCSC, SFSC and NBSC Orders 
+Notice to Singapore Investors: This document is provided in Singapore by or through Societe Generale ("SG"), Singapore Branch and is provided only to accredited investors, 
+expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289. Recipients of this document are to contact Societe Generale, 
+Singapore Branch in respect of any matters arising from, or in connection with, the document. If you are an accredited investor or expert investor, please be informed that in 
+SG's dealings with you, SG is relying on the following exemptions to the Financial Advisers Act, Cap. 110 ("FAA"): (1) the exemption in Regulation 33 of the Financial Advisers 
+Regulations ("FAR"), which exempts SG from complying with Section 25 of the FAA on disclosure of product information to clients; (2) the exemption set out in Regulation 34 of 
+the FAR, which exempts SG from complying with Section 27 of the FAA on recommendations; and (3) the exemption set out in Regulation 35 of the FAR, which exempts SG from 
+complying with Section 36 of the FAA on disclosure of certain interests in securities. 
+Notice to Hong Kong Investors: This report is distributed or circulated in Hong Kong only to "professional investors" as defined in the Securities and Futures Ordinance (Chapter 
+571 of the Laws of Hong Kong) ("SFO"). Any such professional investor wishing to discuss this report or take any action in connection with it should contact SG Securities (HK) 
+Limited. This report does not constitute a solicitation or an offer of securities or an invitation to the public within the meaning of the SFO. 
+Notice to Japanese Investors: This publication is distributed in Japan by Societe Generale Securities Japan Limited, which is regulated by the Financial Services Agency of 
+Japan. This document is intended only for the Specified Investors, as defined by the Financial Instruments and Exchange Law in Japan and only for those people to whom it is 
+sent directly by Societe Generale Securities Japan Limited, and under no circumstances should it be forwarded to any third party. The products mentioned in this report may 
+not be eligible for sale in Japan and they may not be suitable for all types of investors. 
+Notice to Korean Investors: This report is distributed in Korea by SG Securities Korea Co., Ltd which is regulated by the Financial Supervisory Service and the Financial Services 
+Commission. 
+For Documents distributed In Australia by SG Securities (HK) Limited - Notice to Australian Investors: This document is distributed by SG Securities (HK) Limited, a 
+Registered Foreign Company and Foreign Financial Services Provider in Australia (ARBN 126058688) that is exempt from the requirement to hold an Australian financial services 
+licence under the Corporations Act 2001 ("Act"). SG Securities (HK) Limited is regulated by the Securities and Futures Commission under Hong Kong laws, which differ from 
+Australian laws. The information contained in this document is only directed to recipients who are wholesale clients as defined under the Act. 
+For Documents Distributed in Australia by SG Sydney Branch - Notice to Australian investors: This document is distributed by Societe Generale (ABN 71 092 516 286). Société 
+Generale holds an AFSL no. 511956 issued under the Corporations Act 2001 (Cth) ("Act").                is a foreign Authorised Deposit-Taking Institution under the Banking 
+Act 1959 (Cth) and any products described in this document which are issued by Societe Generale do not form deposits or other funds of Societe Generale. No entity described 
+in this document (aside from Societe Generale) is an Authorised Deposit-Taking Institution and the transactions which may be proposed and products which may be issued as 
+described in this document do not form deposits or other funds of Société Générale. Unless this document expressly provides that Société Générale will provide a guarantee, 
+                 does not guarantee the obligations of any other entity described in this document in respect of any proposed transactions or products and those obligations 
+do not represent liabilities of Societe Generale. This document is provided to you on the basis that you are a 'wholesale client' within the meaning of section 761G of the Act. 
+
+                                           25 July 2025                                                                                                               10 
+page_end
+
+      SOCIETE GENERALE 
+      Cross Asset Research                                                                                                                       US Equity Strategy 
+
+Notice to Indian Investors: Societe Generale Global Solution Center Pvt. Ltd (SG GSC) is a 100% owned subsidiary of Societe Generale, SA, Paris. Societe Generale SA is authorised 
+and supervised by the Autorite de Contrôle Prudentiel et de Resolution (ACPR) and regulated by the Autorité des Marchés Financiers (AMF). Analysts employed by SG GSC do not 
+produce research covering securities listed on any stock exchange recognised by the Securities and Exchange Board of India (SEBI) and is not licensed by either SEBI or the 
+Reserve Bank of India. 
+For Recipients in Thailand receiving this document from offshore: This document has been distributed by SG solely at your request. This document is not intended to be either 
+an offer, sale, or invitation for subscription or purchase of the securities or any regulated financial services in Thailand. Neither SG, any representatives, directors, employees of 
+SG nor any other entities affiliated with SG make any representations or warranties, expressed or implied, with respect to the completeness or accuracy of any of the information 
+contained in this document or any other information (whether communicated in written or oral form) transferred or made available to you. 
+
+https://wholesale.banking.societegenerale.com/en Copyright: The Societe Generale Group 2025. All rights reserved. 
+This publication may not be reproduced or redistributed in whole in part without the prior consent of SG or its affiliates. 
+
+                                           25 July 2025                                                                                                               11 
+page_end

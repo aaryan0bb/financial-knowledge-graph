@@ -1,0 +1,608 @@
+
+
+Goldman        Economics 
+Sachs          Research                                                             23 July 2025 | 5:25PM EDT 
+
+What's Top of Mind in Macro Research: Greater tariff impacts, central 
+
+bank easing, a weaker US housing outlook 
+
+This week:                                                                       Jenny Grimberg 
+                                                                                  +1(212)934-0199 
+                                                                                 jenny.grimberg@gs.com 
+                                                                                 Goldman Sachs & Co. LLC 
+   US: higher tariffs, greater impacts 
+                                                                                 Allison Nathan 
+    Central banks: at different easing stages                                    +1(212)357-7504 | 
+                                                                                 Goldman Sachs & Co. LLC 
+    US housing outlook, US immigration, Japanese elections 
+                                                                                 Ashley Rhodes 
+                                                                                 +1(212)934-4876 
+                                                                                 ashley.rhodes@gs.com 
+                                                                                 Goldman Sachs & Co. LLC 
+Transcript 
+
+US: higher tariffs, greater impacts 
+We view the recently-announced 15% tariff on Japan and 19% tariff on the 
+Philippines and Indonesia as consistent with our expectation that tariffs are moving 
+higher, with the US effective tariff rate likely to rise by a total 17pp by 2027. We 
+estimate this will boost US core PCE prices by around 1.7% cumulatively over the 
+next couple of years (partly reflecting a slightly smaller pass-through of higher costs 
+to consumer prices than we previously assumed) and, as such, now expect core 
+PCE inflation of 3.3%/2.7%/2.4% yoy in December 2025/2026/2027 (vs. 
+3.4%/2.6%/2.0% previously). We also expect higher tariffs to lower GDP growth by 
+around 1 pp/0.4pp/0.3pp yoy over each of the next three years as a smaller trade 
+deficit partly offsets the growth drag from lower consumption and investment. All 
+that said, we see risks to our baseline tariff expectations as skewed slightly to the 
+upside, which suggests modest upside risk to our inflation forecasts and downside 
+risk to our growth forecasts through 2027. 
+
+Investors should consider this report as only a single factor in making their investment decision. For Reg AC 
+certification and other important disclosures, see the Disclosure Appendix, or go to 
+www.gs.com/research/hedge.html. 
+page_end
+
+Goldman Sachs                                                                       What's Top of Mind in Macro Research 
+
+                          A still-rising US tariff rate 
+                          Impact of tariff policies on US effective tariff rate, pp 
+                           25 
+                                       Implemented to date                    GS forecast 
+                           20 
+
+                           15 
+                           10 
+                            5 
+                            0           CA/MX non-USMCA & aluminum & baseline minerals   trucks, 
+                                               Steel Autos parts    Additional 
+                                                                                    lumber aircraft     Total 
+                                  20% China 
+                                        25%    50%      auto Baseline                            Pharma 
+                                                                           Copper, critical      25% 
+                                                                                  Electronics, 
+                                                      25%     10%     5%   50%           Heavy 
+                                                                                  25% 
+                                                                                         25% 
+                                                          2025                            2026-2027 
+
+                          Source: Department of Commerce, Goldman Sachs Global Investment Research. 
+
+                          Central banks: at different easing stages 
+                          We expect unchanged rates and limited shifts in communication at tomorrow's ECB 
+                          meeting given that the incoming Euro area macro data have been broadly consistent 
+                          with the June staff projections. We also expect President Lagarde to reiterate that policy 
+                          is in a good place, but that the ECB stands ready to respond to changes in the economic 
+                          outlook on the back of trade policy developments. While we see downside risks to our 
+                          Euro area growth forecasts from higher US tariffs for the remainder of this year, we 
+                          remain optimistic on Euro area growth in 2026 owing to a cyclical pickup in Germany on 
+                          the back of its fiscal expansion and continued strength in Spain. As such, we believe 
+                          that the ECB easing cycle is probably nearing its end, and continue to expect one last 
+                          rate cut to 1.75% in September. 
+
+                          While the end of ECB cuts is in sight, a return to Fed cuts is now coming into view. The 
+                          slowdown in US growth in 1H25 and rising risk of the labor market hitting "stall speed" 
+                          has strengthened the case for earlier easing, with both Governor Waller and Vice Chair 
+                          for Supervision Bowman likely to vote in favor of cutting rates at next week's FOMC 
+                          meeting. But we believe that other committee members will want to wait for 
+                          confirmation that the tariff impact really is a one-time price level shock and/or for 
+                          evidence of more labor market softening. As such, we continue to expect the Fed to 
+                          next cut in September, with two more 25bp cuts later this year and two 25bp cuts next 
+                          year likely to follow, for a terminal rate of 3-3.25%. This return to Fed easing should push 
+                          down Treasury yields and the Dollar while boosting global equities and gold. That said, 
+                          threats to Fed independence that result in a further rise in long-term inflation 
+                          expectations could introduce greater uncertainty into the Fed's reaction function and 
+                          cloud the policy outlook. 
+
+                          Unlike the ECB and the Fed, we expect the BoE to cut at its next meeting (August 7) 
+                          given the cumulative disinflation progress in the UK and recent BoE signaling toward 
+                          more cuts. However, we now expect the BoE to maintain its quarterly cutting pace for 
+                          longer given the recent upside inflation surprise and, as such, no longer expect a 
+
+ 23 July 2025                                                                                                 2 
+
+    | Tariff Policy | Incremental Impact (pp) | Cumulative Impact (pp) | Timeframe |
+    |:----------------------------------|:------------------------|:-----------------------|:--------------------------|
+    | 20% China | 1.0 | 1.0 | Implemented to date |
+    | 25% CA/MX non-USMCA | 0.8 | 1.8 | Implemented to date |
+    | 50% Steel & aluminum | 1.2 | 3.0 | Implemented to date |
+    | 25% Autos & auto parts | 1.5 | 4.5 | Implemented to date |
+    | 10% Baseline | 4.5 | 9.0 | Implemented to date |
+    | Additional 5% baseline | 1.0 | 10.0 | GS forecast (2025) |
+    | 50% Copper, critical minerals | 1.0 | 11.0 | GS forecast (2025) |
+    | 25% Electronics, lumber | 2.5 | 13.5 | GS forecast (2025) |
+    | 25% Heavy trucks, aircraft | 1.0 | 14.5 | GS forecast (2026-2027) |
+    | 25% Pharma | 2.0 | 16.5 | GS forecast (2026-2027) |
+    | Total | N/A | 17.0 | By 2027 |
+
+    Summary: This waterfall chart illustrates the historical and forecasted impact of various tariff policies on the US effective tariff rate, measured in percentage points (pp). The x-axis categorizes tariff policies, grouped into "Implemented to date" actions and Goldman Sachs "GS forecast" policies extending through 2025 and 2026-2027. The y-axis shows the cumulative increase in the tariff rate. A clear upward trend is depicted, with the "10% Baseline" policy showing the largest single incremental impact (4.5 pp) among implemented tariffs, followed by "25% Electronics, lumber" (2.5 pp) in the forecast. The cumulative effective tariff rate is projected to reach approximately 17 percentage points by 2027.
+
+    Explanation: The chart visualizes Goldman Sachs' expectation of a continuously rising US effective tariff rate, supporting their analysis that tariffs are moving higher. This increased tariff burden, particularly the projected 17pp rise by 2027, has significant macroeconomic implications, as noted in the surrounding text, including an anticipated boost to US core PCE prices (1.7% cumulatively) and a reduction in GDP growth. This escalating trade policy environment is also a factor influencing central bank decisions, with implications for monetary policy shifts by the ECB and the Fed.
+
+page_end
+
+Goldman Sachs                                                                       What's Top of Mind in Macro Research 
+
+                          September rate cut. 
+
+                          What else is on our radar? 
+                              We're focused on the US housing outlook amid a weak spring selling season, 
+                              faltering residential investment on the back of a rebound in mortgage rates, and 
+                              emerging difficulties absorbing robust housing supply. We expect residential 
+                              investment growth to remain weak for the remainder of the year and forecast that 
+                              national home prices will rise just 0.2% this year and 0.8% next year 
+                              (December-over-December). 
+
+                              We're also keeping an eye on US net immigration, which we estimate declined from 
+                              an annualized pace of 0.6mn in April to 0.5mn in June, which aligns with our 
+                             expectation that immigration will stabilize at around 0.5mn annually (vs. the 
+                              pre-pandemic trend of 1.0mn). We expect this gradual slowdown to lower the 
+                              breakeven rate-the rate of payroll job growth needed to keep the unemployment 
+                              rate stable-to 70k per month by end-2025 from an estimated 90k currently. 
+
+                              Finally, we're watching Japanese politics following the recent Upper House elections 
+                              that resulted in a narrow loss of the ruling coalition's (Liberal Democratic Party + 
+                              Komeito) majority. We think a minority government of the current ruling coalition will 
+                              continue, although cooperation with opposition parties will likely become even more 
+                              crucial for passing legislation. We also believe that the opposition parties' focus on 
+                              proposals to cut consumption taxes and increase social security measures portends 
+                              an expansionary bias in fiscal policy ahead. 
+
+ Relevant research 
+
+                          US: higher tariffs, greater impacts: FX Morning Notes (7/23/2025); US Economics 
+                          Analyst (7/21/2025) 
+
+                          Central banks: at different easing stages: Goldman Sachs Exchanges (7/22/2025); 
+                          Global Views (7/21/2025); European Daily (7/20/2025); European Daily (7/17/2025); UK 
+                          Views (7/17/2025); USA (7/17/2025); European Economics Analyst (7/16/2025); UK 
+                          (7/16/2025); European Views (7/13/2025); Top of Mind (5/15/2025) 
+
+                          What else is on our radar: USA (7/23/2025); Japan Economic Flash (7/21/2025); US 
+                          Daily             US Economics Analyst (7/18/2025) 
+
+ 23 July 2025                                                                                                 3 
+page_end
+
+                                                                                                                                              What's Top of Mind in Macro Research 
+Goldman Sachs 
+
+Macro              at a       glance 
+
+                                                                                                 US GDP vs. CAI 
+Global GDP vs. CAI 
+
+                                                                                                                                              US 
+                                                                                                     % Chg. 
+                                          Global 
+   % Chg. 
+                                                                                                    30 
+  30 
+
+                                                                                                    20 
+  20 
+
+                                                                                                                                                                             2025:     2026: 
+                                                                           2025:    2026:           10 
+   10                                                                                                                                                                         1.6       1.6 
+                                                                            2.4        2.3 
+
+                                                                                                     0 
+    0 
+
+                                                                                                    -10 
+   -10 
+                                                                                                                                              -Current Activity Indicator (mo, ann.) 
+                                                    Current Activity Indicator (mo, ann.) 
+                                                                                                    -20                                             Historical GDP (yoy) 
+   -20                                              Historical GDP (yoy) 
+                                                                                                                                              -- - Q1 2025 GDP (yoy) 
+                                                    Q1 2025 GDP (yoy) 
+                                                                                                                                              -      GS Q2 2025 GDP Estimate (yoy) 
+                                                    GS Q2 2025 GDP Estimate (yoy)                   -30 
+   -30                                                                                                                                                     24        25        26        27 
+                                                         23        24        25        26               19        20        21        22         23 
+      18         19        20        21        22 
+
+                                                                                                                                   Sachs Global Investment Research. 
+                                                                                                   Source: Haver Analytics, Goldman 
+                                        Global Investment Research. 
+ Source: Haver Analytics, Goldman Sachs 
+
+                                                                                                   Euro area GDP vs. CAI 
+  China GDP vs. CAI 
+
+                                                                                                                                           Euro area 
+                                                                                                      % Chg. 
+    % Chg.                                  China 
+    30 
+                                                                                                      30 
+
+    20 
+                                                                                                     20 
+                                                                            2025:     2026: 
+
+    10                                                                         4.7       3.9          10                                                                      2025:    2026: 
+                                                                                                                                                                                 1.0       1.1 
+
+     0                                                                                                 0 
+
+    -10                                                                                              -10 
+
+                                                                                                                                                 - Current Activity Indicator (mo, ann.) 
+                                                                            (mo, ann.)               -20                                                Historical GDP (yoy) 
+    -20                                             Current Activity Indicator 
+                                                    Historical GDP (yoy)                                                                                Q1 2025 GDP (yoy) 
+                                                     Q2 2025 GDP (yoy)                                                                                  GS Q2 2025 GDP Estimate (yoy) 
+                                                                                                     -30 
+                                              -      GS Q3 2025 GDP Estimate (yoy)                                                                                                         27 
+    -30                                                                                                  19         20        21        22        23         24        25        26 
+                                                           24        25         26        27 
+        19        20        21         22        23 
+
+                                                                                                                                           Global Investment Research. 
+                                                                                                    Source: Haver Analytics, Goldman Sachs 
+                                          Global Investment Research. 
+   Source: Haver Analytics, Goldman Sachs 
+
+                                  market forecasts 
+   Key GS economic and 
+                                                                                                                                                                Equities 
+                                                                                          Markets 
+      Economics 
+                                                                                                                                   E2025          E2026       Returns     12m    YTD   E2025 P/E 
+                                                    Interest rates                                   Last   3m    12m S&P 500                                       (%) 
+                         2025              2026      10Yr (%)           Last E2025 E2026 FX 
+      GDP growth (%)                                                                                                               GS    Cons.    GS     Cons. 
+                    GS   Cons. GS Cons.   GS   Cons. 
+                   (Q4/Q4) (Q4/Q4) (CY) (CY) (CY) (CY)                                                                                                         S&P 500     9      7.3   24.4x 
+                                                                                          EUR/$       1.17 1.17    1.25 Price     6,600 
+                                                2.4 US                  4.35   4.20 4.20                                                         $280    $302 MXAPJ        7     15.3   15.6x 
+      Global        1.8         2.4 2.3   2.3                                                                                             $265 
+                                                                                     3.25 GBP/$       1.35 1.38    1.44 EPS        $262 
+                                                 1.6 Germany            2.54   2.80                                                                      14%   Topix       6      1.8    15.1x 
+      US            1.1   1.0   1.6 1.5   1.6                                                                                             8%      7% 
+                                                                                                      146   142    135 Growth      7% 
+                                                     Japan              1.50 1.70    1.90 $/JPY                                                               STOXX 600    5      7.2   15.2x 
+      China         4.0   4.0 4.7   4.6   3.9    4.2 
+                                                                                     4.25 $/CNY       7.15 7.10    6.90                                                        Tracker 
+                                          1.1    1.1 UK                 4.50   4.25                                                                                        Wage 
+      Euro area      0.6 0.7    1.0 1.0                                                                                                             2026 
+                                                                                     12m Credit       Last 2025   4Q25 Consumer     2025                                    2025 (%) 
+                                           2026      Commodities        Last   3m         (bp) 
+                          2025                                                                                                     CPI   Unemp.   CPI   Unemp.    Q1       Q2     Q3     Q4 
+      Policy rates (%) 
+                                                                         69    65     55                                          (%, yoy) Rate (%, yoy) Rate                             - 
+                     GS   Mkt.            GS    Mkt Crude Oil, Brent ($/bbl)                                                                                               3.8    - 
+                                                                                                                                   2.8     4.4    2.8     4.2     3.9 
+                                                                                          USD    IG   79     105   95   US 
+      US            3.63 3.88             3.13   3.06 Nat Gas, NYMEX ($/mmBtu) 3.25 3.90 4.50                                              6.4    1.8     6.5                     -       -- 
+                                                                                      29         HY   280    335   303 Euro area    2.1 
+                                          1.75 1.71 Nat Gas, TTF (EUR/MWh) 33.29 39                                                                        1                      --      - 
+       Euro area     1.75 1.66                                                                                                             - 
+                                                                                          EUR    IG    95    116   108 China       0.0            1.0 
+                                                          ($/mt)        9,851 9,650 10,025 
+       China        1.30 1.38             1.10       Copper 
+                                                                                                 HY   299    355   330 
+                                                 1.02 Gold ($/troy oz) 3,410   3,370 3,92 
+      Japan         0.50 0.92             1.00 
+
+                                                                                                                                                 Light of the Pandemic Recession," Global 
+                                                                                                     "Lessons Learned: Re-engineering Our CAls in 
+                                                              on the methodology of the CAI please see 
+    GS CAI is a measure of current growth. For more information 
+                                                        July 22, 2025. 
+    Economics Analyst, Sep. 29, 2020. Market pricing as of 
+
+                                             Investment Research. 
+    Source: Bloomberg, Goldman Sachs Global 
+
+                                                                                                   MIND 
+                                                More            from           TOPof 
+
+                                                                                                                                                                                                4 
+
+     23 July 2025 
+
+    | Year/Period | Current Activity Indicator (mo, ann.) (%) | Historical GDP (yoy) (%) | Q1 2025 GDP (yoy) (%) | GS Q2 2025 GDP Estimate (yoy) (%) | Global GDP Forecast (%) |
+    |---|---|---|---|---|---|
+    | 2018 | 2.5 | 3.0 | N/A | N/A | N/A |
+    | Early 2019 | 1.5 | 2.5 | N/A | N/A | N/A |
+    | Early 2020 (Trough) | -30.0 | -10.0 | N/A | N/A | N/A |
+    | Late 2020 (Peak) | 22.0 | 12.0 | N/A | N/A | N/A |
+    | Early 2021 | 10.0 | 5.0 | N/A | N/A | N/A |
+    | Mid-2021 | 2.0 | 2.0 | N/A | N/A | N/A |
+    | 2022 | 2.0 | 2.0 | N/A | N/A | N/A |
+    | 2023 | 2.0 | 2.0 | N/A | N/A | N/A |
+    | 2024 | 2.5 | 2.5 | N/A | N/A | N/A |
+    | 2025 Q1 | 2.0 | 2.0 | 2.0 | N/A | N/A |
+    | 2025 Q2 | N/A | N/A | N/A | 1.5 | N/A |
+    | 2025 (Annual) | N/A | N/A | N/A | N/A | 2.4 |
+    | 2026 (Annual) | N/A | N/A | N/A | N/A | 2.3 |
+
+    Summary: The chart displays Global economic performance from 2018 to 2026, with years on the X-axis and % change on the Y-axis. It presents Goldman Sachs' "Current Activity Indicator (mo, ann.)" and "Historical GDP (yoy)", alongside specific data points for "Q1 2025 GDP (yoy)", "GS Q2 2025 GDP Estimate (yoy)", and annual Global GDP forecasts for 2025 and 2026. The most striking trend is the dramatic V-shaped contraction and recovery in early to late 2020, where the Current Activity Indicator plummeted to -30% and Historical GDP to -10%, followed by sharp rebounds to 22% and 12% respectively. Post-2021, both indicators have largely stabilized, hovering around 2-3% growth.
+
+    Explanation: This visual is part of Goldman Sachs' "Macro at a glance" insights, offering a proprietary view of global economic activity. It vividly illustrates the profound impact of the 2020 pandemic recession and the subsequent rapid recovery, showing the resilience of the global economy. The stabilization of both the Current Activity Indicator and Historical GDP at modest positive rates, with forecasts of 2.4% and 2.3% for global GDP in 2025 and 2026, suggests an expectation of subdued but stable growth following the extreme volatility.
+
+    | Year | Data Point | Current Activity Indicator (mo, ann. % Chg.) | GDP Growth (yoy % Chg.) |
+    |---|---|---|---|
+    | 2019 | Average | 6.0 | 6.0 |
+    | 2020 | Start | 5.0 | 5.0 |
+    | 2020 | Trough | -30.0 | -5.0 |
+    | 2020 | Peak | 28.0 | 18.0 |
+    | 2020 | End | 5.0 | 5.0 |
+    | 2021 | Peak | 18.0 | 10.0 |
+    | 2021 | Trough | 0.0 | 2.0 |
+    | 2021 | Average | 5.0 | 5.0 |
+    | 2022 | Peak | 12.0 | 5.0 |
+    | 2022 | Trough | -15.0 | 2.0 |
+    | 2022 | Average | 3.0 | 3.5 |
+    | 2023 | Peak | 14.0 | 7.0 |
+    | 2023 | Average | 7.0 | 5.0 |
+    | 2024 | Average | 4.5 | 4.5 |
+    | 2025 | Mid-year | 4.0 | 4.0 |
+    | 2025 | GS Forecast | N/A | 4.7 |
+    | 2026 | GS Forecast | N/A | 3.9 |
+    | 2027 | GS Forecast | N/A | 3.9 |
+
+    Summary: This time-series chart illustrates China's economic performance from 2019 with forecasts extending to 2027, tracking the Current Activity Indicator (CAI, monthly annualized change) and GDP Growth (year-over-year change). Both indicators exhibit extreme volatility in 2020-2023, reflecting the severe impact of the pandemic and subsequent recovery phases, with the CAI generally showing more dramatic swings. A notable trough occurred in early 2020 for both, followed by strong rebounds, and another significant dip for CAI in mid-2022. Post-2023, both series show a convergence and stabilization towards more moderate growth rates, with Goldman Sachs forecasting China's GDP growth to ease from 4.7% in 2025 to 3.9% in 2026.
+
+    Explanation: This chart provides a granular view of China's economic trajectory, highlighting its resilience and volatility in the post-pandemic period. The stabilization and moderation of both the Current Activity Indicator and GDP growth projections suggest that Goldman Sachs anticipates China's economy to settle into a more predictable, albeit slower, expansion phase through 2027, aligning with broader macro trends discussed in the "Macro at a glance" section of the report.
+
+    | Period | Current Activity Indicator (mo, ann.) (% Chg.) | Historical GDP (yoy) (% Chg.) | Euro Area GDP Forecast (% Chg.) |
+    |---|---|---|---|
+    | 2019 | 1.5 | 1.5 | N/A |
+    | Early 2020 | 1.0 | 0.5 | N/A |
+    | Mid 2020 | -30.0 | -17.0 | N/A |
+    | Late 2020 | 28.0 | 2.0 | N/A |
+    | Early 2021 | -1.0 | -1.0 | N/A |
+    | Mid 2021 | 7.0 | 14.0 | N/A |
+    | Late 2021 | 2.0 | 2.0 | N/A |
+    | 2022 | 1.5 | 1.5 | N/A |
+    | 2023 | 0.5 | 0.5 | N/A |
+    | 2024 | 0.5 | 0.5 | N/A |
+    | Q1 2025 | N/A | 1.0 | N/A |
+    | Q2 2025 (GS Est.) | 0.8 | N/A | N/A |
+    | **2025** | N/A | N/A | 1.0 |
+    | **2026** | N/A | N/A | 1.1 |
+
+    Summary: This line chart, titled "Euro area GDP vs. CAI," illustrates the year-over-year percentage change in Euro area GDP and its Current Activity Indicator (CAI) from 2019 to 2027. The primary trend highlights extreme volatility during 2020-2021 due to the pandemic, with both indicators plunging to -30% (CAI) and -17% (Historical GDP) in mid-2020, followed by a sharp rebound to significant positive growth by late 2020 and mid-2021 (up to 28% for CAI, 14% for GDP). Post-2021, both series converge and stabilize significantly, hovering close to 0-1% change. Goldman Sachs forecasts indicate modest but steady GDP growth of 1.0% for 2025 and 1.1% for 2026.
+
+    Explanation: This chart is part of the "Macro at a glance" section, providing a snapshot of economic activity. The sharp fluctuations in 2020-2021 reflect the immediate and rebound effects of the COVID-19 pandemic on the Euro area economy. The subsequent stabilization at low single-digit growth rates, as forecast by Goldman Sachs, suggests a period of modest recovery and normalization. Notably, the Euro area's forecasted GDP growth of 1.0-1.1% for 2025-2026 is lower than the projections for Global (2.3-2.4%), US (1.6%), and China (3.9-4.7%), indicating a relatively subdued growth outlook for the region compared to other major economies.
+
+    | Year/Period | Current Activity Indicator (% Chg. mo, ann.) | Historical/Forecasted GDP (% Chg. yoy) |
+    |---|---|---|
+    | 2019 | 2.5% | 2.0% |
+    | 2020 Q1 (Pre-Crisis) | 2.0% | 2.0% |
+    | 2020 Q2 (Trough) | -30.0% | -10.0% |
+    | 2021 Q1 (Rebound Peak) | 24.0% | 12.0% |
+    | 2021 H2 | 5.0% | 5.0% |
+    | 2022 H1 | 1.0% | 2.0% |
+    | 2022 H2 | 1.5% | 1.5% |
+    | 2023 H1 | 1.5% | 1.5% |
+    | 2023 H2 | 2.0% | 1.5% |
+    | 2024 H1 | 1.5% | 2.0% |
+    | 2024 H2 | 0.5% | 2.0% |
+    | 2025 Q1 (Actual) | 0.0% | 0.5% |
+    | 2025 Q2 (GS Estimate) | 0.5% | 1.0% |
+    | 2025 Forecast (Annual) | N/A | 1.6% |
+    | 2026 Forecast (Annual) | N/A | 1.6% |
+
+    Summary: This line chart, titled "US GDP vs. CAI", illustrates the US economic growth from 2019 to 2027, comparing Goldman Sachs' Current Activity Indicator (CAI) on a monthly annualized basis with historical and forecasted GDP (year-over-year). The X-axis represents years, and the Y-axis shows percentage change from -30% to 30%. A significant primary trend is the extreme volatility during the 2020-2021 period, where the CAI plunged to -30% and then sharply rebounded to 24% by early 2021, while historical GDP showed a less severe but still pronounced dip and recovery. Post-2021, both indicators settled into a more stable pattern, fluctuating between 0% and 3%, with GS forecasting a consistent 1.6% GDP growth for both 2025 and 2026.
+
+    Explanation: The chart demonstrates the immediate and sharp impact of the pandemic on US economic activity, as captured by the Current Activity Indicator, which appears to be a higher-frequency and more sensitive measure than the smoother historical GDP. The convergence of both indicators to a relatively stable positive growth rate around 1-2% from 2022 onwards, and the explicit 1.6% GDP forecasts for 2025 and 2026, suggest a normalization and anticipated moderate economic expansion in the coming years, consistent with broader economic projections on the page.
+
+page_end
+
+Goldman Sachs                                                                    What's Top of Mind in Macro Research 
+
+                            Top of Mind: Our flagship monthly publication, taking a deep-dive into the 
+                         macroeconomic issues on the minds of our clients. 
+
+                            Exchanges at Goldman Sachs: We bring together experts from around the firm and 
+                         beyond to discuss developments shaping industries, markets, and the global economy. 
+
+                         . Macro at a Glance: A weekly snapshot of the macro themes we're watching and 
+                        our latest forecasts. 
+
+23 July 2025                                                                                              5 
+page_end
+
+ Goldman Sachs                                                                                             What's Top of Mind in Macro Research 
+
+ Disclosure Appendix 
+
+ Reg AC 
+
+We, Jenny Grimberg, Allison Nathan and Ashley Rhodes, hereby certify that all of the views expressed in this report accurately reflect our personal 
+ views, which have not been influenced by considerations of the firm's business or client relationships. 
+ Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division. 
+
+ Disclosures 
+
+ Regulatory disclosures 
+
+ Disclosures required by United States laws and regulations 
+ See company-specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or 
+ co-manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co-managed 
+public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a 
+ principal in debt securities (or in related derivatives) of issuers discussed in this report. 
+
+ The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, 
+ professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. 
+Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst 
+as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from 
+serving as an officer, director or advisor of any company in the analyst's area of coverage. Non-U.S. Analysts: Non-U.S. analysts may not be 
+ associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on 
+communications with subject company, public appearances and trading securities held by the analysts. 
+
+ Additional disclosures required under the laws and regulations of jurisdictions other than the United States 
+ The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and 
+ regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit-taking institutions (as that term is defined in the 
+ Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to 
+it, is intended only for "wholesale clients" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In 
+producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by 
+the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met 
+in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating 
+to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has 
+ been prepared by Goldman Sachs without taking into account a client's objectives, financial situation or needs. A client should, before acting on any 
+ such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain 
+ Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell-Side Research Independence Policy 
+ Statement are available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Brazil: Disclosure information in relation to 
+ CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gir/index.html. Where applicable, the Brazil-registered analyst primarily 
+responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this 
+report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, 
+and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of 
+securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under 
+applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities 
+and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman 
+ Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the 
+securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information 
+ on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research 
+Analyst - SEBI Registration Number INH000001493, 951-A, Rational House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400 025, India, Corporate 
+ Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own 1% or more of 
+the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies 
+referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before 
+ investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of 
+ returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link: 
+ https://publishing.gs.com/disclosures/hedge.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for 
+ "professional investors" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further 
+information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New 
+Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither "registered banks" nor "deposit takers" (as defined in the Reserve Bank of 
+ New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for "wholesale clients" (as defined in the Financial Advisers Act 
+2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: 
+https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Russia: Research reports distributed in the Russian Federation are not 
+advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not 
+provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment 
+ recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial 
+ circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken 
+by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is 
+regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters 
+arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors 
+should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who 
+ would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this 
+research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have 
+ been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are 
+available from Goldman Sachs International on request. 
+
+ European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) 
+ (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is 
+
+ 23 July 2025                                                                                                                                6 
+page_end
+
+ Goldman Sachs                                                                                             What's Top of Mind in Macro Research 
+
+implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European 
+ Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment 
+ recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of 
+conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of 
+Interest in Connection with Investment Research. 
+
+ Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 
+ 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The 
+Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission 
+pre-determined with clients plus consumption tax. See company-specific disclosures as to any applicable disclosures required by Japanese stock 
+ exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company. 
+
+ Global product; distributing entities 
+ Goldman Sachs Global Investment Research produces and distributes research products for clients of Goldman Sachs on a global basis. Analysts based 
+ in Goldman Sachs offices around the world produce research on industries and companies, and research on macroeconomics, currencies, commodities 
+and portfolio strategy. This research is disseminated in Australia by Goldman Sachs Australia Pty Ltd (ABN 21 006 797 897); in Brazil by Goldman Sachs 
+do Brasil Corretora de Títulos e Valores Mobiliários S.A .; Public Communication Channel Goldman Sachs Brazil: 0800 727 5764 and / or 
+contatogoldmanbrasil@gs.com. Available Weekdays (except holidays), from 9am to 6pm. Canal de Comunicação com o Público Goldman Sachs Brasil: 
+ 0800 727 5764 e/ou contatogoldmanbrasil@gs.com. Horário de funcionamento: segunda-feira à sexta-feira (exceto feriados), das 9h às 18h; in Canada 
+ by Goldman Sachs & Co. LLC; in Hong Kong by Goldman Sachs (Asia) L.L.C .; in India by Goldman Sachs (India) Securities Private Ltd .; in Japan by 
+ Goldman Sachs Japan Co., Ltd .; in the Republic of Korea by Goldman Sachs (Asia) L.L.C., Seoul Branch; in New Zealand by Goldman Sachs New 
+Zealand Limited; in Russia by OOO Goldman Sachs; in Singapore by Goldman Sachs (Singapore) Pte. (Company Number: 198602165W); and in the 
+ United States of America by Goldman Sachs & Co. LLC. Goldman Sachs International has approved this research in connection with its distribution in 
+the United Kingdom. 
+
+ Goldman Sachs International ("GSI"), authorised by the Prudential Regulation Authority ("PRA") and regulated by the Financial Conduct Authority 
+ ("FCA") and the PRA, has approved this research in connection with its distribution in the United Kingdom. 
+European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions 
+within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of 
+Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorité de 
+ contrôle prudentiel et de resolution ("ACPR") and regulated by the Autorité de contrôle prudentiel et de resolution and the Autorité des marches 
+ financiers ("AMF") disseminates research in France; GSI - Sucursal en    (Madrid branch) authorized in Spain by the Comisión Nacional del 
+ Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Bankfilial (Stockholm branch) is authorized by the SFSA as a "third 
+ country branch" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) om värdepappersmarknaden) 
+ disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE ("GSBE") is a credit institution incorporated in Germany and, within 
+the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German 
+ Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research 
+in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research 
+and additionally, GSBE, Copenhagen Branch filial af GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom 
+of Denmark; GSBE - Sucursal en España (Madrid branch) subject (to a limited extent) to local supervision by the Bank of Spain disseminates research in 
+the Kingdom of Spain; GSBE - Succursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca 
+d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Società e la Borsa "Consob") disseminates research in 
+Italy; GSBE - Succursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden 
+ Bankfilial (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinpektionen) 
+ disseminates research in the Kingdom of Sweden. 
+
+ General disclosures 
+ This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we 
+consider reliable, but we do not represent it is accurate or complete, and it should not be relied on as such. The information, opinions, estimates and 
+forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as 
+appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority 
+of reports are published at irregular intervals as appropriate in the analyst's judgment. 
+
+ Goldman Sachs conducts a global full-service, integrated investment banking, investment management, and brokerage business. We have investment 
+ banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & 
+ Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org). 
+ Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal 
+trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and 
+investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research. 
+We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the 
+securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy. 
+ The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not 
+necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs. 
+
+ Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the 
+products mentioned that are inconsistent with the views expressed by analysts named in this report. 
+ This research is focused on investment themes across markets, industries and sectors. It does not attempt to distinguish between the prospects or 
+ performance of, or provide analysis of, individual companies within any industry or sector we describe. 
+Any trading recommendation in this research relating to an equity or credit security or securities within an industry or sector is reflective of the 
+investment theme being discussed and is not a recommendation of any such security in isolation. 
+ This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be 
+ illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of 
+ individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if 
+appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them 
+ may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. 
+ Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments. 
+
+ 23 July 2025                                                                                                                                7 
+page_end
+
+Goldman Sachs                                                                                                  What's Top of Mind in Macro Research 
+
+Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. 
+Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at 
+https://www.theocc.com/about/publications/character-risks.jsp and https://www.goldmansachs.com/disclosures/cftc fcm   disclosures. Transaction costs 
+may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied 
+upon request. 
+Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global 
+Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your 
+individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., 
+marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. 
+As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request 
+that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data 
+feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for 
+equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic 
+publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports. 
+All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all 
+research content is redistributed to our clients or available to third-party aggregators, nor is Goldman Sachs responsible for the redistribution of our 
+research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related 
+services) that may be available to you, please contact your GS representative or go to https://research.gs.com. 
+Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 
+10282. 
+
+   2025 Goldman Sachs. 
+You are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. 
+You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative 
+works or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, 
+or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. 
+This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or 
+finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any 
+such system. 
+
+23 July 2025                                                                                                                                      8 OO 
+page_end

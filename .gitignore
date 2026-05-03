@@ -68,21 +68,21 @@ env/
 # data/
 # output/
 
-# Large binary files
-*.npy
-*.npz
+# Large binary files — tracking intentionally for pipeline data reproducibility
+# *.npy
+# *.npz
 *.pkl
 *.pickle
 *.h5
 *.hdf5
 *.parquet
 
-# Embedding files (can be regenerated)
-embeddings.npy
-*_embeddings.npy
+# Embedding files
+# embeddings.npy
+# *_embeddings.npy
 
-# PDF files (input data)
-*.pdf
+# PDF files (input data) — tracked intentionally
+# *.pdf
 
 # -----------------------------------------------------------------------------
 # Logs

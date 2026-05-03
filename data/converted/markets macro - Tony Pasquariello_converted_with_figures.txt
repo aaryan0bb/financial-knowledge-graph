@@ -1,0 +1,448 @@
+
+
+markets / macro 
+FICC and Equities | 26 July 2025 | 11:36AM UTC 
+this was one of those weeks where it paid to heed the wisdom of the great Ken 
+Langone: "you can't keep America down." 
+
+to be more precise: S&P went wire-to-wire and sits at fresh all-time highs. 
+
+in the doing, a few stories stood out: 
+
+i. "the light of the oncoming train focuses the mind." with the August 1st deadline 
+in clear sight, a handful of framework deals were agreed to, the most significant 
+being Japan.Ewhile these are all printing north of the 10% "pause" baseline, the 
+fact is they're getting done, and that is wringing risk premia out of the markets. 
+
+ii. Fed independence: the headline roulette continues. the tension is unlikely to 
+magically disappear. yet, another week passes, and Chair Powell remains in his 
+seat. 
+
+iii. as the earnings reporting season hits full stride, GOOG (amongst others) 
+ratified a hugely important theme: commitment to AI capex is only 
+growing. again, this is the single biggest ball to keep your eye on. as Rich 
+Privorotsky framed it, this is a "gold rush for compute capacity, with tailwinds 
+from both demand and policy." 
+
+iv. to say it again -- and, as detailed below -- market technicals remain 
+favorable. 
+
+v. it's a distinct point, but under the hood, there was ongoing and significant 
+strain around certain positions (discussed in point 12). 
+
+now, bear with me as I lay out a framework for market direction (and, feel free to 
+give feedback). 
+
+here's one way to level set the big dynamics in the game: US growth has been 
+durable, financial conditions are easy and AI continues to capture the market's 
+imagination. 
+
+this calls to mind the slogan of those Old Milwaukee beer commercials from my 
+youth: "it doesn't get any better than this." 
+
+it's at these exact times when -- if only for the sake of balance and sobriety -- 
+you're supposed to weigh the areas of fundamental concern. 
+page_end
+
+so, here's a handful that I have been chewing on: 
+
+i. if our US economics team is correct on the trajectory of the second half, the 
+growth/inflation tradeoff is not alluring. 
+
+ii. retail investors have become truly rapacious in their hunt for risky assets; for a 
+very impressive piece of work that illustrates this action, click here: link 
+
+iii. I have no feel for when it will matter, but back end rates continue to simmer. 
+
+iv. most elementally, S&P has been on a flagpole for 15 weeks, so we're due for a 
+dose of consolidation at some point. 
+
+my point at this stage in the note: it's a bull market and the primary trend is 
+higher, but one can argue the short-term risk/reward profile is getting tricky. 
+
+working from there, if anything could overwhelm those concerns, it would be a 
+show-of-force by the largest and most innovative companies in the world. 
+
+for good order's sake, next week brings earnings from MSFT (Wed), META 
+(Wed), AMZN (Thu) and AAPL (Thu). 
+
+alongside this comes the FOMC (which will likely be the first time since 1993 that 
+two Fed governors dissent), payrolls (as noted in point 10 below, the labor 
+market is approaching stall speed) and the deadline for tariffs (where the stakes 
+are the highest with the EU). 
+
+so, next week is a fairly serious show-me story, one that will touch on most of the 
+key market variables. 
+
+now, given the fact that short-dated implied volatility has been hammered -- in 
+both equities and interest rates -- I would pick up some cheap gamma to manage 
+your tail risk (be it the left tail or the right tail). 
+
+inclusive of everything above and below, here's where I'm going with all of this: 
+my core directional bias is to be long US equities, with a hedge. 
+
+as always, specific ideas are available (I'd focus on NDX or QQQ options given 
+their notable cheapness to S&P). 
+page_end
+
+ 1. debt and deficits. I hosted a conversation this week with three senior 
+partners to debate the hard truths of the US fiscal situation: link. I came out of 
+ this with the same set of biases that I had going in: long US equities ... long stores- 
+ of-value ... (modestly) short dollars ... and curves to steepen, globally. through all 
+ of the rock-and-roll of 2025, that composite is still generally 
+
+2. flow-of-funds / positioning. our discretionary hedge fund client base has 
+ sold US equities for FOUR straight weeks. Bet against this, the systematic trading 
+ community remains in buy mode, as $99bn of demand in the past month should 
+ be followed by $89bn in the month ahead. taken together, I come back to this 
+point: hedge fund length is still decently below where it was at the February 
+highs (or at the end of last year, or at the peak of last summer). 
+
+ 3. a follow on pointklin sharp contrast to the prior paragraph, the US retail 
+ investor has been a hammer in recent months. alongside traditional fund flows, 
+ there are multiple markers of households really going for it that caught my eye: 
+ the percentage of option volume that is comprised by calls ... the immense 
+ volumes in stocks that trade for < $1 ... and, of course, the scorching rally in high 
+short interest stocks (see chart 15 below). at the risk of repeating myself, that 
+note referenced up top from US portfolio strategy did an excellent job of mapping 
+out the manifestations of this speculative enthusiasm. 
+
+4. pulling it together?my expectation is both professionals and civilians will 
+remain sponsors of stocks, but the ferocity of their demand will seasonally slow a 
+bit as July becomes August. at that point, the baton will be handed off to US 
+ corporates in the post-earnings window. it's here that I'll note -- and this 
+ surprised me -- August is the single most active month for executed repurchase 
+ on our desk. so, while I worry a little about the sustainability of current demand 
+   specifically the most speculative elements that have locally appeared -- the 
+broad pattern of flow should remain net positive for a bit longer. 
+
+ 5. earnings. a few takeaways from the reporting period so far: (1) in aggregate, 
+results have been objectively good, as 65% of S&P names have beaten final 
+ estimates by > 1 std dev, which is well above the long-term average of 48%; (2) 
+judging from price action, however, the bar was high -- it's not the +4% 
+ consensus estimate that matters, it's that popular stocks are more owned today 
+ than they were in the smoke of April; (3) we're starting to see how Trump 2.0 
+policies are impacting different companies in very different ways -- witness the 
+GM selloff on tariffs vs the VZ rally on expense deduction. 
+
+ 6. US tech. to underscore the point on GOOG from up top, consider this 
+ observation from NOW: "I don't think the demand environment changed 
+ dramatically. I think the demand environment is wide open for AI 
+ innovation." what's notable about price action this week is the change in 
+reaction function versus last year -- where commitment to AI spend is again 
+page_end
+
+welcomed by the market. this will be a critical dynamic to monitor next week, 
+and one big question is whether stock operators will begin to make a contrast 
+between "good" capex and "less good" capex (more to follow on this point). for a 
+specific take on the tech setup into next week: link. 
+
+7. US banks?I learned a few things from long-time colleague Richard Ramsden 
+this week: 
+
+i. the top ten US banks spend more on technology than the rest of the US banking 
+system combined (that's ~ 4,300 banks). 
+
+ii. the top ten US banks alsofhold more than half of total assets across the entire 
+industry. 
+
+iii. JPM trades around 3.0x TBV, a valuation level not seen for large US bank 
+since ... 2007. 
+
+iv. in the context of hope for digital assets, it costs a US bank as much as $7 to 
+process a physical check. 
+
+8. one more point on the banks?the past month brought a set of news that 
+points clearly towards increased credit provision into the economy. here's one 
+way to frame the cyclical impulse: corporate loan growth for the top seven US 
+banks accelerated from 2% y/y in Q1 ... to over 5% y/y in Q2 ... with healthy 
+growth across both commercial and investment banking businesses (thanks to 
+James Yaro). US bank lending doesn't pack the same punch that it did in prior 
+cycles, but I still consider trend to be a net positive for US economic growth. 
+
+9. US industrials. for good order's sake, XLI has put down the following streak: 
+May +8.8%, June +3.3%, July +5.1%. in turn, the hedge fund community has been 
+a buyer for nine straight weeks, taking net exposure to the 100th percentile. for a 
+take on what's going on here, enter Ryan Novak: 
+
+equity performance has been incredibly concentrated in 2025 in AI/data center 
+related winners -- think GEV (+100% YTD) and GE (+60% YTD). as we turned the 
+calendar to 2H'25, the market is forcing investors to re-evaluate deeper cyclical 
+exposures to drivebreadth in performance. the potential for lower interest rates 
+and the ISM in contractionary territory for 30 of the last 32 months (historically a 
+buy signal) are supporting this argument. investors are looking at subsectors like 
+machinery, housing and short cyclelith renewed interest on the long 
+side.          is more challenged in Augustand September, but picksup again in 
+the fall with November historically the strongest month for the group. we expect 
+this rally to have legs into year end. 
+page_end
+
+10. level setting the US macro outlook. Jan Hatzius authored a somewhat 
+sobering note that frames various risks to the US economy: link. my eye, this 
+was the key part: 
+
+even a one-time price increase will eat into real income, at a time when consumer? 
+spending trends already look shaky. although nominal core retail sales rebounded 
+in June, estimate that real personal consumption has now stagnated on net for 
+six months, which rarely happens outside of recession. housingactivity has also 
+slowed sharply, with overall construction spending falling faster over the past year 
+than at any time since the post-2008 housing bust. the weakness in consumption 
+and housing has pushed down our tracking estimate for H1 real GDP growth to 
+1.1%, about a percentage point below potential. we expect a similar pace in H2, as 
+the growing real income drag from tariff-related price increases offsets the boost 
+from easier financial conditions. 
+
+11. Japan. I thought the trade deal was a mutual win. specifically, no volume 
+restrictions on the export of Japanese exports is a big deal. so, NKY boasts a clean 
+break above 40k, and TPX similarly took out the highs. local technicals, 
+principally from the systematic community, remain supportive. as is usually the 
+case, the market traded spot up / vol up. as I've said before, Japan style trading 
+rallies -- prosecuted through upside calls -- is about as much fun as one can have 
+in the financial markets. 
+
+12. the pain trade. you heard the story by now: the momentum factor has been 
+under an immense amount of pressure recently. I suspect part of this follows the 
+contours of earnings (e.g. the homebuilders ripped back on better numbers) and 
+a lot of this is positioning (from the starting point of very high gross exposure, 
+systematic long/short performance has retraced very hard). one more point 
+here: momentum pain was a global story. I thought this comment on the 
+European market (Thilo Deller) was striking: "the correlation between the long 
+and the short leg of momentum has broken down to zero ... only other time we 
+saw this was after the vaccine announcement in 2020."2 
+
+13. to reference that noten speculative trading activity forla third time, 
+this table speaks for itself (link2 
+page_end
+
+               Current %ile rank vs. history since 1990 
+ 100% 
+              98%            96% 
+  80%                                                     88% 
+                                            85% 
+
+  60% 
+
+  40% 
+
+  20% 
+
+    0% 
+          Penny stocks    Stocks with   Unprofitable   Speculative 
+                           EV/sales        stocks        Trading 
+                        multiples > 10x                 Indicator 
+
+              Share of total dollar trading volume 
+
+14. working from there, this is our "retail favorites basket," constituted 
+back in the heady days of 2021. as you can see, recent weeks have seen a 
+blast up and through those highs: 
+
+GSXURFAV Index 94) Suggested Charts 96) Actions 97) Edit           Candle Chart 
+07/31/2020 07/25/2025 Last Px Local CCY Mov Avgs Key Events 
+ 1D 3D 1M 6M YTD 1Y 5Y Max Weekly V Table     + Related Data Add Data « Edit Chart 
+                              Track Annotate News Zoom                    240 
+                                                                          232.18 
+                                                                         220 
+
+                                                                          200 
+
+                                                                         -180 
+
+                                                                         -160 
+
+                                                                         -120 
+
+                                                                         -100 
+
+  2020      2021          2022          2023           2024        2025 
+
+    | Category | Percentile Rank |
+    |---------------------------------|-----------------|
+    | Penny stocks | 98% |
+    | Stocks with EV/sales multiples > 10x | 96% |
+    | Unprofitable stocks | 85% |
+    | Speculative Trading Indicator | 88% |
+
+    Summary: This bar chart displays the current percentile rank versus history since 1990 for various categories of stocks, reflecting their share of total dollar trading volume. The Y-axis ranges from 0% to 100%. All categories shown are at significantly high historical percentile ranks, indicating elevated trading activity in speculative assets. "Penny stocks" are at the 98th percentile, and "Stocks with EV/sales multiples > 10x" are at the 96th percentile, representing near-record levels of trading volume. "Unprofitable stocks" and the "Speculative Trading Indicator" are also notably high at 85% and 88% respectively.
+
+    Explanation: This chart visually underscores the high level of speculative trading activity in the market, as referenced in the accompanying text. The elevated percentile ranks across these risky stock categories suggest that a substantial portion of current trading volume is directed towards less fundamentally sound or higher-risk assets, which could imply market exuberance or a "gold rush" mentality as mentioned in the broader context.
+
+    | Date      | GSXURFAV Index Value |
+    |-----------|----------------------|
+    | Jul 2020  | 100                  |
+    | Oct 2020  | 150                  |
+    | Jan 2021  | 215                  |
+    | Apr 2021  | 200                  |
+    | Jul 2021  | 160                  |
+    | Oct 2021  | 140                  |
+    | Jan 2022  | 130                  |
+    | Jun 2022  | 105                  |
+    | Oct 2022  | 130                  |
+    | Jan 2023  | 120                  |
+    | Apr 2023  | 140                  |
+    | Jul 2023  | 150                  |
+    | Oct 2023  | 175                  |
+    | Jan 2024  | 190                  |
+    | Apr 2024  | 210                  |
+    | Jul 2024  | 232.18               |
+
+    Summary: This weekly candlestick chart displays the performance of the GSXURFAV Index, a "retail favorites basket," from July 2020 to July 2025 (with data up to July 2024). The index shows a rapid surge from 100 in mid-2020 to an initial peak around 215 in early 2021, followed by a significant decline throughout 2021 and 2022, bottoming near 105 in mid-2022. From late 2022, the index began a steady recovery, accelerating into 2024. Most notably, in mid-2024, the index decisively broke above its previous 2021 peak, reaching an all-time high of 232.18, significantly surpassing the prior resistance level marked around 215.
+
+    Explanation: This chart, showing the "retail favorites basket," highlights a resurgence in speculative trading activity, echoing the "heady days of 2021." The recent "blast up and through those highs" indicates renewed retail investor interest and momentum in these popular stocks, contrasting with broader market dynamics like the recent "momentum pain" mentioned in the preceding text. This trend suggests a continuation of the "gold rush" phenomena tied to areas like power demand and other high-growth narratives.
+
+page_end
+
+15. a variation on the same theme. this plots a basket of popular 
+shorts. note that it's now up nine consecutive weeks: 
+
+ GSCBMSAL Index 94) Suggested Charts 96) Actions 97) Edit              Candle Chart 
+ 07/25/2024 07/25/2025 Last Px Local CCY Mov Avgs, Key Events 
+ 1D 3D 1M 6M YTD 1Y 5Y Max Daily V 31 Table     + Related Data Add Data « Edit Chart 
+                                Track Z Annotate News Zoom                  240 
+
+                                                                                59 
+                                                                             226.24 
+                                                                             -220 
+
+                                                                             207.63 
+                                                                             -200 
+                                                                              196.96 
+                                                                              188.63 
+                                                                             -180 
+
+                                                                             -160 
+
+                                                                             -140 
+
+    Aug   Sep          Nov   Dec   Jan   Feb   Mar    Apr   May   Jun   Jul 
+             10/07/24                                 2025 
+
+ 16. in other news, this plots an old favorite, the "power up America" 
+basket. given the performance of GEV this week (now up ~ 400% since the 
+reveal of ChatGPT) and the core trends around power demand (link), this is 
+certainly part of the aforementioned gold rush: 
+
+    | Date                  | GSCBMSAL Index | Purple MA | Green MA | Yellow MA |
+    |-----------------------|----------------|-----------|----------|-----------|
+    | Aug 2024              | ~175           | ~170      | ~165     | ~160      |
+    | Sep 2024              | ~185           | ~180      | ~175     | ~170      |
+    | Oct 2024              | ~195           | ~190      | ~185     | ~175      |
+    | Nov 2024              | ~205           | ~200      | ~195     | ~180      |
+    | Dec 2024              | ~210           | ~205      | ~200     | ~185      |
+    | Jan 2025              | ~220           | ~215      | ~205     | ~190      |
+    | Early Feb 2025 (Peak) | ~230           | ~220      | ~215     | ~195      |
+    | Mid Feb 2025          | ~200           | ~215      | ~210     | ~195      |
+    | Mar 2025              | ~160           | ~190      | ~180     | ~190      |
+    | Early Apr 2025 (Trough) | ~140           | ~165      | ~155     | ~185      |
+    | May 2025              | ~175           | ~160      | ~155     | ~180      |
+    | Jun 2025              | ~205           | ~185      | ~175     | ~185      |
+    | Early Jul 2025        | ~220           | ~200      | ~190     | ~188      |
+    | Jul 25, 2025 (Current) | 226.24         | 207.63    | 196.96   | 188.63    |
+
+    Summary: The chart displays the GSCBMSAL Index, representing a basket of popular shorted stocks, over roughly a one-year period from August 2024 to July 2025. The index initially rose steadily to a peak around February 2025 (approx. 230), followed by a sharp decline into a trough by early April 2025 (approx. 140). Since April, the index has experienced a strong and sustained rally, now up nine consecutive weeks, reaching new highs of 226.24, surpassing its previous peak. Three moving averages are also shown, with the shorter-term averages (purple and green) currently tracking well above the longer-term yellow average, reinforcing the recent upward momentum.
+
+    Explanation: This chart indicates that the "basket of popular shorts" has seen significant appreciation in value, particularly in recent months. The sustained nine-week rally implies that the stocks most heavily bet against by short sellers are instead performing strongly, potentially leading to substantial losses for those holding short positions. This trend could signal a "short squeeze" scenario or a fundamental shift in market sentiment favoring these previously targeted securities.
+
+page_end
+
+                                                                                            Candle Chart 
+GSENEPOW Index     94) Suggested Charts 96) Actions 97) Edit 
+07/25/2024   07/25/2025 Last Px     Local CCY    Mov Avgs     Key Events 
+                                                                                               Edit Chart 
+1D 3D   1M 6M YTD   1Y 5Y Max Daily V            Table        + Related Data Add Data 
+                                        Track Annotate News O. Zoom                                 200 
+                                                                                                     195.16 
+
+                                                                                                    183.85 
+                                                                                                     180.14 
+                                                                                                     174.52 
+
+                                                                                                    -160 
+                                                                                                     154.41 
+
+                                                                                                    120 
+
+                                                                                     Jun      Jul 
+    Aug     Sep      Oct     Nov     Dec     Jan     Feb     Mar     Apr     May 
+                                                                      2025 
+                 10/07/24 
+
+                                                        favorites, I'll finish with a basket of 
+17. speaking of gorgeous charts and old 
+                                                                        and next week is a 
+US mega cap tech stocks ... again, this is the big ball, 
+
+show-me story: 
+
+                                                                                             Candle Chart 
+GSTMTMEG Index      94) Suggested Charts 96) Actions 97) Edit 
+07/25/2024 - 07/25/2025 Last Px      Local CCY    Mov Avgs    Key Events 
+                                                                                                Edit Chart 
+ 1D 3D 1M 6M YTD     1Y 5Y Max Daily V             Table       + Related Data Add Data      << / 
+                                         Track Annotate News   Zoom 
+                                                                                                     517.34 
+                                                                                                      510.97 
+                                                                                                      -500 
+
+                                                                                                      487.94 
+
+                                                                                                      473.93 
+
+                                                                                                      447.50 
+
+                                                                                                      -400 
+
+                                                                                                      350 
+
+                                                                              May      Jun     Jul 
+     Aug     Sep              Nov     Dec     Jan     Feb     Mar     Apr 
+          09/09/24 2024                                                2025 
+
+    | Date | Approx. Index Value | Short-term MA | Medium-term MA | Long-term MA |
+    |---|---|---|---|---|
+    | Aug 2024 | 385 | 380 | 375 | 360 |
+    | Sep 09, 2024 | 405 | 395 | 385 | 370 |
+    | Oct 2024 | 430 | 420 | 405 | 385 |
+    | Nov 2024 | 460 | 450 | 430 | 405 |
+    | Dec 2024 | 485 | 475 | 455 | 425 |
+    | Jan 2025 | 505 | 495 | 480 | 445 |
+    | Feb 2025 | 500 | 505 | 495 | 460 |
+    | Mar 2025 | 440 | 470 | 480 | 465 |
+    | Apr 2025 | 410 | 420 | 440 | 450 |
+    | Early May 2025 | 440 | 415 | 420 | 445 |
+    | Mid-May 2025 | 470 | 440 | 425 | 440 |
+    | Jun 2025 | 495 | 480 | 455 | 445 |
+    | Jul 25, 2025 | 517.34 | 487.94 | 473.93 | 447.50 |
+
+    Summary: The candlestick chart displays the performance of the GSTMTMEG Index, representing US mega cap tech stocks, from August 2024 to July 2025, with index values on the Y-axis ranging roughly from 350 to 520. It includes three moving averages: a short-term (green), medium-term (purple), and long-term (yellow). The index showed a strong uptrend from August 2024 into early 2025, peaking around January-February. This was followed by a sharp correction from February to April 2025, where the index notably fell below all its moving averages. A robust recovery began in May 2025, leading to a significant rally that pushed the index to new highs by July 2025, with all moving averages now in a bullish alignment, indicating strong upward momentum. The current value of 517.34 marks a new peak for the period.
+
+    Explanation: The "GSTMTMEG Index" is presented as a crucial barometer, or "the big ball," for market sentiment, specifically highlighting the performance of US mega cap tech stocks. The strong recent rebound and new highs suggest robust investor confidence in this sector, but the accompanying text indicates that "next week is a show-me story," implying upcoming events or catalysts will test the sustainability of this significant bullish trend.
+
+    | Date         | Index Value | Short-term MA (Magenta) | Mid-term MA (Green) | Long-term MA (Yellow) |
+    |--------------|-------------|-------------------------|---------------------|-----------------------|
+    | Aug 2024     | ~115        | ~118                    | ~119                | ~120                  |
+    | Sep 2024     | ~135        | ~130                    | ~125                | ~122                  |
+    | Oct 2024     | ~145        | ~145                    | ~140                | ~130                  |
+    | Nov 2024     | ~160        | ~155                    | ~150                | ~140                  |
+    | Dec 2024     | ~175        | ~170                    | ~160                | ~145                  |
+    | Jan 2025     | ~185        | ~175                    | ~170                | ~150                  |
+    | Mid-Jan 2025 | ~190        | ~180                    | ~175                | ~155                  |
+    | Feb 2025     | ~150        | ~160                    | ~165                | ~150                  |
+    | Mar 2025     | ~135        | ~140                    | ~145                | ~150                  |
+    | Mid-Apr 2025 | ~130        | ~135                    | ~140                | ~145                  |
+    | May 2025     | ~170        | ~160                    | ~155                | ~150                  |
+    | Jun 2025     | ~190        | ~175                    | ~170                | ~152                  |
+    | Jul 2025     | 195.16      | 180.14                  | 183.85              | 154.41                |
+
+    Summary: The chart displays the GSENEPOW Index as a candle chart from August 2024 to July 2025, with three overlaid moving averages (short-term magenta, mid-term green, long-term yellow). The index exhibited a strong uptrend from August 2024, peaking around 190 in mid-January 2025. This was followed by a sharp correction, with the index dropping to a trough of approximately 130 in mid-April 2025, during which the shorter-term moving averages crossed below the longer-term one. Subsequently, the index experienced a robust rebound, reaching a new high of 195.16 by July 2025, with all moving averages realigning in a bullish configuration.
+
+    Explanation: This "GSENEPOW Index" is referred to as an "old favorite," part of the "power up America" basket, suggesting it tracks companies related to the energy or power sector. The significant rally in the index, particularly in the latter half of the depicted period, aligns with the broader narrative of a "gold rush" driven by rising power demand, potentially influenced by developments like the surge in GEV performance post-ChatGPT. Its strong recovery and current high value indicate a bullish outlook for this thematic basket.
+
+page_end
+
+source for all data: GIR, Bloomberg as of 25Jul25. past performance is not 
+indicative of future results. all references to "we/us/our" refer to the views and 
+observations of the desk. 
+
+Tony Pasquariello 
+page_end

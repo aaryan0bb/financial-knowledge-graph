@@ -1,0 +1,108 @@
+
+
+GS Basics - Trade Template. AI vs Consumer. Consumption/Construction 
+FICC and Equities | 24 July 2025 | 6:56AM UTC 
+Europelfutures sharply higher after a late FT story indicated that the US and 
+EU are close to a trade deal. Europe appears keen to mirror the Japan 
+agreement-15% tariffs no longer seem to be a stumbling block. Polymarket 
+odds of a deal by August 1st now at 56%. Navarro's comments suggest headlines 
+should "be taken with a grain of salt." Bessent noted that "innovative financing" 
+helped structure the Japan auto deal and that investment incentives played a key 
+role. Last mile might be the hardest but headlines are encouraging.2 
+
+  thematic continues to shine through in numbers. GOOG: they beat in core 
+search (low bar) and YouTube, but the standout was a $10bn upward revision to 
+2025 capex: "With this strong and growing demand for our Cloud products and 
+services, we are increasing our investment in capital expenditures," said CEO 
+Sundar Pichai. Cloud revenue rose +32%, well above the +26.5% est. What 
+last year would have been penalized as potentially wasteful capex is now seen as 
+evidence of constrained supply chasing real AI demand. Sk Hynix confirmed 
+overnight "SK Hynix Inc. plans to quicken spending on advanced memory chip 
+capacity ... reflecting surging AI demand" (BBG) . ServiceNowboosted guidance 
+on AI strength: "AI revenue grew 50% QQ, with 18 of our top 20 deals 
+including Now Assist AI,"Baid McDermott. Elsewhere, GE Vernova +15% as 
+grid/power demand surprises to the upside: "After growing at 0.5% annually 
+from 2014-2024, US electricity demand is forecast to grow 2.5% annually 
+through 2035." (bbg) ABB, Legrand-same theme. The AI Capex/energy 
+infrastructure/quest for tokens arms race is very real. 
+
+Consumer remains the relative pocket of weakness. Chipotle missed on weak 
+foot traffic (low-end pressure), toy- 
+maker Mattel warned, Southwest disappointed on domestic leisure 
+travel, Hilton guided lower: "US travel demand has facedtheadwinds, including 
+lower consumer confidence and declining international visitors. RevPAR fell - 
+1.5% YoY in Q2." In Europe, new car sales fell more than -5% in June. You can see 
+the divergence clearly: businesses are front-loading spend, aided by tax 
+policy and reshoring incentives. Consumers just have tariffs. Relative sector 
+performance tells the story. (see below) 
+
+More meme pain but faded: Big spike in meme names early on but enthusiasm 
+faded a bit into close, with Krispy Kreme and GoPro closing well below their 
+highs. Kohl's, finished sharply lower. Some hope the worst issues for gross are 
+behind us. 
+
+Diplomatic leaks reinforce that a US-EU deal is close. Europe is back near highs, 
+alongside Japan-so largely priced in.Bonds absorbed supply yesterday-10yr 
+TIPS auction ahead today. ECB today likely a non-event. More in the chop than 
+chase camp but got to admit the AI thematic is impressive. Watching PMIs 
+page_end
+
+Side-note: "Although nominal core retail sales rebounded in June, we estimate 
+ ?    real personal consumption has now stagnated on net for six months, 
+                                                                                 also slowed 
+which rarely happens outside of recession. Housing activity has 
+sharply, with overall construction spending falling faster over the past year than 
+at any time since the post-2008 housing bust." (GIR) 
+ ? 
+
+     Exhibit 3: A Sharp Slowdown in Consumption and Construction 
+
+       Percent change, Real Personal Consumption Percent change, Percent change, Construction Spending Percent change, 
+       6m annual rate   Expenditures*   6m annual rate year ago                          year ago 
+       8                                        8 20                                         20 
+                                                    15                                       15 
+       6                                         6 
+                                                    10                                       10 
+       4                                        4   5                                        5 
+
+       2                                        2   0                                        0 
+                                                    -5                                       -5 
+       0                                        0 
+                                                   -10                                       -10 
+      -2                                        -2 -15                                       -15 
+
+      -4                                        -4 -20                                        -20 
+       1988 1992 1996 2000 2004 2008 2012 2016 2020 2024 1988 1992 1996 2000 2004 2008 2012 2016 2020 2024 
+       *Including estimated implications of June retail sales and inflation releases. 
+     Source: US Bureau of Labor Statistics, Census Bureau, Haver Analytics, Goldman Sachs Global Investment Research 
+
+ Goldman Sachs Research - Marquee 
+
+ *All references to ?we/us/our? refer to the views and observations of the desk 
+
+ unless otherwise specified. 
+
+    | Year | Real Personal Consumption (6m annual rate, %) | Construction Spending (YoY, %) |
+    |---|---|---|
+    | 1988 | 4.0 | 3.0 |
+    | 1991 | -3.0 | -14.0 |
+    | 1994 | 3.5 | 6.0 |
+    | 1998 | 4.0 | 8.0 |
+    | 2001 | 0.5 | -2.0 |
+    | 2004 | 3.0 | 10.0 |
+    | 2007 | 1.0 | 0.0 |
+    | 2009 | -3.5 | -17.0 |
+    | 2012 | 2.5 | -5.0 |
+    | 2015 | 2.5 | 7.0 |
+    | 2018 | 2.0 | 2.0 |
+    | 2020 (Q2 est.) | -4.0 | -5.0 |
+    | 2020 (Q4 est.) | 8.0 | 15.0 |
+    | 2022 | 4.0 | 5.0 |
+    | 2023 | 2.0 | 0.0 |
+    | 2024 (Current) | 0.5 | -3.0 |
+
+    Summary: This figure presents two line charts from 1988 to 2024, depicting Real Personal Consumption Expenditures (6-month annualized percentage change) and Construction Spending (year-over-year percentage change), with gray vertical bars indicating recessionary periods. Both indicators exhibit clear cyclical patterns, showing sharp declines during recessions (e.g., 1990-91, 2001, 2008-09, 2020) followed by strong rebounds. Construction spending, however, demonstrates significantly higher volatility with more pronounced peaks (up to 15%) and deeper troughs (down to -17%) compared to personal consumption, which typically fluctuates between -4% and +8%. The most recent data for 2023-2024 shows a distinct slowdown for both, with consumption growth nearing stagnation and construction spending turning negative after a post-COVID rebound.
+
+    Explanation: The charts graphically reinforce the accompanying text's assertion of a "sharp slowdown in consumption and construction," particularly highlighting the recent stagnation in real personal consumption and a faster fall in construction spending than seen since the post-2008 housing bust. This visual evidence underscores the "Consumer remains the relative pocket of weakness" theme mentioned on the previous page, contrasting with robust corporate spending in sectors like AI and energy infrastructure.
+
+page_end

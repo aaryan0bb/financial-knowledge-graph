@@ -1,0 +1,1219 @@
+
+ Accessible version 
+ BofA GLOBAL RESEARCH                                                                           BofA SECURITIES 
+
+ Automotive Industry 
+
+ Back to the future 2Q:25 - Solid industry 
+
+ backdrop sets up 2Q Autos earnings well 
+ Price Objective Change 
+
+                                                                                                   23 July 2025 
+ General overview on the state of the industry in 2Q 
+ Entering earnings season, industry data suggest that 2Q shaped up much better than                Equity 
+ initial concerns. LVP in NAm were largely in line with industry forecasts prior to tariff         Global 
+ announcements (~4m units) while sales were up ~3% YOY, most likely because of some                Autos/Car Manufacturers 
+ demand pull-forward. Despite tariffs, we did not see any major price increases from               Federico Merendi 
+ OEMs, rather just slightly lower incentives, reflecting the lower level of inventory.             Research Analyst 
+                                                                                                   BofAS 
+                                                                                                   +1 646 556 2798 
+ Suppliers: Stronger production volumes are a boost                                                federico.merendi@bofa.com 
+ We expect suppliers to report a solid 2Q25. Global LVP was better than initial                    William Healey 
+                                                                                                   Research Analyst 
+ expectations, particularly in NAm. Suppliers may also benefit from more favorable FX in           BofAS 
+ 2Q. Some company specific dynamics are: ADNT impact from China tariffs is likely to be            +1 646 855 5747 
+                                                                                                   william.healey2@bofa.com 
+noticeably lower given the rate reduction, AXL may be impacted by lower production of 
+ the key GM platform T1XX (-8% YOY), APTV's AS&UX segment may surprise to the 
+ upside given that MBLY released preliminary results pointing to strong sales growth. 
+                                                                                                   Exhibit 1: 2Q:25 PO changes 
+                                                                                                   PO changes across autos coverage 
+ Dealers: new and used sales likely robust, upside to GPUs 
+ We expect that robust sales in both the new and used vehicle market should benefit                                     |Prior New 
+                                                                                                        Company Rating PO     PO 
+ dealers in 2Q25. We don't expect major changes on GPUs from the last few quarters but 
+                                                                                                    Suppliers 
+ acknowledge that richer sales mix may push GPUs temporarily higher. In addition, comps            LEA Lear        Buy   $115 $135 
+ for the group are relatively easier due to last year's disruptions caused by the CDK               VC Visteon      Buy $110 $130 
+ outage. Our attention will be on demand strength, potential price increases with the               Dealers 
+ introduction of MY26 vehicles, and potential shortages with some specific brands.                  GPI Group 1 Auto Buy $565 $560 
+                                                                                                   Source: BofA Global Research estimates 
+ RIVN & LCID: Spotlight is on demand post IRA phaseout                                                             BofA GLOBAL RESEARCH 
+ LCID and RIVN deliveries came in below our expectations (-6% and -3% respectively), 
+ despite solid auto sales in 2Q. This is not an encouraging sign. We believe investors' 
+                                                                                                           published research: 
+ eyes will be on demand commentary post IRA incentives phase-out. More positively,                 Recently 
+ both companies announced recent capital injections: RIVN received $1bn from VW at the             GM 2025 earnings recap 
+ end of 2Q, while LCID could receive $300m from Uber. 
+                                                                                                   US-Japan trade deal: Not all that glitters is 
+                                                                                                   gold 
+ PO changes: LEA, VC, and GPI 
+ We are raising VC PO to $130 from $110 and LEA to $135 from $115 since we are                     GM results beat but guidance implies softer 
+ moving our valuation year to 2026 EBITDA from 2025 EBITDA. We are lowering our PO                 2H - 2025 quick take 
+ for GPI slightly to $560 from $565 to reflect trimmed 2026 EPS estimates.                         Tesla, GM, Ford: 2025 Preview 
+
+ 2H25 outlook is mixed with many question marks for 4Q                                             LCID partners with Uber and Nuro for 
+ The outlook for 2H25 is mixed with significant uncertainty for 4Q. After the sales spike          robotaxi service 
+ in March and April, volumes have normalized. This indicates that the demand pull 
+                                                                                                   MBLY's announced 20 preliminary results 
+ forward is likely behind us. As pricing remains largely unchanged, we don't see any 
+                                                                                                   above expectations 
+ significant demand deterioration, but we deem plausible that the introduction of MY26 
+ could bring higher prices, impacting sales negatively in 4Q. LVP estimates for 3Q are             See Glossary on p. 8 
+ now back at around January levels (3.78m units). Industry production ests. continue to 
+ forecast a -7% YoY in 4Q, which suggest that the tariff impact is expected to bite in 4Q. 
+
+ See inside for explanation of PO and estimate changes. 
+
+ BofA Securities does and seeks to do business with issuers covered in its research 
+ reports. As a result, investors should be aware that the firm may have a conflict of 
+interest that could affect the objectivity of this report. Investors should consider this 
+ report as only a single factor in making their investment decision. 
+ Refer to important disclosures on page 14 to 17. Analyst Certification on page 13. Price 
+ Objective Basis/Risk on page 8. 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+ Global production forecasts drift higher 
+
+2Q production expectations increased 190bp since March 
+S&P Global estimates call for global production up 2.6% YoY in 2Q:25. This is a positive 
+revision from its initial estimates in March calling for production up 0.7% YOY entering 
+the quarter. Of the major regions, China production is expected to grow the most at 
+ +9.0% YoY. The other major regions are expected to decline with Europe at -1.7% YOY 
+and North America at -3.0% YOY. Japan/Korea is expected to be largely flat YoY. 
+
+  Exhibit 2: Progression of S&P/IHS forecasts for 2Q:25: Global LV production by region 
+  Since March '25, S&P/IHS' 2Q:25 global production forecast increased (190bp), driven by upward revisions 
+   for Japan/Korea (+340bp), North America (+290bp), South Asia (+220bp), China (+170bp), and Europe 
+   (+170bp). South America (-240bp) and Middle East/Africa (-550bp) were partial offsets. 
+
+                    20:24                       IHS 2Q:25 Forecast 
+                     Actual       Mar-25     Apr-25     May-25      Jun-25     Jul-25 
+   Europe            4,487,895 4,334,303    4,294,260 4,288,387   4,325,564 4,411,102 
+     YoY% Change                    -3.4%      -4.3%      -4.4%      -3.6%      -1.7% 
+   Greater China     6,992,042 7,499,295    7,308,335 7,301,135   7,589,735 7,620,970 
+     YoY% Change                    7.3%       4.5%       4.4%        8.5%       9.0% 
+   Japan/Korea       3,017,359 2,916,498    2,914,769 2,876,621   2,969,969 3,018,810 
+     YoY% Change                    -3.3%      -3.4%      -4.7%      -1.6%       0.0% 
+   Middle East/Africa 552,815     542,221    531,103    529,638    526,696    511,736 
+     YoY% Change                    -1.9%      -3.9%      -4.2%      -4.7%      -7.4% 
+   North America     4,099,581 3,857,182    3,671,074 3,807,817   3,933,175 3,976,375 
+     YoY% Change                    -5.9%     -10.5%      -7.1%      -4.1%      -3.0% 
+   South America       690,246    768,953    748,784    769,395    761,469    752,370 
+     YoY% Change                    11.4%      8.5%       11.5%      10.3%       9.0% 
+   South Asia        2,269,117 2,343,014    2,337,528 2,325,523   2,403,564 2,392,697 
+     YoY% Change                    3.3%       3.0%       2.5%        5.9%       5.4% 
+   Global         22,109,055 22,261,466 21,805,853 21,898,516 22,510,172 22,684,060 
+     YoY% Change                    0.7%       -1.4%      -1.0%       1.8%       2.6% 
+   Source: S&P Global, BofA Global Research; Note: Red shading indicates forecast of mix deteriorated over the measurement period; green 
+   shading indicates forecast of mix improved 
+                                                                     BofA GLOBAL RESEARCH 
+
+  Exhibit 3: S&P/IHS forecast for 2Q:25 contribution to global LV production growth by region 
+I 2Q25 global volumes are expected to increase 2.6% YoY, driven by China, South Asia, and South America. 
+      4.0% 
+                                        0.0% 
+      3.5%                     0.3%               0.2% 
+                                                          0.3% 
+                      0.6% 
+      3.0% 
+                                                                    0.6% 
+
+      2.5% 
+
+      2.0% 
+
+      1.5% 
+              2.8% 
+                                                                             2.6% 
+      1.0% 
+
+      0.5% 
+
+      0.0% 
+             Greater   South    South Japan/Korea Middle Europe     North    Global 
+              China    Asia    America          East/Africa        America 
+
+   Source: S&P Global, BofA Global Research 
+                                                                       BofA GLOBAL RESEARCH 
+
+2      Automotive Industry | 23 July 2025 
+
+    | Region | Contribution to Global LV Production Growth (YoY %) |
+    | :------------------- | :------------------------------------------------ |
+    | Greater China | 2.8% |
+    | South Asia | 0.6% |
+    | South America | 0.3% |
+    | Japan/Korea | 0.0% |
+    | Middle East/Africa | -0.2% |
+    | Europe | -0.3% |
+    | North America | -0.6% |
+    | Global | 2.6% |
+
+    Summary: This waterfall chart details the regional contributions to the forecasted 2.6% year-over-year growth in global Light Vehicle (LV) production for 2Q25. The positive contributions driving this global growth primarily stem from Greater China (2.8%), South Asia (0.6%), and South America (0.3%). Conversely, North America (-0.6%), Europe (-0.3%), and Middle East/Africa (-0.2%) are projected to be significant drags, negatively impacting the overall growth. Japan/Korea shows a neutral 0.0% contribution. Notably, Greater China's individual contribution surpasses the total global growth, highlighting its disproportionate influence.
+
+    Explanation: The chart underscores a pronounced regional divergence in the automotive production outlook for 2Q25. Global LV production growth is heavily reliant on robust performance from specific markets, particularly Greater China and other Asian/South American regions. This dynamic indicates a geographical shift in manufacturing strength, with these high-growth areas compensating for declining or stagnant production in traditional automotive hubs like North America and Europe.
+
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Global BEV shift continues but estimates reduced significantly in NA and Europe 
+Globally, BEVs continue to gain share of the overall production mix. China leads the pack 
+in terms of total BEV production volume, which is expected to grow 37.3% YOY in 2Q25. 
+Europe (+34.0% YoY) is also expected to grow significantly. Meanwhile, North America is 
+expected to register a large decline (-13.0% YoY). 
+
+  Exhibit 4: Progression of S&P forecasts of 2Q:25 powertrain mix (BEV vs Others) for major regions 
+  Powertrain mix globally is expected to continue to shift towards battery electric vehicles (BEV) on a YoY 
+  basis. However, S&P production expectations for BEVs in North America and Europe for 2Q25 have declined 
+   -30.3% and -11.4% respectively from January to May. The forecast for BEV production in China was flat in 
+  the same timeframe. 
+
+                      20:24                          IHS 2Q:25 Forecast 
+                      Actual          Jan-25      Feb-25     Mar-25       Apr-25      May-25 
+  Europe - BEV           431,105     652,157     642,611     624,880     589,889     577,872 
+  Europe - Other       4,056,790   3,667,598   3,683,588   3,709,423    3,704,371   3,710,515 
+     % of BEV              9.6%        15.1%       14.9%       14.4%       13.7%       13.5% 
+     % of Other           90.4%       84.9%        85.1%       85.6%       86.3%       86.5% 
+  North America - BEV    309,963     386,640     383,528     348,548     289,833      269,639 
+   North America - Other 3,789,618 3,576,173   3,573,159    3,508,634   3,381,241   3,538,178 
+     % of BEV              7.6%        9.8%         9.7%        9.0%        7.9%        7.1% 
+     % of Other           92.4%       90.2%       90.3%        91.0%       92.1%       92.9% 
+  Greater China - BEV   1,685,099 2,313,426     2,291,302   2,351,972   2,306,067   2,312,850 
+  Greater China - Other 5,306,943 5,311,765    5,369,189    5,147,323   5,002,268   4,988,285 
+     % of BEV             24.1%       30.3%       29.9%        31.4%       31.6%       31.7% 
+     % of Other           75.9%       69.7%        70.1%       68.6%       68.4%       68.3% 
+
+  Global BEV          2,619,173 3,680,365 3,630,558     3,627,801   3,467,074   3,408,239 
+  Global Other       19,522,927 18,847,908 18,943,313     18,633,665 18,338,779   18,490,277 
+     % of BEV             11.8%        16.3%       16.1%       16.3%       15.9%       15.6% 
+     % of Other           88.2%       83.7%       83.9%        83.7%       84.1%       84.4% 
+  Source: S&P Global 
+                                                                            BofA GLOBAL RESEARCH 
+
+Shifts toward light trucks continues globally 
+The global shift towards light trucks continued in 2Q25. In North America, the YoY 
+decline of car production was steep at -11%, which moved the mix of light trucks to 
+~83% of the market. China also saw a large decline in car production at -10% YoY, 
+moving the mix of light trucks to ~66% of the market. Car production in Europe 
+outpaced light trucks, reducing light truck mix to ~61% of the market. 
+
+  Exhibit 5: 2Q:25 YoY production growth by segment in major regions 
+  As of June 2025, S&P projections indicate that light truck production increased 3.2% YOY globally. 
+
+   15.0% 
+
+                                    9.4% 
+   10.0%                                    8.0% 
+
+                                                                                    3.2% 
+     5.0% 
+                                                                0.3% 
+     0.0% 
+
+                       -2.5%                                                -1.7% 
+    -5.0% 
+                                                                      Car    Trucks 
+   -10.0% 
+                                                       -10.3% 
+              -11.2% 
+   -15.0% 
+               North America          Europe                China              Global 
+
+  Source: S&P Global 
+                                                                            BofA GLOBAL RESEARCH 
+
+                                                                                                          Automotive Industry | 23 July 2025 3 
+
+    | Region | Segment | YoY Production Growth |
+    |---|---|---|
+    | North America | Car | -11.2% |
+    | North America | Trucks | -2.5% |
+    | Europe | Car | 9.4% |
+    | Europe | Trucks | 8.0% |
+    | China | Car | -10.3% |
+    | China | Trucks | 0.3% |
+    | Global | Car | -1.7% |
+    | Global | Trucks | 3.2% |
+
+    Summary: This bar chart displays the Year-over-Year (YoY) production growth for Q2 2025, broken down by vehicle segment (Cars and Trucks) across North America, Europe, China, and globally. The Y-axis represents the percentage growth, ranging from -15% to 15%. Globally, truck production grew by 3.2% while car production declined by 1.7%. North America and China saw significant declines in car production (-11.2% and -10.3% respectively), with North American truck production also declining (-2.5%) and China's truck production showing marginal growth (+0.3%). In contrast, Europe experienced robust growth in both segments, with car production increasing by 9.4% and truck production by 8.0%, making it a clear outlier compared to the negative car trends elsewhere.
+
+    Explanation: The chart highlights the continuing global shift towards light trucks, with a notable divergence in regional dynamics. While North America and China are experiencing sharp decreases in car production, contributing to a global decline in car output, Europe's automotive market is expanding in both car and truck segments. This trend significantly impacts the production mix, leading to a higher proportion of trucks in North America (~83%) and China (~66%) compared to Europe (~61%), as noted in the surrounding text and subsequent exhibits.
+
+page_end
+
+BofA GLOBAL RESEARCH 
+
+   Exhibit 6: NA Production Mix 2Q25                            Exhibit 7: Europe Production Mix 2Q25                       Exhibit 8: China Production Mix 2Q25 
+   83% of production in North America is trucks                 61% of production in Europe is trucks                       66% of production in China is trucks 
+
+                                Cars 
+                                17% 
+                                                                                                   Cars                                                        Cars 
+                                                                                                   39%                                                         34% 
+
+                                                                         Trucks 
+                                                                                                                                         Trucks 
+                                                                          61% 
+                                                                                                                                          66% 
+                  Trucks 
+                   83% 
+
+   Source: S&P Global                                           Source: S&P Global                                           Source: S&P Global 
+                                  BofA GLOBAL RESEARCH                                        BofA GLOBAL RESEARCH                                         BofA GLOBAL RESEARCH 
+
+US Sales +3.0% in 2Q25 
+Sales in 2Q25 increased 3.0% YOY on selling day adjusted basis. Sales were boosted by a 
+surge in April (17.3mm SAAR) driven by pre-buying ahead of the announced 25% tariffs 
+on non-US made autos. May and June sales slowed to the mid 15mm range after much 
+of the pull forward in demand was exhausted, and OEMs began to slow incentive spend. 
+
+   Exhibit 9: US Seasonally Adjusted Annualized Rate (SAAR) 
+   US LV sales increased 3.0% YoY in 2Q:25 on a SD adjusted basis for a SAAR of 16.1mm, vs. 15.6mm in 
+   2Q:24. This was largely driven by a surge in April sales ahead of tariffs, followed by slowdowns in May/June. 
+        22 
+        21 
+                                   12 Month Moving                               June SAAR 
+        20                              Average                                  15.3 million 
+         19 
+         18 
+         17 
+     (mm) 16 
+         15 
+         14 
+     SAAR 13 
+     US 12 
+         11 
+         10 
+          9 Jun-01 Jun-02 Jun-03 Jun-04 Jun-05 Jun-06 Jun-07 Jun-08 Jun-09 Jun-10 Jun-11 Jun-12 Jun-13 Jun-14 Jun-15 Jun-16 Jun-17 Jun-18 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-24 Jun-25 
+
+   Source: WardsAuto InfoBank 
+                                                                                            BofA GLOBAL RESEARCH 
+
+ 4       Automotive Industry | 23 July 2025 
+
+    | Date    | US SAAR (mm) | 12 Month Moving Average (mm) |
+    |:--------|:-------------|:-----------------------------|
+    | Jun-01  | 17.0         | 17.0                         |
+    | Jun-03  | 17.0         | 16.8                         |
+    | Jun-05  | 17.5         | 16.5                         |
+    | Jun-07  | 16.0         | 16.0                         |
+    | Dec-08  | 9.5          | 11.0                         |
+    | Jun-09  | 10.0         | 10.5                         |
+    | Jun-11  | 12.5         | 12.5                         |
+    | Jun-13  | 15.5         | 14.5                         |
+    | Jun-15  | 17.5         | 17.0                         |
+    | Jun-17  | 16.5         | 17.0                         |
+    | Jun-19  | 16.5         | 16.8                         |
+    | Mar-20  | 11.5         | 15.5                         |
+    | Jun-20  | 14.0         | 15.0                         |
+    | Dec-20  | 16.0         | 14.5                         |
+    | Jun-21  | 16.5         | 15.0                         |
+    | Dec-21  | 13.0         | 14.0                         |
+    | Jun-22  | 13.0         | 13.5                         |
+    | Dec-22  | 14.5         | 14.0                         |
+    | Jun-23  | 15.5         | 14.5                         |
+    | Dec-23  | 15.5         | 15.0                         |
+    | Jan-24  | 15.5         | 15.0                         |
+    | Feb-24  | 15.5         | 15.2                         |
+    | Mar-24  | 16.0         | 15.3                         |
+    | Apr-24  | 16.0         | 15.4                         |
+    | May-24  | 15.8         | 15.5                         |
+    | Jun-24  | 16.0         | 15.5                         |
+    | Apr-25  | 17.3         | 15.5                         |
+    | May-25  | 15.5         | 15.5                         |
+    | Jun-25  | 15.3         | 15.5                         |
+
+    Summary: This line and bar chart, "US Seasonally Adjusted Annualized Rate (SAAR)," illustrates the monthly light vehicle sales in the US from June 2001 to June 2025. The Y-axis represents SAAR in millions of units, while the X-axis spans the two-and-a-half-decade period. The blue bars show monthly SAAR, while a solid blue line depicts the 12-month moving average, smoothing out short-term volatility. The chart reveals an initial period of relatively stable sales around 16-17mm, a sharp decline during the 2008-2009 financial crisis to lows of ~9mm, followed by a strong recovery peaking around 17-18mm in 2015-2016. Post-2016, there was a gradual softening, abruptly interrupted by the COVID-19 pandemic dip in early 2020, then a fluctuating recovery. Recent data shows a notable spike in April 2025 (17.3mm) followed by a moderation to 15.3mm by June 2025, while the 12-month moving average has remained around 15.5mm.
+
+    Explanation: The recent surge in US light vehicle sales in April 2025, which boosted 2Q25 sales by 3.0% YoY to a 16.1mm SAAR, was primarily driven by consumers pre-buying ahead of announced 25% tariffs on non-US made autos. This pull-forward of demand subsequently exhausted, leading to a slowdown in May and June 2025 sales to the mid-15mm range as OEMs also began to slow incentive spending. The long-term trend line, showing a slight downward slope, suggests a structural deceleration in US SAAR over the past two decades despite cyclical recoveries.
+
+    | Category | Percentage | Region | Quarter |
+    |----------|------------|--------|---------|
+    | Trucks   | 61%        | Europe | 2Q25    |
+    | Cars     | 39%        | Europe | 2Q25    |
+
+    Summary: This pie chart, titled "Europe Production Mix 2Q25," illustrates the breakdown of vehicle production between cars and trucks in Europe for the second quarter of 2025. It reveals that trucks constitute the majority of production, accounting for 61%, while cars make up the remaining 39%. The chart clearly highlights the prevailing trend towards light truck production in the European automotive market.
+
+    Explanation: This exhibit provides a specific regional view of the broader global shift towards light trucks discussed in the accompanying text. While the previous page noted that car production in Europe outpaced light trucks, leading to a "reducing light truck mix to ~61%," this chart confirms that trucks still form a significant majority of Europe's production mix in 2Q25, aligning with the global trend despite Europe's relatively lower truck dominance compared to North America (83%) or China (66%).
+
+    | Region | Quarter | Category | Percentage |
+    |---|---|---|---|
+    | China | 2Q25 | Cars | 34% |
+    | China | 2Q25 | Trucks | 66% |
+
+    Summary: This pie chart, Exhibit 8, presents the production mix for China in the second quarter of 2025, segmented by vehicle type. The chart prominently displays that "Trucks" constitute the overwhelming majority of production, making up 66% of the total mix. Conversely, "Cars" account for the remaining 34%. This visual representation clearly indicates a significant weighting towards truck production within the Chinese automotive manufacturing landscape during this period.
+
+    Explanation: This chart visually reinforces the broader trend discussed in the accompanying text, which notes a "large decline in car production at -10% YoY" in China, leading to light trucks comprising "∼66% of the market." It underscores the pronounced shift in China's automotive production focus, aligning with changing market demands or strategic manufacturing priorities that favor light trucks over traditional cars.
+
+    | Category | Percentage |
+    |----------|------------|
+    | Trucks   | 83%        |
+    | Cars     | 17%        |
+
+    Summary: This pie chart, titled "Exhibit 6: NA Production Mix 2Q25", illustrates the breakdown of vehicle production by segment in North America for the second quarter of 2025. The chart clearly shows that trucks constitute the vast majority of production at 83%, while cars make up a significantly smaller portion at 17%. This indicates a strong prevalence of truck production over car production in the region during this period.
+
+    Explanation: The chart reinforces the broader trend mentioned in the preceding text, which highlights a continued global shift towards light trucks. Specifically for North America, the context notes a steep year-over-year decline in car production, pushing the light truck mix to approximately 83% of the market. This dominant share for trucks suggests a strong consumer preference and manufacturing focus on these vehicle types in the North American market.
+
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Used prices strong; New prices up slightly 
+Used vehicle prices were strong in 2Q:25, up +5% YoY and +2% sequentially. New 
+vehicle prices were up in 2Q:25 increasing +1.1% YoY and were +1.9% QoQ. Incentives 
+have been moderating since tariffs were announced. 2Q:25 industry average OEM 
+incentives increased 6% vs. 2Q:24 but were down 2% sequentially. 
+
+  Exhibit 10: US light vehicle average incentives and average transaction prices 
+   US average transaction prices increased +1.1% YoY in 2Q:25 and +1.8% QoQ. Incentives increased +6% YOY 
+   and were -2% sequentially. 
+
+       $55,000                                                                                 $4,500 
+                               LTM US Average Transaction Price -LTM US Average Incentive 
+      $50,000                                                                                  $4,000 
+      $45,000 
+     ATP                                                                                       $3,500 Incentive 
+     ~$40,000 
+     LV                                                                                        $3,000 
+      $35,000 
+     US 
+     $30,000                                                                                   $2,500 
+     Average                                                                                           US 
+      2525,000                                                                                 $2,000 Average 
+      $20,000 
+                                                                                               $1,500 
+      $15,000 
+     LTM                                                                                        $1,000 
+       $10,000                                                                                         LTM 
+        $5,000                                                                                 $500 
+
+           $0 Dec-14 Jun-15 Dec-15 Jun-16 Dec-16 Jun-17 Dec-17 Jun-18 Dec-18 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 Jun-22 Dec-22 Jun-23 Dec-23 Jun-24 Dec-24 Jun-25 $0 
+
+  Source: Kelley Blue Book (average transaction prices, or ATPs, do not include applied incentives), AutoData 
+                                                                                       BofA GLOBAL RESEARCH 
+
+Electric vehicle ATPs were largely flat in 2Q:25, decreasing -0.5% on a YoY basis and 
+increasing +0.7% sequentially. Electric vehicle prices remain above the industry average 
+(~$49k industry average vs. ~ $58k EV average in 2Q:25). 
+
+   Exhibit 11: June US incentive and ATP trends - major automakers 
+  Industry average incentive was up +8.6% YOY in June, while the average transaction price was up +1.2% YOY 
+
+   AutoData/KBB                                  Average Incentive                                               Average Transaction Price 
+                           Jun-25     May-25       MoM % Chg       Jun-24     YoY % Chg       Jun-25      May-25       MoM % Chg        Jun-24       YoY % Chg 
+   GM                      $3,532      $3,274         7.9%         $3,291        7.3%         $54,909     $54,051          1.6%         $51,137         7.4% 
+   Ford                    $3,701     $3,642          1.6%         $3,892        -4.9%        $55,026     $55,062          -0.1%        $56,087        -1.9% 
+   Stellantis              $4,842      $4,851         -0.2%        $3,379        43.3%        $53,599     $53,715          -0.2%        $56,560        -5.2% 
+   Toyota                  $1,863      $1,888         -1.3%        $1,637        13.8%        $44,955     $45,002         -0.1%         $44,246         1.6% 
+   Honda                   $2,870      $2,641         8.7%         $2,463        16.5%        $39,165      $38,644         1.3%         $37,855        3.5% 
+   Nissan                  $4,027      $4,403         -8.5%        $3,967        1.5%         $35,707     $36,578         -2.4%         $35,126         1.7% 
+   Hyundai                 $2,797      $2,876         -2.7%        $2,692        3.9%         $37,497     $37,200          0.8%         $37,540        -0.1% 
+   BMW                     $5,035      $5,677        -11.3%        $5,639       -10.7%        $70,218      $70,278        -0.1%         $69,918        0.4% 
+   Mercedes-Benz           $5,085      $5,094         -0.2%        $4,356        16.7%        $78,249     $78,085          0.2%         $76,892         1.8% 
+   Volkswagen              $3,315      $3,444         -3.7%        $5,481       -39.5%        $58,707     $60,713         -3.3%         $53,697         9.3% 
+   Tesla                   $6,515      $6,356         2.5%         $1,646       295.8%        $54,989     $55,276         -0.5%         $58,342        -5.7% 
+   Industry                $3,395     $3,296          3.0%         $3,127        8.6%        $48,907      $48,717         0.4%          $48,338        1.2% 
+   Source: Kelley Blue Book (ATPs do not include applied incentives), AutoData. 
+                                                                                                                                               BofA GLOBAL RESEARCH 
+
+                                                                                                                         Automotive Industry | 23 July 2025     5 
+
+    | Date    | LTM US Average Transaction Price | LTM Average US Incentive |
+    |---------|----------------------------------|--------------------------|
+    | Dec-14  | $33,000                          | $2,800                   |
+    | Jun-15  | $33,500                          | $2,900                   |
+    | Dec-15  | $34,000                          | $3,000                   |
+    | Jun-16  | $34,500                          | $3,200                   |
+    | Dec-16  | $35,000                          | $3,400                   |
+    | Jun-17  | $35,500                          | $3,600                   |
+    | Dec-17  | $36,500                          | $3,800                   |
+    | Jun-18  | $37,500                          | $4,100                   |
+    | Dec-18  | $38,500                          | $4,300                   |
+    | Jun-19  | $39,500                          | $4,100                   |
+    | Dec-19  | $40,000                          | $4,000                   |
+    | Jun-20  | $40,500                          | $4,000                   |
+    | Dec-20  | $41,500                          | $4,000                   |
+    | Jun-21  | $43,000                          | $3,200                   |
+    | Dec-21  | $45,500                          | $2,200                   |
+    | Jun-22  | $47,000                          | $1,500                   |
+    | Dec-22  | $47,500                          | $1,600                   |
+    | Jun-23  | $48,000                          | $2,000                   |
+    | Dec-23  | $48,500                          | $2,500                   |
+    | Jun-24  | $48,500                          | $3,100                   |
+    | Dec-24  | $48,800                          | $3,400                   |
+    | Jun-25  | $49,000                          | $3,500                   |
+
+    Summary: This chart, "Exhibit 10," displays the LTM (Last Twelve Months) US Average Light Vehicle (LV) Transaction Price (ATP) and LTM Average US Incentive from December 2014 to June 2025. The ATP, represented by bars on the left Y-axis, shows a consistent upward trend throughout the period, rising from around $33,000 to nearly $49,000. US incentives, depicted by a blue line on the right Y-axis, peaked around mid-2020 at approximately $4,000-$4,100, then experienced a sharp decline to a trough of about $1,500 by mid-2022, before recovering steadily to approximately $3,500 by June 2025.
+
+    Explanation: The chart illustrates the dynamics between new vehicle pricing and manufacturer incentives in the US market. The initial rise in both ATP and incentives suggests a growing market, while the sharp drop in incentives from 2020 to mid-2022, coinciding with a continued rise in ATP, likely reflects supply chain disruptions and strong demand that reduced the need for manufacturers to offer significant discounts. The subsequent recovery in incentives from mid-2022 onwards, as mentioned in the text, indicates a moderation and slight increase in incentives, possibly due to normalizing supply or shifts in market conditions, even as transaction prices continue their upward climb.
+
+page_end
+
+  BofA GLOBAL RESEARCH 
+
+       Exhibit 12: NADA Used Vehicle Price Index                                                                                                                                                            Exhibit 13: Manheim Used Vehicle Value Index 
+        NADA Used Vehicle Price Index was up 16.0% YOY in 2Q:25 and increased                                                                                                                               Manheim Used Vehicle Value Index was up 5.1% YoY in 2Q:25 and up 1.6% 
+I 7.3% on a QoQ basis.                                                                                                                                                                                      sequentially. 
+
+         240                                                                                                                                                                                                 300 
+          220                                                                                                     June '25                                                                                                                                                                               June '25 (Final) = 
+                                                                                                                   = 238.3                                                                                   260 
+         200                                                                                                                                                                                                                                                                                                          208.5 
+          180                                                                                                                                                                                                220 
+          160 
+                                                                                                                                                                                                              180 
+          140 
+          120                                                                                                                                                                                                 140 
+          100 
+                                                                                                       June '24 =                                                                                             100                                                                                                           June '24 (Final) = 
+            80                                                                                              203.0                                                                                                                                                                                                                        196.1 
+            60 Jun-97    Jun-98 Jun-99 Jun-00 Jun-02 Jun-03 Jun-04 Jun-05 Jun-06 Jun-07 Jun-08 Jun-09 Jun-10 Jun-11 Jun-12 Jun-13 Jun-14 Jun-15 Jun-16 Jun-17 Jun-18 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-24 Jun-25 60 Jun-97 Jun-98 Jun-99 Jun-00 Jun-01 Jun-02 Jun-03 Jun-04 Jun-05 Jun-06 Jun-07 Jun-08 Jun-09 Jun-10 Jun-11 Jun-12 Jun-13 Jun-14 Jun-15 Jun-16 Jun-17 Jun-18 Jun-19 Jun-20 Jun-23 Jun-24 Jun-25 
+
+                                        Jun-01                                                                                                                                                                                                                                                                                                        Jun-21 Jun-22 
+
+        Source: NADA                                                                                                                                                                                        Source: Manheim 
+                                                                                                                                   BofA GLOBAL RESEARCH                                                                                                                                                                                BofA GLOBAL RESEARCH 
+
+  Estimates and POs revisions 
+
+  We are raising VC PO to $130 from $110 and LEA to $135 from $115 since we are 
+  moving our valuation to 2026 EBITDA from 2025 EBITDA. We are lowering our GPI's PO 
+  to reflect lower 2026 EPS estimates. 
+
+        Exhibit 14: Price objective changes 
+ I In the table below we outline changes to price objectives for selected companies under coverage 
+
+                                                  Market                                                                               Potential Upside /                                         Prior                  Updated 
+        Ticker                                      Price                    Q-R-Q                    Rating                                     Downside                                           PO                         PO                          % change                      Valuation Metric 
+        OEMs 
+        LCID                                        $3.10                       C-3-9                     U/P                                          -68%                                       $1.00                     $1.00                                                        2x EV/Sales on CY2026E 
+        RIVN                                       $13.92                       C-3-9                     U/P                                          -28%                                         $10                       $10                                                        2x EV/Sales on CY2026E 
+        Suppliers 
+        ADNT                                       $23.02                      C-3-9                      U/P                                          -24%                                       $17.5                     $17.5                                                        3.5x EV/EBITDA on FY2026E 
+        APTV                                       $72.22                       C-1-9                     Buy                                           18%                                         $85                       $85                                                        5.5x EV/EBITDA on CY2026E 
+        AXL                                         $4.86                      C-3-9                      U/P                                           -7%                                       $4.50                     $4.50                                                        3.5x EV/EBITDA on FY2026E 
+        BWA                                        $36.25                       B-1-7                     Buy                                           13%                                         $41                       $41                                                        4.5x EV/EBITDA on CY2026E 
+        LEA                                       $108.37                       B-1-7                     Buy                                           25%                                        $115                      $135                                17%                     4.5x EV/EBITDA on CY2026E 
+        MBLY                                       $15.77                       C-2-9                  Neutral                                          14%                                         $18                       $18                                                        7.5x EV/Sales on CY2025E 
+        PHIN                                       $48.40                       C-1-7                     Buy                                           14%                                         $55                       $55                                                        7.0x EV/EBITDA on CY2025E 
+        VC                                        $112.00                       B-1-9                     Buy                                           16%                                        $110                      $130                                18%                     6x EV/EBITDA on CY2026E 
+        Dealers 
+        ABG                                       $237.44                      B-1-9                     Buy                                            41%                                        $335                      $335                                    -                   12x P/E on CY2026E 
+        AN                                        $204.93                       B-1-9                     Buy                                          24%                                         $255                      $255                                                        12x P/E on CY2026E 
+        GPI                                       $414.92                       B-1-7                     Buy                                           35%                                        $565                      $560                                -1%                     12x P/E on CY2026E 
+         LAD                                      $319.08                       C-1-7                     Buy                                           57%                                        $500                      $500                                                        12x P/E on CY2026E 
+        Source: BofA Global Research estimates, Bloomberg as of 7/23/25 
+                                                                                                                                                                                                                                                                                                                                       BofA GLOBAL RESEARCH 
+
+  6                Automotive Industry | 23 July 2025 
+
+    | Date | Manheim Used Vehicle Value Index |
+    |---|---|
+    | Jun-97 | 100 |
+    | Jun-98 | 105 |
+    | Jun-99 | 110 |
+    | Jun-00 | 108 |
+    | Jun-01 | 105 |
+    | Jun-02 | 103 |
+    | Jun-03 | 108 |
+    | Jun-04 | 110 |
+    | Jun-05 | 115 |
+    | Jun-06 | 120 |
+    | Jun-07 | 125 |
+    | Jun-08 | 100 |
+    | Jun-09 | 120 |
+    | Jun-10 | 135 |
+    | Jun-11 | 138 |
+    | Jun-12 | 135 |
+    | Jun-13 | 135 |
+    | Jun-14 | 135 |
+    | Jun-15 | 138 |
+    | Jun-16 | 140 |
+    | Jun-17 | 145 |
+    | Jun-18 | 150 |
+    | Jun-19 | 160 |
+    | Jun-20 | 170 |
+    | Jun-21 | 250 |
+    | Jun-22 | 230 |
+    | Jun-23 | 195 |
+    | Jun-24 | 196.1 |
+    | Jun-25 | 208.5 |
+
+    Summary: This line chart, "Exhibit 13: Manheim Used Vehicle Value Index," tracks the index's performance from June 1997 to June 2025. The Y-axis quantifies the index value, ranging from 60 to 300. The primary trend reveals remarkable stability from 1997 until mid-2020, generally hovering between 100 and 160, with a noticeable dip during the 2008-2009 period. A sharp, unprecedented surge occurred from mid-2020 to mid-2021, catapulting the index from roughly 170 to a peak near 250-260. Following this peak, the index saw a significant correction through 2022 and early 2023, bottoming out around 195, before showing a modest recovery to 196.1 by June 2024 and further to 208.5 by June 2025.
+
+    Explanation: The Manheim Used Vehicle Value Index illustrates the dramatic shifts in used vehicle prices, particularly the post-pandemic inflation and subsequent market adjustments. The sharp increase from mid-2020 to mid-2021, and the subsequent decline, aligns with broader market observations of supply chain disruptions, increased demand, and then a gradual return to equilibrium as noted in the surrounding text's discussion of vehicle prices and incentives. The recent recovery in the index suggests a stabilization and modest appreciation in used vehicle values after the initial post-peak correction.
+
+    | Date | NADA Used Vehicle Price Index |
+    |---|---|
+    | Jun-97 | 105.0 |
+    | Jun-98 | 110.0 |
+    | Jun-99 | 115.0 |
+    | Jun-00 | 110.0 |
+    | Jun-01 | 105.0 |
+    | Jun-02 | 98.0 |
+    | Jun-03 | 95.0 |
+    | Jun-04 | 98.0 |
+    | Jun-05 | 105.0 |
+    | Jun-06 | 108.0 |
+    | Jun-07 | 105.0 |
+    | Jun-08 | 85.0 |
+    | Jun-09 | 105.0 |
+    | Jun-10 | 115.0 |
+    | Jun-11 | 123.0 |
+    | Jun-12 | 125.0 |
+    | Jun-13 | 120.0 |
+    | Jun-14 | 120.0 |
+    | Jun-15 | 115.0 |
+    | Jun-16 | 118.0 |
+    | Jun-17 | 120.0 |
+    | Jun-18 | 120.0 |
+    | Jun-19 | 122.0 |
+    | Jun-20 | 140.0 |
+    | Jun-21 | 210.0 |
+    | Jun-22 | 195.0 |
+    | Jun-23 | 205.0 |
+    | Jun-24 | 203.0 |
+    | Jun-25 | 238.3 |
+
+    Summary: The chart displays the NADA Used Vehicle Price Index from June 1997 to June 2025. For over two decades, until early 2020, the index showed relative stability, fluctuating primarily between 90 and 125. A dramatic and steep upward surge commenced around mid-2020, propelling the index to unprecedented highs. After peaking around 210 in mid-2021 and experiencing a subsequent dip in mid-2022, the index resumed its ascent, reaching a new all-time high of 238.3 in June 2025.
+
+    Explanation: This exhibit illustrates the significant appreciation in used vehicle prices, aligning with the "Used prices strong" commentary from the previous page. The substantial increase, particularly the 16.0% year-over-year rise in 2Q:25 and 7.3% quarter-over-quarter increase mentioned in the text, indicates robust demand and pricing power within the used automotive market.
+
+page_end
+
+BofA GLOBAL RESEARCH 
+
+   Exhibit 15: BofA 2025 Quarterly estimate revisions 
+   In the table below we outline changes to our 2025 quarterly estimates for selected companies under our coverage universe 
+
+   EPS                                        2Q25                                       3Q25                                      4Q25 
+   Ticker                        Old         New          Change           Old         New          Change           Old         New           Change 
+   OEMs 
+   LCID                         (0.19)      (0.18)          nm            (0.21)       (0.17)         nm            (0.18)       (0.12)          nm 
+   RIVN                         (0.65)      (0.57)          nm            (0.75)       (0.71)         nm             (0.68)      (0.58)          nm 
+   Suppliers 
+   ADNT                                                                    0.51        0.48           -5.9%          0.54        0.53           -1.9% 
+   APTV                         2.04         1.89          -7.4%           2.10         1.93          -8.1%          2.25        2.02          -10.2% 
+   AXL                          0.16         0.12          -25.0%          0.18        0.10          -44.4%          0.17        0.02          -88.2% 
+   BWA                           1.22        1.16          -4.9%           1.24        1.14           -8.1%          1.24         1.17          -5.6% 
+   PHIN                          1.09        1.09           0.0%           1.23        1.22           -0.6%          1.20         1.22          2.0% 
+   LEA                          3.30         3.30           0.0%           3.15        3.15           0.0%           3.35        3.35           0.0% 
+   MBLY                         0.11         0.11          0.0%            0.06        0.06           0.0%           0.12         0.12          0.0% 
+   VC                           2.14         2.75          28.5%           2.29        2.35           2.6%           2.33        2.29           -1.7% 
+   Dealers 
+   ABG                          6.60         6.88           4.2%           6.90        6.90           0.0%           7.20         6.75          -6.3% 
+   AN                           4.85         4.85           0.0%           4.86        4.80          -1.2%           4.88        4.88           0.0% 
+   GPI                          10.90       10.75          -1.4%          11.45        11.36         -0.8%           10.61       10.40          -2.0% 
+   LAD                          9.00         9.68          7.6%            9.68        9.29           -4.0%          9.15         8.80          -3.8% 
+
+   Source: BofA Global Research estimates 
+   Note: ADNT FY3Q25 = CY2Q25 
+                                                                                                                                         BofA GLOBAL RESEARCH 
+
+   Exhibit 16: BofA estimate revisions - 2025 - 2026 annual estimates 
+
+I In the table below we outline changes to annual estimates for selected companies under our coverage universe 
+
+   EPS                                                     2025                                                       2026 
+   Ticker                                 Old              New                 Change                 Old             New                 Change 
+   OEMs 
+   LCID                                   (0.71)           (0.59)                nm                  (0.55)           (0.61)                 nm 
+   RIVN                                   (2.50)           (2.28)                nm                  (2.10)           (2.12)                 nm 
+   Suppliers 
+   ADNT                                   2.00              1.90                -5.0%                 2.75             2.51                 -8.7% 
+   APTV                                   7.49              7.53                 0.5%                 8.70             8.31                 -4.5% 
+   AXL                                    0.45              0.32                -28.9%                0.66             0.64                 -3.0% 
+   BWA                                    4.45              4.37                -1.8%                 4.82             4.73                 -1.9% 
+   PHIN                                    4.48             4.49                 0.3%                 5.71             5.80                 1.6% 
+   LEA                                    12.90            12.90                 0.0%                16.80             16.80                0.0% 
+   MBLY                                   0.30              0.30                 0.0%                 0.33             0.33                 0.0% 
+   VC                                     8.50              9.79                15.2%                 9.40             10.41                10.7% 
+   Dealers 
+   ABG                                    27.52            27.35                 -0.6%               28.00            27.92                 -0.3% 
+   AN                                     19.35            19.20                -0.8%                21.30            21.30                 0.0% 
+   GPI                                    43.75            43.30                -1.0%                46.90            46.70                 -0.4% 
+   LAD                                    35.45            35.41                -0.1%                42.15            41.70                 -1.1% 
+
+   Source: BofA Global Research estimates 
+                                                                                                                                         BofA GLOBAL RESEARCH 
+
+                                                                                                                    Automotive Industry | 23 July 2025    7 
+page_end
+
+ BofA GLOBAL RESEARCH 
+
+ Glossary 
+
+ ATP = Average Transaction Price 
+ AS&UX = Active Safety & User Experience 
+ BEV = Battery Electric Vehicle 
+ EV = Electric vehicle 
+ F&I = Finance and Insurance 
+ FSD = Full Self-Driving 
+ GPU = Gross Profit Per Unit 
+
+ LVP = Light vehicle production 
+ NA = North America 
+
+ OEM = Original Equipment Manufacturer 
+ P&S = Parts and Service 
+ IRA = Inflation Reduction Act 
+ MY26 = Model Year 2026 
+
+ VW = Volkswagen 
+ CDK = CDK Global 
+
+ Price objective basis & risk 
+
+ Adient Plc (ADNT) 
+ Our price objective of $17.50 for ADNT is based on an EV/EBITDA multiple of 3.5x on 
+ our FY2026 estimates, at the lower end of the historical range. The company is currently 
+ experiencing pressures on production volumes, which are partially mitigated with cost 
+ cutting actions. However, challenging market environment in Europe and China, 
+ combined with the risk of contract extensions that could prolong the unprofitable metal 
+ contracts, weigh on stock valuation. 
+
+ Upside risks: 1) ADNT successfully wins more profitable business, expands its backlog 
+ and reaccelerates its top line growth, 2) better than expected operating leverage from 
+growth in global auto production, 3) significant progress made on restructuring 
+ programs and cost rationalization actions, 4) material market share gains in China 
+ market, 5) wind-down of non-recurring items boosts ongoing cash flow power. 
+
+ Downside risks: 1) inability to win sufficient and profitable new business, expand the 
+ backlog, and reaccelerate top line growth, 2) inability to complete restructuring 
+ programs or cost rationalization initiatives, 3) decline in new vehicle production, 4) 
+ inability to consistently execute, 5) raw material cost inflation, 6) inability to handle OEM 
+ price downs, 7) failure to maintain a lean cost structure, 8) new program/platform launch 
+ risk. 
+
+ American Axle (AXL) 
+ Our price objective of $4.50 is based on an EV/EBITDA multiple of roughly 3.5x on our 
+ 2026 estimates, which is lower than the historical average of roughly 4.5x, but in range 
+ of recent trading ranges and reflective of the forthcoming US/NA and Global production 
+ volume recovery. 
+
+ 8   Automotive Industry | 23 July 2025 
+page_end
+
+ BofA GLOBAL RESEARCH 
+
+ Upside risks: 1) Continued strength in large truck volume growth, 2) resolution of plant 
+ issues, 3) labor cost inflation doesn't materialize 
+
+ Downside risks: 1) a slowdown in large truck volume growth, particularly at key 
+ customers, 2) failure to diversify its customer base, geographic, and product exposure, 3) 
+ expansion into new segments could significantly reduce operating margins, 4) continued 
+ sharp rise in raw material and labor costs, 5) loss of business at key customers, and 6) 
+ disruption at AXL's suppliers. 
+
+Aptiv PLC (APTV) 
+ Our PO of $85 for APTV is based on an EV/EBITDA multiple of roughly 5.5x on our 2026 
+ estimates. Our assumed valuation metrics are in line with the average historical trading 
+ multiple, but above current levels for the traditional automotive suppliers, which trade in 
+ ranges of 3x to 6x. We believe a valuation premium to the group is warranted, as APTV is 
+more of a pure-play electrification / autonomy / connectivity / mobility-centric company, 
+ unencumbered by factor risks from other non-future tech businesses/products. However, 
+ we see the stock trading in line with its historical average given the hurdles on the 
+ semiconductor supply front, which are not completely resolved yet. 
+
+ Downside risks: 1) sustained volatility in international markets, 2) a longer than expected 
+ decline or flatline in US/global automotive volumes, 3) a continued rise in raw material 
+ costs and semiconductors disruptions, 4) loss of key customers or suppliers, 5) inability 
+ to win new business, 6) competitive pricing pressure. 
+
+ Upside risks: 1) strength in global auto production volumes, particularly in North 
+ America, 2) increased business wins as a result of Safe, Green, Connected portfolio that 
+ continue to support growth above market, 3) shareholder-friendly actions, including 
+ accretive M&A and share repurchases, support earnings and the stock. 
+
+Asbury Auto (ABG) 
+ Our price objective of $335 is based on a P/E multiple of roughly 12x on our 2026 
+ estimates, which is about in line with an average dealer through-cycle multiple. We 
+ believe this is appropriate in light of the ongoing recovery in the US/NA automotive 
+ cycle following the COVID-induced trough in 2020, which should translate into revenue 
+ and earnings growth across the dealer vertical over our forecast period. 
+
+ Downside risks: 1) a swift and/or material downturn in US sales, 2) market share losses 
+ by the brands to which ABG is overexposed, 3) higher interest rate environment causes 
+ material demand deterioration and/or repossessions, 4) consumer dissatisfaction with 
+ auto retailing, and 5) the potential for franchise law and/or consumer finance law 
+ changes. 
+
+ Upside risks: 1) US/North America cycle recovers and plateaus at a high level of sales, 
+ continues growing, or even declines less than expected, 2) ABG is able to gain back 
+ and/or maintain some gross profit per unit in its new and used vehicles businesses, 3) 
+ used vehicle focus dries demand, top line and earnings growth beyond the peak in new 
+ vehicle sales, and 4) interest rates decline quicker than expected, stimulating demand. 
+
+AutoNation, Inc. (AN) 
+ Our price objective of $255 is based on a P/E multiple of roughly 12x on our 2026 
+ estimates, which is about in-line with an average dealer through-cycle multiple. We 
+ believe this is appropriate in light of the ongoing recovery in the US/NA automotive 
+ cycle following the COVID-induced trough in 2020, which should translate into revenue 
+and earnings growth across the dealer vertical over our forecast period. 
+
+ Downside risks: 1) a swift and/or material downturn in US sales, 2) poorer-than-expected 
+
+                                                                                                     Automotive Industry | 23 July 2025 9 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+ cost performance and margin compression, 3) a stoppage in share repurchase activity or 
+ material sell-off by key shareholders, 4) higher interest rate environment causes material 
+ demand deterioration and/or repossessions 5) consumer dissatisfaction with auto 
+ retailing, and 6) the potential for franchise law and/or consumer finance law changes. 
+
+Upside risks: 1) US/NA cycle recovers and plateaus at a high level of sales, continues 
+growing, or even declines less than expected, 2) AN is able to gain or even just maintain 
+ gross profit per unit in its new and used vehicles businesses, 3) standalone used vehicle 
+stores capture some demand and drives top line and earnings growth beyond the peak in 
+new vehicle sales, and 4) interest rates decline quicker than expected, stimulating 
+ demand. 
+
+ BorgWarner (BWA) 
+ Our price objective of $41 is based on an EV/EBITDA multiple of roughly 4.5x on our 
+2026 estimates, which we believe reflects the higher growth trajectory on which the 
+ company positioned itself after the spin-off of the Fuel Systems and Aftermarket 
+ segments in July 2023. 
+
+ Downside risks: 1) relaxed fuel-efficiency regulations, 2) increased competition in the 
+turbocharger industry, 3) a longer than expected decline or flatline in US/global 
+ automotive volumes, 4) a continued rise in raw material costs, 5) slower electric vehicle 
+ adoption. 
+
+Upside risks: 1) strength in global auto production volumes, particularly in North 
+America, 2) faster adoption of electric and hybrid vehicles, 3) BWA regains lost investor 
+ confidence through continued execution and performance. 
+
+ Group 1 Auto (GPI) 
+Our price objective of $560 is based on a P/E multiple of roughly 12x on our 2026 
+ estimates, which is about in line with an average dealer through-cycle multiple. We 
+ believe this is appropriate in light of the ongoing recovery in the US/NA automotive 
+ cycle following the COVID-induced trough in 2020, which should translate into revenue 
+and earnings growth across the dealer vertical over our forecast period. 
+
+ Downside risks: 1) weaker demand than expected in the US, and/or UK, 2) the loss of key 
+ management, 3) the possibility that GPI is unable to achieve the operating leverage we 
+ forecast, 4) higher interest rate environment causes material demand deterioration 
+and/or repossessions, 5) consumer dissatisfaction with auto retailing, and 6) the 
+potential for franchise law and/or consumer finance law changes. 
+
+ Upside risks: 1) US/NA cycle recovers and plateaus at a high level of sales, continues 
+growing, or even declines less than expected, 2) GPI is able to gain back some gross 
+profit per unit in its new and used vehicles businesses, 3) growth in international 
+ markets helps to offset weakness in the US market, and 4) interest rates decline quicker 
+ than expected, stimulating demand. 
+
+ Lear Corp. (LEA) 
+ Our $135 price objective on LEA shares is based on an EV/EBITDA multiple of roughly 
+ 4.5x on our 2026 estimates. This multiple is a slight premium to the company's historical 
+ average since we believe adjustment to a lower volume environment and the company's 
+ vertical integration will bolster already strong cash flow that is being returned to 
+shareholders through dividends and growing share buybacks. 
+
+Downside risks: 1) a slower or further decline in US/global automotive volume growth, 2) 
+ disruption from the re-emergence in the Seating market of LEA's largest competitor 
+ (ADNT), 3) increased pricing pressure from OEM customers, 4) loss of business at key 
+customers, 5) fierce competition in the automotive supply base, 6) a new rise in raw 
+
+ 10 Automotive Industry | 23 July 2025 
+page_end
+
+ BofA GLOBAL RESEARCH 
+
+ material costs, 7) execution risk of restructuring, operations, and acquisitions. 
+
+ Upside risks: 1) faster recovery than expected in global auto production volumes, 2) 
+continued execution and progress on margin expansion, 3) shareholder-friendly actions 
+ including accretive M&A and share repurchases support earnings and the stock. 
+
+Lithia Motors A (LAD) 
+ Our price objective of $500 is based on a P/E multiple of roughly 12x on our 2026 
+ estimates, which is a slight premium to an average dealer through-cycle multiple. We 
+ believe this is appropriate in light of the company's track record of strong earnings and 
+recent strong execution of M&A growth actions. 
+
+ Downside risks: 1) a swift and/or material downturn in US sales, 2) slower improvement 
+ in operating leverage than forecast, 3) substantial market share loss by domestic brands, 
+ to which LAD is exposed, 4) higher interest rate environment causes material demand 
+ deterioration and/or repossessions, 5) consumer dissatisfaction with auto retailing, and 
+ 6) the potential for franchise law and/or consumer finance law changes. 
+
+ Upside risks: 1) acquisition activity above current forecasts, 2) continued recovery in US 
+auto sales beyond current estimates, 2) LAD is able to gain back/maintain some gross 
+profit per unit in its new and used vehicles businesses, and 3) interest rates decline 
+ quicker than expected, stimulating demand. 
+
+ Lucid Group (LCID) 
+ Our price objective of $1.00 is based on 2.0x EV/Sales on our 2026 estimates. Our 
+ valuation framework for LCID is relatively consistent with its peer. 
+
+ Downside risks: 1) inability to continue to raise capital to fund business ventures, 2) 
+ inability to convert refundable reservations into contracted orders, unit sales, and 
+ revenue, 3) greenfield/clean-sheet approach to EV manufacturing introduces risk of 
+ successful execution, 4) direct-to-consumer sales and service model may create 
+ challenges for business to scale, 5) inability to reach sustainable positive EBITDA/FCF. 
+
+ Upside risks: 1) significant and better than expected customer traction for 
+ introduced/unveiled products, 2) successful execution of go-to-market strategy, 3) better 
+ than expected progress on start and ramp of production with clean-sheet manufacturing 
+ approach, 4) breakthrough in advanced battery technology to drive ICE/EV parity, 5) 
+ incremental government/regulatory support/stimulus for EV market. 
+
+ Mobileye (MBLY) 
+ Our PO of $18 is based on 7.5x EV/Sales (2025E Sales), which is in line with the average 
+ of its peers (AMD, Infineon, Nvidia, NXP Semiconductors, Qualcomm, TE Connectivity, 
+ Texas Instruments). The current valuation reflects the renovated interest in autonomous 
+ driving vehicles (AVs) and the latest developments in terms of AV rollout. 
+
+ Downside risks: 1) Market penetration of Level 2+ ADAS may take longer than expected 
+ and pathway/timing of Level 4+ autonomous vehicle (AV) capabilities is unclear, 2) 
+Inability to maintain technological leadership over competition, 3) Standardization of 
+ ADAS/AV technology could make it challenging to maintain gross and operating margins, 
+ 4) Macro/market volatility could impact demand and product launches, 5) Export control 
+ limitations on key semiconductor technology, tariffs on its products, or other 
+ government actions, 6) Lack of liquidity in the stock and/or future stock sales. 
+
+ Upside risks: 1) Mega-trend towards ADAS & autonomy, 2) Timing and go-to-market 
+ strategy of MBLY's Level 4+ offerings could exceed expectations, 3) MBLY may be more 
+ successful in winning new customers/contracts, 4) Barriers to entry could prove more 
+
+                                                                                                      Automotive Industry | 23 July 2025 11 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+ formidable, 5) Industry consolidation in ADAS/AV, 6) Better operating performance 
+and/or changes to strategy. 
+
+ Phinia Inc. (PHIN) 
+ Our $55 price objective on PHINIA is based on an EV/EBITDA of 7.0x on our 2025 
+ estimates. Our valuation multiple is at a premium relative to the automotive supplier 
+group, which trades at 4.5x, given the exposure to Aftermarket, which accounts for 40% 
+ or sales and 50% or operating profits. 
+
+ Downside risks: 1) Electrification reaccelerates, 2) the market fails to give a premium to 
+ aftermarket exposure, 3) tariffs severely impact auto production, 4) General Motors 
+ loses market share 
+
+ Upside risks: 1) Battery electric vehicle decelerates more than expected, 2) 
+ diversification into commercial and aftermarket happens faster, 3) auto production cycle 
+ picks up, 4) competitors exit the market sooner 
+
+ Rivian Automotive (RIVN) 
+ Our price objective of $10, based on 2x EV/Sales on our 2026 estimates. Our valuation 
+ framework for RIVN is relatively consistent with its peer. 
+
+ Downside risks: 1) inability to continue to raise low cost capital to fund business 
+ ventures, 2) inability to convert pre-orders and orders into unit sales, revenue, and 
+ eventually earnings, 3) termination of or amendment to sales and service agreement 
+ with anchor customer, 4) direct-to-consumer sales and service model may create 
+ challenges for business to scale, 5) inability to reach sustainable positive EBITDA/FCF 
+ with investment across numerous business areas. 
+
+ Upside risks: 1) significant and better than expected customer traction for 
+ introduced/unveiled products, 2) successful execution of go-to-market strategy via 
+ direct-to-consumer sales and service model, 3) better than expected progress ramp of 
+ production and successful build-out of incremental capacity, 4) breakthrough in 
+ advanced battery technology to drive ICE/EV parity, 5) incremental 
+ government/regulatory support/stimulus for EV market. 
+
+Visteon (VC) 
+Our PO of $130 is based on an EV/EBITDA multiple of 6x on our 2026 estimates. Our 
+ assumed multiple is a premium to the current trading multiple of 5x for the suppliers in 
+ our coverage and our average assumed multiple of 8x underlying our POs, given VC's 
+growth-over-market is above most suppliers and in consideration of its exposure to key 
+ mega-trends. 
+
+Downside risks: 1) intense competition that is likely to heat up further as suppliers 
+aggressively position their product portfolio to benefit from high growth markets, 2) 
+ inability to maintain a technological edge amidst the rapidly evolving auto sector, 3) 
+ inability to win new business across its product lines, or gain higher content per vehicle 
+ on new business wins, 4) Inability to drive growth-over-market and margin expansion as 
+ expected, 5) UAW strike a near-term risk to volumes and earnings. 
+
+ Upside risks: 1) Stronger-than-expected recovery in automotive sales/production, 2) 
+higher-than-expected content per vehicle across newer product areas, 3) market share 
+ gains with new product launches, 4) successfully achieve 2026 growth and margin 
+ targets, 5) shareholder-friendly actions, such as M&A and share repurchases. 
+
+ 12 Automotive Industry | 23 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Analyst Certification 
+I, Federico Merendi, hereby certify that the views expressed in this research report 
+accurately reflect my personal views about the subject securities and issuers. I also 
+certify that no part of my compensation was, is, or will be, directly or indirectly, related 
+to the specific recommendations or view expressed in this research report. 
+
+                                                                                                          Automotive Industry | 23 July 2025 13 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+US - Automotives Coverage Cluster 
+
+Investment rating                  Company                                                               BofA Ticker                       Bloomberg symbol          Analyst 
+
+BUY 
+                                   Aptiv PLC                                                             APTV                              APTV US                   Federico Merendi 
+                                   Asbury Auto                                                           ABG                               ABG US                    Federico Merendi 
+                                   AutoNation, Inc.                                                      AN                                AN US                     Federico Merendi 
+                                   Avis Budget Group                                                     CAR                               CAR US                    Federico Merendi 
+                                   BorgWarner                                                            BWA                               BWA US                    Federico Merendi 
+                                   Ford Motor                                                            F                                 FUS                       Federico Merendi 
+                                   General Motors Company                                                GM                                GM US                     Federico Merendi 
+                                   Group 1 Auto                                                          GPI                               GPI US                    Federico Merendi 
+                                   Lear Corp.                                                            LEA                               LEA US                    Federico Merendi 
+                                   Lithia Motors A                                                       LAD                               LAD US                    Federico Merendi 
+                                   Phinia Inc.                                                           PHIN                              PHIN US                   Federico Merendi 
+                                   Visteon                                                               VC                                VC US                     Federico Merendi 
+
+NEUTRAL 
+                                   Mobileye                                                              MBLY                              MBLY US                   Federico Merendi 
+                                   OPENLANE                                                              KAR                               KAR US                    Michael McGovern 
+                                   Polestar                                                              PSNY                              PSNY US                   Federico Merendi 
+                                   Tesla Motors                                                          TSLA                              TSLA US                   Federico Merendi 
+
+UNDERPERFORM 
+                                   Adient Plc                                                            ADNT                              ADNT US                   Federico Merendi 
+                                   American Axle                                                         AXL                               AXL US                    Federico Merendi 
+                                   CarMax, Inc.                                                          KMX                               KMX US                    Michael McGovern 
+                                   Hertz Global Holdings                                                 HTZ                               HTZ US                    Federico Merendi 
+                                   Lucid Group                                                           LCID                              LCID US                   Federico Merendi 
+                                   Rivian Automotive                                                     RIVN                              RIVN US                   Federico Merendi 
+
+Disclosures 
+
+Important Disclosures 
+
+Equity Investment Rating Distribution: Autos Group (as of 30 Jun 2025) 
+
+Coverage Universe                                               Count             Percent                         Inv. Banking Relationships R1                                     Count              Percent 
+Buy                                                                 62             49.60%                         Buy                                                                    33             53.23% 
+Hold                                                               33              26.40%                         Hold                                                                   16             48.48% 
+Sell                                                                30             24.00%                         Sell                                                                   18             60.00% 
+Equity Investment Rating Distribution: Distributors Group (as of 30 Jun 2025) 
+
+Coverage Universe                                              Count              Percent                         Inv. Banking Relationships R1                                     Count              Percent 
+Buy                                                                  6             85.71%                         Buy                                                                     5             83.33% 
+Hold                                                                 0              0.00%                         Hold                                                                    0              0.00% 
+Sell                                                                 1             14.29%                         Sell                                                                    0              0.00% 
+
+Equity Investment Rating Distribution: Global Group (as of 30 Jun 2025) 
+
+Coverage Universe                                              Count              Percent                         Inv. Banking Relationships R1                                      Count             Percent 
+Buy                                                              1840              53.64%                         Buy                                                                 1081              58.75% 
+Hold                                                              807              23.53%                         Hold                                                                 472              58.49% 
+Sell                                                              783              22.83%                         Sell                                                                 375              47.89% 
+  Issuers that were investment banking clients of BofA Securities or one of its affiliates within the past 12 months. For purposes of this Investment Rating Distribution, the coverage universe includes only stocks. A stock 
+rated Neutral is included as a Hold, and a stock rated Underperform is included as a Sell. 
+
+14        Automotive Industry | 23 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+FUNDAMENTAL EQUITY OPINION KEY: Opinions include a Volatility Risk Rating, an Investment Rating and an Income Rating. VOLATILITY RISK RATINGS, indicators 
+of potential price fluctuation, are: A - Low, B - Medium and C - High. INVESTMENT RATINGS reflect the analyst's assessment of both a stock's absolute total return 
+potential as well as its attractiveness for investment relative to other stocks within its Coverage Cluster (defined below). Our investment ratings are: 1 - Buy stocks 
+are expected to have a total return of at least 10% and are the most attractive stocks in the coverage cluster; 2 - Neutral stocks are expected to remain flat or 
+increase in value and are less attractive than Buy rated stocks and 3 - Underperform stocks are the least attractive stocks in a coverage cluster. An investment rating 
+of 6 (No Rating) indicates that a stock is no longer trading on the basis of fundamentals. Analysts assign investment ratings considering, among other things, the 0- 
+12 month total return expectation for a stock and the firm's guidelines for ratings dispersions (shown in the table below). The current price objective for a stock 
+should be referenced to better understand the total return expectation at any given time. The price objective reflects the analyst's view of the potential price 
+appreciation (depreciation). 
+Investment rating            Total return expectation (within 12-month period of date of initial                         Ratings dispersion guidelines for coverage clusterR2 
+                             rating) 
+             Buy                                                       ≥ 10%                                                                             ≤ 70% 
+          Neutral                                                       ≥ 0%                                                                             ≤ 30% 
+      Underperform                                                       N/A                                                                            ≥ 20% 
+R2Ratings dispersions may vary from time to time where BofA Global Research believes it better reflects the investment prospects of stocks in a Coverage Cluster. 
+INCOME RATINGS, indicators of potential cash dividends, are: 7 - same/higher (dividend considered to be secure), 8 - same/lower (dividend not considered to be secure) 
+and 9 - pays no cash dividend. Coverage Cluster is comprised of stocks covered by a single analyst or two or more analysts sharing a common industry, sector, 
+region or other classification(s). A stock's coverage cluster is included in the most recent BofA Global Research report referencing the stock. 
+
+Price Charts for the securities referenced in this research report are available on the Price Charts website, or call 1-800-MERRILL to have them mailed. 
+BofAS or one of its affiliates acts as a market maker for the equity securities recommended in the report: Adient Plc, American Axle, Aptiv PLC, Asbury Auto, AutoNation, Inc., BorgWarner, Group 
+1 Auto, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon Corp. 
+BofAS or an affiliate was a manager of a public offering of securities of this issuer within the last 12 months: Aptiv PLC, AutoNation Inc, BorgWarner, Group 1 Automotive, Lucid Group, Mobileye, 
+Phinia, Rivian Automotive. 
+The issuer is or was, within the last 12 months, an investment banking client of BofAS and/or one or more of its affiliates: Adient Plc, American Axle, Aptiv PLC, Asbury Auto Grp, AutoNation Inc, 
+BorgWarner, Group 1 Automotive, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon. 
+BofAS or an affiliate has received compensation from the issuer for non-investment banking services or products within the past 12 months: Adient Plc, American Axle, Aptiv PLC, Asbury Auto 
+Grp, AutoNation Inc, BorgWarner, Group 1 Automotive, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon. 
+The issuer is or was, within the last 12 months, a non-securities business client of BofAS and/or one or more of its affiliates: Adient Plc, American Axle, Aptiv PLC, Asbury Auto Grp, AutoNation 
+Inc, BorgWarner, Group 1 Automotive, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon. 
+BofAS or an affiliate has received compensation for investment banking services from this issuer within the past 12 months: Adient Plc, American Axle, Aptiv PLC, Asbury Auto Grp, AutoNation 
+Inc, BorgWarner, Group 1 Automotive, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive. 
+BofAS or an affiliate expects to receive or intends to seek compensation for investment banking services from this issuer or an affiliate of the issuer within the next three months: Adient Plc, 
+American Axle, Aptiv PLC, Asbury Auto Grp, BorgWarner, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon. 
+BofAS together with its affiliates beneficially owns one percent or more of the common stock of this issuer. If this report was issued on or after the 9th day of the month, it reflects the 
+ownership position on the last day of the previous month. Reports issued before the 9th day of a month reflect the ownership position at the end of the second month preceding the date of 
+the report: Aptiv PLC, BorgWarner, Group 1 Automotive, Lear Corp., Mobileye, Rivian Automotive, Visteon. 
+BofAS or one of its affiliates is willing to sell to, or buy from, clients the common equity of the issuer on a principal basis: Adient Plc, American Axle, Aptiv PLC, Asbury Auto, AutoNation, Inc., 
+BorgWarner, Group 1 Auto, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon Corp. 
+The issuer is or was, within the last 12 months, a securities business client (non-investment banking) of BofAS and/or one or more of its affiliates: Adient Plc, American Axle, Aptiv PLC, Asbury 
+Auto Grp, AutoNation Inc, BorgWarner, Group 1 Automotive, Lear Corp., Lithia Motors A, Lucid Group, Mobileye, Phinia, Rivian Automotive, Visteon. 
+BofA Global Research personnel (including the analyst(s) responsible for this report) receive compensation based upon, among other factors, the overall profitability of Bank of America 
+Corporation, including profits derived from investment banking. The analyst(s) responsible for this report may also receive compensation based upon, among other factors, the overall 
+profitability of the Bank's sales and trading businesses relating to the class of securities or financial instruments for which such analyst is responsible. 
+
+Other Important Disclosures 
+From time to time research analysts conduct site visits of covered issuers. BofA Global Research policies prohibit research analysts from accepting payment or reimbursement for travel 
+expenses from the issuer for such visits. 
+Prices are indicative and for information purposes only. Except as otherwise stated in the report, for any recommendation in relation to an equity security, the price referenced is the publicly 
+traded price of the security as of close of business on the day prior to the date of the report or, if the report is published during intraday trading, the price referenced is indicative of the traded 
+price as of the date and time of the report and in relation to a debt security (including equity preferred and CDS), prices are indicative as of the date and time of the report and are from various 
+sources including BofA Securities trading desks. 
+The date and time of completion of the production of any recommendation in this report shall be the date and time of dissemination of this report as recorded in the report timestamp. 
+
+Recipients who are not institutional investors or market professionals should seek the advice of their independent financial advisor before considering information in this report in connection 
+with any investment decision, or for a necessary explanation of its contents. 
+Officers of BofAS or one or more of its affiliates (other than research analysts) may have a financial interest in securities of the issuer(s) or in related investments. 
+Refer to BofA Global Research policies relating to conflicts of interest. 
+"BofA Securities" includes BofA Securities, Inc. ("BofAS") and its affiliates. Investors should contact their BofA Securities representative or Merrill Global Wealth Management 
+financial advisor if they have questions concerning this report or concerning the appropriateness of any investment idea described herein for such investor. "BofA Securities" is a 
+global brand for BofA Global Research. 
+Information relating to Non-US affiliates of BofA Securities and Distribution of Affiliate Research Reports: 
+BofAS and/or Merrill Lynch, Pierce, Fenner & Smith Incorporated ("MLPF&S") may in the future distribute, information of the following non-US affiliates in the US (short name: legal name, 
+regulator): Merrill Lynch (South Africa): Merrill Lynch South Africa (Pty) Ltd., regulated by the Financial Sector Conduct Authority; MLI (UK): Merrill Lynch International, regulated by the Financial 
+Conduct Authority (FCA) and the Prudential Regulation Authority (PRA); BofASE (France): BofA Securities Europe SA is authorized by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) 
+and regulated by the ACPR and the Autorité des Marchés Financiers (AMF). BofA Securities Europe SA ("BofASE") with registered address at 51, rue La Boétie, 75008 Paris is registered under no 
+842 602 690 RCS Paris. In accordance with the provisions of French Code Monétaire et Financier (Monetary and Financial Code), BofASE is an établissement de crédit et d'investissement (credit 
+and investment institution) that is authorised and supervised by the European Central Bank and the Autorite de Contrôle Prudentiel et de Résolution (ACPR) and regulated by the ACPR and the 
+Autorité des Marchés Financiers. BofASE's share capital can be found at www.bofaml.com/BofASEdisclaimer; BofA Europe (Milan): Bank of America Europe Designated Activity Company, Milan 
+Branch, regulated by the Bank of Italy, the European Central Bank (ECB) and the Central Bank of Ireland (CBI); BofA Europe (Frankfurt): Bank of America Europe Designated Activity Company, 
+Frankfurt Branch regulated by BaFin, the ECB and the CBI; BofA Europe (Madrid): Bank of America Europe Designated Activity Company, Sucursal en España, regulated by the Bank of Spain, the 
+ECB and the CBI; Merrill Lynch (Australia): Merrill Lynch Equities (Australia) Limited, regulated by the Australian Securities and Investments Commission; Merrill Lynch (Hong Kong): Merrill Lynch 
+
+                                                                                                                                               Automotive Industry | 23 July 2025          15 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+ (Asia Pacific) Limited, regulated by the Hong Kong Securities and Futures Commission (HKSFC); Merrill Lynch (Singapore): Merrill Lynch (Singapore) Pte Ltd, regulated by the Monetary Authority 
+of Singapore (MAS); Merrill Lynch (Canada): Merrill Lynch Canada Inc, regulated by the Canadian Investment Regulatory Organization; Merrill Lynch (Mexico): Merrill Lynch Mexico, SA de CV, Casa 
+de Bolsa, regulated by the Comisión Nacional Bancaria y de Valores; BofAS Japan: BofA Securities Japan Co., Ltd., regulated by the Financial Services Agency; Merrill Lynch (Seoul): Merrill Lynch 
+International, LLC Seoul Branch, regulated by the Financial Supervisory Service; Merrill Lynch (Taiwan): Merrill Lynch Securities (Taiwan) Ltd., regulated by the Securities and Futures Bureau; 
+BofAS India: BofA Securities India Limited, regulated by the Securities and Exchange Board of India (SEBI); Merrill Lynch (Israel): Merrill Lynch Israel Limited, regulated by Israel Securities 
+Authority; Merrill Lynch (DIFC): Merrill Lynch International (DIFC Branch), regulated by the Dubai Financial Services Authority (DFSA); Merrill Lynch (Brazil): Merrill Lynch S.A. Corretora de Títulos e 
+Valores Mobiliários, regulated by Comissão de Valores Mobiliários; Merrill Lynch KSA Company: Merrill Lynch Kingdom of Saudi Arabia Company, regulated by the Capital Market Authority. 
+This information: has been approved for publication and is distributed in the United Kingdom (UK) to professional clients and eligible counterparties (as each is defined in the rules of the FCA 
+and the PRA) by MLI (UK), which is authorized by the PRA and regulated by the FCA and the PRA - details about the extent of our regulation by the FCA and PRA are available from us on request; 
+has been approved for publication and is distributed in the European Economic Area (EEA) by BofASE (France), which is authorized by the ACPR and regulated by the ACPR and the AMF; has 
+been considered and distributed in Japan by BofAS Japan, a registered securities dealer under the Financial Instruments and Exchange Act in Japan, or its permitted affiliates; is issued and 
+distributed in Hong Kong by Merrill Lynch (Hong Kong) which is regulated by HKSFC; is issued and distributed in Taiwan by Merrill Lynch (Taiwan); is issued and distributed in India by BofAS 
+India; and is issued and distributed in Singapore to institutional investors and/or accredited investors (each as defined under the Financial Advisers Regulations) by Merrill Lynch (Singapore) 
+(Company Registration No 198602883D). Merrill Lynch (Singapore) is regulated by MAS. Merrill Lynch Equities (Australia) Limited (ABN 65 006 276 795), AFS License 235132 (MLEA) distributes 
+ this information in Australia only to 'Wholesale' clients as defined by s.761G of the Corporations Act 2001. With the exception of Bank of America N.A., Australia Branch, neither MLEA nor any of 
+its affiliates involved in preparing this information is an Authorised Deposit-Taking Institution under the Banking Act 1959 nor regulated by the Australian Prudential Regulation Authority. No 
+approval is required for publication or distribution of this information in Brazil and its local distribution is by Merrill Lynch (Brazil) in accordance with applicable regulations. Merrill Lynch (DIFC) is 
+authorized and regulated by the DFSA. Information prepared and issued by Merrill Lynch (DIFC) is done so in accordance with the requirements of the DFSA conduct of business rules. BofA 
+Europe (Frankfurt) distributes this information in Germany and is regulated by BaFin, the ECB and the CBI. BofA Securities entities, including BofA Europe and BofASE (France), may 
+outsource/delegate the marketing and/or provision of certain research services or aspects of research services to other branches or members of the BofA Securities group. You may be contacted 
+by a different BofA Securities entity acting for and on behalf of your service provider where permitted by applicable law. This does not change your service provider. Please refer to the Electronic 
+ Communications Disclaimers for further information. 
+ This information has been prepared and issued by BofAS and/or one or more of its non-US affiliates. The author(s) of this information may not be licensed to carry on regulated activities in your 
+jurisdiction and, if not licensed, do not hold themselves out as being able to do so. BofAS and/or MLPF&S is the distributor of this information in the US and accepts full responsibility for 
+information distributed to BofAS and/or MLPF&S clients in the US by its non-US affiliates. Any US person receiving this information and wishing to effect any transaction in any security 
+discussed herein should do so through BofAS and/or MLPF&S and not such foreign affiliates. Hong Kong recipients of this information should contact Merrill Lynch (Asia Pacific) Limited in 
+respect of any matters relating to dealing in securities or provision of specific advice on securities or any other matters arising from, or in connection with, this information. Singapore recipients 
+of this information should contact Merrill Lynch (Singapore) Pte Ltd in respect of any matters arising from, or in connection with, this information. For clients that are not accredited investors, 
+expert investors or institutional investors Merrill Lynch (Singapore) Pte Ltd accepts full responsibility for the contents of this information distributed to such clients in Singapore. 
+General Investment Related Disclosures: 
+Taiwan Readers: Neither the information nor any opinion expressed herein constitutes an offer or a solicitation of an offer to transact in any securities or other financial instrument. No part of 
+this report may be used or reproduced or quoted in any manner whatsoever in Taiwan by the press or any other person without the express written consent of BofA Securities. 
+This document provides general information only, and has been prepared for, and is intended for general distribution to, BofA Securities clients. Neither the information nor any opinion 
+expressed constitutes an offer or an invitation to make an offer, to buy or sell any securities or other financial instrument or any derivative related to such securities or instruments (e.g., options, 
+futures, warrants, and contracts for differences). This document is not intended to provide personal investment advice and it does not take into account the specific investment objectives, 
+financial situation and the particular needs of, and is not directed to, any specific person(s). This document and its content do not constitute, and should not be considered to constitute, 
+investment advice for purposes of ERISA, the US tax code, the Investment Advisers Act or otherwise. Investors should seek financial advice regarding the appropriateness of investing in financial 
+ instruments and implementing investment strategies discussed or recommended in this document and should understand that statements regarding future prospects may not be realized. Any 
+decision to purchase or subscribe for securities in any offering must be based solely on existing public information on such security or the information in the prospectus or other offering 
+document issued in connection with such offering, and not on this document. 
+Securities and other financial instruments referred to herein, or recommended, offered or sold by BofA Securities, are not insured by the Federal Deposit Insurance Corporation and are not 
+deposits or other obligations of any insured depository institution (including, Bank of America, N.A.). Investments in general and, derivatives, in particular, involve numerous risks, including, 
+among others, market risk, counterparty default risk and liquidity risk. No security, financial instrument or derivative is suitable for all investors. Digital assets are extremely speculative, volatile 
+and are largely unregulated. In some cases, securities and other financial instruments may be difficult to value or sell and reliable information about the value or risks related to the security or 
+financial instrument may be difficult to obtain. Investors should note that income from such securities and other financial instruments, if any, may fluctuate and that price or value of such 
+securities and instruments may rise or fall and, in some cases, investors may lose their entire principal investment. Past performance is not necessarily a guide to future performance. Levels and 
+basis for taxation may change. 
+This report may contain a short-term trading idea or recommendation, which highlights a specific near-term catalyst or event impacting the issuer or the market that is anticipated to have a 
+short-term price impact on the equity securities of the issuer. Short-term trading ideas and recommendations are different from and do not affect a stock's fundamental equity rating, which 
+reflects both a longer term total return expectation and attractiveness for investment relative to other stocks within its Coverage Cluster. Short-term trading ideas and recommendations may 
+be more or less positive than a stock's fundamental equity rating. 
+BofA Securities is aware that the implementation of the ideas expressed in this report may depend upon an investor's ability to "short" securities or other financial instruments and that such 
+action may be limited by regulations prohibiting or restricting "shortselling" in many jurisdictions. Investors are urged to seek advice regarding the applicability of such regulations prior to 
+executing any short idea contained in this report. 
+Foreign currency rates of exchange may adversely affect the value, price or income of any security or financial instrument mentioned herein. Investors in such securities and instruments, 
+including ADRs, effectively assume currency risk. 
+ BofAS or one of its affiliates is a regular issuer of traded financial instruments linked to securities that may have been recommended in this report. BofAS or one of its affiliates may, at any time, 
+hold a trading position (long or short) in the securities and financial instruments discussed in this report. 
+BofA Securities, through business units other than BofA Global Research, may have issued and may in the future issue trading ideas or recommendations that are inconsistent with, and reach 
+different conclusions from, the information presented herein. Such ideas or recommendations may reflect different time frames, assumptions, views and analytical methods of the persons who 
+prepared them, and BofA Securities is under no obligation to ensure that such other trading ideas or recommendations are brought to the attention of any recipient of this information. 
+In the event that the recipient received this information pursuant to a contract between the recipient and BofAS for the provision of research services for a separate fee, and in connection 
+therewith BofAS may be deemed to be acting as an investment adviser, such status relates, if at all, solely to the person with whom BofAS has contracted directly and does not extend beyond 
+the delivery of this report (unless otherwise agreed specifically in writing by BofAS). If such recipient uses the services of BofAS in connection with the sale or purchase of a security referred to 
+herein, BofAS may act as principal for its own account or as agent for another person. BofAS is and continues to act solely as a broker-dealer in connection with the execution of any transactions, 
+including transactions in any securities referred to herein. 
+Copyright and General Information: 
+ Copyright 2025 Bank of America Corporation. All rights reserved. iQdatabase® is a registered service mark of Bank of America Corporation. This information is prepared for the use of BofA 
+Securities clients and may not be redistributed, retransmitted or disclosed, in whole or in part, or in any form or manner, without the express written consent of BofA Securities. This document 
+and its content is provided solely for informational purposes and cannot be used for training or developing artificial intelligence (Al) models or as an input in any Al application (collectively, an Al 
+tool). Any attempt to utilize this document or any of its content in connection with an Al tool without explicit written permission from BofA Global Research is strictly prohibited. BofA Global 
+Research information is distributed simultaneously to internal and client websites and other portals by BofA Securities and is not publicly-available material. Any unauthorized use or disclosure 
+is prohibited. Receipt and review of this information constitutes your agreement not to redistribute, retransmit, or disclose to others the contents, opinions, conclusion, or information 
+contained herein (including any investment recommendations, estimates or price targets) without first obtaining express permission from an authorized officer of BofA Securities 
+Materials prepared by BofA Global Research personnel are based on public information. Facts and views presented in this material have not been reviewed by, and may not reflect information 
+known to, professionals in other business areas of BofA Securities, including investment banking personnel. BofA Securities has established information barriers between BofA Global Research 
+
+ 16      Automotive Industry | 23 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+and certain business groups. As a result, BofA Securities does not disclose certain client relationships with, or compensation received from, such issuers. To the extent this material discusses 
+any legal proceeding or issues, it has not been prepared as nor is it intended to express any legal conclusion, opinion or advice. Investors should consult their own legal advisers as to issues of 
+law relating to the subject matter of this material. BofA Global Research personnel's knowledge of legal proceedings in which any BofA Securities entity and/or its directors, officers and 
+employees may be plaintiffs, defendants, co-defendants or co-plaintiffs with or involving issuers mentioned in this material is based on public information. Facts and views presented in this 
+material that relate to any such proceedings have not been reviewed by, discussed with, and may not reflect information known to, professionals in other business areas of BofA Securities in 
+connection with the legal proceedings or matters relevant to such proceedings. 
+This information has been prepared independently of any issuer of securities mentioned herein and not in connection with any proposed offering of securities or as agent of any issuer of any 
+securities. None of BofAS any of its affiliates or their research analysts has any authority whatsoever to make any representation or warranty on behalf of the issuer(s). BofA Global Research 
+policy prohibits research personnel from disclosing a recommendation, investment rating, or investment thesis for review by an issuer prior to the publication of a research report containing 
+such rating, recommendation or investment thesis. 
+Any information relating to sustainability in this material is limited as discussed herein and is not intended to provide a comprehensive view on any sustainability claim with respect to any 
+issuer or security. 
+Any information relating to the tax status of financial instruments discussed herein is not intended to provide tax advice or to be used by anyone to provide tax advice. Investors are urged to 
+seek tax advice based on their particular circumstances from an independent tax professional. 
+The information herein (other than disclosure information relating to BofA Securities and its affiliates) was obtained from various sources and we do not guarantee its accuracy. This information 
+may contain links to third-party websites. BofA Securities is not responsible for the content of any third-party website or any linked content contained in a third-party website. Content 
+contained on such third-party websites is not part of this information and is not incorporated by reference. The inclusion of a link does not imply any endorsement by or any affiliation with BofA 
+Securities. Access to any third-party website is at your own risk, and you should always review the terms and privacy policies at third-party websites before submitting any personal information 
+to them. BofA Securities is not responsible for such terms and privacy policies and expressly disclaims any liability for them. 
+All opinions, projections and estimates constitute the judgment of the author as of the date of publication and are subject to change without notice. Prices also are subject to change without 
+notice. BofA Securities is under no obligation to update this information and BofA Securities ability to publish information on the subject issuer(s) in the future is subject to applicable quiet 
+periods. You should therefore assume that BofA Securities will not update any fact, circumstance or opinion contained herein. 
+Subject to the quiet period applicable under laws of the various jurisdictions in which we distribute research reports and other legal and BofA Securities policy-related restrictions on the 
+publication of research reports, fundamental equity reports are produced on a regular basis as necessary to keep the investment recommendation current. 
+Certain outstanding reports or investment opinions relating to securities, financial instruments and/or issuers may no longer be current. Always refer to the most recent research report relating 
+to an issuer prior to making an investment decision. 
+In some cases, an issuer may be classified as Restricted or may be Under Review or Extended Review. In each case, investors should consider any investment opinion relating to such issuer (or 
+its security and/or financial instruments) to be suspended or withdrawn and should not rely on the analyses and investment opinion(s) pertaining to such issuer (or its securities and/or financial 
+instruments) nor should the analyses or opinion(s) be considered a solicitation of any kind. Sales persons and financial advisors affiliated with BofAS or any of its affiliates may not solicit 
+purchases of securities or financial instruments that are Restricted or Under Review and may only solicit securities under Extended Review in accordance with firm policies. 
+Neither BofA Securities nor any officer or employee of BofA Securities accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this 
+information. 
+
+                                                                                                                                            Automotive Industry | 23 July 2025          17 
+page_end

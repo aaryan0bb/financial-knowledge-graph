@@ -1,0 +1,303 @@
+
+
+ GS - What Matters Today: Speculative trading activity adds fuel to narrow-breadth short 
+squeeze, A Heavy Calendar Next Week, No More ECB Cuts - 25Jul25 
+ FICC and Equities | 25 July 2025 | 11:42AM UTC 
+ 1) Speculative trading activity adds fuel to narrow-breadth short squeeze 
+      Our new Speculative Trading Indicator shows a recent increase in high-risk 
+activity within the US equity market. The indicator is constructed basedsolely on 
+ trading volumes. Specifically, it is calculated as the indexed and re-scaled first 
+principal component of monthly changes in the proportion of US public equity 
+dollar trading value attributable to [1] unprofitable stocks, [2] penny stocks, and 
+ [3] stocks with EV/sales multiples greater than 10x. During the past month, the 
+ share of trading activity taking place in each of those three groups of stocks has 
+ranked in the top quintile of activity since 1990. 
+      In particular, recent US equity trading volumes have increasingly centered 
+ on high-multiple stocks. The median EV/sales multiple of the 50 stocks with the 
+highest share trading volumes, a simple measure that has historically tracked 
+ closely with   Speculative Trading Indicator, has alsoßurged during the last 
+few months. Today, that EV/sales multiple equals 8x, the highest level in recent 
+ decades outside of 2000 and 2021. 
+page_end
+
+ Exhibit 1: Speculative Trading Indicator shows a recent increase in 
+ speculative activity 
+
+ 250 
+  225       Jan. 2000 US equity market Feb. 
+                  Speculative 2021 
+  200           Trading Indicator 
+  175 
+  150 
+  125                              Latest 
+  100 
+  75 
+  50 
+  25 
+   1990 1995 2000 2005 2010 2015 2020 2025 2030 
+
+ Source: Goldman Sachs Global Investment Research 
+
+ Exhibit 3: High-multiple stocks have recently become a large share of US equity trading activity 
+
+ 12x                                                       50% 
+                       Median EV/sales 
+                      multiple of 50 stocks                45% 
+  10x                  with highest share                  40% 
+                        trading volumes 
+  8x                       (left axis)                     35% 
+                            Share of total US              30% 
+  6x                       trading turnover in             25% 
+                           stocks with EV/sales 
+                             multiples > 10x               20% 
+  4x                           (right axis) 
+                                                           15% 
+                                                           10% 
+  2x 
+                                                           5% 
+  0x                                                       0% 
+    1990 1995    2000 2005    2010   2015 2020   2025   2030 
+
+ Source: Goldman Sachs Global Investment Research 
+
+                   volumes have surged alongside the increase in "speculative" 
+cash trading volumes. During the past month, calls         accounted for 61% of 
+option volumes. This compares with a 20-year average of 55% and matches 
+December 2024 as the highest share in a decade outside of the period from 
+summer 2020 through early 2022. 
+
+    | Year | Median EV/sales (x) | Share of Turnover (>10x EV/sales) (%) |
+    |------|---------------------|--------------------------------------|
+    | 1990 | 1.5                 | 5%                                   |
+    | 1992 | 2.0                 | 8%                                   |
+    | 1994 | 2.5                 | 10%                                  |
+    | 1996 | 3.0                 | 12%                                  |
+    | 1998 | 6.0                 | 25%                                  |
+    | 2000 | 11.5                | 37%                                  |
+    | 2002 | 2.0                 | 5%                                   |
+    | 2004 | 2.5                 | 7%                                   |
+    | 2006 | 3.0                 | 9%                                   |
+    | 2008 | 1.5                 | 4%                                   |
+    | 2010 | 2.5                 | 7%                                   |
+    | 2012 | 3.0                 | 8%                                   |
+    | 2014 | 3.5                 | 10%                                  |
+    | 2016 | 4.0                 | 12%                                  |
+    | 2018 | 4.5                 | 15%                                  |
+    | 2020 | 8.0                 | 30%                                  |
+    | 2021 | 9.0                 | 35%                                  |
+    | 2022 | 5.0                 | 20%                                  |
+    | 2023 | 6.5                 | 28%                                  |
+    | 2024 | 8.0                 | 35%                                  |
+    | 2025 | 8.0                 | 35%                                  |
+
+    Summary: This time series chart, spanning 1990 to 2025, illustrates two key indicators of speculative activity in US equities: the Median EV/sales multiple of the 50 stocks with the highest trading volumes (left axis, black line) and the Share of total US trading turnover in stocks with EV/sales multiples > 10x (right axis, blue shaded area). Both metrics exhibit similar trends, peaking significantly around 2000 during the dot-com bubble and again in 2021. Notably, the chart shows a recent resurgence, with current levels in 2024-2025 approaching or matching these historical peaks, indicating a pronounced increase in the trading of high-multiple stocks.
+
+    Explanation: The chart reinforces the context provided, highlighting that "high-multiple stocks have recently become a large share of US equity trading activity." The current elevated levels of both the median EV/sales multiple and the share of turnover in high-multiple stocks suggest a significant increase in speculative trading behavior, akin to prior periods of market exuberance such as 2000 and 2021, and contributing to the overall "speculative trading indicator" discussed in the report.
+
+    | Year | Speculative Trading Indicator |
+    |------|-------------------------------|
+    | 1990 | 98                            |
+    | 1995 | 90                            |
+    | 1999 | 150                           |
+    | 2000 | 205 (Jan. Peak)               |
+    | 2001 | 95                            |
+    | 2005 | 70                            |
+    | 2010 | 60                            |
+    | 2015 | 75                            |
+    | 2020 | 80                            |
+    | 2021 | 200 (Feb. Peak)               |
+    | 2022 | 80                            |
+    | 2023 | 70                            |
+    | 2024 | 95                            |
+    | 2025 | 115 (Latest)                  |
+
+    Summary: The chart displays the US equity market Speculative Trading Indicator from 1990 to mid-2025, using a quantitative measure of high-risk trading activity on the Y-axis. The indicator generally remained at moderate levels until two significant spikes: a peak around 205 in January 2000, coinciding with the dot-com bubble, and another peak around 200 in February 2021. After declining from its 2021 high, the indicator has recently shown an increase, with the "Latest" reading at approximately 115, indicating a renewed uptick in speculative activity compared to the post-2000 and pre-2020 periods, although well below the prior peak extremes.
+
+    Explanation: This chart visually corroborates the accompanying text which states that the "Speculative Trading Indicator shows a recent increase in high-risk activity within the US equity market." The indicator, constructed from trading volumes in unprofitable, penny, and high EV/sales stocks, reflects periods of elevated speculative fervor. The current rise in the indicator, while not matching the peaks of 2000 or 2021, signifies an environment where "speculative trading activity adds fuel to narrow-breadth short squeeze," indicating a higher propensity for risky trading behavior in the current market.
+
+page_end
+
+ Exhibit 4: Calls have recently accounted for 61% of US option volumes 
+
+ 70% 
+         Call option volumes 
+         as % of total volumes 
+ 65% 
+         (rolling 1m average) 
+
+ 60% 
+
+ 55% 
+
+ 50% 
+
+ 45% 
+    2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 
+
+ Source: Bloomberg, Goldman Sachs Global Investment Research 
+ ?    In the past, sharp increases in speculative trading activity have signaled 
+above-average near-term equity returns but a poor Medium-term outlook for 
+stocks. We define "sharp increases" as 3-month increases of 15 points or more, a 
+?         reflecting roughly the top 5% of observations since 1990, but less than 
+half the magnitude of the rise during the past few months. These above-average 
+near-term returns have beenaccompanied by slightly higher near-term volatility 
+and, more often than not, have eventually led to market drawdowns. 
+ Exhibit 6: Sharp increases in speculative trading typically signal 
+ above-average short-term equity returns 
+ Sharp increases defined as 3-month changes in the Indicator exceeding 
+ 15 points, or roughly the top 5% of observations since 1990 
+  30% 
+      Average S&P 500 price returns since 1995 
+  25%   Unconditional          24% 
+
+  20% Following sharp increases in 
+        Speculative Trading Indicator 16% 
+        (N=21) 
+  15% 
+                     12% 
+  10%              8% 
+               7%          7%     6% 
+  5%    4% 4% 
+      2% 
+  0% 
+       3m    6m    12m    24m   36m 
+
+ Source: Goldman Sachs Global Investment Research ? 
+
+      Recent positioning data and market internals indicate the potential for 
+these recentRotations to continue. Despite the S&P 500 sitting at record highs, 
+our US equity Sentiment Indicator reflects neutral positioning on average across 
+USEquity investors. Likewise, after the large increase earlier this year, as of last 
+week short interest for the median S&P 500 stock remained above the historical 
+average and close to the highest level since 2019. As a result of these positioning 
+dynamics, market breadth remains extremely narrow, a condition that typically 
+signals risk to intra-market momentum. 
+
+    | Year | Call Option Volume (% of Total) |
+    |---|---|
+    | 2016 Jan | 49% |
+    | 2016 Dec | 53% |
+    | 2017 Jun | 53% |
+    | 2018 Jan | 57% |
+    | 2018 Dec | 52% |
+    | 2019 Jun | 52% |
+    | 2020 Mar | 47% |
+    | 2020 Sep | 60% |
+    | 2021 Feb | 66% |
+    | 2021 Jul | 62% |
+    | 2021 Dec | 66% |
+    | 2022 Apr | 57% |
+    | 2022 Aug | 50% |
+    | 2023 Jan | 53% |
+    | 2023 Jun | 55% |
+    | 2023 Dec | 58% |
+    | 2024 Mar | 61% |
+    | 2024 Jul | 54% |
+    | 2024 Dec | 60% |
+    | 2025 Apr | 61% |
+
+    Summary: This chart, "Exhibit 4," illustrates the rolling 1-month average of call option volumes as a percentage of total US option volumes from 2016 to projected 2026. Initially, from 2016 to early 2020, the percentage largely fluctuated between 50% and 55%, with a notable dip to approximately 47% in early 2020. A dramatic surge then occurred, peaking around 66% in late 2020 and remaining elevated through early 2022, signaling a period of high speculative activity. This was followed by a sharp decline in 2022, with volumes dropping back towards 50%. Since late 2022, there has been a steady increase, bringing the current levels to around 61%, matching highs seen in late 2024.
+
+    Explanation: The chart visualizes the rise in call option activity, a key indicator of speculative trading. The current level of 61% of total US option volumes, noted in the accompanying text, signifies a significant increase compared to the 20-year average of 55%. This elevated call option activity, particularly matching or exceeding levels from late 2020 through early 2022 (excluding the 2020-2022 peak), suggests an ongoing trend of high speculative engagement in the equity market, a factor the broader context ties to short-term equity returns and market dynamics.
+
+    | Horizon | Unconditional Return | Following Sharp Increases in Speculative Trading Indicator (N=21) |
+    |---------|----------------------|-----------------------------------------------------------------|
+    | 3m      | 2%                   | 4%                                                              |
+    | 6m      | 4%                   | 7%                                                              |
+    | 12m     | 8%                   | 12%                                                             |
+    | 24m     | 16%                  | 7%                                                              |
+    | 36m     | 24%                  | 6%                                                              |
+
+    Summary: This bar chart, "Average S&P 500 price returns since 1995," compares two scenarios: "Unconditional" average returns and returns "Following sharp increases in Speculative Trading Indicator" across different time horizons (3, 6, 12, 24, and 36 months). For shorter horizons (3m, 6m, 12m), returns after a speculative surge are notably higher than unconditional averages, peaking at 12% at 12 months (vs. 8% unconditional). However, for longer horizons (24m, 36m), the trend reverses sharply, with returns following speculative surges significantly underperforming, dropping to 7% at 24 months (vs. 16% unconditional) and further to 6% at 36 months (vs. 24% unconditional).
+
+    Explanation: The data highlights a critical pattern where sharp increases in speculative trading activity tend to precede above-average near-term equity returns for the S&P 500. However, this short-term gain comes at the cost of a significantly poorer medium-to-long-term outlook, as returns after 24 and 36 months fall substantially below the unconditional average, implying that speculative booms often precede market underperformance over extended periods.
+
+page_end
+
+ Exhibit 11: US equity market breadth has become extremely narrow 
+
+ 10% 
+                      Market breadth 
+                    Percent below 52-week high: 
+  5%                SPX index less median stock 
+                    (lower = narrower breadth) 
+  0% 
+              +1 std. 
+  -5% 
+                   Avg 
+ -10% 
+                  -1 std. 2016 
+                            2020 
+ -15%                          2023 
+
+ -20% 
+    1995 2000 2005 2010 2015 2020 2025 2030 
+
+ Source: Goldman Sachs Global Investment Research 
+
+? 
+2) A Heavy Calendar Next Week 
+     37% of S&P market cap will report next week (peak     2Q earnings) 
+and several macro events, here is what you needto be on the lookout for: 
+
+                        Monday and Tuesday:   on the lookout for headlines 
+                       out of Bessent's trade talksWith Chinese counterparts 
+                        Wednesday:       META + MSFT after the bell 
+                        Thursday: BOJ decision; AAPL + AMZN after the bell 
+                        Friday: NFP + ISM ... and most importantly tariff 
+                        deadline 
+ ? 
+
+3) No More ECB Cuts 
+     Today'sECB meeting points to a higher hurdle for another cut than we had 
+anticipated. President Lagarde highlighted the resilience of the economy, argued 
+that the net effects of tariffs on inflation are unclear and concluded that the 
+Governing Council is well positioned "to wait and see." The communication 
+therefore suggests that the Governing Council will likely hold ratesunless the 
+outlook deteriorates materially. 
+ ?    The outlook for trade policy remains uncertain, but the likelihood of an EU- 
+US agreement for a 15% tariff ratelhas risen. While the economy is likely to 
+soften in coming months, we will not receive much data between now and 
+September. Moreover, we are notably more optimistic on growth in 2026 than 
+the ECB given the expected German fiscal expansion. 
+     We therefore no longer expect the Governing Council to cutates in 
+September. We now believe that the cutting cycle is finished and raise our 
+forecast for the terminal deposit rate to 2% (from 1.75% Previously). That said, 
+
+    | Year | Market Breadth (% below 52-week high) | Observation |
+    |---|---|---|
+    | 1995 | -6% | Around historical average |
+    | 1997 | -4% | Slightly above average |
+    | 1999 | -8% | Below average, beginning to narrow |
+    | 2000 | -18% | Deep trough, extremely narrow breadth |
+    | 2002 | +8% | Sharp peak, very broad breadth |
+    | 2004 | -5% | Near average |
+    | 2006 | -4% | Slightly above average |
+    | 2008 | -10% | Approaching -1 std dev, narrowing |
+    | 2009 | -12% | Deep trough, very narrow |
+    | 2010 | -2% | Rebounded to near +1 std dev |
+    | 2012 | -6% | Around average |
+    | 2014 | -4% | Slightly above average |
+    | 2016 | -11% | Trough, below -1 std dev, narrow |
+    | 2018 | -4% | Above average |
+    | 2020 (early) | -12% | Deep trough during market shock |
+    | 2020 (late) | 0% | Strong rebound, approaching average |
+    | 2021 | -5% | Declining towards average |
+    | 2022 | -7% | Below average |
+    | 2023 | -13% | Significant trough, below -1 std dev, extremely narrow |
+    | 2024 (latest) | -12% | Sustained narrow breadth, near 2023 low |
+    | Avg (historical) | -6% | Historical average market breadth |
+    | +1 std (historical) | -2.5% | Upper bound of typical variation |
+    | -1 std (historical) | -10% | Lower bound of typical variation |
+
+    Summary: This line chart, "Market breadth," spans from 1995 to mid-2020s, with the X-axis representing time and the Y-axis showing the "Percent below 52-week high" for the SPX index less the median stock, where lower values indicate narrower breadth. The data generally oscillates around a historical average of -6%, with dashed lines marking +/- 1 standard deviation. Key trends include periods of extremely narrow breadth around 2000 (-18%), 2009 (-12%), and 2020 (-12%), often coinciding with market downturns. The chart highlights a recent, persistent narrowing trend, with breadth falling to approximately -13% in 2023 and remaining severely constrained into 2024.
+
+    Explanation: The exhibit underscores that US equity market breadth has become "extremely narrow." This condition, as noted in the surrounding text, typically signals risk to intra-market momentum, despite the S&P 500 reaching record highs. Such narrow breadth implies that the market's performance is being driven by a small number of large-cap stocks, leaving the majority of stocks lagging, which historical patterns suggest can precede market drawdowns.
+
+page_end
+
+the ongoing trade tensions continue to skew the risks around our baseline to the 
+downside. 
+
+Happy Friday! 
+page_end

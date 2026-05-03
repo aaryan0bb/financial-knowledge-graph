@@ -1,0 +1,218 @@
+
+
+Top Stories 
+FICC and Equities 
+
+I 
+
+24 July 2025 11:03AM UTC 
+
+*Markets Right Now ... 
+
+Equity Indices CHG         LAST 
+S&P Futures    0.04%     6,399.00 
+Nasdaq 100 Futures 0.27% 23,374.25 
+Russell 2000 Futures -0.41% 2,285.50 
+VIX (point chg) 0.55      15.38 
+Europe (SX5E) 0.39%      5,365.05 
+Germany (DAX) 0.46%     24,351.57 
+UK (UKX)       0.93%     9,146.00 
+China (SHCOMP) 0.65%     3,605.73 
+HK (HSI)       0.51%    25,667.18 
+Japan (NKY)    1.59%    41,826.34 
+Bonds/Currencies CHG       LAST 
+US 10yr (point chg) -0.044 4.40% 
+DXY            0.21%      97.42 
+EUR/USD       -0.19%      1.175 
+Bitcoin        0.44%   118,478.13 
+Ethereum       1.61%     3,627.30 
+Commods         CHG        LAST 
+Crude          0.92%      65.85 
+Brent          0.74%      69.02 
+Gold          -0.61%     3,366.57 
+Silver        -0.48%      39.08 
+Copper         1.73%      589.50 
+
+*10 Things You Shouldn't Miss This AM ... 
+page_end
+
+1) China's investment banks have slashes fees for bond issues to as low as $100 
+as price-sensitive state-owned issuers dominate a tepid credit market and stoke a 
+race to the bottom to win mandates. Bankers aid the pressure to undercut rivals 
+had become acute this year as state owned enterprises had become the most active 
+bond issuers and private companies pulled back. FT 
+
+2) Japan's flash PMIs for Jul are mixed, with manufacturing coming in at 48.8 
+(down from 50.1 in June) and services at 53.5 (up from 51.7 in June). BBG 
+
+3) The US and South Korea have discussed creating a fund to invest in American 
+projects as part of a trade deal, similar to an agreement Japan struck Tuesday with 
+President Donald Trump. BBG 
+
+4) The ECB is in wait-and-see mode with no change to rates or language 
+expected at today's meeting. Instead, Bloomberg Economics sees a 25-bp cut in 
+September to cushion the impact of the US tariffs. BBG 
+
+5) Eurozone flash PMIs for Jul are a bit better than expected thanks to strength in 
+services (51.2, up from 50.5 in June and above the Street's 50.6 forecast) while 
+manufacturing was inline (49.8, up from 49.5 in June and inline w/the Street's 
+49.8 forecast), and the report contained some glimmers of hope on the inflation 
+front as price pressures eased somewhat. S&P 
+
+6) Trump will personally participate in a tour of the Fed headquarters on Thurs as 
+the White House ratchets up pressure on Powell to lower rates. FT 
+
+7) US trading partners will face tariffs ranging from 15% to 50%, Trump said, as 
+he sets rates ahead of an Aug. 1 deadline. BBG 
+
+8) GOOG +3.25% (was -2.5% at one point last night) .. headline beat (~6% EPS 
+beat), but surprise capex raise (unexpectedly raised '25 capex by ~$10bn to 
+$85bn) .. against what felt like a 'consensus', tactical beat-and-fade type of set- 
+up in our investor convos (ongoing DoJ/Search + AI + capex debates .... not to 
+mention the 10-day rally into today). (H/T Callahan) 
+
+9) TSLA -6% pre mkt, after Musk shared that Tesla could be in for a "rough few 
+quarters" on call as the Trump administration ends EV incentives and tariff 
+pressures cause uncertainty for the company following one of its worst earnings 
+reports in 10+ yrs. BBG 
+page_end
+
+10) Our Short Interest Pair had it best monthly returns since the meme stock 
+squeeze back in January 2021. Our High vs Low Short Interest Pair (GSPUWSHI 
+Index) rallied 10% in the period (on a ~13% vol as the pair is sector, industry, & 
+factor neutral), a move in the 99.7th percentile rally (3.8 stdv) relative to the last 
+17+ years, driven by animal spirit and strong retail participation. H/T Guillaume 
+Soria 
+                                                                                                                20 
+                         1m Returns GSPUWSHI 
+                           Hi/Lo Short Interest                                                                -15 
+
+                                                                                                                9.965 
+
+                                                                                                                -5 
+
+                                                                                                                -0 
+
+                                                                                                               -- 5 
+
+                                                                                                               -- 10 
+
+                                                                                                                -- 15 
+
+ 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 
+GSPUWSHI Index (GS US Wolfe Short Interest Pair) Daily 01JAN2007-23JUL2025 Copyright@ 2025 Bloomberg Finance L.P. 23-Jul-2025 07:53:40 
+Source: Goldman Sachs FICC & Equities, Bloomberg, as of July 2025. Past 
+performance is not indicative of future results. 
+
+*Noteworthy Economic Data that hit overnight ... 
+         Australia's flash PMIs for Jul are solid, with manufacturing coming in at 
+         51.6 (up from 50.6 in June) and services at 53.8 (up from 51.8 in June) 
+         (Bloomberg) 
+         India's flash PMIs for Jul are mixed, with manufacturing coming in at 59.2 
+         (up from 58.4 in June) and services at 59.8 (down from 60.4 in June) 
+         (Bloomberg) 
+         Japan's flash PMIs for Jul are mixed, with manufacturing coming in at 48.8 
+         (down from 50.1 in June) and services at 53.5 (up from 51.7 in June) 
+         (Bloomberg) 
+         South Korea's GDP for Q2 comes in a bit ahead of expectations at +0.6% 
+        Q/Q (vs. the Street +0.5%) (WSJ) 
+
+    | Period       | 1m Returns GSPUWSHI (%) |
+    |--------------|-------------------------|
+    | Early 2008   | +12%                    |
+    | Mid-2008     | -10%                    |
+    | Early 2009   | +13%                    |
+    | Mid-2009     | -10%                    |
+    | 2010-2019    | Generally within +/- 7% |
+    | Peak 2011    | +8%                     |
+    | Trough 2012  | -7%                     |
+    | Peak 2014    | +7%                     |
+    | Trough 2016  | -7%                     |
+    | Late 2020    | -10%                    |
+    | Early 2021   | ~+18-19% (Highest Peak) |
+    | Mid-2021     | +10% to -5% swings      |
+    | Early 2022   | +10%                    |
+    | Late 2022    | -15% (Lowest Trough)    |
+    | Early 2023   | +7%                     |
+    | Latest (mid-2024/2025) | +9.965% (Recent Peak)   |
+
+    Summary: This chart displays the 1-month returns of the GSPUWSHI (Goldman Sachs US Wolfe Short Interest Pair) Index daily from January 2007 to July 2025. The X-axis represents the years, while the Y-axis (ranging from -15% to +20%) shows the percentage returns. The primary trend reveals periods of significant volatility, particularly before 2010 and after 2020. The most striking inflection point is the massive spike in early 2021, reaching nearly +19%, coinciding with the "meme stock squeeze." More recently, the chart shows a sharp upward rally, peaking at 9.965%, which is explicitly highlighted by a red dashed line and a label on the Y-axis. The lowest point was observed in late 2022, dropping to around -15%.
+
+    Explanation: The chart visualizes the performance of a high vs. low short interest pair, which, according to the accompanying text, achieved its best monthly returns since the January 2021 "meme stock squeeze." The current 10% rally (9.965% on the chart) is noted as a significant 3.8 standard deviation event driven by "animal spirit and strong retail participation." This indicates that market dynamics, potentially related to retail investor sentiment and speculative trading against heavily shorted stocks, are once again playing a crucial role in driving significant returns for this specific short interest-based strategy.
+
+page_end
+
+      Eurozone auto registrations came in at -7.3% Y/Y in June, a sharp swing 
+     lower from +1.6% in May (Bloomberg) 
+      Eurozone flash PMIs for Jul are a bit better than expected thanks to 
+      strength in services (51.2, up from 50.5 in June and above the Street's 50.6 
+     forecast) while manufacturing was inline (49.8, up from 49.5 in June and 
+      inline w/the Street's 49.8 forecast), and the report contained some glimmers 
+      of hope on the inflation front as price pressures eased somewhat (S&P) 
+
+*Keep an eye on the following events today ... 
+Economic Data (All Times ET): 
+   . 5:00 am: Jun F Building Permits, est. 1397k, prior 1397k 
+     8:30 am: Jul 19 Initial Jobless Claims, est. 226k, prior 221k 
+      8:30 am: Jun Chicago Fed Nat Activity Index, est. - 0.15, prior -0.28 
+  . 8:30 am: Jul 12 Continuing Claims, est. 1953.5k, prior 1956k 
+  . 9:45 am: Jul P S&P Global U.S. Manufacturing PMI, est. 52.7, prior 52.9 
+     9:45 am: Jul P S&P Global U.S. Services PMI, est. 53, prior 52.9 
+      9:45 am: Jul P S&P Global U.S. Composite PMI, est. 52.8, prior 52.9 
+  .   10:00 am: Jun New Home Sales, est. 650k, prior 623k 
+      10:00 am: Jun New Home Sales MoM, est. 4.33%, prior -13.7% 
+Central Banks (All Times ET): 
+      Fed's External Communications Blackout (July 19 - July 31) 
+Main Rating Changes: 
+Upgrades: 
+      Birkenstock Raised to Buy at Goldman; PT $60 
+      Boeing Raised to Outperform at KGI Securities; PT $266 
+      General Dyna Raised to Outperform at Wolfe; PT $360 
+      Northern Trus Raised to Peerperform at Wolfe 
+     Spoti to Outperform at Oppenheimer; PT $800 
+      Travel + Leisure Co Raised to Outperform at Mizuho Securities 
+      Varonis Systems Raised to Buy at Jefferies; PT $65 
+Downgrades: 
+      AT&T Cut to Hold at HSBC; PT $30 
+      BankUni to Neutral at Piper Sandler; PT $43 
+      Chipotle Sinks After Second Cut to Sales Forecast: Street Wrap 
+      Chubb Cut to Neutral at Piper Sandler; PT $283 
+      Enovix Cut to Neutral at JPMorgan; PT $12 
+      Goosehead Insurance Cut to Neutral at Piper Sandler; PT $109 
+      Johnson Controls Cut to Hold at Jefferies; PT $120 
+      Saia Cut to Hold at Stifel; PT $306 
+page_end
+
+      Tesla Cut to Sell at Punto Casa de Bolsa; PT $299.48 
+Initiations: 
+  .   Braze Rated New Outperform at Mizuho Securities; PT $40 
+      Hawkins Rated New Market Perform at Raymond James 
+      Intel Rated New Buy at GF Securities; PT $34 
+  .   UFP Rated New Hold 
+                           at Loop Capital; PT $112 
+
+*Early GS Ratings Changes ... 
+Americas 
+  Company Name           Ticker      Rating      Rating      Today's Note 
+ Hewlett Packard                     Neutral     Not Rated   Reinstate at 
+                                                             AT    1 
+  Credicorp             BAP      -   Neutral     Sell        Clearer path to ... 
+Europe 
+  Company Name    Ticker        Rating (New) Rating (Old) Today's Note 
+                                                          Momentum robust 
+  Birkenstock    BIRK          Buy           Neutral 
+Asia 
+  Company        Ticker          Rating      Rating       Today's Note 
+
+  Reece Ltd.     REH.AX          Neutral     Sell         Headwinds . largely 
+  Strike T Energy STX.AX    1    Neutral     Buy         CVN to take ... 
+
+  Subaru Corp.   7270.T          Buy         Neutral      Raising our estimates ... 
+  Trent Ltd.     TREN.BO    1    Neutral     Buy          Market share gain ... 
+
+ Sources: Bloomberg, TradeTheNews, Street Account, Reuters, WSJ, FT, GS 
+ Research as of today 
+
+From GS Sales/Trading this is NOT Research. Note past performance is not 
+indicative of future results. Any references to we/us/our refers to the desk. 
+page_end

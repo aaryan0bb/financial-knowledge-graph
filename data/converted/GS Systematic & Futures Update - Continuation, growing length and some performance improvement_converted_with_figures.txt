@@ -1,0 +1,734 @@
+
+
+  GOLDMAN SACHS FICC AND EQUITIES 
+
+  FUTURES SALES STRATS 
+
+Systematic & Futures Update: Continuation, growing length and some performance improvement 
+
+ 1. CTA/trend followers have been continued equity buyers as expected, adding to their long length, 
+ which has been overall right-way with price action that hit new ATHs this week in SPX. The vol-based 
+ systematic investors - risk parity style and VA vol-control - have been adding in secondary size also, and 
+collectively, the total estimated global equity length currently stands at nearly a 7 out of 10 and is 
+expected to climb to above an 8 after the next one month's baseline flow. The monthly figure is $80bn, 
+ of which $35bn or 44% is expected to be in US markets. The slope or pace of the buying will naturally start 
+to flatten after the next week but remains upward sloping currently (Chart 1 below). This positioning has 
+helped CTA performance claw back a subset of its YTD losses, where NEIXCTAT is still down a 
+ meaningful 8% on the year vs. more than 12% at the lows in May. We estimate that this positive recent 
+performance has been led by the equities bucket, while other asset classes have generally been more 
+ mixed or challenged. Separately liquidity remains at its cyclically improved levels given the lower 
+ volatility notwithstanding lower summer volumes, and SPX gamma hedging flows remain overall pro- 
+ cyclical and risk-positive with buy estimates considerably bigger on equivalent up/down spot moves 
+ currently. 
+
+ 2. In the industry data overall, institutional and total non-dealer US equity length remained at or below 
+its 1-yr average but a higher 71-76% historical rank on a min-max scale. Institutional UST length has come 
+ a little off its record highs in recent weeks, including $25mm/bp or 1.7x std deviation of sales this week but 
+ remains at historically high levels, and with "non-commercials" or specs meaningfully net short. Overall 
+ non-dealer dollar flows remained modest-sized in FX - the last time we saw a > 1x std deviation week 
+ was back in April - and length at 1-yr lows but not a historical max short (24% current historical rank). 
+And in commodities, energies were small-moderately net sold by money managers while gold saw a 
+ sizable near $10bn of buying, 2x std deviation flow and the biggest nominal buy week in more than a 
+year, to take net contract length to a 42% 1-yr rank and 74% normalized historical rank. We expect the 
+ systematic CTA/trend following buying of gold to continue, from $1.7bn in the last one week to $2.1 in 
+the next week and $6.7bn in the next one month cumulative in the baseline scenario. 
+page_end
+
+                        Global Equity Systematic Macro $bn 
+                simulated recent flow and next 1m conditional expectations 
+ 100b 
+
+ 50b- 
+
+   0- 
+
+ -50b 
+
+-100b- 
+
+-150b 
+
+-200b- 
+
+-250b- 
+
+-300b- 
+
+-350b- 
+     2025 
+     Feb      Mar       Ap       May        Jun       Jul      Aug 
+-Down 1 Std Dev -Down >2 Std Dev - Today 
+-Realized & Mkt Flat Baseline, for Global Eq -Mkt +1 Std Dev -+2 Std Dev 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+                  Estimated Global Equity Position of Systematic Macro 
+550 
+500- 
+450 
+400 
+350 
+300 
+250 
+200 
+150 
+100 
+ 50- 
+  0- 
+ -50 
+      2019      2020      2021      2022      2023     2024      2025 
+CTA/trend + RP/Vol-weighted + Vol-Control in $bn 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+    | Date (Approx.) | Estimated Global Equity Position ($bn) |
+    |----------------|--------------------------------------|
+    | Jan 2019       | 400                                  |
+    | May 2019       | 150                                  |
+    | Oct 2019       | 450                                  |
+    | Mar 2020       | 20                                   |
+    | Apr 2020       | 150                                  |
+    | Aug 2020       | 300                                  |
+    | Dec 2020       | 400                                  |
+    | Mar 2021       | 450                                  |
+    | Jul 2021       | 400                                  |
+    | Nov 2021       | 510                                  |
+    | Mar 2022       | 400                                  |
+    | Jul 2022       | 80                                   |
+    | Nov 2022       | 200                                  |
+    | Mar 2023       | 400                                  |
+    | Jul 2023       | 300                                  |
+    | Oct 2023       | 450                                  |
+    | Jan 2024       | 480                                  |
+    | Apr 2024       | 380                                  |
+    | Jul 2024       | 300                                  |
+    | Sep 2024       | 350                                  |
+    | Nov 2024       | 250                                  |
+    | Jul 2025       | 450                                  |
+
+    Summary: The chart, "Estimated Global Equity Position of Systematic Macro," tracks the combined equity exposure in billions of dollars ($bn) of CTA/trend, Risk Parity/Vol-weighted, and Vol-Control strategies from early 2019 to July 2025. The Y-axis ranges from -$50bn to $550bn, illustrating highly volatile positions with sharp drawdowns and recoveries. Key movements include a dramatic plunge to near $0bn in March 2020, followed by a robust recovery peaking at over $500bn in late 2021. Another significant dip occurred in mid-2022, falling to around $80bn. As of July 2025, the position has rebounded sharply from late 2024 lows, now standing at approximately $450bn.
+
+    Explanation: This chart provides a visual representation of how systematic macro funds' global equity exposure dynamically responds to market conditions. The current sharp increase in equity positioning, reaching approximately $450bn by July 2025, aligns with the accompanying text noting that CTA/trend followers are "continued equity buyers," contributing to a rising "total estimated global equity length." This elevated and increasing exposure from systematic strategies suggests a positive market outlook and provides a pro-cyclical tailwind for equity markets, complementing the reported "new ATHs in SPX."
+
+    | Date | Scenario | Global Equity Flow ($bn) |
+    |---|---|---|
+    | Feb 1, 2025 | Realized & Mkt Flat Baseline | +25 |
+    | Feb 15, 2025 | Realized & Mkt Flat Baseline | +55 |
+    | Mar 1, 2025 | Realized & Mkt Flat Baseline | +60 |
+    | Mar 15, 2025 | Realized & Mkt Flat Baseline | -20 |
+    | Apr 1, 2025 | Realized & Mkt Flat Baseline | -300 |
+    | Apr 15, 2025 | Realized & Mkt Flat Baseline | -150 |
+    | May 1, 2025 | Realized & Mkt Flat Baseline | -100 |
+    | May 15, 2025 | Realized & Mkt Flat Baseline | -80 |
+    | Jun 1, 2025 | Realized & Mkt Flat Baseline | -50 |
+    | Jun 15, 2025 | Realized & Mkt Flat Baseline | -20 |
+    | Jul 1, 2025 | Realized & Mkt Flat Baseline | +10 |
+    | Jul 15, 2025 | Realized & Mkt Flat Baseline | +35 |
+    | Jul 24, 2025 | Realized & Mkt Flat Baseline | +50 |
+    | Jul 24, 2025 | Mkt +1 Std Dev | +50 |
+    | Jul 24, 2025 | +2 Std Dev | +50 |
+    | Jul 24, 2025 | Down 1 Std Dev | +50 |
+    | Jul 24, 2025 | Down >2 Std Dev | +50 |
+    | Aug 15, 2025 | Mkt Flat Baseline | +75 |
+    | Aug 15, 2025 | Mkt +1 Std Dev | +78 |
+    | Aug 15, 2025 | +2 Std Dev | +80 |
+    | Aug 15, 2025 | Down 1 Std Dev | +10 |
+    | Aug 15, 2025 | Down >2 Std Dev | -100 |
+    | Aug 24, 2025 (1m Fwd) | Mkt Flat Baseline | +90 |
+    | Aug 24, 2025 (1m Fwd) | Mkt +1 Std Dev | +92 |
+    | Aug 24, 2025 (1m Fwd) | +2 Std Dev | +95 |
+    | Aug 24, 2025 (1m Fwd) | Down 1 Std Dev | -50 |
+    | Aug 24, 2025 (1m Fwd) | Down >2 Std Dev | -250 |
+
+    Summary: The chart, "Global Equity Systematic Macro $bn," illustrates the simulated recent flow and next one-month conditional expectations for systematic macro strategies' activity in global equities. The X-axis tracks time from February to August 2025, while the Y-axis indicates flow in billions of dollars, ranging from -$350bn to +$100bn. The "Realized & Mkt Flat Baseline" shows a significant drop from a positive peak of +$60bn in early March to a trough of -$300bn in early April, followed by a strong recovery to +$50bn by late July. For the next month, positive market scenarios project continued flow increases up to +$95bn, whereas negative market scenarios forecast sharp reversals, potentially plummeting to -$250bn.
+
+    Explanation: This chart provides a granular view of the capital movements by systematic strategies, like CTA/trend followers, into global equities. The dramatic recovery in flows from April to July aligns with the commentary on page 1 regarding CTA performance clawing back year-to-date losses, primarily led by the equities bucket. The forward-looking conditional expectations underscore the sensitivity of these flows to market movements, suggesting that systematic investors could significantly contribute to market upside in favorable conditions, but also amplify downturns if volatility increases or markets decline.
+
+page_end
+
+                  Estimated Position of Systematic Macro in US Eqs 
+275 
+250 
+
+200 
+175 
+150 
+125 
+100 
+ 75 
+ 50- 
+ 25- 
+  0 
+      2019      2020     2021      2022      2023     2024      2025 
+CTA/trend + RP/Vol-weighted + Vol-Control in $bn 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+                         Signals Across Tenor Horizon 
+100 
+ 90 
+ 80 
+ 70 
+ 60 
+ 50- 
+ 40 
+ 30 
+ 20 
+ 10- 
+  0- 
+    2025 
+
+      May                   Jun                    Jul 
+% Positive of Global Shorter Trend Signals Intermediate Longer 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+    | Date (2025) | Shorter Trend Signals (%) | Intermediate (%) | Longer (%) |
+    |---------------|---------------------------|------------------|------------|
+    | Early May     | 55                        | 58               | 75         |
+    | May 10        | 100                       | 75               | 80         |
+    | May 17        | 100                       | 80               | 80         |
+    | May 24        | 100                       | 85               | 90         |
+    | Early Jun     | 90                        | 85               | 90         |
+    | Jun 7         | 95                        | 72               | 90         |
+    | Jun 14        | 100                       | 80               | 95         |
+    | Jun 21        | 75                        | 85               | 95         |
+    | Jun 28        | 52                        | 80               | 85         |
+    | Early Jul     | 80                        | 75               | 85         |
+    | Jul 10        | 70                        | 85               | 95         |
+    | Jul 17        | 85                        | 80               | 95         |
+    | Jul 24        | 95                        | 92               | 95         |
+
+    Summary: The chart "Signals Across Tenor Horizon" illustrates the percentage of positive global trend signals across Shorter, Intermediate, and Longer timeframes, spanning from May to late July 2025. The Y-axis indicates the percentage of positive signals, ranging from 0% to 100%. While all three tenors generally exhibit a high percentage of positive signals, often above 80%, the Longer trend (red line) is the most consistent and highest, typically staying between 85% and 95%. The Shorter trend (dark blue line) shows considerable volatility, notably dropping sharply from 100% in early June to approximately 52% by late June, before recovering significantly to near 95% by late July. Intermediate signals (light blue line) maintain a relatively high level but display moderate fluctuations.
+
+    Explanation: This chart is crucial for understanding the prevailing market sentiment and directional momentum, which directly influences systematic macro strategies like CTA/trend-following, as indicated by the context on previous pages. The consistently high percentage of positive signals, especially for intermediate and longer tenors, suggests a generally supportive environment for maintaining long positions or following upward trends. However, the pronounced volatility and sharp declines in shorter-term signals highlight periods of tactical uncertainty or potential reversals for strategies with shorter holding periods, requiring agility in their positioning.
+
+    | Date      | Estimated Position ($bn) |
+    |-----------|--------------------------|
+    | Jan 2019  | 250                      |
+    | Mar 2019  | 75                       |
+    | Jul 2019  | 185                      |
+    | Sep 2019  | 100                      |
+    | Dec 2019  | 250                      |
+    | Mar 2020  | 25                       |
+    | Jun 2020  | 175                      |
+    | Oct 2020  | 225                      |
+    | Jan 2021  | 180                      |
+    | Apr 2021  | 150                      |
+    | Jul 2021  | 240                      |
+    | Oct 2021  | 175                      |
+    | Jan 2022  | 150                      |
+    | Apr 2022  | 50                       |
+    | Jul 2022  | 150                      |
+    | Oct 2022  | 70                       |
+    | Jan 2023  | 120                      |
+    | Apr 2023  | 225                      |
+    | Jul 2023  | 180                      |
+    | Oct 2023  | 240                      |
+    | Jan 2024  | 200                      |
+    | Apr 2024  | 230                      |
+    | Jul 2024  | 190                      |
+    | Oct 2024  | 220                      |
+    | Jan 2025  | 180                      |
+    | Apr 2025  | 30                       |
+    | Jul 2025  | 160                      |
+
+    Summary: This chart depicts the Estimated Position of Systematic Macro strategies (CTA/trend, Risk Parity/Vol-weighted, Vol-Control) in US Equities in billions of dollars ($bn) from early 2019 through mid-2025. The Y-axis ranges from $0bn to $275bn, showing the aggregate exposure. A horizontal dashed line around $185bn suggests a median or long-term average level. The chart reveals significant volatility and cyclical swings in these positions, with sharp de-risking events followed by substantial re-engagement. Notable troughs occurred in March 2020 ($25bn, likely COVID-related), mid-2022 ($50bn), and a very sharp recent decline in Q2 2025 to ~$30bn, followed by a recovery to ~$160bn by July 2025. Peaks frequently reached or exceeded $240bn, demonstrating periods of strong systematic long exposure.
+
+    Explanation: This chart, showing the estimated position of systematic macro strategies in US equities, is a subset of the broader "Estimated Global Equity Position" shown on the previous page, indicating US equities are a key driver of these strategies' overall exposure. The extreme volatility and sharp drawdowns, particularly in early 2020, mid-2022, and early 2025, suggest that systematic funds can significantly amplify market movements by rapidly reducing or increasing their equity exposure in response to changing trend signals or volatility regimes, as hinted by the "Signals Across Tenor Horizon" chart.
+
+page_end
+
+                                   S&P 
+ 15 
+
+ 10- 
+
+  5- 
+
+  0 
+
+ -5- 
+
+-10 
+
+-15 
+
+-20- 
+    2025 
+    Feb        Mar        Apr        May         Jun         Jul 
+Distance from Short Trend Area (%) Intermediate Longer 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+          CTA/Trend following portfolio proxy x-asset (simple and simulated) 
+1.03- 
+1.02 
+1.01 
+   1- 
+
+0.99- 
+
+0.98 
+0.97 
+0.96 
+0.95 
+     2025 
+    Jan      Feb      Mar       Apr       May       Jun       Jul 
+Equity trend bucket (indexed to 1 to start) Fixed income Commods FX 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+    | Date      | Equity trend bucket | Fixed income | Commods | FX    |
+    |-----------|---------------------|--------------|---------|-------|
+    | Jan 1     | 1.000               | 1.000        | 1.000   | 1.000 |
+    | Jan 10    | 1.000               | 1.000        | 1.005   | 1.010 |
+    | Jan 20    | 1.005               | 0.998        | 1.010   | 1.015 |
+    | Feb 1     | 1.025               | 0.995        | 1.005   | 1.010 |
+    | Feb 10    | 1.015               | 0.990        | 1.000   | 0.995 |
+    | Feb 20    | 1.000               | 0.985        | 0.990   | 0.985 |
+    | Feb 28    | 0.990               | 0.985        | 0.985   | 0.980 |
+    | Mar 10    | 0.980               | 0.985        | 0.990   | 0.980 |
+    | Mar 20    | 0.985               | 0.990        | 0.995   | 0.980 |
+    | Mar 31    | 0.975               | 0.985        | 0.980   | 0.970 |
+    | Apr 10    | 0.970               | 0.975        | 0.970   | 0.965 |
+    | Apr 20    | 0.965               | 0.975        | 0.960   | 0.960 |
+    | Apr 30    | 0.960               | 0.970        | 0.975   | 0.970 |
+    | May 10    | 0.960               | 0.965        | 0.985   | 0.980 |
+    | May 20    | 0.960               | 0.960        | 0.970   | 0.970 |
+    | May 31    | 0.965               | 0.960        | 0.970   | 0.965 |
+    | Jun 10    | 0.965               | 0.960        | 0.965   | 0.965 |
+    | Jun 20    | 0.965               | 0.960        | 0.960   | 0.960 |
+    | Jun 30    | 0.970               | 0.960        | 0.965   | 0.960 |
+    | Jul 10    | 0.975               | 0.960        | 0.970   | 0.960 |
+    | Jul 20    | 0.980               | 0.958        | 0.972   | 0.968 |
+    | Jul 24    | 0.981               | 0.958        | 0.972   | 0.968 |
+
+    Summary: This line chart, titled "CTA/Trend following portfolio proxy x-asset (simple and simulated)," illustrates the performance of a simulated trend-following strategy across four asset classes—Equity, Fixed Income, Commodities, and FX—from January to July 2025, indexed to 1 at the start. Equity and FX initially showed strength in January, with Equity peaking around 1.025 in early February. A broad decline followed from late February into April, severely impacting all asset classes, with Equity experiencing the sharpest drop to about 0.96. Post-April, Commodities and FX embarked on a gradual recovery, while Fixed Income remained largely subdued; Equity, however, demonstrated a strong rebound in July, recovering significantly towards its initial indexed value.
+
+    Explanation: The chart highlights the dynamic and often diverging performance of systematic trend-following strategies across different asset markets within the first half of 2025. The initial widespread downturn suggests a challenging environment for trend-followers, possibly due to market choppiness or reversals, while the subsequent differential recovery patterns underscore the importance of diversification and the varying efficacy of trend signals across asset classes. This contributes to understanding the overall behavior of systematic macro strategies, including CTA/trend, which are a focus in the surrounding context of the report.
+
+    | Date       | Shorter (%) | Intermediate (%) | Longer (%) |
+    |------------|-------------|------------------|------------|
+    | 2025-02-01 | 1.0         | 4.0              | 12.0       |
+    | 2025-02-10 | 1.5         | 3.5              | 11.5       |
+    | 2025-02-20 | 0.5         | 2.0              | 11.0       |
+    | 2025-03-01 | -0.5        | 0.0              | 9.0        |
+    | 2025-03-10 | -2.0        | -2.0             | 7.0        |
+    | 2025-03-20 | -4.0        | -4.5             | 4.0        |
+    | 2025-04-01 | -5.5        | -6.0             | 3.0        |
+    | 2025-04-08 | -7.0        | -8.0             | -10.0      |
+    | 2025-04-15 | -5.0        | -7.0             | -9.0       |
+    | 2025-04-20 | -1.0        | -4.0             | -2.0       |
+    | 2025-04-25 | 0.5         | -1.0             | 3.0        |
+    | 2025-05-01 | 1.0         | 0.5              | 4.0        |
+    | 2025-05-10 | 2.0         | 2.0              | 5.5        |
+    | 2025-05-20 | 3.0         | 4.0              | 7.0        |
+    | 2025-06-01 | 3.5         | 4.5              | 7.5        |
+    | 2025-06-10 | 3.0         | 5.0              | 8.0        |
+    | 2025-06-20 | 4.0         | 5.5              | 9.0        |
+    | 2025-07-01 | 4.0         | 6.0              | 9.5        |
+    | 2025-07-10 | 4.5         | 6.5              | 10.0       |
+    | 2025-07-24 | 4.5         | 6.5              | 10.5       |
+
+    Summary: This chart, titled "S&P Distance from Short Trend Area (%)", illustrates the percentage difference of the S&P 500 from its short-term trend line across three tenor horizons: Shorter (dark blue), Intermediate (light blue), and Longer (red). The data spans from February to July 2025. All three trends show a significant decline from positive territory in February, bottoming out in mid-April with the Longer trend reaching the lowest point at approximately -10%. Following this inflection point, all trends exhibit a robust recovery, returning to positive territory and trending upwards into July, with the Longer trend resuming its lead.
+
+    Explanation: The chart provides insight into the positioning of systematic macro strategies, specifically CTA/trend-following, in S&P equities. A positive distance indicates the S&P is above its short trend area, suggesting a "long" or bullish signal, while a negative distance implies it's below, signaling a "short" or bearish outlook. The sharp drop in April 2025 indicates a period where the S&P declined below its trend areas, potentially triggering short positions for trend-following strategies, which subsequently reversed to long positions as the market rebounded, aligning with the general positive performance of CTA equity trend buckets seen in related charts for this period.
+
+page_end
+
+                            Est cost to sweep the order book 
+  6 
+ 5.5 
+  5- 
+ 4.5- 
+  4- 
+ 3.5- 
+  3- 
+ 2.5 
+  2- 
+ 1.5 
+
+ 0.5- 
+    2024                             2025 
+
+    Aug   Sep   Oct   Nov    Dec   Jan    Feb Mar     Apr   May   Jun    Jul 
+ for ES $75mm (bps, 3dma) 
+
+Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+Past performance is not indicative of future results 
+
+                                        Cumulative Delta Flow on Cumulative Delta Flow on 
+      Spot Level         Total Gamma 
+                                              Up Market          Down Market 
+         -6%                -2,041                                 -6,941 
+         -5%                -2,193                                 -4,748 
+         -4%                -2,018                                 -2,730 
+         -3%                -395                                   -2,335 
+         -2%                 924                                   -3,259 
+         -1%                 111                                   -3,369 
+         0%                 -3,369 
+         1%                 -4,924              3,369 
+         2%                -11,999              8,294 
+         3%                -13,813             20,293 
+         4%                 -7,274             34,106 
+         5%                 -3,667             41,380 
+         6%                 -2,226             45,047 
+
+Source: CBOE and Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets 
+close 
+
+Past performance is not indicative of future results 
+
+    | Date | Estimated Cost (bps) |
+    |---|---|
+    | Aug 2024 | 2.3 |
+    | Sep 2024 | 1.2 |
+    | Oct 2024 | 1.0 |
+    | Nov 2024 | 0.9 |
+    | Dec 2024 | 0.6 |
+    | Jan 2025 | 1.2 |
+    | Feb 2025 | 1.1 |
+    | Mar 2025 | 2.1 |
+    | Apr 2025 (Peak) | 5.6 |
+    | Apr 2025 (End) | 2.5 |
+    | May 2025 | 1.5 |
+    | Jun 2025 | 1.2 |
+    | Jul 2025 | 0.8 |
+
+    Summary: This line chart illustrates the estimated cost, in basis points (bps), to sweep a $75 million order book for ES futures, presented as a 3-day moving average, spanning from August 2024 to July 2025. The Y-axis ranges from 0.5 to 6 bps, with a horizontal dashed line indicating a baseline around 0.8 bps. Key trends show that the cost generally fluctuates between 0.8 and 2.5 bps, with an initial peak in August 2024 (around 2.5 bps) and a low point in December 2024 (around 0.6 bps). The most prominent feature is a sharp spike in April 2025, reaching over 5.5 bps, indicating a significant increase in the cost, followed by a rapid decline back towards baseline levels by July 2025.
+
+    Explanation: The "cost to sweep the order book" serves as a proxy for market liquidity and the impact of large trades. A higher cost implies a less liquid market, where a $75 million trade in ES futures would incur a greater slippage or require a larger concession to execute. The dramatic surge in April 2025 suggests a period of severe liquidity drought or increased market friction for S&P 500 futures, potentially linked to broader market volatility or shifts in institutional positioning, as hinted by other figures on futures exposures and flows in the surrounding context.
+
+page_end
+
+400 
+
+350 
+
+ 300 
+
+250 
+
+200 
+
+ 150 
+
+ 100 
+
+  50- 
+
+  0 
+      2019      2020     2021     2022      2023     2024     2025 
+ Institutions in US Index Futures ($bn) 
+
+Source: CFTC and Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 
+
+Past performance is not indicative of future results 
+
+ 700 
+ 65 
+ 60 
+ 550 
+ 500 
+ 450 
+ 400 
+ 350 
+ 300 
+ 250 
+ 200 
+ 150 
+   2018    2019     2020     2021    2022     2023     2024    2025 
+ Institutions in UST Futures ($mm/bp) 
+
+ Source: CFTC and Goldman Sachs FICC and Equities, Futures Strats Group as of 22-Jul-2025 
+
+ Past performance is not indicative of future results 
+
+    | Date        | Exposure ($bn) |
+    |-------------|----------------|
+    | Late 2018   | 70             |
+    | May 2019    | 150            |
+    | Dec 2019    | 40             |
+    | Mar 2020    | 200            |
+    | Apr 2020    | 40             |
+    | Aug 2020    | 150            |
+    | Jan 2021    | 220            |
+    | Jun 2021    | 170            |
+    | Oct 2021    | 220            |
+    | Jan 2022    | 180            |
+    | May 2022    | 30             |
+    | Oct 2022    | 100            |
+    | Feb 2023    | 20             |
+    | Jul 2023    | 150            |
+    | Nov 2023    | 80             |
+    | Mar 2024    | 280            |
+    | Aug 2024    | 370            |
+    | Dec 2024    | 220            |
+    | Jul 2025    | 300            |
+
+    Summary: The chart displays the total exposure of "Institutions in US Index Futures" in billions of dollars ($bn) from late 2018 to mid-2025. The Y-axis ranges from $0bn to $400bn, with a dashed line at $300bn indicating a significant level. The exposure shows considerable volatility, with sharp drops in early 2020 and mid-2022, followed by strong recoveries. It reached a peak of approximately $370bn in mid-2024 before experiencing a sharp decline into early 2025, and is currently recovering towards the $300bn mark as of July 2025.
+
+    Explanation: This chart provides insight into how large institutions are positioning themselves in US equity index futures. The significant swings, particularly the sharp declines corresponding to market dislocations (e.g., early 2020 likely reflecting COVID-19 impact, mid-2022 during a period of market uncertainty), highlight changes in institutional risk appetite or hedging activities. The recent surge to record highs in 2024 followed by a swift unwind and subsequent rebound suggests dynamic institutional re-evaluation of exposure to US equity markets, aligning with the broader context of futures positioning data seen across the report.
+
+    | Year | Approx. Value ($mm/bp) |
+    |---|---|
+    | 2018 Q1 | 190 |
+    | 2019 Q1 | 300 |
+    | 2020 Q1 | 490 |
+    | 2020 Q3 | 360 |
+    | 2021 Q2 | 200 |
+    | 2022 Q1 | 250 |
+    | 2022 Q3 | 350 |
+    | 2023 Q1 | 370 |
+    | 2023 Q3 | 450 |
+    | 2024 Q1 | 470 |
+    | 2024 Q3 | 580 |
+    | 2025 Q1 | 550 |
+    | 2025 Q2 | 650 |
+
+    Summary: The chart displays the positioning of institutions in US Treasury (UST) Futures, measured in $mm/bp, from early 2018 to mid-2025. It shows an initial ascent from around $190mm/bp in early 2018 to a peak near $490mm/bp in early 2020. This was followed by a sharp decline to a trough around $200mm/bp in mid-2021. Since then, institutional exposure has experienced a strong and sustained recovery, surpassing previous highs to reach a record level of approximately $650mm/bp by mid-2025, significantly above the historical reference level indicated by the dashed line.
+
+    Explanation: This chart provides insight into the collective sentiment and positioning of institutional investors in the US Treasury futures market. The significant increase in institutional exposure to record highs, especially in late 2024 and mid-2025, suggests heightened conviction or increased hedging activity regarding future interest rate movements or bond market direction. This elevated positioning could indicate expectations of substantial shifts in the fixed income landscape, potentially driven by anticipated monetary policy changes or economic outlook.
+
+page_end
+
+ -50 
+ -75 
+-100 
+-125 
+-150 
+-175 
+-200 
+ -225 
+ -250 
+ -275 
+ -300 
+ -325 
+             2020      2021     2022       2023      2024     2025 
+ Non-commercials or "specs" in UST Futures ($mm/bp) 
+
+Source: CFTC and Goldman Sachs FICC and Equities, Futures Strats Group as of 22-Jul-2025 
+
+Past performance is not indicative of future results 
+
+  40                                                                115 
+                                                                    112.5 
+  20- 
+                                                                     110 
+   0                                                                107.5 
+                                                                     105 
+  -20 
+                                                                    102.5 
+  -40- 
+                                                                     100 
+  -60-                                                              97.5 
+                                                                    95 
+  -80 
+                                                                    92.5 
+ -100                                                               90 
+                                                                    -87.5 
+ -120 
+     2020       2021        2022       2023       2024       2025 
+         Jul   Jan   Jul Jan    Jul Jan    Jul   Jan Jul    Jan   Jul 
+ -Non-Dealers in FX Futures ($bn, inverted) - USDX (rhs) 
+
+ Source: CFTC and Goldman Sachs FICC and Equities, Futures Strats Group as of 22-Jul-2025 
+
+ Past performance is not indicative of future results 
+
+    | Date | Non-Dealers FX Futures ($bn, inverted) | USDX |
+    |:-----|:---------------------------------------|:-----|
+    | 2020 Jan | 0 | 97.5 |
+    | 2020 Apr | -30 | 96 |
+    | 2020 Jul | -40 | 93 |
+    | 2020 Oct | -80 | 92 |
+    | 2021 Jan | -110 | 90 |
+    | 2021 Apr | -90 | 92 |
+    | 2021 Jul | -70 | 92 |
+    | 2021 Oct | -20 | 94 |
+    | 2022 Jan | -10 | 95 |
+    | 2022 Apr | 10 | 100 |
+    | 2022 Jul | 20 | 105 |
+    | 2022 Sep | 30 | 112.5 |
+    | 2022 Dec | -30 | 104 |
+    | 2023 Jan | -60 | 102.5 |
+    | 2023 Apr | -40 | 100 |
+    | 2023 Jul | -40 | 100 |
+    | 2023 Oct | -5 | 104 |
+    | 2024 Jan | 0 | 103 |
+    | 2024 Apr | 10 | 105 |
+    | 2024 Jun | 20 | 109 |
+    | 2024 Sep | -50 | 100 |
+    | 2024 Dec | -20 | 103 |
+    | 2025 Feb | -5 | 102 |
+    | 2025 Apr | -30 | 99 |
+    | 2025 Jun | -60 | 96 |
+    | 2025 Jul | -75 | 95 |
+
+    Summary: This dual-axis line chart tracks Non-Dealers' positioning in FX Futures (inverted, left axis in $bn) and the USDX (right axis) from early 2020 to July 2025. The chart demonstrates a notable positive correlation between the plotted Non-Dealers (inverted) exposure and the USDX. Peaks in Non-Dealer (inverted) exposure, such as July 2022 (+30bn) and June 2024 (+20bn), generally coincide with peaks in the USDX (around 112.5 and 109 respectively). Conversely, troughs in the inverted Non-Dealer exposure, like January 2021 (-110bn) and current July 2025 (-75bn), align with periods of lower USDX values.
+
+    Explanation: Given that the Non-Dealers' FX Futures data is "inverted," a higher plotted value signifies a more negative (short) actual exposure, while a lower plotted value implies a more positive (long) actual exposure. The observed positive correlation with USDX thus suggests that Non-Dealers tend to hold net long USD positions when the USDX is weak/falling and net short USD positions when the USDX is strong/rising. This behavior could indicate a contrarian trading strategy, a hedging mechanism against other USD-denominated assets, or a response to prevailing market conditions.
+
+    | Date | UST Futures Net Position ($mm/bp) |
+    |---|---|
+    | Jan 2020 | -125 |
+    | Mar 2020 | -220 |
+    | Jun 2020 | -160 |
+    | Jan 2021 | -100 |
+    | Jul 2021 | -70 |
+    | Nov 2021 | -160 |
+    | Jan 2022 | -140 |
+    | Apr 2022 | -120 |
+    | Aug 2022 | -170 |
+    | Nov 2022 | -220 |
+    | Jan 2023 | -230 |
+    | Apr 2023 | -260 |
+    | Jul 2023 | -280 |
+    | Oct 2023 | -250 |
+    | Jan 2024 | -180 |
+    | Mar 2024 | -200 |
+    | May 2024 | -190 |
+    | Jul 2024 | -250 |
+    | Sep 2024 | -275 |
+    | Jan 2025 | -200 |
+    | May 2025 | -270 |
+    | Jul 2025 | -310 |
+
+    Summary: This line chart displays the net positions of "Non-commercials" or "specs" in US Treasury (UST) Futures, measured in millions of dollars per basis point ($mm/bp), from early 2020 to mid-2025. The Y-axis, ranging from -50 to -325, indicates net short positions. The data shows significant volatility: after an early 2020 dip, positions became less short (peaking around -70 $mm/bp in mid-2021), followed by a sustained trend towards more negative (short) positions, reaching approximately -280 $mm/bp by mid-2023. A brief rebound in late 2023/early 2024 saw positions move back to around -180 $mm/bp, but a sharp increase in shorting in mid-2025 pushed the net position to a new low of about -310 $mm/bp, significantly below the historical average implied by the -295 $mm/bp dotted line.
+
+    Explanation: The increasing net short position of non-commercials or "specs" in UST futures, particularly the steep decline to new lows in mid-2025, reflects a strong bearish sentiment among speculative traders regarding the future price of US Treasuries. This implies an expectation of rising interest rates. This aggressive positioning by large speculative players is a key indicator for fixed-income markets, suggesting a high conviction in the direction of bond yields and potentially influencing market liquidity and stability.
+
+page_end
+
+ 300                                                                  3600 
+                                                                    -3400 
+ 250- 
+                                                                     -3200 
+200                                                                   3000 
+                                                                     -2800 
+ 150 
+                                                                      -2600 
+ 100                                                                  2400 
+                                                                      2200 
+  50- 
+                                                                      2000 
+   0 
+                                                                     -1800 
+ -50-                                                                -1600 
+     2022             2023              2024               2025 
+            Jul      Jan      Jul      Jan      Jul      Jan       Jul 
+ -Money Managers in Gold (000 cts) - Gold Price (rhs) 
+
+ Source: CFTC and Goldman Sachs FICC and Equities, Futures Strats Group as of 22-Jul-2025 
+
+ Past performance is not indicative of future results 
+
+                    CTA/Trend Following Recent Simulated Flow 
+                         and Next 1-Month Expectations 
+   5b 
+
+    0- 
+
+  -5b 
+
+ -10b 
+
+ -15b- 
+
+ -20b- 
+
+ -25b 
+
+ -30b- 
+      2024                       2025 
+
+     Aug        Oct Nov   Dec Jan   Feb Mar Apr May      Jun Jul   Aug 
+ -up 1x -up 2x -Today 
+ -For Gold in mkt flat/baseline scenario ($bn) -if Mkt down 1sx dev -down >2x 
+
+ Source: Goldman Sachs FICC and Equities, Futures Strats Group as of 24-Jul-2025 markets close 
+
+ Past performance is not indicative of future results 
+
+    | Date | Money Managers ('000 cts) | Gold Price ($) |
+    |------|----------------------------|----------------|
+    | 2022-Jan | 100 | 1800 |
+    | 2022-Mar | 175 | 2050 |
+    | 2022-May | 75 | 1850 |
+    | 2022-Jul | -5 | 1700 |
+    | 2022-Sep | -45 | 1670 |
+    | 2022-Nov | 0 | 1750 |
+    | 2023-Jan | 80 | 1920 |
+    | 2023-Mar | 140 | 2000 |
+    | 2023-May | 50 | 1950 |
+    | 2023-Jul | 80 | 1980 |
+    | 2023-Sep | 0 | 1850 |
+    | 2023-Nov | 100 | 2000 |
+    | 2024-Jan | 230 | 2150 |
+    | 2024-Feb | 250 | 2250 |
+    | 2024-Apr | 190 | 2350 |
+    | 2024-Jun | 180 | 2380 |
+    | 2024-Jul | 200 | 2450 |
+    | 2024-Sep | 180 | 2300 |
+    | 2024-Nov | 150 | 2400 |
+    | 2024-Dec | 110 | 2900 |
+    | 2025-Jan | 120 | 3050 |
+    | 2025-Mar | 120 | 3300 |
+    | 2025-Apr | 140 | 3450 |
+    | 2025-May | 120 | 3350 |
+    | 2025-Jul | 170 | 3300 |
+
+    Summary: This chart presents a dual-axis time series showing "Money Managers in Gold ('000 cts)" (left axis) and "Gold Price" (right axis) from early 2022 to mid-2025. Money Manager positions in gold futures exhibit high volatility, fluctuating between significant net long and net short positions, with a notable trough in late 2022. The Gold Price generally trends upwards, especially from late 2023, achieving a peak around $3450 in April 2025. A key inflection point is the divergence observed from late 2024 to early 2025, where gold price surged to new highs while Money Manager net positions initially declined from their 2024 peak before a recent rebound.
+
+    Explanation: This chart illustrates the dynamic interplay between speculative positioning by "Money Managers" in gold futures and the actual price movement of gold. The divergence in early 2025, where gold price soared while Money Manager positioning decreased before recovering, suggests that other market participants or factors might have driven a significant portion of the recent gold rally. As noted in the context, this CFTC data represents only US futures markets and a segment of broader systematic investor activity, implying a more complex global market dynamic at play.
+
+    | Date/Period | Market Flat/Baseline Scenario ($bn) | If Mkt Up 1x ($bn) | If Mkt Up 2x ($bn) | If Mkt Down 1x ($bn) | If Mkt Down >2x ($bn) |
+    |-------------|------------------------------------|--------------------|--------------------|----------------------|-----------------------|
+    | Aug 2024    | 0                                  | -                  | -                  | -                    | -                     |
+    | Oct 2024    | -2.5                               | -                  | -                  | -                    | -                     |
+    | Nov 2024    | 4                                  | -                  | -                  | -                    | -                     |
+    | Dec 2024    | -7                                 | -                  | -                  | -                    | -                     |
+    | Jan 2025    | -8                                 | -                  | -                  | -                    | -                     |
+    | Feb 2025    | -2                                 | -                  | -                  | -                    | -                     |
+    | Mar 2025    | -0.5                               | -                  | -                  | -                    | -                     |
+    | Apr 2025    | 0                                  | -                  | -                  | -                    | -                     |
+    | May 2025    | -10                                | -                  | -                  | -                    | -                     |
+    | Jun 2025    | -14                                | -                  | -                  | -                    | -                     |
+    | Jul 2025    | -15                                | -                  | -                  | -                    | -                     |
+    | Jul 24, 2025 (Today) | -12.5                              | -                  | -                  | -                    | -                     |
+    | Aug 2025 (Forecast) | -12                                | -10                | -8                 | -17                  | -28                   |
+
+    Summary: This chart, titled "CTA/Trend Following Recent Simulated Flow and Next 1-Month Expectations," illustrates the simulated flow of CTA/Trend Following strategies, specifically for Gold, from August 2024 to late July 2025, with projections for the subsequent month. The Y-axis represents simulated flow in billions of dollars. The primary historical trend shows an initial rise to a peak of around $4 billion in November 2024, followed by a sharp drop to -$7 billion by December 2024. After a partial recovery to near zero in April 2025, there's a sustained decline, reaching approximately -$12.5 billion by late July 2025 (Today). For the next month, flow expectations diverge significantly: positive market movements (up 1x/2x dev) project an increase to -$10bn to -$8bn, while negative market movements (down 1x/>2x dev) forecast a steep decline to -$17bn to -$28bn, highlighting extreme sensitivity to downside scenarios.
+
+    Explanation: The chart visualizes how simulated CTA/Trend Following strategies, particularly in Gold, adjust their exposure based on market trends, demonstrating their reactive nature. As noted in the broader context, these are simulated results and not actual performance, designed to illustrate the potential flows. The significant projected outflows in down markets suggest that such systematic strategies could exacerbate market declines by liquidating positions, while upward trends would see them add exposure, influencing market momentum.
+
+page_end
+
+The systematic or non-CFTC based charts shown are generally all simulated information, and the history 
+shown uses backtesting. The simulated results are for illustrative purposes only. GS provides no assurance 
+or guarantee that the strategy will operate or would have operated in the past in a manner consistent with 
+the above analysis. Past performance figures are not a reliable indicator of future results. 
+
+Backtesting analysis is for illustrative purposes only. GS provides no assurance or guarantee that the 
+strategy will operate or would have operated in the past in a manner consistent with the above backtesting 
+analysis. Backtested and/or past performance figures are not a reliable indicator of future results. 
+Backtested data is backtested over the entire range shown. 
+
+Note: futures markets are considerably broader than just systematic and systematic investors use more 
+than futures, CFTC categories are clunky, and our referenced systematic estimates are commonly for 
+global markets while CFTC data is for US (futures and/or futures-options) markets only. 
+page_end

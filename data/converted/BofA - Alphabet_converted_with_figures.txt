@@ -1,0 +1,1069 @@
+
+Accessible version 
+BofA GLOBAL RESEARCH                                                                                BofA SECURITIES 
+
+Alphabet 
+
+Another strong Q suggests Al use is 
+
+growing the market; Reiterate Buy 
+Reiterate Rating: BUY | PO: 217.00 USD | Price: 190.23 USD 
+
+                                                                                                       24 July 2025 
+Strong 2Q results; Cloud and Search beat a bright spot 
+2Q net rev. at $81.7bn beat Street at $79.9bn, driven by upside across all key segments.               Equity 
+Search grew 12% y/y (vs Street 9% and our 11% est.). Cloud grew 32% y/y and was 
+significantly above Street at 27%. 2Q EPS at $2.31 was above Street at $2.18. Despite a 
+                                                                                                         Key Changes 
+1x legal expense of $1.4bn, which was offset by other income. Core operating margins 
+                                                                                                         (US$)             Previous    Current 
+were up 161bps y/y ex-1x G&A, and Cloud margins were +942bps to 20.7%, a strong Q. 
+                                                                                                         Price Obj.          210.00    217.00 
+Data points suggest expanding search market with Al                                                      2025E Rev (m)     334,807.5 336,858.7 
+Given competitive concerns, a key positive from print was data points suggesting stable                  2026E Rev (m)    378,829.4 381,736.3 
+search + incremental Al user growth for Google. These include: 1) Q/Q acceleration in                    2027E Rev (m)     426,645.9 428,535.8 
+paid click growth to 4% y/y (approaching the 5% growth last year), 2) Relatively steady                  2025E EPS            9.82      10.06 
+search rev. growth at 11%E (ex-FX) vs 12%E in 1Q (on tough FS comps), & 3) Ramp in                       2026E EPS            10.42     10.60 
+Gemini MAUs by 50mn (to 450mn) in 2 months, & these users are incremental to search.                     2027E EPS            11.65     11.58 
+                                                                                                         2025E DPS            0.60       0.61 
+Strong momentum in Cloud demand drives higher Capex 
+Google had strong 2Q Cloud deal momentum (backlog +38% y/y, $250mn deals up 2x y/y 
+in 2Q) & raised FY25 capex guide to $85bn to support data center buildout. With Cloud 
+                                                                                                       Justin Post 
+backlog up a strong 18% q/q (+$16bn) & margins up to 20%, added capex spend seems                      Research Analyst 
+defensible (even a positive?), with the OpenAI deal/commitment a likely partial driver.                BofAS 
+                                                                                                       +1 415 676 3547 
+                                                                                                       justin.post@bofa.com 
+Raising '25E net revenue by 1% & EPS by 2%; PO to $217 
+                                                                                                       Nitin Bansal, CFA 
+We are raising estimates to reflect higher growth across all key segments & Opex for 
+                                                                                                       Research Analyst 
+higher D&A. For 3Q, we raise net rev by 1% to $85.2bn & EPS by 3% to $2.37. For 2026,                  BofAS 
+                                                                                                       +1 415 676 3551 
+we raise net rev by 1% to $382bn & EPS by 2% to $10.60. We increase our PO to $217                     nbansal7@bofa.com 
+(from $210) based on higher EPS & unchanged 19x multiple. 
+
+Al tailwinds continue to overweigh disruption risk; Buy 
+Another stable qtr for Search results increases our confidence in the Al transition and                Stock Data 
+should ease concerns on a potential revenue reset. We acknowledge growing users of 
+                                                                                                       Price (NAS / NAS)    190.23 USD / 191.51 USD 
+OpenAl but think Street could be underappreciating potential Al driven upside for Search 
+                                                                                                       Price Objective      217.00 USD / 217.00 USD 
+(more use, better ads) & Cloud. At AH price of ~$195, stock valued at 19x our '26 EPS, 
+                                                                                                       Date Established      24-Jul-2025 / 24-Jul-2025 
+with the core business at just 12x in our SOTP (vs S&P at 21.5x). Upcoming Do) case 
+                                                                                                       Investment Opinion            B-1-7 / B-1-7 
+remedy ruling (expected in Aug) remains an overhang but could also be a clearing event. 
+                                                                                                       52-Week Range        140.53 USD - 207.05 USD 
+ Estimates (Dec) (US$)                     2023A     2024A      2025E     2026E     2027E              Market Value (mn)           2,361,705 USD 
+ EPS                                         5.80      8.04      10.06     10.60    11.58              Free Float                        99.7% 
+  EPS Change (YoY)                         27.2%      38.6%     25.1%      5.4%      9.2%              Average Daily Value           7722.59 USD 
+  Consensus EPS (Bloomberg)                                      10.34     11.42    13.23 
+                                                                                                       Shares Outstanding (mn)   12,415.0 / 12,415.0 
+  Consensus EPS (Visible Alpha)                                  10.05     10.79    12.92 
+                                                                                                                                     GOOGL / NAS 
+  DPS                                          0       0.60      0.61       0.60     0.60              BofA Ticker / Exchange 
+  EPS (GOOG - US$)                           5.80      8.04      10.06     10.60    11.58              BofA Ticker / Exchange        GOOG / NAS 
+  DPS (GOOG - US$)                             0       0.60       0.61      0.60     0.60              Bloomberg / Reuters    GOOGL US / GOOGL.OQ 
+  Valuation (Dec)                                                                                      ROE (2025E)                       35.0% 
+ P/E                                        32.8x     23.7x      18.9x     17.9x     16.4x             Net Dbt to Eqty 
+                                                                                                                  (Dec-                   1.7% 
+  Dividend Yield                              0%       0.3%      0.3%      0.3%      0.3% 
+                                                                                                       2024A) 
+  EV / EBITDA*                              19.2x      15.7x     13.4x     11.5x     10.1x 
+  Free Cash Flow Yield*                     2.9%      3.1%       2.6%      3.4%      4.2% 
+* For full definitions of iQmethodSM measures, see page 12.                                            FS: Financial Services 
+                                                                                                       MAU: Monthly Average User 
+                                                                                                       GCP: Google Cloud Platform 
+BofA Securities does and seeks to do business with issuers covered in its research 
+                                                                                                       YT: YouTube 
+reports. As a result, investors should be aware that the firm may have a conflict of 
+interest that could affect the objectivity of this report. Investors should consider this              AIO: Al Overviews 
+report as only a single factor in making their investment decision.                                    SOTP: Sum of the parts 
+Refer to important disclosures on page 13 to 16. Analyst Certification on page 11. Price 
+Objective Basis/Risk on page 11. 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+iQprofile "Alphabet 
+
+iQmethod SM - Bus Performance* 
+                                                                                                                         Company Sector 
+(US$ Millions)                                   2023A         2024A        2025E         2026E        2027E             Internet/e-Commerce 
+   Return on Capital Employed                     31.0%        37.2%        35.9%         28.4%        25.1% 
+   Return on Equity                               27.4%        35.3%        35.0%         26.9%        23.2% 
+  Operating Margin                                42.8%        45.8%        46.2%         46.0%        44.5% 
+                                                                                                                      Company Description 
+  Free Cash Flow                                 69,495        72,764       61,956       81,279        98,328 
+                                                                                                                      Alphabet is a global technology company focused around 
+                                                                                                                      key areas, such as search, advertising, operating systems 
+iQmethod SM - Quality of Earnings*                                                                                    and platforms, enterprise and hardware products. The 
+
+(US$ Millions)                                    2023A        2024A        2025E         2026E        2027E          company generates revenue primarily by delivering online 
+   Cash Realization Ratio                           1.4x         1.3x          1.2x         1.4x         1.5x         advertising and by selling apps and contents on Google Play 
+   Asset Replacement Ratio                          2.4x         3.4x          4.0x         3.1x         2.5x         as well as hardware products. The company provides its 
+   Tax Rate                                       13.9%        16.4%         17.1%        16.6%        16.6% 
+                                                                                                                      products and services in more than 100 languages and in 
+   Net Debt-to-Equity Ratio                        1.2%         1.7%         -0.4%        -9.8%       -17.7% 
+  Interest Cover                                     NA           NA            NA           NA           NA          190 countries, regions, and territories. 
+
+Income Statement Data (Dec)                                                                                           Investment Rationale 
+
+(US$ Millions)                                    2023A        2024A        2025E         2026E        2027E          We see Alphabet as well positioned long term with leading 
+  Sales                                         256,508       295,118      336,859      381,736       428,536         Al technology to apply to search, YouTube and Cloud 
+    % Change                                       9.7%        15.1%         14.1%        13.3%        12.3%          businesses. Alphabet should also benefit from increasing 
+  Gross Profit                                  174,062      203,712       234,817      262,898      289,781 
+                                                                                                                      mobile usage, video usage, Google Play activity, and 
+    % Change                                      11.1%        17.0%         15.3%        12.0%        10.2% 
+                                                                                                                      connected device activity (including autos). We believe that 
+   EBITDA                                        123,410      150,486      176,761      206,552      234,440 
+                                                                                                                      Alphabet should trade at a premium to a media peer group 
+    % Change                                      12.3%        21.9%         17.5%        16.9%        13.5% 
+   Net Interest & Other Income                  (23,994)      (15,360)      (8,025)     (22,837)     (25,332)         given technology leadership, high margins, and strong cash 
+    Net Income (Adjusted)                        73,783      100,076      122,418       127,355      138,097          flow generation for buybacks. 
+    % Change                                     23.0%        35.6%         22.3%         4.0%         8.4% 
+
+Free Cash Flow Data (Dec) 
+
+(US$ Millions)                                   2023A         2024A        2025E         2026E        2027E 
+   Net Income from Cont Operations (GAAP)        73,795       100,118      122,393      127,304       138,057 
+   Depreciation & Amortization                    13,699       15,311       21,131       31,072        43,572 
+   Change in Working Capital                     (3,845)       (9,343)      (7,615)      (5,745)      (5,083)         Stock Data 
+   Deferred Taxation Charge                          NA           NA            NA           NA           NA 
+  Other Adjustments, Net                          18,097       19,213       11,589       26,452       29,442          Average Daily Volume                        40,596,044 
+   Capital Expenditure                          (32,251)     (52,535)      (85,542)     (97,805)    (107,661)         Shares / Common - Dual Listed                    1.00 
+    Free Cash Flow                               69,495       72,764       61,956        81,279       98,328 
+    % Change                                      15.8%         4.7%       -14.9%        31.2%        21.0% 
+  Share / Issue Repurchase                          953        (8,879)      27,637       39,496       37,896 
+                                                                                                                      Quarterly Earnings Estimates 
+  Cost of Dividends Paid                               0       (7,363)      (7,380)      (7,212)      (7,146) 
+   Change in Debt                               (11,550)       (2,423)           0       (1,200)      (2,400) 
+                                                                                                                                                    2024              2025 
+                                                                                                                      Q1                             1.89A            2.81E 
+Balance Sheet Data (Dec) 
+                                                                                                                      Q2                            1.89A             2.31E 
+(US$ Millions)                                    2023A        2024A        2025E         2026E        2027E          Q3                            2.12A             2.37E 
+   Cash & Equivalents                            24,048        24,048       43,456       93,471       157,407 
+                                                                                                                      Q4                            2.15A             2.56E 
+   Trade Receivables                             47,964        47,964       60,215       67,682       75,694 
+   Other Current Assets                          99,518        99,518       88,336       90,430       92,789 
+   Property, Plant & Equipment                  134,345       134,345      237,484      304,244      368,393 
+   Other Non-Current Assets                      96,517        96,517      133,006      133,806      134,606            Key Changes 
+    Total Assets                                402,392      402,392      562,499      689,634      828,888 
+                                                                                                                        (US$)                     Previous         Current 
+  Short-Term Debt                                      0            0            0            0             0 
+                                                                                                                        Price Obj.                 210.00          217.00 
+   Other Current Liabilities                     81,814        81,814       93,939      106,386      120,305 
+                                                                                                                        2025E EPS                    9.82           10.06 
+   Long-Term Debt                                 27,329       28,725       41,700       41,500        41,300 
+   Other Non-Current Liabilities                   9,870        8,474       10,027       10,027        10,027           2026E EPS                   10.42           10.60 
+    Total Liabilities                           119,013      119,013      145,666      157,913       171,632            2027E EPS                   11.65           11.58 
+    Total Equity                               283,379       283,379      416,833      531,722       657,257            2025E DPS                    0.60            0.61 
+    Total Equity & Liabilities                 402,392       402,392      562,499      689,634      828,888 
+* For full definitions of iQmethodSM measures, see page 12. 
+
+2         Alphabet | 24 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+2Q Summary and thoughts on the stock 
+Google reported a strong 2Q vs street estimates, with relatively stable search growth (a 
+1 pt ex-FX decel. likely due to tough y/y financial services comps) and YouTube and Cloud 
+growth acceleration. Margins continued to show strong growth for both core (ex-1x 
+charge) and Cloud, and GAAP EPS was up 22% y/y. Given competitive concerns (on 
+ongoing user ramp at Open Al), a key positive from print, in our view, was data points 
+suggesting stable search + incremental Al user growth for Google. These include: 1) Q/Q 
+acceleration in paid click growth to 4% y/y (approaching the 5% growth last year), 2) 
+Relatively steady search growth at 11%E (ex-FX) vs 12%E in 1Q (deceleration likely due 
+to tough FS comps), & 3) Ramp in Gemini MAUs by 50mn (to 450mn) in 2 months, & 
+these users are incremental to search. We think data points that suggest the search/Al 
+market is rapidly expanding, and that Google usage can be an Al beneficiary despite 
+competitive traction, could help the stock re-rate higher with valuation at 19x '26 GAAP 
+(12x core business in sum of parts). 
+
+Four key drivers for the stock (revenue trends, y/y core margin trends, use of capital and 
+new disclosures) were mixed in 2Q. 
+
+        Mixed Revenue Trajectory: Total ex-FX gross revenue growth decelerated 
+         1 pts q/q to 13% from 14% in 1Q. Search revenues grew 12% y/y (vs Street 
+        9%), accelerating 2pts on stable y/y comp, but we estimate ex-FX growth 
+        decelerated 1pts q/q on 1pts tougher y/y comp. YouTube grew 13% y/y (vs 
+         Street 11%) accelerated 3pts q/q on 8pts easier comp, and Cloud revenues 
+        grew 32% (vs Street 27%) accelerating 4pts q/q on a 1pt tougher comp. 
+
+         Strong Margin Trajectory: Core Google operating margins declined 17bps y/y 
+        to 38.3%, with core services margin down 8bps. However, excluding a 1x 
+         $1.4bn legal charge, margins were up 161bps y/y to 41.8%. Cloud margin 
+        improved 942bps y/y to 20.7%. Total headcount at 187.1K was slightly below 
+        Street at 187.3K and was up 4% y/y (up 1% q/q). 
+
+         Capital Allocation reflected q/q decline in buybacks: Alphabet bought back 
+        $13.6bn of stock in 2Q (vs $15.1bn in 1Q), total $59.5bn in TTM. The cash 
+        dividend remained changed at $0.21 per share. 
+
+        Disclosures: Some new commentary on different segments included: 
+
+         Search & YouTube 
+             O   Total search queries and commercial queries continue to grow y/y, 
+                 with new Al experiences significantly contributing to this usage 
+              O Al Overviews are now driving over 10% more queries globally for the 
+                 types of queries that show them, and this growth continues to 
+                 accelerate over time 
+
+                 Multimodal search is seeing strong growth, particularly through the 
+                 combined use of Lens, Circle to Search, and Al Overviews 
+
+              O The Gemini app now has over 450mn MAUs (vs 400mn in May'25), 
+                 with daily requests growing over 50% since 1Q 
+
+              O Advertisers using Al Max in Search campaigns typically see 14% more 
+                 conversions, and those using Smart Bidding Exploration see a 19% 
+                 increase in conversions on average 
+
+             O   In the US, YouTube Shorts now deliver the same ad revenue per hour 
+                 as traditional in-stream ads 
+
+        Cloud 
+
+             o The number of deals over $250mn doubled y/y in 2Q 
+
+                                                                                                        Alphabet | 24 July 2025 3 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+         O In 1H25, Google signed as many deals over $1bn as it did throughout 
+           all of 2024 
+
+         O The number of new GCP customers grew nearly 28% q/q 
+
+         o Over 85,000 enterprises are building with Gemini, driving 35x y/y 
+           growth in Gemini usage 
+         O Cloud backlog was up 18% q/q or 38% y/y to $106bn 
+
+      Other 
+
+         o 2Q capex of $22.4bn was nearly two-thirds allocated to servers and 
+           one-third to data centers and networking equipment 
+
+           Google raised FY25 capex guide to $85bn (vs $75bn prior), with 
+           expectations for further increase in 2026 
+
+           Due to higher capex investments in technical infrastructure, 
+           depreciation expense growth is expected to further accelerate in 
+           3Q'25 
+
+2Q Positives: 
+      2Q Rev/EPS beat: 2Q net revenue of $81.7bn and GAAP EPS at $2.31 was 
+      above Street estimates at $79.9bn and $2.18 respectively. Revenue upside was 
+      driven by strength across all key segments and EPS benefited from higher 
+      topline growth. 
+
+      Search revenue beat: 2Q'25 Search revenue at $54.2bn (up 12% y/y) was 
+      above Street at $53.0bn (up 9% y/y). 2Q Search growth was driven by strength 
+      in the retail and financial services vertical. 
+
+      SPD revenues above Street: Subscriptions, platforms, and devices revenue at 
+      $11.2bn (up 20% y/y) was above Street estimates at $10.7bn (up 15% y/y). 
+      Management noted growth was led by YouTube subscription followed by 
+      Google One, with strong traction for Gemini capabilities. 
+
+      Cloud revenue beat and acceleration: 2Q cloud revenue at $13.6bn (up 32% 
+      y/y) was above Street at $13.1bn (up 27% y/y). Google Cloud operating income 
+      increased to $2.8bn and operating margin increased to 20.7% (from 11.3% in 
+      2Q'24). 
+   . Strong cloud deal activity: Management noted strong momentum in Cloud 
+      ($250mn deals up 2x y/y in 2Q, backlog up 38% y/y, and new customers +28% 
+      q/q) & raised FY25 capex guide to $85bn (vs $75bn prior) to support 
+      accelerated data center buildout. 
+
+        Search feature driving higher engagement: Management highlighted Al 
+      Overviews are now driving over 10% more queries globally for the types of 
+      queries that show them, and this growth continues to increase over time. They 
+      also noted strong momentum in multimodal search, fueled by the combined use 
+      of Lens, Circle to Search, and Al Overviews. 
+
+      Growing Gemini app traction: Alphabet highlighted Gemini app now has over 
+      450mn monthly active users (vs 400mn in May), with daily requests growing 
+      over 50% since 1Q. 
+
+      Al integrations improving Search performance: Management highlighted 
+      advertisers using Al Max in Search campaigns typically see 14% more 
+      conversions, and those using Smart Bidding Exploration see a 19% increase in 
+      conversions on average. 
+
+4   Alphabet | 24 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+         Click growth accelerated: In 2Q, paid click growth accelerated 2pts q/q to 4% 
+        y/y (vs 2% in 1Q'25). 
+
+         Ramping Shorts monetization: Management noted YouTube Shorts in US 
+        now deliver the same ad revenue per hour as traditional in-stream ad 
+
+2Q Negatives: 
+    .   Deceleration in ex-FX Search growth: We estimate ex-FX Search growth 
+        decelerated 1pts q/q to 11% y/y (vs 12% in 1Q) on 1pts tougher y/y comp. We 
+        think the deceleration was likely due to tougher q/q financial services comp. 
+
+         Growing capex will lower FCF and increase future depreciation expense: 
+        We are raising our 2025 Capex estimate to $86bn from $76bn and lowering our 
+        2025 FCF estimate to $62bn from $71bn. D&A y/y growth accelerated to 35% 
+        in 2Q (vs 31% in 1Q) and expected to further accelerate in 3Q. 
+
+         Some negative possible catalysts ahead: While not discussed on the call, we 
+        see potential for some negative catalysts, possibly including: OpenAl launching 
+        ads and browser, new product rollouts from Meta & other emerging 
+        competitors, and DoJ Search case remedy ruling (expected in Aug). 
+
+Read-across for Online Media & Amazon AWS 
+Meta - Solid YouTube & Search 2Q results a positive read across 
+We view Google's ad revenue beat as a positive read-through for Meta and believe 
+YouTube's performance offers a more relevant comparison for Meta's ad trends than 
+Google Search. YouTube revenues grew 13% y/y in 2Q (vs Street 11%) and had a modest 
+3pt q/q acceleration in 2Q (on an 8pt easier comp). Ex-FX the growth we estimate that 
+growth was stable in 2Q at around 12%. Management highlighted that YouTube growth 
+in 2Q was driven by DR followed by brand advertising. 
+
+For 2Q'25, we estimate stable q/q advertising revenue growth for Meta at $44.5bn (up 
+ 16% y/y) vs Street $43.7bn. However, ex-FX this represents a 5pt q/q deceleration, 
+while YouTube's ex-FX growth was stable. We think Meta could report total revenue at 
+or above the upper end of its 2Q revenue guidance range (which was $45.5bn). We 
+would expect the upper end of 3Q revenue guidance to be $1bn higher than 2Q reported 
+revenues. 
+
+Network rev. & YouTube beat, modest positive read across for SMID platforms 
+We think Google network ($7.4bn vs Street $7.2bn) and YouTube beat ($9.8bn vs Street 
+$9.5bn) are a slightly positive read across for SMID platforms (Pinterest, Snap), as 
+results suggest a stable ad environment (vs significant uncertainty in April). In 2Q, 
+Google network revenue growth accelerated 1pts to down 1% y/y on a 4pt easier comp, 
+while YouTube growth was relative stable ex-FX at 12%E. 
+
+Pinterest: For 2Q'25, we expect Pinterest revenue growth to decelerate 1pt q/q to 15% 
+y/y on a 2pt more difficult comp, with revenues of $980mn (vs Street $974mn, up 14% 
+y/y). As Google's results suggest a stable ad market with 1Q, we continue to anticipate 
+modest upside potential to Street 2Q estimates. 
+
+Potential factors that could drive upside in 2Q include: Recovery in CPG category, 
+lapping F&B headwind comps, ramping traction of new DR solutions (Performance+, 
+Dynamic creative optimization, ROAS ads bidding) and growing 3P partnerships. Risk is 
+sluggish recovery in CPG vertical, potential pressure on brand ad spend due to macro 
+uncertainty, slower than expected ramp of new DR solutions & 3P partnerships. 
+
+Snap: For 2Q'25, we expect Snap ad revenue growth to decelerate 6pts q/q to 3% y/y 
+on 6pts easier comp, with ad revenues of $1,162mn (vs Street $1,186mn, up 5% y/y). 
+
+                                                                                                        Alphabet | 24 July 2025 5 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+With add market stability suggested in Google's results, we see potential upside to our 
+and Street 2Q estimates. 
+
+Potential positive factors for Snap in 2Q include: growing traction for new DR solutions 
+(CAPI, Optimization, etc.), stronger than expected traction of Snapchat+, and ramping 
+Sponsored Snaps monetization. Risks include potential pressure on brand ad spend due 
+to macro uncertainty and slower than expected ramp of new DR solutions due to ROI 
+variability. 
+
+AWS - Google Cloud solid beat, a positive read across for capex spend 
+In 2Q, Google Cloud revenue grew 32% y/y (vs Street 27%), with growth accelerating 
+4pts q/q on 1pts tougher y/y comp. We see this as a positive read across for AWS, where 
+Street could be looking for 17% growth (same as 1Q on a 3pt more difficult y/y comp). 
+Management noted in 2Q Google Cloud faced a tight demand-supply environment, and 
+there should be a strong correlation between capacity deployment and cloud growth. 
+For AWS, given accelerating capex spend over the past 5 quarters, we see potential for 
+revenue acceleration in 2H'25. Risk is AWS' proprietary infrastructure is less attractive 
+to Al customers and Amazon is losing Al share. 
+
+6   Alphabet | 24 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Actual vs Expected Results 
+2Q gross revenue at $96.4bn (up 14% y/y, 13% ex-FX) was above Street at $94bn, 
+driven by upside across all key segments. Search revenues grew 12% y/y (vs Street 9%) 
+with growth accelerating 2pts q/q (we estimate growth ex-FX decelerated 1pts q/q on a 
+1 pts tougher comp). Cloud grew 32% y/y & was significantly above Street at 27%. 2Q 
+EPS at $2.31 was above Street at $2.18 & benefited from higher topline growth and 
+other income upside. Operating margins declined 17bps y/y to 38.3% & were impacted 
+by 1x legal expense of $1.4bn. Ex-legal expenses, core Google margins would have been 
+up 161pbs y/y to 41.8% 
+
+  Exhibit 1: Alphabet actual vs estimates ($ in millions) 
+  2Q'25 Net Revenue/EPS was above Street 
+I 
+                                 2Q'25 Actual vs Street vs BofA 
+   Alphabet Actual vs Street Results BofA Street      Actual     Act vs Street Act vs BofA 
+  Google segment Revs 
+     Google Search & other    $53,824     $52,929     $54,190      $1,261         $366 
+      y/y %                     11%         9%         12% 
+    YouTube ads               $9,616      $9,582      $9,796        $214          $180 
+      y/y %                     11%        11%         13% 
+     Network Revenue          $7,296      $7,248      $7,354        $106           $58 
+       y/y %                   (2%)        (3%)        (1%) 
+     Google Cloud Revenue     $13,244     $13,137     $13,624       $487          $380 
+      y/y %                    28%         27%         32% 
+     Subscription, platforms and 
+   devices                    $10,942     $10,718     $11,203       $485          $261 
+      y/y %                    18%         15%         20% 
+     Other Bets Segment Revs   $416        $412        $373         ($39)         ($43) 
+      y/y %                    14%         13%          2% 
+  Consolidated Gross Revenue $95,338      $94,009     $96,428      $2,419         $1,090 
+   TAC                        $14,319     $14,210     $14,705       $495          $386 
+   Google Net Revenue         $81,020     $79,862     $81,723      $1,861         $703 
+      y/y %                    14%         12%         15%          2.6%          1.0% 
+
+  Other cost of revenue       $24,613     $24,632     $24,334       ($298)        ($279) 
+  Research and Development    $14,056     $13,524     $13,808       $284          ($248) 
+  Sales and Marketing         $6,522      $6,924      $7,101        $177          $579 
+  General & Administrative    $3,639      $3,619      $5,209       $1,590         $1,570 
+  Total Opex                  $24,217     $24,075     $26,118      $2,043         $1,901 
+      y/y %                    11%         10%         20%           9%            9% 
+
+  GAAP Operating Income       $32,190     $31,112     $31,271       $159          ($919) 
+    Margin                    39.7%        39.0%      38.3%         -0.7%         -1.5% 
+
+  D&A                         $4,967       $5,043     $4,998        ($45)          $31 
+  SBC                         $6,116      $6,227      $5,998        ($229)        ($118) 
+  Adj EBITDA                  $43,273     $42,381     $42,267       ($114)       ($1,006) 
+    Margin                    53.4%        53.1%       51.7%        -1.3%         -1.7% 
+
+   Other Income                $300        $956       $2,662       $1,706         $2,362 
+   Income befoe taxes         $32,490     $32,024     $33,933      $1,909         $1,443 
+  Taxes                       $5,523      $5,370      $5,737        $367          $214 
+     Tax Rate %                17%         17%         17%           0%            0% 
+
+   Non-GAAP EPS                $2.62       $2.57       $2.72        $0.15         $0.10 
+   GAAP EPS                    $2.21       $2.18      $2.31         $0.14         $0.10 
+
+  Headcount                   187,319     187,305     187,103       (202)         (216) 
+
+   US Gross Revenue           $45,286     $45,424     $46,063       $639          $777 
+  EMEA Gross Revenue          $28,680     $27,384     $28,262       $878          ($418 
+  APAC Gross Revenue          $15,516     $15,391     $16,480      $1,089         $964 
+  Other Americas Gross Revenue $5,856     $5,593      $5,735        $142          ($121) 
+  Source: BofA Global Research estimates, Company Filings, Visible Alpha 
+                                                                           BofA GLOBAL RESEARCH 
+
+                                                                                                                    Alphabet | 24 July 2025 7 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Estimate changes 
+We are raising our estimates to reflect higher growth in all key segments and raising 
+Opex for higher D&A and Al related expenses. For 3Q, we raise net revenue by 1% to 
+$85.2bn and EPS by 3% to $2.37. For 2025, we raise net revenue by 1% to $93.4bn and 
+EPS by 2% to $10.06. For 2026, we raise net revenue by 1% to $382bn and EPS by 2% 
+to $10.60. We estimate ~$21bn D&A expense in 2025 (up 37% y/y) and $62bn FCF 
+
+(down 15% y/y). 
+
+  Exhibit 2: Alphabet Estimate Changes 
+   We are raising our 2026 GAAP EPS estimate, key for valuation, by 2% to $10.60. 
+
+                                           3Q'25 Estimates            4Q'25 Estimates             2025 Estimates             2026 Estimates 
+                                        Old      New    Change     Old      New     Change    Old       New    Change    Old      New     Change 
+   Google Search                       $54,644   $55,043   $400    $59,830 $60,227    $398   $219,000 $220,163 $1,163   $240,795 $242,324   $1,530 
+   YouTube                              $9,902    $9,992    $89    $11,625 $11,625      $0    $40,070   $40,340   $269   $45,006   $45,172   $165 
+  Google Network Websites               $7,403    $7,426    $23    $7,822    $7,822     $0    $29,776   $29,858    $81   $29,953   $29,954     $1 
+   Google Cloud                        $14,477   $14,851   $374    $15,582 $15,735    $153    $55,563   $56,470   $907   $70,809   $72,594 $1,785 
+  Subscription, platforms and devices $12,349    $12,604   $254    $13,386 $13,854    $467    $47,057   $48,039   $982   $53,370   $54,795 $1,426 
+   Google Gross Revenue                $98,775 $99,915 $1,140    $108,245 $109,263 $1,018    $391,467 $394,869 $3,403 $439,933 $444,839    $4,906 
+   Traffic Acquisition Costs (TAC)     $14,720   $15,068   $347    $15,924 $16,256    $331    $58,711 $59,777   $1,065   $63,254   $65,113 $1,859 
+   Google Net Revenue (ex-TAC)         $84,501 $85,212     $711   $92,801   $93,437   $637   $334,807 $336,859 $2,051   $378,829 $381,736 $2,907 
+     Y/Y                                  13%       14%    1.0%      14%       14%    0.8%       13%       14%    0.7%      13%       13%    0.2% 
+   Other Bets Revenues                    $446     $415    ($31)     $480     $480      $0     $1,792    $1,718   ($74)   $2,151    $2,010 ($141) 
+     Y/Y                                  15%        7%   -8.0%      20%       20%    0.0%        9%       4%    -4.5%      20%       17%    -3.0% 
+   Consolidated Gross Revenue          $99,221 $100,280 $1,059    $108,725 $109,693   $968   $393,519 $396,635 $3,117   $442,084 $446,849   $4,766 
+   Consolidated Net Revenue (ex-TAC)   $84,501 $85,212    $711    $92,801   $93,437   $637   $334,807 $336,859 $2,051 $378,829 $381,736     $2,907 
+     Y/Y                                  13%       14%     1%       14%       14%      1%       13%       14%     1%       13%       13%      0% 
+   Other Costs of Revenue              $26,013   $25,718 ($295)   $29,713   $29,376 ($337)   $102,952 $102,041   ($911) $118,752 $118,839     $87 
+   Gross Profit                        $58,488   $59,494 $1,006   $63,088   $64,061   $973   $231,855 $234,817 $2,962   $260,077 $262,898   $2,820 
+     Gross Profit Margin                 69.2%    69.8%    0.6%     68.0%     68.6%   0.6%     69.3%     69.7%    0.5%    68.7%     68.9%    0.2% 
+  Research and Dev.                    $14,556   $14,498   ($58)   $15,356 $15,295    ($61)   $57,524   $57,158 ($366)   $66,624   $66,827   $203 
+   Sales and Mktg                       $7,022    $7,385   $363    $7,422    $7,680   $258    $27,138   $28,338 $1,200   $29,138   $30,030   $892 
+   G &A                                  $3,939   $3,803 ($136)    $4,739    $4,601 ($138)    $15,856   $17,152 $1,296   $17,306   $16,722 ($584) 
+   Total Operating Expenses             $25,517 $25,686    $169    $27,517 $27,577     $60   $100,518 $102,648 $2,130   $113,068 $113,579    $511 
+     % of net rev                         30%       30%     0%       30%       30%      0%       30%      30%      0%       30%      30%       0% 
+   Operating Income - GAAP             $32,971 $33,808    $837    $35,571   $36,484   $914 $131,337 $132,170     $832 $147,009 $149,318 $2,309 
+     Margin                               39%       40%     1%       38%       39%      1%       39%      39%      0%       39%       39%      0% 
+     Incremental Margin                   45%       50%     5%        41%      47%     6%        48%       47%     0%       36%      38%       3% 
+   SBC                                  $6,066    $5,948 ($118)    $6,116    $5,998 ($118)    $23,814   $23,460 ($354)   $26,484   $26,162 ($322) 
+   Operating Income - non-GAAP         $39,037 $39,756    $719    $41,687   $42,482   $796   $155,151 $155,630   $478 $173,493 $175,480    $1,987 
+     % of net rev                        46.2%    46.7%    0.5%     44.9%     45.5%   0.5%      46.3%    46.2%   -0.1%     45.8%    46.0%    0.2% 
+   D&A                                  $5,447    $5,548   $101     $5,947   $6,098   $151    $20,848   $21,131   $283   $30,108   $31,072   $964 
+   Adj. EBITDA                         $44,484 $45,304     $820   $47,634   $48,580   $947   $175,999 $176,761   $761 $203,601 $206,552     $2,951 
+     Margin                              52.6%    53.2%    0.5%     51.3%     52.0%   0.7%     52.6%     52.5%   -0.1%     53.7%    54.1%    0.4% 
+   Interest income and other, net         $790     $790      $0      $800      $800     $0    $13,073   $15,435 $2,362    $3,325    $3,325     $0 
+  Income pre-tax and acct. change       $33,761 $34,598    $837   $36,371   $37,284   $914   $144,410 $147,605 $3,194   $150,334 $152,643   $2,309 
+   Provision for tax                    $5,672    $5,813   $141    $6,256    $6,413   $157    $24,700   $25,211   $512   $24,956   $25,339   $383 
+   Effective tax rate (Reported)         16.8%    16.8%    0.0%     17.2%     17.2%   0.0%      17.1%     17.1%   0.0%     16.6%    16.6%    0.0% 
+   Net income - GAAP                   $28,089   $28,786   $697    $30,115 $30,871    $756   $119,711 $122,393 $2,683   $125,379 $127,304   $1,926 
+   Net income - non-GAAP               $33,124   $33,723   $599   $35,179   $35,838   $659   $139,445 $141,839 $2,395   $147,440 $149,097   $1,657 
+   Diluted GAAP EPS                      $2.31    $2.37   $0.06     $2.49     $2.56   $0.07     $9.82   $10.06   $0.23    $10.42   $10.60    $0.18 
+   Diluted EPS (ex-SBC)                  $2.73    $2.78   $0.05     $2.91     $2.97   $0.06    $11.44   $11.66   $0.21    $12.25    $12.41 $0.16 
+   Diluted shares                        12,151   12,128   (23)     12,081   12,058    (23)    12,186    12,169    (17)   12,035    12,015    (20) 
+   Capital expenditures                $19,435   $23,007 $3,572    $20,880 $22,892   $2,012   $75,742   $85,542 $9,801   $87,428   $97,805 $10,377 
+   Headcount                           189,719   189,503   (216)   191,419 191,303    (116)   191,419   191,303 (116)    200,719   200,303   (416) 
+   Source: BofA Global Research estimates 
+                                                                                                                                 BofA GLOBAL RESEARCH 
+
+8      Alphabet | 24 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Valuation 
+PO change: We are raising our PO to $217 (from $210) based on a higher 2026 GAAP 
+EPS of $10.91 and unchanged 19x multiple, plus cash. 
+
+   Exhibit 3: Alphabet valuation 
+  We are raising our PO to $217 
+                                                                                   2026 GAAP 
+   Other Bets losses (mn)                                                              ($5,504) 
+   Estimated Tax Savings                                                                 $936 
+   Other Bets Losses ex-Tax                                                            ($4,568) 
+   2025 Diluted Shares                                                                  12,169 
+  GAAP EPS Impact                                                                       ($0.38) 
+
+  2026E Total GAAP EPS                                                                  $10.60 
+   GAAP P/E                                                                               18x 
+  Adjusted EPS*                                                                         $10.91 
+   Applying a target PE multiple                                                          19x 
+  Implied Target Price / Share                                                           $205 
+   Plus YE26 cash/share                                                                  $11.8 
+   Implied Target Price / Share                                                          $217 
+  Source: BofA Global Research 
+                                                                             BofA GLOBAL RESEARCH 
+
+Sum of the parts valuation 
+At the AH GOOG stock price of ~$195, Alphabet stock is valued at 19x our revised GAAP 
+2026 EPS, vs a 14-year historical range of 13-30x and 10-year average of 22x. Backing 
+out our estimated values for YouTube, YouTube Subscription, Cloud, Waymo, and cash, 
+as well as the potential earnings contribution from YouTube, and $4.6bn in after-tax 
+losses from Other Bets investments, we estimate the implied valuation on core Google 
+advertising and Play businesses at 12x 2026E earnings, which we think is attractive vs 
+the S&P 500 at 21.5x (assuming 2026 GAAP EPS of $295). 
+
+  Exhibit 4: Sum-of-the-Parts and Core Valuation Analysis on 2026 estimates 
+  Alphabet core services sum-of-the-parts valuation analysis based on GOOG share price of ~$195. 
+                                                      Alphabet Sum of the Parts Valuation (2026 Estimates) 
+                                          Net 
+                               Mkt Cap Revenue P/S    Net income P/E                                   Comment 
+   Alphabet Total               $2,373   $382    6.2x    $127     19x 
+   YouTube                      ($181)   ($45)           ($4.5)   40x 4.0x revenues (peers at 3-5x), assumes 12% profit margin and a 17% tax rate 
+  Subscription                  ($105)    ($35)          ($2.9)      Assumes 3x P/S multiple and 10% margin & 17% tax rate 
+   Google Cloud Profit/Losses   ($581)    ($73)         ($12.5)      Assumes 8x P/S and 20% margins in 2026 and a 17% tax rate 
+   Waymo                        ($50)      $0            $0.0         Reflects time horizon & potential technology value 
+   Other Bets losses                      ($2)           $4.6         Waymo loss included, and incorporates a 17% tax rate 
+   YE'25 Cash & Equivalents      ($94)                   ($2.3)      Excludes net cash, est. 3% interest income and 17% tax rate 
+   Google core services         $1,362   $227    6.0x    $110     12x 
+  Source: BofA Global Research estimates 
+                                                                                                                                 BofA GLOBAL RESEARCH 
+
+At the AH price of ~$195, Alphabet is valued at 19x our revised 2026 GAAP EPS vs a 2yr 
+forward GAAP PE historical average of 22x and 16-year historical range of 12-30x. In the 
+last 10yrs, Alphabet has traded at an average 4pts premium to S&P 500 which is now 
+valued 21.5x (assuming 2026 GAAP EPS of $295). The stock is now at a 2.5pt discount. 
+
+                                                                                                                       Alphabet | 24 July 2025 9 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+   Exhibit 5: Alphabet & S&P 500 2yr Forward GAAP PE Multiple 
+  At the AH price of ~$195, Alphabet is currently trading at 19x our revised 2026 GAAP EPS. 
+
+                        - Alphabet   - -S&P 500       - Alphabet 10yr Avg.       - S&P 500 10yr Avg. 
+
+        30x 
+
+                                                                                                                                           22x 
+        20x 
+                                                                                                                                           18x 
+
+        10x 
+          Jan-15            Jul-16            Jan-18            Jul-19           Jan-21            Jul-22           Jan-24 
+   Source: Bloomberg 
+                                                                                                                                 BofA GLOBAL RESEARCH 
+
+10     Alphabet | 24 July 2025 
+
+    | Date     | Alphabet PE | S&P 500 PE | Alphabet 10yr Avg PE | S&P 500 10yr Avg PE |
+    |----------|-------------|------------|----------------------|---------------------|
+    | Jan-15   | 22x         | 13x        | 22x                  | 18x                 |
+    | Jul-15   | 24x         | 14x        | 22x                  | 18x                 |
+    | Jan-16   | 22x         | 15x        | 22x                  | 18x                 |
+    | Jul-16   | 25x         | 16x        | 22x                  | 18x                 |
+    | Jan-17   | 22x         | 17x        | 22x                  | 18x                 |
+    | Jul-17   | 25x         | 17x        | 22x                  | 18x                 |
+    | Jan-18   | 24x         | 18x        | 22x                  | 18x                 |
+    | Jul-18   | 23x         | 16x        | 22x                  | 18x                 |
+    | Jan-19   | 20x         | 16x        | 22x                  | 18x                 |
+    | Jul-19   | 22x         | 18x        | 22x                  | 18x                 |
+    | Jan-20   | 25x         | 18x        | 22x                  | 18x                 |
+    | Jul-20   | 28x         | 20x        | 22x                  | 18x                 |
+    | Jan-21   | 30x         | 22x        | 22x                  | 18x                 |
+    | Jul-21   | 26x         | 21x        | 22x                  | 18x                 |
+    | Jan-22   | 22x         | 20x        | 22x                  | 18x                 |
+    | Jul-22   | 12x         | 16x        | 22x                  | 18x                 |
+    | Jan-23   | 16x         | 18x        | 22x                  | 18x                 |
+    | Jul-23   | 20x         | 20x        | 22x                  | 18x                 |
+    | Jan-24   | 20x         | 21x        | 22x                  | 18x                 |
+
+    Summary: This line chart, "Alphabet & S&P 500 2yr Forward GAAP PE Multiple," tracks the valuation multiples for Alphabet and the S&P 500 from January 2015 to January 2024, juxtaposed with their respective 10-year averages (22x for Alphabet, 18x for S&P 500). Alphabet's PE generally traded at a premium to the S&P 500 and above its own 10-year average for most of the period, peaking at approximately 30x in early 2021. A notable decline occurred in mid-2022, with Alphabet's PE sharply dropping to around 12x. By early 2024, Alphabet's PE has recovered to roughly 20x, sitting below its 10-year average, while the S&P 500's PE has risen to about 21x, exceeding its own 10-year average and briefly surpassing Alphabet's multiple.
+
+    Explanation: The chart illustrates the historical valuation context for Alphabet, showing that its current 2-year forward GAAP PE of around 19-20x is below its 10-year average of 22x. This recent trend, where Alphabet's PE has fallen below its historical premium relative to the S&P 500, supports the accompanying text's assertion that Alphabet is currently trading at a discount compared to its historical average and the broader market, suggesting an attractive valuation opportunity.
+
+page_end
+
+BofA GLOBAL RESEARCH 
+
+Price objective basis & risk 
+
+Alphabet (GOOGL / GOOG) 
+Our price objective of $217/$217 is based on 19x 2026E core Google GAAP EPS plus 
+cash per share. Alphabet has traded at an average multiple of 22x GAAP P/E over the last 
+ten years and we think our multiple is reasonable vs history given expectations for 
+double-digit revenue growth, Cloud margin expansion, and opportunity to capitalize on 
+strong Al assets. 
+
+Downside risks are: 1) loss of search traffic to Al tools from competitors, 2) LLM 
+integration in search may take longer than expected or negatively impact search 
+revenues, 3) revenue pressure from compliance with the EU Digital Markets Act (DMA), 
+4) adverse judge ruling on the ongoing Department of Justice (DOJ) search distribution 
+trial, and 5) potential for increasing Capex and lower FCF-given Al investments. 
+
+Analyst Certification 
+
+I, Justin Post, hereby certify that the views expressed in this research report accurately 
+reflect my personal views about the subject securities and issuers. I also certify that no 
+part of my compensation was, is, or will be, directly or indirectly, related to the specific 
+recommendations or view expressed in this research report. 
+
+Special Disclosures 
+BofA Securities is currently acting as Financial Advisor to Alphabet Inc in connection 
+with its proposed acquisition of Wiz, Inc., which was announced on March 18, 2025. 
+
+US - Internet Coverage Cluster 
+
+Investment rating       Company                                        BofA Ticker            Bloomberg symbol Analyst 
+BUY 
+                        ACV Auctions                                   ACVA                   ACVA US           Curtis Nagle, CFA 
+                        Alphabet                                       GOOGL                  GOOGL US          Justin Post 
+                        Alphabet                                       GOOG                   GOOG US           Justin Post 
+                        Amazon.com                                     AMZN                   AMZN US           Justin Post 
+                        AppLovin                                       APP                    APP US            Omar Dessouky, CFA 
+                        Carvana                                        CVNA                   CVNA US           Michael McGovern 
+                        Chewy Inc                                      CHWY                   CHWY US           Curtis Nagle, CFA 
+                        DoorDash                                       DASH                   DASH US           Michael McGovern 
+                        Expedia                                        EXPE                   EXPE US           Justin Post 
+                        Integral Ad Science Holding Corp.              IAS                    IAS US            Omar Dessouky, CFA 
+                        Magnite, Inc.                                  MGNI                   MGNI US           Omar Dessouky, CFA 
+                        Meta Platforms Inc                             ΜΕΤΑ                   META US           Justin Post 
+                        Peloton                                        PTON                   PTON US           Curtis Nagle, CFA 
+                        Pinterest                                      PINS                   PINS US           Justin Post 
+                        Playtika                                       PLTK                   PLTK US           Omar Dessouky, CFA 
+                        Roblox Corp. Class A                           RBLX                   RBLX US           Omar Dessouky, CFA 
+                        Take-Two Interactive                           TTWO                   TTWO US           Omar Dessouky, CFA 
+                        Uber                                           UBER                   UBER US           Justin Post 
+                        Wix.com                                        WIX                    WIX US            Michael McGovern 
+NEUTRAL 
+                        Airbnb                                         ABNB                   ABNB US           Justin Post 
+                        Booking Holdings Inc                           BKNG                   BKNG US           Justin Post 
+                        CoStar Group, Inc                              CSGP                   CSGP US           Curtis Nagle, CFA 
+                        DoubleVerify Holdings, Inc.                    DV                     DV US             Omar Dessouky, CFA 
+                        Duolingo                                       DUOL                   DUOL US           Curtis Nagle, CFA 
+                        eBay                                           EBAY                   EBAY US           Justin Post 
+                        Electronic Arts                                EA                     EA US             Omar Dessouky, CFA 
+                        Etsy, Inc.                                     ETSY                   ETSY US           Curtis Nagle, CFA 
+                        Ibotta                                         IBTA                   IBTA US           Curtis Nagle, CFA 
+                        Instacart                                      CART                   CART US           Justin Post 
+                        Match Group                                    MTCH                   MTCH US           Curtis Nagle, CFA 
+
+                                                                                                                    Alphabet | 24 July 2025 11 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+US - Internet Coverage Cluster 
+
+Investment rating                  Company                                                              BofA Ticker                       Bloomberg symbol          Analyst 
+                                   Reddit                                                               RDDT                               RDDT US                  Justin Post 
+                                   Snap                                                                 SNAP                               SNAP US                  Justin Post 
+                                   Tripadvisor                                                           TRIP                              TRIP US                  Nafeesa Gupta 
+                                   Udemy Inc                                                             UDMY                              UDMY US                   Nafeesa Gupta 
+                                   Wayfair                                                              W                                 W US                       Curtis Nagle, CFA 
+                                   Zillow                                                               Z                                 Z US                       Curtis Nagle, CFA 
+                                   Zillow Group                                                          ZG                                ZG US                    Curtis Nagle, CFA 
+
+UNDERPERFORM 
+                                   Bumble                                                               BMBL                               BMBL US                   Curtis Nagle, CFA 
+                                   Cardlytics, Inc                                                      CDLX                               CDLX US                  Omar Dessouky, CFA 
+                                   Coursera Inc.                                                        COUR                               COUR US                  Nafeesa Gupta 
+                                   Digital Turbine, Inc                                                 APPS                              APPS US                   Omar Dessouky, CFA 
+                                   LegalZoom                                                            LZ                                LZ US                     Michael McGovern 
+                                   Lyft, Inc.                                                           LYFT                               LYFT US                  Michael McGovern 
+                                   Opendoor Technologies                                                OPEN                               OPEN US                  Curtis Nagle, CFA 
+                                   RH                                                                   RH                                 RH US                     Curtis Nagle, CFA 
+                                   Unity                                                                 U                                 U US                     Omar Dessouky, CFA 
+                                   Vivid Seats                                                          SEAT                              SEAT US                   Curtis Nagle, CFA 
+                                   Yelp                                                                 YELP                               YELP US                  Nitin Bansal, CFA 
+
+iQmethod SM Measures Definitions 
+
+Business Performance                    Numerator                                                                           Denominator 
+Return On Capital Employed              NOPAT = (EBIT + Interest Income) (1 - Tax Rate) + Goodwill Amortization             Total Assets - Current Liabilities + ST Debt + Accumulated Goodwill 
+                                                                                                                            Amortization 
+Return On Equity                         Net Income                                                                         Shareholders' Equity 
+Operating Margin                        Operating Profit                                                                    Sales 
+Earnings Growth                         Expected 5 Year CAGR From Latest Actual                                             N/A 
+Free Cash Flow                          Cash Flow From Operations - Total Capex                                             N/A 
+
+Quality of Earnings                     Numerator                                                                           Denominator 
+Cash Realization Ratio                  Cash Flow From Operations                                                           Net Income 
+Asset Replacement Ratio                 Capex                                                                                Depreciation 
+Tax Rate                                Tax Charge                                                                          Pre-Tax Income 
+Net Debt-To-Equity Ratio                Net Debt = Total Debt - Cash & Equivalents                                          Total Equity 
+Interest Cover                          EBIT                                                                                Interest Expense 
+
+Valuation Toolkit                       Numerator                                                                           Denominator 
+Price / Earnings Ratio                  Current Share Price                                                                 Diluted Earnings Per Share (Basis As Specified) 
+Price / Book Value                      Current Share Price                                                                 Shareholders' Equity / Current Basic Shares 
+Dividend Yield                          Annualised Declared Cash Dividend                                                   Current Share Price 
+Free Cash Flow Yield                    Cash Flow From Operations - Total Capex                                             Market Cap = Current Share Price      Current Basic Shares 
+Enterprise Value / Sales                EV = Current Share Price     Current Shares + Minority Equity + Net Debt +          Sales 
+                                        Other LT Liabilities 
+EV / EBITDA                             Enterprise Value                                                                    Basic EBIT + Depreciation + Amortization 
+iQmethodsMis the set of BofA Global Research standard measures that serve to maintain global consistency under three broad headings: Business Performance, Quality of Earnings, and validations. The key features of 
+iQmethod are: A consistently structured, detailed, and transparent methodology. Guidelines to maximize the effectiveness of the comparative valuation process, and to identify some common pitfalls. 
+iQdatabase® is our real-time global research database that is sourced directly from our equity analysts' earnings models and includes forecasted as well as historical data for income statements, balance sheets, and cash 
+flow statements for companies covered by BofA Global Research. 
+iQprofile SM, iQmethodSM are service marks of Bank of America Corporation. iQdatabase® is a registered service mark of Bank of America Corporation. 
+
+12        Alphabet | 24 July 2025 
+page_end
+
+ BofA GLOBAL RESEARCH 
+
+ Disclosures 
+
+ Important Disclosures 
+
+ Alphabet A (GOOGL) Price Chart 
+              24-Jul B 
+               Post        3-Oct            17-Jan           26-Apr         19-Jul          25-Oct          26-Jan         26-Apr        17-Jul           30-Oct        14-Jan        9-Apr            18-Jul 
+            PO:US$2636 PO:US$114          PO:US$116        PO:US$128     PO:US$142        PO:US$149      PO:US$175       PO:US$200     PO:US$206        PO:US$210    PO:US$225     PO:US$185        PO:US$210 
+        US$3000 
+               26-Jul                          30-Jan                        2'6-Jul                11-Dec                                                                              25-Apr 
+             PO:US$125                      PO US$119                     PO:US$146               PO:US$166                                                                           PO:US$200 
+                                               3-Feb                                                        31-Jan 
+                                             PO:US$125                                                    PO:US$173 
+        US$2000 
+
+        US$1000 
+
+           US$0 
+                                         1-Jan-23                                                      1-Jan-24                                                     1-Jan-25 
+
+                  GOOGL                 PO 
+
+                  B: Buy, N: Neutral, U: Underperform, PO: Price Objective, NA: No longer valid, NR: No Rating 
+ The Investment Opinion System is contained at the end of the report under the heading "Fundamental Equity Opinion Key". Dark grey shading indicates the security is restricted with the opinion suspended. Medium grey 
+ shading indicates the security is under review with the opinion withdrawn. Light grey shading indicates the security is not covered. Chart is current as of a date no more than one trading day prior to the date of the 
+ report. 
+
+ Alphabet C (GOOG) Price Chart 
+             26-Jul B 
+              Post        3-Oct             17-Jan          26-Apr         19-Jul          25-Oct          26-Jan         26-Apr         17-Jul           30-Oct       14-Jan         9-Apr            18-Jul 
+           PO:US$125    PO:US$114        PO:US$116        PO:US$128     PO:US$142        PO:US$149       PO:US$175      PO:US$200     PO:US$206         PO:US$210    PO:US$225     PO:US$185        PO:US$210 
+        US$250 
+                                              30-J'an                         Jul                  11-Dec                                                                               25-Apr 
+                                           PO US$119                     PO:US$146               PO:US$166                                                                            PO:US$200 
+                                              3-Feb                                                         31-Jan 
+        US$200 
+                                            PO:US$125                                                     PO:US$173 
+
+        US$150 
+
+        US$100 
+
+         US$50 
+                                        1-Jan-23                                                      1-Jan-24                                                      1-Jan-25 
+
+                 GOOG                 No Coverage                PO 
+
+                B: Buy, N: Neutral, U: Underperform, PO: Price Objective, NA: No longer valid, NR: No Rating 
+ The Investment Opinion System is contained at the end of the report under the heading "Fundamental Equity Opinion Key". Dark grey shading indicates the security is restricted with the opinion suspended. Medium grey 
+ shading indicates the security is under review with the opinion withdrawn. Light grey shading indicates the security is not covered. Chart is current as of a date no more than one trading day prior to the date of the 
+ report. 
+
+Equity Investment Rating Distribution: Technology Group (as of 30 Jun 2025) 
+
+ Coverage Universe                                               Count              Percent                          Inv. Banking Relationships R1                                      Count              Percent 
+Buy                                                                 205              52.84%                          Buy                                                                   103              50.24% 
+ Hold                                                               100              25.77%                          Hold                                                                   53              53.00% 
+Sell                                                                 83              21.39%                          Sell                                                                   23              27.71% 
+
+ Equity Investment Rating Distribution: Global Group (as of 30 Jun 2025) 
+
+ Coverage Universe                                               Count              Percent                          Inv. Banking Relationships R1                                      Count              Percent 
+ Buy                                                               1840              53.64%                          Buy                                                                 1081               58.75% 
+ Hold                                                               807              23.53%                          Hold                                                                  472              58.49% 
+ Sell                                                               783              22.83%                          Sell                                                                  375              47.89% 
+ R1 Issuers that were investment banking clients of BofA Securities or one of its affiliates within the past 12 months. For purposes of this Investment Rating Distribution, the coverage universe includes only stocks. A stock 
+ rated Neutral is included as a Hold, and a stock rated Underperform is included as a Sell. 
+
+                                                                                                                                                                               Alphabet | 24 July 2025            13 
+
+    | Date | GOOG Price (US$) | Price Objective (US$) |
+    |:-----------|:-----------------|:----------------------|
+    | 26-Jul-22  | ~110             | 125                   |
+    | 3-Oct-22   | ~95              | 114                   |
+    | 17-Jan-23  | ~90              | 116                   |
+    | 30-Jan-23  | ~100             | 119                   |
+    | 3-Feb-23   | ~100             | 125                   |
+    | 26-Apr-23  | ~105             | 128                   |
+    | 19-Jul-23  | ~120             | 142                   |
+    | 26-Jul-23  | ~125             | 146                   |
+    | 25-Oct-23  | ~135             | 149                   |
+    | 11-Dec-23  | ~140             | 166                   |
+    | 26-Jan-24  | ~145             | 175                   |
+    | 31-Jan-24  | ~145             | 173                   |
+    | 26-Apr-24  | ~165             | 200                   |
+    | 17-Jul-24  | ~180             | 206                   |
+    | 30-Oct-24  | ~160             | 210                   |
+    | 14-Jan-25  | ~190             | 225                   |
+    | 9-Apr-25   | ~160             | 185                   |
+    | 25-Apr-25  | ~165             | 200                   |
+    | 18-Jul-25  | ~185             | 210                   |
+
+    Summary: This chart illustrates the historical and projected stock price of Alphabet C (GOOG) from July 2022 to July 2025, plotted against BofA's Price Objectives (PO). The X-axis represents time, while the Y-axis denotes the stock price in US Dollars. The GOOG stock price, shown as a fluctuating dark blue line, experienced a significant upward trend from a low of approximately US$90 in early 2023 to around US$185 by mid-2025. Concurrently, the shaded areas representing BofA's Price Objectives show a clear and consistent upward revision, starting at US$125 and peaking at US$225 in January 2025, before a slight reduction to US$210 by July 2025. The stock price generally stayed within or below the Price Objective bands, indicating room for potential appreciation.
+
+    Explanation: This chart visually tracks Alphabet C's (GOOG) performance against BofA Global Research's Price Objectives, despite the legend stating "No Coverage" for this specific stock. The continuous updates and upward adjustments of these Price Objectives imply an ongoing, positive valuation or projection by the analysts, even without a formal "Buy/Hold/Sell" rating. The alignment of the rising stock price with the increasing Price Objectives suggests a shared optimistic view on Alphabet C's future growth and market value over this period.
+
+    | Date       | Type            | Price Objective (US$) | Rating |
+    |:-----------|:----------------|:----------------------|:-------|
+    | 24-Jul-2022| Initial PO      | 2636                  | Buy    |
+    | 26-Jul-2022| Specific Update | 125                   | -      |
+    | 3-Oct-2022 | Main PO         | 114                   | -      |
+    | 17-Jan-2023| Main PO         | 116                   | -      |
+    | 30-Jan-2023| Specific Update | 119                   | -      |
+    | 3-Feb-2023 | Specific Update | 125                   | -      |
+    | 26-Apr-2023| Main PO         | 128                   | -      |
+    | 19-Jul-2023| Main PO         | 142                   | -      |
+    | 26-Jul-2023| Specific Update | 146                   | -      |
+    | 25-Oct-2023| Main PO         | 149                   | -      |
+    | 11-Dec-2023| Specific Update | 166                   | -      |
+    | 26-Jan-2024| Main PO         | 175                   | -      |
+    | 31-Jan-2024| Specific Update | 173                   | -      |
+    | 26-Apr-2024| Main PO         | 200                   | -      |
+    | 17-Jul-2024| Main PO         | 206                   | -      |
+    | 30-Oct-2024| Main PO         | 210                   | -      |
+    | 14-Jan-2025| Main PO         | 225                   | -      |
+    | 9-Apr-2025 | Main PO         | 185                   | -      |
+    | 25-Apr-2025| Specific Update | 200                   | -      |
+    | 18-Jul-2025| Main PO         | 210                   | -      |
+
+    Summary: This time-series chart, titled "Alphabet A (GOOGL) Price Chart," displays the evolution of BofA's Price Objectives (POs) for GOOGL from July 2022 through July 2025. The Y-axis represents price in US dollars, while the X-axis marks key dates. The actual GOOGL stock price is represented by a dark blue line near the bottom, appearing almost flat due to the scale, which is significantly influenced by an outlier initial PO. The primary trend in price objectives, excluding the initial outlier, shows a general upward trajectory, increasing from approximately US$114 in October 2022 to a peak of US$225 in January 2025, before a slight decline and subsequent recovery. The most prominent inflection point is the initial Price Objective of US$2636 (labeled "Buy") in July 2022, which is significantly higher than all subsequent POs and stands out as an unusual value.
+
+    Explanation: The unusual US$2636 price objective for GOOGL in July 2022 likely reflects a pre-stock-split price, given Alphabet's 20-for-1 stock split around that time, which significantly reduced the share price. After this initial outlier, the chart indicates a consistent and generally rising confidence from BofA's analysts regarding Alphabet A's valuation, as evidenced by the increasing price targets over the subsequent years, suggesting a bullish long-term outlook. This trend of escalating price objectives aligns with the overall "Buy" rating indicated for the initial PO.
+
+page_end
+
+ BofA GLOBAL RESEARCH 
+
+ FUNDAMENTAL EQUITY OPINION KEY: Opinions include a Volatility Risk Rating, an Investment Rating and an Income Rating. VOLATILITY RISK RATINGS, indicators 
+ of potential price fluctuation, are: A - Low, B - Medium and C - High. INVESTMENT RATINGS reflect the analyst's assessment of both a stock's absolute total return 
+potential as well as its attractiveness for investment relative to other stocks within its Coverage Cluster (defined below). Our investment ratings are: 1 - Buy stocks 
+ are expected to have a total return of at least 10% and are the most attractive stocks in the coverage cluster; 2 - Neutral stocks are expected to remain flat or 
+ increase in value and are less attractive than Buy rated stocks and 3 - Underperform stocks are the least attractive stocks in a coverage cluster. An investment 
+ rating of 6 (No Rating) indicates that a stock is no longer trading on the basis of fundamentals. Analysts assign investment ratings considering, among other things, 
+ the 0-12 month total return expectation for a stock and the firm's guidelines for ratings dispersions (shown in the table below). The current price objective for a 
+ stock should be referenced to better understand the total return expectation at any given time. The price objective reflects the analyst's view of the potential price 
+ appreciation (depreciation). 
+Investment rating            Total return expectation (within 12-month period of date of initial                          Ratings dispersion guidelines for coverage clusterR2 
+                             rating) 
+             Buy                                                        ≥ 10%                                                                            ≤ 70% 
+           Neutral                                                      ≥ 0%                                                                             ≤ 30% 
+       Underperform                                                      N/A                                                                            ≥ 20% 
+ R2Ratings dispersions may vary from time to time where BofA Global Research believes it better reflects the investment prospects of stocks in a Coverage Cluster. 
+ INCOME RATINGS, indicators of potential cash dividends, are: 7 - same/higher (dividend considered to be secure), 8 - same/lower (dividend not considered to be 
+ secure) and 9 - pays no cash dividend. Coverage Cluster is comprised of stocks covered by a single analyst or two or more analysts sharing a common industry, 
+ sector, region or other classification(s). A stock's coverage cluster is included in the most recent BofA Global Research report referencing the stock. 
+
+ Price Charts for the securities referenced in this research report are available on the Price Charts website, or call 1-800-MERRILL to have them mailed. 
+ BofAS or one of its affiliates acts as a market maker for the equity securities recommended in the report: Alphabet A, Alphabet C. 
+ BofAS or an affiliate was a manager of a public offering of securities of this issuer within the last 12 months: Alphabet. 
+ The issuer is or was, within the last 12 months, an investment banking client of BofAS and/or one or more of its affiliates: Alphabet. 
+ BofAS or an affiliate has received compensation from the issuer for non-investment banking services or products within the past 12 months: Alphabet. 
+ The issuer is or was, within the last 12 months, a non-securities business client of BofAS and/or one or more of its affiliates: Alphabet. 
+ BofAS or an affiliate has received compensation for investment banking services from this issuer within the past 12 months: Alphabet. 
+ BofAS or an affiliate expects to receive or intends to seek compensation for investment banking services from this issuer or an affiliate of the issuer within the next three months: Alphabet. 
+ BofAS together with its affiliates beneficially owns one percent or more of the common stock of this issuer. If this report was issued on or after the 9th day of the month, it reflects the 
+ ownership position on the last day of the previous month. Reports issued before the 9th day of a month reflect the ownership position at the end of the second month preceding the date of 
+ the report: Alphabet. 
+ BofAS or one of its affiliates is willing to sell to, or buy from, clients the common equity of the issuer on a principal basis: Alphabet A, Alphabet C. 
+ The issuer is or was, within the last 12 months, a securities business client (non-investment banking) of BofAS and/or one or more of its affiliates: Alphabet. 
+ BofA Global Research personnel (including the analyst(s) responsible for this report) receive compensation based upon, among other factors, the overall profitability of Bank of America 
+ Corporation, including profits derived from investment banking. The analyst(s) responsible for this report may also receive compensation based upon, among other factors, the overall 
+ profitability of the Bank's sales and trading businesses relating to the class of securities or financial instruments for which such analyst is responsible. 
+
+ Other Important Disclosures 
+ From time to time research analysts conduct site visits of covered issuers. BofA Global Research policies prohibit research analysts from accepting payment or reimbursement for travel 
+ expenses from the issuer for such visits. 
+ Prices are indicative and for information purposes only. Except as otherwise stated in the report, for any recommendation in relation to an equity security, the price referenced is the publicly 
+ traded price of the security as of close of business on the day prior to the date of the report or, if the report is published during intraday trading, the price referenced is indicative of the traded 
+ price as of the date and time of the report and in relation to a debt security (including equity preferred and CDS), prices are indicative as of the date and time of the report and are from various 
+ sources including BofA Securities trading desks. 
+ The date and time of completion of the production of any recommendation in this report shall be the date and time of dissemination of this report as recorded in the report timestamp. 
+
+ Recipients who are not institutional investors or market professionals should seek the advice of their independent financial advisor before considering information in this report in connection 
+ with any investment decision, or for a necessary explanation of its contents. 
+ Officers of BofAS or one or more of its affiliates (other than research analysts) may have a financial interest in securities of the issuer(s) or in related investments. 
+ Refer to BofA Global Research policies relating to conflicts of interest. 
+ "BofA Securities" includes BofA Securities, Inc. ("BofAS") and its affiliates. Investors should contact their BofA Securities representative or Merrill Global Wealth Management 
+ financial advisor if they have questions concerning this report or concerning the appropriateness of any investment idea described herein for such investor. "BofA Securities" is a 
+ global brand for BofA Global Research. 
+ Information relating to Non-US affiliates of BofA Securities and Distribution of Affiliate Research Reports: 
+ BofAS and/or Merrill Lynch, Pierce, Fenner & Smith Incorporated ("MLPF&S") may in the future distribute, information of the following non-US affiliates in the US (short name: legal name, 
+ regulator): Merrill Lynch (South Africa): Merrill Lynch South Africa (Pty) Ltd., regulated by the Financial Sector Conduct Authority; MLI (UK): Merrill Lynch International, regulated by the Financial 
+ Conduct Authority (FCA) and the Prudential Regulation Authority (PRA); BofASE (France): BofA Securities Europe SA is authorized by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) 
+ and regulated by the ACPR and the Autorite des Marchés Financiers (AMF). BofA Securities Europe SA ("BofASE") with registered address at 51, rue La Boétie, 75008 Paris is registered under no 
+ 842 602 690 RCS Paris. In accordance with the provisions of French Code Monétaire et Financier (Monetary and Financial Code), BofASE is an établissement de crédit et d'investissement (credit 
+ and investment institution) that is authorised and supervised by the European Central Bank and the Autorite de Contrôle Prudentiel et de Resolution (ACPR) and regulated by the ACPR and the 
+ Autorité des Marchés Financiers. BofASE's share capital can be found at www.bofaml.com/BofASEdisclaimer; BofA Europe (Milan): Bank of America Europe Designated Activity Company, Milan 
+ Branch, regulated by the Bank of Italy, the European Central Bank (ECB) and the Central Bank of Ireland (CBI); BofA Europe (Frankfurt): Bank of America Europe Designated Activity Company, 
+ Frankfurt Branch regulated by BaFin, the ECB and the CBI; BofA Europe (Madrid): Bank of America Europe Designated Activity Company, Sucursal en          regulated by the Bank of Spain, the 
+ ECB and the CBI; Merrill Lynch (Australia): Merrill Lynch Equities (Australia) Limited, regulated by the Australian Securities and Investments Commission; Merrill Lynch (Hong Kong): Merrill Lynch 
+ (Asia Pacific) Limited, regulated by the Hong Kong Securities and Futures Commission (HKSFC); Merrill Lynch (Singapore): Merrill Lynch (Singapore) Pte Ltd, regulated by the Monetary Authority 
+ of Singapore (MAS); Merrill Lynch (Canada): Merrill Lynch Canada Inc, regulated by the Canadian Investment Regulatory Organization; Merrill Lynch (Mexico): Merrill Lynch Mexico, SA de CV, Casa 
+ de Bolsa, regulated by the Comisión Nacional Bancaria y de Valores; BofAS Japan: BofA Securities Japan Co., Ltd., regulated by the Financial Services Agency; Merrill Lynch (Seoul): Merrill Lynch 
+ International, LLC Seoul Branch, regulated by the Financial Supervisory Service; Merrill Lynch (Taiwan): Merrill Lynch Securities (Taiwan) Ltd., regulated by the Securities and Futures Bureau; 
+ BofAS India: BofA Securities India Limited, regulated by the Securities and Exchange Board of India (SEBI); Merrill Lynch (Israel): Merrill Lynch Israel Limited, regulated by Israel Securities 
+ Authority; Merrill Lynch (DIFC): Merrill Lynch International (DIFC Branch), regulated by the Dubai Financial Services Authority (DFSA); Merrill Lynch (Brazil): Merrill Lynch S.A. Corretora de Títulos 
+ e Valores Mobiliários, regulated by Comissão de Valores Mobiliários; Merrill Lynch KSA Company: Merrill Lynch Kingdom of Saudi Arabia Company, regulated by the Capital Market Authority. 
+ This information: has been approved for publication and is distributed in the United Kingdom (UK) to professional clients and eligible counterparties (as each is defined in the rules of the FCA 
+ and the PRA) by MLI (UK), which is authorized by the PRA and regulated by the FCA and the PRA - details about the extent of our regulation by the FCA and PRA are available from us on request; 
+
+ 14      Alphabet | 24 July 2025 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+has been approved for publication and is distributed in the European Economic Area (EEA) by BofASE (France), which is authorized by the ACPR and regulated by the ACPR and the AMF; has 
+been considered and distributed in Japan by BofAS Japan, a registered securities dealer under the Financial Instruments and Exchange Act in Japan, or its permitted affiliates; is issued and 
+distributed in Hong Kong by Merrill Lynch (Hong Kong) which is regulated by HKSFC; is issued and distributed in Taiwan by Merrill Lynch (Taiwan); is issued and distributed in India by BofAS 
+India; and is issued and distributed in Singapore to institutional investors and/or accredited investors (each as defined under the Financial Advisers Regulations) by Merrill Lynch (Singapore) 
+(Company Registration No 198602883D). Merrill Lynch (Singapore) is regulated by MAS. Merrill Lynch Equities (Australia) Limited (ABN 65 006 276 795), AFS License 235132 (MLEA) 
+distributes this information in Australia only to 'Wholesale' clients as defined by s.761G of the Corporations Act 2001. With the exception of Bank of America N.A., Australia Branch, neither 
+MLEA nor any of its affiliates involved in preparing this information is an Authorised Deposit-Taking Institution under the Banking Act 1959 nor regulated by the Australian Prudential 
+Regulation Authority. No approval is required for publication or distribution of this information in Brazil and its local distribution is by Merrill Lynch (Brazil) in accordance with applicable 
+regulations. Merrill Lynch (DIFC) is authorized and regulated by the DFSA. Information prepared and issued by Merrill Lynch (DIFC) is done so in accordance with the requirements of the DFSA 
+conduct of business rules. BofA Europe (Frankfurt) distributes this information in Germany and is regulated by BaFin, the ECB and the CBI. BofA Securities entities, including BofA Europe and 
+BofASE (France), may outsource/delegate the marketing and/or provision of certain research services or aspects of research services to other branches or members of the BofA Securities group. 
+You may be contacted by a different BofA Securities entity acting for and on behalf of your service provider where permitted by applicable law. This does not change your service provider. 
+Please refer to the Electronic Communications Disclaimers for further information. 
+This information has been prepared and issued by BofAS and/or one or more of its non-US affiliates. The author(s) of this information may not be licensed to carry on regulated activities in your 
+jurisdiction and, if not licensed, do not hold themselves out as being able to do so. BofAS and/or MLPF&S is the distributor of this information in the US and accepts full responsibility for 
+information distributed to BofAS and/or MLPF&S clients in the US by its non-US affiliates. Any US person receiving this information and wishing to effect any transaction in any security 
+discussed herein should do so through BofAS and/or MLPF&S and not such foreign affiliates. Hong Kong recipients of this information should contact Merrill Lynch (Asia Pacific) Limited in 
+respect of any matters relating to dealing in securities or provision of specific advice on securities or any other matters arising from, or in connection with, this information. Singapore recipients 
+of this information should contact Merrill Lynch (Singapore) Pte Ltd in respect of any matters arising from, or in connection with, this information. For clients that are not accredited investors, 
+expert investors or institutional investors Merrill Lynch (Singapore) Pte Ltd accepts full responsibility for the contents of this information distributed to such clients in Singapore. 
+General Investment Related Disclosures: 
+Taiwan Readers: Neither the information nor any opinion expressed herein constitutes an offer or a solicitation of an offer to transact in any securities or other financial instrument. No part of 
+this report may be used or reproduced or quoted in any manner whatsoever in Taiwan by the press or any other person without the express written consent of BofA Securities. 
+This document provides general information only, and has been prepared for, and is intended for general distribution to, BofA Securities clients. Neither the information nor any opinion 
+expressed constitutes an offer or an invitation to make an offer, to buy or sell any securities or other financial instrument or any derivative related to such securities or instruments (e.g., 
+options, futures, warrants, and contracts for differences). This document is not intended to provide personal investment advice and it does not take into account the specific investment 
+objectives, financial situation and the particular needs of, and is not directed to, any specific person(s). This document and its content do not constitute, and should not be considered to 
+constitute, investment advice for purposes of ERISA, the US tax code, the Investment Advisers Act or otherwise. Investors should seek financial advice regarding the appropriateness of 
+investing in financial instruments and implementing investment strategies discussed or recommended in this document and should understand that statements regarding future prospects 
+may not be realized. Any decision to purchase or subscribe for securities in any offering must be based solely on existing public information on such security or the information in the 
+prospectus or other offering document issued in connection with such offering, and not on this document. 
+Securities and other financial instruments referred to herein, or recommended, offered or sold by BofA Securities, are not insured by the Federal Deposit Insurance Corporation and are not 
+deposits or other obligations of any insured depository institution (including, Bank of America, N.A.). Investments in general and, derivatives, in particular, involve numerous risks, including, 
+among others, market risk, counterparty default risk and liquidity risk. No security, financial instrument or derivative is suitable for all investors. Digital assets are extremely speculative, volatile 
+and are largely unregulated. In some cases, securities and other financial instruments may be difficult to value or sell and reliable information about the value or risks related to the security or 
+financial instrument may be difficult to obtain. Investors should note that income from such securities and other financial instruments, if any, may fluctuate and that price or value of such 
+securities and instruments may rise or fall and, in some cases, investors may lose their entire principal investment. Past performance is not necessarily a guide to future performance. Levels and 
+basis for taxation may change. 
+This report may contain a short-term trading idea or recommendation, which highlights a specific near-term catalyst or event impacting the issuer or the market that is anticipated to have a 
+short-term price impact on the equity securities of the issuer. Short-term trading ideas and recommendations are different from and do not affect a stock's fundamental equity rating, which 
+reflects both a longer term total return expectation and attractiveness for investment relative to other stocks within its Coverage Cluster. Short-term trading ideas and recommendations may 
+be more or less positive than a stock's fundamental equity rating. 
+BofA Securities is aware that the implementation of the ideas expressed in this report may depend upon an investor's ability to "short" securities or other financial instruments and that such 
+action may be limited by regulations prohibiting or restricting "shortselling" in many jurisdictions. Investors are urged to seek advice regarding the applicability of such regulations prior to 
+executing any short idea contained in this report. 
+Foreign currency rates of exchange may adversely affect the value, price or income of any security or financial instrument mentioned herein. Investors in such securities and instruments, 
+including ADRs, effectively assume currency risk. 
+BofAS or one of its affiliates is a regular issuer of traded financial instruments linked to securities that may have been recommended in this report. BofAS or one of its affiliates may, at any time, 
+hold a trading position (long or short) in the securities and financial instruments discussed in this report. 
+BofA Securities, through business units other than BofA Global Research, may have issued and may in the future issue trading ideas or recommendations that are inconsistent with, and reach 
+different conclusions from, the information presented herein. Such ideas or recommendations may reflect different time frames, assumptions, views and analytical methods of the persons 
+who prepared them, and BofA Securities is under no obligation to ensure that such other trading ideas or recommendations are brought to the attention of any recipient of this information. 
+In the event that the recipient received this information pursuant to a contract between the recipient and BofAS for the provision of research services for a separate fee, and in connection 
+therewith BofAS may be deemed to be acting as an investment adviser, such status relates, if at all, solely to the person with whom BofAS has contracted directly and does not extend beyond 
+the delivery of this report (unless otherwise agreed specifically in writing by BofAS). If such recipient uses the services of BofAS in connection with the sale or purchase of a security referred to 
+herein, BofAS may act as principal for its own account or as agent for another person. BofAS is and continues to act solely as a broker-dealer in connection with the execution of any 
+transactions, including transactions in any securities referred to herein. 
+Copyright and General Information: 
+Copyright 2025 Bank of America Corporation. All rights reserved. iQdatabase® is a registered service mark of Bank of America Corporation. This information is prepared for the use of BofA 
+Securities clients and may not be redistributed, retransmitted or disclosed, in whole or in part, or in any form or manner, without the express written consent of BofA Securities. This document 
+and its content is provided solely for informational purposes and cannot be used for training or developing artificial intelligence (Al) models or as an input in any Al application (collectively, an Al 
+tool). Any attempt to utilize this document or any of its content in connection with an Al tool without explicit written permission from BofA Global Research is strictly prohibited. BofA Global 
+Research information is distributed simultaneously to internal and client websites and other portals by BofA Securities and is not publicly-available material. Any unauthorized use or disclosure 
+is prohibited. Receipt and review of this information constitutes your agreement not to redistribute, retransmit, or disclose to others the contents, opinions, conclusion, or information 
+contained herein (including any investment recommendations, estimates or price targets) without first obtaining express permission from an authorized officer of BofA Securities. 
+Materials prepared by BofA Global Research personnel are based on public information. Facts and views presented in this material have not been reviewed by, and may not reflect information 
+known to, professionals in other business areas of BofA Securities, including investment banking personnel. BofA Securities has established information barriers between BofA Global Research 
+and certain business groups. As a result, BofA Securities does not disclose certain client relationships with, or compensation received from, such issuers. To the extent this material discusses 
+any legal proceeding or issues, it has not been prepared as nor is it intended to express any legal conclusion, opinion or advice. Investors should consult their own legal advisers as to issues of 
+law relating to the subject matter of this material. BofA Global Research personnel's knowledge of legal proceedings in which any BofA Securities entity and/or its directors, officers and 
+employees may be plaintiffs, defendants, co-defendants or co-plaintiffs with or involving issuers mentioned in this material is based on public information. Facts and views presented in this 
+material that relate to any such proceedings have not been reviewed by, discussed with, and may not reflect information known to, professionals in other business areas of BofA Securities in 
+connection with the legal proceedings or matters relevant to such proceedings. 
+This information has been prepared independently of any issuer of securities mentioned herein and not in connection with any proposed offering of securities or as agent of any issuer of any 
+securities. None of BofAS any of its affiliates or their research analysts has any authority whatsoever to make any representation or warranty on behalf of the issuer(s). BofA Global Research 
+policy prohibits research personnel from disclosing a recommendation, investment rating, or investment thesis for review by an issuer prior to the publication of a research report containing 
+
+                                                                                                                                                               Alphabet | 24 July 2025         15 
+page_end
+
+BofA GLOBAL RESEARCH 
+
+such rating, recommendation or investment thesis. 
+Any information relating to sustainability in this material is limited as discussed herein and is not intended to provide a comprehensive view on any sustainability claim with respect to any 
+issuer or security. 
+Any information relating to the tax status of financial instruments discussed herein is not intended to provide tax advice or to be used by anyone to provide tax advice. Investors are urged to 
+seek tax advice based on their particular circumstances from an independent tax professional. 
+The information herein (other than disclosure information relating to BofA Securities and its affiliates) was obtained from various sources and we do not guarantee its accuracy. This 
+information may contain links to third-party websites. BofA Securities is not responsible for the content of any third-party website or any linked content contained in a third-party website. 
+Content contained on such third-party websites is not part of this information and is not incorporated by reference. The inclusion of a link does not imply any endorsement by or any affiliation 
+with BofA Securities. Access to any third-party website is at your own risk, and you should always review the terms and privacy policies at third-party websites before submitting any personal 
+information to them. BofA Securities is not responsible for such terms and privacy policies and expressly disclaims any liability for them. 
+All opinions, projections and estimates constitute the judgment of the author as of the date of publication and are subject to change without notice. Prices also are subject to change without 
+notice. BofA Securities is under no obligation to update this information and BofA Securities ability to publish information on the subject issuer(s) in the future is subject to applicable quiet 
+periods. You should therefore assume that BofA Securities will not update any fact, circumstance or opinion contained herein. 
+Subject to the quiet period applicable under laws of the various jurisdictions in which we distribute research reports and other legal and BofA Securities policy-related restrictions on the 
+publication of research reports, fundamental equity reports are produced on a regular basis as necessary to keep the investment recommendation current. 
+Certain outstanding reports or investment opinions relating to securities, financial instruments and/or issuers may no longer be current. Always refer to the most recent research report 
+relating to an issuer prior to making an investment decision. 
+In some cases, an issuer may be classified as Restricted or may be Under Review or Extended Review. In each case, investors should consider any investment opinion relating to such issuer (or 
+its security and/or financial instruments) to be suspended or withdrawn and should not rely on the analyses and investment opinion(s) pertaining to such issuer (or its securities and/or 
+financial instruments) nor should the analyses or opinion(s) be considered a solicitation of any kind. Sales persons and financial advisors affiliated with BofAS or any of its affiliates may not 
+solicit purchases of securities or financial instruments that are Restricted or Under Review and may only solicit securities under Extended Review in accordance with firm policies. 
+Neither BofA Securities nor any officer or employee of BofA Securities accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this 
+information. 
+
+16       Alphabet | 24 July 2025 
+page_end

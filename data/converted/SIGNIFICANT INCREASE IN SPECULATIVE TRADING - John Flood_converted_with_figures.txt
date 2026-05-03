@@ -1,0 +1,478 @@
+
+
+SIGNIFICANT INCREASE IN SPECULATIVE TRADING 
+FICC and Equities 225 July 2025 | 12:04PM UTC 
+Our Speculative Trading Indicator has increased sharply during the last few 
+months. The indicator now sits at its highest level on record outside of 1998- 
+2001 and 2020-2021. The rise in the indicator reflects the elevated recent share 
+of trading volumes in unprofitable stocks, penny stocks, and stocks with elevated 
+EV/sales multiples. The most actively traded stocks include most of the Mag 7 
+along with companies involved in digital assets and quantum computing. 
+
+The increase in the Speculative Trading Indicator mirrors other signs of 
+increased risk appetite within the equity market. Call options have recently 
+accounted for 61% of option volumes, the highest share since 2021. First-day IPO 
+returns have ballooned, and the $9 billion of SPAC issuance in 2Q 2025 
+represented the most active quarter since 1Q 2022. A basket of stocks popular 
+with retail traders (GSXURFAV) has rallied by 50% since early April. 
+
+?   recent rise in speculative trading activity signals near-term upside risk for 
+the broad equity market but also Increases the risk of an eventual downturn. 
+During the last 35 years, other sharp increases in speculative trading activity 
+haveßignaled above-average subsequent 3-, 6-, and 12-month S&P 500 returns, 
+but returns typically faltered on a 24-month horizon. Positioning data indicate 
+the potential for the recent intra-market rotations to continue. Despite the S&P 
+500Fitting at record highs, average equity investor length remains neutral, short 
+interestEfor the median S&P 500 stock remains close to the highest level since 
+2019, and market breadth remains extremely narrow. 
+
+Recent rise in speculative trading has been one of sharpest increases on 
+record ... 
+
+ 80 
+      1999-2000           2020-2021 
+ 60            Speculative        July 
+             Trading Indicator    2025 
+ 40          3-month changes 
+ 20 
+  0 
+ -20 
+ -40 
+ -60 
+ -80 
+   1995 2000 2005 2010 2015 2020 2025 2030 
+Source: Goldman Sachs Global Investment Research 
+
+    | Year | Speculative Trading Indicator (3-month change) |
+    |---|---|
+    | 1995 | 0 |
+    | 1996 | 10 |
+    | 1997 | 0 |
+    | 1998 | 20 |
+    | 1999 | 50 |
+    | 2000 | 60 |
+    | 2000 | -50 |
+    | 2001 | 20 |
+    | 2002 | 0 |
+    | 2003 | -20 |
+    | 2005 | 0 |
+    | 2007 | 10 |
+    | 2008 | 15 |
+    | 2009 | -10 |
+    | 2010 | 0 |
+    | 2012 | 10 |
+    | 2014 | -10 |
+    | 2015 | 0 |
+    | 2018 | -20 |
+    | 2019 | 0 |
+    | 2020 | 60 |
+    | 2021 | -70 |
+    | 2022 | 15 |
+    | 2023 | -40 |
+    | 2024 | 20 |
+    | Jul 2025 | 40 |
+
+    Summary:
+    The chart illustrates the 3-month changes in the Speculative Trading Indicator from 1995 to July 2025, with values fluctuating between approximately -80 and +80. The time series clearly depicts two historical periods of extreme speculative surges: 1999-2000, coinciding with the dot-com bubble, and 2020-2021, during the post-pandemic market rally, both reaching peaks around +60. These peaks were typically followed by sharp reversals into negative territory. Most significantly, the indicator shows a recent sharp increase, reaching approximately +40 by July 2025, which represents one of the highest levels on record outside of the aforementioned historical peaks.
+
+    Explanation:
+    This recent surge in the Speculative Trading Indicator signals a heightened risk appetite within the equity market, driven by elevated trading volumes in unprofitable, penny, and high EV/sales stocks. While past sharp increases in this indicator have historically preceded above-average short-term S&P 500 returns, they have also typically portended a faltering of returns over a longer, 24-month horizon, suggesting a potential increase in the risk of an eventual market downturn.
+
+page_end
+
+Sharp increases in speculative trading typically signal above-average short- 
+ term equity returns ... 
+ ? 
+ Sharp increases defined as 3-month changes in the Indicator exceeding 15 points, or 
+ roughly the top 5% of observations since 1990 
+
+  30% 
+       Average S&P 500 price returns since 1995 
+  25%    Unconditional              24% 
+
+  20%   Following sharp increases in 
+         Speculative Trading Indicator 16% 
+         (N=21) 
+  15% 
+                        12% 
+
+  10%                 8% 
+                 7%             7% 
+                                       6% 
+   5%     4%   4% 
+       2% 
+
+   0% 
+         3m     6m     12m    24m     36m 
+
+  Source: Goldman Sachs Global Investment Research 
+
+ ? 
+
+Short interest has risen sharply in recent months ... 
+
+  as of July 15, 2025 
+
+  4.0% 
+
+                         Median S&P 500 stock 
+  3.5%                   short interest as % of 
+                             market cap 
+  3.0% 
+
+   2.5% 
+                                        2.3% 
+
+   2.0% 
+
+                                       1.8% 
+   1.5% 
+           1.5%                   1.5% 
+
+  1.0% 
+     1995 2000 2005 2010   2015 2020 2025 2030 
+  Source: FINRA, Goldman Sachs Global Investment Research 
+
+US equity market breadth has become extremely narrow ... 
+
+    | Date | Median S&P 500 Stock Short Interest (% of Market Cap) |
+    |---|---|
+    | 1995 | 1.8% |
+    | 1997 | 2.3% |
+    | 2000 | 1.5% |
+    | 2002 | 2.5% |
+    | 2004 | 2.3% |
+    | 2006 | 2.5% |
+    | 2008 | 3.5% |
+    | 2009 | 3.6% |
+    | 2010 | 3.0% |
+    | 2012 | 2.0% |
+    | 2014 | 2.5% |
+    | 2016 | 2.8% |
+    | 2018 | 2.0% |
+    | 2019 | 1.8% |
+    | 2020 | 1.6% |
+    | 2021 | 1.5% |
+    | 2022 | 1.7% |
+    | 2023 | 1.8% |
+    | Jul 15, 2025 | 2.3% |
+
+    Summary: This line chart illustrates the median S&P 500 stock short interest as a percentage of market capitalization from 1995 to mid-2025. The X-axis represents the year, while the Y-axis shows the short interest percentage ranging from 1.0% to 4.0%. Key trends include a significant peak of approximately 3.6% around 2008-2009, followed by a general decline to a low of 1.5% in 2021. Since 2021, the short interest has seen a sharp resurgence, climbing to 2.3% as of July 15, 2025, reaching levels not seen since late 2017.
+
+    Explanation: The sharp rise in median S&P 500 stock short interest in recent months, reaching 2.3% by July 2025, signals an increase in bearish sentiment or hedging activity within the equity market, particularly for the average stock. This trend occurs even as the overall S&P 500 reaches record highs, aligning with the broader context of narrow market breadth and neutral average equity investor length, suggesting a divergence where speculative activity is concentrated in a few large-cap stocks while the broader market faces increasing shorting pressure.
+
+    | Horizon | Unconditional Returns | Returns Following Sharp Speculative Trading |
+    |---------|-----------------------|---------------------------------------------|
+    | 3m      | 2%                    | 4%                                          |
+    | 6m      | 4%                    | 7%                                          |
+    | 12m     | 8%                    | 12%                                         |
+    | 24m     | 16%                   | 7%                                          |
+    | 36m     | 24%                   | 6%                                          |
+
+    Summary: This bar chart illustrates the average S&P 500 price returns since 1995 over different time horizons, comparing unconditional returns against returns following sharp increases in the Speculative Trading Indicator. The X-axis represents investment horizons (3 months to 36 months), and the Y-axis shows average price returns in percentages. A key trend observed is that following sharp increases in speculative trading, the S&P 500 tends to outperform its unconditional average over short horizons (3m, 6m, 12m), but significantly underperforms over longer horizons (24m, 36m), with a notable crossover where outperformance turns into substantial underperformance.
+
+    Explanation: The chart directly supports the surrounding text, which states that sharp increases in speculative trading signal above-average short-term S&P 500 returns but faltering returns on a 24-month horizon. This suggests that while elevated speculative activity might provide an initial boost to the market, it often precedes periods of lower returns in the medium-to-longer term, indicating increased risk and potential for an eventual downturn.
+
+page_end
+
+ 10% 
+                   Market breadth 
+                 Percent below 52-week high: 
+ 5%              SPX index less median stock 
+                 (lower = narrower breadth) 
+ 0% 
+            +1 std. 
+
+ -5% 
+                Avg 
+
+ -10% 
+               -1 std. 2016 
+                        2020 
+ -15%                     2023 
+
+ -20% 
+   1995 2000 2005 2010 2015 2020 2025 2030 
+Source: Goldman Sachs Global Investment Research 
+
+Calls have recently accounted for 61% of US option volumes ... 
+
+ 70% 
+      Call option volumes 
+     as % of total volumes 
+ 65% 
+      (rolling 1m average) 
+
+ 60% 
+
+ 55% 
+
+ 50% 
+
+ 45% 
+   2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 
+ Source: Bloomberg, Goldman Sachs Global Investment Research 
+
+Recent IPOs have generated strong first-day returns ... 
+ ? 
+
+    | Year | Call Option Volume (%) |
+    |------|------------------------|
+    | 2016 | 51.5                   |
+    | 2017 | 53.0                   |
+    | 2018 | 54.0                   |
+    | 2019 | 52.0                   |
+    | 2020 (trough) | 46.0                   |
+    | 2020 (peak) | 58.0                   |
+    | 2021 (peak) | 66.0                   |
+    | 2021 (avg) | 60.0                   |
+    | 2022 (avg) | 53.0                   |
+    | 2022 (trough) | 48.0                   |
+    | 2023 (avg) | 55.0                   |
+    | 2024 (avg) | 58.0                   |
+    | 2025 (recent) | 61.0                   |
+    | 2026 (projected) | 59.5                   |
+
+    Summary: The chart displays the rolling 1-month average of call option volumes as a percentage of total option volumes from 2016 to late 2025, with a projection into 2026. Prior to 2020, this percentage fluctuated largely between 48% and 58%. A significant surge occurred from mid-2020, peaking around 65-66% in early 2021, followed by a sharp decline throughout 2022 to a trough near 48%. Since late 2022, there has been a steady increase, with recent volumes approaching 61% in 2025, indicating a notable return to elevated levels seen prior to the 2022 decline.
+
+    Explanation: High call option volumes as a percentage of total volumes suggest heightened speculative activity and bullish sentiment in the market, as investors are increasingly betting on asset price increases. The dramatic rise in 2020-2021 aligns with the "meme stock" phenomenon and increased retail participation, while the recent rebound in 2024-2025, alongside mentions of "sharp increases in speculative trading" and "narrow market breadth" in the broader context, indicates a re-emergence of concentrated bullish speculation within the US equity market.
+
+    | Year | Market Breadth (% below 52-week high) | Average (%) | +1 Std (%) | -1 Std (%) |
+    |---|---|---|---|---|
+    | 1995 | -5.0 | -6.5 | -2.5 | -10.5 |
+    | 1996 | -4.0 | -6.5 | -2.5 | -10.5 |
+    | 1997 | -3.0 | -6.5 | -2.5 | -10.5 |
+    | 1998 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 1999 | -8.0 | -6.5 | -2.5 | -10.5 |
+    | 2000 | 8.0 | -6.5 | -2.5 | -10.5 |
+    | 2001 | -20.0 | -6.5 | -2.5 | -10.5 |
+    | 2002 | -10.0 | -6.5 | -2.5 | -10.5 |
+    | 2003 | -5.0 | -6.5 | -2.5 | -10.5 |
+    | 2004 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 2005 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 2006 | -4.0 | -6.5 | -2.5 | -10.5 |
+    | 2007 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 2008 | -10.0 | -6.5 | -2.5 | -10.5 |
+    | 2009 | -4.0 | -6.5 | -2.5 | -10.5 |
+    | 2010 | -1.0 | -6.5 | -2.5 | -10.5 |
+    | 2011 | -5.0 | -6.5 | -2.5 | -10.5 |
+    | 2012 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 2013 | -4.0 | -6.5 | -2.5 | -10.5 |
+    | 2014 | -5.0 | -6.5 | -2.5 | -10.5 |
+    | 2015 | -7.0 | -6.5 | -2.5 | -10.5 |
+    | 2016 | -12.0 | -6.5 | -2.5 | -10.5 |
+    | 2017 | -5.0 | -6.5 | -2.5 | -10.5 |
+    | 2018 | -4.0 | -6.5 | -2.5 | -10.5 |
+    | 2019 | -6.0 | -6.5 | -2.5 | -10.5 |
+    | 2020 | -11.0 | -6.5 | -2.5 | -10.5 |
+    | 2021 | 0.0 | -6.5 | -2.5 | -10.5 |
+    | 2022 | -8.0 | -6.5 | -2.5 | -10.5 |
+    | 2023 | -13.0 | -6.5 | -2.5 | -10.5 |
+    | 2024 (current) | -12.0 | -6.5 | -2.5 | -10.5 |
+
+    Summary: This time series chart, titled "Market breadth," illustrates the percentage difference between the S&P 500 index's performance and the median stock's performance, specifically as a percentage below their respective 52-week highs, spanning from 1995 to mid-2020s. Lower values indicate narrower market breadth. The data, represented by a volatile line, fluctuates significantly around an average of -6.5%, with upper and lower standard deviation bands at -2.5% and -10.5% respectively. Notable inflection points include an extreme peak in 2000 (around 8%) followed by a sharp plunge to a trough of -20% in 2001. Recent periods have seen troughs in 2016 (-12%), 2020 (-11%), and an particularly narrow breadth in 2023 (-13%), with current levels (2024) remaining near this narrow breadth at around -12%.
+
+    Explanation: The chart directly supports the broader context that "US equity market breadth has become extremely narrow," highlighting how the current state is near historical troughs observed during periods of market stress. This suggests that recent market gains have been highly concentrated in a few large-cap stocks (driving the SPX), while the majority of stocks have lagged considerably. Such narrow breadth can indicate a potentially fragile market, where underlying weakness in most stocks is masked by the strong performance of a select few, raising questions about sustainability and widespread participation.
+
+page_end
+
+ IPOs on US exchanges with gross proceeds greater than $25 million 
+
+  150% 
+                      Monthly median IPO 
+  125%                 return during first 
+  100%                   trading day 
+
+   75% 
+
+   50%                            37% 
+
+   25% 
+
+    0% 
+
+  (25)%                           30y 
+                                 median 
+  (50)%                           =9% 
+
+  (75)% 
+     1995 2000 2005 2010 2015 2020 2025 2030 
+
+ Source: FactSet, Goldman Sachs Global Investment Research 
+
+SPACs raised $12 billion in 1H 2025 ... 
+
+ $40 
+                      1Q 2021 = 
+      Quarterly capital $93 billion 
+ $35 
+      raised by SPACs 
+        (billions) 
+ $30 
+
+ $25 
+
+ $20 
+
+ $15 
+                                2Q 2025 = 
+ $10                            $9 billion 
+
+  $5 
+
+  $0 
+   2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 
+
+ Source: Dealogic, Goldman Sachs Global Investment Research 
+
+Russell 3000 stocks with the highest share trading volumes during the past 
+month ... 
+
+ ? 
+
+    | Quarter | Capital Raised ($bn) |
+    |---------|----------------------|
+    | 2016 Q2 | 0.5                  |
+    | 2016 Q4 | 1.0                  |
+    | 2017 Q2 | 2.5                  |
+    | 2017 Q4 | 2.0                  |
+    | 2018 Q2 | 2.0                  |
+    | 2018 Q4 | 3.0                  |
+    | 2019 Q2 | 3.5                  |
+    | 2019 Q4 | 3.5                  |
+    | 2020 Q1 | 3.5                  |
+    | 2020 Q2 | 7.0                  |
+    | 2020 Q3 | 32.0                 |
+    | 2020 Q4 | 36.0                 |
+    | 2021 Q1 | 93.0                 |
+    | 2021 Q2 | 29.0                 |
+    | 2021 Q3 | 15.0                 |
+    | 2021 Q4 | 8.5                  |
+    | 2022 Q1 | 1.5                  |
+    | 2022 Q2 | 1.0                  |
+    | 2022 Q3 | 0.5                  |
+    | 2022 Q4 | 0.5                  |
+    | 2023 Q2 | 1.0                  |
+    | 2023 Q4 | 1.5                  |
+    | 2024 Q2 | 2.5                  |
+    | 2024 Q4 | 3.5                  |
+    | 2025 Q1 | 3.5                  |
+    | 2025 Q2 | 9.0                  |
+    | 2025 Q4 | 0.5                  |
+    | 2026 Q2 | 0.5                  |
+
+    Summary:
+    This bar chart illustrates the quarterly capital raised by Special Purpose Acquisition Companies (SPACs) from 2016, with projections extending to 2026. The X-axis represents the quarters over this decade-long period, while the Y-axis indicates the capital raised in billions of dollars. The chart reveals a dramatic surge in SPAC activity, peaking phenomenally in Q1 2021 with an annotated $93 billion raised, though the visual bar is clipped by the chart's $40 billion Y-axis limit. Following this peak, capital raising collapsed throughout 2022 and early 2023 to minimal levels, before showing a gradual recovery and accelerating trend into 2024 and 2025, reaching $9 billion in Q2 2025.
+
+    Explanation:
+    The extreme volatility in SPAC capital raising reflects a speculative bubble and its subsequent bursting, driven by regulatory scrutiny and poor post-merger performance. The recent increase in capital raised by SPACs, particularly the $9 billion in Q2 2025, suggests a potential re-emergence or stabilization of this fundraising mechanism in capital markets after a period of significant downturn.
+
+    | Year | Monthly Median IPO Return (%) | 30y Median Return (%) |
+    |---|---|---|
+    | 1995 | 15% | 9% |
+    | 1996 | 25% | 9% |
+    | 1997 | 40% | 9% |
+    | 1998 | 60% | 9% |
+    | 1999 | 100% | 9% |
+    | 2000 | -30% | 9% |
+    | 2001 | -45% | 9% |
+    | 2002 | -15% | 9% |
+    | 2003 | 5% | 9% |
+    | 2004 | 10% | 9% |
+    | 2005 | -5% | 9% |
+    | 2006 | 20% | 9% |
+    | 2008 | -50% | 9% |
+    | 2009 | 125% | 9% |
+    | 2010 | 10% | 9% |
+    | 2011 | 0% | 9% |
+    | 2013 | 25% | 9% |
+    | 2014 | 50% | 9% |
+    | 2015 | -10% | 9% |
+    | 2017 | 30% | 9% |
+    | 2020 | 85% | 9% |
+    | 2021 | 55% | 9% |
+    | 2022 | -15% | 9% |
+    | 2023 | 10% | 9% |
+    | 2024 | 37% | 9% |
+
+    Summary:
+    The bar chart displays the monthly median IPO return during the first trading day for US IPOs with gross proceeds exceeding $25 million, spanning from 1995 to late 2024. The X-axis represents the years, while the Y-axis quantifies the median first-day return in percentages. A horizontal dashed line indicates the 30-year median return, which stands at 9%. The chart highlights periods of significant volatility and elevated returns, such as peaks over 100% during the dot-com era (1999-2000) followed by steep declines into negative territory (2000-2003), and another surge to over 125% around 2008-2009. More recently, returns peaked around 85% in 2020 and are currently at a robust 37%, notably above the long-term median.
+
+    Explanation:
+    This chart illustrates the cyclical nature of investor appetite for new market entrants, with periods of high first-day returns reflecting speculative fervor. The strong recent IPO returns, evidenced by the 37% figure well above the 9% 30-year median, indicate a frothy market for new listings, aligning with the broader context of high call option volumes mentioned on the previous page. This resurgence in IPO performance, alongside the significant capital raised by SPACs in 2020-2021 (as shown in an adjacent chart), collectively points to a period of heightened liquidity and risk-taking in equity markets.
+
+page_end
+
+                                                           Market 1m share    Short                    EV/sales multiple 
+                                                            cap     trading interest as Recent returns       Consensus 
+                                                                                         1m    12m      LTM    12m fwd 
+Company                Ticker Subindustry                  (billions) volume (mn) % of float 
+                                                               $2    4,304      28 %     90 % 415 %      13x     11x 
+BigBear.ai Holdings, Inc. BBAI IT Consulting & Other Services 
+                                                               9     4,249      33       43    (11)      11       5 
+Lucid Group, Inc.      LCID   Automobile Manufacturers 
+                                                                                 1       18     39       28      18 
+NVIDIA Corporation     NVDA   Semiconductors                4,167    3,922 
+                                                                                 3        (5)   35       12      11 
+Tesla, Inc.            TSLA   Automobile Manufacturers      1,071    2,154 
+                                                                2    1,976      34       66    (27)       4      3 
+Plug Power Inc.        PLUG   Electrical Components & Equipment 
+                                                                                 3        5      1        8       6 
+Nu Holdings Ltd.       NU     Diversified Banks               62     1,887 
+                                                                     1,868       5        6    (11)       1       1 
+Ford Motor Company     F      Automobile Manufacturers         45 
+                                                               7     1,689      17      203     59       NM     NM 
+QuantumScape Corporation QS   Automotive Parts & Equipment 
+                                                                     1,633       3        11    (28)      3       3 
+Intel Corporation      INTC   Semiconductors                  102 
+                                                                                14        40   190        7       7 
+SoFi Technologies Inc SOFI    Consumer Finance                24     1,609 
+                                                                                 6       25     54        2       2 
+Warner Bros. Discovery, Inc. WBD Movies & Entertainment       33     1,555 
+                                                              365    1,517       2        11   437       125     86 
+Palantir Technologies Inc. PLTR Application Software 
+                                                                1    1,436       0        45    (17)      5       3 
+Bit Digital, Inc.      BTBT   Application Software 
+                                                               8     1,356       0        16    21        1       1 
+American Airlines Group Inc. AAL Passenger Airlines 
+                                                                2    1,246      31        46     (6)     17       8 
+TeraWulf Inc.          WULF   Application Software 
+                                                                                 4        34   346       31      24 
+Robinhood Markets, Inc. HOOD Investment Banking & Brokerage    90    1,219 
+                                                                                 0       22      3        9       7 
+Advanced Micro Devices, Inc. AMD Semiconductors               257    1,153 
+                                                                                 1        6      (4)      8       8 
+Apple Inc.             AAPL   Tech Hardware Storage & Peripherals 3,199 1,143 
+                                                                6     1,102     25       24     (19)     12       8 
+MARA Holdings, Inc.    MARA   Application Software 
+                                                                2     1,058      0        89     9        16      6 
+Cipher Mining Inc      CIFR   Application Software 
+.... 
+                                                                5    1,052      35       29    147       47      26 
+SoundHound Al, Inc     SOUN   Application Software 
+                                                                6     1,036      21       36   1780      260    174 
+D-Wave Quantum Inc.    QBTS   Application Software 
+                                                                5    1,026      20        50   1341     507     280 
+Rigetti Computing, Inc. RGTI Semiconductors 
+                                                                5     1,009     26        55    24        11      7 
+Riot Platforms, Inc.   RIOT   Application Software 
+                                                                                 1         4    16        6      10 
+Bank of America Corp   BAC    Diversified Banks               363      986 
+                                                                7      977      17        14   149       NM      66 
+Archer Aviation Inc    ACHR   Aerospace & Defense 
+                                                                       956      35        38    155        8      5 
+Hims & Hers Health, Inc. HIMS Health Care Services             13 
+                                                                                 1        10    22         4      3 
+Amazon.com, Inc.       AMZN   Broadline Retail              2,424      923 
+                                                                                 1        15     5         6      5 
+Alphabet Inc.          GOOGL Interactive Media & Services    2,307     919 
+                                                                       909       19       26    (34)       1      1 
+Super Micro Computer, Inc. SMCI Tech Hardware Storage & Peripherals 31 
+
+                                                                      1,233      5 %      26 %   22 %     9x      7x 
+ Top 30 median                                                $18 
+
+Source: FactSet, Goldman Sachs Global Investment Research 
+
+ ? 
+page_end

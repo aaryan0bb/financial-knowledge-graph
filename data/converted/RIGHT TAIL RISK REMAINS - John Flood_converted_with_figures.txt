@@ -1,0 +1,143 @@
+
+
+RIGHT TAIL RISK REMAINS 
+FICC and Equities | 27 July 2025 | 1:12PM UTC 
+"No matter how hard you train, somebody will train harder. No matter how 
+hard you run, somebody will run harder. No matter how badly you want it, 
+somebody will want it more. Be that Somebody." 
+-Steve Prefontaine? 
+
+The S&P 500 has already closed on 14 all time highs this year, going a perfect 5 
+for 5 last week, after some successful trade deals (most notably 15% w/ Japan 
+and traders bracing for the same with the EU imminently), solid Q2 earnings, and 
+more policy clarity out of Washington. 
+? 
+Despite lofty valuations (S&P 500's 22x forward 12M P/E multiple is 
+  rd percentile on 30 year look back), I believe right tail risk in the mkt still exists 
+as investor positioning (neutral) and index prices (ATHs) remain incongruent. 
+Also worth mentioning that both retail and systematic bids remain relentless, 
+corporates reenter the market place in full force this week (buyback blackout 
+period ends 7/28), and the highest profile IPO of the year is opening for trading 
+on Thursday and should keep the recent AI re-enthusiasm at fever pitch. 
+
+Per GSPB data, last week US Fundamental L/S Gross leverage fell -1.2 pts to 
+209.9% (93rd percentile 3-year), while US Fundamental L/S Net leverage 
+finished unchanged at 52.4% (51st percentile 3-year). US Fundamental 
+long/short ratio (MV) rose +0.3% to 1.666 (13th percentile three-year) ... 
+ ? 
+                     US Fundamental L/S (Asset Weighted) 
+Leverage                Gross %          Net %         L/S Ratio (MV) 
+ Current                 209.9            52.4            1.666 
+  WoW Chg                -1.2pt           0.0pt            0.3% 
+  MoM Chg                 0.1pt           1.8pt            1.8% 
+  YTD Chg                13.3pt          -1.6pt            -5.2% 
+ Current 1-Yr Percentile 80%              51%              38% 
+ Current 3-Yr Percentile 93%                               13% 
+ Current 5-Yr Percentile 96%              34%              8% 
+Source = GSPB 
+
+Last week single stocks collectively were modestly net bought (+0.3 SDs), driven 
+by risk unwinds with short covers outpacing long sales (1.5 to 1). Last week's 
+notional de-grossing in US Single     - long sales and short covers combined - 
+was the largest in 6 months and ranks in the 94th percentile on a 5-year 
+lookback. 8 of 11 US sectors saw de-grossing activity, led in notional terms by 
+Info Tech (long sales > short covers), Consumer Discretionary (short covers > 
+long sales), Energy (long sales > short covers), and Utilities (long sales > short 
+covers). 
+page_end
+
+HFs unwound risk in US TMT stocks at the fastest pace since Jul '24 (98th 
+percentile 5-year), driven by long sales outpacing short covers (2 to 1). Most of 
+the TMT subsectors saw risk unwinds, led by Semis & Semi Equip (long sales > 
+short covers), Software (short covers > long sales), IT Services (short covers > 
+long sales), and Media (short covers > long sales). It's worth noting that Semis & 
+Semi Equip Net exposure (as % of total US Prime book) still sits near 5-year highs 
+in the 94th percentile, while Software & Services Net exposure is near 5-year 
+lows in the 2nd percentile. 
+
+          Prime Book: US TMT (Info Tech + Comm Svcs) 
+ 3 
+ 2- 
+ 1 
+ 0 
+ -1- 
+ -2- 
+ -3- 
+ -4- 
+ -5- 
+ -6- 
+ -7- 
+ -8- 
+   2020 2021 2022     2023    2024    2025 
+     Jan Jul Jan Jul Jan Jul Jan Jul Jan Jul 
+ -Weekly Notional Gross Flow (Z Score) - July 18th to July 24th 
+
+Source = GSPB 
+
+Megacap positioning / expectations courtesy of GS TMT trading ... 
+
+- MSFT reports on 7/30 ... Microsoft has firmly broken out of its ~18month 
+holding pattern, adding $650bn to its cap (which now stands just shy of $4T) this 
+year. Well positioned to capture a number of major secular trends (gen AI, public 
+cloud consumption, SaaS adoption etc) + relatively insulated from tariff 
+considerations, MSFT has become an "easy"    long for most Growth, TMT, 
+Generalist portfolios. We have as a 9 on 1-10 positioning scale. For the quarter, 
+Bulls are playing for mid-30s+ Azure Growth. 
+
+-[META reports on 7/30 ... While still well-owned by most measures & 
+sentiment still largely positive, we've noted a slight uptick in caution in recent 
+weeks. We have as an 8.5 on 1-10 positioning scale.     still expected in the 
+quarter & guide as the Ad environment remains strong (and benefiting from AI 
+efficiency), but some longer term uncertainties are emerging given ecent 
+moves [hiring spree / off-balance sheet datacenter investments are bringing the 
+ROI discussion back into the fold). For the print, bulls are looking for robust top 
+line performance in the quarter & guide to support growing spending trends. 
+
+    | Date | Weekly Notional Gross Flow (Z Score) |
+    |---|---|
+    | Jan 2020 | 0.5 |
+    | Apr 2020 | 1.0 |
+    | Jul 2020 | -0.5 |
+    | Oct 2020 | 0.2 |
+    | Jan 2021 | -7.2 |
+    | Apr 2021 | 0.5 |
+    | Jul 2021 | 0.2 |
+    | Oct 2021 | -0.8 |
+    | Jan 2022 | 1.5 |
+    | Apr 2022 | -1.0 |
+    | Jul 2022 | -0.8 |
+    | Oct 2022 | -2.8 |
+    | Jan 2023 | -0.5 |
+    | Apr 2023 | 0.8 |
+    | Jul 2023 | -0.2 |
+    | Oct 2023 | 0.5 |
+    | Jan 2024 | 0.5 |
+    | Apr 2024 | 2.2 |
+    | Jul 2024 | -3.0 |
+    | Oct 2024 | 1.0 |
+    | Jan 2025 | 2.5 |
+    | Apr 2025 | 0.8 |
+    | Jul 18-24, 2025 | -1.8 |
+
+    Summary: This bar chart displays the Weekly Notional Gross Flow in Z-score for the US TMT (Information Technology + Communication Services) Prime Book from early 2020 through July 2025. The X-axis represents the time series, marked semi-annually, while the Y-axis ranges from -8 to +3 Z-scores. Flows generally oscillate between -2 and +2, but show extreme spikes, notably a massive de-grossing event exceeding -7 Z-score in early 2021. Other significant negative flows occurred in late 2022 and mid-2024 (around -3 Z-score), indicating periods of substantial risk unwinding. The most recent period, July 18-24, 2025, is highlighted by a red line at approximately -1.8 Z-score, marking a rapid unwinding.
+
+    Explanation: The chart visualizes the extent of risk unwinding by Hedge Funds in the US TMT sector, with the current period representing a significant de-grossing event, characterized by long sales outpacing short covers. This trend aligns with the broader context of fluctuating investor positioning in mega-cap tech stocks, where sentiment shifts rapidly. The substantial unwinding shown is the fastest since July 2024 and underscores the dynamic rebalancing of portfolios in response to market conditions and earnings expectations within this critical sector.
+
+page_end
+
+- AMZN reports on 7/31 ... A relative laggard on the year ("only" +5% ytd), 
+AMZN has had to contend with tariff uncertainties (which have abated in recent 
+weeks) + some technical/flow headwinds (Bezos Form 4s) + debates on AWS 
+growth into the second half. Still a Long for most, but we sense some 2-way 
+tactical positioning. We have as a 7 on 1-10 positioning scale. This looks like a 
+very solid long opportunity to me right now. 2 
+
+- AAPL Reports on 7/31 ... AAPL a very clear outlier from aßentiment, flow, and 
+positioning perspective relative to Supercap Tech peers. As the largest MF 
+Underweight in the market (per latest GIR "Mutual Fundamentals) and a popular 
+HF relative short, AAPL has represented a significant source of "performance 
+Alpha" for most this year (stock -17% vs. NDX +9%). We have as a 4 on 1-10 
+positioning scale. A beat is expected in the quarter (and most are "respectful" of 
+that dynamic), but long term uncertainties around AAPL's competitive 
+positioning feel like they remain as high as ever. 
+page_end

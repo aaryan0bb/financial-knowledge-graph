@@ -1,0 +1,243 @@
+
+
+GS US TMT:                  ... inflections .... [GOOG, 
+
+IBM, NOW bull/bear debates]                                  .. 
+FICC and Equities 
+
+24 July 2025 | 1:03PM UTC 
+
+GS US TMT: All references to "we/us/our" refer to the views and observations of the desk. 
+
+GS US TMT: ... inflections + x-throughs .... [GOOG, IBM, NOW] .. 
+
+A busy night of action in TMT overnight - run down of big picture takes (AI/ 
+capex + IT Spending), biggest stock debates (GOOG. IBM. NOW) and read- 
+throughs to watch 
+
+The Big Picture: 
+
+  1. Can GOOGL (and hyperscaler peers - yes, all eyes on META's capex/opex 
+      ambitions into 2026+) digest another step up in capex (GOOG: GSe 
+      ~$102bn in '26 capex, alongside D&A growth of 44% y/y to ~$33bn)? .. 
+      The general view in the market has been that as long as revenues are 
+      strong (yes, in part an output of macro) and there are visible ROI signs (see 
+      Google Cloud re-accel to 32% y/y and inflecting Gemini 
+      infusion), investors are generally comfortable green lighting GenAI 
+      investments (though yes, some may argue that it's still just "easiest" to own 
+      NVDA & co' in the infra stack ) 
+
+  2. IT / Enterprise Tech Spend ... is an inflection (1) on the come? ... 
+      some pretty notable (+) inflections from IBM (ceo: "I've turned from being, 
+      I use the word cautious optimism at the end of the first quarter, I would now 
+      turn my way all the way to optimism around the macro environment") 
+      and NOW (ceo: "I don't think the demand environment changed 
+      dramatically. I think the demand environment is wide open for AI 
+      innovation.") - to be more detailed here, IBM spoke to healthy geos (Japan, 
+      S Asia, Middle East) as well as the case for 'why enterprise technology is 
+page_end
+
+      going to remain a strong grower somewhere in the 5%, 6%, 7% range' [ceo, 
+      conf call] ... 
+
+The debates today: 
+
+GOOGL +4% in pre ... despite some tactical debate on 
+
+px' action (e.g. consensus "beat and fade" / capped view 
+into print as it may be hard to make new ATHs with 
+ Search/DOJ unknowns)              ... it does feel like the 'rate-of- 
+change' is increasingly leaning towards the Bull camp .. 
+
+BULLS .. cheapest mega-cap (18x '26 GAAP EPS ex-cash) .. very robust 
+topline (Search & YT now solidly DD y/y growth with easing y/y comps into 2H/ 
+ 1Q) .. Google Cloud is a force to reckon with (re-accel to low-30s y/y with OMs 
+ +900 bps y/y) ... the AI bear case is set to take a breather (Paid Clicks 
+unexpectedly re-accel), if not become a tailwind (multi-surface approach to AI, 
+including distribution at scale) .. YouTube is (very?) under-appreciated (+13% y/y 
+growth w/ very strong qualitative commentary on the rising impact of both Shorts 
+and subscription revenue) .. 
+
+BEARS .. capex going up a lot (just adds 'pressure' to sustain topline) ... lack of 
+ OM expansion despite revenues upside (Google Services OMs flat y/y) 
+ ... modest downtick in buyback pacing (~$13.6bn, down from $15-16bn range) 
+... lingering AI debates (competition + shifting consumer 
+behaviors) .. uncertainty into DoJ/Search = hard to ignore .. FCF has stagnated 
+over last 4-5 years (~$65-70bn range) .. 
+
+NET/NET (desk take): Is the GenAI 'bear case' defeated ... ? ... don't think 
+ 'defeated', but similar to other 'overhangs' out there (think: UBER vs AVs), it 
+could potentially fade into background - for now (until the next headline / 
+datapoint) - as paid clicks re-accel'd and the proliferation of Gemini / AI across 
+ the portfolio looks front footed. So, while there is some acknowledgement that 
+there could be a local ceiling on GOOG (all eyes on potential DoJ/Search trial 
+outcomes), but, pending that outcome - the story arguably starts to set-up well 
+into 2026 (inflecting Cloud, robust YT/Search, AI productization, GAAP 
+valuation) ... 
+page_end
+
+Sheridan/GIR remains convicted in his BUY-rating - (link to note): "We continue 
+to be of the view (contrary to some negative investor sentiment currently) that 
+Alphabet can successfully navigate the current multi-year evolution of its core 
+Search product by leveraging its current strengths (existing user base; leading 
+product innovation, which is accelerating in pace; technical infrastructure 
+footprint and cost leverage vs. competitors; etc.). We found Alphabet mgmt 
+team's commentary on the earnings call supportive of a multi-surface approach to 
+AI that might end up tailored to an array of query length/intent/format that could 
+drive key points of differentiation in the competitive landscape." [GIR] 
+
+IBM -6.5% in pre .. this is among the most DEBATED 
+stocks in large-cap tech (alongside ORCL & UBER) .. 
+
+Incremental feedback is from the BEARS overnight as IBM fell short of the 2 key 
+measuring sticks - Software momentum (SW missed & decel'd in the quarter 
+largely due to a pullback in Transaction Processing with organic SW growth ests 
+in the ~3-4% y/y range) and FCF revisions (very modest 'tweak' to FY guide) .... 
+[not to mention, IBM's Consulting bookings declined 18% Y/Y given difficult 
+comps] 
+
+..... that said, it doesn't feel like the full BULL case will be fully shaken out 
+today as Bulls can point to clear upside in Margins (~2pt GMs beat), a 
+very confident tone in Software into 2H / 2026 (yes, path to re-accelerating SW 
+growth ahead - esp with Red Hat accelerating in 2Q alone coupled with 
+mainframe attach on the come), some 'green-shoots' in Consulting (per IBM), 
+a very strong Mainframe cycle (with SW monetization / attach on the come) 
+and then a FCF story that has upside (in 2H). 
+
+Jim/GIR remains BUY rated as he believes the company is on track to complete 
+its pivot to long-term growth fueled by stronger software growth and long-term 
+market share gains in Consulting - and thinks the stock can re-rate higher as 
+software mix improves and margins move higher (gir take) 
+
+NOW +8% in pre .. feels like bears have been around 
+
+the hoop here (EV/S multiple vs pot'lly slowing 
+page_end
+
+topline) ... but last night will likely pressure that view 
+
+(?) given 2H/2026 set-up           .. 
+
+I anticipate some debate today if NOW can attract an active bull camp (not just a 
+"yeah, NOW is solid" vibe that feels like is out there) and move into 'must own' 
+software in the current AI backdrop (or, at least 'can own' Software) -- along the 
+ORCL, MSFT, SNOW, NET, CRWD types ... 
+
+... hard to find too much to nitpick on in NOW's results overnight (~200 bps beat 
+on Subs Revs / cRPO) or in their commentary (very upbeat tone) - giving way to 
+an arguably attractive 2H / 2026 set-up ( .. "conservative" 3Q guide -> a large 
+renewal cohort (4Q) creating a meaningful opportunity to upsell Pro Plus -> AI 
+upside / optionality into 2026 as AI NNACV again beat internal expectations in 
+2Q .. ) 
+
+So what's the bear camp? .. likely an argument that 2Q had some pull-forward 
+benefit (per CFO commentary 'some early on-prem renewal'), 3Q guide is an 
+implied ~350 bps decel and the company is already "priced" for 20%+ growth (so 
+results are just "necessary" to sustain these levels) - otherwise, still plenty of 
+unknowns in the AI arena and OMs are not going up as many would have thought 
+given their efficiencies. 
+
+Kash/GIR remains BUY-rated - noting (link to note): "ServiceNow's AI 
+execution is driving deeper consolidation, expanding AI budget share and 
+positioning it to at least meet its FY26 $1B AI ACV target. Revenue contributions 
+should scale meaningfully in FY26 and become a prominent growth driver in 
+FY27 as usage ramps and Assist packs gain traction. ServiceNow's AI-led 
+transformation across front-office CRM, back-office operations, and cross- 
+functional domains positions it as a foundational layer in the enterprise AI stack. 
+We see the combination of strong execution, expanding product breadth, and 
+accelerating AI monetization supporting a durable 20%+ growth trajectory (w/ 
+30%+ FCFM's)." [GIR]. 
+
+Datapoints & read-throughs today 
+
+Semis / AI Infra (+) read as GOOG 2Q capex accel'd to +70% y/y and Alphabet 
+(unexpectedly) raised it's 2025 capex outlook to $85b (a ~13% increase from 
+prior guidance) with commentary of a roughly ~2/3 vs. ~ 1/3 split of total 
+page_end
+
+ technical infrastructure capex between servers vs. data centers as well as 
+ the company pointing to growth in 2025 (GSe +15% y/y capex in '26) - yes, 
+ watch NVDA, AVGO & others. 
+
+IT Services / Consulting .. after 'ok' / benign results 
+from INFY yday, IBM Consulting revs were inline with expects (down 0.3% in 
+ CC) with b-t-b at 1.14x and a strong GenAI consulting backlog (~80% of IBM's 
+ $7.5bn total GenAI bookings = consulting related), albeit offset by Total 
+ consulting signings down (18% y/y cc) .. 
+
+ Ads broadly (+) read from Search and YT beats in 2Q - 
+ watch PINS, SNAP, TTD, RDDT, META, APP types ... though, we have to wait 
+for next week for the next Ad datapt on earnings). 
+
+ The Public Cloud ACCELERATIONS are playing out with Google Cloud's big 
+ accel to +32% y/y (follows Azure and OCI) - watch MSFT Azure 
+and AMZN AWS ( .. and, I guess, the infra / consumption names - MDB, NET, 
+DDOG, CFLT, SNOW etc .. ) 
+
+ Software (+) read from NOW's solid cRPO results/guide should (could?) ease 
+near-term Enterprise SW concerns ( .. at least, for now) - especially given 
+commentary from IBM on a very solid IT spending backdrop. 
+
+ AVs .. Google Waymo noted autonomous drive now >100mn miles driven and 
+ currently testing 10 cities this year (NY, Philly) and "hope(s) to serve riders in all 
+    in the future" .. . and TSLA spent a lot of time on Robotaxis last night, noting: 
+ "And I think we'll probably have autonomous ride-hailing in about half the 
+population of the U.S. by the end of the year. That's at least our goal, subject to 
+regulatory approvals. I think we'll technically be able to do it. So assuming we get 
+regulatory approvals, it's probably addressing half the population of the U.S. by 
+ the end of the year." 
+
+ Semis ... some signs of fatigue in non-AI pure-plays in Semis during 2Q EPS 
+ season ... STMicro -14% in EU (now down 18% in 2-days) on weaker Autos 
+results + softer 3Q margins guide .. FLEX -4.5% in pre' despite a solid beat-and- 
+raise .. TXN -13% yday (second worst day in 25+ years), ASM 
+International -11% yday ( ... follows ASML -11% last ewek) and APH~$15 
+peak-to-trough intra-day roll yday) ..... on the bright-side, MXL +30% on a beat/ 
+raise and upbeat order commentary and BE Semi +5.5% in EU on a beat ... 
+page_end
+
+Consumer .. don't think much of a read-through here at all to TMT .. but our 
+
+                                                                                           miss/cut as a 
+Consumer team has been flagging CMG -10% in pre on a SSSG 
+
+surprising and incremental datapoint for the consumer landscape to digest .. 
+
+ Chart that stand-out 
+
+ Sheridan/GIR updated his Capex (& expense) outlook overnight ... yes ... capex 
+
+is modeled to 3x from 2023 (~$33bn) to 2026 (~$102bn), which, compares to 
+
+revenues up 50% over that period .. 
+
+ Exhibit 1: GOOGL - GSe Revenues, Capex, D&A and GAAP Expense Growth 
+ $mm, 2023-2030E 
+                                      2023     2024    2025E    2026E   2027E    2028E   2029E    2030E 
+                                                                                 474,047 $ 525,683 $ 578,688 
+ Total Revenues (Net)               $ 256,508 $ 295,118 $ 334,627 $ 377,761 424,416 $ 
+                                                                 12.9%    12.4%    11.7%   10.9%    10.1% 
+   % y/y growth                         9.7%    15.1%    13.4% 
+ Total Capex                        $ 32,251 $ 52,535 $ 84,749 $ 101,699 116,954 $ 128,649 $ 141,514 $ 155,665 
+                                                                                   10.0%   10.0%    10.0% 
+   % y/y growth                         2.4%    62.9%    61.3%   20.0%    15.0% 
+   % capital intensity                  12.6%   17.8%    25.3%   26.9%    27.6%    27.1%   26.9%    26.9% 
+                                                                                          321,450 $ 350,261 
+ Total GAAP Expenses                $ 172,215 $ 182,728 $ 206,548 $ 232,247 $ 261,394 291,879 $ 
+                                                                          12.5%    11.7%   10.1%     9.0% 
+   % y/y growth                         8.3%     6.1%    13.0%    12.4% 
+   Total D&A                        $ 13,326 $ 15,311 $ 22,888 $ 32,947 $ 43,912 $ 55,557 $ 67,672 $ 79,109 
+                                                                                   26.5%   21.8%    16.9% 
+    % y/y growth                       -12.8%   14.9%    49.5%    44.0%   33.3% 
+   Total GAAP Expenses (ex-D&A and one-timers)* $ 154,956 $ 166,110 $ 181,968 $ 199,300 $ 217,482 $ 236,322 $ 253,778 $ 271,152 
+                                                                           9.1%    8.7%     7.4%     6.8% 
+    % y/y growth                        8.7%     7.2%    9.5%     9.5% 
+ *one-timers include reported restructuring charges & legal accruals of ~$3.9bn in 2023,~$1.3bn in 2024 and ~$1.7bn in 2025E 
+
+                    https://marquee.gs.com/content/research/en/reports/2025/07/24/ 
+ Source: GIR: 
+
+            e923fb88-a92c-482e-a2f5-3ccdb13229ee.html 
+
+ Peter Callahan 
+page_end

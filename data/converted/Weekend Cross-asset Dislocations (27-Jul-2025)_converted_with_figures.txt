@@ -1,0 +1,795 @@
+
+
+Weekend Cross-asset Dislocations (27-Jul-2025) 
+Research | Options | 4 HOURS AGO 
+
+Tariff payments to the US Treasury were only up 1% over the past month 
+
+Major monthly US Treasury data was reported Thursday after the close; growth 
+
+in tariff payments has slowed significantly over the past month (up only 1% m- 
+
+m). The US Treasury is collecting tariff revenue at a pace of $357bn/year based 
+
+on the past month vs $103bn at this time last year. Stability in broad tariff rates 
+across the US's three largest trading partners (China, Mexico, Canada) likely 
+
+contributed to the stability in tariff payments over the past month. Where do 
+
+tariff payments go from here? Over the past 10 years, tariff payments have ebbed 
+
+and flowed as policies have changed, and importers adapted. Upward pressure 
+
+on Tariff payments may come as inventories are depleted and imports rise; 
+
+downward pressure may come as manufacturers/consumers substitute away 
+
+from foreign goods. 
+
+            Tariff revenue based on US Treasury data 
+                     Source: US Treasury. 
+  360- 
+  340-John Marshall 
+     Goldman Sachs 
+  320- 
+  300 
+ ($b) 280 
+  260- 
+  240 
+ Revenue 220- 
+
+ Tariff Annualized 180- 200 
+  160 
+  140 
+  120- 
+  100- 
+   1Jul24 1Sep24 1Nov24 1Jan25 1Mar25 1May25 1Jul25 
+ Annualized Tariff revenue (based on trailing 1 month US Treasury receipts) 
+
+AI capex estimates moved higher this week following the first week of Tech 
+
+earnings report 
+
+We track the aggregate capex from the major providers of AI services to gauge 
+
+enthusiasm for this new category of services. Guidance for 2025 and 2026 was 
+
+revised up on the back of recent earnings reports. While the immediate capex 
+
+expensing feature of the recently passed tax bill has been a tailwind for capex 
+
+    | Date       | Annualized Tariff Revenue ($b) |
+    |------------|--------------------------------|
+    | 1-Jul-24   | 90                             |
+    | 1-Aug-24   | 95                             |
+    | 1-Sep-24   | 105                            |
+    | 1-Oct-24   | 100                            |
+    | 1-Nov-24   | 105                            |
+    | 1-Dec-24   | 100                            |
+    | 1-Jan-25   | 95                             |
+    | 15-Jan-25  | 100                            |
+    | 1-Feb-25   | 105                            |
+    | 1-Mar-25   | 110                            |
+    | 15-Mar-25  | 115                            |
+    | 1-Apr-25   | 120                            |
+    | 15-Apr-25  | 130                            |
+    | 1-May-25   | 190                            |
+    | 10-May-25  | 205                            |
+    | 20-May-25  | 220                            |
+    | 1-Jun-25   | 280                            |
+    | 10-Jun-25  | 285                            |
+    | 20-Jun-25  | 320                            |
+    | 1-Jul-25   | 330                            |
+    | 20-Jul-25  | 345                            |
+
+    Summary: This line chart displays the Annualized Tariff Revenue (in billions of USD) from July 2024 to July 2025, based on trailing one-month US Treasury receipts. The revenue remained relatively stable, fluctuating between $95 billion and $115 billion, from July 2024 until April 2025. Starting in early May 2025, the chart shows a series of sharp, step-like increases, with major jumps occurring around May 1st, June 1st, and late June. By late July 2025, the annualized tariff revenue reached a peak of approximately $345 billion, demonstrating a significant acceleration in collection during the latter part of the period.
+
+    Explanation: The chart vividly illustrates the substantial surge in US annualized tariff revenue, moving from around $100 billion at the beginning of the period to over $340 billion by July 2025. This rapid growth aligns with the surrounding text noting the US Treasury is collecting tariff revenue at a pace of "$357bn/year based on the past month vs $103bn at this time last year." While the chart depicts dramatic overall growth, the context also mentions that tariff payments were "up only 1% m-m" over the past month, suggesting a recent stabilization or slower rate of increase after the steep jumps, possibly due to importers adapting or consumers substituting away from foreign goods.
+
+page_end
+
+among several companies reporting this earnings season, our discussions suggest 
+
+that Tech investors had already expected hyperscaler capex guidance to increase 
+
+this quarter. 
+
+                              Aggregate US hyperscaler Capex (GS estimates) 
+    450                                                                                                          120% 
+
+                                                                                                                 100% 
+     400 
+
+                                                                                                                 80% 
+  ($b) 350 
+  estimate                                                                                                       60% 
+
+     300                                                                                                               Total return 
+                                                                                                                 40% 
+  Capex 
+     250 
+                                                                                                                 20% 
+
+    200                                                                                                          0% 
+                                                                                               Anmol Makkar 
+                                                                                               Goldman Sachs 
+     150 Jan-24 Feb-24 Feb-24 Apr-24 Apr-24 May-24 Jul-24 Aug-24 Sep-24 Sep-24 Oct-24 Nov-24 Nov-24 Dec-24 Jan-25 Apr-25 Apr-25 May-25 Jul-25 -20% 
+
+                     Mar-24         Jun-24 Jul-24                             Jan-25 Feb-25 Mar-25   Jun-25 Jun-25 
+         -2025 capex           2026 capex            Total return of Al chip designers Total return of US hyperscalers 
+
+SPX daily options prices: Volatility expectations decline across the curve 
+
+The equity rally over the past week allowed volatility expectations to decline for 
+
+the next several weeks. The daily implied moves for the FOMC meeting and 
+
+upcoming ISM/Payrolls have dropped to low levels relative to history. There is 
+
+limited volatility priced in for early August, suggesting investors are no longer 
+
+focused on Tariff negotiation catalysts. 
+
+    | Date | 2025 Capex ($bn) | 2026 Capex ($bn) | AI Chip Designers Return (%) | US Hyperscalers Return (%) |
+    |:-----|:-----------------|:-----------------|:-----------------------------|:---------------------------|
+    | Jan-24 | 185 | 195 | 10 | 15 |
+    | Feb-24 | 190 | 200 | 25 | 20 |
+    | Mar-24 | 195 | 205 | 20 | 25 |
+    | Apr-24 | 230 | 240 | 30 | 20 |
+    | May-24 | 235 | 255 | 35 | 25 |
+    | Jun-24 | 240 | 260 | 50 | 35 |
+    | Jul-24 | 245 | 265 | 40 | 30 |
+    | Aug-24 | 245 | 270 | 45 | 35 |
+    | Sep-24 | 250 | 275 | 50 | 35 |
+    | Oct-24 | 255 | 280 | 60 | 40 |
+    | Nov-24 | 295 | 320 | 65 | 45 |
+    | Dec-24 | 300 | 335 | 70 | 50 |
+    | Jan-25 | 305 | 340 | 80 | 50 |
+    | Feb-25 | 345 | 350 | 90 | 55 |
+    | Mar-25 | 350 | 360 | 50 | 30 |
+    | Apr-25 | 355 | 365 | 20 | 15 |
+    | May-25 | 360 | 375 | 40 | 30 |
+    | Jun-25 | 370 | 385 | 60 | 45 |
+    | Jul-25 | 380 | 410 | 80 | 55 |
+
+    Summary: This chart displays the Aggregate US hyperscaler Capex estimates (in $b) on the left Y-axis and Total return (in %) on the right Y-axis, tracked over time from January 2024 to July 2025. It shows four key trends: 2025 capex (dark blue line), 2026 capex (light blue line), Total return of AI chip designers (gray line), and Total return of US hyperscalers (green line). Both 2025 and 2026 capex estimates have seen significant step-wise upward revisions, with 2026 capex consistently higher. Total returns for both AI chip designers and US hyperscalers generally trend upwards, but with considerable volatility, particularly for chip designers. A notable inflection point occurred between February and April 2025, where both return metrics saw sharp declines, falling from peaks of 90% (chip designers) and 55% (hyperscalers) to lows of 20% and 15% respectively, before a strong recovery into July 2025.
+
+    Explanation: This chart visually reinforces the narrative from the surrounding text about increased investment in AI. The consistent upward revisions in US hyperscaler capex estimates for 2025 and 2026 directly reflect positive guidance from recent tech earnings reports. The strong, though volatile, total returns for AI chip designers and US hyperscalers underscore robust market enthusiasm and investor confidence in the growth potential of the AI sector.
+
+page_end
+
+                                                                                                                                                                                                                                                                                                                                                                                 Implied move as % of spot 
+                                    0       0.02    0.04-   0.06    0.08-   0.1-    0.12-    0.14-   0.16- 0.18     0.2-    0.22-   0.24-   0.26-   0.28                             into                                                             We 
+                        Average 1Jan23                                                                                                        John                                                    shows                           stock            do                                                                          -0.50%                          0.00%                           0.50%-                         1.00%                          1.50%                           2.00% 
+                                                                                                                                           Goldman                                   call                             indicator                                                                           Source:                                                                               0.5% 
+                        S&P                                                                                                                   Marshall                                                that                                             not                       Balanced                       28-Jul                                                                           0.5%                                                                                     John 
+Individual              500                                                                                                               Sachs                                                                       of                                                                                  Goldman 29-Jul 
+                               1Jul23                                                                                                                             Single                                                              options.         see                                                 Sachs 30-Jul                                                                                       0.7%              FOMC                                                 Goldman 
+                         single                                                                                                                                                       options                                                                                                                    31-Jul                                                                                           0.7%                                                               Sachs Marshall 
+                                                                                                                                                                  stock               on              despite                          We                                                                  Global 1-Aug                                                                                             0.8%              ISM           Payrolls 
+                         stock                                                                                                                                                                                         forward                                                                                                                                                                              0.6% 
+investors                                                                                                                                                  Source: put-call                            the                                                                        positioning                     4-Aug                                                                                 0.6% 
+                                1Jan24                                                                                                                                                                                                  believe         significant                in                      Investment 5-Aug 
+                         1-month                                                                                                                           Goldman                                                                                                                                                                                                                                       0.6% 
+                                                                                                                                                                  skew                                                 index                                                                                       6-Aug 
+                                                                                                                                                            Sachs                                      S&P                                                                                                                                                                                                  0.6% 
+                                                                                                                                                            FICC                      large-cap                                                                                                             Research, 7-Aug 
+ resume                   put-call                                                                                                                                 shows                                500                                                                        single                          8-Aug                                                                                    0.6% 
+                          skew 1Jul24                                                                                                                       and                                         at              returns         put-call                                                                 11-Aug                                                                                           0.7%                                                                      Daily 
+                                                                                                                                                             Equities.                                                                                  crowding                                            Goldman 12-Aug                                                                                            0.8%              CPI                                      1-week 
+                                                                                                                                                                   balanced            stocks.          an              than             skew            on                        stock                    Sachs                                                                                             0.6%                                                                change Implied 
+  modest                                                                                                                                                                                                                                                                                                         13-Aug 
+                                                                                                                                                                                                                                         in               the                                                FICC 14-Aug                                                                                       0.6%                                                                          Move 
+                                 1Jan25                                                                                                                                                                                  call                                                                                and                                                                                      0.5%                                                                                    (as of 
+                           (25dp-25dc)/50dc                                                                                                                         positioning                                                           S&P             long                                                  15-Aug                                                                                                           0.9% 
+   buying                                                                                                                                                                                                                                                                           options                  Equities. 18-Aug                                                                                   0.7% 
+                                                                                                                                                                                                                                                          or                                                                                                                                                                                                                                  25-Jul 
+    in                                                                                                                                                                                                   all-time-high, buying            500                                                                     19-Aug                                                                                           0.7% 
+                                                           Positioning        Bullish >          <------                       Positioning           Bearish                                                              in                                                                                     20-Aug                                                                                                                                                                       close) 
+                                                                                                                                                                                                                                                          short                                                  21-Aug                                                                                             0.7% 0.9% 
+    ETFs                                                                                                                                                                                                                                  stocks                                                                  22-Aug 
+                                                                                                                                                                                                                          meme             is              side                                                    25-Aug                                                                                                 0.8% 
+                                                                                                                                                                                                          investors                        a               in                                                     26-Aug                                                                                            0.7% 
+                                                                                                                                                                                                          are                              far                                                                    27-Aug                                                                                             0.7% 
+                                                                                                                                                                                                                          stocks.                          S&P                                                                                                                                                                       1.0%            Earnings of Al 
+                                                                                                                                                                                                                                                                                                                  28-Aug                                                                                                                             Companies 
+                                                                                                                                                                                                           not                                                                                                                                                                                                           0.8% 
+                                                                                                                                                                                                                                                                                                                  29-Aug 
+                                                                                                                                                                                                                                           more             500                                                                                                                                                                  0.9% 
+                                                                                                                                                                                                                                                                                                                     2-Sep 
+                                                                                                                                                                                                                           This                                                                                                                                                                                           0.8% 
+                                                                                                                                                                                                                                                                                                                       3-Sep 
+                                                                                                                                                                                                                                                                                                                                                                                                                          0.8% 
+                                                                                                                                                                                                           crowded                                          single                                                    4-Sep 
+                                                                                                                                                                                                                           metric          relevant                                                                    5-Sep                                                                                               0.8% 
+
+    | Date    | Daily Implied Move (as of 25-Jul close) | 1-week Change | Event                   |
+    |---------|------------------------------------------|---------------|-------------------------|
+    | 28-Jul  | 0.5%                                     | -0.1%         |                         |
+    | 29-Jul  | 0.5%                                     | -0.1%         |                         |
+    | 30-Jul  | 0.7%                                     | -0.1%         | FOMC                    |
+    | 31-Jul  | 0.7%                                     | -0.1%         |                         |
+    | 1-Aug   | 0.8%                                     | -0.1%         | ISM, Payrolls           |
+    | 4-Aug   | 0.6%                                     | -0.1%         |                         |
+    | 5-Aug   | 0.6%                                     | -0.1%         |                         |
+    | 6-Aug   | 0.6%                                     | -0.1%         |                         |
+    | 7-Aug   | 0.6%                                     | -0.1%         |                         |
+    | 8-Aug   | 0.6%                                     | -0.1%         |                         |
+    | 11-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 12-Aug  | 0.8%                                     | -0.1%         | CPI                     |
+    | 13-Aug  | 0.6%                                     | -0.1%         |                         |
+    | 14-Aug  | 0.6%                                     | -0.1%         |                         |
+    | 15-Aug  | 0.5%                                     | -0.1%         |                         |
+    | 18-Aug  | 0.9%                                     | -0.1%         |                         |
+    | 19-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 20-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 21-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 22-Aug  | 0.8%                                     | -0.1%         |                         |
+    | 25-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 26-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 27-Aug  | 0.7%                                     | -0.1%         |                         |
+    | 28-Aug  | 1.0%                                     | -0.1%         | Earnings of AI Companies|
+    | 29-Aug  | 0.8%                                     | -0.1%         |                         |
+    | 2-Sep   | 0.9%                                     | -0.1%         |                         |
+    | 3-Sep   | 0.8%                                     | -0.1%         |                         |
+    | 4-Sep   | 0.8%                                     | -0.1%         |                         |
+    | 5-Sep   | 0.8%                                     | -0.1%         |                         |
+
+    Summary: This bar chart displays the S&P 500's daily implied move (as a percentage of spot price) and its corresponding 1-week change from July 28 to September 5. The X-axis represents individual trading days, while the Y-axis indicates the implied move percentage, ranging from -0.50% to 2.00%. Key economic and corporate events like FOMC, ISM, Payrolls, CPI, and Earnings of AI Companies are annotated above specific dates. The "Daily Implied Move" (blue bars) generally hovers between 0.6% and 0.9%, spiking to 1.0% for "Earnings of AI Companies". The "1-week change" (grey bars) is consistently negative, indicating a persistent decline in volatility expectations over the period.
+
+    Explanation: The chart illustrates that market volatility expectations, as measured by implied moves, are generally declining, evidenced by the consistent negative "1-week change" across nearly all days. This trend aligns with the broader context from the previous page, which notes that "the equity rally over the past week allowed volatility expectations to decline for the next several weeks" and that implied moves for key events like FOMC and ISM/Payrolls have dropped to "low levels relative to history." This suggests a period of perceived calm in the market despite upcoming significant data releases and earnings announcements.
+
+    | Date | Put-Call Skew |
+    |:-----|:--------------|
+    | Jan-23 | 0.15          |
+    | Feb-23 | 0.19          |
+    | Apr-23 | 0.12          |
+    | Jul-23 | 0.08          |
+    | Oct-23 | 0.02          |
+    | Dec-23 | 0.07          |
+    | Jan-24 | 0.09          |
+    | Feb-24 | 0.04          |
+    | Apr-24 | 0.08          |
+    | Jul-24 | 0.19          |
+    | Aug-24 | 0.10          |
+    | Oct-24 | 0.14          |
+    | Dec-24 | 0.08          |
+    | Feb-25 | 0.27          |
+    | Mar-25 | 0.09          |
+
+    Summary: This line chart displays the Average S&P 500 single stock 1-month put-call skew from January 2023 to March 2025. The Y-axis, ranging from 0 to 0.28, indicates market positioning, with higher values signifying "Bearish Positioning" and lower values "Bullish Positioning", and a dashed line around 0.09 representing balanced positioning. The chart shows an initial period of moderate bearishness in early 2023, declining to bullish levels by late 2023. Notably, there are two sharp, albeit brief, spikes indicating significant surges in bearish sentiment: one in July 2024 (reaching ~0.19) and another more pronounced one in February 2025 (peaking over 0.26). Following these spikes, the skew quickly reverted, settling back near the balanced positioning level of 0.09 by the end of the period.
+
+    Explanation: The chart's title, "Single stock put-call skew shows balanced positioning," directly reflects the recent trend, indicating that after periods of marked bearish sentiment (evidenced by the spikes), the market's single-stock option positioning has returned to a neutral stance. This aligns with the broader context of the page, which discusses investors resuming modest buying in ETFs and professional investor positioning remaining modest, suggesting a less extreme, potentially more stable market sentiment following periods of volatility, possibly ahead of anticipated policy shifts like Fed rate cuts mentioned elsewhere.
+
+page_end
+
+This is reassuring after a two-month period where individual investors paused 
+
+their buying of ETFs. A longer-term analysis suggests that the pace of net inflows 
+
+for individual investor ETFs is back to its historical trend. 
+
+                Flows by ETF category (cumulative) 
+               Source: Goldman Sachs Global Investment Research, Bloomberg. 
+  180b 
+  160b- John Marshall 
+      Goldman Sachs 
+  140b- 
+$) 
+ -120b 
+  100b 
+   80b 
+  60b 
+(cumulative 40b 
+   20b 
+Inflow Net 0 
+  -20b 
+  -40b 
+  -60b 
+   1Jan25 1Feb25 1Mar25 1Apr25 1May25 1Jun25 1Jul25 
+Individual Investor ETF flows 
+Professional Investors ETF flows Corporate bond ETF flows 
+
+Professional investor positioning remains modest vs history 
+
+We believe professional investors in futures/swaps will re-risk when the Fed 
+
+resumes cutting rates. 
+
+                 Funding spreads: Professional investor positioning 
+                             Source: Goldman Sachs FICC and Equities. 
+   6400                                                                        140 
+          John Marshall 
+          Goldman Sachs 
+                                                                              130 
+   6200 
+                                                                              120 
+   6000 
+                                                                              -110 
+   5800 
+                                                                              -100 
+                                                                                     Funding 
+   5600                                                                       -90 
+level SPX 
+                                                                              -80 
+   5400                                                                              Spread 
+                                                                              -70 
+   5200 
+                                                                                     (bps) 
+                                                                              -60 
+   5000- 
+                                                                              50 
+
+   4800                                                                       40 
+     1Feb24             1Jul24                 1Jan25                 1Jul25 
+Average Funding Spread (2nd and 4th contract) vs FF (RHS) SPX level 
+
+    | Date | Individual Investor ETF flows (cumulative $) | Professional Investors ETF flows (cumulative $) | Corporate bond ETF flows (cumulative $) |
+    |---|---|---|---|
+    | 1Jan25 | $0b | $0b | $0b |
+    | 1Feb25 | $25b | -$5b | $2b |
+    | 1Mar25 | $55b | -$15b | $5b |
+    | Mid-Mar25 | $60b | -$20b | $6b |
+    | Late-Mar25 | $115b | -$30b | $7b |
+    | 1Apr25 | $100b | -$40b | $7b |
+    | 1May25 | $125b | -$35b | $5b |
+    | Mid-May25 | $120b | -$50b | $8b |
+    | 1Jun25 | $120b | -$45b | $10b |
+    | Late-Jun25 | $110b | -$35b | $10b |
+    | Early-Jul25 | $145b | -$40b | $11b |
+    | 1Jul25 | $150b | -$40b | $12b |
+    | Mid-Jul25 | $160b | -$40b | $14b |
+    | Late-Jul25 | $165b | -$40b | $15b |
+
+    Summary: This time series chart displays the cumulative net inflows (Y-axis, in billions of dollars) for three distinct ETF categories from January to late July 2025 (X-axis). Individual Investor ETF flows (dark blue line) show a substantial and generally increasing cumulative inflow, characterized by two sharp upward surges in late March and late June/early July. Conversely, Professional Investors ETF flows (light blue line) consistently remain in cumulative net outflow territory, fluctuating between -$5 billion and -$50 billion. Corporate Bond ETF flows (red line) exhibit a steady, albeit modest, positive cumulative inflow throughout the period.
+
+    Explanation: The chart directly supports the surrounding text, which notes a reassuring return to historical net inflow trends for individual investor ETFs after a two-month pause. The robust cumulative buying by individual investors, especially the significant spikes, contrasts sharply with the persistent net outflows from professional investors, suggesting a divergence in market participation and sentiment. This indicates that retail engagement is driving a notable portion of ETF demand, while professional investors appear to be de-risking or awaiting clearer signals (like Fed rate cuts, as mentioned in the text) before increasing their exposure.
+
+    | Date | SPX Level | Funding Spread (bps) |
+    |---|---|---|
+    | 1-Feb-24 | 4850 | 48 |
+    | 1-Mar-24 | 5100 | 58 |
+    | 1-Apr-24 | 5350 | 70 |
+    | 1-May-24 | 5450 | 80 |
+    | 1-Jun-24 | 5600 | 88 |
+    | 1-Jul-24 | 5700 | 95 |
+    | 1-Aug-24 | 5850 | 105 |
+    | 1-Sep-24 | 6000 | 115 |
+    | 1-Oct-24 | 6050 | 125 |
+    | 1-Nov-24 | 6100 | 130 |
+    | 1-Dec-24 | 6000 | 110 |
+    | 1-Jan-25 | 5850 | 90 |
+    | 1-Feb-25 | 5600 | 70 |
+    | 1-Mar-25 | 5250 | 50 |
+    | 1-Apr-25 | 5400 | 55 |
+    | 1-May-25 | 5800 | 58 |
+    | 1-Jun-25 | 6050 | 60 |
+    | 1-Jul-25 | 6300 | 65 |
+    | Mid-Jul-25 | 6350 | 62 |
+
+    Summary: This line chart illustrates the "Funding spreads: Professional investor positioning" from February 2024 to July 2025. The left Y-axis shows the SPX level (blue line), while the right Y-axis tracks the Average Funding Spread (red line). Initially, from Feb 2024 to late 2024, both SPX level and funding spread generally increased, peaking around Oct-Nov 2024 with SPX near 6100 and funding spread around 130 bps. A significant divergence occurred from late 2024 into early 2025, where the funding spread sharply declined to lows around 45 bps by March 2025, while the SPX level experienced a more moderate correction before resuming its upward trend. By July 2025, SPX reached new highs above 6300, but the funding spread remained relatively low, oscillating between 50-65 bps, indicating a disconnect from its prior correlation with equity levels.
+
+    Explanation: The chart visualizes professional investor positioning through funding spreads relative to the S&P 500. The sustained low level of funding spread in mid-2025, despite the SPX reaching new highs, suggests that professional investors in futures/swaps remain modestly positioned, not yet fully committing to the market rally. This aligns with the accompanying text indicating that these investors might be waiting for the Federal Reserve to resume cutting rates before significantly re-risking their portfolios.
+
+page_end
+
+Retail investors aren't buying SPX or NDX single stocks (on net) 
+
+This is surprising given all the meme stock activity in the market. It is clear from 
+
+our data that retail investors are focused on small-caps in the 
+
+crypto/AI/retail/quantum-computing spaces rather than on SPX and NDX stocks 
+
+broadly. 
+
+       Retail Flows as a % of aggregate market cap ($Buy minus $Sell) 
+                  Source: Goldman Sachs FICC and Equities. 
+(cumulative) 0.22%- 
+   0.2%- John Marshall 
+       Goldman Sachs 
+  0.18%- 
+  0.16% 
+retail 
+  0.14% 
+by 0.12% 
+bought 0.1% 
+  0.08%- 
+net 0.06% 
+mktcap 0.04%- 
+  0.02%- 
+of 0% 
+% -0.02% 
+     1Jan25 1Feb25 1Mar25 1Apr25 1May25 1Jun25 1Jul25 
+S&P 500 stocks NDX 100 stocks 
+
+Equities have partially closed the gap with credit 
+
+Over the past week, credit has rallied more modestly than equities, particularly 
+
+in the investment grade cohort. Stocks with investment grade debt are still below 
+
+their December 2024 highs, while selling credit protection passed 2024 highs for 
+
+the second time in April. 
+
+               CDX IG Credit vs Equity comparison 
+                  Source: Goldman Sachs FICC and Equities. 
+  24% 
+  22% John Marshall 
+      Goldman Sachs 
+  20% 
+  18% 
+  16%- 
+  14%- 
+  12% 
+  10% 
+Return 
+   8%- 
+Total 6% 
+   4% 
+   2% 
+  -0%- 
+  -2%- 
+  -4% 
+   1Jan24         1Jul24        1Jan25 
+CREDIT: CDX IG 5Y OTR (12x notional) EQUITIES: CDX IG S41 stocks 
+
+    | Date | S&P 500 stocks (%) | NDX 100 stocks (%) |
+    |----------|--------------------|--------------------|
+    | 1-Jan-25 | -0.01              | 0.00               |
+    | 8-Jan-25 | 0.00               | -0.01              |
+    | 15-Jan-25| 0.01               | 0.00               |
+    | 22-Jan-25| 0.01               | 0.01               |
+    | 1-Feb-25 | 0.02               | 0.02               |
+    | 8-Feb-25 | 0.02               | 0.04               |
+    | 15-Feb-25| 0.03               | 0.05               |
+    | 22-Feb-25| 0.03               | 0.08               |
+    | 1-Mar-25 | 0.04               | 0.10               |
+    | 8-Mar-25 | 0.04               | 0.12               |
+    | 15-Mar-25| 0.05               | 0.13               |
+    | 22-Mar-25| 0.05               | 0.15               |
+    | 1-Apr-25 | 0.05               | 0.16               |
+    | 8-Apr-25 | 0.06               | 0.18               |
+    | 15-Apr-25| 0.06               | 0.19               |
+    | 22-Apr-25| 0.07               | 0.20               |
+    | 1-May-25 | 0.07               | 0.20               |
+    | 8-May-25 | 0.08               | 0.21               |
+    | 15-May-25| 0.08               | 0.21               |
+    | 22-May-25| 0.08               | 0.20               |
+    | 1-Jun-25 | 0.07               | 0.18               |
+    | 8-Jun-25 | 0.07               | 0.18               |
+    | 15-Jun-25| 0.07               | 0.19               |
+    | 22-Jun-25| 0.07               | 0.19               |
+    | 1-Jul-25 | 0.07               | 0.20               |
+
+    Summary:
+    The chart, "Retail Flows as a % of aggregate market cap ($Buy minus $Sell)", tracks the cumulative net buying activity of retail investors for S&P 500 and NDX 100 stocks from January to July 2025. The Y-axis indicates the cumulative net flow as a percentage of market capitalization. Both indices show a trend of positive cumulative net buying throughout the period, with an initial slight dip in January. Net buying in NDX 100 stocks (light blue line) significantly surpassed that of S&P 500 stocks (dark blue line), surging from February to a peak of about 0.21% in mid-May before stabilizing around 0.20%. S&P 500 net buying exhibited a more modest and steady ascent, plateauing at approximately 0.07-0.08% from mid-May onwards.
+
+    Explanation:
+    While the chart illustrates positive cumulative net buying by retail investors in S&P 500 and NDX 100 stocks, the accompanying text qualifies this by stating that retail investors "aren't buying SPX or NDX single stocks (on net)" broadly. This implies that the observed net buying, although positive, is considered minor relative to the overall market or not indicative of broad-based participation. The broader context clarifies that retail investors are primarily focused on speculative small-cap stocks within high-growth sectors such as crypto, AI, retail, and quantum computing, rather than the major index constituents.
+
+    | Date                 | CREDIT: CDX IG 5Y OTR (Total Return) | EQUITIES: CDX IG S41 stocks (Total Return) |
+    |----------------------|--------------------------------------|--------------------------------------------|
+    | 1 Jan 2024           | -1.0%                                | -3.0%                                      |
+    | 1 Feb 2024           | 3.0%                                 | 0.5%                                       |
+    | 1 Mar 2024           | 6.0%                                 | 4.5%                                       |
+    | 1 Apr 2024           | 7.0%                                 | 6.5%                                       |
+    | 1 May 2024           | 9.5%                                 | 9.0%                                       |
+    | 1 Jun 2024           | 11.5%                                | 13.0%                                      |
+    | 1 Jul 2024           | 14.0%                                | 16.0%                                      |
+    | 1 Aug 2024           | 14.5%                                | 18.5%                                      |
+    | 1 Sep 2024           | 15.5%                                | 14.5%                                      |
+    | 1 Oct 2024           | 13.5%                                | 11.5%                                      |
+    | 1 Nov 2024           | 16.0%                                | 15.5%                                      |
+    | 1 Dec 2024           | 17.0%                                | 18.0%                                      |
+    | Mid-Dec 2024         | 17.5%                                | 17.0%                                      |
+    | Early Jan 2025       | 11.0%                                | 9.0%                                       |
+    | Mid-Jan 2025         | 15.0%                                | 12.5%                                      |
+    | Early Feb 2025       | 19.0%                                | 15.5%                                      |
+    | Latest (Early Mar 2025) | 21.5%                                | 17.5%                                      |
+
+    Summary: The chart "CDX IG Credit vs Equity comparison" illustrates the total return performance of Investment Grade Credit (CDX IG 5Y OTR) and Equities (CDX IG S41 stocks) from January 2024 to early March 2025. The Y-axis represents cumulative Total Return from -4% to 24%, while the X-axis denotes time. Initially, equities lagged credit but quickly caught up and surpassed it by mid-2024, peaking around 18.5% in August, while credit was at 14.5%. Both asset classes experienced a sharp decline into early January 2025, with equities dropping to approximately 9% and credit to 11%. Following this trough, both recovered strongly, with Credit significantly outperforming Equities in the most recent period, reaching a new peak of about 21.5% return, while Equities recovered to around 17.5%, still below Credit's current level.
+
+    Explanation: This chart demonstrates the fluctuating relative performance between investment grade credit and equity markets. While the contextual text notes that "Equities have partially closed the gap with credit," the visual evidence suggests that after a strong rally in early 2025, credit has recently widened its lead, with its total return significantly surpassing its December 2024 highs. Conversely, equities, despite their recovery, remain below their December 2024 peaks, indicating a potentially stronger bullish sentiment or more favorable fundamentals in the investment grade credit space compared to equities in the short term.
+
+page_end
+
+Funding spreads suggest N225 selling and SX5E buying flow 
+
+Demand appears to have softened among professional investors in N225, while 
+
+they have marginally strengthened in SX5E futures/swaps. 
+
+                    Funding spreads by index 
+                   Source: Goldman Sachs FICC and Equities. 
+  75                                                130 
+(bps) 70                                            120 
+  65 
+                                                    110 
+  60                                                     SPX 
+                                                    -100 
+  55 
+spreads funding 50                                  -90 
+                                                         funding 
+   45                                                80 
+
+                                                    -70 
+  35                                                     spread 
+                                                    60 
+  30- 
+   25 John Goldman Marshall Sachs                   50   (bps) 
+STOXX50E 
+  20-                                               40 
+  25Nov24 1Jan25 1Feb25    1Apr25 1May25 1Jun25 1Jul25 
+N225 Average Funding Spread (2nd and 4th contract) vs FF (LHS) 
+STOXX50E Average Funding Spread (2nd and 4th contract) vs FF (LHS) 
+SPX Average Funding Spread (2nd and 4th contract) vs FF (RHS) 
+
+Oil putztall skew remains close to long-term average levels 
+
+This suggests there isn't significant directional positioning in oil options despite 
+
+ongoing uncertainties. 
+
+             Oil put-call skew shows balanced positioning 
+                    Source: Goldman Sachs FICC and Equities. 
+  0.7                                                140 
+
+  0.6-                                               120 
+
+  0.5-                                               100 
+
+                                                     80 
+                                                        Front 
+  0.3                                                60 
+(25dp-25dc)/50dc 
+  0.2-                                               40 Month 
+Skew 3m                                                 Oil 
+  0.1                                                20 
+                                                        Price 
+   0-                                                0 
+Put-call 
+  -0.1                                               -20 
+         John Marshall; 
+         Goldman Sach's 
+  -0.2-                                              40 
+   Jan10 Jan12 Jan14 Jan16 Jan18 Jan20 Jan22 Jan24 
+-Front Month WTI oil price -WTI normalized put-call skew 
+
+HY Credit options prices are lower than other asset classes relative to 
+
+history 
+
+    | Date | Front Month WTI Oil Price | WTI Normalized Put-Call Skew |
+    |------|---------------------------|------------------------------|
+    | Jan10 | 75                        | 0.15                         |
+    | Jan11 | 90                        | 0.10                         |
+    | Jan12 | 100                       | 0.05                         |
+    | Jul12 | 85                        | 0.10                         |
+    | Jan13 | 95                        | 0.15                         |
+    | Jan14 | 95                        | 0.20                         |
+    | Jul14 | 100                       | 0.15                         |
+    | Jan15 | 45                        | -0.05                        |
+    | Jul15 | 50                        | 0.10                         |
+    | Jan16 | 30                        | 0.10                         |
+    | Jan17 | 50                        | 0.15                         |
+    | Jan18 | 60                        | 0.20                         |
+    | Jan19 | 50                        | 0.15                         |
+    | Jan20 | 60                        | 0.30                         |
+    | Apr20 | -5                        | 0.40                         |
+    | Jul20 | 40                        | 0.10                         |
+    | Jan21 | 50                        | 0.20                         |
+    | Jan22 | 80                        | 0.20                         |
+    | Mar22 | 110                       | 0.10                         |
+    | Jul22 | 95                        | -0.05                        |
+    | Jan23 | 80                        | 0.15                         |
+    | Jul23 | 75                        | 0.10                         |
+    | Jan24 | 70                        | 0.10                         |
+    | Jul24 | 75                        | 0.15                         |
+    | Current | 65                        | 0.15                         |
+
+    Summary: This time series chart, spanning from January 2010 to mid-2025, displays the Front Month WTI oil price (blue line, right Y-axis) alongside the WTI normalized put-call skew (red line, left Y-axis). The oil price has seen significant fluctuations, peaking around $110 in 2014 and early 2022, and experiencing sharp declines, notably in 2015 and a brief dip into negative territory in April 2020. The put-call skew, representing option positioning, generally oscillates around a positive mean, indicating a slight premium for calls over puts, but shows increased volatility and occasional negative values during periods of extreme oil price movements, such as the major oil crashes in 2015 and 2020. Currently, both oil price and skew appear to be in more moderate ranges compared to historical extremes.
+
+    Explanation: The chart's title and accompanying text indicate that the oil put-call skew is close to its long-term average, suggesting a lack of significant directional positioning in oil options. This implies that despite ongoing market uncertainties, investors are not heavily betting on extreme upward or downward moves in oil prices, reflecting a relatively balanced or neutral sentiment among professional investors in the oil options market.
+
+    | Date       | N225 Funding Spread (bps) | STOXX50E Funding Spread (bps) | SPX Funding Spread (bps) |
+    |------------|---------------------------|-------------------------------|--------------------------|
+    | 25 Nov 2024 | 67                        | 60                            | 125                      |
+    | 10 Dec 2024 | 70                        | 65                            | 120                      |
+    | 01 Jan 2025 | 45                        | 30                            | 95                       |
+    | 20 Jan 2025 | 30                        | 38                            | 80                       |
+    | 01 Feb 2025 | 38                        | 40                            | 85                       |
+    | 01 Mar 2025 | 30                        | 35                            | 68                       |
+    | 15 Apr 2025 | 35                        | 40                            | 95                       |
+    | 01 May 2025 | 28                        | 30                            | 60                       |
+    | 15 May 2025 | 32                        | 35                            | 50                       |
+    | 01 Jun 2025 | 30                        | 35                            | 55                       |
+    | 01 Jul 2025 | 32                        | 38                            | 50                       |
+    | 15 Jul 2025 | 38                        | 45                            | 45                       |
+
+    Summary: This time-series chart, titled "Funding spreads by index," displays the average funding spreads for the N225, STOXX50E, and SPX indices from late November 2024 to mid-July 2025. N225 (orange) and STOXX50E (blue) funding spreads are measured on the left Y-axis (20-75 bps), while SPX (red) is on the right Y-axis (40-130 bps). All three indices generally saw their funding spreads decline from elevated levels in late 2024/early 2025. N225 and STOXX50E experienced significant drops into January 2025, with STOXX50E hitting a low of around 30 bps, before becoming more volatile. The SPX funding spread, while generally trending down from its Dec 2024 peak, notably spiked in mid-April 2025 to around 95 bps, contrasting with the more stable trends of the European and Japanese indices during that period.
+
+    Explanation: The movements in funding spreads reflect shifts in demand among professional investors for futures and swaps on these indices. A softening of demand, as noted in the surrounding text for N225, typically corresponds to lower funding spreads, while strengthening demand, like for SX5E, may lead to higher or more stable spreads. The chart thus indicates a divergence in professional investor sentiment and financing costs across major global equity markets, with SPX showing more volatile financing conditions compared to N225 and STOXX50E over the period.
+
+page_end
+
+Three-month implied volatility for the HYG is at half of its 14-year average. 
+
+             Macro options prices vs long-term average 
+                  Source: Goldman Sachs FICC and Equities. 
+    3 
+   2.8- John Marshall 
+     Goldman Sachs 
+ avg 2.6- 
+   2.4 
+   2.2- 
+
+ 2010-2024 by 1.8- 
+   1.6 
+   1.4 
+ divided vol 1.2 
+    1 
+ Implied 
+   0.8- 
+   0.6 
+   0.4 
+  20Dec24 1Feb25 1Mar25 1Apr25 1May25 1Jun25 1Jul25 
+ -5Y CDX HY 3 mo implied volatility 
+ -HY Bonds (HYG) 1 mo implied volatility -5Y CDX IG 3 mo implied volatility 
+ -10Y Treas (IEF) 1 mo implied volatility - S&P 500 (SPY) 1 mo implied volatility 
+
+    | Date    | 5Y CDX HY 3mo | HY Bonds (HYG) 1mo | 5Y CDX IG 3mo | 10Y Treas (IEF) 1mo | S&P 500 (SPY) 1mo |
+    |---------|---------------|--------------------|---------------|---------------------|-------------------|
+    | 20Dec24 | 0.9           | 0.7                | 0.8           | 0.9                 | 0.9               |
+    | 1Jan25  | 0.9           | 0.8                | 0.8           | 1.0                 | 1.0               |
+    | 15Jan25 | 0.8           | 0.6                | 0.7           | 0.9                 | 0.9               |
+    | 1Feb25  | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |
+    | 15Feb25 | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |
+    | 1Mar25  | 0.9           | 0.7                | 0.8           | 1.0                 | 1.0               |
+    | 15Mar25 | 1.0           | 0.9                | 0.9           | 1.1                 | 1.2               |
+    | 1Apr25  | 1.2           | 1.2                | 1.2           | 1.4                 | 1.5               |
+    | 8Apr25  | 1.4           | 1.9                | 1.3           | 2.3                 | 2.8               |
+    | 15Apr25 | 1.3           | 1.5                | 1.2           | 1.8                 | 2.2               |
+    | 22Apr25 | 1.0           | 1.0                | 1.0           | 1.3                 | 1.4               |
+    | 1May25  | 0.9           | 0.8                | 0.8           | 1.1                 | 1.2               |
+    | 15May25 | 0.9           | 0.7                | 0.8           | 1.0                 | 1.1               |
+    | 1Jun25  | 0.9           | 0.6                | 0.8           | 1.0                 | 1.0               |
+    | 15Jun25 | 1.0           | 0.5                | 0.9           | 1.0                 | 0.9               |
+    | 1Jul25  | 0.9           | 0.5                | 0.9           | 0.9                 | 0.9               |
+    | 15Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |
+    | 22Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |
+
+    Summary: This chart illustrates the implied volatility for five macro asset classes (5Y CDX HY, HY Bonds (HYG), 5Y CDX IG, 10Y Treas (IEF), and S&P 500 (SPY)) relative to their 2010-2024 long-term average, charted from late December 2024 to late July 2025. The Y-axis shows the ratio of implied volatility to its historical average. All asset classes experienced a sharp, synchronized spike in implied volatility around early April 2025, with SPY peaking at 2.8 times and HYG at 1.9 times their respective historical averages. Following this peak, implied volatilities largely declined, with most reverting to or below their long-term average by July 2025, notably HYG settling around half its average.
+
+    Explanation: The chart provides insight into how options markets are currently pricing future volatility across different asset classes compared to their long-term behavior. The pronounced, albeit temporary, surge in implied volatilities in April 2025 indicates a period of heightened market uncertainty or risk perception across credit, rates, and equity markets. The subsequent decline, particularly for HYG where implied volatility now sits at roughly half its 14-year average as noted in the surrounding text, suggests a return to a more stable or even complacent outlook on future price swings, especially in the high-yield credit segment.
+
+page_end
+
+ John Marshall 
+ Goldman Sachs SPX 
+            SX5E 
+
+            N225 
+
+            HSCE 
+
+             FXI 
+Volatility 
+            EEM 
+
+            HYG 
+Implied 
+             TLT 
+
+            USO 
+                   H 
+            GLD 
+
+   SP500 avg stk implied vol 
+             VIX 
+
+            WIX 
+
+         Eq factor vol 
+
+              0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+Correlation 
+  Avg Stock put-call norm skew 
+
+    SPX put-call norm skew 
+
+and USO put-call norm skew 
+
+Skew   SPX 3m impl corr 
+
+       SPX 3m real corr 
+
+               0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+Rates 
+
+          CDX IG 5Y 
+and 
+         CDX HY 5Y 
+Credit 
+          iTraxxMain 
+
+               0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+
+      Single stock liquidity 
+and Funding 
+     HYG Volume/5-day Vol 
+Liquidity 
+     LQD Volume/5-day Vol 
+
+    Avg Funding Sprd (3,6m) 
+
+               0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+Positioning 
+
+      CFTC Asset Mgr Net 
+      CFTC Hedge Fd Net 
+and 
+   Retail SHARES % of $ vol 
+Flows 
+   Retail OPTIONS % of $ vol 1 
+
+              0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+
+Swaps     US 10Y Infl 
+
+          JP 10Y Infl 
+
+Inflation 
+               0 10 20 30 40 50 60 70 80 90 100 
+                      10y percentile 
+
+ "Shaded bar represents the 1-year 25th and 75th percentiles 
+
+    | Category                | Metric                       | Current 10y Percentile | 1-Year 25th Percentile | 1-Year 75th Percentile |
+    |-------------------------|------------------------------|------------------------|------------------------|------------------------|
+    | Implied Volatility      | SPX                          | 75                     | 45                     | 80                     |
+    | Implied Volatility      | SX5E                         | 50                     | 35                     | 65                     |
+    | Implied Volatility      | N225                         | 65                     | 20                     | 75                     |
+    | Implied Volatility      | HSCE                         | 60                     | 20                     | 75                     |
+    | Implied Volatility      | FXI                          | 60                     | 20                     | 75                     |
+    | Implied Volatility      | EEM                          | 10                     | 5                      | 55                     |
+    | Implied Volatility      | HYG                          | 5                      | 5                      | 50                     |
+    | Implied Volatility      | TLT                          | 40                     | 15                     | 70                     |
+    | Implied Volatility      | USO                          | 15                     | 10                     | 60                     |
+    | Implied Volatility      | GLD                          | 65                     | 55                     | 75                     |
+    | Implied Volatility      | SP500 avg stk implied vol    | 60                     | 55                     | 80                     |
+    | Implied Volatility      | VIX                          | 35                     | 45                     | 80                     |
+    | Implied Volatility      | VVIX                         | 35                     | 35                     | 75                     |
+    | Implied Volatility      | Eq factor vol                | 60                     | 55                     | 75                     |
+    | Skew and Correlation    | Avg Stock put-call norm skew | 20                     | 15                     | 45                     |
+    | Skew and Correlation    | SPX put-call norm skew       | 30                     | 20                     | 50                     |
+    | Skew and Correlation    | USO put-call norm skew       | 15                     | 10                     | 55                     |
+    | Skew and Correlation    | SPX 3m impl corr             | 10                     | 10                     | 25                     |
+    | Skew and Correlation    | SPX 3m real corr             | 28                     | 28                     | 85                     |
+    | Credit and Rates        | CDX IG 5Y                    | 12                     | 10                     | 40                     |
+    | Credit and Rates        | CDX HY 5Y                    | 20                     | 15                     | 50                     |
+    | Credit and Rates        | iTraxxMain                   | 28                     | 25                     | 45                     |
+    | Liquidity and Funding   | Single stock liquidity       | 30                     | 10                     | 35                     |
+    | Liquidity and Funding   | HYG Volume/5-day Vol         | 95                     | 68                     | 98                     |
+    | Liquidity and Funding   | LQD Volume/5-day Vol         | 95                     | 70                     | 98                     |
+    | Liquidity and Funding   | Avg Funding Sprd (3,6m)      | 90                     | 85                     | 95                     |
+    | Flows and Positioning   | CFTC Asset Mgr Net           | 80                     | 70                     | 95                     |
+    | Flows and Positioning   | CFTC Hedge Fd Net            | 25                     | 20                     | 45                     |
+    | Flows and Positioning   | Retail SHARES % of $ vol     | 50                     | 45                     | 75                     |
+    | Flows and Positioning   | Retail OPTIONS % of $ vol    | 20                     | 18                     | 70                     |
+    | Inflation Swaps         | US 10Y Infl                  | 80                     | 60                     | 75                     |
+    | Inflation Swaps         | JP 10Y Infl                  | 95                     | 90                     | 98                     |
+
+    Summary:
+    The chart displays various financial metrics across six categories (Implied Volatility, Skew and Correlation, Credit and Rates, Liquidity and Funding, Flows and Positioning, and Inflation Swaps) as their current 10-year percentile, contextualized by their 1-year 25th-75th percentile ranges. The X-axis uniformly represents the 10-year percentile from 0 to 100. Notable trends include generally high implied volatility for equity indices but remarkably low levels for VIX, EEM, and HYG (5th percentile). Credit spreads (CDX, iTraxx) are also at historically low percentiles, as are options skew and implied correlation. Conversely, liquidity indicators like HYG and LQD volume-to-volatility ratios are at extremely high percentiles (around 95th), suggesting robust liquidity, while US and Japanese 10-year inflation expectations are also at very high percentiles.
+
+    Explanation:
+    This comprehensive view suggests a market environment characterized by ample liquidity and historically tight credit, which could signal reduced perceived credit risk. The dichotomy in implied volatility – elevated for some equity indices but exceptionally low for the VIX and certain asset classes like HYG bonds – points to a nuanced risk perception, potentially reflecting a degree of complacency regarding downside risk in specific segments. Concurrently, the elevated inflation expectations, especially for Japan, indicate that market participants are pricing in persistent inflationary pressures despite the generally low-risk sentiment observed elsewhere.
+
+page_end

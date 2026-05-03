@@ -1,0 +1,440 @@
+
+
+GS - What Matters Today: Google Beats, Hedge Fund Performance and Leverage, 
+Short Squeeze, The Resurgence of the S&P 500 Index Inclusion Effect - 24Jul25 
+FICC and Equities 
+
+ - 
+
+24 July 2025   12:05PM UTC 
+
+1) Google Beats 
+       Futures mixed (Nasd +30bps / S&P Flat / Russell -40bps) as GOOGL's across-the- 
+board beat & higher spending ambitions look to drive a broad swath of Tech (AI complex / 
+Cloud providers / Ad-levered) higher today. GOOGL raised its 2025 Capex guidance by 
+$10bn, which should drive Semis/AI higher (AVGO +2%, AMD +1%, NVDA +1% early) ... 
+and beat on Cloud (watch AMZN, MSFT to trade firm in sympathy), Search (ad-levered 
+META, RDDT, PINS, SNAP etc should trade well), and YouTube. 
+       Headlines from conf call (via Bloomberg): SEARCH FEATURE AI OVERVIEWS 
+HAS OVER 2B USERS .. OVER 70M VIDEOS MADE USING VEO 3 .. GEMINI APP 
+HAS OVER 450M MONTHLY ACTIVE US EXPECTS TIGHT DEMAND/ 
+SUPPLY FOR CLOUD GOING INTO 2026 .. . EXPECTS FURTHER CAPEX INCREASE 
+IN 2026 DUE TO CLOUD 
+       Sheridan / GIR first take (link) .. "We expect the market to have a muted short- 
+term reaction to Alphabet's Q2'25 earnings report based upon our first read/analysis of the 
+results. In addition, the strong recent stock outperformance into this earnings report when 
+coupled with the lesser-known variables around a search antitrust remedy decision in the 
+coming weeks (as a likely timetable) might act as a cap on the stock short-term. Beyond that 
+short-term dynamic, we see a lot of reasons to maintain a constructive long-term view 
+toward Alphabet shares (as evidenced by this set of results) - better than expected revenue 
+performance across all four main revenue segments (Search & Other, YouTube Ads, Cloud 
+and Subscriptions) highlight a broad-based exposure to the digital economy and the 
+potential for positive impacts in the business from a shift toward AI. In addition, the 
+incremental margins and overall rising margin trajectory in Google Cloud stands out. The 
+company increasing its 2025 capex from up to $75b prior to approx. $85b stands as 
+testament to the company's signal on investing beyond the AI technology shift (but likely 
+might require some digesting from investors needing visibility into 2026/2027 margins 
+and EPS growth). " 
+       Elsewhere, IBM -5% on underwhelming Software results; NOW +7% on a beat and 
+FY guidance raise; TSLA -6% on an EPS miss paired with a Musk warning of a tough year 
+ahead. 
+
+2) Hedge Fund Performance and Leverage 
+       Performance: It's been mostly a quant problem, so far. Systematic L/S managers are 
+down -2.8% in July MTD and down -4.2% since the beginning of June (still up +9.1% 
+page_end
+
+YTD). On the other hand, Fundamental L/S returns are up +0.7% MTD (driven by beta 
+gains) and now up +7% YTD. 
+       Gross Leverage: has seen a sharp decline MTD, but Fundamental L/S exposures 
+have seen relatively little changes. Gross exposure for the full PB book (including all 
+strategy types) has declined -7 pts so far in July, which is on track to be one of the largest 
+monthly decreases we've observed in recent years. In contrast, Fundamental L/S Gross and 
+Net exposures have seen relatively little changes MTD. 
+page_end
+
+                    Overall Prime Book: Gross Leverage 
+   14 
+   12 
+   10 
+    8- 
+    6 
+    4 
+
+ Equity 0 
+    -2 
+ Fund of 
+ % 
+    -6- 
+    -8- 
+   -10 
+   -12 
+   -14 
+     2016 2017   2018 2019   2020 2021    2022 2023   2024 2025 
+
+ -Month/Month Change -    July 2025 MTD 
+
+           Prime Book: US Single Stocks (Positive Value = Short Covering) 
+ 4 
+
+ 3- 
+
+ 2- 
+
+ 1- 
+
+ 0- 
+
+ -2- 
+
+ -3 
+
+ -4- 
+   2024                        2025 
+
+    Aug Sep   Oct Nov    Dec Jan   Feb Mar   Apr May    Jun Jul 
+ -1-Day Notional Short Flow (Z Score) - July 22nd 
+
+3) Short Squeeze 
+
+    | Year | Month/Period | Monthly Change (% pts) |
+    |---|---|---|
+    | 2016 | Peak | +13.5 |
+    | 2016 | Trough | -4.5 |
+    | 2018 | Trough | -4.0 |
+    | 2019 | Peak | +7.5 |
+    | 2019 | Trough | -7.5 |
+    | 2020 | Peak | +7.5 |
+    | 2021 | Trough | -4.5 |
+    | 2022 | Peak | +3.0 |
+    | 2022 | Trough | -12.0 |
+    | 2023 | Peak | +13.5 |
+    | 2023 | Trough | -6.5 |
+    | 2024 | Jan | +3.0 |
+    | 2024 | Feb | +0.5 |
+    | 2024 | Mar | -0.5 |
+    | 2024 | Apr | -4.0 |
+    | 2024 | May | +3.0 |
+    | 2024 | Jun | -6.0 |
+    | 2024 | Jul | +6.0 |
+    | 2024 | Aug | -1.0 |
+    | 2024 | Sep | +0.5 |
+    | 2024 | Oct | -3.0 |
+    | 2024 | Nov | +5.0 |
+    | 2024 | Dec | +3.0 |
+    | 2025 | Jan | -3.0 |
+    | 2025 | Feb | +4.0 |
+    | 2025 | Mar | +0.5 |
+    | 2025 | Apr | +3.0 |
+    | 2025 | May | -1.0 |
+    | 2025 | Jun | +5.0 |
+    | 2025 | Jul MTD Decline | -7.0 |
+
+    Summary: This bar chart illustrates the month-over-month change in "Overall Prime Book: Gross Leverage" as a percentage of Fund Equity, spanning from 2016 through mid-2025. The black bars depict the monthly fluctuations, while a red horizontal line highlights a significant -7% decline observed for July 2025 MTD. The data reveals substantial volatility in gross leverage changes, with periods of sharp increases (e.g., +13.5% in 2016 and 2023) and equally dramatic decreases (e.g., -12% in 2022). The current -7% decline in July 2025 represents one of the larger monthly reductions observed, consistent with prior periods of deleveraging such as late 2019.
+
+    Explanation: This sharp decline in gross leverage for the full prime book in July 2025, confirmed by the -7% mark, is noted as one of the largest monthly decreases in recent years, indicating a significant de-risking trend. This reduction in overall prime book exposure suggests a broader market shift, potentially influenced by "animal spirit" and "strong retail participation" in short squeeze events as discussed in the surrounding text, leading to reduced overall exposure.
+
+    | Date (Approx.) | 1-Day Notional Short Flow (Z Score) | Implication          |
+    |----------------|-------------------------------------|----------------------|
+    | Aug 2024 (Early) | +1.5                                | Short Covering       |
+    | Aug 2024 (Mid)   | -0.8                                | Shorting Activity    |
+    | Sep 2024 (Early) | -1.0                                | Shorting Activity    |
+    | Sep 2024 (Late)  | +0.3                                | Short Covering       |
+    | Oct 2024 (Mid)   | +2.0                                | Short Covering       |
+    | Oct 2024 (Late)  | -0.8                                | Shorting Activity    |
+    | Nov 2024 (Early) | +0.5                                | Short Covering       |
+    | Nov 2024 (Late)  | -1.8                                | Shorting Activity    |
+    | Dec 2024 (Early) | +1.2                                | Short Covering       |
+    | Dec 2024 (Mid)   | -3.2                                | Strong Shorting      |
+    | Dec 2024 (Late)  | +0.5                                | Short Covering       |
+    | Jan 2025 (Early) | +2.2                                | Short Covering       |
+    | Jan 2025 (Mid)   | -1.0                                | Shorting Activity    |
+    | Jan 2025 (Late)  | +1.8                                | Short Covering       |
+    | Feb 2025 (Early) | +1.0                                | Short Covering       |
+    | Feb 2025 (Late)  | -0.5                                | Shorting Activity    |
+    | Mar 2025 (Peak)  | +3.8                                | Strong Short Covering|
+    | Mar 2025 (Trough) | -2.8                                | Strong Shorting      |
+    | Mar 2025 (Late)  | +0.5                                | Short Covering       |
+    | Apr 2025 (Early) | +2.0                                | Short Covering       |
+    | Apr 2025 (Mid)   | -1.5                                | Shorting Activity    |
+    | May 2025 (Peak)  | +3.2                                | Strong Short Covering|
+    | May 2025 (Trough) | -2.0                                | Strong Shorting      |
+    | Jun 2025 (Early) | -1.5                                | Shorting Activity    |
+    | Jun 2025 (Late)  | +1.0                                | Short Covering       |
+    | Jul 2025 (Early) | +0.8                                | Short Covering       |
+    | Jul 22, 2025     | +1.8                                | Strong Short Covering|
+    | Jul 2025 (Late)  | +0.5                                | Short Covering       |
+
+    Summary: The chart "Prime Book: US Single Stocks (Positive Value = Short Covering)" illustrates the daily 1-Day Notional Short Flow (Z Score) for US single stocks from August 2024 to July 2025. The Y-axis, representing the Z-score, shows significant volatility, with positive values indicating short covering and negative values new shorting activity. Key trends include recurrent spikes of strong short covering, notably in March and May 2025, where Z-scores exceeded +3.0. These periods of intense short covering are often followed or preceded by significant shorting activity, such as the troughs below -2.5 in December 2024 and March 2025. As of July 22nd, 2025, the short flow was at a Z-score of +1.8, indicating strong recent short covering.
+
+    Explanation: This data highlights the dynamic and often aggressive nature of short interest in US single stocks, characterized by rapid shifts. The high levels of short covering, particularly in recent months up to July 22nd, 2025, align with the broader market commentary on a "Short Squeeze" driven by "animal spirit and strong retail participation," as noted in the surrounding text. The magnitude of these moves suggests the market may be entering the "later innings of the short covering," as per the report's assessment.
+
+    | Metric | Period | Value |
+    |:------------------------------------|:-----------|:--------|
+    | Overall PB Gross Leverage (% MoM) | 2016-12    | +13.5%  |
+    | Overall PB Gross Leverage (% MoM) | 2017-09    | -4.5%   |
+    | Overall PB Gross Leverage (% MoM) | 2018-02    | +3.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2018-09    | -8.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2019-06    | +7.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2019-12    | -6.5%   |
+    | Overall PB Gross Leverage (% MoM) | 2020-04    | +4.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2020-08    | -3.5%   |
+    | Overall PB Gross Leverage (% MoM) | 2021-04    | +6.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2021-12    | -4.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2022-07    | -13.0%  |
+    | Overall PB Gross Leverage (% MoM) | 2022-11    | +7.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2023-08    | -6.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2024-03    | +7.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2024-11    | -9.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2025-05    | +6.0%   |
+    | Overall PB Gross Leverage (% MoM) | 2025-Jul MTD | -7.0%   |
+    | US Single Stocks Short Flow (Z Score) | 2024-Aug   | Avg +0.5 |
+    | US Single Stocks Short Flow (Z Score) | 2024-Sep   | Min -3.5 |
+    | US Single Stocks Short Flow (Z Score) | 2024-Oct   | Avg -0.5 |
+    | US Single Stocks Short Flow (Z Score) | 2024-Dec   | Avg +0.2 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Jan   | Min -3.0 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Feb   | Max +3.8 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Mar   | Avg +0.5 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Apr   | Avg -0.5 |
+    | US Single Stocks Short Flow (Z Score) | 2025-May   | Max +3.5 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Jun   | Avg +0.8 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Jul (early) | Avg +0.5 |
+    | US Single Stocks Short Flow (Z Score) | 2025-Jul-22 | +1.8 |
+
+    Summary: The figure presents two time-series charts. The top chart, "Overall Prime Book: Gross Leverage," displays the month-over-month percentage change in gross leverage from 2016 to mid-2025, showing significant volatility with swings ranging from over +13% to -13%. The bottom chart, "Prime Book: US Single Stocks," illustrates the 1-Day Notional Short Flow (Z Score) from August 2024 to July 2025, where positive values indicate short covering. This chart reveals frequent, sharp daily fluctuations, with notable spikes in short covering (e.g., Feb/Mar and May 2025 reaching over +3 Z-score) and periods of intense shorting (e.g., Sep 2024 and Jan 2025 dropping below -3 Z-score). The current July 2025 MTD leverage change is a significant -7%, while the July 22nd short flow is +1.8 Z-score.
+
+    Explanation: The charts highlight significant shifts in prime book activity. The sharp -7% decline in overall gross leverage for July 2025 MTD is noted in the surrounding text as one of the largest monthly decreases in recent years, indicating a substantial deleveraging. Concurrently, the bottom chart's positive spikes in 1-Day Notional Short Flow signify periods of strong short covering, which the context on page 4 links to a "Short Squeeze" phenomenon, elevated retail participation, and a "momentum rotation and extreme rally in high beta names and lower quality pockets of the market."
+
+page_end
+
+          Our Short Interest Pair had it best monthly returns since the meme stock squeeze 
+back in January 2021. Our High vs Low Short Interest Pair (GSPUWSHI Index) rallied 10% 
+in the period (on a ~13% vol as the pair is sector, industry, & factor neutral), a move in the 
+99.7th percentile rally (3.8 stdv) relative to the last 17+ years, driven by animal spirit and 
+strong retail participation. Relative to our Most Short Rolling Basket (GSXUMSAL), which 
+is up 22% in the same period, the Short Interest Pair is less driven by beta and volatility, 
+more diversified with a max weight of 1% at rebalance, and is highly liquid and tradable in 
+social size (the pair excludes hard-to-borrow stocks and is liquidity optimized to trade 
+$500mm a side in a day at 10% of volume at rebalance). 
+          We flagged the momentum rotation and extreme rally in high beta names and lower 
+quality pockets of the market, and we may be moving towards later innings of the short 
+covering given the magnitude of these moves. Historically, there has only been 2 events 
+where our short interest pair had a higher monthly return, in October of 2008 and January of 
+2021, and both cases had poor subsequent returns. However, it is worth noting that the 
+meme stock rally in 2021 caused more pain as the squeeze in our pair was even more 
+pronounced with an 18% rally over the month and at the time, this was a newer 
+phenomenon in the market. (TY Guillaume Soria) 
+
+                                                                                                                 20 
+                         1m Returns GSPUWSHI 
+                           Hi/Lo Short Interest                                                                  -15 
+
+                                                                                                                 9.965 
+
+                                                                                                                -5 
+
+                                                                                                                 -0 
+
+                                                                                                                -- 5 
+
+                                                                                                                >-10 
+
+                                                                                                                 >-15 
+
+  2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020                2021 2022 2023 2024 2025 
+GSPUWSHI Index (GS US Wolfe Short Interest Pair) Daily 01JAN2007-23JUL2025 Copyright@ 2025 Bloomberg Finance L.P. 23-Jul-2025 07:53:40 
+Source: Goldman Sachs FICC & Equities, Bloomberg, as of July 2025. Past performance is 
+not indicative of future results. 
+          Retail Participation has spiked in the high short interest names: 
+
+    | Year | Month | 1m Return (%) |
+    |---|---|---|
+    | 2008 | Jan | 2.5 |
+    | 2008 | Oct | 12.5 |
+    | 2008 | Dec | -12.0 |
+    | 2009 | Jul | 3.0 |
+    | 2010 | Jan | -4.0 |
+    | 2011 | Aug | -8.0 |
+    | 2012 | Jun | 3.5 |
+    | 2013 | Dec | 4.0 |
+    | 2014 | Mar | -3.0 |
+    | 2015 | Sep | -7.5 |
+    | 2016 | Jun | 4.5 |
+    | 2017 | Jan | -2.0 |
+    | 2018 | Jan | 7.0 |
+    | 2018 | Dec | -8.5 |
+    | 2019 | May | 6.0 |
+    | 2020 | Mar | -10.0 |
+    | 2020 | Nov | -17.5 |
+    | 2021 | Jan | 19.5 |
+    | 2021 | Sep | -9.0 |
+    | 2022 | Jan | -7.0 |
+    | 2022 | Jul | 8.0 |
+    | 2023 | Mar | -6.0 |
+    | 2023 | Nov | 9.0 |
+    | 2024 | Jan | -5.0 |
+    | 2024 | Jun | 8.0 |
+    | 2025 | Jul | 9.965 |
+
+    Summary: The chart displays the 1-month returns of the GSPUWSHI (Hi/Lo Short Interest Pair) index, ranging from 2008 through July 2025. The X-axis represents the time period, while the Y-axis shows the percentage return, spanning approximately -18% to +20%. The series exhibits high volatility throughout, with numerous positive and negative monthly returns. Key inflection points include a notable peak in October 2008 (approx. 12.5%) and a significant trough in late 2020 (approx. -17.5%). The highest peak occurred in January 2021 (approx. 19.5%), and the most recent marked return for July 2025 is 9.965%, indicated by a red dashed line.
+
+    Explanation: This chart visually corroborates the accompanying text, highlighting the exceptional monthly performance of the short interest pair, particularly in July 2025. The magnitude of the current rally (9.965%) is stated to be a 99.7th percentile event, surpassed only by October 2008 and January 2021 (the "meme stock squeeze"). These extreme positive returns are indicative of periods of significant short covering and increased retail participation, suggesting market dynamics driven by "animal spirit." Historically, such pronounced rallies in the short interest pair have been followed by poor subsequent returns, indicating a potential late stage in the current short covering trend.
+
+page_end
+
+  10D Average Retail Investor Participation Percent In GSPUWSHI (Hi/Lo Short Interest) 
+    1- 23 Jul 20                                                     22 Jul 25 -1 
+                                                                            30 % 
+
+                                                                            25 % 
+
+                                                                             21 % 
+                                                                             20 
+
+                                                                            15 % 
+
+                                                                            10 % 
+                                                                             8 % 
+                                                                            5 % 
+
+                                                                            0 % 
+          2021          2022          2023           2024          2025 
+
+    High Short Interest (GSXUWFIL) Low Short Interest (GSXUWFIS) 
+
+Source: MaPlotTool Pro      as of 23 Jul 2025, past performance is not indicative of 
+future returns 
+
+4) The Resurgence of the S&P 500 Index Inclusion Effect 
+       The average stock added to the S&P 500 index has outperformed the equal-weight 
+S&P 500 by 4 pp on announcement day since 2021. 74% of the stocks added during this 
+period have outperformed the equal-weight index on announcement day. Prior to 2021, the 
+S&P 500 index inclusion effect had effectively disappeared on average. Roughly 20 
+companies have been added to the S&P 500 each year since 2013. Exhibit 9 includes a list 
+of 15 non-S&P 500 stocks that may be candidates for future index inclusion. 
+       But performance of index additions depends heavily on whether the stock migrates 
+from the S&P 400. The average relative return on announcement day equaled 5.3 pp when 
+the stock did not migrate from the S&P 400, compared with -0.4 pp when it did. The 
+sharpest outperformance of index additions comes ahead of the announcement. Since 2013, 
+the average outperformance of index additions in the three months leading up to 
+announcement is 12 pp. 
+
+    | Date      | High Short Interest Participation (%) | Low Short Interest Participation (%) |
+    |-----------|---------------------------------------|--------------------------------------|
+    | 23 Jul 20 | 14%                                   | 9%                                   |
+    | Jan 2021  | 24%                                   | 12%                                  |
+    | May 2021  | 17%                                   | 9%                                   |
+    | Sep 2021  | 20%                                   | 11%                                  |
+    | Jan 2022  | 19%                                   | 10%                                  |
+    | May 2022  | 23%                                   | 12%                                  |
+    | Sep 2022  | 17%                                   | 7%                                   |
+    | Jan 2023  | 15%                                   | 7%                                   |
+    | May 2023  | 22%                                   | 12%                                  |
+    | Sep 2023  | 17%                                   | 8%                                   |
+    | Jan 2024  | 16%                                   | 7%                                   |
+    | May 2024  | 22%                                   | 10%                                  |
+    | Sep 2024  | 19%                                   | 8%                                   |
+    | Jan 2025  | 18%                                   | 7%                                   |
+    | 22 Jul 25 | 21%                                   | 8%                                   |
+
+    Summary: This time series chart displays the 10-day average retail investor participation percentage in GSPUWSHI (Hi/Lo Short Interest) from July 2020 to July 2025. The Y-axis, ranging from 0% to 30%, measures participation for two categories: "High Short Interest" (blue line) and "Low Short Interest" (orange line) stocks. Retail participation in high short interest stocks consistently remains higher and exhibits greater volatility compared to low short interest stocks. Notable peaks for high short interest names include early 2021 (around 24%), mid-2022 (around 23%), mid-2023 (around 22%), and a recent surge towards 21% by July 2025, while low short interest participation generally hovers below 12%.
+
+    Explanation: The chart visualizes the "spike in retail participation in high short interest names" mentioned in the preceding text, particularly highlighting the early 2021 "meme stock squeeze." The current upward trend in retail participation for high short interest stocks, reaching 21% in July 2025, suggests a renewed "animal spirit" among retail investors, potentially indicating "later innings of the short covering" rally that historically has led to poor subsequent returns for such assets.
+
+page_end
+
+Exhibit 1: S&P 500 index inclusion effect over time 
+sample of 219 index additions with available data, excludes spin-offs 
+
+                                                                         100% 
+  8 pp                                                               7.4 
+                          Relative performance of 
+                          S&P 500 index additions                        90% 
+  7 pp 
+                           on announcement day 
+                                                                         80% 
+  6 pp                    vs. equal-weight S&P 500             5.4 
+                                                                         70% 
+  5 pp                   Hit rate of 
+                       outperformance                     4.1            60% 
+                         (right axis) 
+  4 pp 
+                                                                         50% 
+            Average                             2.7 
+  3 pp                                                                   40% 
+        2.2                                          2.2 
+                  2.0 
+  2 pp                                                                   30% 
+             1.2 
+                                           0.8 
+  1 pp                      0.5                                          20% 
+                       0.3 
+
+  0 pp                                                                    10% 
+                                 -0.1 
+                                      -0.6                               0% 
+  -1 pp 
+       2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 
+
+Source: FactSet, Standard and Poor's, Goldman Sachs Global Investment Research 
+
+    | Year | Average Relative Performance (pp) | Hit Rate of Outperformance (%) |
+    |---|---|---|
+    | 2013 | 2.2 | 83% |
+    | 2014 | 1.2 | 78% |
+    | 2015 | 2.0 | 75% |
+    | 2016 | 0.3 | 48% |
+    | 2017 | 0.5 | 58% |
+    | 2018 | -0.1 | 32% |
+    | 2019 | -0.6 | 25% |
+    | 2020 | 0.8 | 50% |
+    | 2021 | 2.7 | 60% |
+    | 2022 | 2.2 | 70% |
+    | 2023 | 4.1 | 80% |
+    | 2024 | 5.4 | 88% |
+    | 2025 | 7.4 | 90% |
+
+    Summary: This chart, spanning 2013 to 2025, illustrates two key metrics for S&P 500 index additions: their average relative performance versus the equal-weight S&P 500 on announcement day (left Y-axis, blue bars) and the hit rate of outperformance (right Y-axis, green dots). The index inclusion effect was initially positive (e.g., 2.2 pp in 2013) before declining to negative values in 2018-2019, bottoming at -0.6 pp in 2019. Subsequently, it has shown a significant resurgence, climbing steadily to a peak of 7.4 pp in 2025. The hit rate of outperformance largely mirrored this trend, dropping to a low of 25% in 2019 but rebounding sharply to 90% by 2025, indicating a strong and consistent outperformance trend in recent years.
+
+    Explanation: The exhibit clearly visualizes the "resurgence" of the S&P 500 index inclusion effect, which the surrounding text highlights as having "effectively disappeared" prior to 2021. The chart emphatically confirms this resurgence, showing that since 2021, the average outperformance has notably accelerated, far exceeding the stated 4 pp average since 2021, and achieving high success rates in recent years. This suggests a significant and growing premium for stocks added to the S&P 500, especially in the most recent periods.
+
+page_end
+
+Exhibit 4: S&P 500 index inclusion effect varies widely based on where the stock originates 
+sample of 219 index additions with available data, excludes spin-offs 
+
+  8 pp 
+                   Relative performance of S&P 500 index additions 
+                   vs. equal-weight S&P 500 on announcement day 
+                                      since 2013 
+   6 pp                               5.3 
+                                              4.9 
+
+   4 pp                    Average                  Median 
+
+                                                              1.7 
+   2 pp 
+                                                                      0.7 
+
+   0 pp 
+              -0.4 
+                      -0.7 
+
+  -2 pp 
+              From S&P 400          Not from S&P 400              All 
+
+ Source: FactSet, Standard and Poor's, Goldman Sachs Global Investment Research 
+
+Thanks, 
+
+    | Category           | Average Relative Performance (pp) | Median Relative Performance (pp) |
+    |--------------------|-----------------------------------|----------------------------------|
+    | From S&P 400       | -0.4                              | -0.7                             |
+    | Not from S&P 400   | 5.3                               | 4.9                              |
+    | All                | 1.7                               | 0.7                              |
+
+    Summary: This bar chart illustrates the relative performance of S&P 500 index additions versus the equal-weight S&P 500 on the announcement day, categorized by the stock's origin since 2013. The Y-axis represents relative performance in percentage points (pp), while the X-axis categorizes additions into "From S&P 400," "Not from S&P 400," and "All." Blue bars denote the average performance, and green bars show the median. Stocks originating "Not from S&P 400" exhibit significant positive relative performance (5.3 pp average, 4.9 pp median), representing the highest observed effect. Conversely, stocks promoted "From S&P 400" show negative relative performance (-0.4 pp average, -0.7 pp median). Overall, the "All" category shows a modest positive relative performance (1.7 pp average, 0.7 pp median), reflecting the dominant positive impact from non-S&P 400 additions.
+
+    Explanation: The chart demonstrates that the "S&P 500 index inclusion effect" is not uniform but highly dependent on the prior index status of the added stock. While the previous exhibit showed a fluctuating but generally positive index effect over time, this chart clarifies that the strongest performance uplift comes from companies entering the S&P 500 from outside the S&P 400 mid-cap index, suggesting these additions are perceived as more impactful or surprising. Conversely, internal promotions from the S&P 400 tend to underperform, possibly due to more anticipated inclusion or less significant market impact.
+
+page_end

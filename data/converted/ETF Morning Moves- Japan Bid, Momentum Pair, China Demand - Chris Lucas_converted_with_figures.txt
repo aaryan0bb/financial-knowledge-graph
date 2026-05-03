@@ -1,0 +1,215 @@
+
+
+                                       Momentum 
+Japan                   Bid, 
+
+ Pair,            China                 Demand 
+
+July 24, 2025 
+
+Prepared by a Goldman Sachs sales and trading desk, which may have a position in the products 
+mentioned that is inconsistent with the views expressed in this material. In evaluating this material, 
+you should know that it could have been previously provided to other clients and/or internal Goldman 
+Sachs personnel, who could have already acted on it. The views or ideas expressed here are those of 
+the desk and/or author only and are not an official view of Goldman Sachs; others at Goldman Sachs 
+may have opinions or may express views that are contrary to those herein. This material is not 
+independent advice and is not a product of Global Investment Research. This material is a solicitation 
+of derivatives business generally, only for the purposes of, and to the extent it would otherwise be 
+subject to, CFTC Regulations 1.71 and 23.605. 
+
+Focus remains on earnings post GOOGL (+3.6% in the pre) and TSLA (-6% in the 
+pre) yesterday evening. Europe broadly trading higher this morning after a late FT 
+story indicated that the US and EU are close to a trade deal. Desk flows yesterday 
+illustrated strong demand for Japan, coupled with supply in small-cap/exposures that 
+are correlated with the short-leg of momentum. 
+
+Japan was one of the clear outliers in yesterday's price action. We saw buyers across 
+EWJ and BBJP, with both products witnessing some of their busiest sessions 
+YTD. The space has been trading rich recently, but primary market flows were mostly 
+muted yesterday given creation/redemption schedules - we'll be watching the space 
+closely the next couple of days. 
+page_end
+
+  +24Jul2024-                                                          -7Aug2025- 
+                                                                                     36b 
+                                                                                     35b 
+         M 
+                                                                                     34b 
+
+                                                                                    .33b 
+                                                                                     32b 
+
+                                                                                    31b 
+                                   N                                                30b 
+
+                                                                                     29b 
+
+                                                                                    28b 
+                                                                                    27b 
+   2024                              2025 
+   Aug   Sep    Oct   Nov    Dec   Jan    Feb Mar     Apr   May    Jun    Jul   Aug 
+ Japan ETF AUM $ (EWJ, BBJP, FLJP, DXJ) 
+Source: Bloomberg, Goldman Sachs Global FICC & Equities as of July 23, 2025. Past performance is not 
+indicative of future results. 
+
+GOOGL reported earnings with a ~6% EPS beat but the standout was a $10bn 
+upward revision to 2025 capex. TSLA pointing lower this morning after Musk shared 
+that Tesla could be in for a "rough few quarters" on call as the Trump administration 
+ends EV incentives and tariff pressures cause uncertainty for the company following 
+one of its worst earnings reports in 10+ yrs ... could be a busy session across the 
+levered/inverse single-stock complex with some of these earnings movers (watching 
+GGLL, TSLL in particular today). 
+
+In addition to the above, the two areas where flows appear interesting are within 
+compositions that are highly correlated with the long and short legs of momentum, 
+coupled with the continuation of China demand. 
+
+1) As the momentum drawdown continues to spill more ink, we've seen client 
+interest across the two largest momentum factor products (SPMO and MTUM) to 
+achieve the long-leg exposure. Typical hedges we've seen against the factor (and 
+other long exposures) have been IWM and ARKK - IWM continued to face supply 
+on our desk yesterday (via long sells), however the underlying index 20d 
+performance of SPMO vs IWM has reached its lowest point YTD ... 
+
+    | Date      | Japan ETF AUM ($bn) |
+    |-----------|---------------------|
+    | Jul 2024  | 35.5                |
+    | Mid Aug 2024 | 28.5                |
+    | Sep 2024  | 34.8                |
+    | Oct 2024  | 32.5                |
+    | Nov 2024  | 31.0                |
+    | Dec 2024  | 29.5                |
+    | Jan 2025  | 29.0                |
+    | Feb 2025  | 31.5                |
+    | Mar 2025  | 31.0                |
+    | Early Apr 2025 | 27.5                |
+    | Late Apr 2025 | 31.0                |
+    | May 2025  | 33.5                |
+    | Jun 2025  | 34.0                |
+    | Early Jul 2025 | 33.0                |
+    | Late Jul 2025 | 35.5                |
+    | Early Aug 2025 | 35.8                |
+
+    Summary: This line chart displays the Assets Under Management (AUM) for a basket of Japan ETFs (EWJ, BBJP, FLJP, DXJ) from July 2024 to early August 2025, ranging from approximately $27 billion to $36 billion. The AUM experienced a significant decline from late 2024 through early 2025, hitting a low of around $27.5 billion in April 2025. Following this trough, there was a strong and sustained recovery, culminating in a sharp surge in July and early August 2025, pushing the AUM to new highs for the period, approaching $36 billion.
+
+    Explanation: The recent surge in Japan ETF AUM, particularly in July-August 2025, aligns with the surrounding text indicating "strong demand for Japan" and significant buying interest in EWJ and BBJP, which experienced "busiest sessions YTD." This suggests a notable shift in investor preference and capital allocation towards Japanese equities, potentially driven by market dynamics or perceived value.
+
+page_end
+
+  +31Dec2024-                                                            -29Jul2025- 
+                                                                                       8 
+                                                                                       7 
+                                                                                       6 
+                                                                                       5 
+                                                                                       4 
+                                                                                       3 
+                                                                                       2 
+                                                                                       1 
+                                                                                       0 
+                                                                                       -1 
+                                                                                       -2 
+                                                                                       3 
+   2025 
+  Jan        Feb         Mar         Apr        May          Jun         Jul 
+ Underlying Index 20-Day Performance (%): SPMO vs IWM 
+Source: Bloomberg, Goldman Sachs Global FICC & Equities as of July 23, 2025. Past performance is not 
+indicative of future results. 
+
+Primary market flows still suggest a preference for the long leg of the trade, with 
+SPMO and MTUM collectively adding +$1.5bn in new money over the past month. 
+The broader theme of the momentum unwind has made its way to the quant 
+community with our prime business estimating the cohort is now down 3.6% MTD 
+(on track for worst month in almost 5 years) - link to the full note from PB here. 
+
+2) China. We'll keep it short and sweet here as this topic likely emerging back in 
+limelight ... China ETFs are starting to emerge back into a creation cycle. The major 
+products have recently been trading rich and creations are trickling back in ... We saw 
+buyers of MCHI and KWEB yesterday. 
+
+    | Date | Performance (%) |
+    |---|---|
+    | Dec 31, 2024 | 5.8 |
+    | Jan 7, 2025 | 0.8 |
+    | Jan 14, 2025 | 2.5 |
+    | Jan 22, 2025 | 0.0 |
+    | Jan 29, 2025 | 2.5 |
+    | Feb 6, 2025 | 0.5 |
+    | Feb 14, 2025 | 5.5 |
+    | Feb 28, 2025 | 1.5 |
+    | Mar 10, 2025 | 6.0 |
+    | Mar 20, 2025 | 1.5 |
+    | Mar 28, 2025 | 0.0 |
+    | Apr 3, 2025 | -2.0 |
+    | Apr 9, 2025 | -0.5 |
+    | Apr 15, 2025 | 5.5 |
+    | Apr 23, 2025 | 1.0 |
+    | Apr 29, 2025 | 5.5 |
+    | May 7, 2025 | 7.5 |
+    | May 15, 2025 | 0.5 |
+    | May 22, 2025 | 7.0 |
+    | May 29, 2025 | 4.5 |
+    | Jun 5, 2025 | 5.5 |
+    | Jun 12, 2025 | 2.0 |
+    | Jun 19, 2025 | 5.5 |
+    | Jun 26, 2025 | -0.5 |
+    | Jul 3, 2025 | 2.0 |
+    | Jul 10, 2025 | -2.0 |
+    | Jul 17, 2025 | 0.5 |
+    | Jul 24, 2025 | -1.0 |
+    | Jul 29, 2025 | -2.5 |
+
+    Summary: This line chart displays the 20-day performance difference between the SPMO and IWM underlying indices, expressed as a percentage, from late December 2024 to late July 2025. The chart is characterized by extreme volatility and frequent reversals, with the performance swinging between approximately +7.5% and -2.5%. Notable peaks include mid-February (~5.5%), mid-March (~6%), late April (~5.5%), and especially mid-May (hitting ~7.5%). Conversely, significant troughs occurred in early April (~-2%), early July (~-2%), and late July (~-2.5%), marking the lowest point on the chart.
+
+    Explanation: The chart illustrates the performance of the momentum factor (represented by SPMO) relative to a typical hedge or small-cap index (IWM). The sharp decline in late July to -2.5% confirms the accompanying text's assertion that the 20-day performance of SPMO vs IWM has reached its lowest point year-to-date, indicating a significant underperformance of momentum strategies during this period, despite client interest in long-leg momentum exposure.
+
+page_end
+
+   +24Jun2024-                                                         -24Jul2025- 
+                                                                                      9b 
+                                                                                      8b 
+                                                                                      7b 
+                                                                                      6b 
+                                                                                      5b 
+                                                                                      4b 
+                                                                                      3b 
+                                                                                      2b 
+                                                                                      1b 
+                                                                                      0 
+                                                                                     -1b 
+                                                                                     -2b 
+                                                                                     -3b 
+                                                                                     -4b 
+    2024                                  2025 
+    Jul   Aug   Sep   Oct   Nov   Dec    Jan   Feb Mar     Apr   May    Jun   Jul 
+  China ETF Cumulative Flows $ (FXI, KWEB, CQQQ, MCHI, ASHR) 
+
+Source: Bloomberg, Goldman Sachs Global FICC & Equities as of July 23, 2025. Past performance is not 
+indicative of future results. 
+
+Any references to we/us/our refers to the desk 
+
+Chris Lucas 
+
+    | Month | Cumulative Flows ($bn) |
+    |---|---|
+    | Jul 2024 | -0.5 |
+    | Aug 2024 | -2.0 |
+    | Sep 2024 | -3.0 |
+    | Early Oct 2024 | -3.5 |
+    | Late Oct 2024 | +8.5 |
+    | Nov 2024 | +5.5 |
+    | Dec 2024 | +3.5 |
+    | Jan 2025 | +2.8 |
+    | Feb 2025 | +3.2 |
+    | Mar 2025 | +4.2 |
+    | Early Apr 2025 | +4.5 |
+    | Late Apr 2025 | +0.5 |
+    | May 2025 | +0.6 |
+    | Jun 2025 | +0.9 |
+    | Jul 2025 | +1.8 |
+
+    Summary: This time-series chart illustrates the cumulative flows for a basket of China ETFs (FXI, KWEB, CQQQ, MCHI, ASHR) from July 2024 to July 2025. The Y-axis tracks cumulative flows in billions of dollars, ranging from -$4bn to +$9bn. The chart shows an initial period of net outflows in Q3 2024, plummeting to -$3.5bn by early October. This was followed by a dramatic surge in late October 2024, reaching a peak cumulative inflow of approximately +$8.5bn. Subsequently, flows receded through Q4 2024 and Q1 2025, experiencing another sharp downturn in April 2025 to around +$0.5bn, before a modest recovery and recent uptick in July 2025, ending near +$1.8bn.
+
+    Explanation: The chart provides visual evidence supporting the narrative that China ETFs are experiencing a resurgence in investor interest. After significant volatility, including a sharp inflow burst in late 2024 and subsequent drawdowns, the recent rise in cumulative flows in July 2025 (highlighted by the red box) confirms the "creation cycle" and "trickling back in" of buyers for major products like MCHI and KWEB mentioned in the accompanying text.
+
+page_end

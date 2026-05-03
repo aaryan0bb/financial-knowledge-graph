@@ -1,0 +1,1097 @@
+
+
+                                                             APOLLO 
+
+                                      Explaining the                        US       dollar's 
+
+                        depreciation in                        the       first half             of      2025 
+
+                                                    Apollo Global Management 
+
+                                                    Torsten Slok and James Thomas 
+
+                                                            tslok@apollo.com 
+
+                                                                 July 2025 
+
+Unless otherwise noted, information as of July 2025 
+Confidential and Proprietary - Not for distribution, in whole or in part, without the express written consent of Apollo Global Management, Inc. 
+It should not be assumed that investments made in the future will be profitable or will equal the performance of the investments shown in this document. 
+page_end
+
+                                                                                                                                                        APOLLO 
+
+           Disclaimer 
+Legal 
+
+This presentation is provided for informational and discussion purposes only and may not be distributed, 
+transmitted or otherwise communicated to others, in whole or in part, without the express written consent of Apollo 
+Global Management, Inc. (together with its subsidiaries, "Apollo"). This material does not constitute an offer to sell, 
+or the solicitation of an offer to buy, any security, product or service. 
+
+Unless otherwise noted, information included herein is presented as of the dates indicated.    Apollo Global 
+Management, Inc. (together with its subsidiaries, "Apollo") makes no representation or warranty, expressed or 
+implied, with respect to the accuracy, reasonableness, or completeness of any of the information contained herein, 
+including, but not limited to, information obtained from third parties. Opinions, estimates and projections constitute 
+the current judgment of the author as of the date indicated. They do not necessarily reflect the views and opinions 
+of Apollo and are subject to change at any time without notice. Apollo does not have any responsibility to update 
+the information to account for such changes. Hyperlinks to third-party websites in these materials are provided for 
+reader convenience only. There can be no assurance that any trends discussed herein will continue. 
+
+The information contained herein is not intended to provide, and should not be relied upon for, accounting, legal or 
+tax advice and does not constitute an investment recommendation or investment advice. Investors should make an 
+independent investigation of the information contained herein, including consulting their tax, legal, accounting or 
+other advisors about such information. Apollo does not act for you and is not responsible for providing you with the 
+protections afforded to its clients. 
+
+Certain information contained herein may be "forward-looking" in nature. Due to various risks and uncertainties, 
+actual events or results may differ materially from those reflected or contemplated in such forward-looking 
+information. As such, undue reliance should not be placed on such information. Forward-looking statements may 
+be identified by the use of terminology including, but not limited to, "may", "will", "should", "expect", "anticipate", 
+"target", "project", "estimate", "intend", "continue" or "believe" or the negatives thereof or other variations thereon or 
+comparable terminology.                                                                                                                                       2 
+
+    | Note |
+    |------|
+    | The attached figure `page_2_fig_1.jpg` is a photographic image and contains no structured data, charts, or tables. |
+
+    Summary: The attached figure `page_2_fig_1.jpg` displays a large cable-stayed bridge with its numerous support cables and an empty section of roadway. The image is purely visual and decorative, serving as a background or divider. It does not contain any financial charts, graphs, or structured data elements such as X/Y axes, categories, legends, time ranges, trends, or specific data points, making it impossible to describe statistical shifts, inflection points, or unusual values.
+
+    Explanation: Page 2 of the document, on which this image is located, primarily consists of an extensive legal disclaimer from Apollo Global Management. This disclaimer clarifies the nature of the presentation as informational, outlines limitations regarding accuracy, and advises against its use for investment or legal counsel. The image itself appears to be an aesthetic choice for page design, offering a visual break within the report rather than conveying any analytical financial or economic information pertinent to the discussion of the US dollar's depreciation.
+
+page_end
+                                                                                       APOLLO 
+                                  Conclusions 
+
+   . The dollar has depreciated more in the first half of 2025 than yield differentials would 
+      have predicted. 
+
+      Regression models indicate that this was due to the trade war and economic policy 
+      uncertainty, including concerns among foreign investors about Section 899 and the 
+      Mar-a-Lago Accord. 
+
+      Looking ahead, with Section 899 behind us and the trade war likely to be resolved 
+      within the next couple of weeks, the US dollar is expected to appreciate again. 
+
+      Renewed strong appetite for US assets after Liberation Day is also visible in the TIC 
+      data for May. 
+
+Source: Apollo Chief Economist                                                            3 
+page_end
+
+                                                                                                                                                        APOLLO 
+
+Why did the relationship between the dollar and interest rate differentials break down? 
+
+                                                       -1-year yield differential, rhs - EURUSD , Ihs 
+ EURUSD                                                                                                                                                pp 
+1.25                                                                                                                                                      0.0 
+                                                                                                                                         Trade/Section 899 
+1.20                                                                                                                                                     -0.5 
+
+1.15                                                                                                                                                     -1.0 
+
+1.10                                                                                                                                                     -1.5 
+
+1.05                                                                                                                                                     -2.0 
+
+1.00                                                                                                                                                     -2.5 
+
+0.95                                                                                                                                                     -3.0 
+
+0.90                                                                                                                                                     -3.5 
+       Jul Sep Nov      Jan Mar May       Jul Sep Nov Jan       Mar May      Jul Sep Nov Jan       Mar May     Jul   Sep Nov Jan      Mar May     Jul 
+           2021                         2022                               2023                               2024                        2025 
+
+Source: Bloomberg, Macrobond, Apollo Chief Economist. Note: 1-year yield differential = 1-year German government bill minus 1-year US T-bill. pp = percentage points 
+
+                                                                                                                                                               4 
+
+    | Date | EURUSD | 1-year Yield Differential (pp) |
+    |---|---|---|
+    | Jul 2021 | 1.18 | -1.8 |
+    | Sep 2021 | 1.16 | -1.7 |
+    | Nov 2021 | 1.13 | -1.6 |
+    | Jan 2022 | 1.12 | -1.8 |
+    | Mar 2022 | 1.09 | -2.0 |
+    | May 2022 | 1.05 | -2.3 |
+    | Jul 2022 | 1.02 | -2.5 |
+    | Sep 2022 | 0.98 | -2.9 |
+    | Nov 2022 | 1.03 | -2.2 |
+    | Jan 2023 | 1.08 | -1.5 |
+    | Mar 2023 | 1.08 | -1.5 |
+    | May 2023 | 1.07 | -1.7 |
+    | Jul 2023 | 1.10 | -1.4 |
+    | Sep 2023 | 1.08 | -1.8 |
+    | Nov 2023 | 1.08 | -2.0 |
+    | Jan 2024 | 1.09 | -1.7 |
+    | Mar 2024 | 1.08 | -1.9 |
+    | May 2024 | 1.07 | -2.1 |
+    | Jul 2024 | 1.06 | -2.2 |
+    | Sep 2024 | 1.05 | -2.2 |
+    | Nov 2024 | 1.04 | -2.3 |
+    | Jan 2025 | 1.04 | -2.3 |
+    | Mar 2025 | 1.06 | -2.3 |
+    | May 2025 | 1.12 | -2.2 |
+    | Jul 2025 | 1.17 | -2.2 |
+
+    Summary: This time series chart displays the EURUSD exchange rate (left axis, green line) and the 1-year yield differential between German government bills and US T-bills (right axis, blue line) from July 2021 to July 2025. Initially, from mid-2021 to late 2022, both series showed a strong inverse correlation, with the Euro depreciating as the negative yield differential widened. A notable inflection point occurred around September 2022 when the EURUSD reached a low of approximately 0.98. However, from March 2025 onwards, marked by a vertical line labeled "Trade/Section 899," a significant divergence emerged: EURUSD sharply appreciated (indicating US dollar depreciation), while the 1-year yield differential remained relatively stable, signaling a breakdown in their historical relationship.
+
+    Explanation: The chart directly addresses the question "Why did the relationship between the dollar and interest rate differentials break down?" by visually demonstrating this decoupling starting in March 2025. This breakdown, where the dollar depreciated more than yield differentials would typically predict, is contextualized by the surrounding text as being driven by external factors such as the trade war and economic policy uncertainty, specifically citing Section 899 and the Mar-a-Lago Accord, which superseded the influence of interest rate spreads.
+
+page_end
+
+                                                                                                                    APOLLO 
+
+Strong rebound in foreign demand for US assets in May 
+
+                                          Net foreign purchases of US assets 
+                                      Jan 2025 Feb 2025 Mar 2025 April 2025 May 2025 
+ USD, billion                                                                                                  USD, billion 
+  350                                                                                                               350 
+
+  300                                                                                                               300 
+
+  250                                                                                                               250 
+
+  200                                                                                                               200 
+
+  150                                                                                                               150 
+
+  100                                                                                                               100 
+
+   50                                                                                                                50 
+
+    0                                                                                                                 0 
+
+  -50                                                                                                                -50 
+
+ -100                                                                                                               -100 
+              Total          Treasury Bonds & Notes      Equities          Corporate Bonds   Government Agency Bonds 
+
+ Source: U.S. Department of Treasury, Macrobond, Apollo Chief Economist 
+
+    | Asset Type              | Jan 2025 (USD bn) | Feb 2025 (USD bn) | Mar 2025 (USD bn) | April 2025 (USD bn) | May 2025 (USD bn) |
+    |-------------------------|-------------------|-------------------|-------------------|---------------------|-------------------|
+    | Total                   | -8                | 145               | 185               | -45                 | 320               |
+    | Treasury Bonds & Notes  | -15               | 110               | 125               | -40                 | 145               |
+    | Equities                | 25                | 10                | 15                | -10                 | 115               |
+    | Corporate Bonds         | 25                | 15                | 60                | 20                  | 35                |
+    | Government Agency Bonds | 0                 | -10               | 5                 | -5                  | 25                |
+
+    Summary: This bar chart illustrates the net foreign purchases of US assets from January to May 2025, categorized by asset type (Total, Treasury Bonds & Notes, Equities, Corporate Bonds, Government Agency Bonds). The y-axis indicates values in USD billions, ranging from -100 to 350. A significant primary trend is the strong rebound in total foreign purchases in May 2025, peaking at approximately $320 billion. This rebound was largely driven by increased purchases of Treasury Bonds & Notes and Equities in May, following a notable dip in April 2025 where total net purchases, and particularly those of Treasury Bonds & Notes, turned negative.
+
+    Explanation: The data highlights a clear shift in foreign investor sentiment towards US assets, especially in May 2025. This strong resurgence in demand, particularly for core assets like Treasuries and Equities, suggests a renewed attractiveness of the US market for international capital, potentially influenced by stabilizing economic outlooks or relative yield advantages hinted at in the surrounding page context regarding interest rate differentials.
+
+page_end
+
+                                                                            APOLLO 
+
+Model 1 
+
+Explanatory variables: 
+
+· Difference in yields 
+
+                                                                                       6 
+page_end
+
+                                                                                                                                                APOLLO 
+     Exchange rates can no longer be accurately predicted from differences in yield 
+
+       1.4 
+                                                           Exchange rate vs model prediction* 
+
+      1.35 
+
+       1.3 
+
+      1.25 
+
+       1.2 
+
+      1.15 
+
+       1.1 
+
+      1.05 
+
+        1 
+
+     0.95 
+
+      0.9 
+       Jul-2021   Nov-2021   Mar-2022    Jul-2022   Nov-2022   Mar-2023    Jul-2023   Nov-2023   Mar-2024    Jul-2024 Nov-2024     Mar-2025   Jul-2025 
+
+                                -Price of 1 EUR in USD      -Predicted Price of 1 EUR in USD (Regression controlling for Yield Differences) 
+
+    Source: Bloomberg, Apollo Chief Economist                                                                                                         7 
+* Price of 1 Euro in USD = 1.209 + 0.067 * (German Treaury Yield - US Treasury Yield) R-squared: 0.54 
+
+    | Date | Price of 1 EUR in USD | Predicted Price of 1 EUR in USD |
+    |---|---|---|
+    | Jul-2021 | 1.18 | 1.16 |
+    | Nov-2021 | 1.13 | 1.15 |
+    | Mar-2022 | 1.10 | 1.11 |
+    | Jul-2022 | 1.02 | 1.05 |
+    | Nov-2022 | 0.96 | 1.00 |
+    | Jan-2023 | 1.07 | 1.04 |
+    | Mar-2023 | 1.09 | 1.06 |
+    | May-2023 | 1.08 | 1.09 |
+    | Jul-2023 | 1.12 | 1.10 |
+    | Sep-2023 | 1.07 | 1.08 |
+    | Nov-2023 | 1.09 | 1.08 |
+    | Jan-2024 | 1.08 | 1.09 |
+    | Mar-2024 | 1.08 | 1.07 |
+    | May-2024 | 1.07 | 1.08 |
+    | Jul-2024 | 1.09 | 1.08 |
+    | Sep-2024 | 1.05 | 1.06 |
+    | Nov-2024 | 1.03 | 1.05 |
+    | Jan-2025 | 1.11 | 1.06 |
+    | Mar-2025 | 1.15 | 1.05 |
+    | May-2025 | 1.17 | 1.05 |
+    | Jul-2025 | 1.18 | 1.06 |
+
+    Summary:
+    This line chart displays the "Exchange rate vs model prediction" for EUR/USD from July 2021 to July 2025. The Y-axis represents the exchange rate (Price of 1 EUR in USD), ranging from 0.9 to 1.4, while the X-axis plots time. Two data series are shown: the actual "Price of 1 EUR in USD" (green line) and the "Predicted Price of 1 EUR in USD (Regression controlling for Yield Differences)" (blue line). Initially, from Jul-2021 to early 2023, both lines generally trend downwards, with the model closely tracking the actual exchange rate, albeit with some minor deviations, notably the actual falling below the predicted in mid-2022 before converging. From early 2023 to late 2024, both lines fluctuate, remaining relatively close. However, a significant divergence occurs from late 2024 into 2025, where the actual EUR/USD rate sharply increases to around 1.18 by Jul-2025, while the model's prediction remains relatively flat, hovering around 1.05-1.06, indicating a substantial predictive failure in the latter period.
+
+    Explanation:
+    The chart visually supports the assertion that exchange rates, specifically EUR/USD, are no longer accurately predicted solely by differences in yield, despite the model having an R-squared of 0.54. While the model had some predictive power in earlier periods, the clear and growing divergence starting in late 2024 demonstrates its breakdown. This unpredicted sharp rise in the actual EUR/USD, against a stable model prediction, leads to the conclusion presented on the subsequent page that, based purely on this interest rate differential model, the USD is currently significantly undervalued.
+
+page_end
+
+                                                                                                                                          APOLLO 
+
+    Based purely on interest rate differentials the USD is currently 9.5% undervalued 
+
+                              Residual between EURUSD vs model prediction* (% USD overvaluation) 
+      12% 
+
+       9% 
+
+       6% 
+
+       3% 
+
+       0% 
+                                                                                                                       The dollar is 9.5% undervalued 
+
+                                                                                                                       according to this model 
+      -3% 
+
+      -6% 
+
+      -9% 
+
+     -12% 
+        Jul-2021 Nov-2021 Mar-2022 Jul-2022 Nov-2022 Mar-2023 Jul-2023 Nov-2023 Mar-2024 Jul-2024 Nov-2024 Mar-2025 Jul-2025 
+    Source: Bloomberg, Apollo Chief Economist                                                                                                  8 
+* Price of 1 Euro in USD = 1.209 + 0.067 * (German Treaury Yield - US Treasury Yield) R-squared: 0.54 
+
+    | Date | USD Overvaluation (%) |
+    |---|---|
+    | Jul-2021 | -2.5% |
+    | Nov-2021 | +1.0% |
+    | Mar-2022 | -4.0% |
+    | Jul-2022 | +1.0% |
+    | Nov-2022 | +9.5% |
+    | Mar-2023 | -1.0% |
+    | Jul-2023 | +3.5% |
+    | Nov-2023 | -0.5% |
+    | Mar-2024 | +1.5% |
+    | Jul-2024 | +6.0% |
+    | Nov-2024 | +2.0% |
+    | Mar-2025 | -7.0% |
+    | Jul-2025 | -9.5% |
+
+    Summary: This line chart, spanning from July 2021 to July 2025, illustrates the residual percentage of USD overvaluation or undervaluation against the EUR, based on a model that primarily considers interest rate differentials. The y-axis ranges from -12% to +12%. The line shows significant volatility, with the USD fluctuating around parity (0%). A notable peak of overvaluation occurred around November 2022 at approximately +9.5%, followed by a general trend towards undervaluation. The chart concludes with a sharp decline, indicating a current state where the dollar is 9.5% undervalued according to this specific model as of July 2025.
+
+    Explanation: The chart visualizes the deviation of the EUR/USD exchange rate from a prediction model solely based on interest rate differentials, highlighting instances where the market valuation of the dollar diverges from what the model suggests. The significant and increasing undervaluation of the dollar shown in the chart, especially the 9.5% figure at the end, implies that factors beyond simple yield differences are increasingly influencing exchange rates, challenging the predictive power of such a model.
+
+page_end
+
+                                                                                    APOLLO 
+
+Model 2 
+
+Explanatory variables: 
+
+· Difference in yields 
+
+· Pre/Post Liberation Day variable 
+
+                                                                                                 9 
+page_end
+
+                                                                                                                                                APOLLO 
+
+     Adding a 0 / 1 variable for pre/post 'Liberation Day' helps explain EURUSD 
+
+                                                           Exchange rate vs model prediction* 
+       1.3 
+
+     1.25 
+
+       1.2 
+
+      1.15 
+
+       1.1 
+
+     1.05 
+
+        1 
+
+     0.95 
+
+      0.9 
+       Jul-2021   Nov-2021   Mar-2022    Jul-2022   Nov-2022   Mar-2023    Jul-2023 Nov-2023 Mar-2024 Jul-2024 Nov-2024 Mar-2025              Jul-2025 
+
+                       Price of 1 EUR in USD     -Predicted Price of 1 EUR in USD (Regression controlling for Yield Differences and Liberation Day) 
+
+    Source: Bloomberg, Apollo Chief Economist                                                                                                         10 
+* Price of 1 Euro in USD = 1.225 + 0.08 * (German Treaury Yield - US Treasury Yield) + 0.097 * (Pre or Post Liberation Day) R-squared: 0.81 
+
+    | Date       | Actual EUR/USD | Predicted EUR/USD |
+    |------------|----------------|-------------------|
+    | Jul-2021   | 1.18           | 1.17              |
+    | Nov-2021   | 1.14           | 1.16              |
+    | Mar-2022   | 1.09           | 1.13              |
+    | Jul-2022   | 1.02           | 1.05              |
+    | Nov-2022   | 1.03           | 1.01              |
+    | Mar-2023   | 1.08           | 1.07              |
+    | Jul-2023   | 1.10           | 1.08              |
+    | Nov-2023   | 1.08           | 1.10              |
+    | Mar-2024   | 1.09           | 1.08              |
+    | Jul-2024   | 1.11           | 1.09              |
+    | Nov-2024   | 1.07           | 1.06              |
+    | Mar-2025   | 1.17           | 1.17              |
+    | Jul-2025   | 1.18           | 1.15              |
+
+    Summary: This chart displays the historical and predicted values for the EUR/USD exchange rate from July 2021 to July 2025. The Y-axis represents the price of 1 Euro in USD. Two lines are shown: the actual market price (green) and a predicted price (blue) derived from a regression model controlling for yield differences and a 'Liberation Day' variable. Both lines show a significant depreciation from July 2021 to a low point around October-November 2022 (near 1.00-1.01), followed by a recovery and generally stable fluctuations around 1.05-1.12. A sharp upward spike is observed in early 2025 for both actual and predicted values, with the actual rate briefly rising above the predicted before the predicted rate catches up, showing the model generally tracks the actual movements but with some lead/lag or magnitude differences.
+
+    Explanation: This chart visually assesses the performance of a regression model designed to explain EUR/USD movements, using German-US Treasury yield differentials and a 'Pre or Post Liberation Day' variable. The high R-squared of 0.81, as stated in the context, suggests the model captures a substantial portion of the exchange rate's variance. The following page (page 11) directly analyzes the 'residual' or difference between these actual and predicted values, indicating the model's practical application in determining if the dollar is over or undervalued against the euro.
+
+page_end
+
+                                                                                                                                                 APOLLO 
+
+     Based on interest rate differentials and pre/post 'Liberation Day' variable EURUSD is 2% undervalued 
+
+                                 Residual between EURUSD vs model prediction* (% USD overvaluation) 
+     10% 
+
+      8% 
+
+      6% 
+
+                                                                                                                                The dollar is 2.29% undervalued 
+      4% 
+                                                                                                                               according to this model 
+
+                                                    S 
+      2% 
+
+      0% 
+
+      -2% 
+
+      -4% 
+
+      -6% 
+       Jul-2021 Nov-2021 Mar-2022     Jul-2022 Nov-2022 Mar-2023    Jul-2023 Nov-2023 Mar-2024    Jul-2024 Nov-2024 Mar-2025    Jul-2025 
+     Source: Bloomberg, Apollo Chief Economist                                                                                                         11 
+* Price of 1 Euro in USD = 1.225 + 0.08 * (German Treaury Yield - US Treasury Yield) + 0.097 * (Pre or Post Liberation Day) R-squared: 0.81 
+
+    | Date     | USD Overvaluation (%) |
+    |----------|-----------------------|
+    | Jul-2021 | -2.0%                 |
+    | Sep-2021 | 0.0%                  |
+    | Nov-2021 | 1.0%                  |
+    | Mar-2022 | -4.5%                 |
+    | Jul-2022 | 1.5%                  |
+    | Sep-2022 | 8.0%                  |
+    | Nov-2022 | 5.5%                  |
+    | Mar-2023 | -2.0%                 |
+    | Jun-2023 | 3.5%                  |
+    | Sep-2023 | 1.5%                  |
+    | Dec-2023 | 2.5%                  |
+    | Mar-2024 | -0.5%                 |
+    | Jun-2024 | 5.5%                  |
+    | Sep-2024 | 3.0%                  |
+    | Dec-2024 | 0.0%                  |
+    | Mar-2025 | -3.5%                 |
+    | Jul-2025 | -2.3%                 |
+
+    Summary: This line chart displays the residual between the actual EURUSD exchange rate and a predictive model, illustrating the percentage of USD overvaluation from July 2021 to July 2025. The Y-axis, ranging from -6% to 8%, indicates the dollar's deviation, with positive values signifying overvaluation and negative undervaluation. The chart exhibits considerable volatility, with the dollar reaching peaks of overvaluation around 8% in September 2022 and 5.5% in June 2024. Conversely, significant undervaluation troughs were observed, dropping to approximately -4.5% in March 2022 and -3.5% in March 2025. As of July 2025, the model suggests the dollar is 2.29% undervalued.
+
+    Explanation: This analysis highlights periods where the EURUSD exchange rate deviates significantly from a model based on interest rate differentials and a "Liberation Day" factor. The observed substantial fluctuations suggest that market forces or uncaptured variables often lead to the dollar being mispriced, indicating potential opportunities or underlying economic shifts not fully accounted for by the current model. The current undervaluation of the dollar could imply it is poised for appreciation relative to the model's prediction.
+
+page_end
+
+                                                                                               APOLLO 
+
+Model 3 
+
+Explanatory variables: 
+
+· Difference in yields 
+
+   Bloomberg Economics US Trade Policy Uncertainty daily index 
+
+                                                                                                             12 
+page_end
+
+                                                                                                                                                                             APOLLO 
+
+     Using Bloomberg's US Trade Policy Uncertainty Daily Index as an explanatory 
+
+     variable in addition to yield differential also shows the dollar as undervalued 
+
+                                                                        Exchange rate vs model prediction* 
+        1.3 
+
+       1.25 
+
+        1.2 
+
+       1.15 
+
+        1.1 
+
+       1.05 
+
+         1 
+
+       0.95 
+
+        0.9 
+        Jul-2021 Oct-2021    Jan-2022 Apr-2022    Jul-2022 Oct-2022   Jan-2023 Apr-2023    Jul-2023 Oct-2023   Jan-2024 Apr-2024    Jul-2024 Oct-2024    Jan-2025 Apr-2025   Jul-2025 
+                        -Price of 1 EUR in USD        -Predicted Price of 1 EUR in USD (Regression controlling for Yield Differences and Bloomberg's US Trade Policy Uncertainty Daily Index ) 
+
+     Source: Bloomberg, Apollo Chief Economist                                                                                                                                      13 
+* Price of 1 Euro in USD = 1.216 + 0.075 * (German Treaury Yield - US Treasury Yield) + 0.009 * (Bloomberg US Trade Policy Uncertainty Daily)                 R-squared: 0.63 
+
+    | Date       | Price of 1 EUR in USD | Predicted Price of 1 EUR in USD |
+    |------------|-----------------------|---------------------------------|
+    | Jul-2021   | 1.180                 | 1.165                           |
+    | Sep-2021   | 1.160                 | 1.160                           |
+    | Dec-2021   | 1.130                 | 1.150                           |
+    | Feb-2022   | 1.120                 | 1.135                           |
+    | Apr-2022   | 1.080                 | 1.110                           |
+    | Jun-2022   | 1.050                 | 1.080                           |
+    | Aug-2022   | 1.000                 | 1.030                           |
+    | Oct-2022   | 0.970                 | 1.000                           |
+    | Dec-2022   | 1.050                 | 1.050                           |
+    | Feb-2023   | 1.080                 | 1.070                           |
+    | Apr-2023   | 1.110                 | 1.080                           |
+    | Jun-2023   | 1.090                 | 1.090                           |
+    | Aug-2023   | 1.070                 | 1.090                           |
+    | Oct-2023   | 1.050                 | 1.070                           |
+    | Dec-2023   | 1.070                 | 1.090                           |
+    | Feb-2024   | 1.090                 | 1.100                           |
+    | Apr-2024   | 1.110                 | 1.110                           |
+    | Jun-2024   | 1.080                 | 1.110                           |
+    | Aug-2024   | 1.060                 | 1.090                           |
+    | Oct-2024   | 1.050                 | 1.080                           |
+    | Dec-2024   | 1.020                 | 1.070                           |
+    | Feb-2025   | 1.070                 | 1.070                           |
+    | Apr-2025   | 1.100                 | 1.070                           |
+    | Jun-2025   | 1.160                 | 1.080                           |
+    | Jul-2025   | 1.180                 | 1.090                           |
+
+    Summary: This line chart, titled "Exchange rate vs model prediction*", displays the actual and predicted price of 1 Euro in USD from July 2021 to July 2025. The Y-axis represents the EUR/USD exchange rate (from 0.9 to 1.3), while the X-axis denotes time. Both the actual (green line) and predicted (dark blue line) exchange rates generally declined from mid-2021, reaching lows around October 2022 (actual ~0.97, predicted ~1.00), before rebounding. After a period of convergence and slight divergence through 2023-2024, the actual EUR/USD shows a significant upward trend from late 2024 into the forecast period of 2025, sharply diverging above the model's prediction, particularly by July 2025.
+
+    Explanation: The chart illustrates the performance of a regression model designed to predict the EUR/USD exchange rate, using German and US Treasury yield differences and the Bloomberg US Trade Policy Uncertainty Daily Index as explanatory variables. The notable divergence at the end of the chart, where the actual EUR/USD is significantly higher than the model's prediction, implies that the dollar is currently undervalued according to this specific model, as explicitly stated in the surrounding context.
+
+page_end
+
+                                                                                                                                                  APOLLO 
+
+    Using Bloomberg's US Trade Policy Uncertainty Daily Index as an explanatory 
+
+    variable in addition to yield differential also shows the dollar as undervalued 
+
+                                Residual between EURUSD vs model prediction* (% USD overvaluation) 
+      10% 
+
+       8% 
+
+       6% 
+
+       4% 
+
+       2% 
+                                                                                                                                The dollar is 5.91% undervalued 
+       0% 
+                                                                                                                                according to this model 
+       -2% 
+
+       -4% 
+
+       -6% 
+
+       -8% 
+
+     -10% 
+
+      -12% 
+        Jul-2021 Nov-2021 Mar-2022 Jul-2022 Nov-2022 Mar-2023 Jul-2023        Nov-2023 Mar-2024 Jul-2024 Nov-2024 Mar-2025 Jul-2025 
+     Source: Bloomberg, Apollo Chief Economist                                                                                                          14 
+* Price of 1 Euro in USD = 1.216 + 0.075 * (German Treaury Yield - US Treasury Yield) + 0.009 * (Bloomberg US Trade Policy Uncertainty Daily) R-squared: 0.63 
+
+    | Date | USD Over/Undervaluation (%) |
+    |------|-----------------------------|
+    | Jul-2021 | -2.0%                       |
+    | Nov-2021 | 1.0%                        |
+    | Mar-2022 | -4.5%                       |
+    | Jul-2022 | 2.0%                        |
+    | Nov-2022 | 8.5%                        |
+    | Mar-2023 | 4.0%                        |
+    | Jul-2023 | 0.0%                        |
+    | Nov-2023 | 3.5%                        |
+    | Mar-2024 | 0.5%                        |
+    | Jul-2024 | 7.0%                        |
+    | Nov-2024 | 4.5%                        |
+    | Mar-2025 | 0.0%                        |
+    | Jul-2025 | -5.9%                       |
+
+    Summary: The chart displays the residual between the actual EUR/USD exchange rate and a predictive model's output, expressed as the percentage overvaluation or undervaluation of the US dollar. Spanning from July 2021 to July 2025, the data shows significant fluctuations, with the dollar oscillating between periods of overvaluation (positive percentages) and undervaluation (negative percentages). A notable peak in dollar overvaluation occurred around November 2022 at approximately 8.5%, followed by a period of volatility. More recently, from late 2024 into July 2025, there has been a sharp decline, indicating a significant shift towards dollar undervaluation, culminating in the model's current assessment of the dollar being 5.91% undervalued.
+
+    Explanation: This chart visually represents the accuracy of a model predicting the EUR/USD exchange rate, with the residual indicating how much the dollar is over or undervalued relative to that prediction. The model incorporates yield differentials between German and US treasuries, and the Bloomberg US Trade Policy Uncertainty Daily Index as explanatory variables. The sharp decline into undervaluation by mid-2025, highlighted by the stated 5.91% undervaluation, supports the broader context that the dollar is currently considered undervalued based on this analytical framework.
+
+page_end
+
+                                                                                                      APOLLO 
+
+Model 4 
+
+Explanatory variables: 
+
+·   Difference in yields 
+
+· Pre/Post Liberation Day 
+
+   Bloomberg Economics US Trade Policy Uncertainty daily index 
+
+                                                                                                                     15 
+page_end
+
+                                                                                                                                      APOLLO 
+
+    Combining the three previous controls (yield differentials, Liberation Day, and 
+
+    trade policy uncertainty) also shows the dollar as undervalued 
+
+                                                       Exchange rate vs model prediction* 
+      1.3 
+
+     1.25 
+
+      1.2 
+
+     1.15 
+
+      1.1 
+
+     1.05 
+
+        1 
+
+     0.95 
+
+      0.9 
+       Jul-2021 Nov-2021   Mar-2022   Jul-2022   Nov-2022 Mar-2023    Jul-2023 Nov-2023    Mar-2024   Jul-2024 Nov-2024 Mar-2025     Jul-2025 
+
+                                                       -Price of 1 EUR in USD -Predicted 
+    Source: Bloomberg, Apollo Chief Economist 
+* Price of 1 Euro in USD = 1.2224 + 0.079 * (German Treaury Yield - US Treasury Yield) + 0.112 * (Pre or Post Liberation Day) - 0.0034 *   16 
+(Bloomberg US Trade Policy Uncertainty Daily) R-squared: 0.82 
+
+    | Date | Actual EUR/USD | Predicted EUR/USD |
+    | :------- | :------------- | :---------------- |
+    | Jul-2021 | 1.175 | 1.168 |
+    | Nov-2021 | 1.135 | 1.160 |
+    | Mar-2022 | 1.095 | 1.130 |
+    | Jul-2022 | 1.020 | 1.090 |
+    | Nov-2022 | 1.025 | 1.020 |
+    | Mar-2023 | 1.090 | 1.080 |
+    | Jul-2023 | 1.090 | 1.080 |
+    | Nov-2023 | 1.070 | 1.080 |
+    | Mar-2024 | 1.080 | 1.080 |
+    | Jul-2024 | 1.090 | 1.090 |
+    | Nov-2024 | 1.035 | 1.070 |
+    | Mar-2025 | 1.140 | 1.100 |
+    | Jul-2025 | 1.165 | 1.145 |
+
+    Summary: The line chart illustrates the "Exchange rate vs model prediction" for the EUR/USD pair from July 2021 to July 2025. The Y-axis represents the price of 1 Euro in US Dollars (0.9 to 1.3). The green line shows the actual EUR/USD rate, while the blue line depicts the model's predicted rate. Initially, the actual rate closely tracked the prediction before a significant drop in mid-2022, reaching a low of approximately 1.0 by late 2022, while the predicted rate remained higher. Both rates then recovered and converged, moving in tandem through most of 2023 and 2024. A notable divergence begins in late 2024 and continues into 2025, with the actual EUR/USD rate sharply rising and consistently exceeding the predicted value.
+
+    Explanation: This chart presents the output of a financial model that forecasts the EUR/USD exchange rate using key variables such as yield differentials, a "Liberation Day" factor, and US trade policy uncertainty. The pronounced divergence in late 2024 and 2025, where the actual Euro value is considerably higher than the model's prediction, implies that the US dollar is undervalued according to this specific framework. This aligns with the broader context provided, indicating that the dollar is currently deemed undervalued by this model.
+
+page_end
+
+                                                                                                                                             APOLLO 
+
+    Combining the three previous controls (yield differentials, Liberation Day, and 
+
+    trade policy uncertainty) also shows the dollar as undervalued 
+
+                                Residual between EURUSD vs model prediction* (% USD overvaluation) 
+     10% 
+
+      8% 
+
+      6% 
+                                                                                                                             The dollar is 2.58% undervalued 
+      4% 
+                                                                                                                             according to this model 
+                                                 V 
+      2% 
+
+      0% 
+
+      -2% 
+
+      -4% 
+
+      -6% 
+       Jul-2021 Nov-2021 Mar-2022    Jul-2022 Nov-2022 Mar-2023   Jul-2023 Nov-2023 Mar-2024   Jul-2024 Nov-2024 Mar-2025   Jul-2025 
+    Source: Bloomberg, Apollo Chief Economist 
+* Price of 1 Euro in USD = 1.2224 + 0.079 * (German Treaury Yield - US Treasury Yield) + 0.112 * (Pre or Post Liberation Day) - 0.0034 *           17 
+(Bloomberg US Trade Policy Uncertainty Daily)     R-squared: 0.82 
+
+    | Date | USD Overvaluation (Residual) |
+    |---|---|
+    | Jul-2021 | -1.5% |
+    | Nov-2021 | 2.5% |
+    | Mar-2022 | -5.0% |
+    | Jul-2022 | -1.0% |
+    | Oct-2022 | 8.5% |
+    | Feb-2023 | 2.0% |
+    | Jul-2023 | -1.0% |
+    | Nov-2023 | 3.5% |
+    | Mar-2024 | 0.0% |
+    | Jul-2024 | 1.0% |
+    | Nov-2024 | -0.5% |
+    | Mar-2025 | 6.5% |
+    | Apr-2025 | -4.5% |
+    | Jul-2025 | -2.6% |
+
+    Summary: This line chart displays the residual between the actual EUR/USD exchange rate and a model's prediction, representing the percentage of USD overvaluation from July 2021 to July 2025. The Y-axis ranges from -6% (undervaluation) to 8% (overvaluation), while the X-axis spans monthly increments over this four-year period. The graph shows significant volatility, with the dollar oscillating between periods of undervaluation and overvaluation. Notable peaks include an approximate 8.5% overvaluation in October 2022 and a 6.5% overvaluation in March 2025, while deep undervaluation periods hit around -5% in March 2022 and April 2025. As of July 2025, the chart explicitly notes the dollar is 2.58% undervalued according to this model.
+
+    Explanation: This chart provides a crucial perspective on the dollar's valuation relative to a specific economic model, building upon the previous page's analysis. The model incorporates yield differentials, a "Liberation Day" factor, and trade policy uncertainty. The current indicated undervaluation of 2.58% suggests that based on these economic drivers, the dollar is currently cheaper than its fundamental value, potentially implying a future appreciation if the model's assumptions hold and market forces align.
+
+page_end
+
+                                                                                               APOLLO 
+
+Model 5 
+
+Explanatory Variables: 
+
+· Difference in Yields 
+
+· Daily Mentions of "Mar-a-Lago Accord" in news stories 
+
+                                                                                                             18 
+page_end
+
+                                                                                                                            APOLLO 
+
+Interest in the Mar-a-Lago Accord and Section 899 started in March 
+
+                                  Number of times "Mar-A-Lago Accord" appeared in the news, daily 
+ 120 
+
+ 100 
+
+  80 
+
+  60 
+
+  40 
+
+  20 
+
+   0 
+  Sep-2024    Oct-2024   Nov-2024    Dec-2024    Jan-2025    Feb-2025   Mar-2025    Apr-2025   May-2025    Jun-2025    Jul-2025 
+
+Source: Bloomberg, Apollo Chief Economist                                                                                        19 
+
+    | Date | Daily Mentions |
+    |---|---|
+    | Sep 15, 2024 | 1 |
+    | Oct 15, 2024 | 0 |
+    | Nov 20, 2024 | 5 |
+    | Dec 18, 2024 | 18 |
+    | Jan 15, 2025 | 3 |
+    | Feb 25, 2025 | 5 |
+    | Mar 5, 2025 | 102 |
+    | Mar 10, 2025 | 45 |
+    | Mar 15, 2025 | 28 |
+    | Mar 20, 2025 | 35 |
+    | Mar 25, 2025 | 25 |
+    | Apr 1, 2025 | 38 |
+    | Apr 5, 2025 | 45 |
+    | Apr 15, 2025 | 55 |
+    | Apr 20, 2025 | 48 |
+    | Apr 25, 2025 | 35 |
+    | May 1, 2025 | 35 |
+    | May 10, 2025 | 20 |
+    | May 20, 2025 | 15 |
+    | Jun 1, 2025 | 12 |
+    | Jun 15, 2025 | 8 |
+    | Jun 30, 2025 | 4 |
+    | Jul 15, 2025 | 3 |
+    | Jul 25, 2025 | 5 |
+
+    Summary: This bar chart displays the daily number of times "Mar-a-Lago Accord" appeared in news stories from September 2024 to July 2025. The X-axis represents the time range, while the Y-axis quantifies the daily mentions, ranging from 0 to over 100. The chart initially shows very low or negligible news mentions from September 2024 through February 2025, with only a few minor spikes. A significant inflection point occurs in early March 2025, marked by a dramatic surge to over 100 daily mentions, indicating a sudden peak in interest. Following this peak, mentions remained elevated and highly volatile throughout March and April 2025, reaching secondary highs around 50-60, before gradually declining through May, June, and July 2025, returning to consistently low levels by the end of the period.
+
+    Explanation: The chart visualizes the "Interest in the Mar-a-Lago Accord" as measured by news mentions, specifically noting that this interest started in March. This data series serves as a key explanatory variable, alongside yield differentials, in a predictive model. The subsequent page indicates that incorporating these cumulative daily news mentions significantly improves the accuracy of predicted exchange rates, specifically for EURUSD, suggesting a causal or correlative link between public discourse around this accord and currency movements.
+
+page_end
+
+                                                                                                                                                    APOLLO 
+
+     Using cumulative daily news mentions of "Mar-a-Lago Accord" in addition to yield 
+
+     differentials as controls puts the predicted exchange rate closer to the actual EURUSD rate 
+
+                                                             Exchange rate vs model prediction* 
+       1.3 
+
+      1.25 
+
+       1.2 
+
+      1.15 
+
+       1.1 
+
+      1.05 
+
+        1 
+
+      0.95 
+
+       0.9 
+       Jul-2021    Nov-2021    Mar-2022    Jul-2022   Nov-2022   Mar-2023     Jul-2023   Nov-2023    Mar-2024    Jul-2024   Nov-2024 Mar-2025       Jul-2025 
+                                                           -Price of 1 EUR in USD   - Predicted Price 
+     Source: Bloomberg, Apollo Chief Economist                                                                                                           20 
+* Price of 1 Euro in USD = 1.226 + 0.081 * (German Treaury Yield - US Treasury Yield) - 0.000056 * (cumulative mentions of "Mar a Lago Accord") R-squared: 0.82 
+
+    | Date      | Price of 1 EUR in USD (Actual) | Predicted Price |
+    |-----------|--------------------------------|-----------------|
+    | Jul-2021  | 1.18                           | 1.17            |
+    | Nov-2021  | 1.14                           | 1.15            |
+    | Mar-2022  | 1.10                           | 1.10            |
+    | Jul-2022  | 1.02                           | 1.05            |
+    | Oct-2022  | 0.96                           | 0.98            |
+    | Nov-2022  | 1.01                           | 1.02            |
+    | Mar-2023  | 1.08                           | 1.07            |
+    | Jul-2023  | 1.10                           | 1.09            |
+    | Nov-2023  | 1.07                           | 1.08            |
+    | Mar-2024  | 1.08                           | 1.07            |
+    | Jul-2024  | 1.11                           | 1.10            |
+    | Nov-2024  | 1.03                           | 1.05            |
+    | Mar-2025  | 1.12                           | 1.13            |
+    | Jul-2025  | 1.18                           | 1.15            |
+
+    Summary:
+    This line chart displays the EURUSD exchange rate from July 2021 to July 2025, comparing the actual market price with a model's predicted price. The X-axis represents time, while the Y-axis shows the exchange rate (Price of 1 EUR in USD) ranging from 0.9 to 1.3. Both the actual (green line) and predicted (dark blue line) prices generally track each other, showing a significant decline from mid-2021 to late-2022, reaching a low around 0.96-0.98, followed by a recovery and a relatively stable period around 1.05-1.10. A noticeable upward trend begins in late 2024, continuing into 2025, with both lines rising toward 1.15-1.18.
+
+    Explanation:
+    The chart's primary purpose, as indicated by the accompanying text, is to demonstrate that incorporating "cumulative daily news mentions of 'Mar-a-Lago Accord'" alongside yield differentials significantly improves the accuracy of the EURUSD exchange rate prediction model. The high R-squared value of 0.82 suggests a strong fit between the model's predictions and actual market movements. This implies that seemingly peripheral political narratives can indeed have a measurable impact on currency valuations, complementing traditional economic indicators.
+
+page_end
+
+                                                                                                                                                    APOLLO 
+
+    Using daily mentions of "Mar-a-Lago Accord" in addition to yield differentials as 
+
+     controls puts the predicted exchange rate closer to the actual rate 
+
+                                Residual between EURUSD vs model prediction* (% USD overvaluation) 
+  10% 
+
+   8% 
+
+   6% 
+                                                                                                                                   The dollar is 1.32% undervalued 
+
+   4%                                                                                                                              according to this model 
+
+   2% 
+
+   0% 
+
+  -2% 
+
+   -4% 
+
+   -6% 
+    Jul-2021 Nov-2021 Mar-2022      Jul-2022 Nov-2022 Mar-2023     Jul-2023 Nov-2023 Mar-2024      Jul-2024 Nov-2024 Mar-2025     Jul-2025 
+     Source: Bloomberg, Apollo Chief Economist                                                                                                            21 
+* Price of 1 Euro in USD = 1.226 + 0.081 * (German Treaury Yield - US Treasury Yield) - 0.000056 * (cumulative mentions of "Mar a Lago Accord") R-squared: 0.82 
+
+    | Date | USD Overvaluation (%) |
+    |---|---|
+    | Jul-2021 | -2.0% |
+    | Aug-2021 | 0.0% |
+    | Sep-2021 | 1.5% |
+    | Nov-2021 | 2.5% |
+    | Dec-2021 | 0.0% |
+    | Jan-2022 | -2.0% |
+    | Mar-2022 | -5.0% |
+    | May-2022 | -2.0% |
+    | Jul-2022 | 1.0% |
+    | Sep-2022 | 4.0% |
+    | Nov-2022 | 8.0% |
+    | Jan-2023 | 2.0% |
+    | Mar-2023 | 0.0% |
+    | May-2023 | -2.0% |
+    | Jul-2023 | -1.5% |
+    | Sep-2023 | 1.0% |
+    | Nov-2023 | 3.0% |
+    | Jan-2024 | 2.0% |
+    | Mar-2024 | 1.0% |
+    | May-2024 | 0.0% |
+    | Jul-2024 | -1.0% |
+    | Sep-2024 | 3.0% |
+    | Nov-2024 | 5.5% |
+    | Jan-2025 | 3.0% |
+    | Mar-2025 | 0.5% |
+    | May-2025 | -2.5% |
+    | Jul-2025 | -1.32% |
+
+    Summary: This line chart, titled "Residual between EURUSD vs model prediction* (% USD overvaluation)", illustrates the percentage difference between the actual EURUSD exchange rate and a model's predicted rate from July 2021 to July 2025. The Y-axis ranges from -6% (USD undervaluation) to 8% (USD overvaluation). The graph displays significant volatility, oscillating between periods of USD overvaluation, peaking notably around November 2022 at +8%, and undervaluation, with a low near March 2022 at -5%. The chart concludes in July 2025, indicating the dollar is 1.32% undervalued according to this model.
+
+    Explanation: This chart provides a crucial gauge of the predictive accuracy and limitations of the EURUSD exchange rate model introduced on the previous page, which incorporates yield differentials and "Mar-a-Lago Accord" news mentions as explanatory variables. Large positive or negative residuals suggest periods where the model either over- or underestimates the dollar's value, indicating that other factors not captured by the model or an extreme reaction to the included variables are driving the currency's movement. The current undervaluation suggests potential for USD appreciation, or that the market is currently not aligning with the model's fundamental drivers.
+
+page_end
+
+                                                                                                  APOLLO 
+
+Model 6 
+
+Explanatory variables: 
+
+· Difference in yields 
+
+· Pre/Post Liberation Day 
+
+   Bloomberg Economics US Trade Policy Uncertainty daily index 
+
+   Daily Mentions of "Mar-a-Lago Accord" in news 
+
+                                                                                                                 22 
+page_end
+
+                                                                                                                                             APOLLO 
+
+  Combining all the previous explanatory variables explains movements in the dollar 
+
+                                                        Exchange rate vs model prediction* 
+    1.3 
+
+  1.25 
+
+    1.2 
+
+   1.15 
+
+    1.1 
+
+   1.05 
+
+     1 
+
+  0.95 
+
+    0.9 
+    Jul-2021   Nov-2021    Mar-2022   Jul-2022   Nov-2022   Mar-2023    Jul-2023   Nov-2023    Mar-2024   Jul-2024   Nov-2024 Mar-2025      Jul-2025 
+
+                                                        -Price of 1 EUR in USD      -Predicted 
+ Source: Bloomberg, Apollo Chief Economist 
+* Price of 1 Euro in USD = 1.225 + 0.079 * (German Treaury Yield - US Treasury Yield) + 0.111 * ( Pre or Post Liberation Day) - 0.003 *           23 
+(Bloomberg US Trade Policy Uncertainty Daily) - 0.000026 (cumulative mentions of "Mar a Lago Accord") R-squared: 0.82 
+
+    | Date     | Price of 1 EUR in USD | Predicted |
+    | :------- | :-------------------- | :-------- |
+    | Jul-2021 | 1.18                  | 1.17      |
+    | Nov-2021 | 1.14                  | 1.16      |
+    | Mar-2022 | 1.10                  | 1.12      |
+    | Jul-2022 | 1.02                  | 1.05      |
+    | Nov-2022 | 1.02                  | 1.03      |
+    | Mar-2023 | 1.09                  | 1.07      |
+    | Jul-2023 | 1.09                  | 1.10      |
+    | Nov-2023 | 1.08                  | 1.09      |
+    | Mar-2024 | 1.09                  | 1.08      |
+    | Jul-2024 | 1.12                  | 1.09      |
+    | Nov-2024 | 1.04                  | 1.08      |
+    | Mar-2025 | 1.14                  | 1.15      |
+    | Jul-2025 | 1.18                  | 1.14      |
+
+    Summary: This line chart displays the actual "Price of 1 EUR in USD" alongside its "Predicted" value from a model, spanning from July 2021 to July 2025. Initially, from mid-2021 to late 2022, the Euro depreciated against the dollar, with the actual rate largely tracking the prediction, albeit often slightly below it. Both lines bottomed out around 1.02-1.03 in late 2022 before beginning a recovery. From early 2023 to mid-2024, the actual and predicted rates remained relatively stable, hovering around 1.08-1.12, showing strong alignment. A significant divergence occurred from late 2024 into early 2025, where the actual EUR/USD sharply dropped to ~1.04, well below the predicted ~1.08, before an equally dramatic surge to ~1.18 by July 2025, once again exceeding the prediction.
+
+    Explanation: The chart illustrates the performance of a financial model in forecasting the EUR/USD exchange rate, with a high R-squared value of 0.82, indicating a strong explanatory power for dollar movements. The model incorporates various factors such as yield differences, political events ("Liberation Day," "Mar-a-Lago Accord" mentions), and trade policy uncertainty. While the model generally tracks the exchange rate well, periods of extreme volatility, particularly in late 2024 and early 2025, suggest the influence of additional, possibly unmodeled, market forces or shocks.
+
+page_end
+
+                                                                                                                                         APOLLO 
+
+ Combining all the previous explanatory variables confirms the hypothesis that the 
+
+ dollar is undervalued, but only slightly 
+
+                            Residual between EURUSD vs model prediction* (% USD overvaluation) 
+ 10% 
+
+  8% 
+
+  6% 
+
+  4% 
+
+  2% 
+                                                                                                                           This model gives the best fit 
+
+  0% 
+
+ -2% 
+
+  -4% 
+
+  -6% 
+   Jul-2021 Nov-2021 Mar-2022   Jul-2022 Nov-2022 Mar-2023    Jul-2023 Nov-2023 Mar-2024   Jul-2024 Nov-2024 Mar-2025   Jul-2025 
+ Source: Bloomberg, Apollo Chief Economist 
+* Price of 1 Euro in USD = 1.225 + 0.079 * (German Treaury Yield - US Treasury Yield) + 0.111 * ( Pre or Post Liberation Day) - 0.003 *       24 
+(Bloomberg US Trade Policy Uncertainty Daily) - 0.000026 (cumulative mentions of "Mar a Lago Accord") R-squared: 0.82 
+
+    | Date      | USD Overvaluation (%) |
+    |-----------|-----------------------|
+    | Jul-2021  | -1.0                  |
+    | Sep-2021  | 0.0                   |
+    | Nov-2021  | 2.5                   |
+    | Jan-2022  | -0.5                  |
+    | Mar-2022  | -4.5                  |
+    | Apr-2022  | -2.0                  |
+    | Jun-2022  | 0.0                   |
+    | Aug-2022  | 1.0                   |
+    | Sep-2022  | 5.0                   |
+    | Nov-2022  | 8.0                   |
+    | Dec-2022  | 4.0                   |
+    | Feb-2023  | -2.0                  |
+    | Apr-2023  | 4.5                   |
+    | Jun-2023  | 1.0                   |
+    | Aug-2023  | 3.5                   |
+    | Oct-2023  | 0.0                   |
+    | Dec-2023  | 2.5                   |
+    | Feb-2024  | 1.5                   |
+    | Apr-2024  | -1.0                  |
+    | Jun-2024  | 1.0                   |
+    | Aug-2024  | 0.0                   |
+    | Oct-2024  | 1.5                   |
+    | Dec-2024  | 4.5                   |
+    | Feb-2025  | 6.5                   |
+    | Mar-2025  | 1.0                   |
+    | Apr-2025  | -4.5                  |
+    | May-2025  | -3.0                  |
+    | Jul-2025  | -2.5                  |
+
+    Summary: This time series chart, spanning from July 2021 to July 2025, displays the residual between the EURUSD exchange rate and a model's prediction, representing the percentage of USD overvaluation. The Y-axis ranges from -6% (USD undervaluation) to 8% (USD overvaluation). The data reveals significant volatility, with the USD fluctuating between periods of overvaluation and undervaluation. Key peaks of USD overvaluation occurred in November 2022 (reaching 8%) and February 2025 (around 6.5%), while major troughs of undervaluation were seen in March 2022 and April 2025 (both around -4.5%). The most recent data point indicates the USD is slightly undervalued.
+
+    Explanation: The chart directly supports the surrounding text's hypothesis that the dollar is currently undervalued, albeit slightly, based on the model's predictions. A positive residual signifies USD overvaluation relative to the model's predicted equilibrium, while a negative residual indicates undervaluation. The fluctuation shown reflects the dynamic nature of currency valuations against the predictive power of the economic model described in the accompanying context.
+
+page_end
+
+                                                                                                                    APOLLO 
+
+Strong rebound in foreign demand for US assets in May 
+
+                                          Net foreign purchases of US assets 
+                                      Jan 2025 Feb 2025 Mar 2025 April 2025 May 2025 
+ USD, billion                                                                                                  USD, billion 
+  350                                                                                                               350 
+
+  300                                                                                                               300 
+
+  250                                                                                                               250 
+
+  200                                                                                                               200 
+
+  150                                                                                                               150 
+
+  100                                                                                                               100 
+
+   50                                                                                                                50 
+
+    0                                                                                                                 0 
+
+  -50                                                                                                                -50 
+
+ -100                                                                                                               -100 
+              Total          Treasury Bonds & Notes      Equities          Corporate Bonds   Government Agency Bonds 
+
+ Source: U.S. Department of Treasury, Macrobond, Apollo Chief Economist 
+
+    | Asset Type                | Jan 2025 (bn USD) | Feb 2025 (bn USD) | Mar 2025 (bn USD) | Apr 2025 (bn USD) | May 2025 (bn USD) |
+    |---------------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+    | Total                     | 0                 | 145               | 185               | -45               | 320               |
+    | Treasury Bonds & Notes    | -10               | 105               | 125               | -40               | 145               |
+    | Equities                  | 25                | 20                | 10                | -10               | 115               |
+    | Corporate Bonds           | 20                | 15                | 60                | 20                | 35                |
+    | Government Agency Bonds   | -5                | -15               | -20               | -5                | 25                |
+
+    Summary: This clustered bar chart illustrates the net foreign purchases of US assets, measured in billions of USD, across five asset categories (Total, Treasury Bonds & Notes, Equities, Corporate Bonds, Government Agency Bonds) from January to May 2025. A notable trend is the strong rebound in May 2025, reaching a peak of $320 billion in total net purchases, following a period of net sales across most categories in April 2025. Treasury Bonds & Notes and Equities show significant positive net purchases in May, recovering from negative or low values in previous months, contributing heavily to the overall surge.
+
+    Explanation: The chart directly supports the title's claim of a "Strong rebound in foreign demand for US assets in May," with the significant increase in net purchases, particularly in Treasury Bonds & Notes and Equities. This renewed appetite for US assets, as mentioned in the broader context, is linked to the resolution of economic policy uncertainties like Section 899 and the trade war, signaling an expected appreciation of the US dollar.
+
+page_end
+                                                                                       APOLLO 
+                                  Conclusions 
+
+   . The dollar has depreciated more in the first half of 2025 than yield differentials would 
+      have predicted. 
+
+      Regression models indicate that this was due to the trade war and economic policy 
+      uncertainty, including concerns among foreign investors about Section 899 and the 
+      Mar-a-Lago Accord. 
+
+      Looking ahead, with Section 899 behind us and the trade war likely to be resolved 
+      within the next couple of weeks, the US dollar is expected to appreciate again. 
+
+      Renewed strong appetite for US assets after Liberation Day is also visible in the TIC 
+      data for May. 
+
+Source: Apollo Chief Economist                                                            26 
+page_end
+
+                                                                    Torsten Slok joined Apollo in August 2020 as 
+                                                                     Chief Economist and he leads Apollo's 
+                                                                     macroeconomic and market analysis across 
+                                                                    the platform. 
+
+                                                                    Prior to joining, Mr. Slok worked for 15 years 
+                                                                    as Chief Economist at Deutsche Bank where 
+Torsten Slok, Ph.D.                                                 his team was top ranked in the annual 
+                                                                     Institutional Investor survey for a decade. Prior 
+                                                                     to joining Deutsche Bank Mr. Slok worked at 
+                                                                     the IMF in Washington, DC and at the OECD in 
+ Chief Economist                                                    Paris. 
+Apollo Global Management                                             Mr. Slok has a Ph.D in Economics and has 
+tslok@apollo.com                                                     studied 
+                                                                            at the University of Copenhagen and 
+                                                                     Princeton University. 
+
+                                                                                                                                 27 
+
+    | Note |
+    |------|
+    | The attached figure "page_27_fig_1.jpg" is a photograph of Torsten Slok, Ph.D., Chief Economist at Apollo Global Management, and does not contain any structured financial or economic data, charts, or tables suitable for extraction. |
+
+    Summary: The provided image, 'page_27_fig_1.jpg', is a portrait of Torsten Slok, Ph.D., Chief Economist at Apollo Global Management. As a photograph, it does not depict any financial or economic data, charts, or visualizations. Consequently, there are no key dimensions such as X/Y axes, categories, legends, or time ranges to analyze, nor are there any discernible trends, shifts, inflection points, or unusual values typically associated with structured data representations.
+
+    Explanation: Since the figure is a biographical photograph rather than a financial chart or data representation, it does not offer any visual data to contextualize or elaborate on the economic conclusions mentioned in the surrounding text (e.g., dollar depreciation, trade war impact, US asset appetite). Therefore, a broader interpretation regarding market implications or economic trends based on this specific image is not possible.
+
+page_end

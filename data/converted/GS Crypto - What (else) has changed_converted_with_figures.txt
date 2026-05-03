@@ -1,0 +1,384 @@
+
+
+GS Crypto: What (else) has changed? 
+
+FICC and Equities | 25 July 2025 | 2:11PM UTC 
+
+This publication is intended for clients of Goldman Sachs only. 
+
+Bitcoin has come off lower from its recent all-time high at $123,200 and retraced to a low of 
+$114,800 today (Figure 1). The cross is trading at $116,500 at the time of writing. Meanwhile 
+Ethereum has continued its rapid ascent and is still hovering within reach of its YTD high of 
+$3850 (Figure 1). It, however, remains >20% below its all-time-high of $4865 set in October 
+2021. 
+
+       Ethereum has moved +50% in July and +150% since April lows (Figure 1) 
+       Implied volatility remains around 67 across the curve, compared to 45 for Bitcoin 
+       (GS Trading) 
+
+       Ethereum CME futures annualised premium to spot has been trading >10%, 
+       overtaking that of Bitcoin (Figure 2). As a result, we have seen rotation of the basis 
+       position out of Bitcoin and into Ethereum. 
+
+       A newer phenomenon has been several publicly traded US companies 
+       establishing Ethereum reserves. It is estimated that such companies bought over 
+       $1.5b of ETH in the last month. 
+
+Figure 1. BTC and ETH spot price 
+
+  Crypto Spot 
+         01 Jan 25                                                       25 Jul 25 -1 
+   125,000.00                                                                 4,000 
+   120,000.00                                                                 3,800 
+                                                                              3,600 
+   115,000.00 
+                                                                              3,400 
+   110,000.00                                                                 3,200 
+   105,000.00                                                                 3,000 
+                                                                              2,800 
+   100,000.00 
+                                                                              2,600 
+   95,000.00 
+                                                                              2,400 
+   90,000.00                                                                  2,200 
+   85,000.00                                                                  2,000 
+                                                                              1,800 
+   80,000.00 
+                                                                              1,600 
+   75,000.00                                                                  1,400 
+
+                  Feb      Mar        Apr       May        Jun       Jul 
+   ETHUSD price BTCUSD 
+
+    | Date         | BTCUSD Price | ETHUSD Price |
+    |--------------|--------------|--------------|
+    | Jan 01, 2025 | $93,000      | $3,100       |
+    | Jan 15, 2025 | $102,000     | $3,000       |
+    | Feb 01, 2025 | $118,000     | $3,600       |
+    | Feb 15, 2025 | $90,000      | $2,500       |
+    | Mar 01, 2025 | $80,000      | $2,500       |
+    | Mar 15, 2025 | $85,000      | $2,600       |
+    | Apr 01, 2025 | $78,000      | $2,200       |
+    | Apr 15, 2025 | $75,000      | $2,000       |
+    | May 01, 2025 | $100,000     | $3,000       |
+    | May 15, 2025 | $110,000     | $3,500       |
+    | Jun 01, 2025 | $105,000     | $3,300       |
+    | Jun 15, 2025 | $100,000     | $3,000       |
+    | Jul 01, 2025 | $115,000     | $3,600       |
+    | Jul 15, 2025 | $123,000     | $3,800       |
+    | Jul 25, 2025 | $116,500     | $3,700       |
+
+    Summary: This time series chart, "Crypto Spot," displays the daily price movements of Bitcoin (BTCUSD, blue line, left Y-axis) and Ethereum (ETHUSD, orange line, right Y-axis) from January 1, 2025, to July 25, 2025. Both cryptocurrencies experienced a significant decline from early February through mid-April, with BTC bottoming near $75,000 and ETH near $2,000. Following these lows, both recovered, but ETHUSD showed a more rapid and sustained ascent, particularly from May onwards, culminating in a strong surge in July to reach peaks around $3,800, while BTCUSD peaked near $123,000 mid-July before retracing slightly.
+
+    Explanation: The chart visually corroborates the narrative that while Bitcoin saw a recent all-time high before a slight retracement, Ethereum has demonstrated a rapid ascent, especially since April. This strong performance of ETH, including a significant recovery from its lows and a continuous upward trend in July, suggests a shift in market momentum and investor interest towards Ethereum, as further elaborated by the accompanying text on ETH's substantial monthly gains and institutional adoption.
+
+page_end
+
+5y history at the bottom of the publication. 
+
+ Figure 2. Bitcoin and Ethereum annualised spot vs future funding (%) 
+
+  20.0% 
+                                                                         - ETH annualized basis 
+                                                                              BTC annualized basis 
+  15.0% 
+
+  10.0% 
+
+   5.0% 
+
+   0.0% 
+
+  -5.0% 
+
+  2025-01      2025-02     2025-03      2025-04      2025-05      2025-06      2025-07 
+In line with the price action since May, the US ETH spot ETFs have seen a steady stream of 
+
+inflows (Figure 3). The US ETH ETFs now hold over $20b in assets, with net $6b of inflows 
+
+YTD (Bloomberg). $4.8b of those YTD inflows occurred in the last 1-month period. 
+
+Figure 3. Net flows into US ETH Spot ETF 
+
+                            US ETH spot ETF net flows ($'m) vs ETHUSD 
+  $800                                                                                    $4,000 
+
+  $700 
+                                                                                          $3,500 
+  $600 
+  $500                                                                                    $3,000 
+
+  $400                                                                                    $2,500 
+
+  $300 
+                                                                                          $2,000 
+  $200 
+  $100                                                                                    $1,500 
+
+    $0 
+                                                                                          $1,000 
+ -$100 
+                                                                                          $500 
+ -$200 
+ -$300 1/2 1/8    1/31 2/6 2/19 2/25 3/7 3/13 3/19 3/25 3/31 4/10 4/16 5/5 5/9 5/21 5/28 6/3 6/9 6/20 7/2 $0 
+                              3/3           4/4                                  7/9 
+           1/14 1/21 1/27 2/12                     4/23 4/29 5/15       6/13 6/26 7/15 7/21 
+           Grayscale            Blackrock           Fidelity             Bitwise 
+           21Shares             Van Eck             Invesco              Franklin 
+           Grayscale Mini   - -Net Flows             ETH Spot Price (RHS) 
+
+    | Date | Net Flows ($'m) | ETH Spot Price ($) |
+    |---|---|---|
+    | 1/2 | $130 | $3700 |
+    | 1/8 | -$150 | $3200 |
+    | 1/14 | $170 | $3400 |
+    | 1/21 | $80 | $3300 |
+    | 1/27 | -$130 | $2800 |
+    | 1/31 | $300 | $2800 |
+    | 2/6 | $10 | $2300 |
+    | 2/19 | -$50 | $1800 |
+    | 2/25 | -$100 | $1700 |
+    | 3/3 | -$50 | $1600 |
+    | 3/7 | $0 | $1500 |
+    | 3/19 | -$30 | $1400 |
+    | 3/31 | $10 | $1400 |
+    | 4/4 | $20 | $1500 |
+    | 4/10 | -$30 | $1600 |
+    | 4/16 | $50 | $1800 |
+    | 4/23 | $100 | $2000 |
+    | 4/29 | $40 | $2200 |
+    | 5/9 | $40 | $2400 |
+    | 5/15 | $60 | $2500 |
+    | 5/21 | $80 | $2600 |
+    | 5/28 | $100 | $2700 |
+    | 6/3 | $230 | $2800 |
+    | 6/13 | $120 | $2700 |
+    | 6/26 | $80 | $2700 |
+    | 7/2 | $400 | $3200 |
+    | 7/9 | $700 | $3800 |
+    | 7/15 | $550 | $3200 |
+    | 7/21 | $400 | $3800 |
+
+    Summary: This chart visualizes daily US ETH spot ETF net flows ($'m) on the left Y-axis, along with the ETHUSD spot price ($) on the right Y-axis, over a period from January 2 to July 21, 2025. Initially, early January saw moderate inflows coinciding with higher ETH prices, followed by a significant price decline and period of net outflows/low inflows from February through April. A notable inflection occurred from late April through May with renewed, albeit moderate, positive net flows. The most striking trend is the sharp increase in both ETH spot price and net ETF inflows from mid-June to late July, peaking with inflows of $700m on July 9th and $550m on July 15th, correlating with ETH's price reaching highs near $3800.
+
+    Explanation: The chart clearly demonstrates a strong positive correlation between increasing net inflows into US ETH spot ETFs and the appreciation of the ETH spot price, especially in the latter half of the displayed period. This trend, particularly the significant surge in July, indicates growing investor demand and adoption of Ethereum through regulated ETF products, aligning with the context that US ETH ETFs have seen $4.8bn of inflows in the last month and now hold over $20bn in assets, thereby acting as a key driver for Ethereum's recent price rally.
+
+    | Date       | ETH Annualized Basis (%) | BTC Annualized Basis (%) |
+    |------------|--------------------------|--------------------------|
+    | 2025-01-01 | 15.5                     | 14.0                     |
+    | 2025-01-15 | 16.5                     | 12.0                     |
+    | 2025-01-31 | 10.5                     | 11.5                     |
+    | 2025-02-15 | 12.0                     | 11.0                     |
+    | 2025-02-28 | 10.5                     | 10.5                     |
+    | 2025-03-07 | 9.0                      | 10.0                     |
+    | 2025-03-15 | 6.5                      | 8.0                      |
+    | 2025-03-31 | 7.0                      | 7.5                      |
+    | 2025-04-07 | 5.5                      | 7.0                      |
+    | 2025-04-15 | 7.0                      | 7.5                      |
+    | 2025-04-30 | 8.5                      | 8.5                      |
+    | 2025-05-07 | 9.5                      | 9.0                      |
+    | 2025-05-21 | 9.0                      | 8.8                      |
+    | 2025-05-31 | 10.0                     | 9.0                      |
+    | 2025-06-07 | 11.5                     | 9.5                      |
+    | 2025-06-15 | 9.0                      | 9.0                      |
+    | 2025-06-30 | 8.5                      | 8.0                      |
+    | 2025-07-07 | 9.5                      | 8.0                      |
+    | 2025-07-25 | 10.5                     | 8.5                      |
+
+    Summary: This line chart, Figure 2, illustrates the annualized basis (premium of futures over spot) for Ethereum (ETH) and Bitcoin (BTC) from January to July 2025. Both cryptocurrencies began the year with high basis levels, reaching above 14% for BTC and 15% for ETH, before declining significantly through Q1 into early April. Notably, ETH's basis dipped below BTC's around late February/early March, reaching a low of approximately 5.5% in early April. However, from May onwards, ETH's basis generally recovered and maintained a higher level than BTC's, peaking near 11.5% in early June, while BTC's basis remained relatively stable around 8-9% in Q2 and Q3.
+
+    Explanation: The chart visualizes a key trend discussed in the accompanying text: the shifting dynamics in crypto futures markets. The consistent trading of Ethereum's CME futures annualized premium above Bitcoin's, particularly from May 2025, indicates an increasing demand or positive sentiment for ETH futures. This premium divergence supports the narrative of a "rotation of the basis position out of Bitcoin and into Ethereum," coinciding with Ethereum's recent price ascent and growing institutional adoption.
+
+page_end
+
+Analogous to increasing number of corporates allocating Bitcoin exposure to their treasury 
+holdings, a newer phenomenon have been several publicly traded US companies 
+establishing Ethereum reserves. It is estimated that such companies bought over $1.5b of 
+ETH in the last month. Top 10 holders of Ethereum (Figure 4, including the US Government) 
+now account for >1.6m ETH (~$6b), with some surpassing the holdings of the Ethereum 
+Foundation. This is still a relatively low proportion of the Ethereum free float supply of 
+~$400b or of the $175b of ETH that moved in the past 1 year period (Coinmetrics). 
+
+Figure 4. Top 10 ETH holders (ETH units) 
+  400000 
+  350000 
+  300000 
+  250000 
+  200000 
+  150000 
+  100000 
+   50000 
+      0 
+
+                              Sach                        DAO 
+                                   Inc.COIN Inc.BTBT   Gnosis         Inc.BTCS 
+                                                            US      BTCS 
+                    Foundation Global, Bit Digital, Foundation 
+      Gaming.SBET        PulseChain          Golem            Government 
+ Sharplink      Ethereum    Coinbase 
+          Technologies.BMNR 
+     Immersion 
+  Bitmine 
+
+Source: GS Sales and Trading as of 25 Jul 2025, past performance is not indicative of 
+future returns 
+
+Please reach out to your GS coverage if you are interested in discussing our crypto- 
+related product offering further or learn more about the various markets we cover 
+within Digital Assets. 
+
+For a full overview of Goldman Sachs' Digital Asset Resources - see dedicated 
+Marquee landing page or reach out to gs-digital-assets-data@gs.com if you are interested 
+in discussing our data offering further. 
+
+All references to "we/us/our" refer to the views and observations of the desk. 
+
+Please note that the provision of information is for illustrative purposes only and does not 
+guarantee any actual value in the future. Actual events and results may differ materially 
+from those assumed. The analysis or information provided is based on certain 
+
+    | Holder                                  | ETH Units |
+    |-----------------------------------------|-----------|
+    | Sharplink Gaming.SBET                   | 358,000   |
+    | Bitmine Immersion Technologies.BMNR     | 300,000   |
+    | Ethereum Foundation                     | 240,000   |
+    | PulseChain Sach                         | 165,000   |
+    | Coinbase Global, Inc.COIN               | 135,000   |
+    | Bit Digital, Inc.BTBT                   | 120,000   |
+    | Golem Foundation                        | 100,000   |
+    | Gnosis DAO                              | 65,000    |
+    | US Government                           | 58,000    |
+    | BTCS Inc.BTCS                           | 55,000    |
+
+    Summary: This bar chart, titled "Top 10 ETH holders (ETH units)", displays a ranked list of entities holding the largest amounts of Ethereum. The Y-axis quantifies ETH units, ranging from 0 to 400,000, while the X-axis names the specific holders. Sharplink Gaming.SBET and Bitmine Immersion Technologies.BMNR stand out as the largest holders, with approximately 358,000 and 300,000 ETH respectively. Notably, the Ethereum Foundation is third, surpassed by these corporate entities, and the US Government also features among the top ten, indicating diverse institutional accumulation.
+
+    Explanation: The chart underscores a burgeoning trend where publicly traded US companies and governmental entities are establishing Ethereum reserves, mirroring earlier corporate allocations of Bitcoin. As of July 25, 2025, these top 10 holders collectively possess over 1.6 million ETH, valued at approximately $6 billion. This phenomenon highlights increasing institutional and corporate interest in Ethereum as a treasury asset, with some corporate holdings now exceeding those of the Ethereum Foundation itself.
+
+page_end
+
+ assumptions which may not be assumptions that Goldman Sachs normally employs, and 
+ the provision of such analysis or information does no guarantee any actual return, value or 
+ cash flow in the future. The analysis or information provided herein was supplied in good 
+ faith based on information which we believe, but do not guarantee, to be accurate or 
+
+ complete; however we are not responsible for errors or omissions that may occur. 
+
+5y Chart BTC and ETH price 
+
+  Crypto Spot 
+         21 Jul 20                                                     21 Jul 25 -1 
+   130,000.00                                                               5,000 
+   120,000.00                                                                4,500 
+   110,000.00 
+                                                                             4,000 
+   100,000.00 
+   90,000.00                                                                3,500 
+   80,000.00                                                                3,000 
+   70,000.00 
+                                                                             2,500 
+   60,000.00 
+   50,000.00                                                                2,000 
+
+   40,000.00                                                                 1,500 
+   30,000.00 
+                                                                            1,000 
+   20,000.00 
+                                                                             500 
+   10,000.00 
+
+             2021          2022         2023          2024          2025 
+
+   ETHUSD price BTCUSD 
+
+ 5y history of Bitcoin and Ethereum annualised spot vs future funding (%) 
+
+                                                              - ETH annualized basis 
+  30% 
+                                                                  BTC annualized basis 
+
+  20% 
+
+  10% 
+
+   0% 
+
+ -10% 
+
+ -20% 
+
+              2021          2022          2023          2024          2025 
+
+    | Date     | ETH Annualized Basis (%) | BTC Annualized Basis (%) |
+    |----------|--------------------------|--------------------------|
+    | Early 2021 | 25%                      | 15%                      |
+    | Mar 2021 | 30%                      | 23%                      |
+    | Apr 2021 | 20%                      | 18%                      |
+    | May 2021 | 10%                      | 5%                       |
+    | Jul 2021 | 15%                      | 10%                      |
+    | Sep 2021 | 5%                       | 8%                       |
+    | Oct 2021 | 15%                      | 12%                      |
+    | Dec 2021 | 10%                      | 8%                       |
+    | Jan 2022 | 5%                       | 5%                       |
+    | Mar 2022 | 0%                       | 0%                       |
+    | May 2022 | -5%                      | -5%                      |
+    | Jul 2022 | -10%                     | -10%                     |
+    | Sep 2022 | -15%                     | -10%                     |
+    | Nov 2022 | -20%                     | -15%                     |
+    | Dec 2022 | -18%                     | -12%                     |
+    | Jan 2023 | -10%                     | -8%                      |
+    | Mar 2023 | 0%                       | 0%                       |
+    | May 2023 | 5%                       | 5%                       |
+    | Jul 2023 | 10%                      | 8%                       |
+    | Sep 2023 | 5%                       | 5%                       |
+    | Nov 2023 | 15%                      | 12%                      |
+    | Dec 2023 | 20%                      | 15%                      |
+    | Jan 2024 | 15%                      | 10%                      |
+    | Mar 2024 | 8%                       | 8%                       |
+    | May 2024 | 12%                      | 5%                       |
+    | Jul 2024 | 15%                      | 10%                      |
+    | Sep 2024 | 10%                      | 8%                       |
+    | Nov 2024 | 8%                       | 8%                       |
+    | Jan 2025 | 7%                       | 8%                       |
+    | Current  | 8%                       | 8%                       |
+
+    Summary: The chart displays the 5-year history of Bitcoin (BTC) and Ethereum (ETH) annualized spot versus future funding basis, from early 2021 to mid-2025. The Y-axis represents the annualized basis in percentage, ranging from -20% to +30%. Both cryptocurrencies showed a strong positive basis (contango) in early 2021, with ETH peaking over 30% and BTC over 20%. This was followed by a sharp decline into significant negative basis (backwardation) by late 2022 and early 2023, where ETH reached a trough of approximately -20% and BTC around -15%. Subsequently, the basis for both assets recovered into positive territory throughout 2023 and 2024, stabilizing around 5-10% in 2025, though ETH generally exhibited higher volatility throughout the period.
+
+    Explanation: The annualized basis, representing the premium or discount of crypto futures prices to their spot prices, serves as a key indicator of market sentiment and demand for leveraged exposure. A positive basis (contango) typically signals bullish sentiment and a willingness to pay for future exposure, while a negative basis (backwardation) often reflects bearish sentiment, deleveraging, or immediate spot demand over futures. The dramatic shift from strong contango in 2021 to deep backwardation in 2022-2023 and subsequent recovery mirrors the broader bull and bear market cycles of cryptocurrencies, highlighting periods of speculative fervor, market distress, and gradual recovery in investor confidence as seen in the accompanying 5-year spot price chart.
+
+    | Date | BTCUSD Price ($) | ETHUSD Price ($) |
+    |---|---|---|
+    | Jul 2020 | 10,000 | 300 |
+    | Oct 2020 | 12,500 | 380 |
+    | Jan 2021 | 30,000 | 1,000 |
+    | Feb 2021 | 48,000 | 1,700 |
+    | Apr 2021 | 60,000 | 2,200 |
+    | May 2021 | 64,000 | 4,000 |
+    | Jul 2021 | 30,000 | 1,900 |
+    | Aug 2021 | 48,000 | 3,200 |
+    | Nov 2021 | 68,000 | 4,800 |
+    | Jan 2022 | 40,000 | 3,000 |
+    | Mar 2022 | 45,000 | 3,200 |
+    | May 2022 | 30,000 | 2,000 |
+    | Jun 2022 | 18,000 | 1,000 |
+    | Sep 2022 | 20,000 | 1,400 |
+    | Dec 2022 | 16,000 | 1,100 |
+    | Mar 2023 | 28,000 | 1,800 |
+    | Jun 2023 | 30,000 | 1,900 |
+    | Sep 2023 | 26,000 | 1,600 |
+    | Dec 2023 | 42,000 | 2,300 |
+    | Feb 2024 | 58,000 | 3,200 |
+    | Mar 2024 | 70,000 | 3,800 |
+    | Apr 2024 | 65,000 | 3,000 |
+    | Jul 2024 | 68,000 | 3,200 |
+    | Oct 2024 | 85,000 | 3,000 |
+    | Dec 2024 | 100,000 | 2,800 |
+    | Jan 2025 | 115,000 | 2,500 |
+    | Mar 2025 | 125,000 | 3,000 |
+    | Apr 2025 | 100,000 | 3,500 |
+    | Jul 2025 | 120,000 | 4,800 |
+
+    Summary: This "Crypto Spot" chart displays the 5-year price performance of Bitcoin (BTCUSD) and Ethereum (ETHUSD) from July 2020 to July 2025. The left Y-axis indicates BTCUSD price, scaling up to $130,000, while the right Y-axis shows ETHUSD price, up to $5,000. Both cryptocurrencies demonstrate significant volatility and a generally correlated trajectory, characterized by strong bull runs in late 2020-2021 and 2024-2025, interspersed with sharp downturns like the 2022 bear market. Bitcoin achieved new all-time highs over $125,000 in early 2025, while Ethereum surged to near its previous peak of roughly $4,800 by July 2025.
+
+    Explanation: This chart provides a compelling visual of the inherent volatility and substantial growth experienced by the two largest cryptocurrencies over a five-year period. The recent price resurgence, particularly Bitcoin reaching new peaks and Ethereum nearing its prior highs, suggests a renewed market optimism and growing acceptance of digital assets, aligning with the broader context of increasing corporate and institutional engagement with cryptocurrencies as highlighted in the accompanying text.
+
+page_end
