@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected operating cash flows of hyperscalers 2025-2028",
+      "description": "Total cash generated from operations by hyperscalers over 2025-2028, indicating internal funding capacity",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Capex CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected capital expenditures of hyperscalers 2025-2028",
+      "description": "Total capex spend by hyperscalers over 2025-2028, reflecting data center and AI investments",
+      "properties": {
+        "value": 1600,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Capex Funded by Cash Flows CY25-CY28",
+      "type": "Metric",
+      "brief": "Portion of hyperscaler capex covered by operating cash flows 2025-2028",
+      "description": "Amount of hyperscaler capex funded internally by cash flows, used as proxy in analysis",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Shareholder Returns CY25-CY28",
+      "type": "Metric",
+      "brief": "Cash allocated to shareholder returns by hyperscalers 2025-2028",
+      "description": "Estimated cash outflows for hyperscaler shareholder returns over 2025-2028",
+      "properties": {
+        "value": 550,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Free Cash Flow after Shareholder Returns CY25-CY28",
+      "type": "Metric",
+      "brief": "Residual free cash flow after shareholder returns 2025-2028",
+      "description": "Free cash flow remaining after allocating cash flows to capex and shareholder returns",
+      "properties": {
+        "value": 700,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Combined Capex Guide 2025",
+      "type": "Metric",
+      "brief": "Hyperscalers' combined capex guidance for 2025",
+      "description": "Combined capex guidance from hyperscalers for 2025, reflecting elevated capital intensity",
+      "properties": {
+        "min": 300,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Hyperscaler Financing Gap CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected financing shortfall for hyperscaler capex 2025-2028",
+      "description": "Remaining funding gap after internal cash coverage for AI/data center capex 2025-2028",
+      "properties": {
+        "value": 1500,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Related Corporate Debt Issuance Estimate CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected related corporate debt issuance over 2025-2028",
+      "description": "Estimate of corporate debt issuance tied to hyperscaler capex funding from 2025-2028",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Capex CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1600,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows fund capital expenditures"
+    },
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Shareholder Returns CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 550,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows fund shareholder returns"
+    },
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Free Cash Flow after Shareholder Returns CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 700,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows residual after shareholder returns"
+    },
+    {
+      "source": "Hyperscaler Capex Funded by Cash Flows CY25-CY28",
+      "target": "Hyperscaler Financing Gap CY25-CY28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1500,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "CF-funded capex leaves financing shortfall"
+    }
+  ],
+  "scenarios": []
+}

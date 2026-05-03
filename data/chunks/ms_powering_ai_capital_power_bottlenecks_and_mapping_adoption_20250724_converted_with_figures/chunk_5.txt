@@ -1,0 +1,61 @@
+Morgan Stanley                                                                                                             July 24, 2025 
+
+     Credit Markets Have Capacity to Meet Financing Needs Across Private and Public 
+
+                                                                         Strong demand-supply dynamics in credit 
+     Credit markets seeing significant inflows, with private 
+                                                                                · Positive real yields have driven inflows from long-term 
+     credit leading the way 
+                                                                                  buyers like insurance companies and pension funds. 
+
+                                                                                   New supply/M&A has been muted with the high funding 
+                     Global Private Debt Fund AUM                                 costs, and persistent macro uncertainty. 
+     $2,000                                                     80% 
+                      Total AUM ($B)        Deployed (rs)                          Private credit has gained traction as a way to earn excess 
+                                                               70% 
+                                                                                  income, with limited correlation to broader risk assets. 
+     $1,500                                                     60% 
+                                                                                · Asset-based finance, new frontier for insurance balance 
+                                                                50% 
+                                                                                  sheets, providing IG exposure, tailored for DC financing. 
+     $1,000                                                     40% 
+                                                                30% 
+                                                                         Risks to financing capacity and our estimates? 
+       $500                                                     20% 
+                                                                                   Slower growth and sharply lower real yields (beyond Morgan 
+                                                                10% 
+                                                                                  Stanley base case) could be a challenge for continued credit 
+         $0 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2022 2023 2024* 0% demand. 
+
+                                                   2021 
+                                                                                   Hyperscalers slowing down capex plans could increase 
+                                                                                  reliance on external markets. 
+
+                                                                                . Faster revenue monetization can lead to more issuance in 
+                                                                                  public corporate debt markets. 
+
+Source: PitchBook | LCD, Bloomberg, Morgan Stanley Research                                                                               5 
+
+    | Year | Total AUM ($B) | % Deployed |
+    |------|----------------|------------|
+    | 2008 | $280           | 64%        |
+    | 2009 | $380           | 68%        |
+    | 2010 | $410           | 70%        |
+    | 2011 | $430           | 68%        |
+    | 2012 | $480           | 66%        |
+    | 2013 | $510           | 65%        |
+    | 2014 | $540           | 62%        |
+    | 2015 | $600           | 61%        |
+    | 2016 | $680           | 58%        |
+    | 2017 | $830           | 59%        |
+    | 2018 | $960           | 61%        |
+    | 2019 | $1,030         | 64%        |
+    | 2020 | $1,200         | 66%        |
+    | 2021 | $1,470         | 68%        |
+    | 2022 | $1,600         | 70%        |
+    | 2023 | $1,720         | 71%        |
+    | 2024*| $1,820         | 71%        |
+
+    Summary: This chart, titled "Global Private Debt Fund AUM", illustrates the growth of private debt fund assets under management (AUM) and their deployment rate from 2008 to 2024. The X-axis represents the years, the left Y-axis indicates Total AUM in billions of dollars (shown by blue bars), and the right Y-axis represents the percentage of AUM deployed (shown by a yellow line). Total AUM has shown robust and consistent growth over the period, accelerating significantly from ~$600B in 2015 to an estimated $1.82 trillion by 2024*. The deployment rate, after peaking around 70% in 2010, saw a gradual decline to a low of 58% in 2016, before steadily recovering to an estimated 71% by 2023-2024*.
+
+    Explanation: The sustained, accelerating growth in Global Private Debt Fund AUM, coupled with high and recovering deployment rates, directly supports the assertion that credit markets, particularly private credit, have ample capacity to meet financing needs. This trend suggests that private capital is increasingly becoming a significant source of funding, aligning with the document's broader narrative about financing large-scale investments like data centers through diverse credit channels.

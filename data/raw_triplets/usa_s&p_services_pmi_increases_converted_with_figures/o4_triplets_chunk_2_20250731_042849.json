@@ -1,0 +1,230 @@
+{
+  "entities": [
+    {
+      "name": "US Economic Indicators Manufacturing PMI Input Prices Component",
+      "type": "Factor",
+      "brief": "Manufacturing PMI input prices component fell from two-year peak",
+      "description": "Input prices index fell by 5.1 points to 64.6 in July 2025, easing from a June peak",
+      "properties": {
+        "direction": "down",
+        "magnitude_points": 5.1,
+        "value": 64.6
+      }
+    },
+    {
+      "name": "US Economic Indicators Manufacturing PMI Output Prices Component",
+      "type": "Factor",
+      "brief": "Manufacturing PMI output prices component fell from two-year peak",
+      "description": "Output prices index fell by 2.2 points to 60.8 in July 2025, easing from a June peak",
+      "properties": {
+        "direction": "down",
+        "magnitude_points": 2.2,
+        "value": 60.8
+      }
+    },
+    {
+      "name": "US Economic Indicators Tariff Front-running Boost Fading",
+      "type": "Factor",
+      "brief": "Boost from tariff front-running has faded",
+      "description": "Deterioration in manufacturing conditions linked to fading boost from tariff front-running",
+      "properties": {
+        "direction": "down",
+        "driver": "tariff front-running"
+      }
+    },
+    {
+      "name": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+      "type": "Event",
+      "brief": "Manufacturing business conditions deteriorated",
+      "description": "US manufacturing business conditions weakened due to lower input/output prices and fading tariff boost",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "deterioration",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Economic Indicators Manufacturing PMI Business Confidence",
+      "type": "Factor",
+      "brief": "Business confidence among manufacturers fell significantly",
+      "description": "Survey respondents drove business confidence down to near two-and-a-half-year lows",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Economic Indicators Government Policy Concerns",
+      "type": "Factor",
+      "brief": "Concerns over tariffs and federal spending cuts grew",
+      "description": "Survey respondents cited ongoing concerns over tariffs and federal spending cuts",
+      "properties": {
+        "policy_areas": [
+          "tariffs",
+          "federal_spending_cuts"
+        ]
+      }
+    },
+    {
+      "name": "US Economic Indicators New Home Sales",
+      "type": "Metric",
+      "brief": "New single-family home sales edged up to 627k units",
+      "description": "Sales of new single-family homes rose by 0.6% to a 627k annualized rate",
+      "properties": {
+        "unit": "units",
+        "value": 627,
+        "as_of": "June 2025",
+        "change_pct": 0.6
+      }
+    },
+    {
+      "name": "US Economic Indicators New Home Sales Growth Revision",
+      "type": "Metric",
+      "brief": "May new home sales growth rate revision to -11.6%",
+      "description": "May growth rate was revised up by 2.1pp to -11.6%",
+      "properties": {
+        "unit": "%",
+        "as_of": "May 2025",
+        "value": -11.6,
+        "revision_pp": 2.1
+      }
+    },
+    {
+      "name": "US Economic Indicators Q2 GDP Tracking Estimate",
+      "type": "Metric",
+      "brief": "Q2 GDP tracking estimate lowered to 2.7%",
+      "description": "Q2 GDP tracking estimate was cut by 0.1pp to 2.7% quarter-over-quarter annualized",
+      "properties": {
+        "unit": "%",
+        "as_of": "Q2 2025",
+        "value": 2.7,
+        "change_pp": -0.1
+      }
+    },
+    {
+      "name": "US Economic Indicators Q2 Domestic Final Sales Estimate",
+      "type": "Metric",
+      "brief": "Q2 domestic final sales estimated at 0.9%",
+      "description": "Q2 domestic final sales estimate stands at 0.9% quarter-over-quarter annualized",
+      "properties": {
+        "unit": "%",
+        "as_of": "Q2 2025",
+        "value": 0.9
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Economic Indicators Tariff Front-running Boost Fading",
+      "target": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Fading tariff boost caused manufacturing business conditions to deteriorate"
+    },
+    {
+      "source": "US Economic Indicators Manufacturing PMI Input Prices Component",
+      "target": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Lower input prices contributed to deterioration in manufacturing business conditions"
+    },
+    {
+      "source": "US Economic Indicators Manufacturing PMI Output Prices Component",
+      "target": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Lower output prices contributed to deterioration in manufacturing business conditions"
+    },
+    {
+      "source": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+      "target": "US Economic Indicators Manufacturing PMI Business Confidence",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Deterioration in manufacturing conditions drove down business confidence"
+    },
+    {
+      "source": "US Economic Indicators Government Policy Concerns",
+      "target": "US Economic Indicators Manufacturing PMI Business Confidence",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Policy concerns over tariffs and spending cuts impacted business confidence"
+    },
+    {
+      "source": "US Economic Indicators New Home Sales",
+      "target": "US Economic Indicators Q2 GDP Tracking Estimate",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "New home sales shortfall contributed to downward revision of Q2 GDP estimate"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "US Economic Indicators Tariff Front-running Boost Fading",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "US Economic Indicators Tariff Front-running Boost Fading",
+          "target": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "US Economic Indicators Manufacturing Business Conditions Deterioration",
+          "target": "US Economic Indicators Manufacturing PMI Business Confidence",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – AI Data Center EV/Watt of Bitcoin Stocks",
+      "type": "Table",
+      "brief": "Bar chart of EV/Watt metrics for nine Bitcoin miners",
+      "description": "Shows EV per watt for nine Bitcoin miners using operational and development-inclusive metrics",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Company | Enterprise Value - $ per Watt (large, Op'l. and Under Construction) | Enterprise Value - $ per Watt (large, Op'l, Under Construction + Dev) |\n|---|---|---|\n| Marathon Digital (MARA) | $4.44 | $3.94 |\n| Riot Blockchain (RIOT) | $2.98 | $1.82 |\n| Cipher Mining (CIFR) | $6.77 | $2.18 |\n| BitDeer Technologies (BTDR) | $1.93 | $1.32 |\n| Galaxy Digital Holdings (GLXY) | $20.24 | $12.65 |\n| Terawulf (WULF) | $10.59 | $2.44 |\n| Core Scientific (CORZ) | $5.76 | $4.92 |\n| Applied Digital (APLD) | $5.41 | $3.42 |\n| HUT 8 (HUT) | $2.84 | $0.41 |",
+        "key_insight": "Including development-stage assets generally lowers EV/Watt, with HUT 8 showing the largest drop from $2.84 to $0.41"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "Factor",
+      "brief": "EV/Watt levels are well below HPC conversion value",
+      "description": "Bitcoin mining companies are undervalued relative to potential high-performance computing conversion metrics",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Bitcoin Mining EV/Watt Range",
+      "type": "Metric",
+      "brief": "EV per watt of multiple Bitcoin stocks",
+      "description": "The enterprise value per watt for Bitcoin mining stocks ranges between $1 and $2",
+      "properties": {
+        "min": 1,
+        "max": 2,
+        "unit": "USD per Watt",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Lease Payment Rate to CORZ",
+      "type": "Metric",
+      "brief": "Annual lease payment rate from CoreWeave to CORZ per watt",
+      "description": "CoreWeave pays approximately $1.50 per watt per year to Core Scientific (CORZ) under lease",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD per Watt per year",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – AI Data Center EV/Watt of Bitcoin Stocks",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.43,
+        "unit": "USD per Watt",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Including development-stage assets lowers EV/Watt by $2.43"
+    },
+    {
+      "source": "Data Center Infrastructure Bitcoin Mining EV/Watt Range",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "EV/Watt of $1–2 is well below HPC conversion value"
+    },
+    {
+      "source": "Data Center Infrastructure Lease Payment Rate to CORZ",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": 1.5,
+        "unit": "USD per Watt per year",
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "High lease payments of $1.50 per watt per year highlight undervaluation"
+    }
+  ],
+  "scenarios": []
+}

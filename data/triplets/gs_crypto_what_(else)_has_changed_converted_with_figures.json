@@ -1,0 +1,389 @@
+{
+  "entities": [
+    {
+      "name": "Crypto Market \u2013 Bitcoin",
+      "type": "Instrument",
+      "brief": "Leading cryptocurrency asset",
+      "description": "Largest digital asset by market cap, significant market barometer",
+      "properties": {
+        "ticker": "BTCUSD"
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Ethereum",
+      "type": "Instrument",
+      "brief": "Smart contract platform token",
+      "description": "Second largest cryptocurrency by market cap, subject to recent outperformance",
+      "properties": {
+        "ticker": "ETHUSD"
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Bitcoin price retracement",
+      "type": "Event",
+      "brief": "Retracement from all-time high to recent low",
+      "description": "Bitcoin retraced from $123,200 ATH to $114,800 low on 25 July 2025",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "price_retracement",
+        "impact_value": -8400,
+        "unit": "USD",
+        "affected_tickers": [
+          "BTCUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Ethereum price surge in July 2025",
+      "type": "Event",
+      "brief": "50% price increase in July",
+      "description": "Ethereum rallied 50% in July 2025",
+      "properties": {
+        "date": null,
+        "event_type": "price_surge",
+        "impact_value": 50,
+        "unit": "%",
+        "affected_tickers": [
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Ethereum CME futures annualised premium",
+      "type": "Factor",
+      "brief": "Annualised premium of ETH futures over spot",
+      "description": "ETH CME futures annualised premium has traded above 10%, surpassing Bitcoin",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 10
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Basis rotation out of Bitcoin into Ethereum",
+      "type": "Event",
+      "brief": "Rotation of basis positions",
+      "description": "Shift of basis positions out of Bitcoin and into Ethereum",
+      "properties": {
+        "date": null,
+        "event_type": "basis_rotation",
+        "affected_tickers": [
+          "BTCUSD",
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market \u2013 Institutional Ethereum purchases",
+      "type": "Event",
+      "brief": "US companies accumulation of ETH reserves",
+      "description": "Publicly traded US companies bought over $1.5bn of ETH in the last month",
+      "properties": {
+        "date": null,
+        "event_type": "purchase",
+        "amount": 1.5,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Crypto Market \u2013 Daily Price Movements of Bitcoin and Ethereum",
+      "type": "Table",
+      "brief": "Daily BTC and ETH spot prices",
+      "description": "Time series of daily Bitcoin and Ethereum spot prices from Jan 1 to Jul 25, 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date         | BTCUSD Price | ETHUSD Price |\n|--------------|--------------|--------------|\n| Jan 01, 2025 | $93,000      | $3,100       |\n| Jan 15, 2025 | $102,000     | $3,000       |\n| Feb 01, 2025 | $118,000     | $3,600       |\n| Feb 15, 2025 | $90,000      | $2,500       |\n| Mar 01, 2025 | $80,000      | $2,500       |\n| Mar 15, 2025 | $85,000      | $2,600       |\n| Apr 01, 2025 | $78,000      | $2,200       |\n| Apr 15, 2025 | $75,000      | $2,000       |\n| May 01, 2025 | $100,000     | $3,000       |\n| May 15, 2025 | $110,000     | $3,500       |\n| Jun 01, 2025 | $105,000     | $3,300       |\n| Jun 15, 2025 | $100,000     | $3,000       |\n| Jul 01, 2025 | $115,000     | $3,600       |\n| Jul 15, 2025 | $123,000     | $3,800       |\n| Jul 25, 2025 | $116,500     | $3,700       |",
+        "key_insight": "Ethereum showed a more rapid and sustained ascent since April, culminating in a strong July surge to around $3,800, compared to Bitcoin's mid-July peak near $123,000 before retracing."
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Crypto Annualized Basis History",
+      "type": "Table",
+      "brief": "Annualized futures basis for ETH and BTC (2021-2025)",
+      "description": "Key indicator of market sentiment via contango/backwardation trends",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date     | ETH Annualized Basis (%) | BTC Annualized Basis (%) |\n|----------|--------------------------|--------------------------|\n| Early 2021 | 25%                      | 15%                      |\n| Mar 2021   | 30%                      | 23%                      |\n| Apr 2021   | 20%                      | 18%                      |\n| May 2021   | 10%                      | 5%                       |\n| Jul 2021   | 15%                      | 10%                      |\n| Sep 2021   | 5%                       | 8%                       |\n| Oct 2021   | 15%                      | 12%                      |\n| Dec 2021   | 10%                      | 8%                       |\n| Jan 2022   | 5%                       | 5%                       |\n| Mar 2022   | 0%                       | 0%                       |\n| May 2022   | -5%                      | -5%                      |\n| Jul 2022   | -10%                     | -10%                     |\n| Sep 2022   | -15%                     | -10%                     |\n| Nov 2022   | -20%                     | -15%                     |\n| Dec 2022   | -18%                     | -12%                     |\n| Jan 2023   | -10%                     | -8%                      |\n| Mar 2023   | 0%                       | 0%                       |\n| May 2023   | 5%                       | 5%                       |\n| Jul 2023   | 10%                      | 8%                       |\n| Sep 2023   | 5%                       | 5%                       |\n| Nov 2023   | 15%                      | 12%                      |\n| Dec 2023   | 20%                      | 15%                      |\n| Jan 2024   | 15%                      | 10%                      |\n| Mar 2024   | 8%                       | 8%                       |\n| May 2024   | 12%                      | 5%                       |\n| Jul 2024   | 15%                      | 10%                      |\n| Sep 2024   | 10%                      | 8%                       |\n| Nov 2024   | 8%                       | 8%                       |\n| Jan 2025   | 7%                       | 8%                       |\n| Current    | 8%                       | 8%                       |",
+        "key_insight": "ETH and BTC futures basis shifted from strong contango over 30% and 20% in early 2021 to deep backwardation around -20% and -15% in late 2022, recovering to about 5-10% by 2025 with ETH more volatile."
+      }
+    },
+    {
+      "name": "Crypto Futures Basis Sentiment",
+      "type": "Factor",
+      "brief": "Market sentiment indicator from futures basis",
+      "description": "Bullish or bearish sentiment based on ETH and BTC futures premium/discount",
+      "properties": {
+        "driver": "annualized futures basis",
+        "lookback_days": 1825
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Crypto Spot Price History",
+      "type": "Table",
+      "brief": "5-year spot price history for BTC and ETH",
+      "description": "Shows price volatility and bull market cycles in top two cryptocurrencies",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | BTCUSD Price ($) | ETHUSD Price ($) |\n|-----------|------------------|------------------|\n| Jul 2020  | 10,000           | 300              |\n| Oct 2020  | 12,500           | 380              |\n| Jan 2021  | 30,000           | 1,000            |\n| Feb 2021  | 48,000           | 1,700            |\n| Apr 2021  | 60,000           | 2,200            |\n| May 2021  | 64,000           | 4,000            |\n| Jul 2021  | 30,000           | 1,900            |\n| Aug 2021  | 48,000           | 3,200            |\n| Nov 2021  | 68,000           | 4,800            |\n| Jan 2022  | 40,000           | 3,000            |\n| Mar 2022  | 45,000           | 3,200            |\n| May 2022  | 30,000           | 2,000            |\n| Jun 2022  | 18,000           | 1,000            |\n| Sep 2022  | 20,000           | 1,400            |\n| Dec 2022  | 16,000           | 1,100            |\n| Mar 2023  | 28,000           | 1,800            |\n| Jun 2023  | 30,000           | 1,900            |\n| Sep 2023  | 26,000           | 1,600            |\n| Dec 2023  | 42,000           | 2,300            |\n| Feb 2024  | 58,000           | 3,200            |\n| Mar 2024  | 70,000           | 3,800            |\n| Apr 2024  | 65,000           | 3,000            |\n| Jul 2024  | 68,000           | 3,200            |\n| Oct 2024  | 85,000           | 3,000            |\n| Dec 2024  | 100,000          | 2,800            |\n| Jan 2025  | 115,000          | 2,500            |\n| Mar 2025  | 125,000          | 3,000            |\n| Apr 2025  | 100,000          | 3,500            |\n| Jul 2025  | 120,000          | 4,800            |",
+        "key_insight": "Bitcoin and Ethereum prices showed strong bull runs in late 2020-2021 and 2024-2025, with BTC reaching over $125,000 and ETH near $4,800 by July 2025 amid significant volatility."
+      }
+    },
+    {
+      "name": "Crypto BTCUSD Price Peak",
+      "type": "Metric",
+      "brief": "Bitcoin price peak in early 2025",
+      "description": "BTC reached over $125,000, signaling bull market resurgence",
+      "properties": {
+        "unit": "USD",
+        "value": 125000,
+        "as_of": "early 2025"
+      }
+    },
+    {
+      "name": "Ethereum \u2013 Corporate ETH purchases",
+      "type": "Event",
+      "brief": "Public companies bought ETH reserves",
+      "description": "Publicly traded US companies purchased over $1.5b of ETH in the last month",
+      "properties": {
+        "date": null,
+        "event_type": "purchase",
+        "impact_value": 1.5,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "ETH"
+        ],
+        "region": "US"
+      }
+    },
+    {
+      "name": "Ethereum \u2013 Institutional corporate interest",
+      "type": "Factor",
+      "brief": "Growing institutional and corporate interest in ETH",
+      "description": "Rising trend of publicly traded companies and governments holding Ethereum reserves",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Top 10 ETH holders (ETH units)",
+      "type": "Table",
+      "brief": "Ranked list of top 10 holders of ETH",
+      "description": "Bar chart of entities holding the largest Ethereum amounts",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Holder                                  | ETH Units |\n|-----------------------------------------|-----------|\n| Sharplink Gaming.SBET                   | 358,000   |\n| Bitmine Immersion Technologies.BMNR     | 300,000   |\n| Ethereum Foundation                     | 240,000   |\n| PulseChain Sach                         | 165,000   |\n| Coinbase Global, Inc.COIN               | 135,000   |\n| Bit Digital, Inc.BTBT                   | 120,000   |\n| Golem Foundation                        | 100,000   |\n| Gnosis DAO                              | 65,000    |\n| US Government                           | 58,000    |\n| BTCS Inc.BTCS                           | 55,000    |",
+        "key_insight": "Sharplink Gaming.SBET holds 358,000 ETH and Bitmine Immersion Technologies.BMNR holds 300,000 ETH; top 10 collectively hold over 1.6m ETH (~$6b)."
+      }
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "type": "Instrument",
+      "brief": "Leading smart-contract blockchain",
+      "description": "Ethereum token used for decentralized applications and finance",
+      "properties": {
+        "ticker": "ETH",
+        "asset_class": "cryptocurrency"
+      }
+    },
+    {
+      "name": "Bitcoin (BTC)",
+      "type": "Instrument",
+      "brief": "First and largest cryptocurrency",
+      "description": "Bitcoin token serving as digital store of value",
+      "properties": {
+        "ticker": "BTC",
+        "asset_class": "cryptocurrency"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs AUM",
+      "type": "Metric",
+      "brief": "Assets under management of US ETH spot ETFs",
+      "description": "Total assets held by US ETH spot ETFs indicating institutional adoption",
+      "properties": {
+        "value": 20,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs YTD Net Inflows",
+      "type": "Metric",
+      "brief": "Year-to-date net inflows into US ETH spot ETFs",
+      "description": "Cumulative inflows into US ETH spot ETFs since start of year",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs Last 1-Month Net Inflows",
+      "type": "Metric",
+      "brief": "Net inflows into US ETH spot ETFs over the last month",
+      "description": "Recent ETF inflows highlight growing investor demand in July",
+      "properties": {
+        "value": 4.8,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 US ETH Spot ETF Net Flows vs Spot Price",
+      "type": "Table",
+      "brief": "Daily US ETH spot ETF net inflows and ETH price chart",
+      "description": "Visualizes correlation between net ETF inflows and ETH spot price from Jan to Jul 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date | Net Flows ($'m) | ETH Spot Price ($) |\n|---|---|---|\n| 1/2 | $130 | $3700 |\n| 1/8 | -$150 | $3200 |\n| 1/14 | $170 | $3400 |\n| 1/21 | $80 | $3300 |\n| 1/27 | -$130 | $2800 |\n| 1/31 | $300 | $2800 |\n| 2/6 | $10 | $2300 |\n| 2/19 | -$50 | $1800 |\n| 2/25 | -$100 | $1700 |\n| 3/3 | -$50 | $1600 |\n| 3/7 | $0 | $1500 |\n| 3/19 | -$30 | $1400 |\n| 3/31 | $10 | $1400 |\n| 4/4 | $20 | $1500 |\n| 4/10 | -$30 | $1600 |\n| 4/16 | $50 | $1800 |\n| 4/23 | $100 | $2000 |\n| 4/29 | $40 | $2200 |\n| 5/9 | $40 | $2400 |\n| 5/15 | $60 | $2500 |\n| 5/21 | $80 | $2600 |\n| 5/28 | $100 | $2700 |\n| 6/3 | $230 | $2800 |\n| 6/13 | $120 | $2700 |\n| 6/26 | $80 | $2700 |\n| 7/2 | $400 | $3200 |\n| 7/9 | $700 | $3800 |\n| 7/15 | $550 | $3200 |\n| 7/21 | $400 | $3800 |",
+        "key_insight": "Chart shows strong positive correlation between US ETH spot ETF net inflows and ETH spot price, peaking at $700m inflows and $3800 price in July"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 ETH vs BTC Annualized Futures Basis",
+      "type": "Table",
+      "brief": "Annualized futures basis comparison for ETH and BTC",
+      "description": "Compares the premium of ETH and BTC futures over spot from Jan to Jul 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date       | ETH Annualized Basis (%) | BTC Annualized Basis (%) |\n|------------|--------------------------|--------------------------|\n| 2025-01-01 | 15.5                     | 14.0                     |\n| 2025-01-15 | 16.5                     | 12.0                     |\n| 2025-01-31 | 10.5                     | 11.5                     |\n| 2025-02-15 | 12.0                     | 11.0                     |\n| 2025-02-28 | 10.5                     | 10.5                     |\n| 2025-03-07 | 9.0                      | 10.0                     |\n| 2025-03-15 | 6.5                      | 8.0                      |\n| 2025-03-31 | 7.0                      | 7.5                      |\n| 2025-04-07 | 5.5                      | 7.0                      |\n| 2025-04-15 | 7.0                      | 7.5                      |\n| 2025-04-30 | 8.5                      | 8.5                      |\n| 2025-05-07 | 9.5                      | 9.0                      |\n| 2025-05-21 | 9.0                      | 8.8                      |\n| 2025-05-31 | 10.0                     | 9.0                      |\n| 2025-06-07 | 11.5                     | 9.5                      |\n| 2025-06-15 | 9.0                      | 9.0                      |\n| 2025-06-30 | 8.5                      | 8.0                      |\n| 2025-07-07 | 9.5                      | 8.0                      |\n| 2025-07-25 | 10.5                     | 8.5                      |",
+        "key_insight": "ETH futures basis recovered and exceeded BTC's from May, peaking near 11.5% vs BTC's 9.5% in early June"
+      }
+    },
+    {
+      "name": "Positive correlation between US ETH spot ETF net inflows and ETH spot price",
+      "type": "Factor",
+      "brief": "ETF inflows-price correlation",
+      "description": "Demonstrates that rising ETF inflows are associated with ETH price gains",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Premium divergence between ETH and BTC futures basis",
+      "type": "Factor",
+      "brief": "ETH futures premium exceeds BTC's",
+      "description": "Annualized futures premium of ETH remains above BTC's indicating rotation",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 Crypto Market \u2013 Daily Price Movements of Bitcoin and Ethereum",
+      "target": "Crypto Market \u2013 Ethereum price surge in July 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows Ethereum gained 50% in July"
+    },
+    {
+      "source": "Crypto Market \u2013 Ethereum CME futures annualised premium",
+      "target": "Crypto Market \u2013 Basis rotation out of Bitcoin into Ethereum",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Higher ETH futures premium triggers basis rotation"
+    },
+    {
+      "source": "Crypto Market \u2013 Institutional Ethereum purchases",
+      "target": "Crypto Market \u2013 Ethereum",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Institutional purchases boost Ethereum demand"
+    },
+    {
+      "source": "Table T1 \u2013 Crypto Annualized Basis History",
+      "target": "Crypto Futures Basis Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs market sentiment factor"
+    },
+    {
+      "source": "Table T2 \u2013 Crypto Spot Price History",
+      "target": "Crypto BTCUSD Price Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 125000,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs Bitcoin price peak metric"
+    },
+    {
+      "source": "Table T1 \u2013 Top 10 ETH holders (ETH units)",
+      "target": "Ethereum \u2013 Institutional corporate interest",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1600000,
+        "unit": "ETH",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Table highlights rising corporate and government ETH holdings indicating growing institutional interest"
+    },
+    {
+      "source": "Table T3 \u2013 US ETH Spot ETF Net Flows vs Spot Price",
+      "target": "Positive correlation between US ETH spot ETF net inflows and ETH spot price",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table demonstrates strong positive correlation between ETF inflows and ETH price"
+    },
+    {
+      "source": "Table T2 \u2013 ETH vs BTC Annualized Futures Basis",
+      "target": "Premium divergence between ETH and BTC futures basis",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows ETH futures basis trading above BTC's"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_crypto_what_(else)_has_changed_converted_with_figures"
+}

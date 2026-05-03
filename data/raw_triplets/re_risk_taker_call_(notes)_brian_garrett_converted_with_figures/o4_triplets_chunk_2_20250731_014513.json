@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Volatility VIX vs UX1 rolldown (normalized)",
+      "type": "Table",
+      "brief": "Rolldown difference between VIX spot and front-month future",
+      "description": "Tracks VIX term structure from July 2015 to early September 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Normalized VIX Rolldown |\n|------------|-------------------------|\n| Jul 2015   | 0.50                    |\n| Oct 2015   | 0.10                    |\n| Jan 2016   | -0.10                   |\n| Jul 2016   | 0.05                    |\n| Jan 2017   | -0.05                   |\n| Jul 2017   | -0.10                   |\n| Jan 2018   | 0.30                    |\n| Jul 2018   | 0.00                    |\n| Jan 2019   | -0.15                   |\n| Jul 2019   | 0.00                    |\n| Jan 2020   | 0.40                    |\n| Apr 2020   | 0.00                    |\n| Jul 2020   | 0.05                    |\n| Jan 2021   | 0.00                    |\n| Jul 2021   | -0.10                   |\n| Jan 2022   | 0.10                    |\n| Jul 2022   | -0.10                   |\n| Jan 2023   | -0.15                   |\n| Jul 2023   | 0.00                    |\n| Jan 2024   | -0.05                   |\n| Jul 2024   | 0.05                    |\n| Jan 2025   | 0.55                    |\n| Jul 2025   | -0.16                   |",
+        "key_insight": "As of Jul 2025, VIX vs UX1 rolldown is -0.16, indicating steep contango"
+      }
+    },
+    {
+      "name": "US Volatility – steep contango",
+      "type": "Factor",
+      "brief": "Steep contango in VIX term structure",
+      "description": "Negative rolldown of -0.16 shows August VIX future trading above spot, enabling roll-down strategies",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T2 – US Volatility SPX 6m 10dp/40dp put vol skew ratio",
+      "type": "Table",
+      "brief": "SPX 6-month 10δ/40δ put vol skew ratio from July 2010 to Sep 2025",
+      "description": "Charts demand for deep out-of-the-money puts via the put vol skew ratio",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | SPX 6m 10dp/40dp Put Vol Skew Ratio |\n|-----------|-------------------------------------|\n| Jul 2010  | 1.24                                |\n| Jan 2011  | 1.28                                |\n| Jul 2011  | 1.28                                |\n| Jan 2012  | 1.24                                |\n| Jul 2012  | 1.25                                |\n| Jan 2013  | 1.23                                |\n| Jul 2013  | 1.20                                |\n| Jan 2014  | 1.28                                |\n| Jul 2014  | 1.28                                |\n| Jan 2015  | 1.30                                |\n| Jul 2015  | 1.28                                |\n| Jan 2016  | 1.24                                |\n| Jul 2016  | 1.28                                |\n| Jan 2017  | 1.28                                |\n| Jul 2017  | 1.32                                |\n| Jan 2018  | 1.34                                |\n| Jul 2018  | 1.28                                |\n| Jan 2019  | 1.25                                |\n| Jul 2019  | 1.28                                |\n| Jan 2020  | 1.30                                |\n| Jul 2020  | 1.28                                |\n| Jan 2021  | 1.35                                |\n| Jul 2021  | 1.36                                |\n| Jan 2022  | 1.25                                |\n| Jul 2022  | 1.18                                |\n| Jan 2023  | 1.28                                |\n| Jul 2023  | 1.32                                |\n| Jan 2024  | 1.33                                |\n| Jul 2024  | 1.30                                |\n| Jan 2025  | 1.32                                |\n| Jul 2025  | 1.34                                |",
+        "key_insight": "As of Jul 2025, SPX 6m 10dp/40dp put vol skew is 1.34, near multi-year highs indicating strong downside demand"
+      }
+    },
+    {
+      "name": "US Volatility – elevated SPX put vol skew",
+      "type": "Factor",
+      "brief": "Elevated SPX 6m put vol skew ratio as of Jul 2025",
+      "description": "Ratio at 1.34 indicates deep OTM puts priced higher relative to 40δ puts",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility – average implied earnings move all stocks",
+      "type": "Metric",
+      "brief": "Average implied move for earnings at 470 bps",
+      "description": "Implied volatility for earnings across all stocks is extremely low, indicating complacency",
+      "properties": {
+        "unit": "bp",
+        "value": 470,
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Volatility – market complacency ahead of earnings",
+      "type": "Factor",
+      "brief": "Market complacency indicated by low earnings implied moves",
+      "description": "Low average implied moves prior to earnings suggests investors are complacent and relief rallies possible",
+      "properties": {
+        "driver": "low implied volatility"
+      }
+    },
+    {
+      "name": "US Volatility – AMZN long call",
+      "type": "Instrument",
+      "brief": "Long call option on AMZN flat into earnings",
+      "description": "Favorite trade idea is AMZN upside via call options into earnings",
+      "properties": {
+        "ticker": "AMZN",
+        "position": "long"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Volatility VIX vs UX1 rolldown (normalized)",
+      "target": "US Volatility – steep contango",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -0.16,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights a -0.16 rolldown indicating steep contango"
+    },
+    {
+      "source": "Table T2 – US Volatility SPX 6m 10dp/40dp put vol skew ratio",
+      "target": "US Volatility – elevated SPX put vol skew",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.34,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows skew at 1.34, indicating elevated demand for OTM puts"
+    },
+    {
+      "source": "US Volatility – average implied earnings move all stocks",
+      "target": "US Volatility – market complacency ahead of earnings",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 470,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Low implied earnings move of 470 bp indicates investor complacency ahead of earnings"
+    }
+  ],
+  "scenarios": []
+}

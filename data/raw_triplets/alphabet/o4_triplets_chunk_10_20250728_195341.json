@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet Exhibit 5 – Alphabet & S&P 500 2yr Forward GAAP PE Multiple",
+      "type": "Table",
+      "brief": "Chart of Alphabet and S&P 500 PE multiples over 2015–2025",
+      "description": "Summarizes the 2-year forward GAAP PE multiples for Alphabet and the S&P 500, including 10-year averages.",
+      "properties": {
+        "table_id": "Exhibit 5",
+        "table_content": "| Date | Alphabet PE | S&P 500 PE | Alphabet 10yr Avg PE | S&P 500 10yr Avg PE |\n|---|---|---|---|---|\n| Jan-15 | 22.5x | 16.5x | 22x | 18x |\n| Jul-15 | 25.0x | 17.0x | 22x | 18x |\n| Jan-16 | 24.0x | 17.0x | 22x | 18x |\n| Jul-16 | 24.0x | 17.5x | 22x | 18x |\n| Jan-17 | 20.0x | 18.0x | 22x | 18x |\n| Jul-17 | 23.0x | 19.0x | 22x | 18x |\n| Jan-18 | 24.0x | 19.5x | 22x | 18x |\n| Jul-18 | 22.0x | 19.0x | 22x | 18x |\n| Jan-19 | 20.0x | 17.0x | 22x | 18x |\n| Jul-19 | 21.0x | 18.5x | 22x | 18x |\n| Jan-20 | 24.0x | 19.5x | 22x | 18x |\n| Jul-20 | 26.0x | 21.0x | 22x | 18x |\n| Jan-21 | 29.0x | 21.5x | 22x | 18x |\n| Jul-21 | 29.0x | 22.0x | 22x | 18x |\n| Jan-22 | 24.0x | 20.0x | 22x | 18x |\n| Jul-22 | 15.0x | 17.0x | 22x | 18x |\n| Jan-23 | 18.0x | 18.5x | 22x | 18x |\n| Jul-23 | 20.0x | 19.0x | 22x | 18x |\n| Jan-24 | 21.0x | 20.0x | 22x | 18x |\n| Current (Early 2025) | 19.0x | 21.5x | 22x | 18x |",
+        "key_insight": "Alphabet’s current PE multiple of 19x is below its 10-year average of 22x, while the S&P 500’s is above average, suggesting Alphabet now trades at a discount."
+      }
+    },
+    {
+      "name": "Alphabet Forward PE Multiple (Early 2025)",
+      "type": "Metric",
+      "brief": "Alphabet’s forward PE multiple in early 2025",
+      "description": "Represents Alphabet's 2-year forward GAAP PE multiple—a key valuation metric for investors.",
+      "properties": {
+        "value": 19,
+        "unit": "x",
+        "as_of": "Early 2025"
+      }
+    },
+    {
+      "name": "Alphabet 10yr Average PE",
+      "type": "Metric",
+      "brief": "Alphabet’s average PE multiple over 10 years",
+      "description": "Used as a valuation benchmark for Alphabet over the decade.",
+      "properties": {
+        "value": 22,
+        "unit": "x",
+        "as_of": "2015–2025"
+      }
+    },
+    {
+      "name": "S&P 500 Forward PE Multiple (Early 2025)",
+      "type": "Metric",
+      "brief": "S&P 500 forward PE multiple in early 2025",
+      "description": "Current forward PE multiple for the S&P 500—a reference for market valuation.",
+      "properties": {
+        "value": 21.5,
+        "unit": "x",
+        "as_of": "Early 2025"
+      }
+    },
+    {
+      "name": "S&P 500 10yr Average PE",
+      "type": "Metric",
+      "brief": "S&P 500 average PE over 10 years",
+      "description": "Long-term benchmark PE level for the S&P 500 index.",
+      "properties": {
+        "value": 18,
+        "unit": "x",
+        "as_of": "2015–2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Exhibit 5 – Alphabet & S&P 500 2yr Forward GAAP PE Multiple",
+      "target": "Alphabet Forward PE Multiple (Early 2025)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Chart details Alphabet’s current forward PE multiple as of early 2025."
+    },
+    {
+      "source": "Alphabet Exhibit 5 – Alphabet & S&P 500 2yr Forward GAAP PE Multiple",
+      "target": "Alphabet 10yr Average PE",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 22,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Provides 10-year average PE for Alphabet as context."
+    },
+    {
+      "source": "Alphabet Exhibit 5 – Alphabet & S&P 500 2yr Forward GAAP PE Multiple",
+      "target": "S&P 500 Forward PE Multiple (Early 2025)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 21.5,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Shows S&P 500’s forward PE multiple as of early 2025."
+    },
+    {
+      "source": "Alphabet Exhibit 5 – Alphabet & S&P 500 2yr Forward GAAP PE Multiple",
+      "target": "S&P 500 10yr Average PE",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 18,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Provides 10-year average PE for S&P 500 for valuation comparison."
+    }
+  ],
+  "scenarios": []
+}

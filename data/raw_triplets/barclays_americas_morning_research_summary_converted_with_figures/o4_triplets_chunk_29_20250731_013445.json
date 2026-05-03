@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "name": "AMZN – Amazon.com, Inc.",
+      "type": "Company",
+      "brief": "Amazon rating and price target update",
+      "description": "Mid‐year update highlighting Overweight rating and USD 240 price target for AMZN",
+      "properties": {
+        "ticker": "AMZN",
+        "rating_outlook": "Overweight",
+        "price_target_usd": 240.0,
+        "market_cap_usd_bn": 2414.9017
+      }
+    },
+    {
+      "name": "IPG – Interpublic Group of Companies",
+      "type": "Company",
+      "brief": "IPG margins beat and EPS upgrades",
+      "description": "2Q25 margin beat driving Equal Weight rating and USD 27.50 price target for IPG",
+      "properties": {
+        "ticker": "IPG",
+        "rating_outlook": "Equal Weight",
+        "price_target_usd": 27.5,
+        "market_cap_usd_bn": 9.4985
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

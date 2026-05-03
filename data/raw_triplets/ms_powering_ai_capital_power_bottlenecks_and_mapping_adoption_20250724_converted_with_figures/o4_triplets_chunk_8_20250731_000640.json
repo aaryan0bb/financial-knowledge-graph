@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "Morgan Stanley-Total DC Securitized Financing",
+      "type": "Metric",
+      "brief": "Total volume of DC securitized credit financing through 2028",
+      "description": "Forecast cumulative issuance of securitized credit markets by 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 150,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Morgan Stanley-Securitization Rate",
+      "type": "Factor",
+      "brief": "Rate of securitization for DC financing",
+      "description": "Securitization percentage rate projected from 10% to 25% by 2028",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 15
+      }
+    },
+    {
+      "name": "Table T1 – Est. Annual Issuance for DC Securitized Credit",
+      "type": "Table",
+      "brief": "Projected ABS and CMBS issuance 2025-2028",
+      "description": "Breakdown of ABS and CMBS issuance volumes from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Total estimated annual issuance grows significantly from $17bn in 2025 to $62bn in 2028, with ABS the larger component"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Est. Annual Issuance for DC Securitized Credit",
+      "target": "Morgan Stanley-Securitization Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 15,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Issuance growth informs securitization rate increase"
+    },
+    {
+      "source": "Morgan Stanley-Securitization Rate",
+      "target": "Morgan Stanley-Total DC Securitized Financing",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Higher securitization rate drives increased total financing"
+    }
+  ],
+  "scenarios": []
+}

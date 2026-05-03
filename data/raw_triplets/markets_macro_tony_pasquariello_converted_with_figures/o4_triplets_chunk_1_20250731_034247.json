@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "US Equities: S&P 500 All-Time High",
+      "type": "Event",
+      "brief": "S&P 500 reached fresh record highs",
+      "description": "The S&P 500 index went wire-to-wire and sits at new all-time highs",
+      "properties": {
+        "date": "2025-07-26",
+        "event_type": "all_time_high",
+        "affected_tickers": [
+          "SPX"
+        ]
+      }
+    },
+    {
+      "name": "US Equities: August 1st, 2025 Framework Deal Deadline",
+      "type": "Event",
+      "brief": "Deadline for key framework deals",
+      "description": "August 1st deadline spurred framework deal agreements",
+      "properties": {
+        "date": "2025-08-01",
+        "event_type": "deal_deadline",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equities: Framework Deal Agreements",
+      "type": "Event",
+      "brief": "Agreements of framework deals",
+      "description": "A handful of framework deals were agreed ahead of the deadline",
+      "properties": {
+        "date": null,
+        "event_type": "deal_agreement",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equities: Risk Premia",
+      "type": "Factor",
+      "brief": "Additional return demanded by investors",
+      "description": "Risk premia are being wrung out of the markets due to deal activity",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities: GOOG",
+      "type": "Company",
+      "brief": "Alphabet’s share rally on AI capex",
+      "description": "GOOG ratified the theme of growing AI capex commitment",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Equities: AI Capex Commitment",
+      "type": "Factor",
+      "brief": "Growth in AI capital expenditure commitment",
+      "description": "Commitment to AI capex is only growing, signaling strong investment focus",
+      "properties": {
+        "direction": "up",
+        "driver": "earnings reporting season"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equities: August 1st, 2025 Framework Deal Deadline",
+      "target": "US Equities: Framework Deal Agreements",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Deadline spurred framework deal agreements"
+    },
+    {
+      "source": "US Equities: Framework Deal Agreements",
+      "target": "US Equities: Risk Premia",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Framework deals reduce market risk premia"
+    },
+    {
+      "source": "US Equities: GOOG",
+      "target": "US Equities: AI Capex Commitment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "GOOG's earnings solidify growing AI capex commitment"
+    }
+  ],
+  "scenarios": []
+}

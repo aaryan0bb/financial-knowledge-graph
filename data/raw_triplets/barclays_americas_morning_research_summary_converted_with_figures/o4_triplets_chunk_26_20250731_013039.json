@@ -1,0 +1,215 @@
+{
+  "entities": [
+    {
+      "name": "MSCI Inc.",
+      "type": "Company",
+      "brief": "Equity index provider",
+      "description": "MSCI Inc. traded down after mixed Q2 results with unchanged guidance",
+      "properties": {
+        "ticker": "MSCI",
+        "sector": "Industrials",
+        "market_cap_USDbn": 40.8557,
+        "rating_outlook": "Overweight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "MSCI - Q2 2025 Results",
+      "type": "Event",
+      "brief": "2Q25 results shortfall",
+      "description": "MSCI's Q2 2025 results were slightly below street expectations",
+      "properties": {
+        "date": null,
+        "event_type": "EarningsRelease",
+        "affected_tickers": [
+          "MSCI"
+        ]
+      }
+    },
+    {
+      "name": "MSCI - Analyst Commentary",
+      "type": "Factor",
+      "brief": "Commentary on recovery outlook",
+      "description": "Analyst commentary suggested little near-term/3Q recovery and long-term re-acceleration",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "MSCI - Price",
+      "type": "Metric",
+      "brief": "Share price on 22 Jul 2025",
+      "description": "MSCI closing price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 526.48,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "MSCI - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 650.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "MSCI - EPS FY1",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays FY1 EPS estimate for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 17.19,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "MSCI - EPS FY2",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays FY2 EPS estimate for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 18.97,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "MSCI - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "MSCI market capitalization as of report",
+      "properties": {
+        "unit": "USD bn",
+        "value": 40.8557,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Pentair plc",
+      "type": "Company",
+      "brief": "Industrial solutions provider",
+      "description": "Pentair plc holds an overweight rating with raised volume guidance",
+      "properties": {
+        "ticker": "PNR",
+        "sector": "Industrials",
+        "market_cap_USDbn": 17.2539,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "PNR - 2025 Top-line Volume Guidance",
+      "type": "Factor",
+      "brief": "2025 volume guidance increase",
+      "description": "Pentair raised its top-line volume guidance for 2025 versus prior",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "PNR - Price",
+      "type": "Metric",
+      "brief": "Share price on 22 Jul 2025",
+      "description": "Pentair closing price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 104.87,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "PNR - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 117.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "PNR - EPS FY1",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays FY1 EPS estimate for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 4.86,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "PNR - EPS FY2",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays FY2 EPS estimate for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 5.4,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "PNR - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "Pentair market capitalization as of report",
+      "properties": {
+        "unit": "USD bn",
+        "value": 17.2539,
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MSCI - Q2 2025 Results",
+      "target": "MSCI - Price",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": -8.9,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "2Q25 results shortfall led to MSCI price drop"
+    },
+    {
+      "source": "MSCI - Analyst Commentary",
+      "target": "MSCI - Price",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Negative commentary impacted MSCI price"
+    },
+    {
+      "source": "PNR - 2025 Top-line Volume Guidance",
+      "target": "PNR - Price Target",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Higher volume guidance informs Pentair price target"
+    }
+  ],
+  "scenarios": []
+}

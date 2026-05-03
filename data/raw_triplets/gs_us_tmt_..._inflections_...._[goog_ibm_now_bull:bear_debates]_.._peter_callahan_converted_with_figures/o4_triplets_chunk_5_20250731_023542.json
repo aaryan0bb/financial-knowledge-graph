@@ -1,0 +1,206 @@
+{
+  "entities": [
+    {
+      "name": "TMT - IBM Consulting",
+      "type": "Company",
+      "brief": "IBM's IT services consulting division",
+      "description": "IBM Consulting revenue in-line with expectations, leveraging strong GenAI backlog",
+      "properties": {
+        "ticker": "IBM",
+        "sector": "IT Services",
+        "b_t_b_ratio": 1.14
+      }
+    },
+    {
+      "name": "TMT - Google Cloud Growth",
+      "type": "Metric",
+      "brief": "Google Cloud year-on-year revenue growth",
+      "description": "Google Cloud accelerated to 32% y/y growth",
+      "properties": {
+        "unit": "%",
+        "value": 32,
+        "as_of": "y/y"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow cRPO Performance",
+      "type": "Factor",
+      "brief": "ServiceNow's cRPO results",
+      "description": "NOW's solid cRPO results expected to ease enterprise software concerns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Enterprise Software Risk Concerns",
+      "type": "Factor",
+      "brief": "Near-term enterprise software concerns",
+      "description": "Caution remains around enterprise software demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Waymo Cumulative Miles Driven",
+      "type": "Metric",
+      "brief": "Waymo autonomous miles driven",
+      "description": "Waymo has driven over 100 million autonomous miles",
+      "properties": {
+        "unit": "miles",
+        "value": 100000000,
+        "as_of": null
+      }
+    },
+    {
+      "name": "TMT - Tesla Autonomous Ride-Hailing Deployment",
+      "type": "Event",
+      "brief": "Tesla goal for autonomous ride-hailing deployment",
+      "description": "TSLA aims to serve half of U.S. population with autonomous ride-hailing by year-end",
+      "properties": {
+        "date": null,
+        "event_type": "deployment_goal",
+        "affected_tickers": [
+          "TSLA"
+        ],
+        "region": "US",
+        "impact_value": 50,
+        "unit": "% population"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics",
+      "type": "Company",
+      "brief": "Global semiconductor manufacturer",
+      "description": "STMicroelectronics supplies chips across automotive and industrial markets",
+      "properties": {
+        "ticker": "STM",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics Share Price Change",
+      "type": "Metric",
+      "brief": "STMicro two-day share price drop",
+      "description": "STMicro shares declined 18% over two days",
+      "properties": {
+        "unit": "%",
+        "value": -18,
+        "as_of": "2-day period"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics Q2 Automotive Results Release",
+      "type": "Event",
+      "brief": "Q2 automotive results and margins guide",
+      "description": "STMicro released weaker automotive results and softer Q3 margins guide",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "STM"
+        ],
+        "region": "EU"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear",
+      "type": "Company",
+      "brief": "Provider of connectivity semiconductors",
+      "description": "MaxLinear focuses on RF and broadband chip solutions",
+      "properties": {
+        "ticker": "MXL",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear Share Price Change",
+      "type": "Metric",
+      "brief": "MaxLinear share price jump",
+      "description": "MaxLinear shares rose 30% on earnings beat and raised guidance",
+      "properties": {
+        "unit": "%",
+        "value": 30,
+        "as_of": "session"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear Q2 Earnings Beat-and-Raise",
+      "type": "Event",
+      "brief": "Q2 earnings beat and guidance raise",
+      "description": "MaxLinear reported Q2 beat and raised order commentary",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "MXL"
+        ]
+      }
+    },
+    {
+      "name": "TMT - Texas Instruments Inc.",
+      "type": "Company",
+      "brief": "Analog and embedded semiconductor maker",
+      "description": "Texas Instruments supplies analog and embedded processing chips",
+      "properties": {
+        "ticker": "TXN",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - Texas Instruments Share Price Change",
+      "type": "Metric",
+      "brief": "TXN one-day share price drop",
+      "description": "Texas Instruments shares fell 13% in one day (second worst day in 25+ years)",
+      "properties": {
+        "unit": "%",
+        "value": -13,
+        "as_of": "yesterday"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TMT - ServiceNow cRPO Performance",
+      "target": "TMT - Enterprise Software Risk Concerns",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Solid cRPO results could ease enterprise software concerns"
+    },
+    {
+      "source": "TMT - STMicroelectronics Q2 Automotive Results Release",
+      "target": "TMT - STMicroelectronics Share Price Change",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -18,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Weaker auto results and soft margins guide drove share price down"
+    },
+    {
+      "source": "TMT - MaxLinear Q2 Earnings Beat-and-Raise",
+      "target": "TMT - MaxLinear Share Price Change",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Earnings beat and raise pushed shares up"
+    }
+  ],
+  "scenarios": []
+}

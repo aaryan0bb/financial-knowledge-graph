@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "Vale",
+      "type": "Company",
+      "brief": "Q2 implied revenue in line; IO production tracking low",
+      "description": "Q2 revenue in-line vs consensus; IO production tracking to bottom half of range",
+      "properties": {
+        "ticker": "VALE",
+        "sector": "Basic Industries",
+        "market_cap_USDbn": 47.0695,
+        "stock_rating": "Overweight"
+      }
+    },
+    {
+      "name": "Vale Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Vale",
+      "description": "Barclays Equity Research price target for Vale shares",
+      "properties": {
+        "unit": "USD",
+        "value": 13.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Vale Share Price",
+      "type": "Metric",
+      "brief": "Market price for Vale as of 22 Jul 2025",
+      "description": "Closing share price for Vale on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 10.37,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Vale EPS FY1E",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Estimated earnings per share for FY1 from Barclays",
+      "properties": {
+        "unit": "USD",
+        "value": 1.76,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "Vale EPS FY2E",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Estimated earnings per share for FY2 from Barclays",
+      "properties": {
+        "unit": "USD",
+        "value": 2.02,
+        "as_of": "FY2E"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

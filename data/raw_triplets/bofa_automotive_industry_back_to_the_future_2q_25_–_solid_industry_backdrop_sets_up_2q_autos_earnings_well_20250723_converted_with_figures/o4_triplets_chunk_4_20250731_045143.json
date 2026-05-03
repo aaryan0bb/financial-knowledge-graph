@@ -1,0 +1,255 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry Tariff Announcement on non-US made autos",
+      "type": "Event",
+      "brief": "Announcement of 25% import tariffs",
+      "description": "Proposed 25% tariffs on non-US made automobiles",
+      "properties": {
+        "event_type": "Tariff Announcement",
+        "date": null,
+        "magnitude_%": 25,
+        "region": "US"
+      }
+    },
+    {
+      "name": "Automotive Industry Consumer Pre-buying Surge",
+      "type": "Factor",
+      "brief": "Consumers pre-buying autos before tariffs",
+      "description": "Surge in purchases ahead of 25% tariffs announcement",
+      "properties": {
+        "direction": "up",
+        "driver": "tariffs",
+        "as_of": "Apr-25"
+      }
+    },
+    {
+      "name": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "Metric",
+      "brief": "SAAR of US light vehicle sales in April 2025",
+      "description": "Monthly sales rate peaked due to pre-buying ahead of tariffs",
+      "properties": {
+        "unit": "mm",
+        "value": 17.3,
+        "as_of": "Apr-25"
+      }
+    },
+    {
+      "name": "Automotive Industry US LV Sales YoY Growth 2Q25",
+      "type": "Metric",
+      "brief": "Year-over-year growth of US light vehicle sales in Q2 2025",
+      "description": "Sales in 2Q25 increased on a selling-day-adjusted basis",
+      "properties": {
+        "unit": "%",
+        "value": 3.0,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry Europe Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in Europe production mix",
+      "description": "Trucks constituted majority of Europe's production mix in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 61,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry China Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in China production mix",
+      "description": "Trucks made up the majority of China's production mix in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 66,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry North America Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in North America production mix",
+      "description": "Trucks formed the vast majority of North American production in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 83,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Table T1 – Automotive Industry US Seasonally Adjusted Annualized Rate (SAAR)",
+      "type": "Table",
+      "brief": "US light vehicle SAAR and moving average trends",
+      "description": "Line and bar chart showing monthly SAAR from June 2001 to June 2025 and 12-month moving average, highlighting crisis dip and recent spike",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | US SAAR (mm) | 12 Month Moving Average (mm) |\n|:--------|:-------------|:-----------------------------|\n| Jun-01  | 17.0         | 17.0                         |\n| Jun-03  | 17.0         | 16.8                         |\n| Jun-05  | 17.5         | 16.5                         |\n| Jun-07  | 16.0         | 16.0                         |\n| Dec-08  | 9.5          | 11.0                         |\n| Jun-09  | 10.0         | 10.5                         |\n| Jun-11  | 12.5         | 12.5                         |\n| Jun-13  | 15.5         | 14.5                         |\n| Jun-15  | 17.5         | 17.0                         |\n| Jun-17  | 16.5         | 17.0                         |\n| Jun-19  | 16.5         | 16.8                         |\n| Mar-20  | 11.5         | 15.5                         |\n| Jun-20  | 14.0         | 15.0                         |\n| Dec-20  | 16.0         | 14.5                         |\n| Jun-21  | 16.5         | 15.0                         |\n| Dec-21  | 13.0         | 14.0                         |\n| Jun-22  | 13.0         | 13.5                         |\n| Dec-22  | 14.5         | 14.0                         |\n| Jun-23  | 15.5         | 14.5                         |\n| Dec-23  | 15.5         | 15.0                         |\n| Jan-24  | 15.5         | 15.0                         |\n| Feb-24  | 15.5         | 15.2                         |\n| Mar-24  | 16.0         | 15.3                         |\n| Apr-24  | 16.0         | 15.4                         |\n| May-24  | 15.8         | 15.5                         |\n| Jun-24  | 16.0         | 15.5                         |\n| Apr-25  | 17.3         | 15.5                         |\n| May-25  | 15.5         | 15.5                         |\n| Jun-25  | 15.3         | 15.5                         |",
+        "key_insight": "Spike to 17.3mm SAAR in April 2025 followed by moderation to 15.3mm by June 2025, with the 12-month moving average steady around 15.5mm."
+      }
+    },
+    {
+      "name": "Table T2 – Automotive Industry Europe Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of Europe production by vehicle type",
+      "description": "Pie chart showing 61% trucks and 39% cars in Europe's production mix for 2Q25",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category | Percentage | Region | Quarter |\n|----------|------------|--------|---------|\n| Trucks   | 61%        | Europe | 2Q25    |\n| Cars     | 39%        | Europe | 2Q25    |",
+        "key_insight": "Trucks make up majority at 61% of Europe's production mix in 2Q25."
+      }
+    },
+    {
+      "name": "Table T3 – Automotive Industry China Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of China production by vehicle type",
+      "description": "Pie chart showing 66% trucks and 34% cars in China's production mix for 2Q25",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Region | Quarter | Category | Percentage |\n|---|---|---|---|\n| China | 2Q25 | Cars | 34% |\n| China | 2Q25 | Trucks | 66% |",
+        "key_insight": "Trucks constitute the majority at 66% of China's production mix in 2Q25."
+      }
+    },
+    {
+      "name": "Table T4 – Automotive Industry North America Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of North America production by vehicle type",
+      "description": "Pie chart showing 83% trucks and 17% cars in North America's production mix for 2Q25",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category | Percentage |\n|----------|------------|\n| Trucks   | 83%        |\n| Cars     | 17%        |",
+        "key_insight": "Trucks constitute 83% of North America's production mix in 2Q25."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry Tariff Announcement on non-US made autos",
+      "target": "Automotive Industry Consumer Pre-buying Surge",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Tariff announcement triggered consumer pre-buying surge"
+    },
+    {
+      "source": "Automotive Industry Consumer Pre-buying Surge",
+      "target": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 17.3,
+        "unit": "mm",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pre-buying drove April 2025 SAAR spike to 17.3mm"
+    },
+    {
+      "source": "Automotive Industry Consumer Pre-buying Surge",
+      "target": "Automotive Industry US LV Sales YoY Growth 2Q25",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pre-buying boosted 2Q25 sales by 3.0% YoY"
+    },
+    {
+      "source": "Table T1 – Automotive Industry US Seasonally Adjusted Annualized Rate (SAAR)",
+      "target": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 17.3,
+        "unit": "mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows spike to 17.3mm SAAR in April 2025"
+    },
+    {
+      "source": "Table T2 – Automotive Industry Europe Production Mix 2Q25",
+      "target": "Automotive Industry Europe Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 61,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 61% of Europe production mix"
+    },
+    {
+      "source": "Table T3 – Automotive Industry China Production Mix 2Q25",
+      "target": "Automotive Industry China Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 66,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 66% of China production mix"
+    },
+    {
+      "source": "Table T4 – Automotive Industry North America Production Mix 2Q25",
+      "target": "Automotive Industry North America Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 83,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 83% of North America mix"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Automotive Industry Tariff Announcement on non-US made autos",
+      "probability": 0.72,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "Automotive Industry Tariff Announcement on non-US made autos",
+          "target": "Automotive Industry Consumer Pre-buying Surge",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "Automotive Industry Consumer Pre-buying Surge",
+          "target": "Automotive Industry US LV Sales SAAR April 2025",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": 17.3,
+          "unit": "mm"
+        }
+      ]
+    }
+  ]
+}

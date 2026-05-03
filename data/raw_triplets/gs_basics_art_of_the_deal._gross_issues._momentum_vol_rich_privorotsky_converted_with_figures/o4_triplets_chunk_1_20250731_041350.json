@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "Japan market rally overnight",
+      "type": "Factor",
+      "brief": "Nikkei futures gained over 4% overnight",
+      "description": "Overnight rally in Nikkei futures amplified by levered product flows",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 4,
+        "lookback_days": 1,
+        "driver": "levered product flows"
+      }
+    },
+    {
+      "name": "Japan 15% tariff deal",
+      "type": "Event",
+      "brief": "Unanticipated 15% Japan tariff negotiation finalized",
+      "description": "Tariff negotiations granted Japanese autos favorable status",
+      "properties": {
+        "date": null,
+        "event_type": "Tariff Deal",
+        "impact_value": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Japan 40yr auction poor result",
+      "type": "Event",
+      "brief": "Poorly received 40-year Japanese government bond auction",
+      "description": "The 40-year auction went poorly, signaling weak demand",
+      "properties": {
+        "date": null,
+        "event_type": "Auction Outcome"
+      }
+    },
+    {
+      "name": "Japan long-end yields",
+      "type": "Factor",
+      "brief": "Long-term Japanese yields rising",
+      "description": "Long-end yields pushing higher after auction disappointment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Japan momentum drawdown exacerbation",
+      "type": "Factor",
+      "brief": "Momentum drawdowns worsening",
+      "description": "Short squeezes exacerbating drawdowns in momentum stocks",
+      "properties": {
+        "direction": "down",
+        "driver": "short squeezes"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japan 15% tariff deal",
+      "target": "Japan market rally overnight",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "confidence": 85,
+        "lag_days": null,
+        "impact_value": 4,
+        "unit": "%",
+        "non_linear": false
+      },
+      "description": "Tariff deal prompted over 4% rally in NKY futures"
+    },
+    {
+      "source": "Japan 40yr auction poor result",
+      "target": "Japan long-end yields",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "confidence": 80,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Poor 40yr auction led to higher long-end yields"
+    },
+    {
+      "source": "Japan market rally overnight",
+      "target": "Japan momentum drawdown exacerbation",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "confidence": 65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Rally exacerbated momentum drawdowns via short squeezes"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Japan 15% tariff deal",
+      "probability": 0.85,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "Japan 15% tariff deal",
+          "target": "Japan market rally overnight",
+          "lag_days": null,
+          "prob": 0.85,
+          "impact_value": 4,
+          "unit": "%"
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "Japan market rally overnight",
+          "target": "Japan momentum drawdown exacerbation",
+          "lag_days": null,
+          "prob": 0.65,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

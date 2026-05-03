@@ -1,0 +1,2934 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry Tariff Announcement on non-US made autos",
+      "type": "Event",
+      "brief": "Announcement of 25% import tariffs",
+      "description": "Proposed 25% tariffs on non-US made automobiles",
+      "properties": {
+        "event_type": "Tariff Announcement",
+        "date": null,
+        "magnitude_%": 25,
+        "region": "US"
+      }
+    },
+    {
+      "name": "Automotive Industry Consumer Pre-buying Surge",
+      "type": "Factor",
+      "brief": "Consumers pre-buying autos before tariffs",
+      "description": "Surge in purchases ahead of 25% tariffs announcement",
+      "properties": {
+        "direction": "up",
+        "driver": "tariffs",
+        "as_of": "Apr-25"
+      }
+    },
+    {
+      "name": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "Metric",
+      "brief": "SAAR of US light vehicle sales in April 2025",
+      "description": "Monthly sales rate peaked due to pre-buying ahead of tariffs",
+      "properties": {
+        "unit": "mm",
+        "value": 17.3,
+        "as_of": "Apr-25"
+      }
+    },
+    {
+      "name": "Automotive Industry US LV Sales YoY Growth 2Q25",
+      "type": "Metric",
+      "brief": "Year-over-year growth of US light vehicle sales in Q2 2025",
+      "description": "Sales in 2Q25 increased on a selling-day-adjusted basis",
+      "properties": {
+        "unit": "%",
+        "value": 3.0,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry Europe Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in Europe production mix",
+      "description": "Trucks constituted majority of Europe's production mix in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 61,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry China Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in China production mix",
+      "description": "Trucks made up the majority of China's production mix in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 66,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry North America Production Trucks Percentage 2Q25",
+      "type": "Metric",
+      "brief": "Share of trucks in North America production mix",
+      "description": "Trucks formed the vast majority of North American production in 2Q25",
+      "properties": {
+        "unit": "%",
+        "value": 83,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Automotive Industry US Seasonally Adjusted Annualized Rate (SAAR)",
+      "type": "Table",
+      "brief": "US light vehicle SAAR and moving average trends",
+      "description": "Line and bar chart showing monthly SAAR from June 2001 to June 2025 and 12-month moving average, highlighting crisis dip and recent spike",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | US SAAR (mm) | 12 Month Moving Average (mm) |\n|:--------|:-------------|:-----------------------------|\n| Jun-01  | 17.0         | 17.0                         |\n| Jun-03  | 17.0         | 16.8                         |\n| Jun-05  | 17.5         | 16.5                         |\n| Jun-07  | 16.0         | 16.0                         |\n| Dec-08  | 9.5          | 11.0                         |\n| Jun-09  | 10.0         | 10.5                         |\n| Jun-11  | 12.5         | 12.5                         |\n| Jun-13  | 15.5         | 14.5                         |\n| Jun-15  | 17.5         | 17.0                         |\n| Jun-17  | 16.5         | 17.0                         |\n| Jun-19  | 16.5         | 16.8                         |\n| Mar-20  | 11.5         | 15.5                         |\n| Jun-20  | 14.0         | 15.0                         |\n| Dec-20  | 16.0         | 14.5                         |\n| Jun-21  | 16.5         | 15.0                         |\n| Dec-21  | 13.0         | 14.0                         |\n| Jun-22  | 13.0         | 13.5                         |\n| Dec-22  | 14.5         | 14.0                         |\n| Jun-23  | 15.5         | 14.5                         |\n| Dec-23  | 15.5         | 15.0                         |\n| Jan-24  | 15.5         | 15.0                         |\n| Feb-24  | 15.5         | 15.2                         |\n| Mar-24  | 16.0         | 15.3                         |\n| Apr-24  | 16.0         | 15.4                         |\n| May-24  | 15.8         | 15.5                         |\n| Jun-24  | 16.0         | 15.5                         |\n| Apr-25  | 17.3         | 15.5                         |\n| May-25  | 15.5         | 15.5                         |\n| Jun-25  | 15.3         | 15.5                         |",
+        "key_insight": "Spike to 17.3mm SAAR in April 2025 followed by moderation to 15.3mm by June 2025, with the 12-month moving average steady around 15.5mm."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Automotive Industry Europe Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of Europe production by vehicle type",
+      "description": "Pie chart showing 61% trucks and 39% cars in Europe's production mix for 2Q25",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category | Percentage | Region | Quarter |\n|----------|------------|--------|---------|\n| Trucks   | 61%        | Europe | 2Q25    |\n| Cars     | 39%        | Europe | 2Q25    |",
+        "key_insight": "Trucks make up majority at 61% of Europe's production mix in 2Q25."
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Automotive Industry China Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of China production by vehicle type",
+      "description": "Pie chart showing 66% trucks and 34% cars in China's production mix for 2Q25",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Region | Quarter | Category | Percentage |\n|---|---|---|---|\n| China | 2Q25 | Cars | 34% |\n| China | 2Q25 | Trucks | 66% |",
+        "key_insight": "Trucks constitute the majority at 66% of China's production mix in 2Q25."
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Automotive Industry North America Production Mix 2Q25",
+      "type": "Table",
+      "brief": "Breakdown of North America production by vehicle type",
+      "description": "Pie chart showing 83% trucks and 17% cars in North America's production mix for 2Q25",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category | Percentage |\n|----------|------------|\n| Trucks   | 83%        |\n| Cars     | 17%        |",
+        "key_insight": "Trucks constitute 83% of North America's production mix in 2Q25."
+      }
+    },
+    {
+      "name": "Table T15 \u2013 Automotive Industry 2025 Quarterly EPS Estimate Revisions",
+      "type": "Table",
+      "brief": "2025 quarterly EPS revisions for automotive companies",
+      "description": "Changes to 2Q25\u20134Q25 EPS forecasts across OEMs, suppliers, and dealers",
+      "properties": {
+        "table_id": "T15",
+        "table_content": "EPS                                        2Q25                                       3Q25                                      4Q25\nTicker                        Old         New          Change           Old         New          Change           Old         New           Change\nOEMs\nLCID                         (0.19)      (0.18)          nm            (0.21)       (0.17)         nm            (0.18)       (0.12)          nm\nRIVN                         (0.65)      (0.57)          nm            (0.75)       (0.71)         nm             (0.68)      (0.58)          nm\nSuppliers\nADNT                                                                    0.51        0.48           -5.9%          0.54        0.53           -1.9%\nAPTV                         2.04         1.89          -7.4%           2.10         1.93          -8.1%          2.25        2.02          -10.2%\nAXL                          0.16         0.12          -25.0%          0.18        0.10          -44.4%          0.17        0.02          -88.2%\nBWA                          1.22         1.16          -4.9%           1.24         1.14          -8.1%           1.24         1.17          -5.6%\nPHIN                         1.09         1.09           0.0%           1.23         1.22          -0.6%           1.20         1.22           2.0%\nLEA                          3.30         3.30           0.0%           3.15         3.15           0.0%           3.35         3.35           0.0%\nMBLY                         0.11         0.11           0.0%           0.06         0.06           0.0%           0.12         0.12           0.0%\nVC                           2.14         2.75          28.5%           2.29         2.35           2.6%           2.33         2.29          -1.7%\nDealers\nABG                          6.60         6.88           4.2%           6.90         6.90           0.0%           7.20         6.75          -6.3%\nAN                           4.85         4.85           0.0%           4.86         4.80          -1.2%           4.88         4.88           0.0%\nGPI                         10.90        10.75          -1.4%          11.45        11.36          -0.8%           10.61        10.40          -2.0%\nLAD                          9.00         9.68           7.6%           9.68         9.29          -4.0%           9.15         8.80          -3.8%\nSource: BofA Global Research estimates\nNote: ADNT FY3Q25 = CY2Q25",
+        "key_insight": "Suppliers saw mixed EPS revisions, led by Visteon's 28.5% increase for 2Q25, while OEMs remained near previous estimates."
+      }
+    },
+    {
+      "name": "Table T16 \u2013 Automotive Industry 2025-26 Annual EPS Estimate Revisions",
+      "type": "Table",
+      "brief": "2025\u201326 annual EPS revisions for automotive companies",
+      "description": "Changes to 2025 and 2026 EPS forecasts across OEMs, suppliers, and dealers",
+      "properties": {
+        "table_id": "T16",
+        "table_content": "EPS                                                     2025                                                       2026\nTicker                                 Old              New                 Change                 Old             New                 Change\nOEMs\nLCID                                   (0.71)           (0.59)                nm                  (0.55)           (0.61)                 nm\nRIVN                                   (2.50)           (2.28)                nm                  (2.10)           (2.12)                 nm\nSuppliers\nADNT                                    2.00             1.90                -5.0%                 2.75             2.51                -8.7%\nAPTV                                    7.49             7.53                 0.5%                 8.70             8.31                -4.5%\nAXL                                     0.45             0.32                -28.9%                0.66             0.64                -3.0%\nBWA                                     4.45             4.37                -1.8%                 4.82             4.73                -1.9%\nPHIN                                    4.48             4.49                 0.3%                 5.71             5.80                 1.6%\nLEA                                    12.90            12.90                 0.0%                16.80            16.80                 0.0%\nMBLY                                    0.30             0.30                 0.0%                 0.33             0.33                 0.0%\nVC                                      8.50             9.79                15.2%                 9.40            10.41                10.7%\nDealers\nABG                                     27.52            27.35                -0.6%               28.00            27.92                -0.3%\nAN                                      19.35            19.20                -0.8%               21.30            21.30                 0.0%\nGPI                                     43.75            43.30                -1.0%               46.90            46.70                -0.4%\nLAD                                     35.45            35.41                -0.1%               42.15            41.70                -1.1%\nSource: BofA Global Research estimates",
+        "key_insight": "Supplier EPS estimates for 2025 were up, led by Visteon's 15.2% increase, while OEMs saw minimal revisions."
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Aptiv PLC",
+      "type": "Company",
+      "brief": "Electrification/autonomy/connectivity/mobility-centric supplier",
+      "description": "Pure-play electrification, autonomy, connectivity, and mobility supplier unencumbered by non-future tech businesses",
+      "properties": {
+        "ticker": "APTV",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Asbury Auto",
+      "type": "Company",
+      "brief": "US new and used auto dealer group",
+      "description": "Retail automotive dealer focusing on new and used vehicle sales and earnings growth across cycles",
+      "properties": {
+        "ticker": "ABG",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 AutoNation, Inc.",
+      "type": "Company",
+      "brief": "Leading US automotive retailer",
+      "description": "Auto dealership operator driving revenue and earnings growth through new and used vehicle sales",
+      "properties": {
+        "ticker": "AN",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Price Objective",
+      "type": "Metric",
+      "brief": "APTV price objective based on EV/EBITDA",
+      "description": "Price target of $85 derived from a 5.5x EV/EBITDA multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 85,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "APTV EV/EBITDA multiple for 2026",
+      "description": "Roughly 5.5x EV/EBITDA on 2026 EBITDA estimates",
+      "properties": {
+        "unit": "x",
+        "value": 5.5,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Asbury Auto Price Objective",
+      "type": "Metric",
+      "brief": "ABG price objective based on P/E multiple",
+      "description": "Price target of $335 derived from a 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 335,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Asbury Auto P/E Multiple",
+      "type": "Metric",
+      "brief": "ABG P/E multiple for 2026",
+      "description": "Use of a roughly 12x P/E multiple on 2026 EPS estimates",
+      "properties": {
+        "unit": "x",
+        "value": 12,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 AutoNation, Inc. Price Objective",
+      "type": "Metric",
+      "brief": "AN price objective based on P/E multiple",
+      "description": "Price target of $255 derived from a 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 255,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 AutoNation, Inc. P/E Multiple",
+      "type": "Metric",
+      "brief": "AN P/E multiple for 2026",
+      "description": "Use of a roughly 12x P/E multiple on 2026 EPS estimates",
+      "properties": {
+        "unit": "x",
+        "value": 12,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Large Truck Volume Growth Strength",
+      "type": "Factor",
+      "brief": "Continued strength in large truck volume growth",
+      "description": "Upside risk from sustained growth in large truck production volumes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Plant Issues Resolution",
+      "type": "Factor",
+      "brief": "Resolution of plant issues",
+      "description": "Upside risk if manufacturing plant operational issues are resolved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Labor Cost Inflation Non-Materialization",
+      "type": "Factor",
+      "brief": "Labor cost inflation fails to materialize",
+      "description": "Upside risk from the absence of expected labor cost inflation",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Large Truck Volume Growth Slowdown",
+      "type": "Factor",
+      "brief": "Slowdown in large truck volume growth",
+      "description": "Downside risk from decelerating large truck production volumes, especially at key customers",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Diversification Failure",
+      "type": "Factor",
+      "brief": "Failure to diversify customer, geographic, and product exposure",
+      "description": "Downside risk from a non-diversified customer base and product portfolio",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Expansion Into New Segments",
+      "type": "Factor",
+      "brief": "Expansion into new segments reduces margins",
+      "description": "Downside risk if entering new segments leads to lower operating margins",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Raw Material and Labor Cost Increases",
+      "type": "Factor",
+      "brief": "Sharp rise in raw material and labor costs",
+      "description": "Downside risk from increasing input costs across materials and labor",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Key Customer Business Loss",
+      "type": "Factor",
+      "brief": "Loss of business at key customers",
+      "description": "Downside risk from losing significant contracts with key customers",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 AXL Suppliers Disruption",
+      "type": "Factor",
+      "brief": "Disruption at AXL's suppliers",
+      "description": "Downside risk from supply chain disruptions affecting AXL operations",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV International Market Volatility",
+      "type": "Factor",
+      "brief": "Sustained volatility in international markets",
+      "description": "Downside risk from continued volatility in global markets affecting APTV",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Automotive Volume Decline",
+      "type": "Factor",
+      "brief": "Decline or flatline in automotive volumes",
+      "description": "Downside risk from a prolonged or flat global and US auto volume trend",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Raw Material and Semiconductor Cost Rise",
+      "type": "Factor",
+      "brief": "Rise in raw material and semiconductor costs",
+      "description": "Downside risk from higher costs and supply disruptions in semiconductors and materials",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Loss of Key Customers or Suppliers",
+      "type": "Factor",
+      "brief": "Loss of key customers or suppliers",
+      "description": "Downside risk from crucial customer or supplier relationship losses",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Inability to Win New Business",
+      "type": "Factor",
+      "brief": "Inability to win new business",
+      "description": "Downside risk from failure to secure incremental contracts",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Competitive Pricing Pressure",
+      "type": "Factor",
+      "brief": "Competitive pricing pressure",
+      "description": "Downside risk from aggressive competitor pricing undermining margins",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Global Auto Production Volume Strength",
+      "type": "Factor",
+      "brief": "Strength in global auto production volumes",
+      "description": "Upside risk from continued growth in production, especially in North America",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Portfolio Business Wins",
+      "type": "Factor",
+      "brief": "Business wins from Safe, Green, Connected portfolio",
+      "description": "Upside risk from increased order wins for electrification and connectivity products",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 APTV Shareholder-Friendly Actions",
+      "type": "Factor",
+      "brief": "Accretive M&A and share repurchases",
+      "description": "Upside risk from shareholder-friendly capital return actions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG US Sales Downturn",
+      "type": "Factor",
+      "brief": "Swift or material downturn in US sales",
+      "description": "Downside risk from a sharp decline in US auto retail sales",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Market Share Losses",
+      "type": "Factor",
+      "brief": "Market share losses by overexposed brands",
+      "description": "Downside risk from brands ABG is overexposed losing market share",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Higher Interest Rate Environment",
+      "type": "Factor",
+      "brief": "Higher interest rates causing demand deterioration",
+      "description": "Downside risk from increased financing costs leading to lower demand and repossessions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Consumer Dissatisfaction",
+      "type": "Factor",
+      "brief": "Consumer dissatisfaction with auto retailing",
+      "description": "Downside risk from negative consumer experiences in vehicle purchasing",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Legal Changes Risk",
+      "type": "Factor",
+      "brief": "Franchise or consumer finance law changes",
+      "description": "Downside risk from new franchise or consumer finance regulations",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG US/NA Cycle Recovery",
+      "type": "Factor",
+      "brief": "Recovery of US/North America auto cycle",
+      "description": "Upside risk from continued high-level plateau in the automotive sales cycle",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Gross Profit Per Unit Maintenance",
+      "type": "Factor",
+      "brief": "Maintenance of gross profit per unit",
+      "description": "Upside risk from preserving unit gross profits in new and used vehicles",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Used Vehicle Demand Growth",
+      "type": "Factor",
+      "brief": "Used vehicle focus drives demand",
+      "description": "Upside risk from strong demand in the used vehicle segment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 ABG Interest Rate Decline",
+      "type": "Factor",
+      "brief": "Interest rates decline quicker than expected",
+      "description": "Upside risk from faster-than-expected reductions in borrowing costs",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 AN US Sales Downturn",
+      "type": "Factor",
+      "brief": "Swift or material downturn in US sales",
+      "description": "Downside risk from a rapid decline in US auto retail sales",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Automotive Industry Regional Contributions to 2Q25 Global LV Production Growth",
+      "type": "Table",
+      "brief": "Waterfall chart of regional contributions to global LV production growth in 2Q25",
+      "description": "Breakdown of regional contributions to the forecasted 2.6% YoY global LV production growth in 2Q25",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Region | Contribution to Global LV Production Growth (YoY %) |\n| :------------------- | :------------------------------------------------ |\n| Greater China | 2.8% |\n| South Asia | 0.6% |\n| South America | 0.3% |\n| Japan/Korea | 0.0% |\n| Middle East/Africa | -0.2% |\n| Europe | -0.3% |\n| North America | -0.6% |\n| Global | 2.6% |",
+        "key_insight": "Primary drivers of the forecasted 2.6% YoY global LV production growth in 2Q25 are Greater China (2.8%), South Asia (0.6%), and South America (0.3%), offset by drags from North America (-0.6%), Europe (-0.3%), and Middle East/Africa (-0.2%), with Japan/Korea neutral (0.0%)."
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 2Q25 Global LV Production Forecast Revision",
+      "type": "Factor",
+      "brief": "Forecast revised higher since March",
+      "description": "Global LV production forecast for 2Q25 was revised up by 190bp since March 2025",
+      "properties": {
+        "magnitude_bp": 190,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 2Q25 Global LV Production Growth Forecast",
+      "type": "Metric",
+      "brief": "Forecasted 2.6% YoY growth",
+      "description": "S&P Global estimates see global LV production up 2.6% YoY in 2Q25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q25",
+        "value": 2.6
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Phinia Inc.",
+      "type": "Company",
+      "brief": "Automotive aftermarket supplier",
+      "description": "Provider of aftermarket automotive components with significant exposure to aftermarket segment",
+      "properties": {
+        "ticker": "PHIN",
+        "sector": "Automotive Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Rivian Automotive",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer",
+      "description": "EV OEM focusing on consumer and commercial vehicles",
+      "properties": {
+        "ticker": "RIVN",
+        "sector": "Automobile Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Visteon",
+      "type": "Company",
+      "brief": "Automotive systems supplier",
+      "description": "Supplier of cockpit electronics and automotive electronics solutions",
+      "properties": {
+        "ticker": "VC",
+        "sector": "Automotive Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 PHIN Price Objective",
+      "type": "Metric",
+      "brief": "PHIN price target based on EV/EBITDA",
+      "description": "BofA Global Research 2025 price objective for PHIN",
+      "properties": {
+        "value": 55,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 PHIN EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "PHIN valuation multiple 2025 EV/EBITDA",
+      "description": "Valuation multiple applied to PHIN's 2025 EBITDA",
+      "properties": {
+        "value": 7.0,
+        "unit": "x",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 RIVN Price Objective",
+      "type": "Metric",
+      "brief": "RIVN price target based on EV/Sales",
+      "description": "BofA Global Research 2026 price objective for RIVN",
+      "properties": {
+        "value": 10,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 RIVN EV/Sales Multiple",
+      "type": "Metric",
+      "brief": "RIVN valuation multiple 2026 EV/Sales",
+      "description": "Valuation multiple applied to RIVN's 2026 sales",
+      "properties": {
+        "value": 2.0,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 VC Price Objective",
+      "type": "Metric",
+      "brief": "VC price target based on EV/EBITDA",
+      "description": "BofA Global Research 2026 price objective for Visteon",
+      "properties": {
+        "value": 130,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 VC EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "VC valuation multiple 2026 EV/EBITDA",
+      "description": "Valuation multiple applied to Visteon's 2026 EBITDA",
+      "properties": {
+        "value": 6.0,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Electrification Reaccelerates",
+      "type": "Factor",
+      "brief": "Faster pace of vehicle electrification",
+      "description": "Increase in electrification could pressure traditional suppliers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Tariffs Impact Auto Production",
+      "type": "Factor",
+      "brief": "Tariffs affecting production volumes",
+      "description": "Severe tariffs could reduce automotive production volumes",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 Inability to Raise Low Cost Capital",
+      "type": "Factor",
+      "brief": "Challenges securing low cost funding",
+      "description": "Failure to raise low cost capital may hinder RIVN's growth",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry \u2013 UAW Strike",
+      "type": "Factor",
+      "brief": "Potential United Auto Workers strike",
+      "description": "UAW strike poses near-term risk to volumes and earnings",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 NADA Used Vehicle Price Index",
+      "type": "Table",
+      "brief": "Used vehicle price index from Jun 1997 to Jun 2025",
+      "description": "Tracks NADA used vehicle price trends and identifies pandemic-driven volatility",
+      "properties": {
+        "table_id": "T12",
+        "table_content": "| Date   | NADA Used Vehicle Price Index |\n|--------|-------------------------------|\n| Jun-97 | 105.0                         |\n| Jun-98 | 110.0                         |\n| Jun-99 | 115.0                         |\n| Jun-00 | 110.0                         |\n| Jun-01 | 105.0                         |\n| Jun-02 | 98.0                          |\n| Jun-03 | 95.0                          |\n| Jun-04 | 98.0                          |\n| Jun-05 | 105.0                         |\n| Jun-06 | 108.0                         |\n| Jun-07 | 105.0                         |\n| Jun-08 | 85.0                          |\n| Jun-09 | 105.0                         |\n| Jun-10 | 115.0                         |\n| Jun-11 | 123.0                         |\n| Jun-12 | 125.0                         |\n| Jun-13 | 120.0                         |\n| Jun-14 | 120.0                         |\n| Jun-15 | 115.0                         |\n| Jun-16 | 118.0                         |\n| Jun-17 | 120.0                         |\n| Jun-18 | 120.0                         |\n| Jun-19 | 122.0                         |\n| Jun-20 | 140.0                         |\n| Jun-21 | 210.0                         |\n| Jun-22 | 195.0                         |\n| Jun-23 | 205.0                         |\n| Jun-24 | 203.0                         |\n| Jun-25 | 238.3                         |",
+        "key_insight": "The index surged dramatically post-mid-2020, peaking at 210 in mid-2021, correcting by mid-2022, and hitting a new all-time high of 238.3 in June 2025"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 Manheim Used Vehicle Value Index",
+      "type": "Table",
+      "brief": "Used vehicle value index from Jun 1997 to Jun 2025",
+      "description": "Tracks Manheim index volatility and pandemic-induced price spikes",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Date   | Manheim Used Vehicle Value Index |\n|--------|----------------------------------|\n| Jun-97 | 100                              |\n| Jun-98 | 105                              |\n| Jun-99 | 110                              |\n| Jun-00 | 108                              |\n| Jun-01 | 105                              |\n| Jun-02 | 103                              |\n| Jun-03 | 108                              |\n| Jun-04 | 110                              |\n| Jun-05 | 115                              |\n| Jun-06 | 120                              |\n| Jun-07 | 125                              |\n| Jun-08 | 100                              |\n| Jun-09 | 120                              |\n| Jun-10 | 135                              |\n| Jun-11 | 138                              |\n| Jun-12 | 135                              |\n| Jun-13 | 135                              |\n| Jun-14 | 135                              |\n| Jun-15 | 138                              |\n| Jun-16 | 140                              |\n| Jun-17 | 145                              |\n| Jun-18 | 150                              |\n| Jun-19 | 160                              |\n| Jun-20 | 170                              |\n| Jun-21 | 250                              |\n| Jun-22 | 230                              |\n| Jun-23 | 195                              |\n| Jun-24 | 196.1                            |\n| Jun-25 | 208.5                            |",
+        "key_insight": "A sharp surge from ~170 to ~250-260 during mid-2020 to mid-2021, followed by a correction to 196.1 and recovery to 208.5 by June 2025"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 NADA Used Vehicle Price Index YoY Change",
+      "type": "Metric",
+      "brief": "Year-over-year change in NADA index",
+      "description": "NADA index rose 16.0% YoY in 2Q 2025, reflecting strong demand",
+      "properties": {
+        "value": 16.0,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 NADA Used Vehicle Price Index QoQ Change",
+      "type": "Metric",
+      "brief": "Quarter-over-quarter change in NADA index",
+      "description": "NADA index rose 7.3% QoQ in 2Q 2025, indicating accelerating price gains",
+      "properties": {
+        "value": 7.3,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 Manheim Used Vehicle Value Index YoY Change",
+      "type": "Metric",
+      "brief": "Year-over-year change in Manheim index",
+      "description": "Manheim index rose 5.1% YoY in 2Q 2025, showing moderate value gains",
+      "properties": {
+        "value": 5.1,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry \u2013 Manheim Used Vehicle Value Index Sequential Change",
+      "type": "Metric",
+      "brief": "Sequential change in Manheim index",
+      "description": "Manheim index rose 1.6% sequentially in 2Q 2025, signalling stabilization",
+      "properties": {
+        "value": 1.6,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive Industry - ADNT",
+      "type": "Company",
+      "brief": "Tier-1 automotive supplier impacted by tariffs",
+      "description": "ADNT faces lower China tariff impact due to rate reduction",
+      "properties": {
+        "ticker": "ADNT",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - AXL",
+      "type": "Company",
+      "brief": "Coating supplier with exposure to GM platform T1XX",
+      "description": "Axalta may face impacts from decreased T1XX production",
+      "properties": {
+        "ticker": "AXL",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - APTV",
+      "type": "Company",
+      "brief": "Technology supplier for vehicle segments",
+      "description": "Aptiv's AS&UX segment may surprise given Mobileye results",
+      "properties": {
+        "ticker": "APTV",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - MBLY",
+      "type": "Company",
+      "brief": "Advanced vision supplier with strong preliminary sales growth",
+      "description": "Mobileye released preliminary Q2 results showing strong growth",
+      "properties": {
+        "ticker": "MBLY",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer with recent capital injection",
+      "description": "Rivian received a $1bn capital injection from VW in Q2 2025",
+      "properties": {
+        "ticker": "RIVN",
+        "sector": "Car Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID",
+      "type": "Company",
+      "brief": "Electric luxury car maker awaiting demand post-IRA",
+      "description": "Lucid deliveries down 6% YOY; may receive $300m from Uber",
+      "properties": {
+        "ticker": "LCID",
+        "sector": "Car Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry - LEA",
+      "type": "Company",
+      "brief": "Auto seating supplier with raised price objective",
+      "description": "Price objective raised to $135 from $115 reflecting valuation shift",
+      "properties": {
+        "ticker": "LEA",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - VC",
+      "type": "Company",
+      "brief": "Auto parts supplier with increased valuation",
+      "description": "Visteon's PO raised to $130 from $110 on valuation year shift",
+      "properties": {
+        "ticker": "VC",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - GPI",
+      "type": "Company",
+      "brief": "Auto parts dealer group with revised forecasts",
+      "description": "GPI's PO lowered to $560 from $565 reflecting trimmed EPS estimates",
+      "properties": {
+        "ticker": "GPI",
+        "sector": "Dealers"
+      }
+    },
+    {
+      "name": "Automotive Industry - MBLY Preliminary Results Release",
+      "type": "Event",
+      "brief": "Mobileye preliminary Q2 results released",
+      "description": "MBLY released preliminary Q2 sales growth results",
+      "properties": {
+        "date": null,
+        "event_type": "preliminary_results",
+        "affected_tickers": [
+          "APTV"
+        ]
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN Capital Injection",
+      "type": "Event",
+      "brief": "VW invests $1bn in Rivian",
+      "description": "Rivian received $1bn from VW at the end of Q2 2025",
+      "properties": {
+        "date": null,
+        "event_type": "capital_injection",
+        "impact_value": 1,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID Potential Capital Injection",
+      "type": "Event",
+      "brief": "Uber may inject $300m into Lucid",
+      "description": "Lucid could receive $300m from Uber post Q2",
+      "properties": {
+        "date": null,
+        "event_type": "capital_injection",
+        "impact_value": 0.3,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Automotive Industry - MY26 Vehicles Introduction",
+      "type": "Event",
+      "brief": "Launch of model year 2026 vehicles",
+      "description": "Potential introduction of MY26 vehicles in the market",
+      "properties": {
+        "date": null,
+        "event_type": "vehicle_model_launch"
+      }
+    },
+    {
+      "name": "Automotive Industry - IRA Incentives Phase-Out",
+      "type": "Event",
+      "brief": "Expiration of IRA electric vehicle incentives",
+      "description": "Post IRA incentives phase-out may affect EV demand",
+      "properties": {
+        "date": null,
+        "event_type": "policy_phase_out"
+      }
+    },
+    {
+      "name": "Automotive Industry - China Tariffs",
+      "type": "Factor",
+      "brief": "Tariffs on Chinese goods",
+      "description": "Tariff announcements created initial industry concerns",
+      "properties": {
+        "direction": "down",
+        "driver": "tariffs"
+      }
+    },
+    {
+      "name": "Automotive Industry - Demand Pull-Forward",
+      "type": "Factor",
+      "brief": "Pull-forward of automotive demand",
+      "description": "Demand pull-forward likely drove early sales",
+      "properties": {
+        "direction": "up",
+        "driver": "demand pull-forward"
+      }
+    },
+    {
+      "name": "Automotive Industry - Lower OEM Incentives",
+      "type": "Factor",
+      "brief": "Slight reduction in OEM incentives",
+      "description": "OEMs offered slightly lower incentives in Q2 2025",
+      "properties": {
+        "direction": "down",
+        "driver": "incentives"
+      }
+    },
+    {
+      "name": "Automotive Industry - Favorable FX in Q2 2025",
+      "type": "Factor",
+      "brief": "Beneficial foreign exchange rates in Q2",
+      "description": "Suppliers may benefit from favorable FX in 2Q25",
+      "properties": {
+        "direction": "up",
+        "driver": "FX"
+      }
+    },
+    {
+      "name": "Automotive Industry - Pricing Stability",
+      "type": "Factor",
+      "brief": "Minimal OEM price increases",
+      "description": "Despite tariffs, OEM pricing remained largely unchanged",
+      "properties": {
+        "direction": "neutral",
+        "driver": "pricing"
+      }
+    },
+    {
+      "name": "Automotive Industry - Price Increases Potential",
+      "type": "Factor",
+      "brief": "Potential OEM price increases",
+      "description": "MY26 vehicles introduction could lead to higher OEM prices",
+      "properties": {
+        "direction": "up",
+        "driver": "pricing"
+      }
+    },
+    {
+      "name": "Automotive Industry - APTV AS&UX Upside Surprise Potential",
+      "type": "Factor",
+      "brief": "Upside surprise potential for AS&UX segment",
+      "description": "APTV's AS&UX segment may surprise positively given MBLY results",
+      "properties": {
+        "direction": "up",
+        "driver": "sales growth"
+      }
+    },
+    {
+      "name": "Automotive Industry - Potential Brand Shortages",
+      "type": "Factor",
+      "brief": "Possible inventory shortages for some brands",
+      "description": "Specific brand shortages may occur with MY26 introductions",
+      "properties": {
+        "driver": "inventory shortages"
+      }
+    },
+    {
+      "name": "Automotive Industry - LVP Forecast NAm Q2 2025",
+      "type": "Metric",
+      "brief": "North America light vehicle production",
+      "description": "North American LVP were roughly 4m units in Q2 2025",
+      "properties": {
+        "value": 4,
+        "unit": "million units",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - Sales YOY Growth Q2 2025",
+      "type": "Metric",
+      "brief": "Year-over-year sales growth",
+      "description": "Industry sales grew about 3% YOY in Q2 2025",
+      "properties": {
+        "value": 3,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - GM T1XX Production YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in T1XX platform output",
+      "description": "GM platform T1XX production declined 8% YOY in Q2 2025",
+      "properties": {
+        "value": -8,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID Deliveries YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in Lucid deliveries",
+      "description": "LCID deliveries declined 6% YOY in Q2 2025",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN Deliveries YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in Rivian deliveries",
+      "description": "Rivian deliveries fell 3% YOY in Q2 2025",
+      "properties": {
+        "value": -3,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - LVP Estimate Q3 2025",
+      "type": "Metric",
+      "brief": "Light vehicle production estimate for Q3",
+      "description": "LVP estimates for Q3 2025 are around 3.78m units",
+      "properties": {
+        "value": 3.78,
+        "unit": "million units",
+        "as_of": "3Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - Industry Production YoY Change Q4 2025",
+      "type": "Metric",
+      "brief": "Forecasted production decline YoY",
+      "description": "Industry production is expected to fall 7% YoY in Q4 2025",
+      "properties": {
+        "value": -7,
+        "unit": "%",
+        "as_of": "4Q25"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc",
+      "type": "Company",
+      "brief": "Auto supplier facing production volume pressures",
+      "description": "ADNT faces production and market pressures, offset partly by cost cuts",
+      "properties": {
+        "ticker": "ADNT",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle",
+      "type": "Company",
+      "brief": "Auto supplier with recovering volumes",
+      "description": "AXL priced on EV/EBITDA multiple amid production volume recovery",
+      "properties": {
+        "ticker": "AXL",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Price Objective",
+      "type": "Metric",
+      "brief": "Forecast price target",
+      "description": "Analyst price objective based on 3.5x EV/EBITDA on FY2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 17.5,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple used in price target",
+      "description": "3.5x EV/EBITDA on FY2026 estimates, lower end of historical range",
+      "properties": {
+        "unit": "multiple",
+        "value": 3.5,
+        "as_of": "FY2026"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle Price Objective",
+      "type": "Metric",
+      "brief": "Forecast price target",
+      "description": "Price objective based on roughly 3.5x EV/EBITDA on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 4.5,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple for price target",
+      "description": "Roughly 3.5x EV/EBITDA on 2026 estimates, below 4.5x historical average",
+      "properties": {
+        "unit": "multiple",
+        "value": 3.5,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "type": "Factor",
+      "brief": "Pressure on production volumes",
+      "description": "Current pressures on production volumes weighing on performance",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+      "type": "Factor",
+      "brief": "Cost reduction measures",
+      "description": "Actions taken to partially mitigate volume pressures",
+      "properties": {
+        "driver": "mitigate production volume pressures"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Challenging Market Environment (Europe & China)",
+      "type": "Factor",
+      "brief": "Tough European and Chinese markets",
+      "description": "Challenging market environment in Europe and China weighing on valuation",
+      "properties": {
+        "region": "Europe, China",
+        "direction": "down"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Contract Extension Risk",
+      "type": "Factor",
+      "brief": "Risk of prolonging unprofitable contracts",
+      "description": "Risk of contract extensions prolonging unprofitable metal contracts",
+      "properties": {
+        "driver": "unprofitable metal contracts"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle Production Volume Recovery",
+      "type": "Factor",
+      "brief": "Recovery in production volumes",
+      "description": "Forthcoming US/NA and global production volume recovery",
+      "properties": {
+        "region": "US/NA, Global",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry Lithia Motors A",
+      "type": "Company",
+      "brief": "Regional auto dealer chain",
+      "description": "Operates auto dealerships with strong earnings and M&A growth.",
+      "properties": {
+        "ticker": "LAD",
+        "price_objective_USD": 500
+      }
+    },
+    {
+      "name": "Automotive Industry Lucid Group",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer",
+      "description": "EV maker; valuation based on EV/Sales multiple.",
+      "properties": {
+        "ticker": "LCID",
+        "price_objective_USD": 1.0
+      }
+    },
+    {
+      "name": "Automotive Industry Mobileye",
+      "type": "Company",
+      "brief": "ADAS and autonomous driving technology supplier",
+      "description": "Supplies semiconductors for advanced driving systems; valuation tied to EV/Sales multiple.",
+      "properties": {
+        "ticker": "MBLY",
+        "price_objective_USD": 18
+      }
+    },
+    {
+      "name": "Automotive Industry Lithia Motors A Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for LAD",
+      "description": "Price objective based on 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 500,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry Lucid Group Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for LCID",
+      "description": "Price objective based on 2.0x EV/Sales multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 1.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry Mobileye Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for MBLY",
+      "description": "Price objective based on 7.5x EV/Sales multiple on 2025E sales",
+      "properties": {
+        "unit": "USD",
+        "value": 18,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry Global BEV shift",
+      "type": "Factor",
+      "brief": "Ongoing shift towards BEVs in automotive production mix",
+      "description": "Increasing share of battery electric vehicles globally in production mix",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in China",
+      "type": "Metric",
+      "brief": "37.3% YoY BEV production growth in China in 2Q25",
+      "description": "Highlights China\u2019s leading BEV production growth influencing global mix",
+      "properties": {
+        "value": 37.3,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in Europe",
+      "type": "Metric",
+      "brief": "34.0% YoY BEV production growth in Europe in 2Q25",
+      "description": "Shows significant BEV growth in Europe impacting regional trends",
+      "properties": {
+        "value": 34.0,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in North America",
+      "type": "Metric",
+      "brief": "-13.0% YoY BEV production growth in North America in 2Q25",
+      "description": "Indicates decline in North American BEV production reflecting regional headwinds",
+      "properties": {
+        "value": -13.0,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "type": "Table",
+      "brief": "S&P forecasts changes in BEV production mix from Jan to May 2025",
+      "description": "Shows percentage change in BEV forecast for major regions between Jan and May 2025",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "                      20:24                          IHS 2Q:25 Forecast\n                      Actual          Jan-25      Feb-25     Mar-25       Apr-25      May-25 \n  Europe - BEV           431,105     652,157     642,611     624,880     589,889     577,872 \n  Europe - Other       4,056,790   3,667,598   3,683,588   3,709,423    3,704,371   3,710,515 \n     % of BEV              9.6%        15.1%       14.9%       14.4%       13.7%       13.5% \n     % of Other           90.4%       84.9%        85.1%       85.6%       86.3%       86.5% \n  North America - BEV    309,963     386,640     383,528     348,548     289,833      269,639 \n   North America - Other 3,789,618 3,576,173   3,573,159    3,508,634   3,381,241   3,538,178 \n     % of BEV              7.6%        9.8%         9.7%        9.0%        7.9%        7.1% \n     % of Other           92.4%       90.2%       90.3%        91.0%       92.1%       92.9% \n  Greater China - BEV   1,685,099 2,313,426     2,291,302   2,351,972   2,306,067   2,312,850 \n  Greater China - Other 5,306,943 5,311,765    5,369,189    5,147,323   5,002,268   4,988,285 \n     % of BEV             24.1%       30.3%       29.9%        31.4%       31.6%       31.7% \n     % of Other           75.9%       69.7%        70.1%       68.6%       68.4%       68.3% \n\n  Global BEV          2,619,173 3,680,365 3,630,558     3,627,801   3,467,074   3,408,239 \n  Global Other       19,522,927 18,847,908 18,943,313     18,633,665 18,338,779   18,490,277 \n     % of BEV             11.8%        16.3%       16.1%       16.3%       15.9%       15.6% \n     % of Other           88.2%       83.7%       83.9%        83.7%       84.1%       84.4% \n  Source: S&P Global",
+        "key_insight": "S&P production expectations for BEV in North America and Europe declined by 30.3% and 11.4% respectively from January to May 2025, while China was flat"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in North America",
+      "type": "Metric",
+      "brief": "-30.3% change in BEV forecast in North America from Jan to May 2025",
+      "description": "Captures decline in North America BEV production forecast risk",
+      "properties": {
+        "value": -30.3,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in Europe",
+      "type": "Metric",
+      "brief": "-11.4% change in BEV forecast in Europe from Jan to May 2025",
+      "description": "Captures decline in Europe BEV production forecast risk",
+      "properties": {
+        "value": -11.4,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in China",
+      "type": "Metric",
+      "brief": "0.0% change in BEV forecast in China from Jan to May 2025",
+      "description": "Indicates flat BEV production forecast in China between Jan and May 2025",
+      "properties": {
+        "value": 0.0,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Table T5 \u2013 Automotive Industry Q2:25 YoY production growth by region and segment",
+      "type": "Table",
+      "brief": "YoY production growth by region and segment for Q2 2025",
+      "description": "Shows comparative YoY growth rates for cars and trucks across regions in Q2 2025",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Region | Segment | YoY Production Growth |\n|---|---|---|\n| North America | Car | -11.2% |\n| North America | Trucks | -2.5% |\n| Europe | Car | 9.4% |\n| Europe | Trucks | 8.0% |\n| China | Car | -10.3% |\n| China | Trucks | 0.3% |\n| Global | Car | -1.7% |\n| Global | Trucks | 3.2% |",
+        "key_insight": "Globally, truck production grew by 3.2% while car production declined by 1.7% in Q2 2025"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 global truck production growth",
+      "type": "Metric",
+      "brief": "3.2% YoY global truck production growth in 2Q25",
+      "description": "Highlights global increase in truck production, affecting vehicle mix trends",
+      "properties": {
+        "value": 3.2,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 global car production growth",
+      "type": "Metric",
+      "brief": "-1.7% YoY global car production growth in 2Q25",
+      "description": "Reflects global decline in car production, indicating shift to trucks",
+      "properties": {
+        "value": -1.7,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 Europe car production growth",
+      "type": "Metric",
+      "brief": "9.4% YoY Europe car production growth in 2Q25",
+      "description": "Demonstrates strong European car production growth, outlier among regions",
+      "properties": {
+        "value": 9.4,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry - BorgWarner",
+      "type": "Company",
+      "brief": "Automotive component manufacturer",
+      "description": "EV/EBITDA based $41 price objective and risk profile",
+      "properties": {
+        "ticker": "BWA",
+        "price_objective_USD": 41
+      }
+    },
+    {
+      "name": "Automotive Industry - Group 1 Auto",
+      "type": "Company",
+      "brief": "Automotive dealership operator",
+      "description": "P/E based $560 price objective amid US/NA cycle recovery",
+      "properties": {
+        "ticker": "GPI",
+        "price_objective_USD": 560
+      }
+    },
+    {
+      "name": "Automotive Industry - Lear Corp.",
+      "type": "Company",
+      "brief": "Automotive seating and electrical systems supplier",
+      "description": "$135 price objective based on EV/EBITDA multiple and strong cash flow",
+      "properties": {
+        "ticker": "LEA",
+        "price_objective_USD": 135
+      }
+    },
+    {
+      "name": "Automotive Industry - Rising Interest Rate Environment",
+      "type": "Factor",
+      "brief": "High interest rate environment",
+      "description": "Higher interest rates may dampen demand and trigger repossessions",
+      "properties": {
+        "direction": "up",
+        "driver": "interest_rate"
+      }
+    },
+    {
+      "name": "Automotive Industry - Declining Interest Rates",
+      "type": "Factor",
+      "brief": "Falling interest rates",
+      "description": "Declining rates could stimulate automotive demand and sales",
+      "properties": {
+        "direction": "down",
+        "driver": "interest_rate"
+      }
+    },
+    {
+      "name": "Automotive Industry - Raw Material Costs",
+      "type": "Factor",
+      "brief": "Increase in raw material costs",
+      "description": "Rising raw material costs pressure manufacturer margins",
+      "properties": {
+        "direction": "up",
+        "driver": "cost"
+      }
+    },
+    {
+      "name": "Automotive Industry - Slow Electric Vehicle Adoption",
+      "type": "Factor",
+      "brief": "Slower electric vehicle uptake",
+      "description": "Slow EV adoption reduces market growth for suppliers",
+      "properties": {
+        "direction": "down",
+        "driver": "adoption"
+      }
+    },
+    {
+      "name": "Automotive Industry - Global Auto Production Volume Strength",
+      "type": "Factor",
+      "brief": "Strong global production volumes",
+      "description": "High production volumes drive supplier and dealer growth",
+      "properties": {
+        "direction": "up",
+        "driver": "production_volume"
+      }
+    },
+    {
+      "name": "Automotive Industry - Electric and Hybrid Vehicle Adoption",
+      "type": "Factor",
+      "brief": "EV and hybrid vehicle uptake",
+      "description": "Faster EV and hybrid adoption boosts supplier revenue",
+      "properties": {
+        "direction": "up",
+        "driver": "adoption"
+      }
+    },
+    {
+      "name": "Automotive Industry - Relaxed Fuel-Efficiency Regulations",
+      "type": "Factor",
+      "brief": "Looser fuel-efficiency standards",
+      "description": "Relaxed regulations may reduce demand for advanced systems",
+      "properties": {
+        "direction": "down",
+        "driver": "regulation"
+      }
+    },
+    {
+      "name": "Automotive Industry - Competition in Turbocharger Industry",
+      "type": "Factor",
+      "brief": "Rising turbocharger competition",
+      "description": "Increased competition pressures margins in turbocharger segment",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Automotive Volumes Decline",
+      "type": "Factor",
+      "brief": "Declining automotive production volumes",
+      "description": "Extended volume decline negatively impacts revenue",
+      "properties": {
+        "direction": "down",
+        "driver": "production_volume"
+      }
+    },
+    {
+      "name": "Automotive Industry - US/NA Cycle Recovery",
+      "type": "Factor",
+      "brief": "Recovery of US/North America auto cycle",
+      "description": "Cycle recovery may plateau sales at high levels",
+      "properties": {
+        "direction": "up",
+        "driver": "cycle"
+      }
+    },
+    {
+      "name": "Automotive Industry - Gross Profit per Unit",
+      "type": "Factor",
+      "brief": "Gross profit per vehicle unit",
+      "description": "Higher profit per unit enhances dealer and supplier earnings",
+      "properties": {
+        "direction": "up",
+        "driver": "profit"
+      }
+    },
+    {
+      "name": "Automotive Industry - International Market Growth",
+      "type": "Factor",
+      "brief": "Growth in non-US/NA markets",
+      "description": "International market growth offsets domestic weakness",
+      "properties": {
+        "direction": "up",
+        "driver": "growth"
+      }
+    },
+    {
+      "name": "Automotive Industry - Weak US/UK Automotive Demand",
+      "type": "Factor",
+      "brief": "Lower demand in US and UK markets",
+      "description": "Weaker demand may reduce dealer revenues",
+      "properties": {
+        "direction": "down",
+        "driver": "demand"
+      }
+    },
+    {
+      "name": "Automotive Industry - Loss of Key Management",
+      "type": "Factor",
+      "brief": "Departure of key managers",
+      "description": "Loss of key management may disrupt operations",
+      "properties": {
+        "driver": "management"
+      }
+    },
+    {
+      "name": "Automotive Industry - Operating Leverage Achievement Failure",
+      "type": "Factor",
+      "brief": "Failure to reach operating leverage",
+      "description": "Inability to achieve expected leverage may harm earnings",
+      "properties": {
+        "driver": "operating_leverage"
+      }
+    },
+    {
+      "name": "Automotive Industry - Consumer Dissatisfaction with Auto Retailing",
+      "type": "Factor",
+      "brief": "Customer dissatisfaction in auto retail",
+      "description": "Consumer dissatisfaction may reduce sales and foot traffic",
+      "properties": {
+        "driver": "consumer_sentiment"
+      }
+    },
+    {
+      "name": "Automotive Industry - Franchise and Consumer Finance Law Changes",
+      "type": "Factor",
+      "brief": "Legal changes in franchise and finance",
+      "description": "Potential law changes may alter retail and finance frameworks",
+      "properties": {
+        "driver": "regulation"
+      }
+    },
+    {
+      "name": "Automotive Industry - Seating Market Competition",
+      "type": "Factor",
+      "brief": "Competition in seating market",
+      "description": "Re-emergence of seating competitor disrupts supplier sales",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Pricing Pressure from OEMs",
+      "type": "Factor",
+      "brief": "OEM pricing pressure",
+      "description": "Pricing pressure from OEM customers squeezes supplier margins",
+      "properties": {
+        "direction": "up",
+        "driver": "pressure"
+      }
+    },
+    {
+      "name": "Automotive Industry - Competition in Automotive Supply Base",
+      "type": "Factor",
+      "brief": "Intense supply base competition",
+      "description": "Fierce competition in supply base pressures sales",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Loss of Business at Key Customers",
+      "type": "Factor",
+      "brief": "Loss of major customer business",
+      "description": "Loss of business at key customers reduces revenue",
+      "properties": {
+        "driver": "customer_relationship"
+      }
+    },
+    {
+      "name": "Automotive Industry - Investor Confidence",
+      "type": "Factor",
+      "brief": "Level of investor confidence",
+      "description": "Regained investor confidence through execution and performance",
+      "properties": {
+        "direction": "up",
+        "driver": "confidence"
+      }
+    },
+    {
+      "name": "Table T10 - Automotive Industry LTM US Light Vehicle ATP and Incentives Trends",
+      "type": "Table",
+      "brief": "Shows LTM ATP and incentive trends from Dec 2014 to Jun 2025",
+      "description": "Displays the trend of US light vehicle transaction prices rising and incentives peaking then recovering",
+      "properties": {
+        "table_id": "T10",
+        "table_content": "| Date    | LTM US Average Transaction Price | LTM Average US Incentive |\n|---------|----------------------------------|--------------------------|\n| Dec-14  | $33,000                          | $2,800                   |\n| Jun-15  | $33,500                          | $2,900                   |\n| Dec-15  | $34,000                          | $3,000                   |\n| Jun-16  | $34,500                          | $3,200                   |\n| Dec-16  | $35,000                          | $3,400                   |\n| Jun-17  | $35,500                          | $3,600                   |\n| Dec-17  | $36,500                          | $3,800                   |\n| Jun-18  | $37,500                          | $4,100                   |\n| Dec-18  | $38,500                          | $4,300                   |\n| Jun-19  | $39,500                          | $4,100                   |\n| Dec-19  | $40,000                          | $4,000                   |\n| Jun-20  | $40,500                          | $4,000                   |\n| Dec-20  | $41,500                          | $4,000                   |\n| Jun-21  | $43,000                          | $3,200                   |\n| Dec-21  | $45,500                          | $2,200                   |\n| Jun-22  | $47,000                          | $1,500                   |\n| Dec-22  | $47,500                          | $1,600                   |\n| Jun-23  | $48,000                          | $2,000                   |\n| Dec-23  | $48,500                          | $2,500                   |\n| Jun-24  | $48,500                          | $3,100                   |\n| Dec-24  | $48,800                          | $3,400                   |\n| Jun-25  | $49,000                          | $3,500                   |",
+        "key_insight": "LTM ATP rose from ~$33k to ~$49k by Jun-25, while incentives peaked near $4.1k in mid-2020, dipped to ~$1.5k by mid-2022, and recovered to ~$3.5k by Jun-25"
+      }
+    },
+    {
+      "name": "Automotive Industry Used Vehicle Price Change 2Q:25",
+      "type": "Metric",
+      "brief": "Used vehicle prices up 5% YoY and 2% sequential in 2Q:25",
+      "description": "Shows strength in used vehicle prices for 2Q:25 compared to prior periods",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 5,
+        "qoq_change_pct": 2
+      }
+    },
+    {
+      "name": "Automotive Industry New Vehicle Price Change 2Q:25",
+      "type": "Metric",
+      "brief": "New vehicle prices up 1.1% YoY and 1.9% sequential in 2Q:25",
+      "description": "Indicates modest growth in new vehicle transaction prices in 2Q:25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 1.1,
+        "qoq_change_pct": 1.9
+      }
+    },
+    {
+      "name": "Automotive Industry OEM Incentives Change 2Q:25",
+      "type": "Metric",
+      "brief": "Industry average OEM incentives up 6% YoY and down 2% sequential in 2Q:25",
+      "description": "Reflects moderation of OEM incentives post-tariff announcements",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 6,
+        "qoq_change_pct": -2
+      }
+    },
+    {
+      "name": "Automotive Industry EV ATP Change 2Q:25",
+      "type": "Metric",
+      "brief": "Electric vehicle ATP flat with -0.5% YoY and +0.7% sequential in 2Q:25",
+      "description": "Captures limited change in EV transaction prices in 2Q:25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": -0.5,
+        "qoq_change_pct": 0.7
+      }
+    },
+    {
+      "name": "Automotive Industry Tariffs Announcement",
+      "type": "Event",
+      "brief": "Tariffs announced affecting industry incentives",
+      "description": "Announcement of tariffs leading to moderation of OEM incentives",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_change",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Automotive Industry Light Vehicle Pricing Dynamics",
+      "type": "Factor",
+      "brief": "Trend of ATP rising and incentives recovering",
+      "description": "Represents dynamic interplay of transaction prices and incentives over time",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry Tariff Announcement on non-US made autos",
+      "target": "Automotive Industry Consumer Pre-buying Surge",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Tariff announcement triggered consumer pre-buying surge"
+    },
+    {
+      "source": "Automotive Industry Consumer Pre-buying Surge",
+      "target": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 17.3,
+        "unit": "mm",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pre-buying drove April 2025 SAAR spike to 17.3mm"
+    },
+    {
+      "source": "Automotive Industry Consumer Pre-buying Surge",
+      "target": "Automotive Industry US LV Sales YoY Growth 2Q25",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pre-buying boosted 2Q25 sales by 3.0% YoY"
+    },
+    {
+      "source": "Table T1 \u2013 Automotive Industry US Seasonally Adjusted Annualized Rate (SAAR)",
+      "target": "Automotive Industry US LV Sales SAAR April 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 17.3,
+        "unit": "mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows spike to 17.3mm SAAR in April 2025"
+    },
+    {
+      "source": "Table T2 \u2013 Automotive Industry Europe Production Mix 2Q25",
+      "target": "Automotive Industry Europe Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 61,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 61% of Europe production mix"
+    },
+    {
+      "source": "Table T3 \u2013 Automotive Industry China Production Mix 2Q25",
+      "target": "Automotive Industry China Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 66,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 66% of China production mix"
+    },
+    {
+      "source": "Table T4 \u2013 Automotive Industry North America Production Mix 2Q25",
+      "target": "Automotive Industry North America Production Trucks Percentage 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 83,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows trucks at 83% of North America mix"
+    },
+    {
+      "source": "Table T15 \u2013 Automotive Industry 2025 Quarterly EPS Estimate Revisions",
+      "target": "Table T16 \u2013 Automotive Industry 2025-26 Annual EPS Estimate Revisions",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Quarterly EPS estimate revisions inform annual forecast changes."
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV International Market Volatility",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to sustained volatility in international markets"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Automotive Volume Decline",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to decline or flatline in automotive volumes"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Raw Material and Semiconductor Cost Rise",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to rise in raw material and semiconductor costs"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Loss of Key Customers or Suppliers",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to loss of key customers or suppliers"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Inability to Win New Business",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to inability to win new business"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Competitive Pricing Pressure",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to competitive pricing pressure"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Global Auto Production Volume Strength",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to strength in global auto production volumes"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Portfolio Business Wins",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to business wins from Safe, Green, Connected portfolio"
+    },
+    {
+      "source": "Automotive Industry \u2013 Aptiv PLC",
+      "target": "Automotive Industry \u2013 APTV Shareholder-Friendly Actions",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to shareholder-friendly actions"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG US Sales Downturn",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to a swift or material downturn in US sales"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Market Share Losses",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to market share losses by overexposed brands"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Higher Interest Rate Environment",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to higher interest rate environment causing demand deterioration"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Consumer Dissatisfaction",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to consumer dissatisfaction with auto retailing"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Legal Changes Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to franchise or consumer finance law changes"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG US/NA Cycle Recovery",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to recovery of US/North America auto cycle"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Gross Profit Per Unit Maintenance",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to maintenance of gross profit per unit"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Used Vehicle Demand Growth",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to used vehicle focus driving demand"
+    },
+    {
+      "source": "Automotive Industry \u2013 Asbury Auto",
+      "target": "Automotive Industry \u2013 ABG Interest Rate Decline",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to interest rate decline quicker than expected"
+    },
+    {
+      "source": "Automotive Industry \u2013 AutoNation, Inc.",
+      "target": "Automotive Industry \u2013 AN US Sales Downturn",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to a rapid downturn in US sales"
+    },
+    {
+      "source": "Automotive Industry \u2013 PHIN Price Objective",
+      "target": "Automotive Industry \u2013 Phinia Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs PHIN investment case"
+    },
+    {
+      "source": "Automotive Industry \u2013 PHIN EV/EBITDA Multiple",
+      "target": "Automotive Industry \u2013 Phinia Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs PHIN valuation"
+    },
+    {
+      "source": "Automotive Industry \u2013 RIVN Price Objective",
+      "target": "Automotive Industry \u2013 Rivian Automotive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs RIVN investment case"
+    },
+    {
+      "source": "Automotive Industry \u2013 RIVN EV/Sales Multiple",
+      "target": "Automotive Industry \u2013 Rivian Automotive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/Sales multiple informs RIVN valuation"
+    },
+    {
+      "source": "Automotive Industry \u2013 VC Price Objective",
+      "target": "Automotive Industry \u2013 Visteon",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 130,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs Visteon investment case"
+    },
+    {
+      "source": "Automotive Industry \u2013 VC EV/EBITDA Multiple",
+      "target": "Automotive Industry \u2013 Visteon",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs Visteon valuation"
+    },
+    {
+      "source": "Automotive Industry \u2013 Electrification Reaccelerates",
+      "target": "Automotive Industry \u2013 Phinia Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Electrification reaccelerates impacts PHIN downside risk"
+    },
+    {
+      "source": "Automotive Industry \u2013 Tariffs Impact Auto Production",
+      "target": "Automotive Industry \u2013 Phinia Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs could severely impact production affecting PHIN"
+    },
+    {
+      "source": "Automotive Industry \u2013 Inability to Raise Low Cost Capital",
+      "target": "Automotive Industry \u2013 Rivian Automotive",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Capital-raising issues impact RIVN downside risk"
+    },
+    {
+      "source": "Automotive Industry \u2013 UAW Strike",
+      "target": "Automotive Industry \u2013 Visteon",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "UAW strike poses risk to Visteon's volumes"
+    },
+    {
+      "source": "Table T12 \u2013 Automotive industry \u2013 NADA Used Vehicle Price Index",
+      "target": "Automotive industry \u2013 NADA Used Vehicle Price Index YoY Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 16.0,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 16.0% YoY increase in 2Q 2025"
+    },
+    {
+      "source": "Table T12 \u2013 Automotive industry \u2013 NADA Used Vehicle Price Index",
+      "target": "Automotive industry \u2013 NADA Used Vehicle Price Index QoQ Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.3,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 7.3% QoQ increase in 2Q 2025"
+    },
+    {
+      "source": "Table T13 \u2013 Automotive industry \u2013 Manheim Used Vehicle Value Index",
+      "target": "Automotive industry \u2013 Manheim Used Vehicle Value Index YoY Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 5.1% YoY increase in 2Q 2025"
+    },
+    {
+      "source": "Table T13 \u2013 Automotive industry \u2013 Manheim Used Vehicle Value Index",
+      "target": "Automotive industry \u2013 Manheim Used Vehicle Value Index Sequential Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 1.6% sequential increase in 2Q 2025"
+    },
+    {
+      "source": "Automotive Industry - Demand Pull-Forward",
+      "target": "Automotive Industry - Sales YOY Growth Q2 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Demand pull-forward drove ~3% YOY sales growth in Q225"
+    },
+    {
+      "source": "Automotive Industry - GM T1XX Production YOY Change Q2 2025",
+      "target": "Automotive Industry - AXL",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": -8,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "8% YOY decline in GM T1XX production impacts Axalta"
+    },
+    {
+      "source": "Automotive Industry - MBLY Preliminary Results Release",
+      "target": "Automotive Industry - APTV AS&UX Upside Surprise Potential",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "MBLY preliminary results trigger APTV AS&UX segment upside surprise"
+    },
+    {
+      "source": "Automotive Industry - RIVN Capital Injection",
+      "target": "Automotive Industry - RIVN",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 1,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "VW\u2019s $1bn injection strengthens Rivian"
+    },
+    {
+      "source": "Automotive Industry - LCID Potential Capital Injection",
+      "target": "Automotive Industry - LCID",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": 0.3,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Uber\u2019s potential $300m injection could boost Lucid"
+    },
+    {
+      "source": "Automotive Industry - MY26 Vehicles Introduction",
+      "target": "Automotive Industry - Price Increases Potential",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "MY26 introduction could cause higher OEM prices"
+    },
+    {
+      "source": "Automotive Industry - China Tariffs",
+      "target": "Automotive Industry - Industry Production YoY Change Q4 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": -7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariffs expected to bite, reducing Q4 production by 7% YoY"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc EV/EBITDA Multiple",
+      "target": "automotive_industry_2Q25-Adient Plc Price Objective",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs ADNT price objective"
+    },
+    {
+      "source": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "target": "automotive_industry_2Q25-American Axle Price Objective",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs AXL price objective"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Production volume pressures weigh on ADNT performance"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+      "target": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Cost cutting actions partially mitigate production pressures"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Challenging Market Environment (Europe & China)",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Challenging market environment weighs on ADNT valuation"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Contract Extension Risk",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Contract extension risk weighs on ADNT valuation"
+    },
+    {
+      "source": "automotive_industry_2Q25-American Axle Production Volume Recovery",
+      "target": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Production volume recovery informs EV/EBITDA multiple"
+    },
+    {
+      "source": "Automotive Industry Lithia Motors A Price Objective",
+      "target": "Automotive Industry Lithia Motors A",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    },
+    {
+      "source": "Automotive Industry Lucid Group Price Objective",
+      "target": "Automotive Industry Lucid Group",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    },
+    {
+      "source": "Automotive Industry Mobileye Price Objective",
+      "target": "Automotive Industry Mobileye",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    },
+    {
+      "source": "Table T4 \u2013 Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in North America",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -30.3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs decline in North America BEV forecast"
+    },
+    {
+      "source": "Table T4 \u2013 Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in Europe",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -11.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs decline in Europe BEV forecast"
+    },
+    {
+      "source": "Table T4 \u2013 Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in China",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs flat BEV forecast in China"
+    },
+    {
+      "source": "Table T5 \u2013 Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 global truck production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.2,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global truck production growth"
+    },
+    {
+      "source": "Table T5 \u2013 Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 global car production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1.7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global car production decline"
+    },
+    {
+      "source": "Table T5 \u2013 Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 Europe car production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 9.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Europe car production growth"
+    },
+    {
+      "source": "Automotive Industry - Rising Interest Rate Environment",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher rates may dampen demand and trigger repossessions"
+    },
+    {
+      "source": "Automotive Industry - Raw Material Costs",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising raw material costs pressure BorgWarner margins"
+    },
+    {
+      "source": "Automotive Industry - Slow Electric Vehicle Adoption",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Slow EV adoption reduces market growth for BorgWarner"
+    },
+    {
+      "source": "Automotive Industry - Relaxed Fuel-Efficiency Regulations",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Looser fuel-efficiency regulations may lower demand for advanced systems"
+    },
+    {
+      "source": "Automotive Industry - Competition in Turbocharger Industry",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising competition pressures BorgWarner\u2019s turbocharger margins"
+    },
+    {
+      "source": "Automotive Industry - Automotive Volumes Decline",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Extended volume decline negatively impacts BorgWarner revenue"
+    },
+    {
+      "source": "Automotive Industry - Global Auto Production Volume Strength",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong production volumes drive BorgWarner growth"
+    },
+    {
+      "source": "Automotive Industry - Electric and Hybrid Vehicle Adoption",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Faster EV and hybrid adoption boosts BorgWarner revenue"
+    },
+    {
+      "source": "Automotive Industry - Investor Confidence",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher investor confidence supports BorgWarner share performance"
+    },
+    {
+      "source": "Automotive Industry - Weak US/UK Automotive Demand",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weaker US/UK demand may reduce Group 1 Auto revenues"
+    },
+    {
+      "source": "Automotive Industry - Loss of Key Management",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Loss of key management may disrupt Group 1 Auto operations"
+    },
+    {
+      "source": "Automotive Industry - Operating Leverage Achievement Failure",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Failure to achieve operating leverage may harm Group 1 Auto earnings"
+    },
+    {
+      "source": "Automotive Industry - Rising Interest Rate Environment",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher rates may dampen GPI demand and trigger repossessions"
+    },
+    {
+      "source": "Automotive Industry - Consumer Dissatisfaction with Auto Retailing",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Consumer dissatisfaction may reduce Group 1 Auto sales"
+    },
+    {
+      "source": "Automotive Industry - Franchise and Consumer Finance Law Changes",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Law changes may alter Group 1 Auto retail and finance operations"
+    },
+    {
+      "source": "Automotive Industry - US/NA Cycle Recovery",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Cycle recovery may sustain high sales for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Gross Profit per Unit",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher gross profit per unit boosts Group 1 Auto earnings"
+    },
+    {
+      "source": "Automotive Industry - International Market Growth",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "International growth offsets domestic weakness for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Declining Interest Rates",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Falling rates could stimulate demand for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Automotive Volumes Decline",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Extended volume decline negatively impacts Lear Corp. revenue"
+    },
+    {
+      "source": "Automotive Industry - Seating Market Competition",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Increased seating market competition may reduce Lear Corp. sales"
+    },
+    {
+      "source": "Automotive Industry - Pricing Pressure from OEMs",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "OEM pricing pressure squeezes Lear Corp. margins"
+    },
+    {
+      "source": "Automotive Industry - Loss of Business at Key Customers",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Loss of key customer business reduces Lear Corp. revenue"
+    },
+    {
+      "source": "Automotive Industry - Competition in Automotive Supply Base",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Fierce supply base competition pressures Lear Corp. sales"
+    },
+    {
+      "source": "Automotive Industry - Raw Material Costs",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising raw material costs pressure Lear Corp. margins"
+    },
+    {
+      "source": "Table T10 - Automotive Industry LTM US Light Vehicle ATP and Incentives Trends",
+      "target": "Automotive Industry Light Vehicle Pricing Dynamics",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Table informs trend of ATP and incentives dynamics"
+    },
+    {
+      "source": "Automotive Industry Tariffs Announcement",
+      "target": "Automotive Industry OEM Incentives Change 2Q:25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariff announcement led to moderating OEM incentives"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/bofa_automotive_industry_back_to_the_future_2q_25_\u2013_solid_industry_backdrop_sets_up_2q_autos_earnings_well_20250723_converted_with_figures"
+}

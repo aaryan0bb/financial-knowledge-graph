@@ -1,0 +1,193 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – ETF Sentiment Cumulative Net Inflows by Category",
+      "type": "Table",
+      "brief": "Cumulative net ETF inflows by category from Jan–Jul 2025",
+      "description": "Time series of cumulative net inflows for individual, professional, and corporate bond ETFs",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Individual Investor ETF flows (cumulative $) | Professional Investors ETF flows (cumulative $) | Corporate bond ETF flows (cumulative $) |\n|---|---|---|---|\n| 1Jan25 | $0b | $0b | $0b |\n| 1Feb25 | $25b | -$5b | $2b |\n| 1Mar25 | $55b | -$15b | $5b |\n| Mid-Mar25 | $60b | -$20b | $6b |\n| Late-Mar25 | $115b | -$30b | $7b |\n| 1Apr25 | $100b | -$40b | $7b |\n| 1May25 | $125b | -$35b | $5b |\n| Mid-May25 | $120b | -$50b | $8b |\n| 1Jun25 | $120b | -$45b | $10b |\n| Late-Jun25 | $110b | -$35b | $10b |\n| Early-Jul25 | $145b | -$40b | $11b |\n| 1Jul25 | $150b | -$40b | $12b |\n| Mid-Jul25 | $160b | -$40b | $14b |\n| Late-Jul25 | $165b | -$40b | $15b |",
+        "key_insight": "Individual investor ETF flows show a rising cumulative inflow with sharp surges in late March and late June/early July, while professional investors remain in net outflow and corporate bond ETFs exhibit modest steady inflows."
+      }
+    },
+    {
+      "name": "Table T2 – ETF Sentiment Funding Spreads vs SPX Level",
+      "type": "Table",
+      "brief": "SPX level and funding spreads for professional investors Feb 2024–Jul 2025",
+      "description": "Time series of S&P 500 index levels (LHS) and average funding spreads (RHS) showing a divergence mid-2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | SPX Level | Funding Spread (bps) |\n|---|---|---|\n| 1-Feb-24 | 4850 | 48 |\n| 1-Mar-24 | 5100 | 58 |\n| 1-Apr-24 | 5350 | 70 |\n| 1-May-24 | 5450 | 80 |\n| 1-Jun-24 | 5600 | 88 |\n| 1-Jul-24 | 5700 | 95 |\n| 1-Aug-24 | 5850 | 105 |\n| 1-Sep-24 | 6000 | 115 |\n| 1-Oct-24 | 6050 | 125 |\n| 1-Nov-24 | 6100 | 130 |\n| 1-Dec-24 | 6000 | 110 |\n| 1-Jan-25 | 5850 | 90 |\n| 1-Feb-25 | 5600 | 70 |\n| 1-Mar-25 | 5250 | 50 |\n| 1-Apr-25 | 5400 | 55 |\n| 1-May-25 | 5800 | 58 |\n| 1-Jun-25 | 6050 | 60 |\n| 1-Jul-25 | 6300 | 65 |\n| Mid-Jul-25 | 6350 | 62 |",
+        "key_insight": "Funding spreads fell sharply into March 2025 while SPX only modestly corrected and then resumed higher, leading to a mid-2025 divergence."
+      }
+    },
+    {
+      "name": "ETF Sentiment – Individual Investors Cumulative Net Inflow",
+      "type": "Metric",
+      "brief": "Individual investor ETF cumulative net inflows",
+      "description": "Cumulative net inflows reached $150bn by July 1, 2025",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "ETF Sentiment – Professional Investors Cumulative Net Flow",
+      "type": "Metric",
+      "brief": "Professional investor ETF cumulative net outflows",
+      "description": "Professional investors remained in net outflows of $40bn by July 1, 2025",
+      "properties": {
+        "value": -40,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "ETF Sentiment – Corporate Bond ETF Cumulative Net Inflow",
+      "type": "Metric",
+      "brief": "Corporate bond ETF cumulative net inflows",
+      "description": "Corporate bond ETFs saw cumulative net inflows of $12bn by July 1, 2025",
+      "properties": {
+        "value": 12,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "Market – SPX Level",
+      "type": "Metric",
+      "brief": "S&P 500 index level",
+      "description": "SPX reached 6300 index points by July 1, 2025",
+      "properties": {
+        "value": 6300,
+        "unit": "indexPts",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "Market – Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for professional investors",
+      "description": "Funding spread was 65 bps by July 1, 2025",
+      "properties": {
+        "value": 65,
+        "unit": "bps",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "MonetaryPolicy – US Federal Reserve Rate Cuts Resumption",
+      "type": "Event",
+      "brief": "Resumption of Fed rate cuts",
+      "description": "Expected resumption of Fed rate cuts prompting professional investors to re-risk positions",
+      "properties": {
+        "date": null,
+        "event_type": "RateCut",
+        "region": "US"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment – Individual Investors Cumulative Net Inflow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows individual investor ETF inflow trend"
+    },
+    {
+      "source": "Table T1 – ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment – Professional Investors Cumulative Net Flow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows professional investor ETF outflow trend"
+    },
+    {
+      "source": "Table T1 – ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment – Corporate Bond ETF Cumulative Net Inflow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows corporate bond ETF inflow trend"
+    },
+    {
+      "source": "Table T2 – ETF Sentiment Funding Spreads vs SPX Level",
+      "target": "Market – SPX Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows SPX level trend"
+    },
+    {
+      "source": "Table T2 – ETF Sentiment Funding Spreads vs SPX Level",
+      "target": "Market – Average Funding Spread",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows funding spread trend"
+    },
+    {
+      "source": "Market – SPX Level",
+      "target": "Market – Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher SPX levels coincide with lower funding spreads"
+    },
+    {
+      "source": "MonetaryPolicy – US Federal Reserve Rate Cuts Resumption",
+      "target": "ETF Sentiment – Professional Investors Cumulative Net Flow",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Fed rate cuts expected to trigger professional investors to re-risk and increase ETF flows"
+    }
+  ],
+  "scenarios": []
+}

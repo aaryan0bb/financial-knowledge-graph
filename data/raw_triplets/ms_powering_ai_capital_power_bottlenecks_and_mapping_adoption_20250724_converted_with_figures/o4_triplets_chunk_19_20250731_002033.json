@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "name": "US Data Center Compute Usage Split",
+      "type": "Factor",
+      "brief": "Distribution of compute usage between inference and training",
+      "description": "US data centers compute use is split between inference and training tasks",
+      "properties": {
+        "inference_%": 75,
+        "training_%": 25
+      }
+    },
+    {
+      "name": "US Data Center Development Capacity",
+      "type": "Metric",
+      "brief": "Data center capacity in development in US",
+      "description": "Total pipeline capacity of US data centers in development tracked by Cushman & Wakefield",
+      "properties": {
+        "value": 47,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Data Center Hyperscale Development Capacity",
+      "type": "Metric",
+      "brief": "Hyperscale data center development capacity in US",
+      "description": "Portion of development pipeline allocated to hyperscale facilities",
+      "properties": {
+        "value": 4,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Data Center Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected data center demand in US through 2028",
+      "description": "Forecasted US data center demand through 2028, net of inference capacity",
+      "properties": {
+        "value": 62,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "US Data Center Inference-Focused Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected inference-focused data center demand through 2028",
+      "description": "US data center demand earmarked for inference tasks through 2028",
+      "properties": {
+        "value": 44,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "US Data Center Training-Focused Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected training-focused data center demand through 2028",
+      "description": "US data center demand earmarked for training tasks through 2028",
+      "properties": {
+        "value": 18,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Table T1 – US Data Center Landscape of Americas Planned Data Centers",
+      "type": "Table",
+      "brief": "Planned data center capacity in GW across Americas categories",
+      "description": "Horizontal stacked bar chart showing planned vs commissioned capacity by category",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                  | Planned Commissioned Capacity (GW) | Total Planned (GW) |\n|---------------------------|------------------------------------|--------------------|\n| Americas - Colo           | 4.7                                | 43.6               |\n| Americas - Hyperscale     | 3.7                                | -                  |\n| Americas total - Overall  | 8.5                                | 47.4               |",
+        "key_insight": "Total planned capacity (47.4 GW) significantly exceeds planned commissioned capacity (8.5 GW), led by colocation's 43.6 GW pipeline."
+      }
+    },
+    {
+      "name": "US Data Center Total Planned Capacity",
+      "type": "Metric",
+      "brief": "Total planned data center capacity pipeline in Americas",
+      "description": "Aggregate future data center capacity planned across Americas categories",
+      "properties": {
+        "value": 47.4,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T2 – US Data Center Landscape of Americas Data Centers Under Construction",
+      "type": "Table",
+      "brief": "Under-construction data center capacity in GW across Americas",
+      "description": "Bar chart showing commissioned and additional under-construction capacity by category",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category                      | Under Construction Commissioned Capacity (GW) | Additional Under Construction Capacity (GW) | Total Under Construction (GW) |\n|-------------------------------|-----------------------------------------------|---------------------------------------------|-------------------------------|\n| Americas - Colo               | 2.8                                           | 1.1                                         | 3.9                           |\n| Americas - Hyperscale         | 1.8                                           | 0.0                                         | 1.8                           |\n| Americas total - Overall      | 4.6                                           | 1.1                                         | 5.7                           |",
+        "key_insight": "Approximately 1.1 GW (nearly 20%) of the 5.7 GW total under construction is not yet commissioned."
+      }
+    },
+    {
+      "name": "US Data Center Additional Under Construction Capacity",
+      "type": "Metric",
+      "brief": "Uncommissioned under-construction data center capacity in Americas",
+      "description": "Portion of under-construction capacity not yet commissioned across Americas categories",
+      "properties": {
+        "value": 1.1,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T3 – US Data Center Americas Operational Commissioned Capacity (Including Expansions)",
+      "type": "Table",
+      "brief": "Operational commissioned capacity breakdown in GW for Americas",
+      "description": "Donut chart showing current operational capacity by category",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Category | Capacity (GW) |\n|---|---|\n| Total Operational Commissioned Capacity | 20.0 |\n| Americas - Colo | 11.8 |\n| Americas - Hyperscale | 8.2 |",
+        "key_insight": "Americas operational capacity totals 20 GW, with colocation at 11.8 GW and hyperscale at 8.2 GW."
+      }
+    },
+    {
+      "name": "US Data Center Total Operational Commissioned Capacity",
+      "type": "Metric",
+      "brief": "Total currently operational commissioned data center capacity in Americas",
+      "description": "Aggregate operational commissioned capacity across Americas",
+      "properties": {
+        "value": 20.0,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Data Center Landscape of Americas Planned Data Centers",
+      "target": "US Data Center Total Planned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 47.4,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows total planned capacity of 47.4 GW"
+    },
+    {
+      "source": "Table T2 – US Data Center Landscape of Americas Data Centers Under Construction",
+      "target": "US Data Center Additional Under Construction Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.1,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows 1.1 GW of under-construction capacity not yet commissioned"
+    },
+    {
+      "source": "Table T3 – US Data Center Americas Operational Commissioned Capacity (Including Expansions)",
+      "target": "US Data Center Total Operational Commissioned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 20.0,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows total operational capacity of 20 GW"
+    }
+  ],
+  "scenarios": []
+}

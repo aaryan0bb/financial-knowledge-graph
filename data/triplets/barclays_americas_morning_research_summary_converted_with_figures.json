@@ -1,0 +1,4247 @@
+{
+  "entities": [
+    {
+      "name": "Barclays Equity Research - Boston Scientific Corp.",
+      "type": "Company",
+      "brief": "Medical device company with strong Q2 cardio results and growth outlook",
+      "description": "Expecting mid-teens organic growth and EPS upside driven by Farapulse and Watchman adoption",
+      "properties": {
+        "ticker": "BSX",
+        "rating_outlook": "Overweight",
+        "market_cap_USDbn": 152.6197
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Danaher Corp.",
+      "type": "Company",
+      "brief": "Diversified science and tech company with mixed Q2 performance",
+      "description": "EPS beat but biotech miss likely to pressure shares despite other segment outperformance",
+      "properties": {
+        "ticker": "DHR",
+        "rating_outlook": "Overweight",
+        "market_cap_USDbn": 135.9854
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "Barclays reaffirmed price target for BSX at USD 125 based on growth outlook",
+      "properties": {
+        "value": 125.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX Stock Price",
+      "type": "Metric",
+      "brief": "Share price at report date",
+      "description": "BSX stock price on 22 July 2025 publication date",
+      "properties": {
+        "value": 103.16,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 estimated earnings per share",
+      "description": "Barclays forecast for BSX fiscal year 1 EPS",
+      "properties": {
+        "value": 2.91,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 estimated earnings per share",
+      "description": "Barclays forecast for BSX fiscal year 2 EPS",
+      "properties": {
+        "value": 3.41,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "Barclays set price target for DHR at USD 225 after Q2 review",
+      "properties": {
+        "value": 225.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR Stock Price",
+      "type": "Metric",
+      "brief": "Share price at report date",
+      "description": "DHR share price on 22 July 2025",
+      "properties": {
+        "value": 189.91,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 estimated earnings per share",
+      "description": "Barclays forecast for DHR fiscal year 1 EPS",
+      "properties": {
+        "value": 7.8,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 estimated earnings per share",
+      "description": "Barclays forecast for DHR fiscal year 2 EPS",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Q2 Cardio Results from JNJ & ABT",
+      "type": "Event",
+      "brief": "Strong Q2 cardio results from JNJ and ABT",
+      "description": "Johnson & Johnson and Abbott Labs reported strong Q2 cardio results beneficial for BSX",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_result",
+        "affected_tickers": [
+          "JNJ",
+          "ABT"
+        ]
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Biotech Q2 Print Underperformance",
+      "type": "Factor",
+      "brief": "Danaher biotech segment Q2 underperformance",
+      "description": "Danaher's biotech segment missed expectations in Q2 causing softer print",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging",
+      "type": "Company",
+      "brief": "Electric vehicle charging infrastructure provider",
+      "description": "Operator of charging networks; model update influences outlook",
+      "properties": {
+        "ticker": "BLNK",
+        "sector": "Power & Utilities",
+        "market_cap_USDbn": 0.1192,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "2025 target set by Barclays Equity Research",
+      "properties": {
+        "unit": "USD",
+        "value": 1.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Price",
+      "type": "Metric",
+      "brief": "Share price as of report date",
+      "description": "Market price on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 1.16,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging EPS FY1E",
+      "type": "Metric",
+      "brief": "Forecast FY1 EPS",
+      "description": "Estimated EPS for next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.64,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging EPS FY2E",
+      "type": "Metric",
+      "brief": "Forecast FY2 EPS",
+      "description": "Estimated EPS for second fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.52,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Industry View",
+      "type": "Factor",
+      "brief": "Analyst sentiment on industry trends",
+      "description": "Barclays Equity Research views Power & Utilities trends positively",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "positive"
+      }
+    },
+    {
+      "name": "Barclays - US Power & Utilities Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on U.S. Power & Utilities",
+      "description": "Analyst reiterates positive outlook on sector",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "positive"
+      }
+    },
+    {
+      "name": "Barclays - US Power & Utilities P/E Discount",
+      "type": "Factor",
+      "brief": "Sector valuation relative to peers",
+      "description": "Sector now trading at a discount to peers based on P/E",
+      "properties": {
+        "driver": "P/E discount",
+        "magnitude_%": 20
+      }
+    },
+    {
+      "name": "Barclays - UK Food Inflation",
+      "type": "Factor",
+      "brief": "Yearly change in food prices",
+      "description": "Food inflation in UK now over 5%",
+      "properties": {
+        "driver": "Food inflation",
+        "direction": "up",
+        "magnitude_%": 5
+      }
+    },
+    {
+      "name": "Barclays - European Food Retail Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on European food retail",
+      "description": "Industry view for European grocery market is neutral",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "Barclays - European General Retail Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on European general retail",
+      "description": "Industry view for European general retail is neutral",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "Vale",
+      "type": "Company",
+      "brief": "Q2 implied revenue in line; IO production tracking low",
+      "description": "Q2 revenue in-line vs consensus; IO production tracking to bottom half of range",
+      "properties": {
+        "ticker": "VALE",
+        "sector": "Basic Industries",
+        "market_cap_USDbn": 47.0695,
+        "stock_rating": "Overweight"
+      }
+    },
+    {
+      "name": "Vale Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Vale",
+      "description": "Barclays Equity Research price target for Vale shares",
+      "properties": {
+        "unit": "USD",
+        "value": 13.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Vale Share Price",
+      "type": "Metric",
+      "brief": "Market price for Vale as of 22 Jul 2025",
+      "description": "Closing share price for Vale on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 10.37,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Vale EPS FY1E",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Estimated earnings per share for FY1 from Barclays",
+      "properties": {
+        "unit": "USD",
+        "value": 1.76,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "Vale EPS FY2E",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Estimated earnings per share for FY2 from Barclays",
+      "properties": {
+        "unit": "USD",
+        "value": 2.02,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "Industrials \u2013 Canadian National Railway",
+      "type": "Company",
+      "brief": "North America Transportation company",
+      "description": "Operates freight rail networks in North America",
+      "properties": {
+        "ticker": "CNI",
+        "sector": "Transportation"
+      }
+    },
+    {
+      "name": "Industrials \u2013 American Airlines",
+      "type": "Company",
+      "brief": "Major US domestic airline",
+      "description": "Operates domestic passenger services in the US",
+      "properties": {
+        "ticker": "AAL",
+        "sector": "Airlines"
+      }
+    },
+    {
+      "name": "Industrials \u2013 Delta Air Lines",
+      "type": "Company",
+      "brief": "Major US domestic airline",
+      "description": "Operates domestic passenger services in the US",
+      "properties": {
+        "ticker": "DAL",
+        "sector": "Airlines"
+      }
+    },
+    {
+      "name": "Industrials \u2013 2026 Targets Withdrawal",
+      "type": "Event",
+      "brief": "Withdrawal of 2026 targets for CNI",
+      "description": "Company withdrew its 2026 financial targets",
+      "properties": {
+        "date": null,
+        "event_type": "targets_withdrawn"
+      }
+    },
+    {
+      "name": "Industrials \u2013 2025 Earnings Guidance Reduction",
+      "type": "Event",
+      "brief": "Reduction of 2025 earnings guidance for CNI",
+      "description": "Company reduced its earnings guidance for 2025",
+      "properties": {
+        "date": null,
+        "event_type": "guidance_reduction"
+      }
+    },
+    {
+      "name": "Industrials \u2013 Weaker than Expected Q2 Results",
+      "type": "Factor",
+      "brief": "Slight underperformance in Q2 results",
+      "description": "Second quarter results were slightly weaker than analyst expectations",
+      "properties": {
+        "direction": "down",
+        "driver": "earnings"
+      }
+    },
+    {
+      "name": "Industrials \u2013 Q3 2025 Domestic US Capacity Growth",
+      "type": "Metric",
+      "brief": "Domestic US capacity growth in Q3 2025",
+      "description": "Domestic US capacity growth remained unchanged week-on-week",
+      "properties": {
+        "unit": "%",
+        "as_of": "3Q25",
+        "value": 0.2
+      }
+    },
+    {
+      "name": "Industrials \u2013 Q4 2025 Domestic US Capacity Growth",
+      "type": "Metric",
+      "brief": "Domestic US capacity growth in Q4 2025 forecast",
+      "description": "Domestic US capacity growth increased by 1pt to 3.4%",
+      "properties": {
+        "unit": "%",
+        "as_of": "4Q25",
+        "value": 3.4
+      }
+    },
+    {
+      "name": "Industrials \u2013 Q4 2025 Expected Domestic Capacity Reduction",
+      "type": "Factor",
+      "brief": "Likely reduction in domestic Q4 capacity",
+      "description": "American and Delta likely to reduce domestic Q4 capacity over coming months",
+      "properties": {
+        "direction": "down",
+        "driver": "capacity"
+      }
+    },
+    {
+      "name": "Alsea SAB de CV",
+      "type": "Company",
+      "brief": "Mexican restaurant operator posted solid 2Q25 sales and EBITDA beat",
+      "description": "Posted in-line sales across all regions with 5% EBITDA beat and FX tailwinds",
+      "properties": {
+        "ticker": "ALSEA.MX",
+        "sector": "Consumer",
+        "market_cap_MXNbn": 38.4092,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Alsea Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Alsea SAB de CV",
+      "description": "Barclays sets price target reflecting updated financial outlook",
+      "properties": {
+        "value": 50.0,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea Stock Price",
+      "type": "Metric",
+      "brief": "Share price on report date",
+      "description": "Stock traded at MXN 47.81 on 2025-07-22",
+      "properties": {
+        "value": 47.81,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea EPS FY1",
+      "type": "Metric",
+      "brief": "2026 EPS estimate for Alsea",
+      "description": "Earnings per share estimate for fiscal year 1 by Barclays",
+      "properties": {
+        "value": 3.18,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea EPS FY2",
+      "type": "Metric",
+      "brief": "2027 EPS estimate for Alsea",
+      "description": "Earnings per share estimate for fiscal year 2 by Barclays",
+      "properties": {
+        "value": 3.86,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston Holdings, Inc.",
+      "type": "Company",
+      "brief": "U.S. food company preparing fiscal 4Q25 earnings",
+      "description": "Below consensus on top/bottom line for FY26, conservative guide rebuilds credibility",
+      "properties": {
+        "ticker": "LW",
+        "sector": "U.S. Food",
+        "market_cap_USDbn": 6.9387,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Lamb Weston Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Lamb Weston",
+      "description": "Barclays sets price target at USD 61.00",
+      "properties": {
+        "value": 61.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston Stock Price",
+      "type": "Metric",
+      "brief": "Share price on report date",
+      "description": "Stock traded at USD 49.17 on 2025-07-22",
+      "properties": {
+        "value": 49.17,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston EPS FY1",
+      "type": "Metric",
+      "brief": "2026 EPS estimate for Lamb Weston",
+      "description": "Earnings per share estimate for fiscal year 1 by Barclays",
+      "properties": {
+        "value": 3.09,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston EPS FY2",
+      "type": "Metric",
+      "brief": "2027 EPS estimate for Lamb Weston",
+      "description": "Earnings per share estimate for fiscal year 2 by Barclays",
+      "properties": {
+        "value": 3.34,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "EQT Corporation",
+      "type": "Company",
+      "brief": "U.S. integrated oil & gas producer",
+      "description": "EQT benefits from power supply deals, midstream growth projects and tightening in-basin gas prices",
+      "properties": {
+        "ticker": "EQT",
+        "market_cap_USDbn": 33.9104,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Halliburton Co.",
+      "type": "Company",
+      "brief": "Energy services and tech provider",
+      "description": "Halliburton guided lower margins, cut EBITDA estimates and lowered price target due to market slowdown",
+      "properties": {
+        "ticker": "HAL",
+        "market_cap_USDbn": 18.3893,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "EQT Corporation Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays raised price target on EQT Corporation",
+      "properties": {
+        "value": 68,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "EQT Corporation Stock Price",
+      "type": "Metric",
+      "brief": "Stock price on 22 Jul 2025",
+      "description": "Market price for EQT Corporation on 22 July 2025",
+      "properties": {
+        "value": 54.34,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "EQT Corporation EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Barclays estimate for EQT FY1 EPS",
+      "properties": {
+        "value": 3.46,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "EQT Corporation EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Barclays estimate for EQT FY2 EPS",
+      "properties": {
+        "value": 5.95,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "EQT Corporation Expected FCF from Power Supply Deal",
+      "type": "Metric",
+      "brief": "Expected free cash flow benefit",
+      "description": "Barclays expects USD 250MM FCF from EQT power supply deal by 2029",
+      "properties": {
+        "value": 250,
+        "unit": "USD mm",
+        "as_of": "2029"
+      }
+    },
+    {
+      "name": "Halliburton Co. Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays lowered price target on Halliburton Co.",
+      "properties": {
+        "value": 22,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Halliburton Co. Stock Price",
+      "type": "Metric",
+      "brief": "Stock price on 22 Jul 2025",
+      "description": "Market price for Halliburton Co. on 22 July 2025",
+      "properties": {
+        "value": 21.39,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Halliburton Co. EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Barclays estimate for Halliburton Co. FY1 EPS",
+      "properties": {
+        "value": 2.15,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Halliburton Co. EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Barclays estimate for Halliburton Co. FY2 EPS",
+      "properties": {
+        "value": 2.23,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "Quest Diagnostics",
+      "type": "Company",
+      "brief": "Healthcare diagnostic services provider",
+      "description": "Provides diagnostic information services; focus of Barclays Equity Research report",
+      "properties": {
+        "ticker": "DGX",
+        "sector": "Healthcare",
+        "sub_sector": "U.S. Life Science & Diagnostic Tools",
+        "market_cap_USDbn": 19.8979,
+        "stock_rating": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays Equity Research price target for Quest Diagnostics",
+      "properties": {
+        "value": 185.0,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - Share Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "Quest Diagnostics share price as of report date",
+      "properties": {
+        "value": 178.24,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays estimate of fiscal year 1 earnings per share for Quest Diagnostics",
+      "properties": {
+        "value": 9.75,
+        "unit": "USD",
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays estimate of fiscal year 2 earnings per share for Quest Diagnostics",
+      "properties": {
+        "value": 10.63,
+        "unit": "USD",
+        "as_of": "FY2 (E)"
+      }
+    },
+    {
+      "name": "Barclays \u2013 Replimune Group Inc",
+      "type": "Company",
+      "brief": "Biotechnology firm with recent rating downgrade",
+      "description": "Replimune Group received a rating downgrade to Equal Weight, reflecting lower optimism",
+      "properties": {
+        "ticker": "REPL",
+        "rating_outlook": "EW"
+      }
+    },
+    {
+      "name": "Barclays \u2013 Zimvie",
+      "type": "Company",
+      "brief": "Orthopedic implant tech company with rating upgrade",
+      "description": "Zimvie was upgraded from Underweight to Equal Weight, indicating increased positive outlook",
+      "properties": {
+        "ticker": "ZIMV",
+        "rating_outlook": "EW"
+      }
+    },
+    {
+      "name": "Barclays \u2013 Replimune Group Inc rating downgrade",
+      "type": "Event",
+      "brief": "Rating moved from Overweight to Equal Weight",
+      "description": "Barclays downgraded Replimune Group Inc on 23 July 2025",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "rating_change",
+        "affected_tickers": [
+          "REPL"
+        ],
+        "old_rating": "OW",
+        "new_rating": "EW"
+      }
+    },
+    {
+      "name": "Barclays \u2013 Zimvie rating upgrade",
+      "type": "Event",
+      "brief": "Rating moved from Underweight to Equal Weight",
+      "description": "Barclays upgraded Zimvie on 23 July 2025",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "rating_change",
+        "affected_tickers": [
+          "ZIMV"
+        ],
+        "old_rating": "UW",
+        "new_rating": "EW"
+      }
+    },
+    {
+      "name": "REPL \u2013 Replimune Group Inc",
+      "type": "Company",
+      "brief": "Biotech firm developing oncolytic RP1 melanoma therapy",
+      "description": "Developing RP1 immunotherapy; BLA for RP1 in melanoma received CRL, prompting rating and PT updates",
+      "properties": {
+        "ticker": "REPL",
+        "sector": "Healthcare",
+        "market_cap_USDbn": 0.2162
+      }
+    },
+    {
+      "name": "REPL \u2013 FDA CRL for RP1 BLA",
+      "type": "Event",
+      "brief": "FDA issued CRL for RP1 BLA",
+      "description": "FDA cited trial design and efficacy issues delaying RP1 approval",
+      "properties": {
+        "date": null,
+        "event_type": "CRL Issuance",
+        "affected_tickers": [
+          "REPL"
+        ],
+        "region": "US"
+      }
+    },
+    {
+      "name": "REPL \u2013 Rating Downgrade to Equal Weight",
+      "type": "Event",
+      "brief": "Barclays downgraded stock rating to Equal Weight",
+      "description": "Downgrade follows FDA CRL for RP1 BLA, increasing uncertainty",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Rating Downgrade",
+        "new_rating": "Equal Weight",
+        "old_rating": "Overweight"
+      }
+    },
+    {
+      "name": "REPL \u2013 Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays set price target after CRL issuance",
+      "properties": {
+        "value": 3.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays \u2013 Intuitive Surgical",
+      "type": "Company",
+      "brief": "Q2 sales and EPS results strong",
+      "description": "Intuitive Surgical delivered solid Q2 results driven by mix and margins, partly offset by volumes",
+      "properties": {
+        "ticker": "ISRG",
+        "sector": "Healthcare",
+        "market_cap_usdbn": 183.1517,
+        "rating_outlook": "Overweight",
+        "price_target_usd": 635.0
+      }
+    },
+    {
+      "name": "Barclays \u2013 ISRG Price",
+      "type": "Metric",
+      "brief": "Share price as of 22 Jul 2025",
+      "description": "Closing share price of ISRG on report date",
+      "properties": {
+        "unit": "USD",
+        "value": 511.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays \u2013 ISRG EPS FY1",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays estimate for FY1 EPS for ISRG",
+      "properties": {
+        "unit": "USD",
+        "value": 8.17,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Barclays \u2013 ISRG EPS FY2",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays estimate for FY2 EPS for ISRG",
+      "properties": {
+        "unit": "USD",
+        "value": 9.25,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Barclays \u2013 IQVIA",
+      "type": "Company",
+      "brief": "2Q'25 results strong in B2B segment",
+      "description": "IQVIA reported strong 2Q'25 results with robust B2B growth",
+      "properties": {
+        "ticker": "IQV",
+        "sector": "Healthcare",
+        "market_cap_usdbn": 32.4167,
+        "rating_outlook": "Equal Weight",
+        "price_target_usd": 185.0
+      }
+    },
+    {
+      "name": "Barclays \u2013 IQVIA Price",
+      "type": "Metric",
+      "brief": "Share price as of 22 Jul 2025",
+      "description": "Closing share price of IQVIA on report date",
+      "properties": {
+        "unit": "USD",
+        "value": 187.38,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays \u2013 IQVIA EPS FY1",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays estimate for FY1 EPS for IQVIA",
+      "properties": {
+        "unit": "USD",
+        "value": 11.82,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Barclays \u2013 IQVIA EPS FY2",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays estimate for FY2 EPS for IQVIA",
+      "properties": {
+        "unit": "USD",
+        "value": 13.24,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Barclays \u2013 IQVIA B2B Ratio 2Q'25",
+      "type": "Metric",
+      "brief": "2Q'25 B2B segment multiple",
+      "description": "B2B segment performance ratio for IQVIA in 2Q'25",
+      "properties": {
+        "unit": "ratio",
+        "value": 1.12,
+        "as_of": "2Q'25"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming Regional Same-Store GGR",
+      "type": "Metric",
+      "brief": "Year-over-year change in regional same-store GGR",
+      "description": "Regional same-store gross gaming revenue fell year-over-year",
+      "properties": {
+        "value": -1,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming Calendar-Adjusted GGR",
+      "type": "Metric",
+      "brief": "Year-over-year change in calendar-adjusted same-store GGR",
+      "description": "Calendar-adjusted regional same-store gross gaming revenue increased year-over-year",
+      "properties": {
+        "value": 1,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming OSB Handle Growth",
+      "type": "Metric",
+      "brief": "Year-over-year change in same-state OSB handle",
+      "description": "Same-state on-site betting handle grew 9% year-over-year",
+      "properties": {
+        "value": 9,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming GGR Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in gross gaming revenue",
+      "description": "GGR increased 49% year-over-year on strong hold",
+      "properties": {
+        "value": 49,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming NGR Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in net gaming revenue",
+      "description": "NGR increased 48% year-over-year on strong hold",
+      "properties": {
+        "value": 48,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming iGaming Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in iGaming revenue",
+      "description": "iGaming grew 29% year-over-year",
+      "properties": {
+        "value": 29,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer US Tobacco Cigarette Volumes",
+      "type": "Metric",
+      "brief": "Year-over-year change in cigarette volumes",
+      "description": "Cigarette volumes declined in the 4 weeks to 12 July 2025 based on MSA/Nielsen data",
+      "properties": {
+        "value": -7.3,
+        "unit": "%",
+        "as_of": "2025-07-12"
+      }
+    },
+    {
+      "name": "Consumer US Tobacco ZYN Volumes",
+      "type": "Metric",
+      "brief": "Year-over-year change in ZYN volumes",
+      "description": "ZYN volumes increased in the 4 weeks to 12 July 2025 based on MSA/Nielsen data",
+      "properties": {
+        "value": 36,
+        "unit": "%",
+        "as_of": "2025-07-12"
+      }
+    },
+    {
+      "name": "Cummins Inc.",
+      "type": "Company",
+      "brief": "Manufacturer of diesel and natural gas engines",
+      "description": "Supplies mining engines and power systems, impacted by sanctions and supplier shifts.",
+      "properties": {
+        "ticker": "CMI",
+        "sector": "U.S. Machinery & Construction",
+        "market_cap_USDbn": 49.2129,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "D.R. Horton Inc.",
+      "type": "Company",
+      "brief": "U.S. homebuilding company",
+      "description": "Homebuilder with recently stagnant forward estimates despite stock rally.",
+      "properties": {
+        "ticker": "DHI",
+        "sector": "U.S. Homebuilding & Building Products",
+        "market_cap_USDbn": 47.1523,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "CMI Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Cummins",
+      "description": "Barclays sets price target on CMI at USD 387",
+      "properties": {
+        "unit": "USD",
+        "value": 387.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "CMI Share Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "Share price on reporting date",
+      "description": "Closing share price for CMI on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 357.25,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "CMI EPS FY1E",
+      "type": "Metric",
+      "brief": "Next fiscal year EPS forecast",
+      "description": "Barclays projects CMI EPS for FY1 at USD 21.47",
+      "properties": {
+        "unit": "USD",
+        "value": 21.47,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "CMI EPS FY2E",
+      "type": "Metric",
+      "brief": "Second-year EPS forecast",
+      "description": "Barclays projects CMI EPS for FY2 at USD 23.56",
+      "properties": {
+        "unit": "USD",
+        "value": 23.56,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "DHI Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for DHI",
+      "description": "Barclays sets price target on DHI at USD 110",
+      "properties": {
+        "unit": "USD",
+        "value": 110.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "DHI Share Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "Share price on reporting date",
+      "description": "Closing share price for DHI on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 153.5,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "DHI EPS FY1E",
+      "type": "Metric",
+      "brief": "Next fiscal year EPS forecast",
+      "description": "Barclays projects DHI EPS for FY1 at USD 11.84",
+      "properties": {
+        "unit": "USD",
+        "value": 11.84,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "DHI EPS FY2E",
+      "type": "Metric",
+      "brief": "Second-year EPS forecast",
+      "description": "Barclays projects DHI EPS for FY2 at USD 11.23",
+      "properties": {
+        "unit": "USD",
+        "value": 11.23,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "CMI Belarus sanctions",
+      "type": "Event",
+      "brief": "Sanctions by Belarus end Cummins sales to Belaz",
+      "description": "Belarus-imposed sanctions halted CMI equipment sales to Belaz.",
+      "properties": {
+        "date": null,
+        "event_type": "sanctions",
+        "affected_tickers": [
+          "CMI"
+        ],
+        "region": "Belarus"
+      }
+    },
+    {
+      "name": "CMI equipment sales to Belaz",
+      "type": "Factor",
+      "brief": "Cummins engine sales to Belaz",
+      "description": "Sales of Cummins equipment to Belaz declined after sanctions.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "CMI Weichai equipment sales to Belaz",
+      "type": "Factor",
+      "brief": "Weichai becomes primary Belaz supplier",
+      "description": "Weichai replaced Cummins as primary equipment supplier to Belaz.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "CMI power-systems margins",
+      "type": "Factor",
+      "brief": "Margins on CMI power systems",
+      "description": "Cummins power-systems margins improved amid supplier shift and mix effects.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DHI stock price increase",
+      "type": "Factor",
+      "brief": "DHI share price jump",
+      "description": "DHI shares rose 17% on the reporting day while S&P was flat.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17
+      }
+    },
+    {
+      "name": "DHI ROTE",
+      "type": "Factor",
+      "brief": "Return on tangible equity",
+      "description": "ROTE declines to low-teens in 2026 projections.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "General Motors",
+      "type": "Company",
+      "brief": "2Q25 EPS review: EV transition, tariffs",
+      "description": "Discusses GM's 2Q25 EPS performance, EV strategy, tariffs and guidance for 2025\u201326",
+      "properties": {
+        "ticker": "GM",
+        "sector": "U.S. Autos & Mobility",
+        "stock_rating": "Equal Weight",
+        "industry_view": "Negative",
+        "price_target_USD": 55.0,
+        "price_as_of": "2025-07-22",
+        "price_USD": 48.89,
+        "eps_fy1_est": 9.69,
+        "eps_fy2_est": 8.77,
+        "market_cap_USDbn": 47.0045
+      }
+    },
+    {
+      "name": "Grupo Aeroportuario del Sureste SAB de CV",
+      "type": "Company",
+      "brief": "2Q25 quarter review: weaker Mexico traffic, macro challenges",
+      "description": "ASUR's 2Q25 quarter was softer driven by Mexico weakness; traffic trends likely to persist with potential 2H improvement",
+      "properties": {
+        "ticker": "ASURB.MX",
+        "sector": "Latin America Transportation",
+        "stock_rating": "Equal Weight",
+        "industry_view": "Neutral",
+        "price_target_MXN": 592.0,
+        "price_as_of": "2025-07-22",
+        "price_MXN": 565.24,
+        "eps_fy1_est": 43.94,
+        "eps_fy2_est": 49.17,
+        "market_cap_MXNbn": 169.572
+      }
+    },
+    {
+      "name": "Barclays KeyCorp",
+      "type": "Company",
+      "brief": "2Q25 EPS review: loan growth drives NII/NIM outlooks higher",
+      "description": "Better-than-expected loan growth and fees boost NII outlook despite higher provisions",
+      "properties": {
+        "ticker": "KEY",
+        "market_cap_USDbn": 20.5051,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc.",
+      "type": "Company",
+      "brief": "2Q25 earnings challenged by margin and hedge, ROE guide reiterated",
+      "description": "Missed origination and servicing expectations, but management stands by mid-to-high teens ROE guide",
+      "properties": {
+        "ticker": "PFSI",
+        "market_cap_USDbn": 5.3859,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp 2Q25 EPS Review",
+      "type": "Event",
+      "brief": "2Q25 EPS review for KeyCorp",
+      "description": "2Q25 EPS review showed slightly ahead results with higher fees and NII in line",
+      "properties": {
+        "date": "22 July 2025",
+        "event_type": "EPS Review",
+        "affected_tickers": [
+          "KEY"
+        ]
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. 2Q25 Earnings Review",
+      "type": "Event",
+      "brief": "2Q25 earnings review for PennyMac",
+      "description": "2Q25 results missed expectations due to weaker origination and servicing performance",
+      "properties": {
+        "date": "23 July 2025",
+        "event_type": "Earnings Review",
+        "affected_tickers": [
+          "PFSI"
+        ]
+      }
+    },
+    {
+      "name": "Barclays KeyCorp Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target of USD 20.00",
+      "description": "Barclays set price target based on improved loan growth and NII outlooks",
+      "properties": {
+        "value": 20.0,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate of 1.46 USD",
+      "description": "Analyst forecast for KeyCorp FY1 EPS reflecting strong fee and NII performance",
+      "properties": {
+        "value": 1.46,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate of 1.80 USD",
+      "description": "Analyst forecast for KeyCorp FY2 EPS following better loan growth outlook",
+      "properties": {
+        "value": 1.8,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target of USD 119.00",
+      "description": "Barclays set price target based on margin and hedge segment outlook",
+      "properties": {
+        "value": 119.0,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate of 11.45 USD",
+      "description": "Analyst forecast for PennyMac FY1 EPS after challenging quarter",
+      "properties": {
+        "value": 11.45,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate of 14.92 USD",
+      "description": "Analyst forecast for PennyMac FY2 EPS with expected ROE improvement",
+      "properties": {
+        "value": 14.92,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Danaher Corp",
+      "type": "Company",
+      "brief": "Life sciences and diagnostics leader",
+      "description": "Provides bioprocessing, diagnostics, and life science solutions; strong CPHD and BecDx growth",
+      "properties": {
+        "ticker": "DHR",
+        "sector": "Healthcare",
+        "market_cap_USDbn": 135.9854
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Danaher Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for Danaher",
+      "properties": {
+        "value": 225.0,
+        "unit": "USD",
+        "as_of": "23 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Danaher Share Price",
+      "type": "Metric",
+      "brief": "Share price",
+      "description": "Danaher share price as of 22 Jul 2025",
+      "properties": {
+        "value": 189.91,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Danaher EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays estimate of Danaher EPS for fiscal year one",
+      "properties": {
+        "value": 7.8,
+        "unit": "USD",
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Danaher EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays estimate of Danaher EPS for fiscal year two",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD",
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Intuitive Surgical",
+      "type": "Company",
+      "brief": "Robotic surgery equipment leader",
+      "description": "Designer and manufacturer of robotic surgical systems and related technologies",
+      "properties": {
+        "ticker": "ISRG",
+        "sector": "Healthcare",
+        "market_cap_USDbn": 183.1517
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Intuitive Surgical Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for Intuitive Surgical",
+      "properties": {
+        "value": 635.0,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Intuitive Surgical Share Price",
+      "type": "Metric",
+      "brief": "Share price",
+      "description": "Intuitive Surgical share price as of 22 Jul 2025",
+      "properties": {
+        "value": 511.0,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Intuitive Surgical EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays estimate of Intuitive Surgical EPS for fiscal year one",
+      "properties": {
+        "value": 8.17,
+        "unit": "USD",
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Intuitive Surgical EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays estimate of Intuitive Surgical EPS for fiscal year two",
+      "properties": {
+        "value": 9.25,
+        "unit": "USD",
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "AGNC Investment Corp.",
+      "type": "Company",
+      "brief": "Mortgage REIT focusing on agency MBS",
+      "description": "Specializes in agency mortgage-backed securities with normalized NIM and attractive MBS investment returns",
+      "properties": {
+        "ticker": "AGNC",
+        "market_cap_USDbn": 9.5609,
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "AGNC - 2Q25 EPS",
+      "type": "Metric",
+      "brief": "Reported EPS for 2Q25",
+      "description": "Second quarter 2025 earnings per share result",
+      "properties": {
+        "unit": "USD",
+        "value": 0.38,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - BARC 2Q25 EPS Estimate",
+      "type": "Metric",
+      "brief": "Barclays estimate for 2Q25 EPS",
+      "description": "Analyst estimate by Barclays for 2Q25 EPS",
+      "properties": {
+        "unit": "USD",
+        "value": 0.42,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - Street 2Q25 EPS Estimate",
+      "type": "Metric",
+      "brief": "Consensus street estimate for 2Q25 EPS",
+      "description": "Consensus analyst estimate for 2Q25 EPS",
+      "properties": {
+        "unit": "USD",
+        "value": 0.41,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - Net Interest Margin",
+      "type": "Factor",
+      "brief": "NIM normalization continues",
+      "description": "Net interest margin is normalizing, affecting earnings",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "AGNC - Lower Cost Swaps Roll Off",
+      "type": "Factor",
+      "brief": "End of lower cost interest rate swaps",
+      "description": "Roll-off of lower cost swaps reduced net interest margin",
+      "properties": {
+        "driver": "roll-off"
+      }
+    },
+    {
+      "name": "AGNC - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Current price target by Barclays Equity Research",
+      "properties": {
+        "unit": "USD",
+        "value": 9.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "AGNC - Share Price",
+      "type": "Metric",
+      "brief": "Share price on 22 July 2025",
+      "description": "Market price for AGNC as of report",
+      "properties": {
+        "unit": "USD",
+        "value": 9.37,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "AGNC - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Expected EPS for next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": 1.62,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "AGNC - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Expected EPS for fiscal year two",
+      "properties": {
+        "unit": "USD",
+        "value": 1.6,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "GFINBURO - Grupo Financiero Inbursa, SAB de C.V.",
+      "type": "Company",
+      "brief": "Mexican financial services conglomerate",
+      "description": "Offers banking, insurance, and asset management services in Mexico",
+      "properties": {
+        "ticker": "GFINBURO.MX",
+        "market_cap_MXDbn": 297.1558,
+        "sector": "Banks"
+      }
+    },
+    {
+      "name": "GFINBURO - Net Interest Income",
+      "type": "Factor",
+      "brief": "Net interest income decline",
+      "description": "Lower-than-expected net interest income weighed on EPS",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GFINBURO - Provisions",
+      "type": "Factor",
+      "brief": "Higher loan loss provisions",
+      "description": "Increased provisions reduced earnings",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GFINBURO - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Current price target by Barclays Equity Research",
+      "properties": {
+        "unit": "MXN",
+        "value": 58.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "GFINBURO - Share Price",
+      "type": "Metric",
+      "brief": "Share price on 22 July 2025",
+      "description": "Market price for GFINBURO as of report",
+      "properties": {
+        "unit": "MXN",
+        "value": 48.94,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "GFINBURO - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Expected EPS for next fiscal year",
+      "properties": {
+        "unit": "MXN",
+        "value": 5.7,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "GFINBURO - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Expected EPS for fiscal year two",
+      "properties": {
+        "unit": "MXN",
+        "value": 6.4,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "GFINBURO - 2Q25 EPS Review",
+      "type": "Event",
+      "brief": "Quarterly earnings review for Q2 2025",
+      "description": "Earnings review event impacted by NII and provisions",
+      "properties": {
+        "date": null,
+        "event_type": "EPS Review",
+        "affected_tickers": [
+          "GFINBURO.MX"
+        ]
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 ZION",
+      "type": "Company",
+      "brief": "Barclays-covered US large-cap bank",
+      "description": "Zions Bancorporation under Barclays coverage",
+      "properties": {
+        "ticker": "ZION",
+        "sector": "U.S. Large-Cap Banks",
+        "market_cap_USDbn": 8.3894,
+        "rating_outlook": "Underweight"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 ZION Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for ZION",
+      "properties": {
+        "value": 61.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 ZION Price",
+      "type": "Metric",
+      "brief": "Market price",
+      "description": "ZION share price on report date",
+      "properties": {
+        "value": 56.85,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 ZION EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Next-fiscal-year EPS estimate",
+      "description": "Barclays EPS forecast for ZION FY1",
+      "properties": {
+        "value": 5.65,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 ZION EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Following-fiscal-year EPS estimate",
+      "description": "Barclays EPS forecast for ZION FY2",
+      "properties": {
+        "value": 5.6,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 Capital Markets Revenues",
+      "type": "Factor",
+      "brief": "2Q25 segment revenues",
+      "description": "Capital markets revenues posted 4th best quarter on record, above expectations",
+      "properties": {
+        "direction": "up",
+        "driver": "trading and IB fees"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 Trading and IB Fees",
+      "type": "Factor",
+      "brief": "Fee revenue drivers",
+      "description": "Trading and investment banking fees contributed to revenue gains",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 Trading Backdrop",
+      "type": "Factor",
+      "brief": "Market trading environment",
+      "description": "Trading backdrop remains constructive",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 IB Pipelines",
+      "type": "Factor",
+      "brief": "M&A & IPO deal pipelines",
+      "description": "Investment banking pipelines, especially M&A & IPO, are strong",
+      "properties": {
+        "direction": "up",
+        "driver": "M&A & IPO"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 Market Sentiment",
+      "type": "Factor",
+      "brief": "Investor sentiment",
+      "description": "Market sentiment is much improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks \u2013 2025 Outlook",
+      "type": "Factor",
+      "brief": "Outlook for 2025",
+      "description": "Expect a robust 2025 for investment banks",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "PNR \u2013 Pentair plc",
+      "type": "Company",
+      "brief": "Reported inline Q2 profit and raised EPS guide",
+      "description": "Pentair reported in-line Q2 2025 operating profit and increased its FY25 adjusted EPS guidance",
+      "properties": {
+        "ticker": "PNR",
+        "sector": "Industrials",
+        "market_cap_USDbn": 17.2539
+      }
+    },
+    {
+      "name": "PHM \u2013 PulteGroup Inc.",
+      "type": "Company",
+      "brief": "Outlook little changed with cautious EPS cuts",
+      "description": "PulteGroup stock rose 12% but firm cut FY26 EPS estimates due to affordability and inventory pressures",
+      "properties": {
+        "ticker": "PHM",
+        "sector": "U.S. Homebuilding & Building Products",
+        "market_cap_USDbn": 24.2858
+      }
+    },
+    {
+      "name": "PNR \u2013 Stock Rating",
+      "type": "Factor",
+      "brief": "Analyst recommendation category",
+      "description": "Barclays stock rating for Pentair",
+      "properties": {
+        "rating": "Overweight"
+      }
+    },
+    {
+      "name": "PNR \u2013 Industry View",
+      "type": "Factor",
+      "brief": "Sector outlook from Barclays",
+      "description": "Barclays industry view on Pentair",
+      "properties": {
+        "view": "Neutral"
+      }
+    },
+    {
+      "name": "PHM \u2013 Stock Rating",
+      "type": "Factor",
+      "brief": "Analyst recommendation category",
+      "description": "Barclays stock rating for PulteGroup",
+      "properties": {
+        "rating": "Equal Weight"
+      }
+    },
+    {
+      "name": "PHM \u2013 Industry View",
+      "type": "Factor",
+      "brief": "Sector outlook from Barclays",
+      "description": "Barclays industry view on PulteGroup",
+      "properties": {
+        "view": "Positive"
+      }
+    },
+    {
+      "name": "PNR \u2013 Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 117.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PNR \u2013 Stock Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "Pentair share price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 104.87,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PNR \u2013 Q2 2025 adjusted EPS",
+      "type": "Metric",
+      "brief": "Actual adjusted EPS for Q2 2025",
+      "description": "Pentair reported Q2 2025 adjusted EPS versus estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 1.39,
+        "as_of": "Q2 2025"
+      }
+    },
+    {
+      "name": "PNR \u2013 FY1 EPS estimate (FY25E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays EPS estimate for Pentair fiscal 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 4.86,
+        "as_of": "FY25E"
+      }
+    },
+    {
+      "name": "PNR \u2013 FY2 EPS estimate (FY26E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays EPS estimate for Pentair fiscal 2026",
+      "properties": {
+        "unit": "USD",
+        "value": 5.4,
+        "as_of": "FY26E"
+      }
+    },
+    {
+      "name": "PHM \u2013 Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for PulteGroup",
+      "properties": {
+        "unit": "USD",
+        "value": 98.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PHM \u2013 Stock Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "PulteGroup share price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 121.17,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PHM \u2013 FY1 EPS estimate (FY26E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays EPS estimate for PulteGroup fiscal 2026",
+      "properties": {
+        "unit": "USD",
+        "value": 11.35,
+        "as_of": "FY26E"
+      }
+    },
+    {
+      "name": "PHM \u2013 FY2 EPS estimate (FY27E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays EPS estimate for PulteGroup fiscal 2027",
+      "properties": {
+        "unit": "USD",
+        "value": 10.96,
+        "as_of": "FY27E"
+      }
+    },
+    {
+      "name": "PHM \u2013 Stock Price Increase 12%",
+      "type": "Event",
+      "brief": "Stock rose 12% on report date",
+      "description": "PulteGroup stock rose 12% while S&P remained flat",
+      "properties": {
+        "date": "22 July 2025",
+        "event_type": "stock_movement",
+        "impact_value": 12,
+        "unit": "%",
+        "affected_tickers": [
+          "PHM"
+        ]
+      }
+    },
+    {
+      "name": "Zimvie",
+      "type": "Company",
+      "brief": "Healthcare medical supplies and devices provider",
+      "description": "U.S. Medical Supplies & Devices company undergoing acquisition and rating changes",
+      "properties": {
+        "ticker": "ZIMV",
+        "industry": "U.S. Medical Supplies & Devices",
+        "market_cap_usd_bn": 0.523
+      }
+    },
+    {
+      "name": "Zimvie Price Target",
+      "type": "Metric",
+      "brief": "Analysts\u2019 price target for Zimvie",
+      "description": "Raised to USD 19 to reflect pending acquisition",
+      "properties": {
+        "unit": "USD",
+        "as_of": "22 Jul 2025",
+        "value": 19
+      }
+    },
+    {
+      "name": "Zimvie EPS FY1",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays EPS estimate for fiscal year 1",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY1",
+        "value": 0.9
+      }
+    },
+    {
+      "name": "Zimvie EPS FY2",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays EPS estimate for fiscal year 2",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY2",
+        "value": 0.95
+      }
+    },
+    {
+      "name": "Zimvie Rating Upgrade",
+      "type": "Event",
+      "brief": "Upgrade from Underweight to Equal Weight",
+      "description": "Rating raised in conjunction with acquisition announcement",
+      "properties": {
+        "date": "22 Jul 2025",
+        "event_type": "Rating Change",
+        "rating_from": "Underweight",
+        "rating_to": "Equal Weight"
+      }
+    },
+    {
+      "name": "Zimvie Acquisition Announcement",
+      "type": "Event",
+      "brief": "Announcement of Zimvie acquisition",
+      "description": "Acquisition of ZIMV announced Monday",
+      "properties": {
+        "date": null,
+        "event_type": "Acquisition Announcement",
+        "affected_tickers": [
+          "ZIMV"
+        ]
+      }
+    },
+    {
+      "name": "Healthcare \u2013 IQVIA",
+      "type": "Company",
+      "brief": "Clinical research services provider",
+      "description": "Bookings exceeded expectations with strong pipeline, impacting outlook",
+      "properties": {
+        "ticker": "IQV",
+        "market_cap_USDbn": 32.4167,
+        "rating_outlook": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Medpace",
+      "type": "Company",
+      "brief": "Clinical research services provider",
+      "description": "Strong bookings but elevated burn-rates raise revenue cliff risk",
+      "properties": {
+        "ticker": "MEDP",
+        "market_cap_USDbn": 13.7307,
+        "rating_outlook": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 IQVIA Research Report Release",
+      "type": "Event",
+      "brief": "Barclays research publication for IQVIA",
+      "description": "Release of Barclays Equity Research report on IQVIA with updated estimates",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Research Report"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Medpace Research Report Release",
+      "type": "Event",
+      "brief": "Barclays research publication for Medpace",
+      "description": "Release of Barclays Equity Research report on Medpace with updated estimates",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Research Report"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 IQVIA bookings",
+      "type": "Factor",
+      "brief": "Bookings above expectations",
+      "description": "Bookings exceeded expectations with notable strength in EBP RFPs and a qualified pipeline",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Medpace non-NTM backlog",
+      "type": "Factor",
+      "brief": "non-NTM backlog ticked down materially",
+      "description": "Next-twelve-month backlog for Medpace continued to tick down materially",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Healthcare \u2013 Medpace 2Q bookings environment",
+      "type": "Factor",
+      "brief": "Strong 2Q bookings environment",
+      "description": "Strong second-quarter bookings environment could offset elevated burn-rates",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "OTLY - Oatly Group AB",
+      "type": "Company",
+      "brief": "Oat-based beverage and dairy substitute producer",
+      "description": "Barclays assigns Overweight rating and USD14 price target ahead of 2Q25 earnings, projecting 2H25 sales and EBITDA improvement.",
+      "properties": {
+        "ticker": "OTLY",
+        "sector": "Consumer",
+        "market_cap_USDbn": 0.4558,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "OTLY - 2Q25 Earnings Prep",
+      "type": "Event",
+      "brief": "Preparation for 2Q25 earnings by OTLY",
+      "description": "Analyst prepares for OTLY 2Q25 earnings release",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_prep",
+        "affected_tickers": [
+          "OTLY"
+        ]
+      }
+    },
+    {
+      "name": "OTLY - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for OTLY shares",
+      "description": "Barclays sets price target of USD14 ahead of 2Q25 earnings",
+      "properties": {
+        "unit": "USD",
+        "value": 14.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OTLY - Share Price",
+      "type": "Metric",
+      "brief": "Share price for OTLY as of 22 July 2025",
+      "description": "Barclays reports share price at USD15.23 on Jul 22, 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 15.23,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OTLY - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for OTLY in FY1E",
+      "description": "Barclays estimates FY1 EPS at -4.46 for OTLY",
+      "properties": {
+        "unit": "USD",
+        "value": -4.46,
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "OTLY - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for OTLY in FY2E",
+      "description": "Barclays estimates FY2 EPS at -2.83 for OTLY",
+      "properties": {
+        "unit": "USD",
+        "value": -2.83,
+        "as_of": "FY2 (E)"
+      }
+    },
+    {
+      "name": "OTLY - EBITDA 2Q25",
+      "type": "Metric",
+      "brief": "Forecast EBITDA for OTLY in 2Q25",
+      "description": "Barclays expects a -$3mm EBITDA in 2Q25 for OTLY",
+      "properties": {
+        "unit": "USD mm",
+        "value": -3,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "PM - Philip Morris International Inc.",
+      "type": "Company",
+      "brief": "Global tobacco and nicotine products manufacturer",
+      "description": "Barclays maintains Overweight rating and USD225 price target following recent earnings, highlighting key investor considerations.",
+      "properties": {
+        "ticker": "PM",
+        "sector": "European Consumer Staples",
+        "market_cap_USDbn": 257.2456,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "PM - Earnings Report",
+      "type": "Event",
+      "brief": "Philip Morris reported earnings",
+      "description": "Philip Morris reported earnings prompting discussion of investor topics",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report",
+        "affected_tickers": [
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "PM - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for PM shares",
+      "description": "Barclays sets price target of USD225 following PM earnings",
+      "properties": {
+        "unit": "USD",
+        "value": 225.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "PM - Share Price",
+      "type": "Metric",
+      "brief": "Share price for PM as of 23 July 2025",
+      "description": "Barclays reports share price at USD165.27 on Jul 23, 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 165.27,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "PM - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for PM in FY1E",
+      "description": "Barclays estimates FY1 EPS at 7.60 for PM",
+      "properties": {
+        "unit": "USD",
+        "value": 7.6,
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "PM - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for PM in FY2E",
+      "description": "Barclays estimates FY2 EPS at 8.63 for PM",
+      "properties": {
+        "unit": "USD",
+        "value": 8.63,
+        "as_of": "FY2 (E)"
+      }
+    },
+    {
+      "name": "Range Resources Corp",
+      "type": "Company",
+      "brief": "U.S. independent oil & gas company",
+      "description": "Beat 2Q25 forecasts and tweaked 2025 guidance",
+      "properties": {
+        "ticker": "RRC",
+        "market_cap_usd_bn": 8.5194,
+        "stock_rating": "Equal Weight",
+        "industry_view": "Positive"
+      }
+    },
+    {
+      "name": "RRC 2027 Cash Flow Benefit",
+      "type": "Metric",
+      "brief": "Expected USD100MM cash flow benefit",
+      "description": "2027 cash flow benefit of ~USD100MM from lower cash tax post OBBBA",
+      "properties": {
+        "value": 100,
+        "unit": "USD mm",
+        "as_of": "2027"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 RRC 2Q25 Beat; Positive Tweaks to 2025",
+      "type": "Table",
+      "brief": "Summary of RRC 2Q25 results and guidance tweaks",
+      "description": "Highlights RRC's operational beat, guidance raise, and tax-driven cash flow benefit",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Stock Rating            Equal Weight          Good operational update with capex beating consensus and volumes in line. RRC\nIndustry View           Positive              raised its FY production guide marginally on slightly lower capex, while taking up\n                                              low end of NGL realizations guide. 2027 cash flow should benefit by ~$100MM from\nPrice Target            USD 44.00\n                                              lower cash tax post OBBBA passage.\nPrice (22 Jul 2025)     USD 35.65\nEPS FY1 (E)             3.40                  View full report on Barclays Live                               Back to Top\nEPS FY2 (E)             4.95\nMarket Cap (USD bn)     8.5194\nTicker                  RRC",
+        "key_insight": "RRC beat 2Q25 forecasts with capex above consensus, marginally raised its FY production guide, and expects ~$100MM 2027 cash flow benefit from lower cash tax"
+      }
+    },
+    {
+      "name": "MSCI Inc.",
+      "type": "Company",
+      "brief": "Equity index provider",
+      "description": "MSCI Inc. traded down after mixed Q2 results with unchanged guidance",
+      "properties": {
+        "ticker": "MSCI",
+        "sector": "Industrials",
+        "market_cap_USDbn": 40.8557,
+        "rating_outlook": "Overweight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "MSCI - Q2 2025 Results",
+      "type": "Event",
+      "brief": "2Q25 results shortfall",
+      "description": "MSCI's Q2 2025 results were slightly below street expectations",
+      "properties": {
+        "date": null,
+        "event_type": "EarningsRelease",
+        "affected_tickers": [
+          "MSCI"
+        ]
+      }
+    },
+    {
+      "name": "MSCI - Analyst Commentary",
+      "type": "Factor",
+      "brief": "Commentary on recovery outlook",
+      "description": "Analyst commentary suggested little near-term/3Q recovery and long-term re-acceleration",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "MSCI - Price",
+      "type": "Metric",
+      "brief": "Share price on 22 Jul 2025",
+      "description": "MSCI closing price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 526.48,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "MSCI - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 650.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "MSCI - EPS FY1",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays FY1 EPS estimate for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 17.19,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "MSCI - EPS FY2",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays FY2 EPS estimate for MSCI",
+      "properties": {
+        "unit": "USD",
+        "value": 18.97,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "MSCI - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "MSCI market capitalization as of report",
+      "properties": {
+        "unit": "USD bn",
+        "value": 40.8557,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Pentair plc",
+      "type": "Company",
+      "brief": "Industrial solutions provider",
+      "description": "Pentair plc holds an overweight rating with raised volume guidance",
+      "properties": {
+        "ticker": "PNR",
+        "sector": "Industrials",
+        "market_cap_USDbn": 17.2539,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "PNR - 2025 Top-line Volume Guidance",
+      "type": "Factor",
+      "brief": "2025 volume guidance increase",
+      "description": "Pentair raised its top-line volume guidance for 2025 versus prior",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "PNR - Price",
+      "type": "Metric",
+      "brief": "Share price on 22 Jul 2025",
+      "description": "Pentair closing price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 104.87,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "PNR - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 117.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "PNR - EPS FY1",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays FY1 EPS estimate for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 4.86,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "PNR - EPS FY2",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays FY2 EPS estimate for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 5.4,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "PNR - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "Pentair market capitalization as of report",
+      "properties": {
+        "unit": "USD bn",
+        "value": 17.2539,
+        "as_of": null
+      }
+    },
+    {
+      "name": "AMZN \u2013 Amazon.com, Inc.",
+      "type": "Company",
+      "brief": "Amazon rating and price target update",
+      "description": "Mid\u2010year update highlighting Overweight rating and USD 240 price target for AMZN",
+      "properties": {
+        "ticker": "AMZN",
+        "rating_outlook": "Overweight",
+        "price_target_usd": 240.0,
+        "market_cap_usd_bn": 2414.9017
+      }
+    },
+    {
+      "name": "IPG \u2013 Interpublic Group of Companies",
+      "type": "Company",
+      "brief": "IPG margins beat and EPS upgrades",
+      "description": "2Q25 margin beat driving Equal Weight rating and USD 27.50 price target for IPG",
+      "properties": {
+        "ticker": "IPG",
+        "rating_outlook": "Equal Weight",
+        "price_target_usd": 27.5,
+        "market_cap_usd_bn": 9.4985
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 Equifax Inc.",
+      "type": "Company",
+      "brief": "Credit bureau with disappointing government commentary",
+      "description": "Equifax's Q2 lending-driven upside failed to raise EPS guide amid slowing government revenue.",
+      "properties": {
+        "ticker": "EFX",
+        "sector": "Industrials",
+        "market_cap_USDbn": 29.6103
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 General Electric",
+      "type": "Company",
+      "brief": "Diversified industrial conglomerate hosting investor meeting",
+      "description": "GE hosted an investor meeting outlining 2028 outlook insights from its CFO and IR.",
+      "properties": {
+        "ticker": "GE",
+        "sector": "Industrials",
+        "market_cap_USDbn": 274.6538
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 Equifax Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Equifax",
+      "description": "Barclays sets price target for Equifax at mid-2025.",
+      "properties": {
+        "value": 240.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 Equifax EPS FY1",
+      "type": "Metric",
+      "brief": "Equifax estimated EPS for fiscal year 1",
+      "description": "Forecasted EPS for Equifax FY1 by Barclays.",
+      "properties": {
+        "value": 7.59,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 Equifax EPS FY2",
+      "type": "Metric",
+      "brief": "Equifax estimated EPS for fiscal year 2",
+      "description": "Forecasted EPS for Equifax FY2 by Barclays.",
+      "properties": {
+        "value": 8.9,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 General Electric Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for GE",
+      "description": "Barclays sets price target for GE at mid-2025.",
+      "properties": {
+        "value": 295.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 General Electric EPS FY1",
+      "type": "Metric",
+      "brief": "GE estimated EPS for fiscal year 1",
+      "description": "Forecasted EPS for GE FY1 by Barclays.",
+      "properties": {
+        "value": 6.05,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 General Electric EPS FY2",
+      "type": "Metric",
+      "brief": "GE estimated EPS for fiscal year 2",
+      "description": "Forecasted EPS for GE FY2 by Barclays.",
+      "properties": {
+        "value": 7.1,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "OSCR - Oscar Health Inc.",
+      "type": "Company",
+      "brief": "Health insurer with revised earnings estimates and guidance risk",
+      "description": "Barclays lowers EBIT/EPS estimates and notes guidance risk following guidance revision",
+      "properties": {
+        "ticker": "OSCR",
+        "market_cap_USDbn": 3.7438,
+        "rating_outlook": "Underweight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "OSCR - Price Target",
+      "type": "Metric",
+      "brief": "Analysts' price target",
+      "description": "Barclays sets price target for OSCR shares",
+      "properties": {
+        "unit": "USD",
+        "value": 11.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "OSCR - Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "OSCR share price on report date",
+      "description": "Market price on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 14.7,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OSCR - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecasted EPS for FY1",
+      "description": "Barclays forecast for OSCR EPS next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -1.54,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "OSCR - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecasted EPS for FY2",
+      "description": "Barclays forecast for OSCR EPS following fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.67,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "OSCR - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "Market cap at report date",
+      "properties": {
+        "unit": "USD bn",
+        "value": 3.7438,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OSCR - Lowers EBIT/EPS Estimates",
+      "type": "Event",
+      "brief": "Lowers EBIT and EPS estimates across 2025-2027",
+      "description": "Barclays lowers OSCR EBIT and EPS estimates for 2025-2027",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "estimate revision",
+        "period_years": 3
+      }
+    },
+    {
+      "name": "OSCR - Cuts 2025 EBIT Guide",
+      "type": "Event",
+      "brief": "Cuts EBIT guide by $500 mn",
+      "description": "Barclays reduces OSCR 2025 EBIT guidance by $500 mn",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "EBIT guidance cut",
+        "impact_value": -500,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "OSCR - Raises Full-Year MLR Guidance",
+      "type": "Event",
+      "brief": "Raises full-year MLR guidance by 530 bps",
+      "description": "OSCR raises full-year Medical Loss Ratio guidance by 530 basis points",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "MLR guidance revision",
+        "magnitude_bp": 530,
+        "unit": "bp"
+      }
+    },
+    {
+      "name": "TXN - Texas Instruments, Inc.",
+      "type": "Company",
+      "brief": "Analog semiconductor manufacturer",
+      "description": "Company admitted to shallower auto recovery and industrial pull-forwards; rated Underweight by Barclays",
+      "properties": {
+        "ticker": "TXN",
+        "sector": "U.S. Semiconductors & Semiconductor Capital Equipment",
+        "market_cap_USDbn": 195.2488
+      }
+    },
+    {
+      "name": "TXN - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for TXN",
+      "properties": {
+        "value": 125.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - Stock Price",
+      "type": "Metric",
+      "brief": "Spot share price",
+      "description": "Closing share price as of 22 July 2025",
+      "properties": {
+        "value": 214.92,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Analyst EPS estimate for current fiscal year",
+      "properties": {
+        "value": 5.42,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Analyst EPS estimate for next fiscal year",
+      "properties": {
+        "value": 6.23,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Financial Services \u2013 Invesco Ltd.",
+      "type": "Company",
+      "brief": "2Q25 review: sustained value creation focus",
+      "description": "Flows strong; management sees QQQ fee contribution; focused on growth, capital return, and deleveraging",
+      "properties": {
+        "ticker": "IVZ",
+        "rating_outlook": "Equal Weight",
+        "market_cap_USDbn": 9.5106
+      }
+    },
+    {
+      "name": "Financial Services \u2013 KeyCorp",
+      "type": "Company",
+      "brief": "2Q25 EPS slightly ahead on fees and NII",
+      "description": "Higher fees and NII offset by provisions decline; upped 2025 NII, NIM, and loan guides",
+      "properties": {
+        "ticker": "KEY",
+        "rating_outlook": "Equal Weight",
+        "market_cap_USDbn": 20.5051
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Barclays Equity Research Summary of Changes",
+      "type": "Table",
+      "brief": "Rating, price target and EPS estimate changes",
+      "description": "Table summarizes recent rating stabilities, price target revisions, and EPS estimate updates by Barclays Equity Research.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Summary of Changes\n\n                                                    Rating           Price Target        EPS FY1 (E)      EPS FY2 (E)\n Medpace                                 MEDP     EW     EW       300.00     450.00    12.65    13.97   13.43    15.70\n\n MercadoLibre                            MELI     OW     OW      3100.00    3000.00    47.96    45.73   64.07    58.65\n\n NXP Semiconductors NV                   NXPI     OW     OW       190.00     220.00    10.10    10.22   12.11    12.40\n\n Oscar Health Inc.                       OSCR     UW     UW        17.00      11.00     0.64    -1.54    0.55    -0.67\n\n Pentair plc                              PNR     OW     OW       116.00     117.00     4.82     4.86    5.39     5.40\n\n PG&E Corporation                         PCG     OW     OW        22.00      20.00     1.51     1.50    1.62     1.62\n\n Portland General Electric Company        POR     EW     EW        45.00      43.00     3.26     3.26    3.41     3.40\n\n SBA Communications Corp.                SBAC     OW     OW       247.00     257.00     8.20     8.29    8.71     8.57\n\n Synchrony Financial                      SYF     OW     OW        81.00      80.00     7.53     8.18    9.01     8.91\n\n Talen Energy Corporation                 TLN     OW     OW       359.00     353.00    -0.65    -0.65    1.38     1.38\n\n Estimate Changes\n\n AGNC Investment Corp.                   AGNC     EW     EW         9.00       9.00     1.69     1.62    1.65     1.60\n\n Consolidated Edison, Inc.                ED      UW     UW       101.00      101.00    5.59     5.59    5.93     5.91\n\n D.R. Horton Inc.                         DHI     EW     EW       110.00      110.00   11.21    11.84   11.17    11.23\n\n Danaher Corp.                            DHR     OW     OW       225.00     225.00     7.71     7.80    8.49     8.50\n\n General Motors                           GM      EW     EW        55.00      55.00     9.97     9.69    9.06     8.77\n\n Interpublic Group of Companies           IPG     EW     EW        27.50      27.50     2.66     2.94    2.83     3.17\n\n Intuitive Surgical                      ISRG     OW     OW       635.00     635.00     7.60     8.17    8.72     9.25\n\n KeyCorp                                  KEY     EW     EW        20.00       20.00    1.50     1.46    1.80     1.80\n\n MSCI Inc.                               MSCI     OW     OW       650.00     650.00    17.04    17.19   18.76    18.97\n\n NRG Energy Inc                           NRG     OW     OW       197.00      197.00    7.73     7.74    9.19     9.21\n\n PennyMac Financial Services Inc.         PFSI    OW     OW       119.00      119.00   12.86    11.45   15.46    14.92\n\n PulteGroup Inc.                          PHM     EW     EW        98.00      98.00    11.43    11.35    11.44   10.96\n\n Quest Diagnostics                        DGX     EW     EW        185.00    185.00     9.66     9.75   10.56    10.63\n\n Range Resources Corp.                    RRC     EW     EW        44.00      44.00     3.35     3.40    4.85     4.95\n\n Revolve                                 RVLV     EW     EW        17.00      17.00     0.45     0.45    0.72     0.73\n\n Texas Instruments, Inc.                  TXN     UW     UW        125.00    125.00     5.59     5.42    6.49     6.23\n\n The Travelers Companies, Inc.            TRV     EW     EW       274.00     274.00    20.52    23.01   25.31    25.58",
+        "key_insight": "Barclays Equity Research revised price targets and EPS estimates for multiple companies."
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 Medpace price target",
+      "type": "Metric",
+      "brief": "Medpace price target revision",
+      "description": "Medpace's price target was raised to $450.",
+      "properties": {
+        "unit": "USD",
+        "as_of": "current",
+        "value": 450.0
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 MercadoLibre price target",
+      "type": "Metric",
+      "brief": "MercadoLibre price target revision",
+      "description": "MercadoLibre's price target was decreased to $3,000.",
+      "properties": {
+        "unit": "USD",
+        "as_of": "current",
+        "value": 3000.0
+      }
+    },
+    {
+      "name": "Barclays Equity Research \u2013 NXP Semiconductors NV price target",
+      "type": "Metric",
+      "brief": "NXP Semiconductors price target revision",
+      "description": "NXP Semiconductors NV's price target was raised to $220.",
+      "properties": {
+        "unit": "USD",
+        "as_of": "current",
+        "value": 220.0
+      }
+    },
+    {
+      "name": "Internet & Media - JD",
+      "type": "Company",
+      "brief": "Chinese e-commerce platform",
+      "description": "E-commerce firm investing in food supply chain and outlets under 7Fresh brand",
+      "properties": {
+        "ticker": "JD",
+        "sector": "Internet & Media"
+      }
+    },
+    {
+      "name": "Internet & Media - Kai Bo Food Supermarket",
+      "type": "Company",
+      "brief": "Hong Kong grocery chain",
+      "description": "Target of JD's planned stake acquisition",
+      "properties": {
+        "ticker": null,
+        "sector": "Retail"
+      }
+    },
+    {
+      "name": "Internet & Media - BYD",
+      "type": "Company",
+      "brief": "Chinese electric vehicle manufacturer",
+      "description": "EV maker delaying mass production at Hungary factory",
+      "properties": {
+        "ticker": "BYD",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Internet & Media - TMUS",
+      "type": "Company",
+      "brief": "U.S. telecom operator",
+      "description": "Wireless carrier engaging in MVNO deal with cable companies",
+      "properties": {
+        "ticker": "TMUS",
+        "sector": "Cable, Satellite & Telecom Services"
+      }
+    },
+    {
+      "name": "Internet & Media - JD investment plan",
+      "type": "Event",
+      "brief": "JD to invest CNY 10bn in new food supply chain",
+      "description": "Plan to allocate 10bn yuan to build food supply chain and 7Fresh Kitchen outlets",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "investment",
+        "impact_value": 10,
+        "unit": "CNY bn"
+      }
+    },
+    {
+      "name": "Internet & Media - JD 7Fresh outlets expansion plan",
+      "type": "Event",
+      "brief": "Plan to open 10,000 7Fresh Kitchen outlets",
+      "description": "JD aims to establish 10,000 7Fresh Kitchen outlets within three years",
+      "properties": {
+        "date": null,
+        "event_type": "network_expansion",
+        "impact_value": 10000,
+        "unit": "outlets"
+      }
+    },
+    {
+      "name": "Internet & Media - JD stake acquisition",
+      "type": "Event",
+      "brief": "JD plans to buy 70% of Kai Bo Food Supermarket",
+      "description": "Proposed acquisition of 70% stake in Kai Bo Food Supermarket",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "stake_purchase",
+        "impact_value": 70,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Internet & Media - BYD EV production delay",
+      "type": "Event",
+      "brief": "BYD to delay mass production in Hungary",
+      "description": "Delay at EV factory in Hungary pushes mass production to 2026",
+      "properties": {
+        "date": null,
+        "event_type": "production_delay",
+        "region": "Hungary"
+      }
+    },
+    {
+      "name": "Internet & Media - TMUS MVNO deal",
+      "type": "Event",
+      "brief": "MVNO partnership deal with cable companies",
+      "description": "TMUS engages in MVNO deal with cable companies with limited immediate implications",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "MVNO_deal",
+        "region": "North America"
+      }
+    },
+    {
+      "name": "NXPI \u2013 NXP Semiconductors NV",
+      "type": "Company",
+      "brief": "Semiconductor manufacturer with confidence in cycle upturn",
+      "description": "Aligns with investor sentiment of cycle recovery with a likely channel re-stock in 2H.",
+      "properties": {
+        "ticker": "NXPI",
+        "sector": "Technology",
+        "market_cap_USDbn": 57.5993,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "NXPI \u2013 EPS FY1",
+      "type": "Metric",
+      "brief": "NXPI estimated earnings per share for FY1",
+      "description": "Analyst estimate for fiscal year 1 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 10.22,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI \u2013 EPS FY2",
+      "type": "Metric",
+      "brief": "NXPI estimated earnings per share for FY2",
+      "description": "Analyst estimate for fiscal year 2 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 12.4,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI \u2013 Price Target",
+      "type": "Metric",
+      "brief": "Barclays price target for NXPI",
+      "description": "Analyst price target set by Barclays.",
+      "properties": {
+        "unit": "USD",
+        "value": 220.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI \u2013 Share Price",
+      "type": "Metric",
+      "brief": "NXPI share price",
+      "description": "Market price on 22 July 2025.",
+      "properties": {
+        "unit": "USD",
+        "value": 228.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI \u2013 Cycle Recovery",
+      "type": "Factor",
+      "brief": "Investor sentiment on cycle recovery",
+      "description": "Sentiment of a cycle upturn driving recovery expectations.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "NXPI \u2013 Channel Re-Stock",
+      "type": "Factor",
+      "brief": "Expected channel restocking in 2H",
+      "description": "Likely increase in channel inventory restocking in the second half.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ORCL \u2013 Oracle Corp.",
+      "type": "Company",
+      "brief": "Cloud and enterprise software provider witnessing contract reacceleration",
+      "description": "Confirmed 4.5 GW OpenAI capacity deal as part of Stargate, bolstering reacceleration.",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "U.S. Software",
+        "market_cap_USDbn": 668.8112,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "ORCL \u2013 EPS FY1",
+      "type": "Metric",
+      "brief": "ORCL estimated earnings per share for FY1",
+      "description": "Analyst estimate for fiscal year 1 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 6.66,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL \u2013 EPS FY2",
+      "type": "Metric",
+      "brief": "ORCL estimated earnings per share for FY2",
+      "description": "Analyst estimate for fiscal year 2 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 7.89,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL \u2013 Price Target",
+      "type": "Metric",
+      "brief": "Barclays price target for ORCL",
+      "description": "Analyst price target set by Barclays.",
+      "properties": {
+        "unit": "USD",
+        "value": 221.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL \u2013 Share Price",
+      "type": "Metric",
+      "brief": "ORCL share price",
+      "description": "Market price on 22 July 2025.",
+      "properties": {
+        "unit": "USD",
+        "value": 238.11,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL \u2013 4.5 GW OpenAI Stargate Contract Signed",
+      "type": "Event",
+      "brief": "Oracle contract with OpenAI for 4.5 GW capacity",
+      "description": "OpenAI CEO Sam Altman confirmed a 4.5 GW capacity deal with Oracle as part of Stargate.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "contract_signed",
+        "impact_value": 4.5,
+        "unit": "GW",
+        "affected_tickers": [
+          "ORCL"
+        ]
+      }
+    },
+    {
+      "name": "SYF - Synchrony Financial",
+      "type": "Company",
+      "brief": "2Q25 earnings review: positive credit trends",
+      "description": "Credit conditions in-line with long-term targets and Amazon partnership renewal support loan growth in FY26 and FY27",
+      "properties": {
+        "ticker": "SYF",
+        "market_cap_usd_bn": 26.8972,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "SYF - Positive Credit Trends",
+      "type": "Factor",
+      "brief": "Positive credit trends",
+      "description": "Credit conditions align with long-term targets, supporting BNPL and Walmart partnership-driven growth",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "SYF - Loan Growth FY26-FY27",
+      "type": "Metric",
+      "brief": "Loan growth expected in FY26 and FY27",
+      "description": "Expected increase in loan growth supported by credit trends and partnerships",
+      "properties": {
+        "unit": null,
+        "as_of": "FY26-FY27"
+      }
+    },
+    {
+      "name": "TRV - The Travelers Companies, Inc.",
+      "type": "Company",
+      "brief": "2Q25 call takeaways: cautious underwriting margin outlook",
+      "description": "Strong profitability but anticipated pressure on underwriting margins leads to cautious view of outer-year performance",
+      "properties": {
+        "ticker": "TRV",
+        "market_cap_usd_bn": 60.0612,
+        "rating_outlook": "Equal Weight"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Barclays Equity Research - Q2 Cardio Results from JNJ & ABT",
+      "target": "Barclays Equity Research - Boston Scientific Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong Q2 cardio results from JNJ & ABT bode well for BSX's Q2 print"
+    },
+    {
+      "source": "Barclays Equity Research - Biotech Q2 Print Underperformance",
+      "target": "Barclays Equity Research - Danaher Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Biotech print underperformance expected to weigh on DHR shares"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Industry View",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Company sentiment exposure"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company price target"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company share price"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging EPS FY1E",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company FY1 EPS forecast"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging EPS FY2E",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company FY2 EPS forecast"
+    },
+    {
+      "source": "Barclays - UK Food Inflation",
+      "target": "Barclays - European Food Retail Industry View",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Inflation influences neutral view on food retail"
+    },
+    {
+      "source": "Industrials \u2013 2026 Targets Withdrawal",
+      "target": "Industrials \u2013 Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "2026 targets withdrawal will weigh on CN shares"
+    },
+    {
+      "source": "Industrials \u2013 2025 Earnings Guidance Reduction",
+      "target": "Industrials \u2013 Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Reduced 2025 earnings guidance will weigh on CN shares"
+    },
+    {
+      "source": "Industrials \u2013 Weaker than Expected Q2 Results",
+      "target": "Industrials \u2013 Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Weaker-than-expected Q2 results will weigh on CN shares"
+    },
+    {
+      "source": "Industrials \u2013 Q4 2025 Expected Domestic Capacity Reduction",
+      "target": "Industrials \u2013 American Airlines",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "American Airlines likely to reduce domestic Q4 capacity"
+    },
+    {
+      "source": "Industrials \u2013 Q4 2025 Expected Domestic Capacity Reduction",
+      "target": "Industrials \u2013 Delta Air Lines",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Delta Air Lines likely to reduce domestic Q4 capacity"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds price target of MXN 50.00"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds stock price of MXN 47.81 as of report date"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea EPS FY1",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY1 EPS estimate of 3.18 MXN"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea EPS FY2",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY2 EPS estimate of 3.86 MXN"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds price target of USD 61.00"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds stock price of USD 49.17 as of report date"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston EPS FY1",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY1 EPS estimate of 3.09 USD"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston EPS FY2",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY2 EPS estimate of 3.34 USD"
+    },
+    {
+      "source": "EQT Corporation Expected FCF from Power Supply Deal",
+      "target": "EQT Corporation",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 250,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Expected FCF from power supply deal benefits EQT Corporation"
+    },
+    {
+      "source": "Barclays \u2013 Replimune Group Inc rating downgrade",
+      "target": "Barclays \u2013 Replimune Group Inc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Downgrade impacts Replimune Group Inc rating"
+    },
+    {
+      "source": "Barclays \u2013 Zimvie rating upgrade",
+      "target": "Barclays \u2013 Zimvie",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Upgrade impacts Zimvie rating"
+    },
+    {
+      "source": "REPL \u2013 FDA CRL for RP1 BLA",
+      "target": "REPL \u2013 Rating Downgrade to Equal Weight",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "FDA CRL triggers rating downgrade"
+    },
+    {
+      "source": "REPL \u2013 FDA CRL for RP1 BLA",
+      "target": "REPL \u2013 Price Target",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "CRL issuance triggers price target reduction"
+    },
+    {
+      "source": "REPL \u2013 Rating Downgrade to Equal Weight",
+      "target": "REPL \u2013 Price Target",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Rating downgrade impacts price target"
+    },
+    {
+      "source": "CMI Belarus sanctions",
+      "target": "CMI equipment sales to Belaz",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Belarus sanctions caused CMI sales to Belaz to end"
+    },
+    {
+      "source": "CMI equipment sales to Belaz",
+      "target": "CMI Weichai equipment sales to Belaz",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decline in CMI sales to Belaz led Weichai to become the primary supplier"
+    },
+    {
+      "source": "CMI Weichai equipment sales to Belaz",
+      "target": "CMI power-systems margins",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weichai supply shift contributed to improved power-systems margins at CMI"
+    },
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 20.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds price target of USD 20.00"
+    },
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.46,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds FY1 EPS estimate of 1.46 USD"
+    },
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds FY2 EPS estimate of 1.80 USD"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 119.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds price target of USD 119.00"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 11.45,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds FY1 EPS estimate of 11.45 USD"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 14.92,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds FY2 EPS estimate of 14.92 USD"
+    },
+    {
+      "source": "AGNC - Lower Cost Swaps Roll Off",
+      "target": "AGNC - Net Interest Margin",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Roll-off of lower cost swaps reduced NIM"
+    },
+    {
+      "source": "AGNC - Net Interest Margin",
+      "target": "AGNC - 2Q25 EPS",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "NIM normalization caused EPS miss"
+    },
+    {
+      "source": "GFINBURO - Net Interest Income",
+      "target": "GFINBURO - 2Q25 EPS Review",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Lower net interest income weighed on EPS"
+    },
+    {
+      "source": "GFINBURO - Provisions",
+      "target": "GFINBURO - 2Q25 EPS Review",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Higher provisions reduced earnings"
+    },
+    {
+      "source": "US Large-Cap Banks \u2013 Trading and IB Fees",
+      "target": "US Large-Cap Banks \u2013 Capital Markets Revenues",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fees drove capital markets revenues"
+    },
+    {
+      "source": "US Large-Cap Banks \u2013 Trading Backdrop",
+      "target": "US Large-Cap Banks \u2013 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Constructive trading backdrop supports robust outlook"
+    },
+    {
+      "source": "US Large-Cap Banks \u2013 IB Pipelines",
+      "target": "US Large-Cap Banks \u2013 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Strong IB pipelines support 2025 outlook"
+    },
+    {
+      "source": "US Large-Cap Banks \u2013 Market Sentiment",
+      "target": "US Large-Cap Banks \u2013 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Improved market sentiment supports outlook"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 Stock Rating",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair holds an Overweight stock rating"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 Industry View",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays views Pentair's industry as Neutral"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair has a price target of USD 117 as of 22 July 2025"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair share price was USD 104.87 on 22 July 2025"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 Q2 2025 adjusted EPS",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair reported adjusted EPS of USD 1.39 in Q2 2025"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 FY1 EPS estimate (FY25E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates Pentair EPS at USD 4.86 for FY25E"
+    },
+    {
+      "source": "PNR \u2013 Pentair plc",
+      "target": "PNR \u2013 FY2 EPS estimate (FY26E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates Pentair EPS at USD 5.40 for FY26E"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 Stock Rating",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup holds an Equal Weight stock rating"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 Industry View",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays views PulteGroup's industry as Positive"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup has a price target of USD 98 as of 22 July 2025"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup share price was USD 121.17 on 22 July 2025"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 FY1 EPS estimate (FY26E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates PulteGroup EPS at USD 11.35 for FY26E"
+    },
+    {
+      "source": "PHM \u2013 PulteGroup Inc.",
+      "target": "PHM \u2013 FY2 EPS estimate (FY27E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates PulteGroup EPS at USD 10.96 for FY27E"
+    },
+    {
+      "source": "PHM \u2013 Stock Price Increase 12%",
+      "target": "PHM \u2013 PulteGroup Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "PulteGroup stock rose 12% on 22 July 2025"
+    },
+    {
+      "source": "Zimvie Acquisition Announcement",
+      "target": "Zimvie Rating Upgrade",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Acquisition announcement triggers rating upgrade"
+    },
+    {
+      "source": "Zimvie Acquisition Announcement",
+      "target": "Zimvie Price Target",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Acquisition announcement triggers price target increase"
+    },
+    {
+      "source": "Healthcare \u2013 IQVIA",
+      "target": "Healthcare \u2013 IQVIA bookings",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "IQVIA's bookings exceeded expectations"
+    },
+    {
+      "source": "Healthcare \u2013 Medpace",
+      "target": "Healthcare \u2013 Medpace non-NTM backlog",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Medpace's non-NTM backlog ticked down materially"
+    },
+    {
+      "source": "Healthcare \u2013 Medpace",
+      "target": "Healthcare \u2013 Medpace 2Q bookings environment",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Medpace's strong 2Q bookings environment"
+    },
+    {
+      "source": "OTLY - 2Q25 Earnings Prep",
+      "target": "OTLY - EBITDA 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -3,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Earnings prep informs 2Q25 EBITDA forecast"
+    },
+    {
+      "source": "Table T1 \u2013 RRC 2Q25 Beat; Positive Tweaks to 2025",
+      "target": "RRC 2027 Cash Flow Benefit",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 100,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights RRC expects 2027 cash flow benefit of USD100MM"
+    },
+    {
+      "source": "MSCI - Q2 2025 Results",
+      "target": "MSCI - Price",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": -8.9,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "2Q25 results shortfall led to MSCI price drop"
+    },
+    {
+      "source": "MSCI - Analyst Commentary",
+      "target": "MSCI - Price",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Negative commentary impacted MSCI price"
+    },
+    {
+      "source": "PNR - 2025 Top-line Volume Guidance",
+      "target": "PNR - Price Target",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Higher volume guidance informs Pentair price target"
+    },
+    {
+      "source": "OSCR - Lowers EBIT/EPS Estimates",
+      "target": "OSCR - EPS FY1 (E)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Estimate revision causes lower EPS FY1"
+    },
+    {
+      "source": "OSCR - Lowers EBIT/EPS Estimates",
+      "target": "OSCR - EPS FY2 (E)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Estimate revision causes lower EPS FY2"
+    },
+    {
+      "source": "OSCR - Cuts 2025 EBIT Guide",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EBIT guide cut impacts OSCR profitability"
+    },
+    {
+      "source": "OSCR - Raises Full-Year MLR Guidance",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 530,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Raised MLR guidance increases expense assumption"
+    },
+    {
+      "source": "OSCR - Price Target",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 11.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Analyst price target signals share value"
+    },
+    {
+      "source": "OSCR - Price (22 Jul 2025)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 14.7,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Current share price informs market valuation"
+    },
+    {
+      "source": "OSCR - EPS FY1 (E)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -1.54,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Forecasted EPS informs earnings outlook"
+    },
+    {
+      "source": "OSCR - EPS FY2 (E)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -0.67,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Forecasted EPS informs earnings outlook"
+    },
+    {
+      "source": "OSCR - Market Cap",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3.7438,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Market capitalization informs company size"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds price target of USD125"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds share price as of 22 July 2025"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds FY1 EPS estimate"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds FY2 EPS estimate"
+    },
+    {
+      "source": "Table T1 \u2013 Barclays Equity Research Summary of Changes",
+      "target": "Barclays Equity Research \u2013 Medpace price target",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 150.0,
+        "unit": "USD",
+        "probability": 0.9,
+        "confidence": 90,
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table informs Medpace price target revision"
+    },
+    {
+      "source": "Table T1 \u2013 Barclays Equity Research Summary of Changes",
+      "target": "Barclays Equity Research \u2013 MercadoLibre price target",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": -100.0,
+        "unit": "USD",
+        "probability": 0.9,
+        "confidence": 90,
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table informs MercadoLibre price target revision"
+    },
+    {
+      "source": "Table T1 \u2013 Barclays Equity Research Summary of Changes",
+      "target": "Barclays Equity Research \u2013 NXP Semiconductors NV price target",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 30.0,
+        "unit": "USD",
+        "probability": 0.9,
+        "confidence": 90,
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table informs NXP Semiconductors NV price target revision"
+    },
+    {
+      "source": "Internet & Media - JD",
+      "target": "Internet & Media - Kai Bo Food Supermarket",
+      "type": "OWNS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Plans to buy 70% stake"
+    },
+    {
+      "source": "NXPI \u2013 Cycle Recovery",
+      "target": "NXPI \u2013 NXP Semiconductors NV",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Cycle recovery sentiment impacts NXPI outlook"
+    },
+    {
+      "source": "NXPI \u2013 Channel Re-Stock",
+      "target": "NXPI \u2013 NXP Semiconductors NV",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Expected channel restocking impacts NXPI inventory outlook"
+    },
+    {
+      "source": "ORCL \u2013 4.5 GW OpenAI Stargate Contract Signed",
+      "target": "ORCL \u2013 Oracle Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 4.5,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Stargate contract with OpenAI impacts Oracle reacceleration"
+    },
+    {
+      "source": "SYF - Positive Credit Trends",
+      "target": "SYF - Loan Growth FY26-FY27",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Positive credit trends support loan growth in FY26 and FY27"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/barclays_americas_morning_research_summary_converted_with_figures"
+}

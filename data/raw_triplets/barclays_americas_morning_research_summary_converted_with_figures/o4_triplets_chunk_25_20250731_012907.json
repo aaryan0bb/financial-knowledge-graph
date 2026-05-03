@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "General Motors",
+      "type": "Company",
+      "brief": "2Q25 EPS review: EV transition, tariffs",
+      "description": "Discusses GM's 2Q25 EPS performance, EV strategy, tariffs and guidance for 2025–26",
+      "properties": {
+        "ticker": "GM",
+        "sector": "U.S. Autos & Mobility",
+        "stock_rating": "Equal Weight",
+        "industry_view": "Negative",
+        "price_target_USD": 55.0,
+        "price_as_of": "2025-07-22",
+        "price_USD": 48.89,
+        "eps_fy1_est": 9.69,
+        "eps_fy2_est": 8.77,
+        "market_cap_USDbn": 47.0045
+      }
+    },
+    {
+      "name": "Grupo Aeroportuario del Sureste SAB de CV",
+      "type": "Company",
+      "brief": "2Q25 quarter review: weaker Mexico traffic, macro challenges",
+      "description": "ASUR's 2Q25 quarter was softer driven by Mexico weakness; traffic trends likely to persist with potential 2H improvement",
+      "properties": {
+        "ticker": "ASURB.MX",
+        "sector": "Latin America Transportation",
+        "stock_rating": "Equal Weight",
+        "industry_view": "Neutral",
+        "price_target_MXN": 592.0,
+        "price_as_of": "2025-07-22",
+        "price_MXN": 565.24,
+        "eps_fy1_est": 43.94,
+        "eps_fy2_est": 49.17,
+        "market_cap_MXNbn": 169.572
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

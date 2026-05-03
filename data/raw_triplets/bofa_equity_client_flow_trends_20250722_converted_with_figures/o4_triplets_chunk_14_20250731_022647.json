@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "name": "Table T76 – Equity Inflows: Mid Cap ETFs acceleration now slowing",
+      "type": "Table",
+      "brief": "Mid Cap ETF cumulative net buys slowing momentum",
+      "description": "Shows Mid Cap ETF inflows surged then plateaued, indicating slowing momentum",
+      "properties": {
+        "table_id": "T76",
+        "table_content": "| Date | Cumulative Net Buys ($mn) |\n|---|---|\n| 12/30/16 | 0 |\n| Jun 2017 | 500 |\n| 12/30/17 | 250 |\n| Jun 2018 | 450 |\n| 12/30/18 | 150 |\n| Jun 2019 | 750 |\n| 12/30/19 | 50 |\n| Jun 2020 | -250 |\n| 12/30/20 | -50 |\n| Jun 2021 | 350 |\n| 12/30/21 | 100 |\n| Jun 2022 | 400 |\n| 12/30/22 | -100 |\n| Jun 2023 | -350 |\n| 12/30/23 | -50 |\n| Mar 2024 | 300 |\n| Jul 2024 | 700 |\n| Sep 2024 | 780 |\n| Oct 2024 | 800 |\n| Dec 2024 | 790 |\n| Jul 2025 | 780 |",
+        "key_insight": "Mid Cap ETF inflows surged from -$50mn to ~$800mn from late 2023 to October 2024 before plateauing, indicating slowing momentum."
+      }
+    },
+    {
+      "name": "Table T73 – Equity Inflows: Value ETF flows outpacing Growth ETF flows",
+      "type": "Table",
+      "brief": "Cumulative net buys for Growth vs Value ETFs",
+      "description": "Illustrates preference for Value ETFs over Growth ETFs, highlighting value acceleration post-2020",
+      "properties": {
+        "table_id": "T73",
+        "table_content": "| Date | Growth ETFs (Cumulative Net Buys $mn) | Value ETFs (Cumulative Net Buys $mn) |\n|------|---------------------------------------|--------------------------------------|\n| 12/16 | -2,000 | 1,000 |\n| 06/17 | -1,500 | 3,000 |\n| 12/17 | -1,000 | 5,000 |\n| 06/18 | 0 | 7,000 |\n| 12/18 | 2,000 | 8,000 |\n| 06/19 | 6,000 | 9,000 |\n| 12/19 | 8,000 | 10,000 |\n| 06/20 | 6,000 | 11,000 |\n| 12/20 | 6,000 | 12,000 |\n| 06/21 | 8,000 | 16,000 |\n| 12/21 | 10,000 | 20,000 |\n| 06/22 | 13,000 | 26,000 |\n| 12/22 | 15,000 | 30,000 |\n| 06/23 | 18,000 | 34,000 |\n| 12/23 | 20,000 | 38,000 |\n| 06/24 | 25,000 | 43,000 |\n| 12/24 | 29,000 | 48,000 |",
+        "key_insight": "Value ETFs outpaced Growth ETFs in cumulative net buys from 2016 to 2024, with value accelerating post-2020 while growth lagged."
+      }
+    },
+    {
+      "name": "Table T75 – Equity Inflows: Large Cap ETF cumulative net buys",
+      "type": "Table",
+      "brief": "Large Cap ETF cumulative net buys trend",
+      "description": "Tracks robust and re-accelerated large cap ETF inflows, highlighting a mid-2022 inflection",
+      "properties": {
+        "table_id": "T75",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|:-----------|----------------------------:|\n| 12/30/16 | 0 |\n| 06/30/17 | 20,000 |\n| 12/30/17 | 35,000 |\n| 06/30/18 | 45,000 |\n| 12/30/18 | 50,000 |\n| 06/30/19 | 60,000 |\n| 12/30/19 | 70,000 |\n| 06/30/20 | 80,000 |\n| 12/30/20 | 95,000 |\n| 06/30/21 | 110,000 |\n| 12/30/21 | 118,000 |\n| 06/30/22 | 125,000 |\n| 12/30/22 | 120,000 |\n| 06/30/23 | 135,000 |\n| 12/30/23 | 155,000 |\n| 06/30/24 | 165,000 |\n| 12/30/24 | 172,000 |\n| Current (mid-2025) | 177,000 |",
+        "key_insight": "Large Cap ETF cumulative net buys rose steadily to $177,000mn by mid-2025, with a mid-2022 inflection followed by re-acceleration."
+      }
+    },
+    {
+      "name": "Table T78 – Equity Inflows: Broad Market ETF inflows YTD",
+      "type": "Table",
+      "brief": "Broad Market ETF inflows year-to-date",
+      "description": "Shows cumulative net buys for Broad Market ETFs with surges mid-2020 and mid-2023 then stabilization",
+      "properties": {
+        "table_id": "T78",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|------------|----------------------------|\n| 12/30/16 | 0 |\n| Mid-2017 | 1,000 |\n| 12/30/17 | 1,000 |\n| Early 2018 | 1,500 |\n| Late 2018 | 0 |\n| 12/30/18 | 0 |\n| Mid-2019 | 1,000 |\n| 12/30/19 | 2,000 |\n| Early 2020 | 2,500 |\n| Mid-2020 | 7,000 |\n| 12/30/20 | 9,000 |\n| Early 2021 | 10,000 |\n| Mid-2021 | 10,800 |\n| Late 2021 | 6,000 |\n| 12/30/21 | 6,200 |\n| Early 2022 | 7,000 |\n| Mid-2022 | 8,000 |\n| 12/30/22 | 9,500 |\n| Early 2023 | 10,000 |\n| Mid-2023 | 16,000 |\n| 12/30/23 | 17,000 |\n| Early 2024 | 17,500 |\n| Mid-2024 | 15,500 |\n| Late 2024 | 16,000 |",
+        "key_insight": "Broad Market ETF inflows accelerated significantly mid-2020 to late-2021, with further surges in mid-2023 before stabilizing around $16,000mn by late 2024."
+      }
+    },
+    {
+      "name": "Table T74 – Equity Inflows: Blend ETF cumulative net buys",
+      "type": "Table",
+      "brief": "Blend ETF cumulative net buys trend",
+      "description": "Highlights sustained and accelerating cumulative inflows into Blend ETFs from 2017 to 2024",
+      "properties": {
+        "table_id": "T74",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|------|----------------------------|\n| 12/30/16 | 0 |\n| 06/30/17 | 15,000 |\n| 12/30/17 | 30,000 |\n| 06/30/18 | 40,000 |\n| 12/30/18 | 45,000 |\n| 06/30/19 | 55,000 |\n| 12/30/19 | 60,000 |\n| 06/30/20 | 90,000 |\n| 12/30/20 | 115,000 |\n| 06/30/21 | 120,000 |\n| 12/30/21 | 118,000 |\n| 06/30/22 | 125,000 |\n| 12/30/22 | 130,000 |\n| 06/30/23 | 140,000 |\n| 12/30/23 | 148,000 |\n| 06/30/24 | 152,000 |\n| 12/30/24 | 155,000 |",
+        "key_insight": "Blend ETF cumulative net buys grew steadily from 2017 to 2024, with a sharp rise from late 2019 to 2020 and sustained inflows thereafter."
+      }
+    },
+    {
+      "name": "Equity Inflows: Mid Cap ETF momentum slowing",
+      "type": "Factor",
+      "brief": "Mid Cap ETF inflow momentum is decelerating",
+      "description": "Recent plateau in mid-cap ETF cumulative buys indicates waning investor momentum",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Equity Inflows: Value ETF preference",
+      "type": "Factor",
+      "brief": "Value ETFs outpace Growth ETFs in inflows",
+      "description": "Clients favor value-oriented ETFs, with value cumulative buys consistently higher",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Large Cap ETF inflow trend",
+      "type": "Factor",
+      "brief": "Large Cap ETF inflows remain robust and re-accelerating",
+      "description": "Large cap ETFs saw strong cumulative net buy growth, especially post-2022",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Broad Market ETF inflow momentum",
+      "type": "Factor",
+      "brief": "Broad Market ETF inflows surged and stabilized",
+      "description": "Broad market ETFs experienced significant surges mid-2020 and mid-2023 then leveled off",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Blend ETF inflow trend",
+      "type": "Factor",
+      "brief": "Blend ETF inflows grew strongly and persistently",
+      "description": "Sustained and accelerating cumulative inflows into blend ETFs from 2017 to 2024",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T76 – Equity Inflows: Mid Cap ETFs acceleration now slowing",
+      "target": "Equity Inflows: Mid Cap ETF momentum slowing",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs that mid-cap ETF inflow momentum is slowing"
+    },
+    {
+      "source": "Table T73 – Equity Inflows: Value ETF flows outpacing Growth ETF flows",
+      "target": "Equity Inflows: Value ETF preference",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs preference for Value ETFs over Growth ETFs"
+    },
+    {
+      "source": "Table T75 – Equity Inflows: Large Cap ETF cumulative net buys",
+      "target": "Equity Inflows: Large Cap ETF inflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs strong and re-accelerating large cap ETF inflows"
+    },
+    {
+      "source": "Table T78 – Equity Inflows: Broad Market ETF inflows YTD",
+      "target": "Equity Inflows: Broad Market ETF inflow momentum",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs broad market ETF inflow surges and stabilization"
+    },
+    {
+      "source": "Table T74 – Equity Inflows: Blend ETF cumulative net buys",
+      "target": "Equity Inflows: Blend ETF inflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs sustained and accelerating blend ETF inflows"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T44 – Equity ETF flows: Staples rolling 4-wk avg flows",
+      "type": "Table",
+      "brief": "4-week average net flows for Staples ETFs",
+      "description": "Rolling 4-week average net flows for Staples ETFs from January 2017 to January 2025",
+      "properties": {
+        "table_id": "T44",
+        "table_content": "| Date | 4-week Avg. Flows ($ mn) |\n|---|---|\n| 1/6/17 | -50 |\n| 1/6/18 | -40 |\n| Early 2019 Peak | 280 |\n| Mid-2019 Trough | -180 |\n| 1/6/20 | 0 |\n| Early 2021 Trough | -100 |\n| 1/6/21 | -80 |\n| Early 2022 Peak | 160 |\n| 1/6/22 | 80 |\n| Mid-2022 Trough | -100 |\n| 1/6/23 | 0 |\n| Mid-2023 Peak | 100 |\n| Late 2023 Trough | -150 |\n| 1/6/24 | 10 |\n| 1/6/25 | -20 |",
+        "key_insight": "Staples ETFs saw peak inflows near $280 mn in early 2019."
+      }
+    },
+    {
+      "name": "Equity ETF flows – Staples ETFs early-2019 peak 4-week avg flow",
+      "type": "Metric",
+      "brief": "Peak net flow for Staples ETFs in early 2019",
+      "description": "Indicates significant investor inflow spike in consumer staples sector, highlighting tactical buying in early 2019.",
+      "properties": {
+        "value": 280,
+        "unit": "USD mm",
+        "as_of": "Early 2019"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T44 – Equity ETF flows: Staples rolling 4-wk avg flows",
+      "target": "Equity ETF flows – Staples ETFs early-2019 peak 4-week avg flow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 280,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Highlights early-2019 peak net flow of $280 mn"
+    }
+  ],
+  "scenarios": []
+}

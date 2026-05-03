@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "Financial Markets - Demand in N225 Futures",
+      "type": "Factor",
+      "brief": "Demand softened among professional investors in N225",
+      "description": "Lower demand indicated by decreasing funding spreads for N225 futures",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Financial Markets - Demand in STOXX50E Futures",
+      "type": "Factor",
+      "brief": "Demand marginally strengthened in STOXX50E futures/swaps",
+      "description": "Increased demand indicated by stable funding spreads for STOXX50E futures",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Financial Markets - N225 Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for N225 futures/swaps",
+      "description": "Represents financing cost for N225 positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - STOXX50E Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for STOXX50E futures/swaps",
+      "description": "Represents financing cost for STOXX50E positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - SPX Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for SPX futures/swaps",
+      "description": "Represents financing cost for SPX positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - Front Month WTI Oil Price",
+      "type": "Metric",
+      "brief": "Front Month WTI oil price time series",
+      "description": "Tracks oil price fluctuations from January 2010 to mid-2025",
+      "properties": {
+        "unit": "USD",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - Oil Options Positioning",
+      "type": "Factor",
+      "brief": "Oil put-call skew near long-term average",
+      "description": "Balanced skew suggests neutral sentiment in oil options",
+      "properties": {
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "Financial Markets - STOXX50E Funding Spread Trough",
+      "type": "Event",
+      "brief": "STOXX50E funding spread hit a low of ~30 bps",
+      "description": "Trough in STOXX50E financing cost observed in January 2025",
+      "properties": {
+        "date": null,
+        "event_type": "funding_spread_trough",
+        "impact_value": 30,
+        "unit": "bp",
+        "affected_tickers": [
+          "STOXX50E"
+        ]
+      }
+    },
+    {
+      "name": "Financial Markets - SPX Funding Spread Spike",
+      "type": "Event",
+      "brief": "SPX funding spread spiked to ~95 bps",
+      "description": "Spike in SPX financing cost observed in mid-April 2025",
+      "properties": {
+        "date": null,
+        "event_type": "funding_spread_spike",
+        "impact_value": 95,
+        "unit": "bp",
+        "affected_tickers": [
+          "SPX"
+        ]
+      }
+    },
+    {
+      "name": "Financial Markets - WTI Oil Price Peak",
+      "type": "Event",
+      "brief": "WTI oil price peaked around $110",
+      "description": "Oil price reached peak levels in 2014 and early 2022, marking market highs",
+      "properties": {
+        "date": null,
+        "event_type": "price_peak",
+        "impact_value": 110,
+        "unit": "USD"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Financial Markets - Demand in N225 Futures",
+      "target": "Financial Markets - N225 Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Softened demand reduces N225 funding spreads"
+    },
+    {
+      "source": "Financial Markets - Demand in STOXX50E Futures",
+      "target": "Financial Markets - STOXX50E Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strengthened demand supports STOXX50E funding spreads"
+    }
+  ],
+  "scenarios": []
+}

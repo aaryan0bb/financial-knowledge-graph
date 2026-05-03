@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Technology Credit – Cash Flow",
+      "type": "Table",
+      "brief": "Cash flow and use allocation for hyperscalers",
+      "description": "Shows CFO, capex, shareholder returns, and FCF for hyperscalers, highlighting cash flows covering expenditure",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Metric | Total Value ($bn) | Capex ($bn) | Shareholder Returns ($bn) | FCF after Shareholder Returns ($bn) |\n|---|---|---|---|---|---|\n| CY23 | CFO | 350 | - | - | - |\n| CY23 | Cash Use | 350 | 140 | 110 | 100 |\n| CY24 | CFO | 460 | - | - | - |\n| CY24 | Cash Use | 460 | 230 | 100 | 130 |\n| CY25E | CFO | 550 | - | - | - |\n| CY25E | Cash Use | 550 | 320 | 100 | 130 |\n| CY26E | CFO | 650 | - | - | - |\n| CY26E | Cash Use | 650 | 380 | 120 | 150 |\n| CY27E | CFO | 770 | - | - | - |\n| CY27E | Cash Use | 770 | 430 | 130 | 210 |",
+        "key_insight": "CFO rises from $350bn in CY23 to $770bn in CY27E, covering increasing capex and shareholder returns",
+        "table_type": "Cash Flow",
+        "full_rows": 12
+      }
+    },
+    {
+      "name": "Technology Credit – Cash Flow from Operations",
+      "type": "Metric",
+      "brief": "Projected cash flow from operations at CY27E",
+      "description": "Estimates hyperscalers’ CFO to assess internal financing capacity",
+      "properties": {
+        "unit": "USD bn",
+        "value": 770,
+        "as_of": "CY27E"
+      }
+    },
+    {
+      "name": "Technology Credit – Capital Expenditures",
+      "type": "Metric",
+      "brief": "Projected capex requirement at CY27E",
+      "description": "Forecast of hyperscalers’ capex used to assess funding needs",
+      "properties": {
+        "unit": "USD bn",
+        "value": 430,
+        "as_of": "CY27E"
+      }
+    },
+    {
+      "name": "Technology Credit – Free Cash Flow after Shareholder Returns",
+      "type": "Metric",
+      "brief": "Projected free cash flow after shareholder returns at CY27E",
+      "description": "Key indicator of residual cash available for growth and debt",
+      "properties": {
+        "unit": "USD bn",
+        "value": 210,
+        "as_of": "CY27E"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Technology Credit – Cash Flow",
+      "target": "Technology Credit – Cash Flow from Operations",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 770,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected CFO metric at CY27E"
+    },
+    {
+      "source": "Table T1 – Technology Credit – Cash Flow",
+      "target": "Technology Credit – Capital Expenditures",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 430,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected capex metric at CY27E"
+    },
+    {
+      "source": "Table T1 – Technology Credit – Cash Flow",
+      "target": "Technology Credit – Free Cash Flow after Shareholder Returns",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 210,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected FCF after shareholder returns at CY27E"
+    }
+  ],
+  "scenarios": []
+}

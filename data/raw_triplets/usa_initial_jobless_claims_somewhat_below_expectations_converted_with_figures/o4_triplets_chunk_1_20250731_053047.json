@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "name": "US Jobless Claims - Initial Jobless Claims",
+      "type": "Metric",
+      "brief": "Weekly initial unemployment filings",
+      "description": "Number of initial jobless claims for the week ended July 19, 2025",
+      "properties": {
+        "unit": "k",
+        "value": 217,
+        "as_of": "2025-07-19"
+      }
+    },
+    {
+      "name": "US Jobless Claims - Continuing Jobless Claims",
+      "type": "Metric",
+      "brief": "Weekly continued unemployment filings",
+      "description": "Number of continuing jobless claims for the week ended July 12, 2025",
+      "properties": {
+        "unit": "k",
+        "value": 1955,
+        "as_of": "2025-07-12"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

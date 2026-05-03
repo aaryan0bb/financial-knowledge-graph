@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "S&P Global US services PMI",
+      "type": "Metric",
+      "brief": "US services business activity index",
+      "description": "Measures US services sector activity; preliminary July reading above consensus",
+      "properties": {
+        "value": 55.2,
+        "unit": "indexPts",
+        "as_of": "2025-07"
+      }
+    },
+    {
+      "name": "S&P Global US manufacturing PMI",
+      "type": "Metric",
+      "brief": "US manufacturing activity index",
+      "description": "Measures US manufacturing sector activity; preliminary July reading in contraction",
+      "properties": {
+        "value": 49.5,
+        "unit": "indexPts",
+        "as_of": "2025-07"
+      }
+    },
+    {
+      "name": "US new home sales MoM change",
+      "type": "Metric",
+      "brief": "Monthly percent change in new home sales",
+      "description": "New home sales rose less than expected in June",
+      "properties": {
+        "value": 0.6,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "US Q2 GDP tracking estimate",
+      "type": "Metric",
+      "brief": "Quarterly GDP growth tracking estimate",
+      "description": "Goldman Sachs Q2 GDP tracking estimate after June data",
+      "properties": {
+        "value": 2.7,
+        "unit": "%",
+        "as_of": "2025-Q2"
+      }
+    },
+    {
+      "name": "US Q2 domestic final sales estimate",
+      "type": "Metric",
+      "brief": "GDP domestic final sales Q2 estimate",
+      "description": "Goldman Sachs Q2 domestic final sales estimate",
+      "properties": {
+        "value": 0.9,
+        "unit": "%",
+        "as_of": "2025-Q2"
+      }
+    },
+    {
+      "name": "US government policy concerns",
+      "type": "Factor",
+      "brief": "Concerns over government policies",
+      "description": "Survey respondents cite tariffs and federal spending cuts as concerns",
+      "properties": {
+        "driver": "tariffs and federal spending cuts"
+      }
+    },
+    {
+      "name": "US business confidence",
+      "type": "Factor",
+      "brief": "Business confidence level",
+      "description": "Business confidence negatively impacted by government policy concerns",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US government policy concerns",
+      "target": "US business confidence",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Tariffs and spending cuts weigh on business confidence"
+    },
+    {
+      "source": "US business confidence",
+      "target": "S&P Global US manufacturing PMI",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak business confidence contributes to manufacturing PMI contraction"
+    },
+    {
+      "source": "US new home sales MoM change",
+      "target": "US Q2 GDP tracking estimate",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -0.1,
+        "unit": "pp",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Below-expectation new home sales led to 0.1pp GDP estimate cut"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "scenario_1",
+      "root_trigger": "US government policy concerns",
+      "probability": 0.56,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "IMPACTS",
+          "source": "US government policy concerns",
+          "target": "US business confidence",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "US business confidence",
+          "target": "S&P Global US manufacturing PMI",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

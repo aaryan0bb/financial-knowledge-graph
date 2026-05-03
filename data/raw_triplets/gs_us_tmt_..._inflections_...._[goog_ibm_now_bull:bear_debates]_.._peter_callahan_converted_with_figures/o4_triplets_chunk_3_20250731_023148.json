@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "TMT - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Search and AI-focused core business",
+      "description": "Alphabet leverages Search product and AI to differentiate in TMT sector",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "TMT",
+        "rating_outlook": "Buy"
+      }
+    },
+    {
+      "name": "TMT - IBM",
+      "type": "Company",
+      "brief": "Enterprise tech and consulting services provider",
+      "description": "IBM is a debated large-cap tech stock facing mixed software momentum and FCF growth",
+      "properties": {
+        "ticker": "IBM",
+        "sector": "TMT",
+        "rating_outlook": "Buy"
+      }
+    },
+    {
+      "name": "TMT - Oracle Corp.",
+      "type": "Company",
+      "brief": "Enterprise software company",
+      "description": "Oracle is one of large-cap tech stocks debated alongside IBM",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - Uber Technologies Inc.",
+      "type": "Company",
+      "brief": "Ridesharing and mobility platform",
+      "description": "Uber is among debated large-cap tech equities alongside IBM",
+      "properties": {
+        "ticker": "UBER",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow, Inc.",
+      "type": "Company",
+      "brief": "Cloud-based IT service management provider",
+      "description": "Strong ServiceNow performance drives pre-market gains amidst sector sentiment",
+      "properties": {
+        "ticker": "NOW",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - IBM Pre-Market Price Change",
+      "type": "Event",
+      "brief": "IBM share price change in pre-market trading",
+      "description": "IBM stock fell 6.5% in pre-market trading",
+      "properties": {
+        "date": null,
+        "event_type": "price_change",
+        "impact_value": -6.5,
+        "unit": "%",
+        "affected_tickers": [
+          "IBM"
+        ],
+        "region": "pre-market"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow Pre-Market Price Change",
+      "type": "Event",
+      "brief": "ServiceNow share price change in pre-market trading",
+      "description": "ServiceNow stock rose 8% in pre-market trading",
+      "properties": {
+        "date": null,
+        "event_type": "price_change",
+        "impact_value": 8,
+        "unit": "%",
+        "affected_tickers": [
+          "NOW"
+        ],
+        "region": "pre-market"
+      }
+    },
+    {
+      "name": "TMT - Negative Investor Sentiment",
+      "type": "Factor",
+      "brief": "Widespread bearish investor sentiment",
+      "description": "Investor sentiment turned negative amid software momentum and FCF misses",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "TMT - Bullish Sentiment",
+      "type": "Factor",
+      "brief": "Positive investor sentiment or bull case",
+      "description": "Bullish views hinge on margins beat and software growth outlook",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Software Momentum",
+      "type": "Factor",
+      "brief": "Momentum in software growth",
+      "description": "Software segment underperformed with deceleration in organic growth",
+      "properties": {
+        "direction": "down",
+        "driver": "organic growth deceleration"
+      }
+    },
+    {
+      "name": "TMT - Consulting Bookings Decline",
+      "type": "Factor",
+      "brief": "IBM consulting bookings change",
+      "description": "IBM's consulting bookings declined year-over-year",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 18
+      }
+    },
+    {
+      "name": "TMT - Gross Margin Beat",
+      "type": "Metric",
+      "brief": "IBM gross margin beat",
+      "description": "IBM delivered gross margins about 2 percentage points above expectations",
+      "properties": {
+        "value": 2,
+        "unit": "percentage_point",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TMT - Negative Investor Sentiment",
+      "target": "TMT - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Negative sentiment pressures Alphabet"
+    },
+    {
+      "source": "TMT - Software Momentum",
+      "target": "TMT - Negative Investor Sentiment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decelerated software momentum triggered negative sentiment"
+    },
+    {
+      "source": "TMT - Consulting Bookings Decline",
+      "target": "TMT - Negative Investor Sentiment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Decline in consulting bookings contributed to negative sentiment"
+    },
+    {
+      "source": "TMT - Negative Investor Sentiment",
+      "target": "TMT - IBM Pre-Market Price Change",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -6.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Bearish sentiment drove IBM pre-market drop"
+    },
+    {
+      "source": "TMT - Gross Margin Beat",
+      "target": "TMT - Bullish Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "percentage_point",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Margin beat informs bullish case"
+    },
+    {
+      "source": "TMT - AI Multi-Surface Approach",
+      "target": "TMT - Alphabet Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AI multi-surface approach informs Alphabet's positioning"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "TMT - Software Momentum",
+      "probability": 0.8,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "TMT - Software Momentum",
+          "target": "TMT - Negative Investor Sentiment",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "TMT - Negative Investor Sentiment",
+          "target": "TMT - IBM Pre-Market Price Change",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": -6.5,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}

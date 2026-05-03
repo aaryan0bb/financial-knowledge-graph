@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Fiserv Inc. Goldman Sachs Rating and Price Target History",
+      "type": "Table",
+      "brief": "GS ratings and price targets vs. Fiserv stock and S&P 500",
+      "description": "Shows GS rating and price target trends for Fiserv relative to the S&P 500, highlighting the April 2025 inflection and rating change.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Stock Price ($) | Price Target ($) | S&P 500 Index | GS Rating | Analyst Coverage |\n|:-----------|:----------------|:-----------------|:--------------|:----------|:-----------------|\n| Aug 2022   | 105             | 110              | 4200          | Neutral   | Covered by Will Nance |\n| Sep 2022   | 115             | 118              | 3900          | Neutral   | Covered by Will Nance |\n| Oct 2022   | 110             | 123              | 3800          | Neutral   | Covered by Will Nance |\n| Nov 2022   | 100             | 105              | 4000          | Neutral   | Covered by Will Nance |\n| Dec 2022   | 105             | 111              | 3900          | Neutral   | Covered by Will Nance |\n| Jan 2023   | 110             | 105              | 4100          | Neutral   | Covered by Will Nance |\n| Feb 2023   | 120             | 127              | 4000          | Neutral   | Covered by Will Nance |\n| Mar 2023   | 125             | 123              | 4050          | Neutral   | Covered by Will Nance |\n| May 2023   | 125             | 126              | 4200          | Neutral   | Covered by Will Nance |\n| Oct 2023   | 140             | 134              | 4200          | Neutral   | Covered by Will Nance |\n| Nov 2023   | 150             | 153              | 4500          | Neutral   | Covered by Will Nance |\n| Dec 2023   | 160             | 160              | 4750          | Neutral   | Covered by Will Nance |\n| Jan 2024   | 165             | 167              | 4850          | Neutral   | Covered by Will Nance |\n| Mar 2024   | 180             | 168              | 5200          | Neutral   | Covered by Will Nance |\n| Apr 2024   | 190             | 171              | 5100          | Neutral   | Covered by Will Nance |\n| Jun 2024   | 210             | 188              | 5450          | Neutral   | Covered by Will Nance |\n| Sep 2024   | 210             | 208              | 5700          | Neutral   | Covered by Will Nance |\n| Oct 2024   | 220             | 231              | 5800          | Neutral   | Covered by Will Nance |\n| Dec 2024   | 240             | 246              | 6200          | Neutral   | Covered by Will Nance |\n| Jan 2025   | 250             | 252              | 6400          | Neutral   | Covered by Will Nance |\n| Apr 2, 25  | 200             | 260 (at removal) | 5800          | Buy       | Covered by Will Nance |\n| May 2025   | 170             | 223              | 5900          | Buy       | Covered by Will Nance |\n| Jun 2025   | 160             | 194              | 6100          | Buy       | Covered by Will Nance |",
+        "key_insight": "Around April 2025, Fiserv's stock sharply declined while the S&P 500 rose, coinciding with GS's upgrade to Buy and lowered price targets to $223 and $194."
+      }
+    },
+    {
+      "name": "Fiserv Inc. Rating Upgrade to Buy",
+      "type": "Event",
+      "brief": "GS raised Fiserv rating from Neutral to Buy",
+      "description": "On April 2, 2025, Goldman Sachs upgraded Fiserv's rating to Buy despite stock decline, signaling a perceived value opportunity.",
+      "properties": {
+        "date": "2025-04-02",
+        "event_type": "rating_change",
+        "new_rating": "Buy",
+        "affected_tickers": [
+          "FI"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Fiserv Inc. Goldman Sachs Rating and Price Target History",
+      "target": "Fiserv Inc. Rating Upgrade to Buy",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table context explains the GS rating upgrade event"
+    }
+  ],
+  "scenarios": []
+}

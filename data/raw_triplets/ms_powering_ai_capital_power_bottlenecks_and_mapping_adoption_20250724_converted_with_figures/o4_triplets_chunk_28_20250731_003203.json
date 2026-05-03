@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "Event",
+      "brief": "Trump admin may expand AI tech export restrictions on China",
+      "description": "Potential policy restrictions by the Trump administration on AI technology exports to China",
+      "properties": {
+        "date": null,
+        "event_type": "policy_restriction",
+        "region": "China"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Trump AI Technology Restriction Effort",
+      "type": "Factor",
+      "brief": "Trump administration's expansive AI restriction approach",
+      "description": "Expansive policy approach by the Trump administration to restrict AI technology exports",
+      "properties": {
+        "direction": "up",
+        "driver": "policy"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US AI Export Control Legislation",
+      "type": "Factor",
+      "brief": "Mark Green's proposed AI export control safeguards",
+      "description": "Proposed legislation by US House Homeland Security to prevent AI tech shocks by China",
+      "properties": {
+        "direction": "up",
+        "driver": "legislation"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Dario Amodei AI Warning",
+      "type": "Factor",
+      "brief": "Anthropic CEO warns on China tech advantage",
+      "description": "Expert opinion highlighting risk of China gaining AI advantage without restrictions",
+      "properties": {
+        "driver": "expert_opinion"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - China Chip Access",
+      "type": "Factor",
+      "brief": "Potential reduction in China's AI chip access",
+      "description": "China's inability to procure millions of AI chips could limit its AI capabilities",
+      "properties": {
+        "direction": "down",
+        "driver": "supply"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Unipolar World",
+      "type": "Factor",
+      "brief": "Scenario of US-led unipolar AI dominance",
+      "description": "World state where only the US and its allies possess advanced AI models",
+      "properties": {
+        "driver": "geopolitical"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Data Center Infrastructure - Trump AI Technology Restriction Effort",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Trump admin approach causes possible AI tech restrictions on China"
+    },
+    {
+      "source": "Global Data Center Infrastructure - US AI Export Control Legislation",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Proposed legislation causes possible AI tech restrictions on China"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Dario Amodei AI Warning",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Expert warning contributes to potential AI tech restrictions"
+    },
+    {
+      "source": "Global Data Center Infrastructure - China Chip Access",
+      "target": "Global Data Center Infrastructure - Unipolar World",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Reduced chip access for China causes a unipolar world"
+    }
+  ],
+  "scenarios": []
+}

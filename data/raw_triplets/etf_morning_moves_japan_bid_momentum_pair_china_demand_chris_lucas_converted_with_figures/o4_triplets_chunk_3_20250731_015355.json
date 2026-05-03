@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "Chart C1 – Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "type": "Chart",
+      "brief": "20-day performance difference between SPMO and IWM",
+      "description": "Line chart showing extreme volatility and frequent reversals in SPMO vs IWM performance",
+      "properties": {
+        "chart_id": "C1",
+        "x_axis": "Date",
+        "y_axis": "Performance Difference %",
+        "period_start": "2024-12-31",
+        "period_end": "2025-07-29",
+        "key_insight": "Extreme volatility with peaks at ~7.5% and troughs at ~-2.5%"
+      }
+    },
+    {
+      "name": "Momentum Factor Peak 20-Day Performance",
+      "type": "Metric",
+      "brief": "Mid-May peak of SPMO vs IWM performance",
+      "description": "Peak 20-day performance difference reached ~7.5% on May 7, 2025",
+      "properties": {
+        "value": 7.5,
+        "unit": "%",
+        "as_of": "2025-05-07",
+        "peak_date": "2025-05-07"
+      }
+    },
+    {
+      "name": "Momentum Factor Trough 20-Day Performance",
+      "type": "Metric",
+      "brief": "Late-July trough of SPMO vs IWM performance",
+      "description": "Trough 20-day performance difference reached ~-2.5% on July 29, 2025",
+      "properties": {
+        "value": -2.5,
+        "unit": "%",
+        "as_of": "2025-07-29",
+        "trough_date": "2025-07-29"
+      }
+    },
+    {
+      "name": "Momentum Factor Net Inflows (SPMO & MTUM)",
+      "type": "Metric",
+      "brief": "Combined net inflows to SPMO and MTUM over past month",
+      "description": "SPMO and MTUM collectively added $1.5bn in new money over the past month",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Momentum Cohort MTD Performance",
+      "type": "Metric",
+      "brief": "Momentum cohort down 3.6% month-to-date",
+      "description": "Quant community momentum cohort is down 3.6% MTD, on track for worst month in almost 5 years",
+      "properties": {
+        "value": -3.6,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "China ETF Creation Cycle",
+      "type": "Event",
+      "brief": "Resumption of creation cycle for China ETFs",
+      "description": "China ETFs are starting to re-enter a creation cycle",
+      "properties": {
+        "date": null,
+        "event_type": "creation_cycle",
+        "region": "China",
+        "affected_tickers": [
+          "China ETF MCHI",
+          "China ETF KWEB"
+        ]
+      }
+    },
+    {
+      "name": "China ETF MCHI",
+      "type": "Instrument",
+      "brief": "MSCI China ETF",
+      "description": "Major China ETF product MCHI",
+      "properties": {
+        "ticker": "MCHI"
+      }
+    },
+    {
+      "name": "China ETF KWEB",
+      "type": "Instrument",
+      "brief": "KraneShares CSI China Internet ETF",
+      "description": "Major China ETF product KWEB",
+      "properties": {
+        "ticker": "KWEB"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Chart C1 – Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "target": "Momentum Factor Peak 20-Day Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Chart highlights mid-May peak of ~7.5%"
+    },
+    {
+      "source": "Chart C1 – Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "target": "Momentum Factor Trough 20-Day Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -2.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Chart highlights late-July trough of ~-2.5%"
+    },
+    {
+      "source": "China ETF Creation Cycle",
+      "target": "China ETF MCHI",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Buyers of MCHI indicate resumed creation cycle"
+    },
+    {
+      "source": "China ETF Creation Cycle",
+      "target": "China ETF KWEB",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Buyers of KWEB indicate resumed creation cycle"
+    }
+  ],
+  "scenarios": []
+}

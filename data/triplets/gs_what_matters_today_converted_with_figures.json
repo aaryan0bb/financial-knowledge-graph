@@ -1,0 +1,614 @@
+{
+  "entities": [
+    {
+      "name": "Short Interest Pair GSPUWSHI Index",
+      "type": "Instrument",
+      "brief": "High vs Low Short Interest Pair index",
+      "description": "Sector, industry & factor neutral index measuring short interest pair returns",
+      "properties": {
+        "ticker": "GSPUWSHI",
+        "volatility": 13,
+        "volatility_unit": "%"
+      }
+    },
+    {
+      "name": "Short Interest Pair 1m Return",
+      "type": "Metric",
+      "brief": "1-month return of GSPUWSHI Index in July 2025",
+      "description": "9.965% 1-month return for the Short Interest Pair index in July 2025",
+      "properties": {
+        "value": 9.965,
+        "unit": "%",
+        "as_of": "2025-07"
+      }
+    },
+    {
+      "name": "Short Interest Pair 99.7th Percentile Rally",
+      "type": "Factor",
+      "brief": "99.7th percentile monthly return rally",
+      "description": "1-month return rally at 99.7th percentile vs last 17 years",
+      "properties": {
+        "magnitude_sigma": 3.8,
+        "percentile": 99.7,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Short Interest Pair Retail Participation",
+      "type": "Factor",
+      "brief": "Spike in retail participation",
+      "description": "Retail participation has spiked in high short interest names",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Short Interest Pair Animal Spirit",
+      "type": "Factor",
+      "brief": "Market animal spirit",
+      "description": "Market rally driven by animal spirit",
+      "properties": {
+        "driver": "animal spirit"
+      }
+    },
+    {
+      "name": "Short Interest Pair October 2008 Rally",
+      "type": "Event",
+      "brief": "1-month return peak in October 2008",
+      "description": "12.5% 1-month return rally for the Short Interest Pair index",
+      "properties": {
+        "date": "2008-10",
+        "event_type": "rally",
+        "impact_value": 12.5,
+        "unit": "%",
+        "affected_tickers": [
+          "GSPUWSHI"
+        ]
+      }
+    },
+    {
+      "name": "Short Interest Pair January 2021 Rally",
+      "type": "Event",
+      "brief": "1-month return peak in January 2021",
+      "description": "19.5% 1-month return rally for the Short Interest Pair index",
+      "properties": {
+        "date": "2021-01",
+        "event_type": "rally",
+        "impact_value": 19.5,
+        "unit": "%",
+        "affected_tickers": [
+          "GSPUWSHI"
+        ]
+      }
+    },
+    {
+      "name": "Hedge Funds - Fundamental L/S Returns MTD",
+      "type": "Metric",
+      "brief": "Monthly-to-date fundamental long/short returns",
+      "description": "Fundamental L/S strategy returned 0.7% MTD driven by beta gains",
+      "properties": {
+        "value": 0.7,
+        "unit": "%",
+        "as_of": "MTD"
+      }
+    },
+    {
+      "name": "Hedge Funds - Fundamental L/S Returns YTD",
+      "type": "Metric",
+      "brief": "Year-to-date fundamental long/short returns",
+      "description": "Fundamental L/S strategy returned 7% YTD",
+      "properties": {
+        "value": 7,
+        "unit": "%",
+        "as_of": "YTD"
+      }
+    },
+    {
+      "name": "Hedge Funds - PB Book Gross Exposure",
+      "type": "Metric",
+      "brief": "Gross exposure for the full PB book",
+      "description": "PB book gross exposure declined by 7 pts in July",
+      "properties": {
+        "value": -7,
+        "unit": "pts",
+        "as_of": "July"
+      }
+    },
+    {
+      "name": "Hedge Funds - Gross Leverage",
+      "type": "Factor",
+      "brief": "Overall hedge fund gross leverage trend",
+      "description": "Hedge fund gross leverage has seen a sharp decline month-to-date",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Hedge Funds - Beta Gains",
+      "type": "Factor",
+      "brief": "Beta-driven gains factor for Fundamental L/S",
+      "description": "Beta gains driving fundamental L/S returns",
+      "properties": {
+        "driver": "beta",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T4 \u2013 S&P 500 Inclusion Effect by Stock Origin",
+      "type": "Table",
+      "brief": "Relative performance of S&P 500 index additions vs equal-weight index by origin",
+      "description": "Chart shows variation in announcement-day relative performance for S&P 500 additions based on stock origin since 2013",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category           | Average Relative Performance (pp) | Median Relative Performance (pp) |\n|--------------------|-----------------------------------|----------------------------------|\n| From S&P 400       | -0.4                              | -0.7                             |\n| Not from S&P 400   | 5.3                               | 4.9                              |\n| All                | 1.7                               | 0.7                              |",
+        "key_insight": "Additions not from the S&P 400 have the highest announcement-day relative performance (5.3 pp average, 4.9 pp median)."
+      }
+    },
+    {
+      "name": "S&P 500 inclusion average relative performance \u2013 Not from S&P 400",
+      "type": "Metric",
+      "brief": "Average announcement-day relative performance for Not from S&P 400 additions",
+      "description": "Represents the average excess performance of stocks added to the S&P 500 not from the S&P 400 on announcement day",
+      "properties": {
+        "unit": "pp",
+        "value": 5.3,
+        "as_of": "announcement day since 2013"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 S&P 500 Index Inclusion Effect Trends",
+      "type": "Table",
+      "brief": "Trends in performance of S&P 500 index additions (2013\u20132025)",
+      "description": "Chart shows average relative performance and hit rate of S&P 500 index additions from 2013 to 2025 revealing decline to -0.6 pp in 2019 and resurgence to 7.4 pp in 2025 with hit rate rising to 90%.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Average Relative Performance (pp) | Hit Rate of Outperformance (%) |\n|---|---|---|\n| 2013 | 2.2 | 83% |\n| 2014 | 1.2 | 78% |\n| 2015 | 2.0 | 75% |\n| 2016 | 0.3 | 48% |\n| 2017 | 0.5 | 58% |\n| 2018 | -0.1 | 32% |\n| 2019 | -0.6 | 25% |\n| 2020 | 0.8 | 50% |\n| 2021 | 2.7 | 60% |\n| 2022 | 2.2 | 70% |\n| 2023 | 4.1 | 80% |\n| 2024 | 5.4 | 88% |\n| 2025 | 7.4 | 90% |",
+        "key_insight": "Average relative performance of S&P 500 additions bottomed at -0.6 pp in 2019 then surged to 7.4 pp by 2025 with hit rates climbing from 25% to 90%."
+      }
+    },
+    {
+      "name": "S&P 500 Index Inclusion Effect Resurgence",
+      "type": "Factor",
+      "brief": "Resurgence of inclusion premium for S&P 500 added stocks",
+      "description": "Significant upward trend in average outperformance and hit rate of S&P 500 index additions post-2021",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Google Overall Prime Book Gross Leverage MoM Change",
+      "type": "Table",
+      "brief": "Month-over-month change in prime book gross leverage",
+      "description": "Shows volatility with a -7% July 2025 decline as a de-risking signal",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Month/Period | Monthly Change (% pts) |\n|---|---|---|\n| 2016 | Peak | +13.5 |\n| 2016 | Trough | -4.5 |\n| 2018 | Trough | -4.0 |\n| 2019 | Peak | +7.5 |\n| 2019 | Trough | -7.5 |\n| 2020 | Peak | +7.5 |\n| 2021 | Trough | -4.5 |\n| 2022 | Peak | +3.0 |\n| 2022 | Trough | -12.0 |\n| 2023 | Peak | +13.5 |\n| 2023 | Trough | -6.5 |\n| 2024 | Jan | +3.0 |\n| 2024 | Feb | +0.5 |\n| 2024 | Mar | -0.5 |\n| 2024 | Apr | -4.0 |\n| 2024 | May | +3.0 |\n| 2024 | Jun | -6.0 |\n| 2024 | Jul | +6.0 |\n| 2024 | Aug | -1.0 |\n| 2024 | Sep | +0.5 |\n| 2024 | Oct | -3.0 |\n| 2024 | Nov | +5.0 |\n| 2024 | Dec | +3.0 |\n| 2025 | Jan | -3.0 |\n| 2025 | Feb | +4.0 |\n| 2025 | Mar | +0.5 |\n| 2025 | Apr | +3.0 |\n| 2025 | May | -1.0 |\n| 2025 | Jun | +5.0 |\n| 2025 | Jul MTD Decline | -7.0 |",
+        "key_insight": "The -7% decline in July 2025 MTD is one of the largest monthly decreases, indicating a de-risking trend."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Google Prime Book US Single Stocks 1-Day Notional Short Flow",
+      "type": "Table",
+      "brief": "Daily 1-Day Notional Short Flow Z-score for US single stocks",
+      "description": "Highlights spikes of short covering with +1.8 Z-score on July 22, 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date (Approx.) | 1-Day Notional Short Flow (Z Score) | Implication          |\n|----------------|-------------------------------------|----------------------|\n| Aug 2024 (Early) | +1.5                                | Short Covering       |\n| Aug 2024 (Mid)   | -0.8                                | Shorting Activity    |\n| Sep 2024 (Early) | -1.0                                | Shorting Activity    |\n| Sep 2024 (Late)  | +0.3                                | Short Covering       |\n| Oct 2024 (Mid)   | +2.0                                | Short Covering       |\n| Oct 2024 (Late)  | -0.8                                | Shorting Activity    |\n| Nov 2024 (Early) | +0.5                                | Short Covering       |\n| Nov 2024 (Late)  | -1.8                                | Shorting Activity    |\n| Dec 2024 (Early) | +1.2                                | Short Covering       |\n| Dec 2024 (Mid)   | -3.2                                | Strong Shorting      |\n| Dec 2024 (Late)  | +0.5                                | Short Covering       |\n| Jan 2025 (Early) | +2.2                                | Short Covering       |\n| Jan 2025 (Mid)   | -1.0                                | Shorting Activity    |\n| Jan 2025 (Late)  | +1.8                                | Short Covering       |\n| Feb 2025 (Early) | +1.0                                | Short Covering       |\n| Feb 2025 (Late)  | -0.5                                | Shorting Activity    |\n| Mar 2025 (Peak)  | +3.8                                | Strong Short Covering|\n| Mar 2025 (Trough) | -2.8                                | Strong Shorting      |\n| Mar 2025 (Late)  | +0.5                                | Short Covering       |\n| Apr 2025 (Early) | +2.0                                | Short Covering       |\n| Apr 2025 (Mid)   | -1.5                                | Shorting Activity    |\n| May 2025 (Peak)  | +3.2                                | Strong Short Covering|\n| May 2025 (Trough) | -2.0                                | Strong Shorting      |\n| Jun 2025 (Early) | -1.5                                | Shorting Activity    |\n| Jun 2025 (Late)  | +1.0                                | Short Covering       |\n| Jul 2025 (Early) | +0.8                                | Short Covering       |\n| Jul 22, 2025     | +1.8                                | Strong Short Covering|\n| Jul 2025 (Late)  | +0.5                                | Short Covering       |",
+        "key_insight": "As of July 22, 2025, the Z-score reached +1.8, indicating strong short covering."
+      }
+    },
+    {
+      "name": "Google De-risking Trend",
+      "type": "Factor",
+      "brief": "Broad market de-leveraging trend",
+      "description": "Significant reduction in prime book exposure indicates de-risking",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 7.0
+      }
+    },
+    {
+      "name": "Google Short Squeeze",
+      "type": "Factor",
+      "brief": "Intense short covering environment",
+      "description": "Periods of strong short covering driven by retail participation",
+      "properties": {
+        "direction": "up",
+        "magnitude_sigma": 1.8
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Short Squeeze Environment: 10-day Retail Participation in Short Interest Stocks",
+      "type": "Table",
+      "brief": "10-day avg retail participation in high vs low short interest stocks",
+      "description": "Shows retail participation trends for high and low short interest stocks, highlighting volatility and peaks over 2020\u20132025 period",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | High Short Interest Participation (%) | Low Short Interest Participation (%) |\n|-----------|---------------------------------------|--------------------------------------|\n| 23 Jul 20 | 14%                                   | 9%                                   |\n| Jan 2021  | 24%                                   | 12%                                  |\n| May 2021  | 17%                                   | 9%                                   |\n| Sep 2021  | 20%                                   | 11%                                  |\n| Jan 2022  | 19%                                   | 10%                                  |\n| May 2022  | 23%                                   | 12%                                  |\n| Sep 2022  | 17%                                   | 7%                                   |\n| Jan 2023  | 15%                                   | 7%                                   |\n| May 2023  | 22%                                   | 12%                                  |\n| Sep 2023  | 17%                                   | 8%                                   |\n| Jan 2024  | 16%                                   | 7%                                   |\n| May 2024  | 22%                                   | 10%                                  |\n| Sep 2024  | 19%                                   | 8%                                   |\n| Jan 2025  | 18%                                   | 7%                                   |\n| 22 Jul 25 | 21%                                   | 8%                                   |",
+        "key_insight": "Retail participation in high short interest stocks remains higher and more volatile than low short interest stocks, with notable peaks at early 2021 (24%), mid-2022 (23%), mid-2023 (22%), and July 2025 (21%)."
+      }
+    },
+    {
+      "name": "Short Squeeze Environment \u2013 High Short Interest Retail Participation",
+      "type": "Factor",
+      "brief": "10-day avg retail participation in high short interest stocks",
+      "description": "Reflects the 10-day moving average participation of retail investors in high short interest stocks, showing volatility and peak participation levels over 2020\u20132025.",
+      "properties": {
+        "lookback_days": 10,
+        "direction": "up",
+        "magnitude_%": 21
+      }
+    },
+    {
+      "name": "Alphabet Inc. (GOOGL)",
+      "type": "Company",
+      "brief": "Alphabet Inc. Class A shares",
+      "description": "Parent company of Google services, ticker GOOGL",
+      "properties": {
+        "ticker": "GOOGL"
+      }
+    },
+    {
+      "name": "Google 2025 Capex Guidance",
+      "type": "Metric",
+      "brief": "2025 capital expenditure guidance",
+      "description": "Guidance raised by $10bn to ~$85bn",
+      "properties": {
+        "unit": "USD bn",
+        "value": 85,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Broadcom Inc. (AVGO)",
+      "type": "Company",
+      "brief": "Semiconductor company",
+      "description": "Semis/AI chip maker saw early gains",
+      "properties": {
+        "ticker": "AVGO",
+        "price_change_percent": 2
+      }
+    },
+    {
+      "name": "Advanced Micro Devices Inc. (AMD)",
+      "type": "Company",
+      "brief": "Semiconductor company",
+      "description": "Chip maker saw early session gains",
+      "properties": {
+        "ticker": "AMD",
+        "price_change_percent": 1
+      }
+    },
+    {
+      "name": "NVIDIA Corp. (NVDA)",
+      "type": "Company",
+      "brief": "GPU and AI computing leader",
+      "description": "Chip maker saw early session gains",
+      "properties": {
+        "ticker": "NVDA",
+        "price_change_percent": 1
+      }
+    },
+    {
+      "name": "Google Search Feature AI Overviews Users",
+      "type": "Metric",
+      "brief": "Users of Search feature AI Overviews",
+      "description": "Over 2B users reported in headlines",
+      "properties": {
+        "unit": "count",
+        "value": 2000000000,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Google VEO3 Videos Made",
+      "type": "Metric",
+      "brief": "Videos made using VEO3",
+      "description": "Over 70M videos made using VEO3 technology",
+      "properties": {
+        "unit": "count",
+        "value": 70000000,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Google Gemini App Monthly Active Users",
+      "type": "Metric",
+      "brief": "Monthly active users of Gemini App",
+      "description": "Over 450M US monthly active users reported",
+      "properties": {
+        "unit": "count",
+        "value": 450000000,
+        "as_of": "2025-07-24",
+        "region": "US"
+      }
+    },
+    {
+      "name": "International Business Machines Corp. (IBM)",
+      "type": "Company",
+      "brief": "Technology and consulting firm",
+      "description": "IBM shares fell on underwhelming software results",
+      "properties": {
+        "ticker": "IBM",
+        "price_change_percent": -5
+      }
+    },
+    {
+      "name": "ServiceNow Inc. (NOW)",
+      "type": "Company",
+      "brief": "Cloud workflow software provider",
+      "description": "Shares rose on beat and FY guidance raise",
+      "properties": {
+        "ticker": "NOW",
+        "price_change_percent": 7
+      }
+    },
+    {
+      "name": "Tesla Inc. (TSLA)",
+      "type": "Company",
+      "brief": "Electric vehicle maker",
+      "description": "Shares fell on EPS miss and executive warning",
+      "properties": {
+        "ticker": "TSLA",
+        "price_change_percent": -6
+      }
+    },
+    {
+      "name": "IBM Underwhelming Software Results",
+      "type": "Event",
+      "brief": "Underwhelming software results",
+      "description": "IBM reported weaker-than-expected software results",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Software Results Miss"
+      }
+    },
+    {
+      "name": "NOW FY Guidance Raise",
+      "type": "Event",
+      "brief": "FY guidance raised",
+      "description": "ServiceNow raised full-year guidance after beat",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Guidance Raise"
+      }
+    },
+    {
+      "name": "TSLA EPS Miss and Musk Warning",
+      "type": "Event",
+      "brief": "EPS miss and warning of tough year",
+      "description": "Tesla reported EPS miss and Musk warned of challenges",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "EPS Miss"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Short Interest Pair Animal Spirit",
+      "target": "Short Interest Pair 1m Return",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Animal spirit drove the short interest pair's rally"
+    },
+    {
+      "source": "Short Interest Pair Retail Participation",
+      "target": "Short Interest Pair 1m Return",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Retail participation spike drove the short interest pair's rally"
+    },
+    {
+      "source": "Short Interest Pair GSPUWSHI Index",
+      "target": "Short Interest Pair 1m Return",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "GSPUWSHI Index produces the 1-month return metric"
+    },
+    {
+      "source": "Hedge Funds - Beta Gains",
+      "target": "Hedge Funds - Fundamental L/S Returns MTD",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Beta gains drive Fundamental L/S returns MTD"
+    },
+    {
+      "source": "Table T4 \u2013 S&P 500 Inclusion Effect by Stock Origin",
+      "target": "S&P 500 inclusion average relative performance \u2013 Not from S&P 400",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.3,
+        "unit": "pp",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Not from S&P 400 additions show 5.3 pp average relative performance"
+    },
+    {
+      "source": "Table T1 \u2013 S&P 500 Index Inclusion Effect Trends",
+      "target": "S&P 500 Index Inclusion Effect Resurgence",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table informs the resurgence of the S&P 500 index inclusion effect post-2021"
+    },
+    {
+      "source": "Table T1 \u2013 Google Overall Prime Book Gross Leverage MoM Change",
+      "target": "Google De-risking Trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -7.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decline in gross leverage informs de-risking trend"
+    },
+    {
+      "source": "Table T2 \u2013 Google Prime Book US Single Stocks 1-Day Notional Short Flow",
+      "target": "Google Short Squeeze",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "sigma",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Short flow Z-score informs short squeeze"
+    },
+    {
+      "source": "Google De-risking Trend",
+      "target": "Google Short Squeeze",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "De-risking trend triggers short squeeze conditions"
+    },
+    {
+      "source": "Table T1 \u2013 Short Squeeze Environment: 10-day Retail Participation in Short Interest Stocks",
+      "target": "Short Squeeze Environment \u2013 High Short Interest Retail Participation",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows higher and more volatile retail participation in high short interest stocks."
+    },
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "Broadcom Inc. (AVGO)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 2,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives Broadcom shares up"
+    },
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "Advanced Micro Devices Inc. (AMD)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives AMD shares up"
+    },
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "NVIDIA Corp. (NVDA)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives NVIDIA shares up"
+    },
+    {
+      "source": "IBM Underwhelming Software Results",
+      "target": "International Business Machines Corp. (IBM)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": -5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Software miss drives IBM shares down"
+    },
+    {
+      "source": "NOW FY Guidance Raise",
+      "target": "ServiceNow Inc. (NOW)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": 7,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Guidance raise pushes ServiceNow shares up"
+    },
+    {
+      "source": "TSLA EPS Miss and Musk Warning",
+      "target": "Tesla Inc. (TSLA)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": -6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "EPS miss and warning drag Tesla shares down"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_what_matters_today_converted_with_figures"
+}

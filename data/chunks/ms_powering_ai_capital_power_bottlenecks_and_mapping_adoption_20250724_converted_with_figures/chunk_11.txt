@@ -1,0 +1,24 @@
+Morgan Stanley                                                                                                                          July 24, 2025 
+
+What are investors asking? 
+
+                     How will GPUs be financed, particularly for non-IG buyers? 
+                     While it is clear that hyperscalers have both the cash on hand and access to capital markets necessary to 
+                     buy GPUs and build/lease data centers as needed, investors are more skeptical about non-IG and relatively 
+                     new Al players' ability to finance their purchases of GPUs in size and over time. Loans backed by GPUs that 
+                     amortize over time (and over a shorter period than the chips' useful life) is likely to be a popular solution. 
+                     Moreover, companies that lease these GPUs to high-quality counterparties benefit from strong contractual 
+                     terms that ensure cash flow over the term of the loan. We think public securitization could be a potential 
+                     solution, but not likely until later this decade. HY unsecured issuance is also an option but will come at a cost 
+                     to the borrower with rates in the high-single digits to mid-teens. 
+
+                     Is this another credit bubble? Why is this time different? 
+                     Seasoned credit investors will recall that through the later part of the 90s, corporates were very aggressive 
+                     with their capital allocation, and debt/leverage increased sharply. The period ultimately ended with the 
+                     sharpest default cycle in recent history from 2000-04. Clearly, debt growth of this magnitude runs into the 
+                     risk of obsolescence, slower monetization, and weak macro conditions. An encouraging sign, though, is the 
+                     diverse pools of capital that are available today, which can distribute the warehousing of credit risk (unlike 
+                     the late 1990s when it was concentrated on corporate balance sheets). The ultra-high-quality credit profile of 
+                     hyperscalers and significant cash on hand mean less sensitivity to macro conditions. 
+
+                                                                                                                                                        11

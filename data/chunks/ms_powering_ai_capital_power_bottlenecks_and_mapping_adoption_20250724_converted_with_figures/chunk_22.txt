@@ -1,0 +1,50 @@
+Morgan Stanley                                                                                                                                                                                                          July 24, 2025 
+
+ Bitcoin Stocks Trade at Low Enterprise Value/Watt Levels 
+
+ Many Bitcoin stocks trade at an 
+                                                                                                                                   Enterprise Value/Watt (for 100 MW+ Bitcoin Sites) 
+ EV/watt of $1-2, well below likely 
+
+ value of converting large sites to HPC                                                        $25.00 
+
+ data centers - quite low given the 
+                                                                                                                                                                    $20.24 
+ CoreWeave annual lease payments to                                                            $20.00 
+
+ CORZ are ~$1.50/watt per year for 12 
+                                                                                               $15.00 
+years                                                                                                                                                                    $12.65 
+                                                                                                                                                                                  $10.59 
+                                                                                               $10.00 
+ We would expect to continue to see 
+                                                                                                                                       $6.77 
+ conversion transactions at relatively                                                                    $4.44                                                                                  $5.76 $4.92    $5.41 
+                                                                                                $5.00         $3.94 
+                                                                                                                         $2.98                                                                                      $3.42     $2.84 
+ high implied EV/watt levels                                                                                                               $2.18 
+                                                                                                                             $1.82                    $1.93 $1.32                      $2.44 
+                                                                                                                                                                                                                                  $0.41 
+                                                                                                  $- 
+ Please ask us for a copy of our most                                                                   Marathon (MARA) Digital Riot (RIOT) Blockchain Cipher (CIFR) Mining Technologies BitDeer Holdings Galaxy Digital (GLXY) Terawulf (WULF) Core (CORZ) Scientific Applied (APLD) Digital HUT 8 (HUT) 
+                                                                                                                                                       (BTDR) 
+ recent model that shows this math 
+                                                                                                       Enterprise Value - per Watt (large, Op'l. and Under Construction) Enterprise Value - $ per Watt (large, Op'l, Under Construction + Dev) 
+
+ Source: FactSet, Company data, Morgan Stanley Research. Market Cap Data as of July 22, 2025.                                                                                                                                                     22 
+
+    | Company | Enterprise Value - $ per Watt (large, Op'l. and Under Construction) | Enterprise Value - $ per Watt (large, Op'l, Under Construction + Dev) |
+    |---|---|---|
+    | Marathon Digital (MARA) | $4.44 | $3.94 |
+    | Riot Blockchain (RIOT) | $2.98 | $1.82 |
+    | Cipher Mining (CIFR) | $6.77 | $2.18 |
+    | BitDeer Technologies (BTDR) | $1.93 | $1.32 |
+    | Galaxy Digital Holdings (GLXY) | $20.24 | $12.65 |
+    | Terawulf (WULF) | $10.59 | $2.44 |
+    | Core Scientific (CORZ) | $5.76 | $4.92 |
+    | Applied Digital (APLD) | $5.41 | $3.42 |
+    | HUT 8 (HUT) | $2.84 | $0.41 |
+
+    Summary: This bar chart displays the Enterprise Value per Watt for nine prominent Bitcoin mining companies, offering two distinct valuation metrics. The blue bars represent the EV/Watt for large, operational, and under-construction sites, while the gold bars include development-stage assets. A key trend is that including development assets generally lowers the EV/Watt, with the most significant drop seen in HUT 8 (from $2.84 to $0.41). Galaxy Digital Holdings (GLXY) stands out as the company with significantly higher EV/Watt valuations ($20.24 and $12.65) compared to its peers, indicating it is valued substantially higher per megawatt of power capacity.
+
+    Explanation: The chart illustrates the current valuations of Bitcoin mining companies, emphasizing that their Enterprise Value/Watt is generally low, especially when considering the potential for converting these large power-intensive sites into high-performance computing (HPC) data centers for AI applications. The accompanying text suggests that these current valuations are "well below likely value of converting large sites to HPC data centers," implying a significant undervaluation in the current market and a potential for substantial upside through strategic conversions.

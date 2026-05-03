@@ -1,0 +1,621 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry – Aptiv PLC",
+      "type": "Company",
+      "brief": "Electrification/autonomy/connectivity/mobility-centric supplier",
+      "description": "Pure-play electrification, autonomy, connectivity, and mobility supplier unencumbered by non-future tech businesses",
+      "properties": {
+        "ticker": "APTV",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry – Asbury Auto",
+      "type": "Company",
+      "brief": "US new and used auto dealer group",
+      "description": "Retail automotive dealer focusing on new and used vehicle sales and earnings growth across cycles",
+      "properties": {
+        "ticker": "ABG",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry – AutoNation, Inc.",
+      "type": "Company",
+      "brief": "Leading US automotive retailer",
+      "description": "Auto dealership operator driving revenue and earnings growth through new and used vehicle sales",
+      "properties": {
+        "ticker": "AN",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Price Objective",
+      "type": "Metric",
+      "brief": "APTV price objective based on EV/EBITDA",
+      "description": "Price target of $85 derived from a 5.5x EV/EBITDA multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 85,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "APTV EV/EBITDA multiple for 2026",
+      "description": "Roughly 5.5x EV/EBITDA on 2026 EBITDA estimates",
+      "properties": {
+        "unit": "x",
+        "value": 5.5,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry – Asbury Auto Price Objective",
+      "type": "Metric",
+      "brief": "ABG price objective based on P/E multiple",
+      "description": "Price target of $335 derived from a 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 335,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – Asbury Auto P/E Multiple",
+      "type": "Metric",
+      "brief": "ABG P/E multiple for 2026",
+      "description": "Use of a roughly 12x P/E multiple on 2026 EPS estimates",
+      "properties": {
+        "unit": "x",
+        "value": 12,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry – AutoNation, Inc. Price Objective",
+      "type": "Metric",
+      "brief": "AN price objective based on P/E multiple",
+      "description": "Price target of $255 derived from a 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 255,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – AutoNation, Inc. P/E Multiple",
+      "type": "Metric",
+      "brief": "AN P/E multiple for 2026",
+      "description": "Use of a roughly 12x P/E multiple on 2026 EPS estimates",
+      "properties": {
+        "unit": "x",
+        "value": 12,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry – Large Truck Volume Growth Strength",
+      "type": "Factor",
+      "brief": "Continued strength in large truck volume growth",
+      "description": "Upside risk from sustained growth in large truck production volumes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – Plant Issues Resolution",
+      "type": "Factor",
+      "brief": "Resolution of plant issues",
+      "description": "Upside risk if manufacturing plant operational issues are resolved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – Labor Cost Inflation Non-Materialization",
+      "type": "Factor",
+      "brief": "Labor cost inflation fails to materialize",
+      "description": "Upside risk from the absence of expected labor cost inflation",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – Large Truck Volume Growth Slowdown",
+      "type": "Factor",
+      "brief": "Slowdown in large truck volume growth",
+      "description": "Downside risk from decelerating large truck production volumes, especially at key customers",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – Diversification Failure",
+      "type": "Factor",
+      "brief": "Failure to diversify customer, geographic, and product exposure",
+      "description": "Downside risk from a non-diversified customer base and product portfolio",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – Expansion Into New Segments",
+      "type": "Factor",
+      "brief": "Expansion into new segments reduces margins",
+      "description": "Downside risk if entering new segments leads to lower operating margins",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – Raw Material and Labor Cost Increases",
+      "type": "Factor",
+      "brief": "Sharp rise in raw material and labor costs",
+      "description": "Downside risk from increasing input costs across materials and labor",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – Key Customer Business Loss",
+      "type": "Factor",
+      "brief": "Loss of business at key customers",
+      "description": "Downside risk from losing significant contracts with key customers",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – AXL Suppliers Disruption",
+      "type": "Factor",
+      "brief": "Disruption at AXL's suppliers",
+      "description": "Downside risk from supply chain disruptions affecting AXL operations",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV International Market Volatility",
+      "type": "Factor",
+      "brief": "Sustained volatility in international markets",
+      "description": "Downside risk from continued volatility in global markets affecting APTV",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Automotive Volume Decline",
+      "type": "Factor",
+      "brief": "Decline or flatline in automotive volumes",
+      "description": "Downside risk from a prolonged or flat global and US auto volume trend",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Raw Material and Semiconductor Cost Rise",
+      "type": "Factor",
+      "brief": "Rise in raw material and semiconductor costs",
+      "description": "Downside risk from higher costs and supply disruptions in semiconductors and materials",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Loss of Key Customers or Suppliers",
+      "type": "Factor",
+      "brief": "Loss of key customers or suppliers",
+      "description": "Downside risk from crucial customer or supplier relationship losses",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Inability to Win New Business",
+      "type": "Factor",
+      "brief": "Inability to win new business",
+      "description": "Downside risk from failure to secure incremental contracts",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Competitive Pricing Pressure",
+      "type": "Factor",
+      "brief": "Competitive pricing pressure",
+      "description": "Downside risk from aggressive competitor pricing undermining margins",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Global Auto Production Volume Strength",
+      "type": "Factor",
+      "brief": "Strength in global auto production volumes",
+      "description": "Upside risk from continued growth in production, especially in North America",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Portfolio Business Wins",
+      "type": "Factor",
+      "brief": "Business wins from Safe, Green, Connected portfolio",
+      "description": "Upside risk from increased order wins for electrification and connectivity products",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – APTV Shareholder-Friendly Actions",
+      "type": "Factor",
+      "brief": "Accretive M&A and share repurchases",
+      "description": "Upside risk from shareholder-friendly capital return actions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG US Sales Downturn",
+      "type": "Factor",
+      "brief": "Swift or material downturn in US sales",
+      "description": "Downside risk from a sharp decline in US auto retail sales",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Market Share Losses",
+      "type": "Factor",
+      "brief": "Market share losses by overexposed brands",
+      "description": "Downside risk from brands ABG is overexposed losing market share",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Higher Interest Rate Environment",
+      "type": "Factor",
+      "brief": "Higher interest rates causing demand deterioration",
+      "description": "Downside risk from increased financing costs leading to lower demand and repossessions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Consumer Dissatisfaction",
+      "type": "Factor",
+      "brief": "Consumer dissatisfaction with auto retailing",
+      "description": "Downside risk from negative consumer experiences in vehicle purchasing",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Legal Changes Risk",
+      "type": "Factor",
+      "brief": "Franchise or consumer finance law changes",
+      "description": "Downside risk from new franchise or consumer finance regulations",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG US/NA Cycle Recovery",
+      "type": "Factor",
+      "brief": "Recovery of US/North America auto cycle",
+      "description": "Upside risk from continued high-level plateau in the automotive sales cycle",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Gross Profit Per Unit Maintenance",
+      "type": "Factor",
+      "brief": "Maintenance of gross profit per unit",
+      "description": "Upside risk from preserving unit gross profits in new and used vehicles",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Used Vehicle Demand Growth",
+      "type": "Factor",
+      "brief": "Used vehicle focus drives demand",
+      "description": "Upside risk from strong demand in the used vehicle segment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – ABG Interest Rate Decline",
+      "type": "Factor",
+      "brief": "Interest rates decline quicker than expected",
+      "description": "Upside risk from faster-than-expected reductions in borrowing costs",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – AN US Sales Downturn",
+      "type": "Factor",
+      "brief": "Swift or material downturn in US sales",
+      "description": "Downside risk from a rapid decline in US auto retail sales",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV International Market Volatility",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to sustained volatility in international markets"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Automotive Volume Decline",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to decline or flatline in automotive volumes"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Raw Material and Semiconductor Cost Rise",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to rise in raw material and semiconductor costs"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Loss of Key Customers or Suppliers",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to loss of key customers or suppliers"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Inability to Win New Business",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to inability to win new business"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Competitive Pricing Pressure",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to competitive pricing pressure"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Global Auto Production Volume Strength",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to strength in global auto production volumes"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Portfolio Business Wins",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to business wins from Safe, Green, Connected portfolio"
+    },
+    {
+      "source": "Automotive Industry – Aptiv PLC",
+      "target": "Automotive Industry – APTV Shareholder-Friendly Actions",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to shareholder-friendly actions"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG US Sales Downturn",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to a swift or material downturn in US sales"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Market Share Losses",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to market share losses by overexposed brands"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Higher Interest Rate Environment",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to higher interest rate environment causing demand deterioration"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Consumer Dissatisfaction",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to consumer dissatisfaction with auto retailing"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Legal Changes Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to franchise or consumer finance law changes"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG US/NA Cycle Recovery",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to recovery of US/North America auto cycle"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Gross Profit Per Unit Maintenance",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to maintenance of gross profit per unit"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Used Vehicle Demand Growth",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to used vehicle focus driving demand"
+    },
+    {
+      "source": "Automotive Industry – Asbury Auto",
+      "target": "Automotive Industry – ABG Interest Rate Decline",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to interest rate decline quicker than expected"
+    },
+    {
+      "source": "Automotive Industry – AutoNation, Inc.",
+      "target": "Automotive Industry – AN US Sales Downturn",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Exposed to a rapid downturn in US sales"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "Table T30 – DataCenterCredit Sizable Debt Cushion Under Tech Bond Ratings",
+      "type": "Table",
+      "brief": "Illustrative issuance capacity for three tech issuers under downgrade thresholds",
+      "description": "Shows >$500bn issuance capacity cushion for GOOGL, MSFT, AMZN against adj. debt/EBITDA downgrade thresholds as of late Q2 2024",
+      "properties": {
+        "table_id": "T30",
+        "table_content": "Issuer                                                        GOOGL                       MSFT                       AMZN\nAgency for analysis                                             S&P                         S&P                         S&P\nRating                                                         AA+                         AAA                         AA\n\nSelect downgrade threshold details (focus more on quantitative rather than qualitative)\n                                                    Sustained lev >1x, as result of acq. or change in financial policy\n                                                    Lev >1x sustained, most likely from sustained heavy capex & large acq.\n                                                    Lev exceeds 1.5x, among other metrics & considerations\n\nReported recent adj. leverage                                   NM                         0.2x                        0.4x\nReported recent adj. debt ($bn)                                (54.8)                      29.2                       58.6\nAgency est. FY25E adj. EBITDA ($bn)                           172.2                       161.2                       155.9\nIllustrative issuance capacity ($bn)                           227.0                       132.0                       175.2\nFY25 end for reference                                       12/31/25                    6/30/25                    12/31/25\nSelect info above as of ...                                  12/31/24                    6/30/24                    12/31/24\nSource: Note dated ...                                        3/6/25                     5/21/25                     5/6/25\nSource: Company filings, S&P, Morgan Stanley Research.",
+        "key_insight": "More than $500bn of issuance capacity exists across GOOGL, MSFT, and AMZN under current adj. debt/EBITDA downgrade thresholds"
+      }
+    },
+    {
+      "name": "DataCenterCredit – Reliance on unsecured corporate debt",
+      "type": "Factor",
+      "brief": "Unsecured corporate debt reliance expected to grow in phases",
+      "description": "Morgan Stanley expects large-cap technology companies to increase reliance on unsecured corporate debt gradually through 2028",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T30 – DataCenterCredit Sizable Debt Cushion Under Tech Bond Ratings",
+      "target": "DataCenterCredit – Reliance on unsecured corporate debt",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Table suggests cushion capacity will drive phased increase in unsecured debt reliance"
+    }
+  ],
+  "scenarios": []
+}

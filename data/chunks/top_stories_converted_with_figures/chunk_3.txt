@@ -1,0 +1,62 @@
+10) Our Short Interest Pair had it best monthly returns since the meme stock 
+squeeze back in January 2021. Our High vs Low Short Interest Pair (GSPUWSHI 
+Index) rallied 10% in the period (on a ~13% vol as the pair is sector, industry, & 
+factor neutral), a move in the 99.7th percentile rally (3.8 stdv) relative to the last 
+17+ years, driven by animal spirit and strong retail participation. H/T Guillaume 
+Soria 
+                                                                                                                20 
+                         1m Returns GSPUWSHI 
+                           Hi/Lo Short Interest                                                                -15 
+
+                                                                                                                9.965 
+
+                                                                                                                -5 
+
+                                                                                                                -0 
+
+                                                                                                               -- 5 
+
+                                                                                                               -- 10 
+
+                                                                                                                -- 15 
+
+ 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 
+GSPUWSHI Index (GS US Wolfe Short Interest Pair) Daily 01JAN2007-23JUL2025 Copyright@ 2025 Bloomberg Finance L.P. 23-Jul-2025 07:53:40 
+Source: Goldman Sachs FICC & Equities, Bloomberg, as of July 2025. Past 
+performance is not indicative of future results. 
+
+*Noteworthy Economic Data that hit overnight ... 
+         Australia's flash PMIs for Jul are solid, with manufacturing coming in at 
+         51.6 (up from 50.6 in June) and services at 53.8 (up from 51.8 in June) 
+         (Bloomberg) 
+         India's flash PMIs for Jul are mixed, with manufacturing coming in at 59.2 
+         (up from 58.4 in June) and services at 59.8 (down from 60.4 in June) 
+         (Bloomberg) 
+         Japan's flash PMIs for Jul are mixed, with manufacturing coming in at 48.8 
+         (down from 50.1 in June) and services at 53.5 (up from 51.7 in June) 
+         (Bloomberg) 
+         South Korea's GDP for Q2 comes in a bit ahead of expectations at +0.6% 
+        Q/Q (vs. the Street +0.5%) (WSJ) 
+
+    | Period       | 1m Returns GSPUWSHI (%) |
+    |--------------|-------------------------|
+    | Early 2008   | +12%                    |
+    | Mid-2008     | -10%                    |
+    | Early 2009   | +13%                    |
+    | Mid-2009     | -10%                    |
+    | 2010-2019    | Generally within +/- 7% |
+    | Peak 2011    | +8%                     |
+    | Trough 2012  | -7%                     |
+    | Peak 2014    | +7%                     |
+    | Trough 2016  | -7%                     |
+    | Late 2020    | -10%                    |
+    | Early 2021   | ~+18-19% (Highest Peak) |
+    | Mid-2021     | +10% to -5% swings      |
+    | Early 2022   | +10%                    |
+    | Late 2022    | -15% (Lowest Trough)    |
+    | Early 2023   | +7%                     |
+    | Latest (mid-2024/2025) | +9.965% (Recent Peak)   |
+
+    Summary: This chart displays the 1-month returns of the GSPUWSHI (Goldman Sachs US Wolfe Short Interest Pair) Index daily from January 2007 to July 2025. The X-axis represents the years, while the Y-axis (ranging from -15% to +20%) shows the percentage returns. The primary trend reveals periods of significant volatility, particularly before 2010 and after 2020. The most striking inflection point is the massive spike in early 2021, reaching nearly +19%, coinciding with the "meme stock squeeze." More recently, the chart shows a sharp upward rally, peaking at 9.965%, which is explicitly highlighted by a red dashed line and a label on the Y-axis. The lowest point was observed in late 2022, dropping to around -15%.
+
+    Explanation: The chart visualizes the performance of a high vs. low short interest pair, which, according to the accompanying text, achieved its best monthly returns since the January 2021 "meme stock squeeze." The current 10% rally (9.965% on the chart) is noted as a significant 3.8 standard deviation event driven by "animal spirit and strong retail participation." This indicates that market dynamics, potentially related to retail investor sentiment and speculative trading against heavily shorted stocks, are once again playing a crucial role in driving significant returns for this specific short interest-based strategy.

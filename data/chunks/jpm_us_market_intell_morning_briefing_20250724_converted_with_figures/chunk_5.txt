@@ -1,0 +1,67 @@
+V         TaDIC T Actatcu Data Dala 
+  Normalized As               Track Annotate News O. Zoom 
+         Of 12/31/2024 
+      Last Price 
+   JPXXMEME Index 140.09                                                  140.09 
+   SPX Index 108.00 
+   NDX Index 110.13 
+                                                                          130 
+
+                                                                         120 
+
+                                                                         110 12 
+                                                                          108.00 
+                                                                         >100 
+
+                                                                          90 
+
+                                                                          80 
+                                                   Source: Bloomberg 
+
+     Jan       Feb       Mar        Apr       May        Jun        Jul 
+                                    2025 
+
+NIKOS: Where are market liquidity conditions still impaired? His full note is here 
+
+    · Market liquidity conditions have seen notable improvement for US Equities, 10y Bunds and 
+       corporate bond ETFs, remain somewhat impaired for Eurostoxx & Nikkei futures and 10y USTs 
+       & JGBs, and have deteriorated for bitcoin & Ethereum futures. 
+
+       Why is market vol so low? Despite elevated uncertainty and elevated volatility in economic 
+       forecasts and surprises, realized macro volatility (i.e. realized GDP and inflation vol) has been 
+       rather subdued since 2023. 
+    . In turn, low realized macro volatility helped to induce low market volatility in conjunction with 
+       other factors such as retail investors and corporate buybacks continuing to act as a backstop to 
+
+       drawdowns in Equities, as well as economic and financial leverage overall remaining relatively 
+       contained and thus far not served to amplify these shocks. 
+
+       Within alternative asset classes, digital assets and hedge funds have been seeing an 
+       acceleration of inflows this year, in sharp contrast to the weak fundraising seen in private equity 
+       and private credit. 
+
+       Hedge funds have produced positive alpha so far in 2025, for a fifth year in a row 
+
+US LIQUIDITY PROXY vs. SPX 
+
+    | Date (2025) | JPXXMEME Index | SPX Index | NDX Index |
+    |---------------|----------------|-----------|-----------|
+    | Jan 1         | 100.00         | 100.00    | 100.00    |
+    | Jan 15        | 105.00         | 103.00    | 103.00    |
+    | Feb 1         | 117.00         | 108.00    | 108.00    |
+    | Feb 15        | 105.00         | 105.00    | 105.00    |
+    | Feb 28        | 89.00          | 99.00     | 99.00     |
+    | Mar 15        | 78.00          | 93.00     | 93.00     |
+    | Mar 31        | 68.00          | 89.00     | 89.00     |
+    | Apr 15        | 88.00          | 95.00     | 95.00     |
+    | Apr 30        | 100.00         | 100.00    | 100.00    |
+    | May 15        | 115.00         | 103.00    | 104.00    |
+    | May 31        | 125.00         | 105.00    | 106.00    |
+    | Jun 15        | 135.00         | 107.00    | 108.00    |
+    | Jun 30        | 138.00         | 107.50    | 109.50    |
+    | Jul 15        | 140.00         | 108.00    | 110.00    |
+    | Last Price    | 140.09         | 108.00    | 110.13    |
+
+    Summary: This time series chart illustrates the normalized performance of the JPXXMEME Index, SPX Index, and NDX Index from January to July 2025, with all indices normalized to 100 as of December 31, 2024. All three indices initially rose in early 2025, peaking in early February, before experiencing a notable decline through late March. The JPXXMEME Index showed significantly higher volatility, plunging to a low near 65, while SPX and NDX saw milder drops to around 89. From April onwards, all indices recovered, but the JPXXMEME Index demonstrated remarkable outperformance, soaring to 140.09 by July, while SPX and NDX achieved more modest gains, ending at 108.00 and 110.13, respectively.
+
+    Explanation: The JPXXMEME Index likely represents a basket of "meme stocks" or retail-driven equities, as implied by the reference to "JPM MEME BASKET" and the discussion of "retail investors" in the surrounding text. Its extreme volatility and sharp recovery, distinct from the broader SPX and NDX indices, suggest a strong influence of retail flows and sentiment on this specific market segment. This dynamic aligns with the broader context of retail investors acting as a backstop to equity drawdowns, showcasing their significant impact on particular asset classes in 2025.

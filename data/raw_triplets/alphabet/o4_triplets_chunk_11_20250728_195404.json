@@ -1,0 +1,330 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google with multiple business segments",
+      "description": "Alphabet is highlighted as the document's main issuer, with strong search and cloud revenue growth, and AI as a key driver.",
+      "properties": {
+        "ticker": "GOOGL/GOOG",
+        "sector": "Internet/Technology",
+        "market_cap_USDbn": null,
+        "rating_outlook": "Buy"
+      }
+    },
+    {
+      "name": "Alphabet - 2025 Wiz Acquisition Announcement",
+      "type": "Event",
+      "brief": "Announcement of proposed Wiz acquisition by Alphabet",
+      "description": "Material M&A event, Alphabet's proposed acquisition of Wiz, Inc. announced on March 18, 2025.",
+      "properties": {
+        "date": "2025-03-18",
+        "event_type": "M&A Announcement",
+        "impact_value": null,
+        "affected_tickers": [
+          "GOOGL",
+          "Wiz Inc."
+        ],
+        "region": "US"
+      }
+    },
+    {
+      "name": "Alphabet - BofA Price Objective",
+      "type": "Metric",
+      "brief": "BofA price objective for Alphabet shares",
+      "description": "BofA sets price objective for Alphabet at $217 based on 19x 2026E core GAAP EPS plus cash/share.",
+      "properties": {
+        "unit": "USD",
+        "value": 217,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Alphabet - 2026E Core GAAP EPS Multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple used in price objective",
+      "description": "19x 2026E core Google GAAP EPS used to set price objective, compares to 10-year average of 22x.",
+      "properties": {
+        "unit": "x",
+        "value": 19,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Alphabet - 10-Year Average GAAP P/E Multiple",
+      "type": "Metric",
+      "brief": "Long-term average price/earnings multiple",
+      "description": "Alphabet has traded at an average GAAP P/E multiple of 22x over the last ten years.",
+      "properties": {
+        "unit": "x",
+        "value": 22,
+        "as_of": "Last 10 years"
+      }
+    },
+    {
+      "name": "Alphabet - Double-Digit Revenue Growth Expectation",
+      "type": "Factor",
+      "brief": "Expectation for double-digit revenue growth",
+      "description": "Ongoing expectation of double-digit revenue growth supporting valuation and positive rating.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 10,
+        "lookback_days": null
+      }
+    },
+    {
+      "name": "Alphabet - Cloud Margin Expansion Opportunity",
+      "type": "Factor",
+      "brief": "Potential for further margin expansion in cloud segment",
+      "description": "Cloud business margin expansion considered material driver for future value.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": null,
+        "lookback_days": null
+      }
+    },
+    {
+      "name": "Alphabet - AI Asset Strength",
+      "type": "Factor",
+      "brief": "Strength in AI as a competitive asset",
+      "description": "Strong AI assets cited as key to sustaining growth and market position.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": null,
+        "lookback_days": null
+      }
+    },
+    {
+      "name": "Alphabet - Loss of Search Traffic to AI Tools",
+      "type": "Risk",
+      "brief": "Risk of losing search traffic to AI tools from competitors",
+      "description": "Material downside risk from potential loss of search traffic due to rising use of AI competitors.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": null
+      }
+    },
+    {
+      "name": "Alphabet - Adverse Impact from LLM Integration",
+      "type": "Risk",
+      "brief": "Risks from delayed or negative LLM impacts on search revenues",
+      "description": "Risk that LLM (large language model) integration in search could be delayed or hurt search revenues.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": null
+      }
+    },
+    {
+      "name": "Alphabet - EU Digital Markets Act Compliance Risk",
+      "type": "Risk",
+      "brief": "Regulatory revenue pressure from EU Digital Markets Act",
+      "description": "Risk of Alphabet facing revenue pressure due to requirements of the EU DMA.",
+      "properties": {
+        "direction": "down",
+        "region": "EU"
+      }
+    },
+    {
+      "name": "Alphabet - DOJ Search Distribution Trial Ruling",
+      "type": "Risk",
+      "brief": "Legal risk from ongoing DOJ search trial",
+      "description": "Potential adverse judge ruling in DOJ search distribution trial is a key legal risk.",
+      "properties": {
+        "direction": "down",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Alphabet - Increasing Capex and Lower FCF from AI Investments",
+      "type": "Risk",
+      "brief": "Risk of higher capex and lower free cash flow due to AI investments",
+      "description": "Material downside risk of higher capital expenditure and lower FCF as Alphabet invests in AI.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": null
+      }
+    },
+    {
+      "name": "Alphabet - Table T1 – US Internet Coverage Cluster",
+      "type": "Table",
+      "brief": "BofA US Internet sector rating table",
+      "description": "Summary table of BofA ratings for US Internet coverage, includes Alphabet and peer companies.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Investment rating | Company | BofA Ticker | Bloomberg symbol | Analyst\nBUY | ACV Auctions | ACVA | ACVA US | Curtis Nagle, CFA\nBUY | Alphabet | GOOGL | GOOGL US | Justin Post\nBUY | Alphabet | GOOG | GOOG US | Justin Post\nBUY | Amazon.com | AMZN | AMZN US | Justin Post\nBUY | AppLovin | APP | APP US | Omar Dessouky, CFA\nBUY | Carvana | CVNA | CVNA US | Michael McGovern\nBUY | Chewy Inc | CHWY | CHWY US | Curtis Nagle, CFA\nBUY | DoorDash | DASH | DASH US | Michael McGovern\nBUY | Expedia | EXPE | EXPE US | Justin Post\nBUY | Integral Ad Science Holding Corp. | IAS | IAS US | Omar Dessouky, CFA\nBUY | Magnite, Inc. | MGNI | MGNI US | Omar Dessouky, CFA\nBUY | Meta Platforms Inc | ΜΕΤΑ | META US | Justin Post\nBUY | Peloton | PTON | PTON US | Curtis Nagle, CFA\nBUY | Pinterest | PINS | PINS US | Justin Post\nBUY | Playtika | PLTK | PLTK US | Omar Dessouky, CFA\nBUY | Roblox Corp. Class A | RBLX | RBLX US | Omar Dessouky, CFA\nBUY | Take-Two Interactive | TTWO | TTWO US | Omar Dessouky, CFA\nBUY | Uber | UBER | UBER US | Justin Post\nBUY | Wix.com | WIX | WIX US | Michael McGovern\nNEUTRAL | Airbnb | ABNB | ABNB US | Justin Post\nNEUTRAL | Booking Holdings Inc | BKNG | BKNG US | Justin Post\nNEUTRAL | CoStar Group, Inc | CSGP | CSGP US | Curtis Nagle, CFA\nNEUTRAL | DoubleVerify Holdings, Inc. | DV | DV US | Omar Dessouky, CFA\nNEUTRAL | Duolingo | DUOL | DUOL US | Curtis Nagle, CFA\nNEUTRAL | eBay | EBAY | EBAY US | Justin Post\nNEUTRAL | Electronic Arts | EA | EA US | Omar Dessouky, CFA\nNEUTRAL | Etsy, Inc. | ETSY | ETSY US | Curtis Nagle, CFA\nNEUTRAL | Ibotta | IBTA | IBTA US | Curtis Nagle, CFA\nNEUTRAL | Instacart | CART | CART US | Justin Post\nNEUTRAL | Match Group | MTCH | MTCH US | Curtis Nagle, CFA",
+        "key_insight": "Alphabet, along with peers like Amazon and Meta, receives a 'Buy' rating from BofA, indicating strong analyst confidence in US Internet/Tech sector."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet - Table T1 – US Internet Coverage Cluster",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs Alphabet's inclusion and Buy rating in US Internet sector."
+    },
+    {
+      "source": "Alphabet - 2025 Wiz Acquisition Announcement",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Proposed Wiz, Inc. acquisition by Alphabet could materially affect company operations/valuation."
+    },
+    {
+      "source": "Alphabet - BofA Price Objective",
+      "target": "Alphabet - 2026E Core GAAP EPS Multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Price objective is based on 19x 2026E core GAAP EPS."
+    },
+    {
+      "source": "Alphabet - 2026E Core GAAP EPS Multiple",
+      "target": "Alphabet - 10-Year Average GAAP P/E Multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 22,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Current 19x multiple compared with 10-year average P/E of 22x."
+    },
+    {
+      "source": "Alphabet - Double-Digit Revenue Growth Expectation",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Expected double-digit revenue growth is a key positive driver."
+    },
+    {
+      "source": "Alphabet - Cloud Margin Expansion Opportunity",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Cloud business margin expansion could support higher valuation."
+    },
+    {
+      "source": "Alphabet - AI Asset Strength",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Strong AI assets reinforce competitive positioning and growth."
+    },
+    {
+      "source": "Alphabet - Loss of Search Traffic to AI Tools",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Risk of losing search traffic to AI competitors is material."
+    },
+    {
+      "source": "Alphabet - Adverse Impact from LLM Integration",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "LLM integration in search may delay/negatively impact search revenues."
+    },
+    {
+      "source": "Alphabet - EU Digital Markets Act Compliance Risk",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Compliance with EU DMA creates regulatory revenue risk."
+    },
+    {
+      "source": "Alphabet - DOJ Search Distribution Trial Ruling",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Potential adverse DOJ ruling is a downside risk."
+    },
+    {
+      "source": "Alphabet - Increasing Capex and Lower FCF from AI Investments",
+      "target": "Alphabet - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "AI investment raises capex, lowers free cash flow."
+    }
+  ],
+  "scenarios": []
+}

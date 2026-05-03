@@ -1,0 +1,47 @@
+Goldman Sachs 
+
+                         Thousands                                                        Thousands 
+                                             Seasonally Adjusted Initial Claims, by Year 
+                        270                                                                     270 
+                                                  -2023 -    2024      -2025 
+                        260                                                                    260 
+
+                        250                                                                    250 
+
+                        240                                                                    240 
+
+                        230                                                                    230 
+
+                        220                                                                    220 
+
+                        210                                                                    210 
+
+                        200                                                                     200 
+
+                        190                                                                     190 
+
+                        180                                                                     180 
+                           Jan Feb Mar     Apr May    Jun Jul Aug      Sep Oct    Nov Dec 
+
+                       Source: Goldman Sachs Global Investment Research, Department of Labor 
+
+24 July 2025                                                                                       2 
+
+    | Month | 2023 (Thousands) | 2024 (Thousands) | 2025 (Thousands) |
+    |-------|------------------|------------------|------------------|
+    | Jan   | 205              | 195              | 206              |
+    | Feb   | 210              | 220              | 222              |
+    | Mar   | 220              | 215              | 242              |
+    | Apr   | 230              | 210              | 223              |
+    | May   | 245              | 208              | 240              |
+    | Jun   | 230              | 215              | 250              |
+    | Jul   | 215              | 230              | 217              |
+    | Aug   | 235              | 245              | N/A              |
+    | Sep   | 225              | 220              | N/A              |
+    | Oct   | 200              | 260              | N/A              |
+    | Nov   | 215              | 220              | N/A              |
+    | Dec   | 200              | 205              | N/A              |
+
+    Summary: This line chart, "Seasonally Adjusted Initial Claims, by Year," displays weekly initial jobless claims in thousands across three years: 2023, 2024, and 2025. The X-axis represents months from January to December, while the Y-axis shows claims ranging from 180,000 to 270,000. Key trends include the higher volatility in 2025 compared to previous years, especially with peaks in March (~242k), May (~240k), and June (~250k) surpassing earlier year levels of 2023 and 2024. The 2024 data shows a notable late-year surge peaking around 260,000 in October, contrasting with 2023 which saw its peak earlier in May (~245k) and a trough in October (~200k). The 2025 line concludes in July at approximately 217,000 claims, after a sharp decline from its June high.
+
+    Explanation: The chart provides a visual complement to the economic analysis on initial jobless claims presented on the preceding page, showing the annual pattern and recent developments up to July 2025. The current decline to 217,000 claims in July 2025, as mentioned in the accompanying text for the week ended July 19, marks a significant drop from the higher levels seen earlier in the year, suggesting some easing in new unemployment filings despite earlier spikes. The multi-year view highlights the fluctuating nature of these claims, indicating that even within a generally lower range compared to historical averages, the labor market still experiences considerable week-to-week and month-to-month variations in new unemployment registrations.

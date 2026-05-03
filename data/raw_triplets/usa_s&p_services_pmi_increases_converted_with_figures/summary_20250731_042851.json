@@ -1,0 +1,24 @@
+{
+  "report": "USA_ S&P Services PMI Increases_converted_with_figures.txt",
+  "timestamp": "2025-07-31T04:28:51.735894",
+  "total_chunks": 2,
+  "total_entities": 17,
+  "total_relationships": 9,
+  "total_scenarios": 2,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 3,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_042709.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 10,
+      "relationships": 6,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_2_20250731_042849.json"
+    }
+  ]
+}

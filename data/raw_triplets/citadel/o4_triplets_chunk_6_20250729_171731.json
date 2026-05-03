@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "Factor",
+      "brief": "Net notional activity by retail clients in cash equities",
+      "description": "Represents the magnitude and trend of buying or selling by retail clients in Citadel Securities' cash equities desk; signals risk sentiment.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 8.8,
+        "lookback_days": 189
+      }
+    },
+    {
+      "name": "CitadelSecurities Retail Options Positioning",
+      "type": "Factor",
+      "brief": "Directional activity in retail options trading",
+      "description": "Captures the directional buying (bullish/bearish) by retail investors in options via Citadel Securities, indicating risk appetite.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 91,
+        "streak_days": 13
+      }
+    },
+    {
+      "name": "CitadelSecurities Table T1 – Weekly Net Notional Cash Equities Activity Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Weekly net notional retail activity in cash equities",
+      "description": "Displays weekly % std dev of net notional in retail cash equities Jan–mid-July 2025, showing trend shifts and peaks.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Week Start Date | Net Notional (% Std Dev) |\n|-----------------|--------------------------|\n| Jan 06          | 5.8%                     |\n| Jan 13          | -1.0%                    |\n| Jan 20          | 1.0%                     |\n| Jan 27          | 4.0%                     |\n| Feb 03          | 3.3%                     |\n| Feb 10          | 7.3%                     |\n| Feb 17          | 3.4%                     |\n| Feb 24          | 1.8%                     |\n| Mar 03          | 0.5%                     |\n| Mar 10          | -0.5%                    |",
+        "key_insight": "Retail net buying has dominated 12 of past 14 weeks, with the strongest buying on June 30 (8.8%) and Feb 10 (7.3%)."
+      }
+    },
+    {
+      "name": "CitadelSecurities Table T2 – Weekly Net Notional Retail Clients Cash Equities Activity Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Weekly net notional for retail clients in cash equities",
+      "description": "Shows client-focused cash equities net flows Jan–mid-July 2025, with focus on green-shaded, persistent buying zone.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Week Start | Net Notional (% Std Dev) |\n|------------|--------------------------|\n| Jan 06     | 5.7%                     |\n| Jan 13     | -1.0%                    |\n| Jan 20     | 0.9%                     |\n| Jan 27     | 3.9%                     |\n| Feb 03     | 3.2%                     |\n| Feb 10     | 7.3%                     |\n| Feb 17     | 3.3%                     |\n| Feb 24     | 1.8%                     |\n| Mar 03     | 0.5%                     |\n| Mar 10     | -0.4%                    |",
+        "key_insight": "Consistent net buying since late April, with major peaks in mid-Feb (7.3%) and late June (8.6%), supporting narrative bullishness."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CitadelSecurities Table T1 – Weekly Net Notional Cash Equities Activity Jan-Jul 2025",
+      "target": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table quantifies net notional peak in retail cash equities activity (June 30: 8.8%)."
+    },
+    {
+      "source": "CitadelSecurities Table T2 – Weekly Net Notional Retail Clients Cash Equities Activity Jan-Jul 2025",
+      "target": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table corroborates persistent net buying and peak in late June (8.6%)."
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,58 @@
+Morgan Stanley                                                                                                                                                                                                                                                                                                        July 24, 2025 
+
+   Data                    Center                           Operational                                              Risk:                     Grid                   Instability 
+
+ This             lightning                     event                           NERC 
+                                                                                NORTH AMERICAN ELECTRIC                                                                                                                                          Data                Center                   Load               Loss              Event 
+                                                                                RELIABILITY CORPORATION 
+ raised                 alarm                bells 
+
+ among                     US          grid 
+
+                                                                                      NERC                                                                             Event: 
+                                                                                      NORTH AMERICAN ELECTRIC 
+                                                                                      RELIABILITY CORPORATION 
+ regulators                          -      a     loss           of 
+
+                                                                                      Incident Review                                                                       1,500MW                      load           loss,         exclusively data                               center load 
+ a      transmission                                line                              Considering Simultaneous Voltage-Sensitive Load Reductions 
+                                                                                      Primary Takeaways 
+                                                                                      Operators and planners of the Bulk Electric System (BES) should be aware of the risks and Coincident with                            230kV normal line fault clearing 
+                                                                                      associated with voltage-sensitive large loads that are rapidly being connected to the power system. 
+                                                                                      Specifically, when considering data centers and cryptocurrency mining facilities, entities should be aware 
+ caused                     voltage                                                   of the potential for large amounts of voltage-sensitive load loss during normally cleared faults on the BES. 
+                                                                                      Voltage-sensitive data center-type loads have increased on the system and are predicted to continue 
+                                                                                      growing rapidly. The 2024 NERC Long-Term Assessment (LTRA) documents and discusses this Widespread:                          60 different                       load          points,              25       substations 
+                                                                                      potential growth of data center-type loads. This vignette highlights this load-loss potential based on analysis. 
+                                                                                      of a recent event in the Eastern Interconnection and offers some considerations for BES operators, 
+ instability,                       and            a     very                         planners, and regulators concerning identifying and mitigating the potential reliability and risks 
+                                                                                      presented by these large voltage-sensitive load losses for future operations. 
+                                                                                                                                                                       Conclusions: 
+                                                                                      Summary of Incident 
+                                                                                      A 230 KV transmission line fault led to customer-initiated simultaneous loss of approximately 1,500 MW of 
+ large               number                     of       data                         voltage-sensitive load that was not anticipated by the BES operators. The electric grid has not historically 
+                                                                                      experienced simultaneous load losses of this magnitude in response to a fault on the system, which has 
+                                                                                      historically been planned for large generation losses but not for such significant simultaneous load losses. 
+                                                                                      Simultaneous large load losses have two efects on the electric systemc First, frequency rises on the system Require models for large                           loads to enable                              studies to 
+                                                                                      as a result of the imbalance between load and generation second, voltage rises rapidly because less power 
+ centers                    tripped                   offline                         is flowing through the system. In this incident, the frequency did not rise to a level high enough to cause 
+                                                                                      concern. The voltage also did not rise to levels that posed a reliability risk, but operators did have to take 
+                                                                                      action to reduce the voltage to within normal operating levels. However, as the potential for this type of determine risk to              BES for coincident                                   large          load losses 
+                                                                                      load loss increases, the risk for frequency and voltage issues also increases. Operators and planners should 
+                                                                                      be aware of this reliability risk and ensure that these load losses do not reach intolerable levels. 
+ as         a     result 
+                                                                                      Incident Details 
+                                                                                                                                                                            Determine if large loads should                                                            be a          NERC             Registered                      Entity 
+                                                                                      At approximately 7:00 p.m. Eastern on July 10, 2024, a lightning amestor failed on a 230 KV transmission 
+                                                                                      line in the Eastern Interconnection, resulting in a permanent fault that eventually "locked out" the 
+                                                                                      transmission line. The auto-neclosing control on the transmission line was configured for three auto-reclose 
+                                                                                      attempts staggered at each end of the line. This configuration resulted in 6 successive system faults in an 
+                                                                                      82-second period. The protection system detected these faults and cleared them properly. The shortest Need for   new           or modifications to Standards 
+                                                                                      fault duration was the initial fault at 42 miliseconds, and the longest fault duration was 66 miliseconds. 
+                                                                                      The voltage magnitudes during the fault ranged from .25 to per unit in the load-loss area. 
+
+                                                                                                                         RELIABILITY | RESILIENCE | SECURITY 
+
+                                                                                    4                                                                                                                                                                                            RELIABILITY | RESILIENCE | SECURITY 
+
+ Source: NERC                                                                                                                                                                                                                                                                                                                                            32

@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Two-week net buying and selling of Industrials",
+      "type": "Table",
+      "brief": "Two-week net flows of Industrials stocks (2008-2025)",
+      "description": "Highlights volatility and a near-record $2bn inflow in mid-2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Approx. Two-Week Net Flow Range ($mn) | Observation |\n|---|---|---|\n| 2008 | $(1,000) to +500 | Mixed flows, fluctuating around zero |\n| 2009 | $(700) to +200 | Generally negative bias |\n| 2010 | $(500) to +500 | Mixed flows |\n| 2011 | $(800) to +600 | Mixed flows |\n| 2012 | $(800) to +700 | Mixed flows |\n| 2013 | $(800) to +700 | Mixed flows |\n| 2014 | $(800) to +1,200 | Notable positive spikes |\n| 2015 | $(1,500) to +1,900 | Historic peak (+1,900mn) in early 2015, followed by negative flows |\n| 2016 | $(1,500) to +200 | Predominantly negative flows |\n| 2017 | $(1,000) to +500 | Mixed flows, slightly negative bias |\n| 2018 | $(2,000) to +1,000 | Wider fluctuations, strong positive flows |\n| 2019 | $(1,500) to +1,000 | Mixed flows |\n| 2020 | $(1,500) to +800 | Mixed flows, negative during market downturn |\n| 2021 | $(2,000) to +1,200 | Strong positive and negative swings |\n| 2022 | $(2,000) to +1,600 | Significant positive peaks |\n| 2023 | $(1,500) to +800 | Mixed flows |\n| 2024 | $(1,500) to +1,000 | Mixed flows |\n| 2025 (YTD) | $(1,000) to +2,000 | Near-record inflows (approx. +2,000mn) |",
+        "key_insight": "Near-record two-week inflow of around $2,000mn in mid-2025, the second-largest since early 2015"
+      }
+    },
+    {
+      "name": "Equity Inflows – Industrials two-week net inflow peak",
+      "type": "Metric",
+      "brief": "Near-record two-week inflow of Industrials in mid-2025",
+      "description": "This inflow peaked around $2,000mn, marking the second-largest two-week net flow since early 2015",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": null,
+        "value": 2000
+      }
+    },
+    {
+      "name": "Table T2 – Institutional clients cumulative net selling since 2008",
+      "type": "Table",
+      "brief": "Cumulative net sells of US equities by client type (2008-2025)",
+      "description": "Institutional clients have sold approximately $300bn, the steepest decline among client types",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Hedge Funds (Cumulative Net Buys, $bn) | Institutional (Cumulative Net Buys, $bn) | Private Client (Cumulative Net Buys, $bn) |\n|------|----------------------------------------|------------------------------------------|------------------------------------------|\n| 2008 | 0 | 0 | 0 |\n| 2009 | -5 | -2 | -20 |\n| 2010 | -10 | -5 | -40 |\n| 2011 | -12 | -10 | -60 |\n| 2012 | -15 | -20 | -80 |\n| 2013 | -20 | -40 | -120 |\n| 2014 | -25 | -80 | -140 |\n| 2015 | -28 | -110 | -160 |\n| 2016 | -30 | -150 | -180 |\n| 2017 | -40 | -180 | -190 |\n| 2018 | -50 | -200 | -190 |\n| 2019 | -70 | -220 | -200 |\n| 2020 | -80 | -230 | -210 |\n| 2021 | -85 | -250 | -220 |\n| 2022 | -90 | -280 | -220 |\n| 2023 | -100 | -290 | -210 |\n| 2024 | -110 | -295 | -200 |\n| 2025 (Jul) | -120 | -300 | -180 |",
+        "key_insight": "Institutional clients have cumulatively sold approximately $300bn of US equities by mid-2025"
+      }
+    },
+    {
+      "name": "Equity Inflows – Institutional cumulative net selling",
+      "type": "Metric",
+      "brief": "Institutional clients have sold ~$300bn since 2008",
+      "description": "Institutional clients exhibit the largest cumulative selling, reaching approximately -$300bn by mid-2025",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -300
+      }
+    },
+    {
+      "name": "Table T3 – 12-month cumulative net flows by client type",
+      "type": "Table",
+      "brief": "Cumulative net equity flows by client type over past year",
+      "description": "Institutional clients net sold ~$60bn; private clients net bought ~$30bn; hedge funds net sold ~$38bn in past 12 months",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date | Hedge Funds ($bn) | Institutional ($bn) | Private Client ($bn) |\n|--------|-------------------|---------------------|----------------------|\n| Jul-24 | 0 | 0 | 0 |\n| Aug-24 | -5 | -10 | 0 |\n| Sep-24 | -10 | -20 | -2 |\n| Oct-24 | -15 | -30 | -2 |\n| Nov-24 | -20 | -40 | 0 |\n| Dec-24 | -25 | -45 | 2 |\n| Jan-25 | -30 | -50 | 5 |\n| Feb-25 | -32 | -52 | 10 |\n| Mar-25 | -35 | -55 | 15 |\n| Apr-25 | -30 | -50 | 20 |\n| May-25 | -30 | -50 | 22 |\n| Jun-25 | -35 | -55 | 25 |\n| Jul-25 | -38 | -58 | 28 |",
+        "key_insight": "Institutional clients sold ~$60bn, private clients bought ~$30bn, hedge funds sold ~$38bn in past 12 months"
+      }
+    },
+    {
+      "name": "Equity Inflows – Institutional 12-month net selling",
+      "type": "Metric",
+      "brief": "Institutional net sold ~$60bn in past 12 months",
+      "description": "Over the past year, institutional clients were net sellers, totaling around -$60bn by July 2025",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -60
+      }
+    },
+    {
+      "name": "Equity Inflows – Private client 12-month net buying",
+      "type": "Metric",
+      "brief": "Private clients net bought ~$30bn in past year",
+      "description": "Private clients accumulated net inflows of approximately $30bn over the past 12 months",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": 30
+      }
+    },
+    {
+      "name": "Equity Inflows – Hedge Funds 12-month net selling",
+      "type": "Metric",
+      "brief": "Hedge funds net sold ~$38bn in past year",
+      "description": "Hedge funds showed cumulative net selling of around -$38bn over the past 12 months",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -38
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Two-week net buying and selling of Industrials",
+      "target": "Equity Inflows – Industrials two-week net inflow peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2000,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs the peak Industrials two-week net inflow metric"
+    },
+    {
+      "source": "Table T2 – Institutional clients cumulative net selling since 2008",
+      "target": "Equity Inflows – Institutional cumulative net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -300,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T2 informs the institutional clients cumulative net selling metric"
+    },
+    {
+      "source": "Table T3 – 12-month cumulative net flows by client type",
+      "target": "Equity Inflows – Institutional 12-month net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -60,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the institutional 12-month net selling metric"
+    },
+    {
+      "source": "Table T3 – 12-month cumulative net flows by client type",
+      "target": "Equity Inflows – Private client 12-month net buying",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the private client 12-month net buying metric"
+    },
+    {
+      "source": "Table T3 – 12-month cumulative net flows by client type",
+      "target": "Equity Inflows – Hedge Funds 12-month net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -38,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the hedge funds 12-month net selling metric"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Financing - Public Credit Market",
+      "type": "Factor",
+      "brief": "Cheapest source of financing",
+      "description": "Public credit market remains the cheapest source of financing",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Private Credit",
+      "type": "Factor",
+      "brief": "Alternative external capital",
+      "description": "Private credit reliance increases under weak macro conditions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Weak Macro Conditions",
+      "type": "Factor",
+      "brief": "Weaker macro conditions",
+      "description": "Weak macro conditions could increase reliance on external capital",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - Slower Revenue Growth",
+      "type": "Factor",
+      "brief": "Slower revenue growth",
+      "description": "Slower revenue growth could drive demand for external financing",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - 1990s Capex Cycle",
+      "type": "Event",
+      "brief": "Mid-to-late 1990s capex cycle",
+      "description": "Significant capex and credit growth in the late 1990s capex cycle",
+      "properties": {
+        "date": null,
+        "event_type": "capex_cycle"
+      }
+    },
+    {
+      "name": "Data Center Financing - 2000-04 Default Cycle",
+      "type": "Event",
+      "brief": "Sharp default cycle from 2000 to 2004",
+      "description": "The default cycle peaked following late-1990s debt growth",
+      "properties": {
+        "date": null,
+        "event_type": "default_cycle"
+      }
+    },
+    {
+      "name": "Data Center Financing - All Corporates Default Rate",
+      "type": "Metric",
+      "brief": "Default rate for all corporates",
+      "description": "Percentage of defaults among all corporates with peak in 2009",
+      "properties": {
+        "unit": "%",
+        "max": 4.9,
+        "peak_date": "2009",
+        "as_of": "2022"
+      }
+    },
+    {
+      "name": "Data Center Financing - Speculative-grade Default Rate",
+      "type": "Metric",
+      "brief": "Default rate for speculative-grade issuers",
+      "description": "Percentage of defaults among speculative-grade issuers with peak in 2009",
+      "properties": {
+        "unit": "%",
+        "max": 12.0,
+        "peak_date": "2009",
+        "as_of": "2022"
+      }
+    },
+    {
+      "name": "Data Center Financing - IG Gross Issuance",
+      "type": "Metric",
+      "brief": "Annual gross issuance of IG debt",
+      "description": "Investment-grade gross issuance peaked at $660bn in 2001",
+      "properties": {
+        "unit": "USD bn",
+        "max": 660,
+        "peak_date": "2001",
+        "as_of": "2004"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Financing - Weak Macro Conditions",
+      "target": "Data Center Financing - Private Credit",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak macro conditions drive reliance on private credit"
+    },
+    {
+      "source": "Data Center Financing - Slower Revenue Growth",
+      "target": "Data Center Financing - Private Credit",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Slower revenue growth drives reliance on private credit"
+    },
+    {
+      "source": "Data Center Financing - 1990s Capex Cycle",
+      "target": "Data Center Financing - 2000-04 Default Cycle",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "1990s capex cycle ended with default cycle in 2000-04"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – HPC Data Center High Returns from REIT Sales",
+      "type": "Table",
+      "brief": "Scenario returns for powered shell REIT sales in HPC data centers",
+      "description": "Shows range of power, revenue, costs, margins, and value creation metrics for converting Bitcoin assets to HPC data centers and selling as a REIT to hyperscalers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Range\nData Center Total Power (MW)                                            100                 100                  100\nData Center Revenue/Watt                                $              1.55 $              1.55 $               1.55\nTotal Data Center Revenue ($m per year)                                $155                $155                 $155\nOperating Margin                                                       70%                  70%                 70%\nOperating Costs                                       $               (47) $              (47) $               (47)\nEBITDA ($m)                                                            $109                $109                 $109\nTotal Construction Cost/Watt                                             $6                  $7                   $8\nConstruction Cost ($m)                                  $              600 $                700 $               800\nConstruction Costs as a Multiple of EBITDA                            5.5                 6.5                  7.4\nLeverage as a Multiple of EBITDA                                        4.0                 4.0                  4.0\nLeverage (% of Cost)                                                  72%                  62%                 54%\nIndicative Enterprise Value/EBITDA Multiple                            10.0x               12.5x                15.0x\nResulting Enterprise Value ($m)                         $             1,085 $              1,356 $             1,628\nResulting Equity Value ($m)                             $              651 $                922 $              1,194\nValue Creation on Equity Investment                                   292%                 247%                226%\nEquity Value ($m per megawatt)                          $              6.51 $              9.22 $              11.94\nEquity Value Creation ($m per megawatt)                 $              4.85 $              6.56 $               8.28",
+        "key_insight": "Building and leasing powered shells to hyperscalers, then selling to a REIT, yields value creation levels well above where most Bitcoin stocks trade on an EV/watt basis"
+      }
+    },
+    {
+      "name": "HPC Data Center Equity Value Creation",
+      "type": "Factor",
+      "brief": "Equity value creation levels from converting Bitcoin assets to HPC data centers and REIT sale",
+      "description": "Measures percentage returns on equity investments from building and leasing powered shells to hyperscalers, then selling the assets to a REIT, compared to Bitcoin stocks' EV/watt trading multiples",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 292
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – HPC Data Center High Returns from REIT Sales",
+      "target": "HPC Data Center Equity Value Creation",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Table shows high equity value creation from powered shell REIT sales"
+    }
+  ],
+  "scenarios": []
+}

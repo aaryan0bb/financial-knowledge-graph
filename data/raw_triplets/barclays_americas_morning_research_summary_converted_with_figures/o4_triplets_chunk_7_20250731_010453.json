@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "Consumer U.S. Gaming Regional Same-Store GGR",
+      "type": "Metric",
+      "brief": "Year-over-year change in regional same-store GGR",
+      "description": "Regional same-store gross gaming revenue fell year-over-year",
+      "properties": {
+        "value": -1,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming Calendar-Adjusted GGR",
+      "type": "Metric",
+      "brief": "Year-over-year change in calendar-adjusted same-store GGR",
+      "description": "Calendar-adjusted regional same-store gross gaming revenue increased year-over-year",
+      "properties": {
+        "value": 1,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming OSB Handle Growth",
+      "type": "Metric",
+      "brief": "Year-over-year change in same-state OSB handle",
+      "description": "Same-state on-site betting handle grew 9% year-over-year",
+      "properties": {
+        "value": 9,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming GGR Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in gross gaming revenue",
+      "description": "GGR increased 49% year-over-year on strong hold",
+      "properties": {
+        "value": 49,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming NGR Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in net gaming revenue",
+      "description": "NGR increased 48% year-over-year on strong hold",
+      "properties": {
+        "value": 48,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer U.S. Gaming iGaming Growth",
+      "type": "Metric",
+      "brief": "Year-over-year growth in iGaming revenue",
+      "description": "iGaming grew 29% year-over-year",
+      "properties": {
+        "value": 29,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "Consumer US Tobacco Cigarette Volumes",
+      "type": "Metric",
+      "brief": "Year-over-year change in cigarette volumes",
+      "description": "Cigarette volumes declined in the 4 weeks to 12 July 2025 based on MSA/Nielsen data",
+      "properties": {
+        "value": -7.3,
+        "unit": "%",
+        "as_of": "2025-07-12"
+      }
+    },
+    {
+      "name": "Consumer US Tobacco ZYN Volumes",
+      "type": "Metric",
+      "brief": "Year-over-year change in ZYN volumes",
+      "description": "ZYN volumes increased in the 4 weeks to 12 July 2025 based on MSA/Nielsen data",
+      "properties": {
+        "value": 36,
+        "unit": "%",
+        "as_of": "2025-07-12"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

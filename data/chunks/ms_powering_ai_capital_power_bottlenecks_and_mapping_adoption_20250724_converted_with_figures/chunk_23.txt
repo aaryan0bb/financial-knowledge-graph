@@ -1,0 +1,60 @@
+Morgan Stanley                                                                                                                                                         July 24, 2025 
+
+Potential               HPC          Data Center Construction                                         Financing                 Structures 
+
+WULF                Compute - Potential                                        Illustrative                    Business                    Models 
+
+Maximizing land, megawatts, and capital for optimal long-term value creation 
+
+                                                                         WULF Compute's Core Business 
+
+                                   Cloud Service Provider (CSP)              Colocation - Whitespace & Rack Ready                       Build to Suit 
+
+  Description                Shell data center and GPU clusters; space,   Shell data center; lease rack ready whitespace    Data center built to spec; lease space, 
+                               power, cooling, fiber/internet, security,       including redundant power, cooling,       redundant power, cooling, fiber/internet, and 
+                                compute, storage and environment.                  fiber/internet, and security                           security 
+
+  Customer                   Multiple - Managed through cloud partner     Multiple - Enterprise and well funded startups            Single - Hyperscaler 
+
+  Contract Size                            0.1 - 50 MW                                  0.5 - 100 MW+                                    100+ MW 
+
+  Contract Term                           1 - 36 months                                  5 - 15 years                              15+ years with renewals 
+
+  0&M                                    WULF managed                                   WULF managed                                  Tenant managed 
+
+  Build Cost per MW                     $27 - 30 million (1)                            $6 - 8 million (1)                            $2 - 4 million (4) 
+
+  Financing                                Equity & Debt                                Equity (initially)                            Highly Bankable 
+
+  Revenue per MW                        $11 - 18 million (2)                          $1.3 - 1.8 million (3)                         $0.2 - 0.5 million 
+
+  Margins                                   70 - 80%                                       65 - 75%                                        90% + 
+
+  Valuation Range                          7-12x EBITDA                                 10-15x EBITDA                                  15-20x EBITDA 
+
+                      (1) Build cost for CSP and colocation model reflect liquid cooling infrastructure. (3) Does not include customer pass-through energy expense. Subject to term 
+                      (2) Low end of range based on long-term reserve contract at $2.1/GPU/hr with length and payment terms. 
+     TERAWULF            100% rental utilization, high end of range represents $4.50/GPU/hr of on- (4) Based on air cooled powered shell infrastructure. NNN Rent Structure; 16 
+                         demand revenue at 80% rental utilization.       customer pays all OpEx directly. 
+
+Source: TeraWulf. 
+                                                                                                                                                                                          23 
+
+    | Metric | Cloud Service Provider (CSP) | Colocation - Whitespace & Rack Ready | Build to Suit |
+    |---|---|---|---|
+    | Description | Shell data center and GPU clusters; space, power, cooling, fiber/internet, security, compute, storage and environment. | Shell data center; lease rack ready whitespace including redundant power, cooling, fiber/internet, and security | Data center built to spec; lease space, redundant power, cooling, fiber/internet, and security |
+    | Customer | Multiple - Managed through cloud partner | Multiple - Enterprise and well funded startups | Single - Hyperscaler |
+    | Contract Size | 0.1 - 50 MW | 0.5 - 100 MW+ | 100+ MW |
+    | Contract Term | 1 - 36 months | 5 - 15 years | 15+ years with renewals |
+    | O&M | WULF managed | WULF managed | Tenant managed |
+    | Build Cost per MW | $27 - 30 million (1) | $6 - 8 million (1) | $2 - 4 million (4) |
+    | Financing | Equity & Debt | Equity (initially) | Highly Bankable |
+    | Revenue per MW | $11 - 18 million (2) | $1.3 - 1.8 million (3) | $0.2 - 0.5 million |
+    | Margins | 70 - 80% | 65 - 75% | 90% + |
+    | Valuation Range | 7-12x EBITDA | 10-15x EBITDA | 15-20x EBITDA |
+
+    Summary:
+    This comparative table presents WULF Compute's three core business models for HPC data centers: Cloud Service Provider (CSP), Colocation - Whitespace & Rack Ready, and Build to Suit. It details key operational and financial metrics, highlighting a clear progression in scale and duration. The "Build to Suit" model, targeting hyperscalers, stands out with significantly lower build costs per MW ($2-4M) compared to CSP ($27-30M), the longest contract terms (15+ years), the highest margins (90%+), and the most attractive valuation range (15-20x EBITDA).
+
+    Explanation:
+    The chart illustrates TeraWulf's strategic positioning to capitalize on the high-performance computing market by offering diverse data center solutions. The data suggests that large-scale, long-term "Build to Suit" contracts with hyperscalers offer superior financial performance through lower capital expenditure per MW and higher profitability. This model aligns with the broader narrative of converting Bitcoin mining assets into HPC data centers, potentially leading to highly bankable assets suitable for a "REIT End Game" as discussed on the subsequent page.

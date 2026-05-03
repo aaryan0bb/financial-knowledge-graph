@@ -1,0 +1,474 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet – Google",
+      "type": "Company",
+      "brief": "Parent company of Google, reports strong Q2 results.",
+      "description": "Alphabet is the parent of Google, exhibiting robust Q2 2025 growth in search, YouTube, and cloud businesses.",
+      "properties": {
+        "sector": "Technology",
+        "market_cap_USDbn": null,
+        "ticker": "GOOGL"
+      }
+    },
+    {
+      "name": "Alphabet – YouTube",
+      "type": "Company",
+      "brief": "Google's video platform, strong Q2 ad revenue.",
+      "description": "YouTube, a subsidiary of Alphabet, continues to deliver high ad revenue and strong growth in Shorts and traditional ads.",
+      "properties": {
+        "sector": "Digital Media",
+        "ticker": null
+      }
+    },
+    {
+      "name": "Alphabet – Cloud",
+      "type": "Company",
+      "brief": "Alphabet's cloud computing business.",
+      "description": "Alphabet's Cloud division showed accelerated revenue and margin growth in Q2 2025, with several large deals closed.",
+      "properties": {
+        "sector": "Cloud Computing",
+        "ticker": null
+      }
+    },
+    {
+      "name": "Alphabet – Gemini App",
+      "type": "Product",
+      "brief": "AI app with accelerating user growth.",
+      "description": "Google's Gemini app exceeded 450 million MAUs, growing by 50 million in two months, highlighting strong user adoption.",
+      "properties": {
+        "monthly_active_users_mn": 450,
+        "growth_period_months": 2,
+        "growth_value_mn": 50
+      }
+    },
+    {
+      "name": "Alphabet – 2Q 2025 Earnings Release",
+      "type": "Event",
+      "brief": "Q2 2025 financial results announcement.",
+      "description": "Alphabet reported its Q2 2025 earnings, showing growth across core segments despite competitive and regulatory risks.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Earnings Release",
+        "impact_value": null
+      }
+    },
+    {
+      "name": "Alphabet – Search Revenue 2Q 2025",
+      "type": "Metric",
+      "brief": "Search revenue YoY growth in Q2.",
+      "description": "Search revenue grew 12% YoY in Q2 2025, outperforming Street's estimate of 9%.",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – YouTube Revenue 2Q 2025",
+      "type": "Metric",
+      "brief": "YouTube revenue YoY growth in Q2.",
+      "description": "YouTube revenues rose 13% YoY in Q2 2025, ahead of Street's 11% estimate, with 3pts acceleration quarter-over-quarter.",
+      "properties": {
+        "value": 13,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Cloud Revenue 2Q 2025",
+      "type": "Metric",
+      "brief": "Cloud revenue YoY growth in Q2.",
+      "description": "Cloud revenue grew 32% YoY, outpacing Street's 27% estimate and accelerating from previous quarter.",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – GAAP EPS Growth 2Q 2025",
+      "type": "Metric",
+      "brief": "GAAP EPS YoY percentage increase.",
+      "description": "Alphabet's GAAP EPS grew by 22% YoY in Q2 2025, reflecting strong profitability.",
+      "properties": {
+        "value": 22,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Core Google Operating Margin 2Q 2025",
+      "type": "Metric",
+      "brief": "Core Google operating margin in Q2.",
+      "description": "Core Google operating margin was reported as 38.3% in Q2 2025, down 17bps YoY.",
+      "properties": {
+        "value": 38.3,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Cloud Margin 2Q 2025",
+      "type": "Metric",
+      "brief": "Cloud margin expansion in Q2.",
+      "description": "Cloud margin improved by 942bps YoY to 20.7% in Q2 2025.",
+      "properties": {
+        "value": 20.7,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Total Headcount 2Q 2025",
+      "type": "Metric",
+      "brief": "Total Alphabet staff count during Q2.",
+      "description": "Alphabet's headcount at end Q2 was 187,100, up 4% YoY and 1% QoQ.",
+      "properties": {
+        "value": 187100,
+        "unit": "employees",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Stock Buybacks 2Q 2025",
+      "type": "Metric",
+      "brief": "Value of stock repurchases in Q2.",
+      "description": "Alphabet repurchased $13.6bn of stock in Q2 2025, down from $15.1bn in Q1, with $59.5bn over the trailing twelve months.",
+      "properties": {
+        "value": 13.6,
+        "unit": "USD bn",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Cash Dividend 2Q 2025",
+      "type": "Metric",
+      "brief": "Dividend per share in Q2.",
+      "description": "Alphabet's cash dividend was unchanged at $0.21 per share in Q2 2025.",
+      "properties": {
+        "value": 0.21,
+        "unit": "USD",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Paid Click Growth 2Q 2025",
+      "type": "Metric",
+      "brief": "Paid ad click YoY growth in Q2.",
+      "description": "Paid click growth accelerated to 4% YoY in Q2, approaching the previous year's 5%.",
+      "properties": {
+        "value": 4,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Al Overviews Queries Growth",
+      "type": "Metric",
+      "brief": "Increase in queries driven by AI Overviews.",
+      "description": "AI Overviews are driving over 10% more queries globally for eligible query types.",
+      "properties": {
+        "value": 10,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Alphabet – Multimodal Search Growth",
+      "type": "Metric",
+      "brief": "Growth in multimodal search usage.",
+      "description": "Multimodal search is seeing strong growth, particularly with Lens, Circle to Search, and AI Overviews.",
+      "properties": {
+        "value": null,
+        "unit": null,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Alphabet – Advertiser Conversions via Al Max",
+      "type": "Metric",
+      "brief": "Conversion uplift for advertisers using AI Max.",
+      "description": "Advertisers using AI Max in search campaigns achieve 14% more conversions on average.",
+      "properties": {
+        "value": 14,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Advertiser Conversions via Smart Bidding",
+      "type": "Metric",
+      "brief": "Conversion uplift for advertisers using Smart Bidding.",
+      "description": "Smart Bidding Exploration tools yield a 19% increase in conversions for advertisers on average.",
+      "properties": {
+        "value": 19,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – YouTube Shorts Ad Revenue Parity",
+      "type": "Metric",
+      "brief": "US YouTube Shorts ad revenue per hour matches in-stream.",
+      "description": "In the US, YouTube Shorts now deliver the same ad revenue per hour as traditional in-stream ads.",
+      "properties": {
+        "value": null,
+        "unit": null,
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet – Cloud Large Deals 2Q 2025",
+      "type": "Metric",
+      "brief": "Year-over-year change in >$250mn cloud deals.",
+      "description": "Number of cloud deals exceeding $250mn doubled YoY in Q2 2025.",
+      "properties": {
+        "value": 2,
+        "unit": "multiple YoY",
+        "as_of": "2025-06-30"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet – 2Q 2025 Earnings Release",
+      "target": "Alphabet – Google",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 1,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Earnings release directly impacts Alphabet financial performance."
+    },
+    {
+      "source": "Alphabet – Google",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "OWNS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Google generates search revenue."
+    },
+    {
+      "source": "Alphabet – Google",
+      "target": "Alphabet – YouTube Revenue 2Q 2025",
+      "type": "OWNS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 13,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Google generates YouTube revenue."
+    },
+    {
+      "source": "Alphabet – Google",
+      "target": "Alphabet – Cloud Revenue 2Q 2025",
+      "type": "OWNS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Google generates Cloud revenue."
+    },
+    {
+      "source": "Alphabet – Cloud",
+      "target": "Alphabet – Cloud Revenue 2Q 2025",
+      "type": "OWNS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Cloud segment's revenue performance."
+    },
+    {
+      "source": "Alphabet – Google",
+      "target": "Alphabet – GAAP EPS Growth 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 22,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Strong Q2 drives 22% YoY GAAP EPS growth."
+    },
+    {
+      "source": "Alphabet – Core Google Operating Margin 2Q 2025",
+      "target": "Alphabet – Google",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": 38.3,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Operating margin affects profitability."
+    },
+    {
+      "source": "Alphabet – Cloud Margin 2Q 2025",
+      "target": "Alphabet – Cloud",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 20.7,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Improved margin impacts Cloud business performance."
+    },
+    {
+      "source": "Alphabet – Gemini App",
+      "target": "Alphabet – Google",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "mn MAUs",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Strong Gemini user growth enhances Google’s AI user base."
+    },
+    {
+      "source": "Alphabet – Paid Click Growth 2Q 2025",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 4,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Higher paid clicks drive search revenue."
+    },
+    {
+      "source": "Alphabet – Al Overviews Queries Growth",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Al Overviews increase query volume for eligible types."
+    },
+    {
+      "source": "Alphabet – Multimodal Search Growth",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Multimodal search contributes to overall search revenue."
+    },
+    {
+      "source": "Alphabet – Advertiser Conversions via Al Max",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 14,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "AI Max increases search ad conversions by 14%."
+    },
+    {
+      "source": "Alphabet – Advertiser Conversions via Smart Bidding",
+      "target": "Alphabet – Search Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Smart Bidding increases search ad conversions by 19%."
+    },
+    {
+      "source": "Alphabet – YouTube Shorts Ad Revenue Parity",
+      "target": "Alphabet – YouTube",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Shorts ad revenue is now on par with in-stream ads."
+    },
+    {
+      "source": "Alphabet – Stock Buybacks 2Q 2025",
+      "target": "Alphabet – Google",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 13.6,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Buybacks support stock performance and return capital."
+    },
+    {
+      "source": "Alphabet – Cloud Large Deals 2Q 2025",
+      "target": "Alphabet – Cloud Revenue 2Q 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "multiple YoY",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Doubling of large cloud deals drives overall cloud revenue."
+    }
+  ],
+  "scenarios": []
+}

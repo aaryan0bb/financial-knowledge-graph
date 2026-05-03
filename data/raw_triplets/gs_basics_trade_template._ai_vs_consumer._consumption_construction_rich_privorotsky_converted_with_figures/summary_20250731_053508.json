@@ -1,0 +1,24 @@
+{
+  "report": "GS Basics - Trade Template. AI vs Consumer. Consumption_Construction - Rich Privorotsky_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:35:08.048360",
+  "total_chunks": 2,
+  "total_entities": 17,
+  "total_relationships": 6,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 13,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_053406.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 4,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_053506.json"
+    }
+  ]
+}

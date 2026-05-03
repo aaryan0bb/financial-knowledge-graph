@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "Table T10 - Automotive Industry LTM US Light Vehicle ATP and Incentives Trends",
+      "type": "Table",
+      "brief": "Shows LTM ATP and incentive trends from Dec 2014 to Jun 2025",
+      "description": "Displays the trend of US light vehicle transaction prices rising and incentives peaking then recovering",
+      "properties": {
+        "table_id": "T10",
+        "table_content": "| Date    | LTM US Average Transaction Price | LTM Average US Incentive |\n|---------|----------------------------------|--------------------------|\n| Dec-14  | $33,000                          | $2,800                   |\n| Jun-15  | $33,500                          | $2,900                   |\n| Dec-15  | $34,000                          | $3,000                   |\n| Jun-16  | $34,500                          | $3,200                   |\n| Dec-16  | $35,000                          | $3,400                   |\n| Jun-17  | $35,500                          | $3,600                   |\n| Dec-17  | $36,500                          | $3,800                   |\n| Jun-18  | $37,500                          | $4,100                   |\n| Dec-18  | $38,500                          | $4,300                   |\n| Jun-19  | $39,500                          | $4,100                   |\n| Dec-19  | $40,000                          | $4,000                   |\n| Jun-20  | $40,500                          | $4,000                   |\n| Dec-20  | $41,500                          | $4,000                   |\n| Jun-21  | $43,000                          | $3,200                   |\n| Dec-21  | $45,500                          | $2,200                   |\n| Jun-22  | $47,000                          | $1,500                   |\n| Dec-22  | $47,500                          | $1,600                   |\n| Jun-23  | $48,000                          | $2,000                   |\n| Dec-23  | $48,500                          | $2,500                   |\n| Jun-24  | $48,500                          | $3,100                   |\n| Dec-24  | $48,800                          | $3,400                   |\n| Jun-25  | $49,000                          | $3,500                   |",
+        "key_insight": "LTM ATP rose from ~$33k to ~$49k by Jun-25, while incentives peaked near $4.1k in mid-2020, dipped to ~$1.5k by mid-2022, and recovered to ~$3.5k by Jun-25"
+      }
+    },
+    {
+      "name": "Automotive Industry Used Vehicle Price Change 2Q:25",
+      "type": "Metric",
+      "brief": "Used vehicle prices up 5% YoY and 2% sequential in 2Q:25",
+      "description": "Shows strength in used vehicle prices for 2Q:25 compared to prior periods",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 5,
+        "qoq_change_pct": 2
+      }
+    },
+    {
+      "name": "Automotive Industry New Vehicle Price Change 2Q:25",
+      "type": "Metric",
+      "brief": "New vehicle prices up 1.1% YoY and 1.9% sequential in 2Q:25",
+      "description": "Indicates modest growth in new vehicle transaction prices in 2Q:25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 1.1,
+        "qoq_change_pct": 1.9
+      }
+    },
+    {
+      "name": "Automotive Industry OEM Incentives Change 2Q:25",
+      "type": "Metric",
+      "brief": "Industry average OEM incentives up 6% YoY and down 2% sequential in 2Q:25",
+      "description": "Reflects moderation of OEM incentives post-tariff announcements",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": 6,
+        "qoq_change_pct": -2
+      }
+    },
+    {
+      "name": "Automotive Industry EV ATP Change 2Q:25",
+      "type": "Metric",
+      "brief": "Electric vehicle ATP flat with -0.5% YoY and +0.7% sequential in 2Q:25",
+      "description": "Captures limited change in EV transaction prices in 2Q:25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q:25",
+        "value": -0.5,
+        "qoq_change_pct": 0.7
+      }
+    },
+    {
+      "name": "Automotive Industry Tariffs Announcement",
+      "type": "Event",
+      "brief": "Tariffs announced affecting industry incentives",
+      "description": "Announcement of tariffs leading to moderation of OEM incentives",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_change",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Automotive Industry Light Vehicle Pricing Dynamics",
+      "type": "Factor",
+      "brief": "Trend of ATP rising and incentives recovering",
+      "description": "Represents dynamic interplay of transaction prices and incentives over time",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T10 - Automotive Industry LTM US Light Vehicle ATP and Incentives Trends",
+      "target": "Automotive Industry Light Vehicle Pricing Dynamics",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Table informs trend of ATP and incentives dynamics"
+    },
+    {
+      "source": "Automotive Industry Tariffs Announcement",
+      "target": "Automotive Industry OEM Incentives Change 2Q:25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariff announcement led to moderating OEM incentives"
+    }
+  ],
+  "scenarios": []
+}

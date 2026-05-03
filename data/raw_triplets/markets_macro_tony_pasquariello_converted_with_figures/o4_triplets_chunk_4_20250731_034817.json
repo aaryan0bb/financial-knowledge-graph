@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "name": "US Market Top Seven US Banks Corporate Loan Growth Q1",
+      "type": "Metric",
+      "brief": "Corporate loan growth for top seven banks in Q1 2025",
+      "description": "Year-over-year corporate loan growth for the top seven US banks in Q1 2025",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": "Q1 2025"
+      }
+    },
+    {
+      "name": "US Market Top Seven US Banks Corporate Loan Growth Q2",
+      "type": "Metric",
+      "brief": "Corporate loan growth for top seven banks in Q2 2025",
+      "description": "Year-over-year corporate loan growth for the top seven US banks in Q2 2025",
+      "properties": {
+        "value": 5,
+        "unit": "%",
+        "as_of": "Q2 2025"
+      }
+    },
+    {
+      "name": "US Market JPM TBV Ratio",
+      "type": "Metric",
+      "brief": "JPM price-to-tangible-book multiple",
+      "description": "JPM trades at around 3.0x tangible book value",
+      "properties": {
+        "value": 3.0,
+        "unit": "x",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Market Bank Physical Check Processing Cost",
+      "type": "Metric",
+      "brief": "Cost to process a physical check",
+      "description": "It costs a US bank as much as $7 to process a physical check",
+      "properties": {
+        "value": 7,
+        "unit": "USD",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Market XLI ETF",
+      "type": "Instrument",
+      "brief": "ETF tracking US industrials",
+      "description": "ETF XLI represents US industrial sector performance",
+      "properties": {
+        "ticker": "XLI"
+      }
+    },
+    {
+      "name": "US Market XLI May 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in May 2025",
+      "description": "XLI returned 8.8% in May 2025",
+      "properties": {
+        "value": 8.8,
+        "unit": "%",
+        "as_of": "May 2025"
+      }
+    },
+    {
+      "name": "US Market XLI June 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in June 2025",
+      "description": "XLI returned 3.3% in June 2025",
+      "properties": {
+        "value": 3.3,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "US Market XLI July 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in July 2025",
+      "description": "XLI returned 5.1% in July 2025",
+      "properties": {
+        "value": 5.1,
+        "unit": "%",
+        "as_of": "July 2025"
+      }
+    },
+    {
+      "name": "US Market Hedge Fund Community Net Exposure",
+      "type": "Factor",
+      "brief": "Hedge fund net exposure to XLI",
+      "description": "Hedge funds net exposure to XLI reached the 100th percentile over nine weeks",
+      "properties": {
+        "magnitude": 100,
+        "unit": "percentile",
+        "lookback_days": 63
+      }
+    },
+    {
+      "name": "US Market GEV",
+      "type": "Company",
+      "brief": "AI/data center related stock",
+      "description": "GEV has returned 100% year-to-date in 2025",
+      "properties": {
+        "ticker": "GEV",
+        "performance_ytd_pct": 100
+      }
+    },
+    {
+      "name": "US Market GE",
+      "type": "Company",
+      "brief": "Industrial conglomerate",
+      "description": "GE has returned 60% year-to-date in 2025",
+      "properties": {
+        "ticker": "GE",
+        "performance_ytd_pct": 60
+      }
+    },
+    {
+      "name": "US Market ISM Contraction Frequency",
+      "type": "Factor",
+      "brief": "ISM in contractionary territory frequency",
+      "description": "ISM has been in contraction for 30 of the last 32 months",
+      "properties": {
+        "magnitude_months": 30,
+        "lookback_months": 32
+      }
+    },
+    {
+      "name": "US Market Lower Interest Rates",
+      "type": "Factor",
+      "brief": "Prospective interest rate decline",
+      "description": "Potential for lower interest rates in 2H 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "Event",
+      "brief": "Investor re-evaluation of cyclical exposures",
+      "description": "Investors are re-evaluating deeper cyclical exposures in 2H 2025",
+      "properties": {
+        "date": null,
+        "event_type": "investor_revaluation"
+      }
+    },
+    {
+      "name": "US Market US Economic Growth",
+      "type": "Factor",
+      "brief": "US economic growth trend",
+      "description": "Overall US economic growth trend under influence of bank lending",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Market Hedge Fund Community Net Exposure",
+      "target": "US Market XLI ETF",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": 100,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Hedge fund net exposure to XLI at 100th percentile"
+    },
+    {
+      "source": "US Market Top Seven US Banks Corporate Loan Growth Q2",
+      "target": "US Market US Economic Growth",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Higher corporate loan growth is net positive for US economic growth"
+    },
+    {
+      "source": "US Market Lower Interest Rates",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Lower rates support re-evaluation of cyclical exposures"
+    },
+    {
+      "source": "US Market ISM Contraction Frequency",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Frequent ISM contraction supports re-evaluation of exposures"
+    },
+    {
+      "source": "US Market GEV",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Concentrated GEV performance triggers cyclical re-evaluation"
+    },
+    {
+      "source": "US Market GE",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Concentrated GE performance triggers cyclical re-evaluation"
+    }
+  ],
+  "scenarios": []
+}

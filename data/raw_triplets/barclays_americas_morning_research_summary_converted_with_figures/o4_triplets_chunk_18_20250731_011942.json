@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "Healthcare – IQVIA",
+      "type": "Company",
+      "brief": "Clinical research services provider",
+      "description": "Bookings exceeded expectations with strong pipeline, impacting outlook",
+      "properties": {
+        "ticker": "IQV",
+        "market_cap_USDbn": 32.4167,
+        "rating_outlook": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Healthcare – Medpace",
+      "type": "Company",
+      "brief": "Clinical research services provider",
+      "description": "Strong bookings but elevated burn-rates raise revenue cliff risk",
+      "properties": {
+        "ticker": "MEDP",
+        "market_cap_USDbn": 13.7307,
+        "rating_outlook": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Healthcare – IQVIA Research Report Release",
+      "type": "Event",
+      "brief": "Barclays research publication for IQVIA",
+      "description": "Release of Barclays Equity Research report on IQVIA with updated estimates",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Research Report"
+      }
+    },
+    {
+      "name": "Healthcare – Medpace Research Report Release",
+      "type": "Event",
+      "brief": "Barclays research publication for Medpace",
+      "description": "Release of Barclays Equity Research report on Medpace with updated estimates",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Research Report"
+      }
+    },
+    {
+      "name": "Healthcare – IQVIA bookings",
+      "type": "Factor",
+      "brief": "Bookings above expectations",
+      "description": "Bookings exceeded expectations with notable strength in EBP RFPs and a qualified pipeline",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Healthcare – Medpace non-NTM backlog",
+      "type": "Factor",
+      "brief": "non-NTM backlog ticked down materially",
+      "description": "Next-twelve-month backlog for Medpace continued to tick down materially",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Healthcare – Medpace 2Q bookings environment",
+      "type": "Factor",
+      "brief": "Strong 2Q bookings environment",
+      "description": "Strong second-quarter bookings environment could offset elevated burn-rates",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Healthcare – IQVIA",
+      "target": "Healthcare – IQVIA bookings",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "IQVIA's bookings exceeded expectations"
+    },
+    {
+      "source": "Healthcare – Medpace",
+      "target": "Healthcare – Medpace non-NTM backlog",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Medpace's non-NTM backlog ticked down materially"
+    },
+    {
+      "source": "Healthcare – Medpace",
+      "target": "Healthcare – Medpace 2Q bookings environment",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Medpace's strong 2Q bookings environment"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "Table T13 – DataCenterCredit Quarterly Fixed-Rate Inflows and Net Flows",
+      "type": "Table",
+      "brief": "Quarterly fixed-rate inflows, outflows, and net flows from 3Q16 to 3Q24",
+      "description": "Shows surge in fixed-rate inflows beginning 1Q22, peaking in 1Q23 driving net flows.",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Quarter | Inflows ($bn) | Outflows ($bn) | Net flows ($bn) |\n|---------|---------------|----------------|-----------------|\n| 3Q16    | 8             | 2              | 6               |\n| 1Q17    | 10            | 4              | 6               |\n| 3Q17    | 10            | 6              | 4               |\n| 1Q18    | 10            | 4              | 6               |\n| 3Q18    | 10            | 7              | 3               |\n| 1Q19    | 14            | 5              | 9               |\n| 3Q19    | 11            | 5              | 6               |\n| 1Q20    | 10            | 4              | 6               |\n| 3Q20    | 15            | 4              | 11              |\n| 1Q21    | 14            | 5              | 9               |\n| 3Q21    | 14            | 6              | 8               |\n| 1Q22    | 28            | 10             | 18              |\n| 3Q22    | 35            | 15             | 20              |\n| 1Q23    | 48            | 20             | 28              |\n| 3Q23    | 30            | 20             | 10              |\n| 1Q24    | 30            | 20             | 10              |\n| 3Q24    | 30            | 12             | 18              |",
+        "key_insight": "Inflows peaked at $48bn in 1Q23 after a surge starting in 1Q22, driving net flows up to $28bn."
+      }
+    },
+    {
+      "name": "Table T14 – DataCenterCredit US Corporate Bond Market Ownership Trends",
+      "type": "Table",
+      "brief": "Ownership distribution of US corporate bonds by investor type from 1990 to 2022",
+      "description": "Highlights the decline in insurance company ownership and rise of non-US investors.",
+      "properties": {
+        "table_id": "T14",
+        "table_content": "| Year | Households/Other | Insurance | Mutual Funds | Pension Funds | Financial Instit. | Others | Non-US Investors |\n|------|------------------|-----------|--------------|---------------|-------------------|--------|------------------|\n| 1990 | 12.0%            | 38.0%     | 6.0%         | 14.0%         | 10.0%             | 5.0%   | 15.0%            |\n| 1992 | 15.0%            | 35.0%     | 6.0%         | 13.0%         | 10.0%             | 4.0%   | 17.0%            |\n| 1994 | 18.0%            | 32.0%     | 6.0%         | 12.0%         | 10.0%             | 4.0%   | 18.0%            |\n| 1996 | 16.0%            | 33.0%     | 6.0%         | 12.0%         | 10.0%             | 4.0%   | 19.0%            |\n| 1998 | 12.0%            | 35.0%     | 7.0%         | 12.0%         | 10.0%             | 4.0%   | 20.0%            |\n| 2000 | 10.0%            | 38.0%     | 8.0%         | 12.0%         | 9.0%              | 4.0%   | 19.0%            |\n| 2002 | 8.0%             | 40.0%     | 9.0%         | 11.0%         | 10.0%             | 4.0%   | 18.0%            |\n| 2004 | 5.0%             | 41.0%     | 9.0%         | 10.0%         | 12.0%             | 4.0%   | 19.0%            |\n| 2006 | 4.0%             | 40.0%     | 10.0%        | 10.0%         | 14.0%             | 4.0%   | 18.0%            |\n| 2008 | 5.0%             | 35.0%     | 11.0%        | 11.0%         | 16.0%             | 3.0%   | 19.0%            |\n| 2010 | 6.0%             | 32.0%     | 12.0%        | 12.0%         | 18.0%             | 3.0%   | 17.0%            |\n| 2012 | 4.0%             | 31.0%     | 14.0%        | 12.0%         | 20.0%             | 3.0%   | 16.0%            |\n| 2014 | 1.0%             | 30.0%     | 15.0%        | 12.0%         | 22.0%             | 3.0%   | 17.0%            |\n| 2016 | 0.5%             | 31.0%     | 17.0%        | 11.0%         | 18.0%             | 4.0%   | 18.5%            |\n| 2018 | 0.5%             | 32.0%     | 18.0%        | 10.0%         | 15.0%             | 4.0%   | 20.5%            |\n| 2020 | 0.5%             | 28.0%     | 18.0%        | 9.0%          | 14.0%             | 5.0%   | 25.5%            |\n| 2022 | 0.5%             | 25.0%     | 18.0%        | 10.0%         | 12.0%             | 6.0%   | 28.5%            |",
+        "key_insight": "Non-US investors increased their US corporate bond ownership from roughly 15% to almost 30% between 1990 and 2022, while insurance companies' share fell from about 40% to 25%."
+      }
+    },
+    {
+      "name": "DataCenterCredit Demand-Supply Imbalance",
+      "type": "Factor",
+      "brief": "Credit demand exceeds supply",
+      "description": "High fixed-rate inflows have outpaced credit issuance creating excess demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenterCredit Non-US Investor Ownership Shift",
+      "type": "Factor",
+      "brief": "Non-US investors dominate US corporate bonds",
+      "description": "Non-US investors' ownership grew to nearly 30% in 2022 while insurance companies declined",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 15
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T13 – DataCenterCredit Quarterly Fixed-Rate Inflows and Net Flows",
+      "target": "DataCenterCredit Demand-Supply Imbalance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fixed-rate inflows inform credit demand-supply imbalance"
+    },
+    {
+      "source": "Table T14 – DataCenterCredit US Corporate Bond Market Ownership Trends",
+      "target": "DataCenterCredit Non-US Investor Ownership Shift",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Ownership data informs shift toward non-US investors"
+    }
+  ],
+  "scenarios": []
+}

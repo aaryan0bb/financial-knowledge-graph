@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "DataCenterCredit Exhibit 34 Chart",
+      "type": "Chart",
+      "brief": "Tech share of S&P500 vs US IG Index",
+      "description": "Time series of Info Tech % of S&P500 and Tech % of US IG Index from 2000 to 2025",
+      "properties": {
+        "chart_id": "Exhibit 34",
+        "chart_type": "Time Series"
+      }
+    },
+    {
+      "name": "DataCenterCredit Exhibit 36 Chart",
+      "type": "Chart",
+      "brief": "MSFT operating and finance lease liabilities",
+      "description": "Quarterly MSFT lease liabilities from Dec-22 to Mar-25 showing operating and finance leases",
+      "properties": {
+        "chart_id": "Exhibit 36",
+        "chart_type": "Stacked Bar"
+      }
+    },
+    {
+      "name": "DataCenterCredit Exhibit 37 Chart",
+      "type": "Chart",
+      "brief": "MSFT additional leases not yet commenced",
+      "description": "Disclosed additional finance and operating leases not yet commenced for MSFT from Dec-22 to Mar-25",
+      "properties": {
+        "chart_id": "Exhibit 37",
+        "chart_type": "Stacked Bar"
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT",
+      "type": "Company",
+      "brief": "Microsoft Corporation",
+      "description": "Leading technology company with significant data center lease commitments",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Information Technology"
+      }
+    },
+    {
+      "name": "DataCenterCredit ORCL",
+      "type": "Company",
+      "brief": "Oracle Corporation",
+      "description": "Enterprise software and cloud services company using data center leases",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "Information Technology"
+      }
+    },
+    {
+      "name": "DataCenterCredit Info. Tech. Index % of S&P500",
+      "type": "Metric",
+      "brief": "Info Tech share of S&P500 market cap",
+      "description": "Info Tech sector represented 32.0% of S&P500 market capitalization as of Jul-25",
+      "properties": {
+        "unit": "%",
+        "as_of": "Jul-25",
+        "value": 32.0
+      }
+    },
+    {
+      "name": "DataCenterCredit Tech Index % of US IG Index",
+      "type": "Metric",
+      "brief": "Tech debt share in US investment grade index",
+      "description": "Tech Index comprised 9.6% of US IG index market value as of Jul-25",
+      "properties": {
+        "unit": "%",
+        "as_of": "Jul-25",
+        "value": 9.6
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT total lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT total lease liabilities",
+      "description": "Total of MSFT operating and finance leases more than doubled to $63bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 63.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT finance lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT finance lease liabilities",
+      "description": "MSFT finance lease liabilities grew to $40bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 40.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT operating lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT operating lease liabilities",
+      "description": "MSFT operating lease liabilities increased to $23bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 23.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT total leases not yet commenced",
+      "type": "Metric",
+      "brief": "MSFT total not-yet commenced lease liabilities peak",
+      "description": "Total MSFT leases not yet commenced peaked at $117bn in Jun-24",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jun-24",
+        "value": 117.0,
+        "peak_date": "Jun-24"
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT additional finance leases not yet commenced",
+      "type": "Metric",
+      "brief": "MSFT additional finance leases not commenced peak",
+      "description": "MSFT additional finance leases not yet commenced peaked at $109bn in Jun-24",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jun-24",
+        "value": 109.0,
+        "peak_date": "Jun-24"
+      }
+    },
+    {
+      "name": "DataCenterCredit ORCL additional lease commitments not yet commenced",
+      "type": "Metric",
+      "brief": "ORCL additional not-yet commenced lease commitments",
+      "description": "ORCL has $43bn of additional lease commitments that have not yet commenced",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": 43.0
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DataCenterCredit Exhibit 34 Chart",
+      "target": "DataCenterCredit Info. Tech. Index % of S&P500",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 32.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 34 shows Info Tech share of S&P500 at 32%"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 34 Chart",
+      "target": "DataCenterCredit Tech Index % of US IG Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 9.6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 34 shows Tech share of US IG Index at 9.6%"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT total lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 63.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT total lease liabilities reached $63bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT finance lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 40.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT finance lease liabilities reached $40bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT operating lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 23.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT operating lease liabilities reached $23bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 37 Chart",
+      "target": "DataCenterCredit MSFT total leases not yet commenced",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 117.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 37 shows MSFT total leases not yet commenced peaked at $117bn in Jun-24"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 37 Chart",
+      "target": "DataCenterCredit MSFT additional finance leases not yet commenced",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 109.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 37 shows MSFT additional finance leases not commenced peaked at $109bn in Jun-24"
+    },
+    {
+      "source": "DataCenterCredit ORCL",
+      "target": "DataCenterCredit ORCL additional lease commitments not yet commenced",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 43.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "ORCL holds $43bn of additional lease commitments not yet commenced"
+    }
+  ],
+  "scenarios": []
+}

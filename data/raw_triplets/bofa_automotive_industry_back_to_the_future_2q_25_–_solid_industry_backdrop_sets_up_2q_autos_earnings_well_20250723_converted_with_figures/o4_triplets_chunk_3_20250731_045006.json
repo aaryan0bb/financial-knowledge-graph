@@ -1,0 +1,221 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry Global BEV shift",
+      "type": "Factor",
+      "brief": "Ongoing shift towards BEVs in automotive production mix",
+      "description": "Increasing share of battery electric vehicles globally in production mix",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in China",
+      "type": "Metric",
+      "brief": "37.3% YoY BEV production growth in China in 2Q25",
+      "description": "Highlights China’s leading BEV production growth influencing global mix",
+      "properties": {
+        "value": 37.3,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in Europe",
+      "type": "Metric",
+      "brief": "34.0% YoY BEV production growth in Europe in 2Q25",
+      "description": "Shows significant BEV growth in Europe impacting regional trends",
+      "properties": {
+        "value": 34.0,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV production growth in North America",
+      "type": "Metric",
+      "brief": "-13.0% YoY BEV production growth in North America in 2Q25",
+      "description": "Indicates decline in North American BEV production reflecting regional headwinds",
+      "properties": {
+        "value": -13.0,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Table T4 – Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "type": "Table",
+      "brief": "S&P forecasts changes in BEV production mix from Jan to May 2025",
+      "description": "Shows percentage change in BEV forecast for major regions between Jan and May 2025",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "                      20:24                          IHS 2Q:25 Forecast\n                      Actual          Jan-25      Feb-25     Mar-25       Apr-25      May-25 \n  Europe - BEV           431,105     652,157     642,611     624,880     589,889     577,872 \n  Europe - Other       4,056,790   3,667,598   3,683,588   3,709,423    3,704,371   3,710,515 \n     % of BEV              9.6%        15.1%       14.9%       14.4%       13.7%       13.5% \n     % of Other           90.4%       84.9%        85.1%       85.6%       86.3%       86.5% \n  North America - BEV    309,963     386,640     383,528     348,548     289,833      269,639 \n   North America - Other 3,789,618 3,576,173   3,573,159    3,508,634   3,381,241   3,538,178 \n     % of BEV              7.6%        9.8%         9.7%        9.0%        7.9%        7.1% \n     % of Other           92.4%       90.2%       90.3%        91.0%       92.1%       92.9% \n  Greater China - BEV   1,685,099 2,313,426     2,291,302   2,351,972   2,306,067   2,312,850 \n  Greater China - Other 5,306,943 5,311,765    5,369,189    5,147,323   5,002,268   4,988,285 \n     % of BEV             24.1%       30.3%       29.9%        31.4%       31.6%       31.7% \n     % of Other           75.9%       69.7%        70.1%       68.6%       68.4%       68.3% \n\n  Global BEV          2,619,173 3,680,365 3,630,558     3,627,801   3,467,074   3,408,239 \n  Global Other       19,522,927 18,847,908 18,943,313     18,633,665 18,338,779   18,490,277 \n     % of BEV             11.8%        16.3%       16.1%       16.3%       15.9%       15.6% \n     % of Other           88.2%       83.7%       83.9%        83.7%       84.1%       84.4% \n  Source: S&P Global",
+        "key_insight": "S&P production expectations for BEV in North America and Europe declined by 30.3% and 11.4% respectively from January to May 2025, while China was flat"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in North America",
+      "type": "Metric",
+      "brief": "-30.3% change in BEV forecast in North America from Jan to May 2025",
+      "description": "Captures decline in North America BEV production forecast risk",
+      "properties": {
+        "value": -30.3,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in Europe",
+      "type": "Metric",
+      "brief": "-11.4% change in BEV forecast in Europe from Jan to May 2025",
+      "description": "Captures decline in Europe BEV production forecast risk",
+      "properties": {
+        "value": -11.4,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 BEV forecast change in China",
+      "type": "Metric",
+      "brief": "0.0% change in BEV forecast in China from Jan to May 2025",
+      "description": "Indicates flat BEV production forecast in China between Jan and May 2025",
+      "properties": {
+        "value": 0.0,
+        "unit": "%",
+        "as_of": "2025-05"
+      }
+    },
+    {
+      "name": "Table T5 – Automotive Industry Q2:25 YoY production growth by region and segment",
+      "type": "Table",
+      "brief": "YoY production growth by region and segment for Q2 2025",
+      "description": "Shows comparative YoY growth rates for cars and trucks across regions in Q2 2025",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Region | Segment | YoY Production Growth |\n|---|---|---|\n| North America | Car | -11.2% |\n| North America | Trucks | -2.5% |\n| Europe | Car | 9.4% |\n| Europe | Trucks | 8.0% |\n| China | Car | -10.3% |\n| China | Trucks | 0.3% |\n| Global | Car | -1.7% |\n| Global | Trucks | 3.2% |",
+        "key_insight": "Globally, truck production grew by 3.2% while car production declined by 1.7% in Q2 2025"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 global truck production growth",
+      "type": "Metric",
+      "brief": "3.2% YoY global truck production growth in 2Q25",
+      "description": "Highlights global increase in truck production, affecting vehicle mix trends",
+      "properties": {
+        "value": 3.2,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 global car production growth",
+      "type": "Metric",
+      "brief": "-1.7% YoY global car production growth in 2Q25",
+      "description": "Reflects global decline in car production, indicating shift to trucks",
+      "properties": {
+        "value": -1.7,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    },
+    {
+      "name": "Automotive Industry 2Q25 Europe car production growth",
+      "type": "Metric",
+      "brief": "9.4% YoY Europe car production growth in 2Q25",
+      "description": "Demonstrates strong European car production growth, outlier among regions",
+      "properties": {
+        "value": 9.4,
+        "unit": "%",
+        "as_of": "2025-06"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T4 – Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in North America",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -30.3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs decline in North America BEV forecast"
+    },
+    {
+      "source": "Table T4 – Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in Europe",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -11.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs decline in Europe BEV forecast"
+    },
+    {
+      "source": "Table T4 – Automotive Industry S&P 2Q25 BEV forecast changes by region",
+      "target": "Automotive Industry 2Q25 BEV forecast change in China",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs flat BEV forecast in China"
+    },
+    {
+      "source": "Table T5 – Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 global truck production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.2,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global truck production growth"
+    },
+    {
+      "source": "Table T5 – Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 global car production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1.7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global car production decline"
+    },
+    {
+      "source": "Table T5 – Automotive Industry Q2:25 YoY production growth by region and segment",
+      "target": "Automotive Industry 2Q25 Europe car production growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 9.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Europe car production growth"
+    }
+  ],
+  "scenarios": []
+}

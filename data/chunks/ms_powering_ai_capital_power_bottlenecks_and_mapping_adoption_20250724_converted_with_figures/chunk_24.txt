@@ -1,0 +1,27 @@
+Morgan Stanley                                                                                        July 24, 2025 
+
+The "REIT End Game" for Bitcoin Assets Converted to HPC Data Centers 
+
+                                                                                   Range 
+Data Center Total Power (MW)                                            100                 100                  100 
+Data Center Revenue/Watt                                $              1.55 $              1.55 $               1.55 
+Total Data Center Revenue ($m per year)                                $155                $155                 $155 
+Operating Margin                                                       70%                  70%                 70% 
+  Operating Costs                                       $               (47) $              (47) $               (47) 
+EBITDA ($m)                                                            $109                $109                 $109 
+Total Construction Cost/Watt                                             $6                  $7                   $8 
+Construction Cost ($m)                                  $              600 $                700 $               800 
+  Construction Costs as a Multiple of EBITDA                            5.5                 6.5                  7.4 
+Leverage as a Multiple of EBITDA                                        4.0                 4.0                  4.0 
+ Leverage (% of Cost)                                                  72%                  62%                 54% 
+Indicative Enterprise Value/EBITDA Multiple                            10.0x               12.5x                15.0x 
+Resulting Enterprise Value ($m)                         $             1,085 $              1,356 $             1,628 
+Resulting Equity Value ($m)                             $              651 $                922 $              1,194 
+Value Creation on Equity Investment                                   292%                 247%                226% 
+Equity Value ($m per megawatt)                          $              6.51 $              9.22 $              11.94 
+Equity Value Creation ($m per megawatt)                 $              4.85 $              6.56 $               8.28 
+
+ Based on our indicative assumptions, returns could be high for building and leasing a "powered shell" to a hyperscaler, 
+ followed by selling this asset to a REIT - these value creation levels are well above where most Bitcoin stocks trade on 
+ an EV/watt basis 
+Source: Morgan Stanley Research                                                                                  24

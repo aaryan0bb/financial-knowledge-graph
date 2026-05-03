@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Tariff Payments Annualized Tariff Revenue Trends",
+      "type": "Table",
+      "brief": "Annualized tariff revenue from Jul 2024 to Jul 2025",
+      "description": "Shows revenue remained stable then accelerated to 345bn USD by July 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Annualized Tariff Revenue ($b) |\n|------------|--------------------------------|\n| 1-Jul-24   | 90                             |\n| 1-Aug-24   | 95                             |\n| 1-Sep-24   | 105                            |\n| 1-Oct-24   | 100                            |\n| 1-Nov-24   | 105                            |\n| 1-Dec-24   | 100                            |\n| 1-Jan-25   | 95                             |\n| 15-Jan-25  | 100                            |\n| 1-Feb-25   | 105                            |\n| 1-Mar-25   | 110                            |\n| 15-Mar-25  | 115                            |\n| 1-Apr-25   | 120                            |\n| 15-Apr-25  | 130                            |\n| 1-May-25   | 190                            |\n| 10-May-25  | 205                            |\n| 20-May-25  | 220                            |\n| 1-Jun-25   | 280                            |\n| 10-Jun-25  | 285                            |\n| 20-Jun-25  | 320                            |\n| 1-Jul-25   | 330                            |\n| 20-Jul-25  | 345                            |",
+        "key_insight": "Annualized tariff revenue surged from a stable $95–115bn range to $345bn by July 2025."
+      }
+    },
+    {
+      "name": "US Tariff Payments Stable Revenue Range",
+      "type": "Metric",
+      "brief": "Revenue between 95bn and 115bn USD from Jul 2024 to Apr 2025",
+      "description": "Annualized tariff revenue fluctuated within a stable range over that period",
+      "properties": {
+        "unit": "USD bn",
+        "min": 95,
+        "max": 115,
+        "as_of": "2025-04-01",
+        "trough_date": "2024-07-01",
+        "peak_date": "2025-04-01"
+      }
+    },
+    {
+      "name": "US Tariff Payments Revenue Peak",
+      "type": "Metric",
+      "brief": "Revenue peaked at 345bn USD by July 2025",
+      "description": "Annualized tariff revenue reached peak by late July 2025",
+      "properties": {
+        "unit": "USD bn",
+        "value": 345,
+        "as_of": "2025-07-20"
+      }
+    },
+    {
+      "name": "US Tariff Payments M/M Growth",
+      "type": "Factor",
+      "brief": "One percent month-over-month increase in tariff payments",
+      "description": "Tariff payments were only up 1% m/m, indicating slowed growth",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 1,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "AI Capex Estimate Revision",
+      "type": "Factor",
+      "brief": "Aggregate AI capex guidance revised up for 2025 and 2026",
+      "description": "Positive tech earnings drove higher capex estimates for AI services",
+      "properties": {
+        "direction": "up",
+        "periods": [
+          2025,
+          2026
+        ]
+      }
+    },
+    {
+      "name": "AI Capex – Tech Earnings Reports",
+      "type": "Event",
+      "brief": "First week of technology sector earnings reports",
+      "description": "Recent technology earnings reports led to capex guidance revisions",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report"
+      }
+    },
+    {
+      "name": "AI Capex – Tax Bill Expensing Feature Tailwind",
+      "type": "Factor",
+      "brief": "Immediate expensing feature of recent tax bill acting as capex tailwind",
+      "description": "Tax legislation enabled immediate capex expensing, supporting capex spending",
+      "properties": {
+        "direction": "up",
+        "driver": "tax_bill_expensing"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Tariff Payments Annualized Tariff Revenue Trends",
+      "target": "US Tariff Payments Revenue Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 345,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Table highlights revenue peaking at 345bn USD by late July 2025"
+    },
+    {
+      "source": "AI Capex – Tech Earnings Reports",
+      "target": "AI Capex Estimate Revision",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Tech earnings reports drove upward revision of AI capex estimates"
+    },
+    {
+      "source": "AI Capex – Tax Bill Expensing Feature Tailwind",
+      "target": "AI Capex Estimate Revision",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tax bill expensing feature acted as tailwind for AI capex estimates"
+    }
+  ],
+  "scenarios": []
+}

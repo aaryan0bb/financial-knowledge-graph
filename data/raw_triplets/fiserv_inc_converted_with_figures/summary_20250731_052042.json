@@ -1,0 +1,52 @@
+{
+  "report": "Fiserv Inc_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:20:42.967674",
+  "total_chunks": 6,
+  "total_entities": 37,
+  "total_relationships": 19,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_051356.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 5,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_051532.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 8,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_051721.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 15,
+      "relationships": 11,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_051932.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_051943.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_052040.json"
+    }
+  ]
+}

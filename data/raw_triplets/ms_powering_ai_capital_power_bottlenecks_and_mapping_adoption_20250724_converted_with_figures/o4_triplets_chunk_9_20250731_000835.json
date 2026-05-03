@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "DataCenter – Securitization Rate Projection",
+      "type": "Event",
+      "brief": "Projected rise in data center securitization rate",
+      "description": "Morgan Stanley projects global data center securitization rate climbing from 10% to 25% by 2028",
+      "properties": {
+        "date": null,
+        "event_type": "projection",
+        "start_pct": 10,
+        "end_pct": 25,
+        "target_year": 2028
+      }
+    },
+    {
+      "name": "DataCenter – Untapped Securitization Potential",
+      "type": "Factor",
+      "brief": "Remaining uns securitized data center capacity",
+      "description": "Over 90% of planned data center capacity remains unsecuritized, indicating significant growth opportunity",
+      "properties": {
+        "magnitude_pct": 90,
+        "driver": "low securitization penetration"
+      }
+    },
+    {
+      "name": "Table T1 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "type": "Table",
+      "brief": "Comparison of securitized and remaining capacity across leading issuers",
+      "description": "Shows estimated ABS and CMBS securitized capacity versus announced remaining capacity for top issuers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Issuer     | Est. Securitized Capacity by ABS (MWs) | Est. Securitized Capacity by CMBS (MWs) | Announced Capacity Remaining (MWs) | Total Capacity (MWs) |\n|------------|----------------------------------------|-----------------------------------------|------------------------------------|----------------------|\n| Aligned    | 250                                    | 50                                      | 4700                               | 5000                 |\n| Stack      | 150                                    | 25                                      | 3825                               | 4000                 |\n| Vantage    | 550                                    | 100                                     | 1350                               | 2000                 |\n| Switch     | 150                                    | 50                                      | 1800                               | 2000                 |\n| CyrusOne   | 300                                    | 25                                      | 675                                | 1000                 |",
+        "key_insight": "Vast majority of announced data center capacity remains unsecuritized, highlighting significant untapped potential."
+      }
+    },
+    {
+      "name": "Table T2 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "type": "Table",
+      "brief": "Breakdown of securitized and remaining capacity updated for top issuers",
+      "description": "Highlights planned, securitized ABS and CMBS capacity and remaining capacity, showing Vantage leads in securitization",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Issuer    | Est. Securitized Capacity by ABS (MW) | Est. Securitized Capacity by CMBS (MW) | Total Securitized Capacity (MW) | Announced Capacity Remaining (MW) | Total Capacity (MW) |\n|-----------|---------------------------------------|----------------------------------------|---------------------------------|-----------------------------------|---------------------|\n| Aligned   | 250                                   | 50                                     | 300                             | 4700                              | 5000                |\n| Stack     | 150                                   | 30                                     | 180                             | 3820                              | 4000                |\n| Vantage   | 500                                   | 100                                    | 600                             | 1400                              | 2000                |\n| Switch    | 200                                   | 30                                     | 230                             | 1770                              | 2000                |\n| CyrusOne  | 300                                   | 50                                     | 350                             | 650                               | 1000                |",
+        "key_insight": "Substantial share of capacity remains unsecuritized; Vantage has highest securitized capacity at 600 MW."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "target": "DataCenter – Untapped Securitization Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Highlights vast unsecuritized capacity, informing untapped potential factor"
+    },
+    {
+      "source": "Table T2 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "target": "DataCenter – Untapped Securitization Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Reinforces large remaining capacity, supporting untapped potential factor"
+    },
+    {
+      "source": "DataCenter – Untapped Securitization Potential",
+      "target": "DataCenter – Securitization Rate Projection",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "High untapped capacity likely drives projected securitization rate increase"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "Scenario 1",
+      "root_trigger": "Table T1 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "probability": 0.64,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "INFORMS",
+          "source": "Table T1 – DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+          "target": "DataCenter – Untapped Securitization Potential",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "DataCenter – Untapped Securitization Potential",
+          "target": "DataCenter – Securitization Rate Projection",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

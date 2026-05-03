@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "Tech Credit – Net Leverage",
+      "type": "Metric",
+      "brief": "Technology sector net leverage",
+      "description": "Net leverage of 0.8x for the tech sector as of 1Q25 indicates strong credit quality",
+      "properties": {
+        "value": 0.8,
+        "unit": "x",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "Tech Credit – Illustrative Issuance Capacity (3 issuers)",
+      "type": "Metric",
+      "brief": "Total issuance capacity across three issuers",
+      "description": "Represents >$500bn debt capacity based on downgrade thresholds",
+      "properties": {
+        "value": 500,
+        "unit": "USD bn",
+        "as_of": "current"
+      }
+    },
+    {
+      "name": "Tech Credit – Illustrative Issuance Capacity (single issuer)",
+      "type": "Metric",
+      "brief": "Issuance capacity for one issuer before downgrade threshold",
+      "description": "Represents >$200bn net debt increase before reaching downgrade threshold",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "current"
+      }
+    },
+    {
+      "name": "Tech Credit – Alphabet Inc.",
+      "type": "Company",
+      "brief": "US technology company and Google parent",
+      "description": "Major tech issuer with high credit rating and issuance capacity analysis",
+      "properties": {
+        "ticker": "GOOGL"
+      }
+    },
+    {
+      "name": "Tech Credit – Alphabet AA+ Downgrade Threshold Commentary",
+      "type": "Event",
+      "brief": "S&P commentary on Alphabet's AA+ downgrade threshold",
+      "description": "S&P noted Alphabet must increase net debt by >$200bn before AA+ downgrade",
+      "properties": {
+        "date": "2025-04-28",
+        "event_type": "Downgrade Threshold Commentary",
+        "impact_value": 200,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "Tech Credit – Alphabet Inc."
+        ],
+        "threshold_leverage_x": 1
+      }
+    },
+    {
+      "name": "Tech Credit – Credit Spread Premium over IG",
+      "type": "Factor",
+      "brief": "Tech sector OAS premium relative to IG Index",
+      "description": "IG Tech Index consistently trades ~15bp tighter than broader IG Index indicating superior credit quality",
+      "properties": {
+        "direction": "down",
+        "magnitude_bp": 15
+      }
+    },
+    {
+      "name": "Table T29 – Tech Credit Index OAS IG vs IG Tech",
+      "type": "Table",
+      "brief": "Line chart of OAS spreads for IG and IG Tech Indices over time",
+      "description": "Displays OAS for broad IG and IG Tech Indices from Dec 2019 to mid-2025",
+      "properties": {
+        "table_id": "T29",
+        "table_content": "| Date | IG Index OAS (bps) | IG Tech Index OAS (bps) |\n| :------- | :----------------- | :---------------------- |\n| Dec-19 | 100 | 75 |\n| Jan-20 | 90 | 80 |\n| Mar-20 | 350 | 290 |\n| Apr-20 | 200 | 150 |\n| Jun-20 | 150 | 100 |\n| Sep-20 | 120 | 80 |\n| Dec-20 | 100 | 70 |\n| Mar-21 | 80 | 70 |\n| Jun-21 | 70 | 70 |\n| Sep-21 | 90 | 90 |\n| Dec-21 | 110 | 110 |\n| Mar-22 | 120 | 115 |\n| Jun-22 | 140 | 130 |\n| Sep-22 | 155 | 145 |\n| Dec-22 | 130 | 120 |\n| Mar-23 | 100 | 90 |\n| Jun-23 | 85 | 75 |\n| Sep-23 | 75 | 65 |\n| Dec-23 | 80 | 70 |\n| Mar-24 | 70 | 60 |\n| Jun-24 | 85 | 70 |\n| Sep-24 | 110 | 80 |\n| Dec-24 | 90 | 60 |\n| Latest | 75 | 60 |",
+        "key_insight": "The IG Tech Index maintains a roughly 15bp tighter OAS spread than the broader IG Index, reflecting stronger credit quality."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T29 – Tech Credit Index OAS IG vs IG Tech",
+      "target": "Tech Credit – Credit Spread Premium over IG",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 15,
+        "unit": "bp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "IG Tech Index spreads ~15bp tighter than IG Index"
+    },
+    {
+      "source": "Tech Credit – Net Leverage",
+      "target": "Tech Credit – Illustrative Issuance Capacity (3 issuers)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 500,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Lower leverage implies capacity for >$500bn issuance"
+    },
+    {
+      "source": "Tech Credit – Alphabet AA+ Downgrade Threshold Commentary",
+      "target": "Tech Credit – Illustrative Issuance Capacity (single issuer)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 200,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "S&P: Alphabet can increase net debt by >$200bn before AA+ downgrade"
+    }
+  ],
+  "scenarios": []
+}

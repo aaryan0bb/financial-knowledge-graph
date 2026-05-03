@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "name": "Table T17 – GenAIDataCenter Global GenAI Power Consumption and Growth Rates",
+      "type": "Table",
+      "brief": "Global GenAI power use and growth projections (2023-2028)",
+      "description": "Highlights global GenAI power consumption rising from 29 TWh to 686 TWh by 2028, with growth rate slowing from 176% to 43%, underscoring infrastructure demands.",
+      "properties": {
+        "table_id": "T17",
+        "table_content": "| Year | Total Power Used by GenAI (TWh) | Annual Growth Rate |\n|------|---------------------------------|--------------------|\n| 2023e | 29                              | -                  |\n| 2024e | 80                              | 176%               |\n| 2025e | 175                             | 119%               |\n| 2026e | 300                             | 71%                |\n| 2027e | 480                             | 60%                |\n| 2028e | 686                             | 43%                |",
+        "key_insight": "Global GenAI power consumption projected to rise from 29 TWh in 2023 to 686 TWh by 2028, while growth rate decelerates from 176% to 43%."
+      }
+    },
+    {
+      "name": "Table T18 – GenAIDataCenter US GenAI Power Consumption and Growth Rates",
+      "type": "Table",
+      "brief": "US GenAI power use and growth projections (2023-2028)",
+      "description": "Shows US GenAI power consumption increasing from 10 TWh to 370 TWh by 2028, with growth rate peaking at 440% then decelerating to 45%, indicating strong domestic AI infrastructure demand.",
+      "properties": {
+        "table_id": "T18",
+        "table_content": "| Year | Power Used by GenAI (TWh) | Annual Growth Rate |\n|------|---------------------------|--------------------|\n| 2023e | 10                        | N/A                |\n| 2024e | 35                        | ~440%              |\n| 2025e | 90                        | ~150%              |\n| 2026e | 160                       | ~80%               |\n| 2027e | 260                       | ~60%               |\n| 2028e | 370                       | ~45%               |",
+        "key_insight": "US GenAI power consumption forecast to increase from 10 TWh in 2023 to 370 TWh by 2028, with growth rate peaking near 440% in 2024 then falling to around 45% by 2028."
+      }
+    },
+    {
+      "name": "Table T19 – GenAIDataCenter Global Data Center Capex by Region and Workload",
+      "type": "Table",
+      "brief": "Global data center capex allocation by region and hardware/build (2025-2028)",
+      "description": "Breaks down $2.89 trillion of global data center investment into $1.296 trillion build costs and $1.594 trillion hardware costs, highlighting US build spend of $754 billion and AI hardware share of $1.419 trillion.",
+      "properties": {
+        "table_id": "T19",
+        "table_content": "| Category | Sub-category | Amount ($bn) | Cost per MW |\n|---|---|---|---|\n| Total Capex 2025-2028 | | $2,890 | N/A |\n| Global Build Costs | Total | $1,296 | N/A |\n| Global Build Costs | US | $754 | ~$11mm/MW |\n| Global Build Costs | APAC | $101 | ~$8mm/MW |\n| Global Build Costs | Europe | $117 | ~$12mm/MW |\n| Global Build Costs | ROW | $324 | ~$10mm/MW |\n| Total Hardware Costs | Total | $1,594 | N/A |\n| Total Hardware Costs | AI Hardware | $1,419 | ~$16.5mm/MW |\n| Total Hardware Costs | non-AI Hardware | $175 | ~$6.5mm/MW |",
+        "key_insight": "Global data center capex of $2.89 trillion for 2025-2028 split into $1.296 trillion build costs and $1.594 trillion hardware costs, with US build costs at $754 billion and AI hardware costs at $1.419 trillion."
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global GenAI Power Consumption",
+      "type": "Metric",
+      "brief": "Projected global GenAI power consumption by 2028",
+      "description": "Estimated to reach 686 TWh in 2028, indicating significant energy requirements for global AI infrastructure.",
+      "properties": {
+        "unit": "TWh",
+        "value": 686,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "Metric",
+      "brief": "Projected US GenAI power consumption by 2028",
+      "description": "Forecast at 370 TWh in 2028, reflecting US share of global AI infrastructure growth.",
+      "properties": {
+        "unit": "TWh",
+        "value": 370,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global Data Center Capex 2025-2028",
+      "type": "Metric",
+      "brief": "Total global data center capex for 2025-2028",
+      "description": "Projected at $2.89 trillion, reflecting massive investment needs for AI and non-AI workloads.",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2890,
+        "as_of": "2025-2028"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global Total Data Center Power Usage",
+      "type": "Metric",
+      "brief": "Projected total data center power usage globally by 2028",
+      "description": "Expected to rise to 1235 TWh in 2028 driven by AI and traditional workloads.",
+      "properties": {
+        "unit": "TWh",
+        "value": 1235,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Total Data Center Capacity",
+      "type": "Metric",
+      "brief": "Projected total data center capacity by 2028",
+      "description": "Estimated capacity growth from 56 GW to 188 GW by 2028 reflecting power demand translation.",
+      "properties": {
+        "unit": "GW",
+        "value": 188,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter US Share of Global GenAI Power Usage",
+      "type": "Factor",
+      "brief": "US share of global GenAI power consumption",
+      "description": "US expected to account for about 55% of global GenAI power usage, indicating domestic concentration.",
+      "properties": {
+        "magnitude_%": 55
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T17 – GenAIDataCenter Global GenAI Power Consumption and Growth Rates",
+      "target": "GenAIDataCenter Global GenAI Power Consumption",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 686,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table projects global GenAI power consumption reaching 686 TWh in 2028"
+    },
+    {
+      "source": "Table T18 – GenAIDataCenter US GenAI Power Consumption and Growth Rates",
+      "target": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 370,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts US GenAI power consumption reaching 370 TWh by 2028"
+    },
+    {
+      "source": "Table T19 – GenAIDataCenter Global Data Center Capex by Region and Workload",
+      "target": "GenAIDataCenter Global Data Center Capex 2025-2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2890,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows global data center capex of $2.89 trillion for 2025-2028"
+    },
+    {
+      "source": "GenAIDataCenter Global GenAI Power Consumption",
+      "target": "GenAIDataCenter Global Total Data Center Power Usage",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1235,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "GenAI power expansion drives total data center power usage to 1235 TWh by 2028"
+    },
+    {
+      "source": "GenAIDataCenter US Share of Global GenAI Power Usage",
+      "target": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "US share of global GenAI power consumption drives US GenAI power usage"
+    },
+    {
+      "source": "GenAIDataCenter Global Total Data Center Power Usage",
+      "target": "GenAIDataCenter Total Data Center Capacity",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 188,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Total data center power usage growth leads to 188 GW capacity by 2028"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "GenAIDataCenter Global GenAI Power Consumption",
+      "probability": 0.81,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "IMPACTS",
+          "source": "GenAIDataCenter Global GenAI Power Consumption",
+          "target": "GenAIDataCenter Global Total Data Center Power Usage",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": 1235,
+          "unit": "TWh"
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "GenAIDataCenter Global Total Data Center Power Usage",
+          "target": "GenAIDataCenter Total Data Center Capacity",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": 188,
+          "unit": "GW"
+        }
+      ]
+    }
+  ]
+}

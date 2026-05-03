@@ -1,0 +1,187 @@
+Weekly Fund Flows 
+Goldman Sachs 
+
+Fund Positioning: Global 
+
+                                                                                                                                 % 
+                                                                 %    %                 Market Fund Assets as Share of Global 
+      %                                                                           Money 
+                         Equity Share of Total Assets           76    35                                                        35 
+                                                                                            Mutual Fund Assets 
+      76 
+                                                                             (Defined as Sum of Equity, Bond, and Money Fund Assets) 
+
+                                                                74                                                              30 
+      74                                                              30 
+
+                                                                72 
+      72 
+                                                                                                                                25 
+                                                                      25 
+
+                                                                70 
+       70 
+                                                                                                                                20 
+                                                                       20 
+
+                                                                68 
+       68 
+
+                                                                                                                                15 
+                                                                       15 
+                                                                 66 
+       66 
+
+                                                                                                                                 10 
+                                                                64     10                         F 
+       64 
+                                                                          10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+          10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+                                                                                                                                 % 
+                                                                 %     %                      Share of Total Assets 
+       %                   US Share of Total Assets                                        EM                                    14 
+                                                                 71    14 
+       71 
+
+                                                                 70 
+       70 
+                                                                                                                                 13 
+                                                                       13 
+                                                                 69 
+       69 
+
+                                                                 68                                                              12 
+       68                                                              12 
+
+                                                                 67 
+       67 
+                                                                                                                                 11 
+                                                                 66     11 
+       66 
+
+                                                                 65 
+       65 
+                                                                                                                                 10 
+                                                                        10 
+                                                                 64 
+       64 
+
+                                                                 63                                                              9 
+        63                                                               9 
+
+                                                                 62 
+        62 
+                                                                                                                                  8 
+                                                                 61      8 
+        61 
+                                                                                              16 17 18 19 20 21 22 23 24 25 
+                                                         24 25             10 11 12 13 14 15 
+          10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+                                                                                                                                  % 
+                                                                  %     %               EM ex. China Share of Total Assets 
+        %                  China Share of Total Assets                                                                            12 
+                                                                 3.5    12 
+       3.5 
+
+                                                                                                                                  11 
+                                                                        11 
+
+                                                                  3.0 
+        3.0 
+                                                                                                                                  10 
+                                                                        10 
+
+                                                                                                                                  9 
+                                                                  2.5    9 
+        2.5 
+
+                                                                                                                                  8 
+                                                                         8 
+
+                                                                  2.0 
+        2.0 
+                                                                                                                                  7 
+                                                                          7 
+
+                                                                                                                                  6 
+                                                                   1.5    6 
+         1.5                                                                                                          23 24 25 
+                                                                           10 11 12 13 14 15 16 17 18 19 20 21 22 
+           10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
+                                        Investment Research 
+   Source: EPFR, Haver Analytics, Goldman Sachs Global 
+
+                                                                                                                                          6 
+    25 July 2025 
+
+    | Year | Equity Share (%) | Money Mkt Share (%) | US Share (%) | EM Share (%) | China Share (%) | EM ex. China Share (%) |
+    |------|------------------|---------------------|--------------|--------------|-----------------|------------------------|
+    | 2010 | 72.0             | 31.0                | 65.0         | 11.8         | 2.2             | 9.6                    |
+    | 2011 | 68.5             | 27.5                | 63.5         | 13.5         | 1.7             | 11.8                   |
+    | 2012 | 65.5             | 24.5                | 62.0         | 12.0         | 2.0             | 10.0                   |
+    | 2013 | 66.0             | 22.0                | 63.0         | 10.8         | 2.0             | 8.8                    |
+    | 2014 | 70.8             | 19.0                | 61.5         | 9.5          | 1.8             | 7.7                    |
+    | 2015 | 69.5             | 18.0                | 62.5         | 9.5          | 2.2             | 7.3                    |
+    | 2016 | 68.0             | 17.0                | 63.5         | 10.0         | 2.0             | 8.0                    |
+    | 2017 | 69.0             | 17.5                | 64.5         | 10.5         | 2.2             | 8.3                    |
+    | 2018 | 70.0             | 16.0                | 66.0         | 10.0         | 2.4             | 7.6                    |
+    | 2019 | 68.5             | 15.0                | 67.0         | 9.5          | 2.0             | 7.5                    |
+    | 2020 | 66.0             | 20.5                | 65.5         | 9.8          | 2.5             | 7.3                    |
+    | 2021 | 72.0             | 16.0                | 69.5         | 10.5         | 3.2             | 7.3                    |
+    | 2022 | 72.5             | 17.5                | 67.0         | 9.8          | 2.7             | 7.1                    |
+    | 2023 | 74.5             | 18.5                | 68.5         | 9.5          | 2.8             | 6.7                    |
+    | 2024 | 75.0             | 17.0                | 70.0         | 9.0          | 2.1             | 6.9                    |
+    | 2025 | 75.5             | 17.5                | 67.0         | 9.5          | 2.7             | 6.8                    |
+
+    Summary: This figure presents six time series charts, each illustrating the percentage share of different asset categories or regions within total assets from 2010 to 2025. Key dimensions include Equity Share, Money Market Fund Assets as Share of Global Mutual Fund Assets, and regional shares for US, EM, China, and EM ex. China. The primary trends reveal a general increase in Equity share since 2020 and a sustained rise in US share since 2014, while Money Market Fund share steadily declined with a notable spike in 2020. Conversely, both EM and EM ex. China shares exhibit a long-term downward trend, reaching their lowest points by 2025, despite some volatility and a brief recovery for China's share in 2021.
+
+    Explanation: These trends highlight a significant repositioning of global fund allocations, favoring equities and particularly the US market, likely reflecting stronger economic performance and investor confidence in developed markets. The decline in money market fund share (excluding the 2020 pandemic spike) suggests a move away from low-yield, safe-haven assets. The persistent underperformance and declining share of EM assets, especially EM ex. China, indicate a divergence in global investment flows, with capital increasingly concentrated in specific regions and asset classes.
+
+    | Year | Equity Share (%) | US Share (%) | China Share (%) |
+    |---|---|---|---|
+    | 2010 | 72.0 | 66.0 | 2.0 |
+    | 2011 | 68.0 | 63.0 | 2.2 |
+    | 2012 (trough) | 65.5 | 62.0 | 1.9 |
+    | 2013 | 67.0 | 63.5 | 1.8 |
+    | 2014 | 70.0 | 64.0 | 2.1 |
+    | 2015 | 69.5 | 64.5 | 2.4 |
+    | 2016 | 68.0 | 63.0 | 2.0 |
+    | 2017 | 70.0 | 64.5 | 2.1 |
+    | 2018 (trough) | 68.5 | 62.0 | 1.9 |
+    | 2019 | 71.0 | 65.0 | 2.5 |
+    | 2020 (early trough) | 66.5 | 63.0 | 2.8 |
+    | 2020 (late) | 71.0 | 66.0 | 3.0 |
+    | 2021 (peak) | 73.5 | 69.5 | 3.2 |
+    | 2022 (early) | 71.5 | 67.5 | 2.8 |
+    | 2023 (mid) | 73.0 | 68.0 | 2.3 |
+    | 2024 (early peak) | 74.5 | 69.5 | 2.1 |
+    | 2024 (late drop) | 73.5 | 66.0 | 2.6 |
+    | 2025 (current) | 75.5 | 67.5 | 2.7 |
+
+    Summary: The charts depict the percentage share of total assets allocated to Equity, US, and China from 2010 to mid-2025. Equity share of total assets has shown a general upward trend, recovering from significant dips in 2012-2013 and early 2020, and currently sits near its peak. US share followed a similar trajectory of recovery and growth until peaking in early 2024 around 69.5%, followed by a sharp decline in late 2024 before a slight rebound. China's share, after a relatively stable period, surged from late 2019 to peak in 2021 at 3.2%, then experienced a considerable drawdown until early 2024, and is now showing a rebound.
+
+    Explanation: These "Fund Positioning" charts provide insight into the longer-term allocation decisions of funds, complementing the "Weekly Fund Flows" data on the previous page by showing the cumulative result of these flows. The sustained rise in Equity share suggests a long-term preference for equities, while the recent sharp drop in US share of total assets, contrasting with a rebound in China's share, indicates a notable shift in regional allocation among investors in late 2024 and early 2025.
+
+    | Year | Money Market Fund Share (%) | EM Share (%) | EM ex. China Share (%) |
+    |--------|---------------------------|--------------|------------------------|
+    | 2010   | 31.0                      | 11.5         | 9.8                    |
+    | 2011   | 27.0                      | 13.5         | 11.2                   |
+    | 2012   | 23.5                      | 12.5         | 10.5                   |
+    | 2013   | 20.5                      | 11.5         | 9.5                    |
+    | 2014   | 18.0                      | 10.5         | 8.5                    |
+    | 2015   | 17.0                      | 9.5          | 7.5                    |
+    | 2016   | 16.5                      | 9.2          | 7.5                    |
+    | 2017   | 15.0                      | 10.5         | 8.2                    |
+    | 2018   | 15.5                      | 11.0         | 8.0                    |
+    | 2019   | 16.0                      | 9.5          | 7.5                    |
+    | 2020   | 20.5                      | 10.5         | 6.5                    |
+    | 2021   | 15.0                      | 10.0         | 7.3                    |
+    | 2022   | 17.0                      | 9.5          | 7.0                    |
+    | 2023   | 18.0                      | 9.0          | 6.7                    |
+    | 2024   | 17.5                      | 8.8          | 6.2                    |
+    | 2025   | 17.0                      | 9.5          | 6.8                    |
+
+    Summary: This figure presents three time series charts, all displaying various asset shares as a percentage of global mutual fund assets from 2010 to 2025. The top chart shows Money Market Fund Assets, which experienced a significant decline from over 30% in 2010 to a low around 15% by 2017, followed by a sharp spike to over 20% in 2020, and then stabilizing around 17% in recent years. The middle and bottom charts illustrate the EM Share of Total Assets and EM ex. China Share of Total Assets, respectively; both show a general downward trend from peaks in 2011 (EM at 13.5%, EM ex. China at 11.2%), reaching multi-year lows in 2024 (EM at 8.8%, EM ex. China at 6.2%), with a modest rebound into 2025.
+
+    Explanation: These charts provide insights into global fund positioning and investor allocation trends over a 15-year period. The decline in money market fund share until 2017 could reflect a "risk-on" environment or lower interest rates making cash less attractive, with the 2020 spike representing a flight to safety during the pandemic. The consistent decline in EM and EM ex. China asset shares indicates a long-term shift away from emerging markets, perhaps due to evolving risk perceptions, capital outflow dynamics, or better opportunities elsewhere, though the recent uptick in 2025 suggests a potential shift in sentiment.

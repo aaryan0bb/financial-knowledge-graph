@@ -1,0 +1,262 @@
+{
+  "report": "Barclays_Americas_Morning_Research_Summary_converted_with_figures.txt",
+  "timestamp": "2025-07-31T01:42:08.214032",
+  "total_chunks": 36,
+  "total_entities": 271,
+  "total_relationships": 89,
+  "total_scenarios": 2,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_005813.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 4,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_010031.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 5,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_010111.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 10,
+      "relationships": 8,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_010236.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 13,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_010356.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_010411.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 8,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_010453.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 11,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250731_010612.json"
+    },
+    {
+      "chunk": "chunk_9",
+      "entities": 3,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_9_20250731_010713.json"
+    },
+    {
+      "chunk": "chunk_10",
+      "entities": 18,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_10_20250731_010859.json"
+    },
+    {
+      "chunk": "chunk_11",
+      "entities": 2,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_11_20250731_010946.json"
+    },
+    {
+      "chunk": "chunk_12",
+      "entities": 10,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_12_20250731_011130.json"
+    },
+    {
+      "chunk": "chunk_13",
+      "entities": 4,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_13_20250731_011237.json"
+    },
+    {
+      "chunk": "chunk_14",
+      "entities": 11,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_14_20250731_011409.json"
+    },
+    {
+      "chunk": "chunk_15",
+      "entities": 12,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_15_20250731_011539.json"
+    },
+    {
+      "chunk": "chunk_16",
+      "entities": 10,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_16_20250731_011747.json"
+    },
+    {
+      "chunk": "chunk_17",
+      "entities": 9,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_17_20250731_011824.json"
+    },
+    {
+      "chunk": "chunk_18",
+      "entities": 7,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_18_20250731_011942.json"
+    },
+    {
+      "chunk": "chunk_19",
+      "entities": 9,
+      "relationships": 9,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_19_20250731_012135.json"
+    },
+    {
+      "chunk": "chunk_20",
+      "entities": 5,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_20_20250731_012232.json"
+    },
+    {
+      "chunk": "chunk_21",
+      "entities": 4,
+      "relationships": 3,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_21_20250731_012351.json"
+    },
+    {
+      "chunk": "chunk_22",
+      "entities": 6,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_22_20250731_012452.json"
+    },
+    {
+      "chunk": "chunk_23",
+      "entities": 16,
+      "relationships": 3,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_23_20250731_012729.json"
+    },
+    {
+      "chunk": "chunk_24",
+      "entities": 8,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_24_20250731_012820.json"
+    },
+    {
+      "chunk": "chunk_25",
+      "entities": 2,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_25_20250731_012907.json"
+    },
+    {
+      "chunk": "chunk_26",
+      "entities": 15,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_26_20250731_013039.json"
+    },
+    {
+      "chunk": "chunk_27",
+      "entities": 16,
+      "relationships": 14,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_27_20250731_013238.json"
+    },
+    {
+      "chunk": "chunk_28",
+      "entities": 9,
+      "relationships": 5,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_28_20250731_013353.json"
+    },
+    {
+      "chunk": "chunk_29",
+      "entities": 2,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_29_20250731_013445.json"
+    },
+    {
+      "chunk": "chunk_30",
+      "entities": 9,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_30_20250731_013623.json"
+    },
+    {
+      "chunk": "chunk_31",
+      "entities": 11,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_31_20250731_013847.json"
+    },
+    {
+      "chunk": "chunk_32",
+      "entities": 13,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_32_20250731_014012.json"
+    },
+    {
+      "chunk": "chunk_33",
+      "entities": 5,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_33_20250731_014126.json"
+    },
+    {
+      "chunk": "chunk_34",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_34_20250731_014144.json"
+    },
+    {
+      "chunk": "chunk_35",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_35_20250731_014155.json"
+    },
+    {
+      "chunk": "chunk_36",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_36_20250731_014206.json"
+    }
+  ]
+}

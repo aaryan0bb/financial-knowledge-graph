@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – NDX-SPX 3m ATM Implied Vol Spread",
+      "type": "Table",
+      "brief": "3m ATM implied vol spread between NDX and SPX",
+      "description": "Shows the absolute 3m ATM implied volatility spread from July 2021 to Aug 2025, highlighting peaks near 7.8 and current trough near 3.5.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date     | NDX - SPX Vol Spread (absolute) |\n|----------|---------------------------------|\n| Jul 2021 | 4.2                             |\n| Aug 2021 | 3.0                             |\n| Oct 2021 | 5.0                             |\n| Dec 2021 | 4.0                             |\n| Jan 2022 | 6.0                             |\n| Feb 2022 | 7.8                             |\n| Apr 2022 | 5.5                             |\n| Jun 2022 | 4.0                             |\n| Aug 2022 | 6.0                             |\n| Oct 2022 | 4.0                             |\n| Dec 2022 | 5.5                             |\n| Jan 2023 | 5.0                             |\n| Mar 2023 | 3.0                             |\n| May 2023 | 5.0                             |\n| Jul 2023 | 4.0                             |\n| Sep 2023 | 6.5                             |\n| Dec 2023 | 4.0                             |\n| Jan 2024 | 4.5                             |\n| Mar 2024 | 3.8                             |\n| May 2024 | 5.0                             |\n| Jul 2024 | 4.0                             |\n| Sep 2024 | 5.5                             |\n| Dec 2024 | 4.0                             |\n| Jan 2025 | 4.0                             |\n| Mar 2025 | 3.8                             |\n| Jul 2025 | 3.5                             |",
+        "key_insight": "The NDX-SPX 3m ATM implied vol spread peaked at 7.8 in Feb 2022 and is near its lower end at 3.5 in Jul 2025."
+      }
+    },
+    {
+      "name": "Table T2 – NVDA 2w ATM Implied Volatility",
+      "type": "Table",
+      "brief": "NVDA 2-week ATM implied volatility history",
+      "description": "Displays NVDA's 2-week ATM implied volatility from July 2020 to Sep 2025, highlighting spikes above 80% and a recent low near 35%.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date    | NVDA 2w ATM Implied Vol (%) |\n|---------|-----------------------------|\n| 2020-07 | 60                          |\n| 2020-08 | 50                          |\n| 2020-09 | 60                          |\n| 2020-11 | 30                          |\n| 2021-01 | 40                          |\n| 2021-02 | 65                          |\n| 2021-04 | 40                          |\n| 2021-07 | 65                          |\n| 2021-09 | 45                          |\n| 2021-11 | 70                          |\n| 2022-01 | 90                          |\n| 2022-03 | 60                          |\n| 2022-05 | 80                          |\n| 2022-07 | 50                          |\n| 2022-09 | 70                          |\n| 2022-12 | 35                          |\n| 2023-01 | 40                          |\n| 2023-04 | 80                          |\n| 2023-07 | 40                          |\n| 2023-09 | 75                          |\n| 2023-11 | 40                          |\n| 2024-01 | 30                          |\n| 2024-03 | 85                          |\n| 2024-05 | 45                          |\n| 2024-07 | 80                          |\n| 2024-09 | 50                          |\n| 2024-11 | 70                          |\n| 2025-01 | 60                          |\n| 2025-03 | 85                          |\n| 2025-07 | 35                          |",
+        "key_insight": "NVDA's 2w ATM implied volatility has spiked above 80% multiple times and is at approximately 35% in Jul 2025, near 5-year lows."
+      }
+    },
+    {
+      "name": "USFM Vol – NVIDIA",
+      "type": "Company",
+      "brief": "Market-leading AI GPU maker",
+      "description": "NVIDIA's implied volatility underpins key options strategy insights",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "USFM Vol – Nasdaq 100 Index",
+      "type": "Instrument",
+      "brief": "Tech-heavy equity index",
+      "description": "Nasdaq 100 used to compare tech implied volatility against broader market",
+      "properties": {
+        "ticker": "NDX"
+      }
+    },
+    {
+      "name": "USFM Vol – S&P 500 Index",
+      "type": "Instrument",
+      "brief": "Broad-market equity index",
+      "description": "S&P 500 used as benchmark in volatility spread analysis",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "USFM Vol – NDX-SPX 3m ATM Vol Spread Compression",
+      "type": "Factor",
+      "brief": "Reduced volatility divergence between NDX and SPX",
+      "description": "The narrowing 3m ATM vol spread suggests reduced relative uncertainty in tech stocks",
+      "properties": {
+        "direction": "down",
+        "value": 3.5,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "USFM Vol – NVDA 2w ATM Implied Vol Low",
+      "type": "Factor",
+      "brief": "NVDA implied volatility at 5-year lows",
+      "description": "NVDA's 2w ATM implied volatility at around 35% indicates market complacency ahead of earnings",
+      "properties": {
+        "direction": "down",
+        "value": 35,
+        "unit": "%"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – NDX-SPX 3m ATM Implied Vol Spread",
+      "target": "USFM Vol – NDX-SPX 3m ATM Vol Spread Compression",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.5,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs the factor of compressed NDX-SPX vol spread"
+    },
+    {
+      "source": "Table T2 – NVDA 2w ATM Implied Volatility",
+      "target": "USFM Vol – NVDA 2w ATM Implied Vol Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 35,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs the factor of NVDA's low 2w ATM implied vol"
+    }
+  ],
+  "scenarios": []
+}

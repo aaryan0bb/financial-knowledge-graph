@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "US Volatility VIX Term Structure Steepness",
+      "type": "Factor",
+      "brief": "difference between Aug VIX future and spot",
+      "description": "Term structure slope indicates roll-down opportunity",
+      "properties": {
+        "magnitude_indexPts": 2.75,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility VIX August Future Price",
+      "type": "Metric",
+      "brief": "Aug VIX future price",
+      "description": "Price of VIX future expiring in August",
+      "properties": {
+        "unit": "indexPts",
+        "value": 18.15,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Volatility VIX Spot Price",
+      "type": "Metric",
+      "brief": "Current VIX spot price",
+      "description": "Immediate implied volatility gauge",
+      "properties": {
+        "unit": "indexPts",
+        "value": 15.4,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Volatility Option Put Vol Skew",
+      "type": "Factor",
+      "brief": "skew between 10dp and 40dp put vols",
+      "description": "Elevated put vol skew indicates demand for downside protection",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility Implied Volatility Level",
+      "type": "Factor",
+      "brief": "absolute level of implied volatility",
+      "description": "Implied vol remains low",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Volatility Investor Premium Spending Hesitancy",
+      "type": "Factor",
+      "brief": "investors reluctant to buy vol premium",
+      "description": "Low premium spending signals complacency",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "Factor",
+      "brief": "put spreads to capture roll-down",
+      "description": "Strategy involves put spreads with 2–3:1 payouts for VIX roll-down",
+      "properties": {
+        "driver": "roll-down"
+      }
+    },
+    {
+      "name": "US Volatility Non-Consensus Equity Downside Strategy",
+      "type": "Factor",
+      "brief": "equity downside non-consensus trade",
+      "description": "Downside equity trades offer non-consensus opportunities amid complacent vol",
+      "properties": {
+        "driver": "equity downside"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Volatility VIX Term Structure Steepness",
+      "target": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Steep VIX curve causes preference for put spread roll-down"
+    },
+    {
+      "source": "US Volatility Option Put Vol Skew",
+      "target": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Elevated vol skew increases attractiveness of put spreads"
+    },
+    {
+      "source": "US Volatility Implied Volatility Level",
+      "target": "US Volatility Investor Premium Spending Hesitancy",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low implied vol causes hesitation in premium spending"
+    },
+    {
+      "source": "US Volatility Investor Premium Spending Hesitancy",
+      "target": "US Volatility Non-Consensus Equity Downside Strategy",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Hesitancy to spend premium triggers non-consensus equity downside trade"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "US Volatility Implied Volatility Level",
+      "probability": 0.8,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "US Volatility Implied Volatility Level",
+          "target": "US Volatility Investor Premium Spending Hesitancy",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "TRIGGERS",
+          "source": "US Volatility Investor Premium Spending Hesitancy",
+          "target": "US Volatility Non-Consensus Equity Downside Strategy",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "report": "JPM_US Market Intell Morning Briefing_20250724_converted_with_figures.txt",
+  "timestamp": "2025-07-31T04:12:22.034826",
+  "total_chunks": 9,
+  "total_entities": 119,
+  "total_relationships": 22,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 14,
+      "relationships": 5,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_035703.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 4,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_035850.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 16,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_040051.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 6,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_040249.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 20,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_040523.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 7,
+      "relationships": 5,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_040714.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 10,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_040901.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 40,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250731_041128.json"
+    },
+    {
+      "chunk": "chunk_9",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_9_20250731_041220.json"
+    }
+  ]
+}

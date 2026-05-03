@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Credit – Aligned (ADC)",
+      "type": "Company",
+      "brief": "Developer issuing data center ABS",
+      "description": "Issued ABS totalling $2.6bn between 2021 and 2023",
+      "properties": {
+        "ticker": "ADC",
+        "issued_amount_USDbn": 2.6
+      }
+    },
+    {
+      "name": "Data Center Credit – Equinix (EQIX)",
+      "type": "Company",
+      "brief": "Large US data center developer",
+      "description": "Has issued BBB-rated bonds instead of securitized debt",
+      "properties": {
+        "ticker": "EQIX",
+        "rating_outlook": "BBB"
+      }
+    },
+    {
+      "name": "Data Center Credit – Preference Shift to Other Debt Types",
+      "type": "Factor",
+      "brief": "Risk shift from securitized markets to other debt types",
+      "description": "Industry maturation could favor private credit or unsecured corporate credit",
+      "properties": {
+        "driver": "industry maturation"
+      }
+    },
+    {
+      "name": "Data Center Credit – Data Center Obsolescence Risk",
+      "type": "Factor",
+      "brief": "Risk data center capacity exceeds future demand",
+      "description": "Compute advances and quantum computing may reduce data center demand",
+      "properties": {
+        "driver": "compute technology advancements"
+      }
+    },
+    {
+      "name": "Data Center Credit – Power Capacity Constraint",
+      "type": "Factor",
+      "brief": "Limited power availability bottlenecks development",
+      "description": "US power capacity constraints may delay data center growth",
+      "properties": {
+        "driver": "power availability"
+      }
+    },
+    {
+      "name": "Data Center Credit – Tech Exposure Concentration Limits",
+      "type": "Factor",
+      "brief": "Limit on tech allocation caps securitized credit demand",
+      "description": "Fixed-income funds’ tech exposure limits could constrain ABS issuance",
+      "properties": {
+        "driver": "allocation limits"
+      }
+    },
+    {
+      "name": "Data Center Credit – Aligned ABS Issuance 2021-2023",
+      "type": "Event",
+      "brief": "ABS issuance by Aligned between 2021-2023",
+      "description": "Aligned issued ABS four times totalling $2.6bn with 323MW collateral",
+      "properties": {
+        "date": null,
+        "event_type": "ABS Issuance",
+        "impact_value": 2.6,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Data Center Credit – Aligned Financing Round January 2025",
+      "type": "Event",
+      "brief": "Equity and debt financing round by Aligned in January 2025",
+      "description": "Aligned completed $12bn financing round with $5bn equity and $7bn debt commitments",
+      "properties": {
+        "date": "2025-01-01",
+        "event_type": "Financing Round",
+        "impact_value": 12,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Table T46 – Data Center Credit Annual Coupons 2018–2025",
+      "type": "Table",
+      "brief": "Annual coupons for US debt types over time",
+      "description": "Historic and projected financing costs for data center ABS and corporate bonds",
+      "properties": {
+        "table_id": "T46",
+        "table_content": "| Year | US DC ABS | US HY Corp 4-7y | US IG Corp 4-7y, A/BBB | US DC CMBS Fixed Rate |\n|------|-----------|-----------------|------------------------|-----------------------|\n| 2018 | 4.5%      | 7.5%            | 4.1%                   | 4.4%                  |\n| 2019 | 3.8%      | 7.2%            | 3.8%                   | 3.8%                  |\n| 2020 | 2.6%      | 6.8%            | 3.2%                   | 3.2%                  |\n| 2021 | 3.3%      | 5.9%            | 2.0%                   | 3.4%                  |\n| 2022 | 5.3%      | 7.4%            | 4.4%                   | 3.5%                  |\n| 2023 | 5.5%      | 8.6%            | 5.5%                   | 6.5%                  |\n| 2024 | 5.5%      | 8.1%            | 5.1%                   | 5.9%                  |\n| 2025 | 5.4%      | 8.0%            | 5.2%                   | 6.4%                  |",
+        "key_insight": "From 2021 to 2023, coupons for all US debt types rose significantly, with HY bonds highest, DC ABS and IG coupons converging after 2022 and DC CMBS peaking in 2023"
+      }
+    },
+    {
+      "name": "Data Center Credit – US High Yield Corporate Bond Coupon Rate",
+      "type": "Metric",
+      "brief": "High Yield bonds (4-7y) coupon rate",
+      "description": "Annual coupon rate for US HY corporate bonds with 4-7 year maturity in data center financing context",
+      "properties": {
+        "unit": "%",
+        "value": 8.6,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Credit – US DC ABS Coupon Rate",
+      "type": "Metric",
+      "brief": "ABS coupon rate for data center securitized debt",
+      "description": "Annual coupon rate for US Data Center ABS in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Credit – US DC CMBS Fixed Rate Coupon Rate",
+      "type": "Metric",
+      "brief": "CMBS fixed-rate coupon rate for data center securitized debt",
+      "description": "Annual coupon rate for US DC Commercial Mortgage-Backed Securities Fixed Rate in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 6.5,
+        "as_of": "2023"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T46 – Data Center Credit Annual Coupons 2018–2025",
+      "target": "Data Center Credit – US High Yield Corporate Bond Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 8.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "HY bond coupons peaked at 8.6% in 2023"
+    },
+    {
+      "source": "Table T46 – Data Center Credit Annual Coupons 2018–2025",
+      "target": "Data Center Credit – US DC ABS Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "DC ABS coupons rose to 5.5% in 2023"
+    },
+    {
+      "source": "Table T46 – Data Center Credit Annual Coupons 2018–2025",
+      "target": "Data Center Credit – US DC CMBS Fixed Rate Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "DC CMBS fixed-rate coupons spiked to 6.5% in 2023"
+    },
+    {
+      "source": "Data Center Credit – Aligned (ADC)",
+      "target": "Data Center Credit – Aligned ABS Issuance 2021-2023",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Aligned’s ABS issuance between 2021 and 2023"
+    }
+  ],
+  "scenarios": []
+}

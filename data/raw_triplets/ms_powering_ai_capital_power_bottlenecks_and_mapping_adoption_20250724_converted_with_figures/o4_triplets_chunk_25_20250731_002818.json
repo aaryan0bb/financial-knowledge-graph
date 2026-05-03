@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Infrastructure - Innovation",
+      "type": "Factor",
+      "brief": "Increase in innovation for AI models",
+      "description": "Rising innovation in AI models drives more complex architectures and higher compute demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - AI Adoption Level",
+      "type": "Factor",
+      "brief": "Under-appreciated AI adoption level",
+      "description": "Higher-than-expected adoption of AI applications boosts data center compute demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Non-linear AI Improvement",
+      "type": "Factor",
+      "brief": "Under-appreciated non-linear AI improvements",
+      "description": "Non-linear gains from AI scaling lead to significant efficiency and demand increases",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Data Center Demand",
+      "type": "Factor",
+      "brief": "Demand for data center compute capacity",
+      "description": "Compute demand driven by innovation, AI adoption, and non-linear improvements",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - DeepSeek Bearish Signal",
+      "type": "Factor",
+      "brief": "Potential bearish indicator for data center demand",
+      "description": "DeepSeek thought to signal weaker demand, but this is deemed non-material",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Infrastructure - Innovation",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Innovation increases drive higher data center demand"
+    },
+    {
+      "source": "Data Center Infrastructure - AI Adoption Level",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Under-appreciated AI adoption levels drive compute demand"
+    },
+    {
+      "source": "Data Center Infrastructure - Non-linear AI Improvement",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 75
+      },
+      "description": "Non-linear AI improvements boost compute demand"
+    }
+  ],
+  "scenarios": []
+}

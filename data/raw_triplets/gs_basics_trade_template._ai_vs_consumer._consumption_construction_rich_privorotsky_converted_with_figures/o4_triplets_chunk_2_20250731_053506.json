@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "Economic Divergence – Real Personal Consumption Stagnation",
+      "type": "Event",
+      "brief": "Six-month stagnation in real personal consumption",
+      "description": "Uncommon six-month stagnation signals consumer weakness outside recession",
+      "properties": {
+        "duration_months": 6
+      }
+    },
+    {
+      "name": "Economic Divergence – Construction Spending Decline",
+      "type": "Event",
+      "brief": "Year-over-year decline in construction spending",
+      "description": "Construction spending fell faster over the past year than any time since the post-2008 housing bust",
+      "properties": {
+        "lookback_days": 365
+      }
+    },
+    {
+      "name": "Economic Divergence – Real Personal Consumption Expenditures Growth",
+      "type": "Metric",
+      "brief": "6-month annualized growth in real personal consumption",
+      "description": "Growth rate recently slowed to near-stagnation in 2024",
+      "properties": {
+        "unit": "%",
+        "as_of": "2024",
+        "value": 0.5
+      }
+    },
+    {
+      "name": "Economic Divergence – Construction Spending Growth",
+      "type": "Metric",
+      "brief": "Year-over-year change in construction spending",
+      "description": "Spending turned negative to −3% in 2024 after post-COVID rebound",
+      "properties": {
+        "unit": "%",
+        "as_of": "2024",
+        "value": -3.0
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

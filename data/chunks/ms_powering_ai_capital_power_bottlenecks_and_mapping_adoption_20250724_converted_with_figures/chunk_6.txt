@@ -1,0 +1,55 @@
+Morgan Stanley                                                                                                                    July 24, 2025 
+
+ Estimate $1.4tr hyperscaler capex to be funded with cash flows 
+
+                   Rising cash flows may continue to support growing capex, but shareholder returns, 
+                   potential acquisitions and other factors will bring practical spend on Al capex down 
+
+              Hyperscalers' Cash Flows & Uses, Estimates                               Hyperscaler Revenue & EBITDA Expectations 
+
+                                                                                                           Revenue   EBITDA 
+                                                                                      2500 
+
+                                  ~$2.9tr Cash Flows from Operating                   2000 
+             Cash Flow from Ops           Activities 
+
+                                                                                      1500 
+                                                                                     $bn 
+
+                                                                                      1000 
+                                                        ~$700bn 
+                                                ~$550bn FCF After 
+                               ~$1.6tr Hyperscaler Shareholder 
+              Primary Cash Uses 
+                                   Capex        Returns Shareholder Returns 
+                                                                                       500 
+
+                            0   500   1,000 1,500 2,000 2,500 3,000                      0 
+                                     Est. Cash Flow or Use ($bn)                              2023     2024    2025E   2026E    2027E   2028E 
+
+ Source: Company filings, Bloomberg, Morgan Stanley Research estimates. Note figures are not specific to Al and/or data centers. For the years 2025-2028. 6 
+ . 
+
+    | Year | Revenue ($bn) | EBITDA ($bn) |
+    |------|---------------|--------------|
+    | 2023 | 1250          | 400          |
+    | 2024 | 1400          | 520          |
+    | 2025E| 1570          | 600          |
+    | 2026E| 1760          | 720          |
+    | 2027E| 1950          | 840          |
+    | 2028E| 2120          | 980          |
+
+    Summary: The "Hyperscaler Revenue & EBITDA Expectations" chart displays projected financial performance for hyperscalers from 2023 to 2028. The X-axis represents years, with estimates ("E") from 2025 onwards, while the Y-axis denotes values in billions of dollars. Both Revenue and EBITDA show a strong, consistent upward trend over the entire forecast period, indicating significant growth in the hyperscaler industry. Revenue consistently remains substantially higher than EBITDA across all years, with both metrics reaching new peaks by 2028.
+
+    Explanation: This chart provides key financial projections for hyperscalers, illustrating their growing revenue and EBITDA streams. This growth in earnings and operating cash flow is crucial for funding their substantial capital expenditures, including an estimated $1.4 trillion in capex discussed on the same page. The sustained increase in these financial metrics suggests a robust capacity for hyperscalers to self-fund their expansion, potentially reducing reliance on external debt, though the figures are not exclusive to AI or data center investments.
+
+    | Category           | Item                          | Value ($bn) |
+    |--------------------|-------------------------------|-------------|
+    | Cash Flow from Ops | Operating Activities          | 2900        |
+    | Primary Cash Uses  | Hyperscaler Capex             | 1600        |
+    | Primary Cash Uses  | Shareholder Returns           | 550         |
+    | Primary Cash Uses  | FCF After Shareholder Returns | 700         |
+
+    Summary: This horizontal bar chart, titled "Hyperscalers' Cash Flows & Uses, Estimates," visualizes the estimated financial flows for hyperscalers over the 2025-2028 period. The x-axis represents estimated cash flow or use in billions of dollars ($bn), while the y-axis delineates between "Cash Flow from Ops" and "Primary Cash Uses." Hyperscalers are projected to generate approximately $2.9 trillion in cash flows from operating activities. These funds are primarily allocated to hyperscaler capital expenditures (~$1.6 trillion), shareholder returns (~$550 billion), and free cash flow after shareholder returns (~$700 billion), illustrating a balanced and significant cash allocation strategy.
+
+    Explanation: The chart demonstrates the substantial internal funding capacity of hyperscalers, with projected operating cash flows largely covering their significant capital expenditures and shareholder distributions. While the chart shows $1.6 trillion allocated to capex, the accompanying page context clarifies that practical spend on AI capex might be adjusted to $1.4 trillion due to competing uses like shareholder returns and potential acquisitions, indicating strategic financial management beyond just direct capex funding.

@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – AI Data Center Infrastructure Relative Scales of Private Credit Markets",
+      "type": "Table",
+      "brief": "Comparison of ABF TAM, direct lending AUM, and deployed capital",
+      "description": "Nested circle diagram comparing $20+ trn ABF TAM, $2.2 trn direct lending AUM, and $0.6 trn deployed capital, highlighting private credit opportunity",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Value |\n|:-------------------------------------------|:------------------|\n| Estimated Total Addressable Market for ABF | ~$20+ trillion |\n| Current Direct Lending Fund AUM* | ~$2.2 trillion |\n| Current Deployed Capital for ABF* | ~$0.6 trillion |",
+        "key_insight": "The nested circle diagram shows that current ABF deployment ($0.6 trn) is far below the estimated $20+ trn addressable market, highlighting an $800 bn opportunity for private credit."
+      }
+    },
+    {
+      "name": "AI Data Center Infrastructure Estimated ABF Total Addressable Market",
+      "type": "Metric",
+      "brief": "Estimated total ABF market size",
+      "description": "Analyst’s estimate of the global ABF addressable market in the AI data center financing context",
+      "properties": {
+        "unit": "USD trn",
+        "value": 20,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI Data Center Infrastructure Private Credit ABF Opportunity",
+      "type": "Metric",
+      "brief": "Immediate asset-based financing opportunity",
+      "description": "Implied private credit opportunity derived from the gap within the ABF addressable market",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – AI Data Center Infrastructure Relative Scales of Private Credit Markets",
+      "target": "AI Data Center Infrastructure Estimated ABF Total Addressable Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "USD trn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs the estimated ABF total addressable market of $20 trn."
+    }
+  ],
+  "scenarios": []
+}

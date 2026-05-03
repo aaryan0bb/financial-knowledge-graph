@@ -1,0 +1,154 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Financing Asset-Based Financing Market Size Comparison",
+      "type": "Table",
+      "brief": "Comparison of ABF TAM, direct lending AUM, and deployed ABF capital",
+      "description": "Shows ABF market (~$20+T) versus current direct lending AUM and deployed ABF capital",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                                   | Value          |\n|--------------------------------------------|----------------|\n| Estimated Total Addressable Market for ABF | ~$20+ trillion |\n| Current Direct Lending Fund AUM            | ~$2.2 trillion |\n| Current Deployed Capital for ABF           | ~$0.6 trillion |",
+        "key_insight": "ABF market (~$20+ trillion) far exceeds direct lending AUM (~$2.2 trillion) and deployed ABF capital (~$0.6 trillion)"
+      }
+    },
+    {
+      "name": "Table T2 – Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "type": "Table",
+      "brief": "Growth of private debt fund AUM and deployment rates",
+      "description": "Tracks AUM growth from $300B in 2008 to $1.82T in 2024 and deployment rates between 56%–70%",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Total AUM ($B) | % Deployed (rs) |\n|------|----------------|-----------------|\n| 2008 | $300           | 65%             |\n| 2009 | $350           | 68%             |\n| 2010 | $400           | 70%             |\n| 2011 | $420           | 69%             |\n| 2012 | $480           | 67%             |\n| 2013 | $540           | 63%             |\n| 2014 | $570           | 62%             |\n| 2015 | $630           | 59%             |\n| 2016 | $730           | 58%             |\n| 2017 | $870           | 56%             |\n| 2018 | $1,000         | 59%             |\n| 2019 | $1,130         | 61%             |\n| 2020 | $1,350         | 60%             |\n| 2021 | $1,570         | 64%             |\n| 2022 | $1,680         | 67%             |\n| 2023 | $1,750         | 68%             |\n| 2024*| $1,820         | 70%             |",
+        "key_insight": "Total AUM grew from $300B in 2008 to $1.82T by 2024, with deployment rates cycling between 56% and 70%"
+      }
+    },
+    {
+      "name": "Data Center Financing ABF Total Addressable Market",
+      "type": "Metric",
+      "brief": "Estimated size of ABF market",
+      "description": "The estimated total addressable market for asset-based financing",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 20,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Direct Lending Fund AUM",
+      "type": "Metric",
+      "brief": "Current direct lending fund assets under management",
+      "description": "Total AUM of direct lending funds in private credit",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 2.2,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Deployed ABF Capital",
+      "type": "Metric",
+      "brief": "Current deployed capital for ABF",
+      "description": "Amount of capital currently deployed in asset-based financing",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 0.6,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Global Private Debt Fund AUM",
+      "type": "Metric",
+      "brief": "Global private debt fund AUM as of 2024",
+      "description": "Assets under management in global private debt funds by 2024",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 1.82,
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "Data Center Financing Global Private Debt Fund Deployment Rate",
+      "type": "Metric",
+      "brief": "Deployment rate of private debt fund capital",
+      "description": "Percentage of private debt fund AUM deployed by 2024",
+      "properties": {
+        "unit": "%",
+        "value": 70,
+        "as_of": "2024"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing ABF Total Addressable Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows ABF TAM of ~$20 trillion"
+    },
+    {
+      "source": "Table T1 – Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing Direct Lending Fund AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.2,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows direct lending AUM of ~$2.2 trillion"
+    },
+    {
+      "source": "Table T1 – Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing Deployed ABF Capital",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.6,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows deployed ABF capital of ~$0.6 trillion"
+    },
+    {
+      "source": "Table T2 – Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "target": "Data Center Financing Global Private Debt Fund AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.82,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows AUM rising to $1.82 trillion by 2024"
+    },
+    {
+      "source": "Table T2 – Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "target": "Data Center Financing Global Private Debt Fund Deployment Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows deployment rate reaching 70% by 2024"
+    }
+  ],
+  "scenarios": []
+}

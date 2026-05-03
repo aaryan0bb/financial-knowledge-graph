@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "Internet & Media - JD",
+      "type": "Company",
+      "brief": "Chinese e-commerce platform",
+      "description": "E-commerce firm investing in food supply chain and outlets under 7Fresh brand",
+      "properties": {
+        "ticker": "JD",
+        "sector": "Internet & Media"
+      }
+    },
+    {
+      "name": "Internet & Media - Kai Bo Food Supermarket",
+      "type": "Company",
+      "brief": "Hong Kong grocery chain",
+      "description": "Target of JD's planned stake acquisition",
+      "properties": {
+        "ticker": null,
+        "sector": "Retail"
+      }
+    },
+    {
+      "name": "Internet & Media - BYD",
+      "type": "Company",
+      "brief": "Chinese electric vehicle manufacturer",
+      "description": "EV maker delaying mass production at Hungary factory",
+      "properties": {
+        "ticker": "BYD",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "Internet & Media - TMUS",
+      "type": "Company",
+      "brief": "U.S. telecom operator",
+      "description": "Wireless carrier engaging in MVNO deal with cable companies",
+      "properties": {
+        "ticker": "TMUS",
+        "sector": "Cable, Satellite & Telecom Services"
+      }
+    },
+    {
+      "name": "Internet & Media - JD investment plan",
+      "type": "Event",
+      "brief": "JD to invest CNY 10bn in new food supply chain",
+      "description": "Plan to allocate 10bn yuan to build food supply chain and 7Fresh Kitchen outlets",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "investment",
+        "impact_value": 10,
+        "unit": "CNY bn"
+      }
+    },
+    {
+      "name": "Internet & Media - JD 7Fresh outlets expansion plan",
+      "type": "Event",
+      "brief": "Plan to open 10,000 7Fresh Kitchen outlets",
+      "description": "JD aims to establish 10,000 7Fresh Kitchen outlets within three years",
+      "properties": {
+        "date": null,
+        "event_type": "network_expansion",
+        "impact_value": 10000,
+        "unit": "outlets"
+      }
+    },
+    {
+      "name": "Internet & Media - JD stake acquisition",
+      "type": "Event",
+      "brief": "JD plans to buy 70% of Kai Bo Food Supermarket",
+      "description": "Proposed acquisition of 70% stake in Kai Bo Food Supermarket",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "stake_purchase",
+        "impact_value": 70,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Internet & Media - BYD EV production delay",
+      "type": "Event",
+      "brief": "BYD to delay mass production in Hungary",
+      "description": "Delay at EV factory in Hungary pushes mass production to 2026",
+      "properties": {
+        "date": null,
+        "event_type": "production_delay",
+        "region": "Hungary"
+      }
+    },
+    {
+      "name": "Internet & Media - TMUS MVNO deal",
+      "type": "Event",
+      "brief": "MVNO partnership deal with cable companies",
+      "description": "TMUS engages in MVNO deal with cable companies with limited immediate implications",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "MVNO_deal",
+        "region": "North America"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Internet & Media - JD",
+      "target": "Internet & Media - Kai Bo Food Supermarket",
+      "type": "OWNS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Plans to buy 70% stake"
+    }
+  ],
+  "scenarios": []
+}

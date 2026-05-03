@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – DCI Survey Significant Obstacles and Key Drivers",
+      "type": "Table",
+      "brief": "Survey of data center project obstacles and drivers",
+      "description": "Aggregates significance and response rates for general obstacles and specific drivers from Schneider Electric survey",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Obstacle / Specific Issue                                       | Extremely Significant (%) | Very Significant (%) | Somewhat Significant (%) | Total Significant (%) | Response Rate (%) |\n|-----------------------------------------------------------------|---------------------------|----------------------|--------------------------|-----------------------|-------------------|\n| Utility capacity or transmission constraints                    | 40                        | 33                   | 19                       | 92                    |                   |\n| Permitting issues                                               | 26                        | 30                   | 30                       | 86                    |                   |\n| Fiber availability                                              | 26                        | 33                   | 26                       | 85                    |                   |\n| Access to computer chips                                        | 32                        | 34                   | 15                       | 81                    |                   |\n| Natural gas availability                                        | 19                        | 23                   | 34                       | 76                    |                   |\n| Land availability                                               | 17                        | 30                   | 27                       | 74                    |                   |\n| Public opposition                                               | 16                        | 25                   | 33                       | 74                    |                   |\n| Water availability                                              | 21                        | 20                   | 32                       | 73                    |                   |\n| Utility quoted long wait time for more power                    |                           |                      |                          |                       | 46                |\n| Utility quoted high cost for more power                         |                           |                      |                          |                       | 43                |\n| Long lead time for on-site power generation equipment           |                           |                      |                          |                       | 42                |\n| Utility power has unpredictable energy rates                    |                           |                      |                          |                       | 42                |\n| Utility power reliability is inadequate                         |                           |                      |                          |                       | 32                |\n| Utility has given no written promise on delivery time           |                           |                      |                          |                       | 32                |\n| Site layout issues (e.g., space, can't run distribution lines)  |                           |                      |                          |                       | 27                |\n| Not running into any challenges                                 |                           |                      |                          |                       | 15                |\n| Utility does not enable sufficient renewable energy procurement |                           |                      |                          |                       | 13                |\n| Not applicable / Don't know                                     |                           |                      |                          |                       | 8                 |",
+        "key_insight": "Utility capacity or transmission constraints cited by 92% as significant"
+      }
+    },
+    {
+      "name": "Table T2 – DCI Obstacle Significance Breakdown",
+      "type": "Table",
+      "brief": "Significance percentages for key data center project obstacles",
+      "description": "Breaks down extreme, very, and somewhat significant responses for common obstacles in data center projects",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Obstacle | Extremely Significant | Very Significant | Somewhat Significant | Total Significant |\n|---|---|---|---|---|\n| Utility capacity or transmission constraints | 40% | 33% | 19% | 92% |\n| Permitting issues | 26% | 30% | 30% | 86% |\n| Fiber availability | 26% | 33% | 26% | 85% |\n| Access to computer chips | 32% | 34% | 15% | 81% |\n| Natural gas availability | 19% | 23% | 34% | 76% |\n| Land availability | 17% | 30% | 27% | 74% |\n| Public opposition | 16% | 25% | 33% | 74% |\n| Water availability | 21% | 20% | 32% | 73% |",
+        "key_insight": "Utility capacity or transmission constraints remains the most significant obstacle at 92%"
+      }
+    },
+    {
+      "name": "Table T3 – DCI Power-related Obstacle Percentages",
+      "type": "Table",
+      "brief": "Percentage of respondents citing power-related challenges",
+      "description": "Ranks power-related obstacles by percentage of respondents citing each as significant challenge",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Obstacle                                                      | Percentage |\n|---------------------------------------------------------------|------------|\n| Utility quoted long wait time for more power                  | 46%        |\n| Utility quoted high cost for more power                       | 43%        |\n| Long lead time for on-site power generation equipment         | 42%        |\n| Utility power has unpredictable energy rates                  | 42%        |\n| Utility power reliability is inadequate                       | 32%        |\n| Utility has given no written promise on delivery time         | 32%        |\n| Site layout issues (e.g., space, can't run distribution lines)| 27%        |\n| Not running into any challenges                               | 15%        |\n| Utility does not enable sufficient renewable energy procurement| 13%        |\n| Not applicable / Don't know                                   | 8%         |",
+        "key_insight": "Long wait times (46%) and high power costs (43%) are the top concerns"
+      }
+    },
+    {
+      "name": "DCI Utility capacity or transmission constraints",
+      "type": "Factor",
+      "brief": "Primary obstacle to data center development",
+      "description": "Dominant barrier cited by Schneider Electric survey respondents",
+      "properties": {
+        "magnitude_%": 92
+      }
+    },
+    {
+      "name": "DCI Utility quoted long wait time for more power",
+      "type": "Factor",
+      "brief": "Long wait times for power expansion",
+      "description": "Cited by 46% of respondents as a significant concern",
+      "properties": {
+        "magnitude_%": 46
+      }
+    },
+    {
+      "name": "DCI Utility quoted high cost for more power",
+      "type": "Factor",
+      "brief": "High cost of securing power",
+      "description": "Cited by 43% of respondents as a significant concern",
+      "properties": {
+        "magnitude_%": 43
+      }
+    },
+    {
+      "name": "DCI Long lead time for on-site power generation equipment",
+      "type": "Factor",
+      "brief": "Long lead times for power equipment",
+      "description": "Cited by 42% of respondents as a significant challenge",
+      "properties": {
+        "magnitude_%": 42
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – DCI Survey Significant Obstacles and Key Drivers",
+      "target": "DCI Utility capacity or transmission constraints",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 92,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Utility capacity constraints cited by 92% as significant"
+    },
+    {
+      "source": "Table T2 – DCI Obstacle Significance Breakdown",
+      "target": "DCI Utility capacity or transmission constraints",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 92,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Utility capacity constraints cited by 92% as significant"
+    },
+    {
+      "source": "Table T3 – DCI Power-related Obstacle Percentages",
+      "target": "DCI Utility quoted long wait time for more power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 46,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Long wait times cited by 46% as a top challenge"
+    },
+    {
+      "source": "Table T3 – DCI Power-related Obstacle Percentages",
+      "target": "DCI Utility quoted high cost for more power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 43,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "High power costs cited by 43% as a top challenge"
+    },
+    {
+      "source": "Table T3 – DCI Power-related Obstacle Percentages",
+      "target": "DCI Long lead time for on-site power generation equipment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 42,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Long lead times for on-site equipment cited by 42%"
+    }
+  ],
+  "scenarios": []
+}

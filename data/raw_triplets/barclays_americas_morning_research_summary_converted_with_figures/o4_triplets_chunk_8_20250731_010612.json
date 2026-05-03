@@ -1,0 +1,142 @@
+{
+  "entities": [
+    {
+      "name": "EQT Corporation",
+      "type": "Company",
+      "brief": "U.S. integrated oil & gas producer",
+      "description": "EQT benefits from power supply deals, midstream growth projects and tightening in-basin gas prices",
+      "properties": {
+        "ticker": "EQT",
+        "market_cap_USDbn": 33.9104,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Halliburton Co.",
+      "type": "Company",
+      "brief": "Energy services and tech provider",
+      "description": "Halliburton guided lower margins, cut EBITDA estimates and lowered price target due to market slowdown",
+      "properties": {
+        "ticker": "HAL",
+        "market_cap_USDbn": 18.3893,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "EQT Corporation Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays raised price target on EQT Corporation",
+      "properties": {
+        "value": 68,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "EQT Corporation Stock Price",
+      "type": "Metric",
+      "brief": "Stock price on 22 Jul 2025",
+      "description": "Market price for EQT Corporation on 22 July 2025",
+      "properties": {
+        "value": 54.34,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "EQT Corporation EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Barclays estimate for EQT FY1 EPS",
+      "properties": {
+        "value": 3.46,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "EQT Corporation EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Barclays estimate for EQT FY2 EPS",
+      "properties": {
+        "value": 5.95,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "EQT Corporation Expected FCF from Power Supply Deal",
+      "type": "Metric",
+      "brief": "Expected free cash flow benefit",
+      "description": "Barclays expects USD 250MM FCF from EQT power supply deal by 2029",
+      "properties": {
+        "value": 250,
+        "unit": "USD mm",
+        "as_of": "2029"
+      }
+    },
+    {
+      "name": "Halliburton Co. Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays lowered price target on Halliburton Co.",
+      "properties": {
+        "value": 22,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Halliburton Co. Stock Price",
+      "type": "Metric",
+      "brief": "Stock price on 22 Jul 2025",
+      "description": "Market price for Halliburton Co. on 22 July 2025",
+      "properties": {
+        "value": 21.39,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Halliburton Co. EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 earnings per share estimate",
+      "description": "Barclays estimate for Halliburton Co. FY1 EPS",
+      "properties": {
+        "value": 2.15,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Halliburton Co. EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 earnings per share estimate",
+      "description": "Barclays estimate for Halliburton Co. FY2 EPS",
+      "properties": {
+        "value": 2.23,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EQT Corporation Expected FCF from Power Supply Deal",
+      "target": "EQT Corporation",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 250,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Expected FCF from power supply deal benefits EQT Corporation"
+    }
+  ],
+  "scenarios": []
+}

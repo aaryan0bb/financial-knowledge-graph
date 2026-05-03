@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "type": "Table",
+      "brief": "Foreign flows by domicile into US equity funds (4wma)",
+      "description": "Tracks 4-week moving average foreign inflows from Euro area and Rest of world ex. US, highlighting peaks in late 2024 and reversal in Q2 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Rest of world ex. US Flows ($bn) | Euro area Flows ($bn) |\n|------------|----------------------------------|-----------------------|\n| Jan-24     | +0.8                             | +0.2                  |\n| Feb-24     | +1.2                             | +1.0                  |\n| Mar-24     | +0.7                             | +0.2                  |\n| Apr-24     | +0.5                             | -0.5                  |\n| May-24     | +0.9                             | +0.8                  |\n| Jun-24     | +1.2                             | +1.2                  |\n| Jul-24     | +1.5                             | +1.7                  |\n| Aug-24     | +1.8                             | +1.5                  |\n| Sep-24     | +1.8                             | +1.0                  |\n| Early Oct-24 | +1.5                           | +0.5                  |\n| Mid-Oct-24 | +0.5                             | +1.5                  |\n| Late Oct-24| -0.8                             | +2.5                  |\n| Mid-Nov-24 | +0.8                             | +6.0                  |\n| Late Nov-24| +2.0                             | +8.1                  |\n| Dec-24     | +2.5                             | +5.5                  |\n| Jan-25     | +3.0                             | +3.5                  |\n| Mid-Feb-25 | +2.0                             | +1.0                  |\n| Mid-Mar-25 | +2.5                             | +0.5                  |\n| Apr-25     | +1.0                             | -2.5                  |\n| Mid-May-25 | +0.5                             | -1.0                  |\n| Jun-25     | +0.5                             | -0.5                  |\n| Jul-25     | +0.7                             | +0.0                  |",
+        "key_insight": "Euro area flows peaked at +8.1bn in late Nov 2024 and Rest of world ex. US peaked at +3.0bn in Jan 2025 before both turned negative in Q2 2025"
+      }
+    },
+    {
+      "name": "Table T2 – Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "type": "Table",
+      "brief": "4wma cyclical vs defensive equity fund flows",
+      "description": "Shows 4-week moving average flows for Cyclicals ex. Tech and Defensives, highlighting peaks, troughs, and divergence through July 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | Cyclicals ex. Tech ($bn) | Defensives ($bn) |\n|--------------|--------------------------|------------------|\n| Jul-24       | -0.4                     | -0.4             |\n| Mid-Aug-24   | 0.4                      | 0.0              |\n| Sep-24       | -1.8                     | -0.5             |\n| Mid-Sep-24   | -1.2                     | -1.2             |\n| Oct-24       | -0.7                     | -1.3             |\n| Early Nov-24 | -0.2                     | -0.5             |\n| Late Nov-24  | 2.6                      | -0.9             |\n| Early Dec-24 | 1.0                      | -0.8             |\n| Mid-Jan-25   | -0.2                     | -0.2             |\n| Early Feb-25 | -0.5                     | -0.3             |\n| Mid-Feb-25   | 1.4                      | -0.9             |\n| Early Mar-25 | 0.8                      | 0.1              |\n| Mid-Mar-25   | 0.2                      | 0.5              |\n| Late Mar-25  | -0.1                     | 0.0              |\n| Early Apr-25 | -0.2                     | -0.2             |\n| Mid-Apr-25   | -0.6                     | -0.5             |\n| Late Apr-25  | -1.2                     | -0.8             |\n| Early May-25 | -3.4                     | -2.0             |\n| Mid-May-25   | -2.0                     | -1.2             |\n| Late May-25  | -1.0                     | -1.0             |\n| Early Jun-25 | -0.2                     | -0.5             |\n| Mid-Jun-25   | 0.8                      | 0.2              |\n| Late Jun-25  | 1.5                      | 0.5              |\n| Early Jul-25 | 2.0                      | 0.0              |\n| Mid-Jul-25   | 2.8                      | -1.0             |",
+        "key_insight": "Cyclical flows peaked at +2.6bn in late Nov 2024 and troughed at -3.4bn in early May 2025 while defensive flows remained near zero with a modest peak of +0.5bn in mid-Mar 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Euro area flows peak",
+      "type": "Metric",
+      "brief": "Peak Euro area inflows in late Nov 2024",
+      "description": "Euro area foreign flows into US equity funds peaked at +$8.1bn, indicating strong late-2024 demand",
+      "properties": {
+        "unit": "USD bn",
+        "value": 8.1,
+        "as_of": "Late Nov 2024"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Rest of world ex. US flows peak",
+      "type": "Metric",
+      "brief": "Peak Rest of world ex. US inflows in Jan 2025",
+      "description": "Rest of world ex. US foreign flows into US equity funds peaked at +$3.0bn in January 2025",
+      "properties": {
+        "unit": "USD bn",
+        "value": 3.0,
+        "as_of": "Jan 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Euro area flows trough",
+      "type": "Metric",
+      "brief": "Trough Euro area inflows in Apr 2025",
+      "description": "Euro area foreign flows into US equity funds troughed at -$2.5bn in April 2025, reflecting early 2025 outflows",
+      "properties": {
+        "unit": "USD bn",
+        "value": -2.5,
+        "as_of": "Apr 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Cyclical flows peak",
+      "type": "Metric",
+      "brief": "Peak cyclical flows in late Nov 2024",
+      "description": "Cyclical equity fund flows peaked at +$2.6bn in late November 2024 before declining",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2.6,
+        "as_of": "Late Nov 2024"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Cyclical flows trough",
+      "type": "Metric",
+      "brief": "Trough cyclical flows in early May 2025",
+      "description": "Cyclical equity fund flows troughed at -$3.4bn in early May 2025 during rotation",
+      "properties": {
+        "unit": "USD bn",
+        "value": -3.4,
+        "as_of": "Early May 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Defensive flows peak",
+      "type": "Metric",
+      "brief": "Peak defensive flows in mid-Mar 2025",
+      "description": "Defensive equity fund flows peaked at +$0.5bn in mid-March 2025 amid market volatility",
+      "properties": {
+        "unit": "USD bn",
+        "value": 0.5,
+        "as_of": "Mid Mar 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows – Euro area flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.1,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Euro area flows peaked at +$8.1bn in late Nov 2024"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows – Rest of world ex. US flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Rest of world ex. US flows peaked at +$3.0bn in Jan 2025"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows – Euro area flows trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -2.5,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Euro area flows reached trough of -$2.5bn in Apr 2025"
+    },
+    {
+      "source": "Table T2 – Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows – Cyclical flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.6,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows cyclical flows peaked at +$2.6bn in late Nov 2024"
+    },
+    {
+      "source": "Table T2 – Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows – Cyclical flows trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -3.4,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows cyclical flows troughed at -$3.4bn in early May 2025"
+    },
+    {
+      "source": "Table T2 – Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows – Defensive flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.5,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows defensive flows peaked at +$0.5bn in mid-Mar 2025"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,235 @@
+{
+  "entities": [
+    {
+      "name": "OSCR - Oscar Health Inc.",
+      "type": "Company",
+      "brief": "Health insurer with revised earnings estimates and guidance risk",
+      "description": "Barclays lowers EBIT/EPS estimates and notes guidance risk following guidance revision",
+      "properties": {
+        "ticker": "OSCR",
+        "market_cap_USDbn": 3.7438,
+        "rating_outlook": "Underweight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "OSCR - Price Target",
+      "type": "Metric",
+      "brief": "Analysts' price target",
+      "description": "Barclays sets price target for OSCR shares",
+      "properties": {
+        "unit": "USD",
+        "value": 11.0,
+        "as_of": null
+      }
+    },
+    {
+      "name": "OSCR - Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "OSCR share price on report date",
+      "description": "Market price on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 14.7,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OSCR - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecasted EPS for FY1",
+      "description": "Barclays forecast for OSCR EPS next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -1.54,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "OSCR - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecasted EPS for FY2",
+      "description": "Barclays forecast for OSCR EPS following fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.67,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "OSCR - Market Cap",
+      "type": "Metric",
+      "brief": "Market capitalization",
+      "description": "Market cap at report date",
+      "properties": {
+        "unit": "USD bn",
+        "value": 3.7438,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OSCR - Lowers EBIT/EPS Estimates",
+      "type": "Event",
+      "brief": "Lowers EBIT and EPS estimates across 2025-2027",
+      "description": "Barclays lowers OSCR EBIT and EPS estimates for 2025-2027",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "estimate revision",
+        "period_years": 3
+      }
+    },
+    {
+      "name": "OSCR - Cuts 2025 EBIT Guide",
+      "type": "Event",
+      "brief": "Cuts EBIT guide by $500 mn",
+      "description": "Barclays reduces OSCR 2025 EBIT guidance by $500 mn",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "EBIT guidance cut",
+        "impact_value": -500,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "OSCR - Raises Full-Year MLR Guidance",
+      "type": "Event",
+      "brief": "Raises full-year MLR guidance by 530 bps",
+      "description": "OSCR raises full-year Medical Loss Ratio guidance by 530 basis points",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "MLR guidance revision",
+        "magnitude_bp": 530,
+        "unit": "bp"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "OSCR - Lowers EBIT/EPS Estimates",
+      "target": "OSCR - EPS FY1 (E)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Estimate revision causes lower EPS FY1"
+    },
+    {
+      "source": "OSCR - Lowers EBIT/EPS Estimates",
+      "target": "OSCR - EPS FY2 (E)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Estimate revision causes lower EPS FY2"
+    },
+    {
+      "source": "OSCR - Cuts 2025 EBIT Guide",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EBIT guide cut impacts OSCR profitability"
+    },
+    {
+      "source": "OSCR - Raises Full-Year MLR Guidance",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 530,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Raised MLR guidance increases expense assumption"
+    },
+    {
+      "source": "OSCR - Price Target",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 11.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Analyst price target signals share value"
+    },
+    {
+      "source": "OSCR - Price (22 Jul 2025)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 14.7,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Current share price informs market valuation"
+    },
+    {
+      "source": "OSCR - EPS FY1 (E)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -1.54,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Forecasted EPS informs earnings outlook"
+    },
+    {
+      "source": "OSCR - EPS FY2 (E)",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -0.67,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Forecasted EPS informs earnings outlook"
+    },
+    {
+      "source": "OSCR - Market Cap",
+      "target": "OSCR - Oscar Health Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3.7438,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Market capitalization informs company size"
+    }
+  ],
+  "scenarios": []
+}

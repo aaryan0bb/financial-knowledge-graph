@@ -1,0 +1,44 @@
+Morgan Stanley                                                                                                July 24, 2025 
+
+We Are Bullish Regarding the Non-Linear Rate of Al Capability 
+
+Improvement 
+
+An Example: Agentic Al 
+                                                                  1 hour 
+                                                                                                             Sonnet 3.7 
+From Model Evaluation & Threat Research, an                               Length of tasks AIs can do increasing 
+independent Al assessment organization: 
+
+"We propose measuring Al performance in 
+terms of the length of tasks Al agents can 
+                                                                 40 mins                                        01 
+complete. We show that this metric has been 
+consistently exponentially increasing over the 
+past 6 years, with a doubling time of around 7 
+months. Extrapolating this trend predicts that, in 
+under five years, we will see Al agents that can 
+independently complete a large fraction of software              20 mins                                Sonnet 3.5 
+tasks that currently take humans days or weeks." 
+
+                                                                                                 GPT 4 . 
+                                                                       GPT 2 GPT 3      GPT 3.5 
+                                                                  0 secs 
+                                                                            2020   2021    2022    2023   2024    2025 
+                                                                   Data source: METR (2025)                CC-BY AIDigest 
+
+Source: Morgan Stanley Research                                                                                            13 
+
+    | AI Model/Event | Year | Task Length (approx.) |
+    |---|---|---|
+    | GPT 2 | 2020 | 0 mins |
+    | GPT 3 | 2020 | 0 mins |
+    | GPT 3.5 | 2022 | 2 mins |
+    | GPT 4 | 2023 | 8 mins |
+    | Sonnet 3.5 | 2024 | 20 mins |
+    | o1 | 2024 | 40 mins |
+    | Sonnet 3.7 | 2025 | 60 mins (1 hour) |
+
+    Summary: This chart illustrates the rapid, exponential increase in the "Length of tasks AIs can do" from 2020 to 2025. The X-axis represents the year, while the Y-axis tracks task length from 0 seconds to 1 hour. Initially, AI models like GPT 2 and GPT 3 in 2020 could handle negligible task lengths. An inflection point occurs around late 2022/early 2023 (with GPT 4), where the curve becomes significantly steeper, indicating a dramatic acceleration in AI capability. By early 2025, models like Sonnet 3.7 are projected to complete tasks approaching a full hour in length.
+
+    Explanation: The chart visualizes the "non-linear rate of AI capability improvement" highlighted on the page, specifically demonstrating how the length of tasks AI agents can complete has been exponentially increasing. This rapid progression, with task length doubling roughly every 7 months as noted in the accompanying text, suggests AIs are quickly nearing the ability to autonomously handle complex, multi-day tasks currently performed by humans, thereby supporting a bullish outlook on AI's impact.

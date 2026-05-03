@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Tariff Historical and Forecasted Policy Impact",
+      "type": "Table",
+      "brief": "Waterfall of effective tariff rate impacts",
+      "description": "Illustrates cumulative and forecasted tariff rate changes to 17 pp by 2027",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Tariff Policy | Incremental Impact (pp) | Cumulative Impact (pp) | Timeframe |\n|:----------------------------------|:------------------------|:-----------------------|:--------------------------|\n| 20% China | 1.0 | 1.0 | Implemented to date |\n| 25% CA/MX non-USMCA | 0.8 | 1.8 | Implemented to date |\n| 50% Steel & aluminum | 1.2 | 3.0 | Implemented to date |\n| 25% Autos & auto parts | 1.5 | 4.5 | Implemented to date |\n| 10% Baseline | 4.5 | 9.0 | Implemented to date |\n| Additional 5% baseline | 1.0 | 10.0 | GS forecast (2025) |\n| 50% Copper, critical minerals | 1.0 | 11.0 | GS forecast (2025) |\n| 25% Electronics, lumber | 2.5 | 13.5 | GS forecast (2025) |\n| 25% Heavy trucks, aircraft | 1.0 | 14.5 | GS forecast (2026-2027) |\n| 25% Pharma | 2.0 | 16.5 | GS forecast (2026-2027) |\n| Total | N/A | 17.0 | By 2027 |",
+        "key_insight": "The US effective tariff rate is projected to reach approximately 17 pp by 2027."
+      }
+    },
+    {
+      "name": "US Tariff Burden Increase",
+      "type": "Factor",
+      "brief": "Projected rise in US effective tariff rate",
+      "description": "Goldman projects tariffs will cumulatively raise the effective rate to 17 pp by 2027.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17
+      }
+    },
+    {
+      "name": "Downside Risk to Euro Area Growth",
+      "type": "Factor",
+      "brief": "Potential reduced euro area growth from tariff impacts",
+      "description": "Higher US tariffs are expected to increase downside risk to euro area growth forecasts for the remainder of the year.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "ECB Meeting",
+      "type": "Event",
+      "brief": "Scheduled European Central Bank meeting",
+      "description": "Meeting to review policy with little expected change.",
+      "properties": {
+        "date": null,
+        "event_type": "Monetary Policy Meeting",
+        "region": "Euro area"
+      }
+    },
+    {
+      "name": "ECB Rate Cut to 1.75%",
+      "type": "Event",
+      "brief": "Final ECB rate cut projection",
+      "description": "Goldman expects one last cut to 1.75% in September given trade policy risks.",
+      "properties": {
+        "date": null,
+        "event_type": "Rate Cut",
+        "impact_value": 1.75,
+        "unit": "%",
+        "region": "Euro area"
+      }
+    },
+    {
+      "name": "US Growth Slowdown",
+      "type": "Factor",
+      "brief": "Economic slowdown in first half of 2025",
+      "description": "Slowing growth in 1H25 and labor market risks strengthen case for Fed easing.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fed Rate Cut by 25 bp",
+      "type": "Event",
+      "brief": "Next projected Fed rate cut",
+      "description": "Fed is expected to cut rates by 25 bp in September pending tariff shock and labor data.",
+      "properties": {
+        "date": null,
+        "event_type": "Rate Cut",
+        "impact_value": 25,
+        "unit": "bp",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Treasury Yields Decline",
+      "type": "Factor",
+      "brief": "Expected drop in US Treasury yields",
+      "description": "Fed easing is projected to push down Treasury yields.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Dollar Decline",
+      "type": "Factor",
+      "brief": "Projected US dollar weakness",
+      "description": "Fed rate cuts should weaken the dollar.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Global Equities Rally",
+      "type": "Factor",
+      "brief": "Expected increase in global equity markets",
+      "description": "Fed easing is expected to boost global equities.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Gold Price Increase",
+      "type": "Factor",
+      "brief": "Anticipated gold price rise",
+      "description": "Gold is expected to rally on Fed easing.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "BoE Rate Cut",
+      "type": "Event",
+      "brief": "Bank of England next rate cut",
+      "description": "BoE is expected to cut rates at its August 7 meeting given UK disinflation.",
+      "properties": {
+        "date": "2025-08-07",
+        "event_type": "Rate Cut",
+        "region": "UK"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Tariff Historical and Forecasted Policy Impact",
+      "target": "US Tariff Burden Increase",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 17,
+        "unit": "pp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Tariff policies cumulatively drive a 17 pp increase in US effective tariff rate"
+    },
+    {
+      "source": "US Tariff Burden Increase",
+      "target": "Downside Risk to Euro Area Growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Higher tariff burden increases downside risk to euro area growth forecasts"
+    },
+    {
+      "source": "Downside Risk to Euro Area Growth",
+      "target": "ECB Rate Cut to 1.75%",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 1.75,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Downside growth risk likely triggers a final ECB rate cut"
+    },
+    {
+      "source": "US Growth Slowdown",
+      "target": "Fed Rate Cut by 25 bp",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "US growth slowdown heightens case for a Fed rate cut"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "US Treasury Yields Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should push down Treasury yields"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "US Dollar Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should weaken the dollar"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "Global Equities Rally",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed easing is expected to boost global equities"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "Gold Price Increase",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should lift gold prices"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "scenario_1",
+      "root_trigger": "US Tariff Burden Increase",
+      "probability": 0.56,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "US Tariff Burden Increase",
+          "target": "Downside Risk to Euro Area Growth",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "TRIGGERS",
+          "source": "Downside Risk to Euro Area Growth",
+          "target": "ECB Rate Cut to 1.75%",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": 1.75,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}

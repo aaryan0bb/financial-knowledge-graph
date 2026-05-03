@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "Lloyds interest rates",
+      "type": "Factor",
+      "brief": "market interest rates trending higher",
+      "description": "Market rates are slightly stronger, supporting hedging benefits",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Lloyds Mortgage spread",
+      "type": "Metric",
+      "brief": "mortgage lending spread",
+      "description": "Mortgage spread tightened slightly quarter-on-quarter to 70 bp",
+      "properties": {
+        "unit": "bp",
+        "value": 70,
+        "as_of": "Q2"
+      }
+    },
+    {
+      "name": "Lloyds cost of risk",
+      "type": "Metric",
+      "brief": "cost of risk in H1",
+      "description": "Cost of risk was 19 bp in H1 versus a 25 bp target",
+      "properties": {
+        "unit": "bp",
+        "value": 19,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "Lloyds deposits growth",
+      "type": "Metric",
+      "brief": "deposit balance growth in H1",
+      "description": "Overall deposits increased by 2 % in H1",
+      "properties": {
+        "unit": "%",
+        "value": 2,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "Lloyds PCA outflow",
+      "type": "Metric",
+      "brief": "personal current account outflow H1",
+      "description": "PCA balances were down by 0.7 bn USD in H1",
+      "properties": {
+        "unit": "USD bn",
+        "value": 0.7,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "Lloyds ISA market share",
+      "type": "Metric",
+      "brief": "market share in ISA products",
+      "description": "ISA market share reached 20 % amid affluent customer inflows",
+      "properties": {
+        "unit": "%",
+        "value": 20,
+        "as_of": "Q2"
+      }
+    },
+    {
+      "name": "Lloyds structural hedge upside 2025",
+      "type": "Metric",
+      "brief": "upside from hedge in 2025",
+      "description": "Structural hedge expected to deliver 1.2 bn USD benefit in 2025",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1.2,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Lloyds structural hedge upside 2026",
+      "type": "Metric",
+      "brief": "upside from hedge in 2026",
+      "description": "Structural hedge expected to deliver 1.5 bn USD benefit in 2026",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1.5,
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Lloyds interest rates",
+      "target": "Lloyds structural hedge upside 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Higher rates boost hedge upside in 2025"
+    },
+    {
+      "source": "Lloyds interest rates",
+      "target": "Lloyds structural hedge upside 2026",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Higher rates boost hedge upside in 2026"
+    },
+    {
+      "source": "Lloyds ISA market share",
+      "target": "Lloyds deposits growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Higher ISA market share supports deposits growth"
+    }
+  ],
+  "scenarios": []
+}

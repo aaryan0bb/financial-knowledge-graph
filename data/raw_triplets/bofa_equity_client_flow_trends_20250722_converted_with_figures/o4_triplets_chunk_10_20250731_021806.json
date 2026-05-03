@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Equity Client Flow Trends: Materials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Materials sector",
+      "description": "Shows the volatile 4-week average ETF flows for the Materials sector from Jan 2017 to Jul 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | 4-wk Avg. Flow ($mn) |\n|------------|----------------------|\n| Jan 2017   | -50                  |\n| Mar 2017   | 100                  |\n| Oct 2017   | -150                 |\n| Jan 2018   | 0                    |\n| Apr 2018   | 150                  |\n| Aug 2018   | -150                 |\n| Jan 2019   | -25                  |\n| Jul 2019   | 75                   |\n| Nov 2019   | -100                 |\n| Jan 2020   | -50                  |\n| Apr 2020   | 100                  |\n| Jul 2020   | -150                 |\n| Jan 2021   | 50                   |\n| Mar 2021   | 175                  |\n| Jul 2021   | -100                 |\n| Jan 2022   | 25                   |\n| Apr 2022   | 100                  |\n| Jul 2022   | -175                 |\n| Jan 2023   | -25                  |\n| Apr 2023   | 100                  |\n| Jun 2023   | -100                 |\n| Jan 2024   | 0                    |\n| Feb 2024   | 100                  |\n| Dec 2024   | 0                    |\n| Jan 2025   | 75                   |\n| Current    | 150                  |",
+        "key_insight": "Materials ETFs exhibited high volatility with inflows and outflows oscillating sharply"
+      }
+    },
+    {
+      "name": "Table T2 – Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Technology sector",
+      "description": "Illustrates the Technology sector's ETF flow trends, showing surges and deep outflows over period",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | 4-week Avg Flow ($ mn) |\n|-----------|------------------------|\n| Jan 2017  | 50                     |\n| Jul 2017  | 100                    |\n| Jan 2018  | 120                    |\n| Jun 2018  | -50                    |\n| Jan 2019  | -80                    |\n| Jul 2019  | 50                     |\n| Jan 2020  | -20                    |\n| May 2020  | 180                    |\n| Aug 2020  | 250                    |\n| Nov 2020  | 280                    |\n| Jan 2021  | -320                   |\n| Apr 2021  | -80                    |\n| Jul 2021  | 150                    |\n| Nov 2021  | 100                    |\n| Feb 2022  | -50                    |\n| Jul 2022  | -100                   |\n| Oct 2022  | -120                   |\n| Jan 2023  | -80                    |\n| Apr 2023  | 50                     |\n| Sep 2023  | 0                      |\n| Jan 2024  | 20                     |\n| Mar 2024  | -50                    |\n| May 2024  | -100                   |\n| Jul 2024  | -120                   |\n| Oct 2024  | -160                   |\n| Jan 2025  | -150                   |\n| Current   | -160                   |",
+        "key_insight": "Tech ETFs shifted from peaks to deep troughs and sustained outflows since mid-2024"
+      }
+    },
+    {
+      "name": "Table T3 – Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Financials sector",
+      "description": "Tracks Financials ETF flows showing volatile inflows and recent outflows over Jan 2017 to Jan 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date     | 4-Week Average Flow ($ mn) |\n|----------|-----------------------------|\n| 1/6/17   | 10                          |\n| 5/6/17   | 200                         |\n| 10/6/17  | -50                         |\n| 1/6/18   | 100                         |\n| 5/6/18   | -100                        |\n| 1/6/19   | 20                          |\n| 3/6/19   | 250                         |\n| 8/6/19   | -100                        |\n| 1/6/20   | 50                          |\n| 4/6/20   | -150                        |\n| 7/6/20   | 150                         |\n| 1/6/21   | -100                        |\n| 3/6/21   | 100                         |\n| 8/6/21   | -100                        |\n| 1/6/22   | -50                         |\n| 3/6/22   | 100                         |\n| 8/6/22   | -100                        |\n| 1/6/23   | -50                         |\n| 3/6/23   | 100                         |\n| 8/6/23   | -100                        |\n| 1/6/24   | -50                         |\n| 3/6/24   | 50                          |\n| 8/6/24   | -50                         |\n| 1/6/25   | -150                        |",
+        "key_insight": "Financials ETFs have shifted to three weeks of net outflows, dropping to -$150mn"
+      }
+    },
+    {
+      "name": "Table T4 – Equity Client Flow Trends: Health Care ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Health Care sector",
+      "description": "Highlights volatility in Health Care ETF flows with recent sustained outflows",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Date     | 4-week Avg. Flow ($mn) |\n|----------|------------------------|\n| 1/6/17   | 0                      |\n| Jul-17   | 50                     |\n| 1/6/18   | 100                    |\n| Jul-18   | -50                    |\n| 1/6/19   | 50                     |\n| Jul-19   | 80                     |\n| 1/6/20   | 50                     |\n| Jul-20   | -100                   |\n| 1/6/21   | 100                    |\n| Jun-21   | 300                    |\n| 1/6/22   | 150                    |\n| Aug-22   | -100                   |\n| 1/6/23   | 100                    |\n| Jun-23   | -200                   |\n| 1/6/24   | 50                     |\n| Jun-24   | -200                   |\n| 1/6/25   | 50                     |\n| Apr-25   | 80                     |\n| May-25   | 0                      |\n| Jun-25   | -50                    |\n| Jul-25   | -100                   |",
+        "key_insight": "Health Care ETFs experienced three consecutive weeks of outflows, dropping to -$100mn"
+      }
+    },
+    {
+      "name": "Table T5 – Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg. outflows since mid-May 2025",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Tech sector showing recent outflows",
+      "description": "Displays significant Tech ETF flow volatility with recent outflows peaking at -$280mn",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Date      | 4-Week Avg Flow ($ mn) |\n|-----------|------------------------|\n| 1/6/17    | 20                     |\n| 1/6/18    | 50                     |\n| 6/1/18    | 280                    |\n| 1/6/19    | -340                   |\n| 6/1/19    | 150                    |\n| 1/6/20    | 50                     |\n| 6/1/20    | 180                    |\n| 1/6/21    | 380                    |\n| 6/1/21    | 220                    |\n| 1/6/22    | 80                     |\n| 6/1/22    | -300                   |\n| 1/6/23    | 50                     |\n| 6/1/23    | 200                    |\n| 1/6/24    | 150                    |\n| 6/1/24    | 100                    |\n| 1/6/25    | -100                   |\n| Current   | -280                   |",
+        "key_insight": "Tech ETFs are in a sustained outflow trend since mid-May 2025, reaching -$280mn"
+      }
+    },
+    {
+      "name": "Table T6 – Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg. (Time Series)",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Financials sector over time",
+      "description": "Time series of Financials ETF flows shows peaks and outflows through Jan 2025",
+      "properties": {
+        "table_id": "T6",
+        "table_content": "| Date     | Financials ETF 4-wk Avg. Flows ($ mn) |\n|----------|---------------------------------------|\n| Jan 2017 | 50                                    |\n| Jul 2017 | 10                                    |\n| Jan 2018 | 180                                   |\n| Jul 2018 | -180                                  |\n| Jan 2019 | 100                                   |\n| Jul 2019 | -100                                  |\n| Jan 2020 | 220                                   |\n| Jul 2020 | -180                                  |\n| Jan 2021 | 280                                   |\n| Jul 2021 | 0                                     |\n| Jan 2022 | 150                                   |\n| Jul 2022 | -100                                  |\n| Jan 2023 | 80                                    |\n| Jul 2023 | -50                                   |\n| Jan 2024 | 100                                   |\n| Jul 2024 | -70                                   |\n| Jan 2025 | -120                                  |",
+        "key_insight": "Financials ETFs saw inflow peaks and resumed outflows into early 2025"
+      }
+    },
+    {
+      "name": "Table T7 – Equity Client Flow Trends: Industrials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Industrials sector",
+      "description": "Tracks Industrials ETF flows showing peaks and recent sustained outflows",
+      "properties": {
+        "table_id": "T7",
+        "table_content": "| Date    | Rolling 4-Week Average Flow ($mn) |\n|---------|-----------------------------------|\n| Jan-17  | 0                                 |\n| May-17  | 10                                |\n| Sep-17  | 30                                |\n| Jan-18  | 50                                |\n| Apr-18  | 80                                |\n| Jul-18  | 100                               |\n| Nov-18  | -20                               |\n| Jan-19  | -170                              |\n| Apr-19  | -50                               |\n| Jul-19  | 50                                |\n| Oct-19  | 10                                |\n| Jan-20  | -10                               |\n| Jun-20  | 20                                |\n| Jan-21  | 120                               |\n| Mar-21  | 80                                |\n| Jul-21  | 0                                 |\n| Oct-21  | -100                              |\n| Jan-22  | -20                               |\n| Apr-22  | 10                                |\n| Sep-22  | 50                                |\n| Jan-23  | 80                                |\n| May-23  | 100                               |\n| Sep-23  | 50                                |\n| Jan-24  | 0                                 |\n| Apr-24  | -50                               |\n| Aug-24  | -20                               |\n| Nov-24  | -100                              |\n| Jan-25  | -150                              |\n| Apr-25  | -80                               |\n| Jul-25  | -100                              |",
+        "key_insight": "Industrials ETFs have been in outflow for seven consecutive weeks, down to -$100mn"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Equity Client Flow Trends: Materials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Materials ETF Flow Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights high volatility in Materials ETF flows"
+    },
+    {
+      "source": "Table T2 – Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Tech ETF Sustained Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows sustained net outflows in Tech ETFs since mid-2024"
+    },
+    {
+      "source": "Table T3 – Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Financials ETF Recent Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table indicates three weeks of net outflows in Financials ETFs"
+    },
+    {
+      "source": "Table T4 – Equity Client Flow Trends: Health Care ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Health Care ETF Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows three consecutive weeks of outflows in Health Care ETFs"
+    },
+    {
+      "source": "Table T5 – Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg. outflows since mid-May 2025",
+      "target": "Equity Client Flow Trends: Tech ETF Heavy Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights significant Tech ETF outflows since mid-May 2025"
+    },
+    {
+      "source": "Table T6 – Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg. (Time Series)",
+      "target": "Equity Client Flow Trends: Financials ETF Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table demonstrates volatile inflows and outflows in Financials ETFs"
+    },
+    {
+      "source": "Table T7 – Equity Client Flow Trends: Industrials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Industrials ETF Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows seven consecutive weeks of outflows in Industrials ETFs"
+    }
+  ],
+  "scenarios": []
+}

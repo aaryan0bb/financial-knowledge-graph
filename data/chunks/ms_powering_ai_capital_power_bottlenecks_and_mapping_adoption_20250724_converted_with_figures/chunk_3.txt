@@ -1,0 +1,57 @@
+Morgan Stanley                                                                                                     July 24, 2025 
+
+ Forecasting ~$3tr global data center spend through YE28 
+
+                 We estimate $2.9tr of global data center spend, not inclusive of power investments, 
+                 through 2028, of which 85% will be for Al-specific data centers 
+
+          Est. Total Global Spend ($mm) by Type                       Est. Total Global Spend ($mm) by Workload 
+
+         $1,000,000                                                    $1,000,000 
+                  Total Capital Cost of Chips + Servers ($m)             $900,      Total non-Al Workload Spend 
+           $900,000 
+                                                                         $800,000 
+           $800,000 
+                                                                         $700,000 
+           $700,000 
+                                                                         $600,000 
+           $600,000 
+                                                                         $500,000 
+           $500,000 
+                                                                         $400,000 
+           $400,000 
+                                                                         $300,000 
+           $300,000 
+                                                                         $200,000 
+           $200,000 
+                                                                         $100,000 
+           $100,000 
+                                                                              $0 
+                $0                                                                2024e   2025e 2026e   2027e 2028e 
+                     2024e 2025e   2026e 2027e   2028e 
+
+Source: Morgan Stanley Research estimates                                                                                         3 
+
+    | Year | AI Workload Spend ($mm) | Non-AI Workload Spend ($mm) | Total Spend ($mm) |
+    |---|---|---|---|
+    | 2024e | $230,000 | $80,000 | $310,000 |
+    | 2025e | $400,000 | $90,000 | $490,000 |
+    | 2026e | $560,000 | $90,000 | $650,000 |
+    | 2027e | $690,000 | $110,000 | $800,000 |
+    | 2028e | $790,000 | $120,000 | $910,000 |
+
+    Summary: This stacked bar chart depicts the estimated total global data center spend by workload from 2024e to 2028e, with the Y-axis representing spend in millions of dollars. A clear and substantial upward trend in total data center expenditure is visible across the forecast period. This growth is predominantly driven by "AI Workload Spend" (blue bars), which consistently forms the vast majority of the total. "Total non-AI Workload Spend" (beige bars) remains a relatively small and stable component, indicating a pronounced shift in investment focus towards AI-centric infrastructure.
+
+    Explanation: This chart directly illustrates the breakdown of the "Forecasting ~$3tr global data center spend through YE28" highlighted in the full-page context, emphasizing that an estimated 85% will be for AI-specific data centers. The data confirms the profound capital allocation towards AI infrastructure, underscoring the critical and growing role of AI in future technological development and its immense associated investment requirements.
+
+    | Year | AI-related Capital Cost ($bn) | Non-AI related Capital Cost ($bn) | Total Capital Cost (Chips + Servers) ($bn) |
+    |:-----|:------------------------------|:----------------------------------|:-------------------------------------------|
+    | 2024e | 130                           | 180                               | 310                                        |
+    | 2025e | 210                           | 290                               | 500                                        |
+    | 2026e | 290                           | 380                               | 670                                        |
+    | 2027e | 360                           | 450                               | 810                                        |
+    | 2028e | 430                           | 500                               | 930                                        |
+
+    Summary: This stacked bar chart illustrates the estimated annual capital cost for chips and servers globally from 2024 to 2028, segmented into AI-related (blue) and non-AI-related (beige) components. The Y-axis represents costs in billions of dollars, projected to reach nearly $1 trillion by 2028. A clear upward trend is observed across all categories, with total capital cost for chips and servers growing consistently year-over-year, from an estimated $310 billion in 2024 to $930 billion in 2028. Both AI-related and non-AI-related expenditures show significant annual increases, without any visible inflection points, reflecting a continuous surge in data center hardware investment.
+
+    Explanation: This chart provides a detailed breakdown of a key component of the broader global data center spend, highlighting the accelerating investment in essential hardware like chips and servers. The consistent growth in both AI and non-AI related costs indicates a robust expansion across the entire digital infrastructure landscape, with AI acting as a significant, but not exclusive, driver of this capital expenditure. This projected increase in hardware spending underscores the substantial financing needs for data center development, as further detailed in the accompanying report context.

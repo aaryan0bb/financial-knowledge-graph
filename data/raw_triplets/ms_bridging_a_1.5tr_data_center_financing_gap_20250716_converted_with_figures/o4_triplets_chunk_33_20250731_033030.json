@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Credit Markets – Fixed Rate Inflows and Outflows",
+      "type": "Table",
+      "brief": "Quarterly inflows, outflows, and net flows for fixed rate products from 3Q16 to 3Q24",
+      "description": "Highlights significant inflow surge and net flow dynamics, including a drop in 1Q22 and peak in 3Q23",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Quarter | Inflows ($bn) | Outflows ($bn) | Net Flows ($bn) |\n|---------|---------------|----------------|-----------------|\n| 3Q16    | 9             | 5              | 4               |\n| 1Q17    | 9             | 6              | 3               |\n| 3Q17    | 8             | 7              | 1               |\n| 1Q18    | 10            | 7              | 3               |\n| 3Q18    | 13            | 8              | 5               |\n| 1Q19    | 15            | 9              | 6               |\n| 3Q19    | 10            | 8              | 2               |\n| 1Q20    | 12            | 8              | 4               |\n| 3Q20    | 14            | 8              | 6               |\n| 1Q21    | 13            | 10             | 3               |\n| 3Q21    | 15            | 11             | 4               |\n| 1Q22    | 11            | 15             | -4              |\n| 3Q22    | 28            | 15             | 13              |\n| 1Q23    | 35            | 18             | 17              |\n| 3Q23    | 58            | 28             | 30              |\n| 1Q24    | 33            | 27             | 6               |\n| 3Q24    | 32            | 17             | 15              |",
+        "key_insight": "Following a negative net flow of -$4bn in 1Q22, net flows surged to a peak of $30bn in 3Q23."
+      }
+    },
+    {
+      "name": "Table T2 – Credit Markets – ABF now accounts for ~3% of insurance investments",
+      "type": "Table",
+      "brief": "Allocation of insurers' investments across asset classes",
+      "description": "Highlights ABF's current 3% share, suggesting significant room for growth",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Investment Category         | Percentage of Total Investments |\n|-----------------------------|---------------------------------|\n| Commercial Real Estate Lending | 13%                             |\n| Private Placements          | 11%                             |\n| Residential Mortgages       | 4%                              |\n| Asset-based finance         | 3%                              |\n| Mid-Market Lending          | 2%                              |\n| Infrastructure Fund Finance | 1%                              |\n| Other                       | 0%                              |",
+        "key_insight": "Asset-based finance currently represents 3% of insurers' total investments, indicating significant room for growth."
+      }
+    },
+    {
+      "name": "Credit Markets – Demand for Asset-Based Finance from insurers",
+      "type": "Factor",
+      "brief": "Need for high-quality spread products from insurers' capital inflows",
+      "description": "Growing inflows into fixed annuity products create demand for spread-generating ABF investments",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Credit Markets – Growth potential for Asset-Based Finance",
+      "type": "Factor",
+      "brief": "Room for growth as ABF share is low",
+      "description": "Reflects significant room for growth as ABF accounts for only 3% of insurers' total investments",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Credit Markets – Fixed Rate Inflows and Outflows",
+      "target": "Credit Markets – Demand for Asset-Based Finance from insurers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Surge in fixed annuity inflows drives demand for spread-generating ABF investments"
+    },
+    {
+      "source": "Table T2 – Credit Markets – ABF now accounts for ~3% of insurance investments",
+      "target": "Credit Markets – Growth potential for Asset-Based Finance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "ABF's 3% share of insurers' investments indicates significant growth potential"
+    }
+  ],
+  "scenarios": []
+}

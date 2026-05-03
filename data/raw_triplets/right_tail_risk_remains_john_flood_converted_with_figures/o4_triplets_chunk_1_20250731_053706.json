@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "Factor",
+      "brief": "Ongoing risk of extreme market upside moves",
+      "description": "Despite record highs and neutral positioning, tail risk persists",
+      "properties": {
+        "direction": "up",
+        "driver": "misaligned positioning"
+      }
+    },
+    {
+      "name": "Right Tail Risk: S&P 500 All-Time High Count",
+      "type": "Event",
+      "brief": "Count of S&P 500 record closing highs this year",
+      "description": "Indicates strong equity market but flags potential tail risk",
+      "properties": {
+        "date": "2025-07-27",
+        "event_type": "Index Performance",
+        "impact_value": 14,
+        "unit": "count",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Right Tail Risk: S&P 500 Forward 12M P/E Multiple",
+      "type": "Metric",
+      "brief": "Forward 12-month P/E multiple of the S&P 500",
+      "description": "High forward P/E at 22x signals lofty valuations",
+      "properties": {
+        "value": 22,
+        "unit": "multiple",
+        "as_of": "2025-07-27"
+      }
+    },
+    {
+      "name": "Right Tail Risk: Investor Positioning",
+      "type": "Factor",
+      "brief": "Current market participants' exposure stance",
+      "description": "Neutral hedge fund positioning amid high valuations",
+      "properties": {
+        "position": "neutral"
+      }
+    },
+    {
+      "name": "Table T1 – Right Tail Risk: US Fundamental L/S Asset Weighted Weekly Changes",
+      "type": "Table",
+      "brief": "Weekly changes in asset-weighted long/short leverage metrics",
+      "description": "Summary of weekly gross/net leverage and L/S ratio changes",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "US Fundamental L/S (Asset Weighted)\nLeverage                Gross %          Net %         L/S Ratio (MV)\n Current                 209.9            52.4            1.666\n  WoW Chg                -1.2pt           0.0pt            0.3%\n  MoM Chg                 0.1pt           1.8pt            1.8%\n  YTD Chg                13.3pt          -1.6pt            -5.2%\n Current 1-Yr Percentile 80%              51%              38%\n Current 3-Yr Percentile 93%                               13%\n Current 5-Yr Percentile 96%              34%              8%\nSource = GSPB",
+        "key_insight": "US Fundamental L/S gross leverage fell 1.2 pts to 209.9%, net leverage held at 52.4%, and L/S ratio rose 0.3% last week."
+      }
+    },
+    {
+      "name": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "Metric",
+      "brief": "Gross leverage of asset-weighted fundamental long/short funds",
+      "description": "Shows level of hedge fund gross exposure, key risk indicator",
+      "properties": {
+        "value": 209.9,
+        "unit": "%",
+        "as_of": "last week",
+        "percentile_3yr": 93
+      }
+    },
+    {
+      "name": "Right Tail Risk: Notional De-Grossing in US Single Stocks",
+      "type": "Factor",
+      "brief": "Largest notional de-grossing in six months for US single stocks",
+      "description": "Short covers outpaced long sales, driving de-grossing activity",
+      "properties": {
+        "percentile_5yr": 94,
+        "driver": "risk unwinds"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Right Tail Risk: US Fundamental L/S Asset Weighted Weekly Changes",
+      "target": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 7,
+        "impact_value": -1.2,
+        "unit": "pt",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows gross leverage fell 1.2 pts last week"
+    },
+    {
+      "source": "Right Tail Risk: S&P 500 Forward 12M P/E Multiple",
+      "target": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "High forward P/E multiple causes tail risk"
+    },
+    {
+      "source": "Right Tail Risk: Investor Positioning",
+      "target": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Neutral positioning amid record highs drives tail risk"
+    },
+    {
+      "source": "Right Tail Risk: Notional De-Grossing in US Single Stocks",
+      "target": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 7,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "De-grossing activity drove drop in gross leverage"
+    }
+  ],
+  "scenarios": []
+}

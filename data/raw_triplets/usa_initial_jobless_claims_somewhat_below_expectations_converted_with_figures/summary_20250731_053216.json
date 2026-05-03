@@ -1,0 +1,24 @@
+{
+  "report": "USA_ Initial Jobless Claims Somewhat Below Expectations_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:32:16.016989",
+  "total_chunks": 2,
+  "total_entities": 6,
+  "total_relationships": 2,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 2,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_053047.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_053214.json"
+    }
+  ]
+}

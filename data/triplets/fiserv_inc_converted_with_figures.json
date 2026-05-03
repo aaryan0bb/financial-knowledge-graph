@@ -1,0 +1,653 @@
+{
+  "entities": [
+    {
+      "name": "Fiserv Inc.",
+      "type": "Company",
+      "brief": "Global payments technology provider",
+      "description": "Provides financial services technology and processing solutions globally",
+      "properties": {
+        "ticker": "FI"
+      }
+    },
+    {
+      "name": "Fiserv Inc. Q1 FY2025 earnings release",
+      "type": "Event",
+      "brief": "Q1 FY2025 earnings report release",
+      "description": "First quarter FY2025 financial results announcement including performance and guidance",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "FI"
+        ]
+      }
+    },
+    {
+      "name": "Fiserv Inc. adjusted EPS",
+      "type": "Metric",
+      "brief": "Adjusted earnings per share",
+      "description": "Q1 FY2025 adjusted EPS ahead of consensus",
+      "properties": {
+        "value": 2.47,
+        "unit": "USD",
+        "as_of": "Q1FY2025"
+      }
+    },
+    {
+      "name": "Fiserv Inc. organic revenue growth guidance",
+      "type": "Metric",
+      "brief": "FY2025 organic revenue growth guidance",
+      "description": "Fiscal 2025 organic revenue growth guidance revised down to ~10%",
+      "properties": {
+        "value": 10,
+        "unit": "%",
+        "as_of": "FY2025"
+      }
+    },
+    {
+      "name": "Fiserv Inc. adjusted EPS guidance",
+      "type": "Metric",
+      "brief": "FY2025 adjusted EPS guidance",
+      "description": "Fiscal 2025 adjusted EPS guidance increased slightly to $10.15\u2013$10.30",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY2025",
+        "min": 10.15,
+        "max": 10.3
+      }
+    },
+    {
+      "name": "Fiserv Inc. - EPS Beat",
+      "type": "Metric",
+      "brief": "2% EPS beat in 2Q25",
+      "description": "EPS beat driven by lower tax rate",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - 2Q25 Adjusted Revenue",
+      "type": "Metric",
+      "brief": "2Q25 adjusted revenue in line at $5.20bn",
+      "description": "Reported adjusted revenue in line with expectations",
+      "properties": {
+        "value": 5.2,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Lower Tax Rate",
+      "type": "Factor",
+      "brief": "Reduced tax rate",
+      "description": "Lower tax rate contributed to EPS beat",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Merchant Revenue Miss ex Clover",
+      "type": "Event",
+      "brief": "Miss on merchant revenue excluding Clover",
+      "description": "Missed expectations on merchant revenue ex Clover",
+      "properties": {
+        "date": null,
+        "event_type": "miss"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Merchant Margin Miss",
+      "type": "Event",
+      "brief": "Miss on merchant margins",
+      "description": "Lower than expected merchant margins",
+      "properties": {
+        "date": null,
+        "event_type": "miss"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "Factor",
+      "brief": "Expected stock underperformance",
+      "description": "Stock expected to underperform due to merchant revenue and margin misses",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Fiserv Inc. Goldman Sachs Rating and Price Target History",
+      "type": "Table",
+      "brief": "GS ratings and price targets vs. Fiserv stock and S&P 500",
+      "description": "Shows GS rating and price target trends for Fiserv relative to the S&P 500, highlighting the April 2025 inflection and rating change.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Stock Price ($) | Price Target ($) | S&P 500 Index | GS Rating | Analyst Coverage |\n|:-----------|:----------------|:-----------------|:--------------|:----------|:-----------------|\n| Aug 2022   | 105             | 110              | 4200          | Neutral   | Covered by Will Nance |\n| Sep 2022   | 115             | 118              | 3900          | Neutral   | Covered by Will Nance |\n| Oct 2022   | 110             | 123              | 3800          | Neutral   | Covered by Will Nance |\n| Nov 2022   | 100             | 105              | 4000          | Neutral   | Covered by Will Nance |\n| Dec 2022   | 105             | 111              | 3900          | Neutral   | Covered by Will Nance |\n| Jan 2023   | 110             | 105              | 4100          | Neutral   | Covered by Will Nance |\n| Feb 2023   | 120             | 127              | 4000          | Neutral   | Covered by Will Nance |\n| Mar 2023   | 125             | 123              | 4050          | Neutral   | Covered by Will Nance |\n| May 2023   | 125             | 126              | 4200          | Neutral   | Covered by Will Nance |\n| Oct 2023   | 140             | 134              | 4200          | Neutral   | Covered by Will Nance |\n| Nov 2023   | 150             | 153              | 4500          | Neutral   | Covered by Will Nance |\n| Dec 2023   | 160             | 160              | 4750          | Neutral   | Covered by Will Nance |\n| Jan 2024   | 165             | 167              | 4850          | Neutral   | Covered by Will Nance |\n| Mar 2024   | 180             | 168              | 5200          | Neutral   | Covered by Will Nance |\n| Apr 2024   | 190             | 171              | 5100          | Neutral   | Covered by Will Nance |\n| Jun 2024   | 210             | 188              | 5450          | Neutral   | Covered by Will Nance |\n| Sep 2024   | 210             | 208              | 5700          | Neutral   | Covered by Will Nance |\n| Oct 2024   | 220             | 231              | 5800          | Neutral   | Covered by Will Nance |\n| Dec 2024   | 240             | 246              | 6200          | Neutral   | Covered by Will Nance |\n| Jan 2025   | 250             | 252              | 6400          | Neutral   | Covered by Will Nance |\n| Apr 2, 25  | 200             | 260 (at removal) | 5800          | Buy       | Covered by Will Nance |\n| May 2025   | 170             | 223              | 5900          | Buy       | Covered by Will Nance |\n| Jun 2025   | 160             | 194              | 6100          | Buy       | Covered by Will Nance |",
+        "key_insight": "Around April 2025, Fiserv's stock sharply declined while the S&P 500 rose, coinciding with GS's upgrade to Buy and lowered price targets to $223 and $194."
+      }
+    },
+    {
+      "name": "Fiserv Inc. Rating Upgrade to Buy",
+      "type": "Event",
+      "brief": "GS raised Fiserv rating from Neutral to Buy",
+      "description": "On April 2, 2025, Goldman Sachs upgraded Fiserv's rating to Buy despite stock decline, signaling a perceived value opportunity.",
+      "properties": {
+        "date": "2025-04-02",
+        "event_type": "rating_change",
+        "new_rating": "Buy",
+        "affected_tickers": [
+          "FI"
+        ]
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Q2 2025 Earnings Release",
+      "type": "Event",
+      "brief": "Release of Q2 2025 earnings report",
+      "description": "Event where earnings, guidance, and forecasts were updated",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "earnings_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Non-GAAP EPS Q2 2025",
+      "type": "Metric",
+      "brief": "Diluted non-GAAP earnings per share",
+      "description": "Actual diluted EPS for Q2 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 2.47,
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Effective Tax Rate Decrease",
+      "type": "Factor",
+      "brief": "Lower effective tax rate",
+      "description": "Reduction in effective tax rate contributed to earnings beat",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Merchant Segment Challenges",
+      "type": "Factor",
+      "brief": "Missed revenue and margin expectations",
+      "description": "Underperformance in small business and enterprise merchant segments",
+      "properties": {
+        "segments": [
+          "Small Business",
+          "Enterprise"
+        ]
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Organic Growth Guidance FY 2025",
+      "type": "Metric",
+      "brief": "Revised organic growth guidance",
+      "description": "Updated guidance cut from 10-12% range to about 10%",
+      "properties": {
+        "unit": "%",
+        "value": 10,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 EPS Forecast Q2 2025",
+      "type": "Metric",
+      "brief": "Updated diluted EPS forecast",
+      "description": "Revised forecast for non-GAAP EPS for Q2 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 2.44,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Fiserv Inc. \u2013 Stock Underperformance",
+      "type": "Event",
+      "brief": "Potential near-term stock underperformance",
+      "description": "Underperformance risk due to merchant segment challenges",
+      "properties": {
+        "date": null,
+        "event_type": "price_underperformance",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Ratios",
+      "type": "Table",
+      "brief": "2025 guidance vs consensus across key financial metrics",
+      "description": "Comparison of Fiserv's 2025 guidance against consensus estimates showing beats and misses across revenue, EPS, and cash flow metrics",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "<TRUNCATED: first 10 rows only>",
+        "key_insight": "Fiserv's 2025 mid-point GAAP revenue guidance of $22,706m is 1% above consensus",
+        "table_type": "Ratios",
+        "full_rows": 26
+      }
+    },
+    {
+      "name": "FI GAAP Revenue 2025",
+      "type": "Metric",
+      "brief": "GAAP revenue guidance mid-point for 2025",
+      "description": "Fiserv's targeted mid-point GAAP revenue for fiscal 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 22706
+      }
+    },
+    {
+      "name": "FI Adjusted Operating Income 2025",
+      "type": "Metric",
+      "brief": "Adjusted operating income guidance mid-point for 2025",
+      "description": "Fiserv's targeted mid-point adjusted operating income for fiscal 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 8501
+      }
+    },
+    {
+      "name": "FI Adjusted EPS 2025",
+      "type": "Metric",
+      "brief": "Adjusted EPS guidance mid-point for 2025",
+      "description": "Fiserv's targeted mid-point adjusted EPS for fiscal 2025",
+      "properties": {
+        "unit": "USD",
+        "as_of": "2025E",
+        "value": 10.23
+      }
+    },
+    {
+      "name": "FI Free Cash Flow 2025",
+      "type": "Metric",
+      "brief": "Free cash flow guidance mid-point for 2025",
+      "description": "Fiserv's targeted mid-point free cash flow for fiscal 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 5500
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Ratios",
+      "type": "Table",
+      "brief": "Forecasted financial metrics by fiscal year 2024-27",
+      "description": "Projected key metrics including revenue, EBITDA, EBIT, EPS, valuation and capital structure for 2024-27",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "<TRUNCATED: first 10 rows only>",
+        "key_insight": "Fiserv's EPS is forecast to rise 17.5% to $10.34 in 2025, the largest forecasted YoY increase among key metrics",
+        "table_type": "Ratios",
+        "full_rows": 13
+      }
+    },
+    {
+      "name": "FI Revenue 2025E",
+      "type": "Metric",
+      "brief": "Revenue forecast for fiscal year 2025",
+      "description": "Projected revenue for Fiserv in fiscal year 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 20808.2
+      }
+    },
+    {
+      "name": "FI EBITDA 2025E",
+      "type": "Metric",
+      "brief": "EBITDA forecast for fiscal year 2025",
+      "description": "Projected EBITDA for Fiserv in fiscal year 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 10478.9
+      }
+    },
+    {
+      "name": "FI EPS 2025E",
+      "type": "Metric",
+      "brief": "EPS forecast for fiscal year 2025",
+      "description": "Projected EPS for Fiserv in fiscal year 2025",
+      "properties": {
+        "unit": "USD",
+        "as_of": "2025E",
+        "value": 10.34
+      }
+    },
+    {
+      "name": "FI Price Target 12m",
+      "type": "Metric",
+      "brief": "12-month price target for FI",
+      "description": "Analyst 12-month price target for Fiserv",
+      "properties": {
+        "unit": "USD",
+        "as_of": "12m",
+        "value": 208.0
+      }
+    },
+    {
+      "name": "FI Share Price",
+      "type": "Metric",
+      "brief": "Current share price for FI",
+      "description": "Fiserv's share price as of 22 Jul 2025 close",
+      "properties": {
+        "unit": "USD",
+        "as_of": "2025-07-22",
+        "value": 165.98
+      }
+    },
+    {
+      "name": "FI Price Upside",
+      "type": "Metric",
+      "brief": "Upside to price target",
+      "description": "Expected percentage upside to Fiserv's 12-month price target",
+      "properties": {
+        "unit": "%",
+        "as_of": "12m",
+        "value": 25.3
+      }
+    },
+    {
+      "name": "FI Weaker macro environment",
+      "type": "Factor",
+      "brief": "Risk of macroeconomic conditions deteriorating",
+      "description": "Weakening macro environment could pressure Fiserv's performance",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "FI Regulatory risk",
+      "type": "Factor",
+      "brief": "Risk from regulatory changes",
+      "description": "New regulations could negatively impact Fiserv's business",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "FI Competition risk",
+      "type": "Factor",
+      "brief": "Risk from competitive pressures",
+      "description": "Increased competition could erode Fiserv's market share",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fiserv Inc. Q1 FY2025 earnings release",
+      "target": "Fiserv Inc. adjusted EPS",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 2.47,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Earnings release reveals adjusted EPS of $2.47"
+    },
+    {
+      "source": "Fiserv Inc. Q1 FY2025 earnings release",
+      "target": "Fiserv Inc. organic revenue growth guidance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Earnings release revises organic growth guidance to 10%"
+    },
+    {
+      "source": "Fiserv Inc. - Lower Tax Rate",
+      "target": "Fiserv Inc. - EPS Beat",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Lower tax rate drove the EPS beat"
+    },
+    {
+      "source": "Fiserv Inc. - Merchant Revenue Miss ex Clover",
+      "target": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Revenue miss contributes to expected stock underperformance"
+    },
+    {
+      "source": "Fiserv Inc. - Merchant Margin Miss",
+      "target": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Margin miss contributes to expected stock underperformance"
+    },
+    {
+      "source": "Table T1 \u2013 Fiserv Inc. Goldman Sachs Rating and Price Target History",
+      "target": "Fiserv Inc. Rating Upgrade to Buy",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table context explains the GS rating upgrade event"
+    },
+    {
+      "source": "Fiserv Inc. \u2013 Effective Tax Rate Decrease",
+      "target": "Fiserv Inc. \u2013 Non-GAAP EPS Q2 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 0.03,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Lower tax rate drove slight EPS beat"
+    },
+    {
+      "source": "Fiserv Inc. \u2013 Merchant Segment Challenges",
+      "target": "Fiserv Inc. \u2013 Stock Underperformance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Merchant segment challenges may drive stock underperformance"
+    },
+    {
+      "source": "Table T1 \u2013 Ratios",
+      "target": "FI GAAP Revenue 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 22706,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs mid-point 2025 GAAP revenue metric"
+    },
+    {
+      "source": "Table T1 \u2013 Ratios",
+      "target": "FI Adjusted Operating Income 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8501,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs mid-point 2025 adjusted operating income metric"
+    },
+    {
+      "source": "Table T1 \u2013 Ratios",
+      "target": "FI Adjusted EPS 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10.23,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs mid-point 2025 adjusted EPS metric"
+    },
+    {
+      "source": "Table T1 \u2013 Ratios",
+      "target": "FI Free Cash Flow 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5500,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs mid-point 2025 free cash flow metric"
+    },
+    {
+      "source": "Table T2 \u2013 Ratios",
+      "target": "FI Revenue 2025E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 20808.2,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T2 informs 2025 revenue forecast metric"
+    },
+    {
+      "source": "Table T2 \u2013 Ratios",
+      "target": "FI EBITDA 2025E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10478.9,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T2 informs 2025 EBITDA forecast metric"
+    },
+    {
+      "source": "Table T2 \u2013 Ratios",
+      "target": "FI EPS 2025E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10.34,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T2 informs 2025 EPS forecast metric"
+    },
+    {
+      "source": "FI Adjusted EPS 2025",
+      "target": "FI Price Target 12m",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Adjusted EPS estimates drive 12m price target"
+    },
+    {
+      "source": "FI Weaker macro environment",
+      "target": "FI Price Target 12m",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak macro environment risk could lower 12m price target"
+    },
+    {
+      "source": "FI Regulatory risk",
+      "target": "FI Price Target 12m",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Regulatory risk could lower 12m price target"
+    },
+    {
+      "source": "FI Competition risk",
+      "target": "FI Price Target 12m",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Competition risk could lower 12m price target"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/fiserv_inc_converted_with_figures"
+}

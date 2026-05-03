@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "Nikkei 225 - US-Japan trade agreement",
+      "type": "Event",
+      "brief": "US-Japan trade agreement with reciprocal 15% tariffs",
+      "description": "Reciprocal tariff on Japanese goods and sectoral tariff on autos set at 15%",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "trade_agreement",
+        "tariff_rate": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Nikkei 225 - CTA net buying",
+      "type": "Factor",
+      "brief": "CTAs expected to buy net ¥400bn near index 41,000-41,500",
+      "description": "CTAs likely to add another ¥400bn of net buying if index stays near 41,000-41,500",
+      "properties": {
+        "magnitude": 400,
+        "unit": "JPY bn",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Nikkei 225 - rally extension",
+      "type": "Metric",
+      "brief": "Index tends to extend rally by 3%",
+      "description": "Index historically extends its rally by another 3% in similar situations",
+      "properties": {
+        "value": 3,
+        "unit": "%",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Nikkei 225 - US-Japan trade agreement",
+      "target": "Nikkei 225 - CTA net buying",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Trade agreement prompted CTAs to increase long exposure"
+    },
+    {
+      "source": "Nikkei 225 - CTA net buying",
+      "target": "Nikkei 225 - rally extension",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CTA net buying tends to extend the rally by another 3%"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Nikkei 225 - US-Japan trade agreement",
+      "probability": 0.56,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "Nikkei 225 - US-Japan trade agreement",
+          "target": "Nikkei 225 - CTA net buying",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "TRIGGERS",
+          "source": "Nikkei 225 - CTA net buying",
+          "target": "Nikkei 225 - rally extension",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": 3,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}

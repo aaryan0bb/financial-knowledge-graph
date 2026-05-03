@@ -1,0 +1,3585 @@
+{
+  "entities": [
+    {
+      "name": "Global Data Center Infrastructure - Time to Power Solution",
+      "type": "Factor",
+      "brief": "Product accelerating data center power-up",
+      "description": "Any product that enables data centers to power up faster than default grid connection",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Grid Request Backlog",
+      "type": "Factor",
+      "brief": "Backlog of grid interconnection requests in US grids",
+      "description": "Significant backlog causing increased connection times",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Data Center Grid Connection Time (historical)",
+      "type": "Metric",
+      "brief": "Previous average grid connection time",
+      "description": "Typical grid connection time for data centers before backlog",
+      "properties": {
+        "min": 2,
+        "max": 3,
+        "unit": "years",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "Metric",
+      "brief": "Current average grid connection time",
+      "description": "Typical grid connection time for data centers after increased backlog",
+      "properties": {
+        "min": 5,
+        "max": 10,
+        "unit": "years",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - AI Data Center Facility Cost",
+      "type": "Metric",
+      "brief": "Cost per megawatt for AI data centers",
+      "description": "Facility cost to build AI data centers per megawatt",
+      "properties": {
+        "value": 30,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Power Plant Construction Cost",
+      "type": "Metric",
+      "brief": "Cost per megawatt to build power plants",
+      "description": "Typical cost for power plants per megawatt",
+      "properties": {
+        "min": 2,
+        "max": 3,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - One-Year Time Advantage Value per MW",
+      "type": "Metric",
+      "brief": "Value of a one-year time-to-power advantage per megawatt",
+      "description": "Calculated value from time-to-power math",
+      "properties": {
+        "min": 3,
+        "max": 4,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Bitcoin Conversion Power Price Premia",
+      "type": "Metric",
+      "brief": "Effective power price premia from Bitcoin conversion",
+      "description": "Premia observed in Bitcoin conversion transactions",
+      "properties": {
+        "min": 300,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 GenAI Revenue Opportunity by Segment 2023-2028",
+      "type": "Table",
+      "brief": "Projected GenAI revenue across Enterprise Software and Consumer Internet through 2028",
+      "description": "Shows exponential growth in GenAI revenue opportunity, with Consumer Internet leading, culminating in ~$1T total by 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Enterprise Software ($B) | Consumer Internet ($B) |\n|------|--------------------------|------------------------|\n| 2023 | 4                        | 11                     |\n| 2024 | 16                       | 29                     |\n| 2025 | 59                       | 94                     |\n| 2026 | 148                      | 228                    |\n| 2027 | 256                      | 416                    |\n| 2028 | 401                      | 683                    |",
+        "key_insight": "Total GenAI revenue is projected to approach $1 trillion by 2028, with $683B from Consumer Internet and $401B from Enterprise Software."
+      }
+    },
+    {
+      "name": "GenAI Total Revenue Opportunity by 2028",
+      "type": "Metric",
+      "brief": "Projected total GenAI revenue opportunity by 2028",
+      "description": "Forecasted combined enterprise and consumer GenAI revenue nearing $1T by 2028",
+      "properties": {
+        "value": 1000,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 AI Data Center Infrastructure Relative Scales of Private Credit Markets",
+      "type": "Table",
+      "brief": "Comparison of ABF TAM, direct lending AUM, and deployed capital",
+      "description": "Nested circle diagram comparing $20+ trn ABF TAM, $2.2 trn direct lending AUM, and $0.6 trn deployed capital, highlighting private credit opportunity",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Value |\n|:-------------------------------------------|:------------------|\n| Estimated Total Addressable Market for ABF | ~$20+ trillion |\n| Current Direct Lending Fund AUM* | ~$2.2 trillion |\n| Current Deployed Capital for ABF* | ~$0.6 trillion |",
+        "key_insight": "The nested circle diagram shows that current ABF deployment ($0.6 trn) is far below the estimated $20+ trn addressable market, highlighting an $800 bn opportunity for private credit."
+      }
+    },
+    {
+      "name": "AI Data Center Infrastructure Estimated ABF Total Addressable Market",
+      "type": "Metric",
+      "brief": "Estimated total ABF market size",
+      "description": "Analyst\u2019s estimate of the global ABF addressable market in the AI data center financing context",
+      "properties": {
+        "unit": "USD trn",
+        "value": 20,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI Data Center Infrastructure Private Credit ABF Opportunity",
+      "type": "Metric",
+      "brief": "Immediate asset-based financing opportunity",
+      "description": "Implied private credit opportunity derived from the gap within the ABF addressable market",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 WULF Compute Core Business Model Comparison",
+      "type": "Table",
+      "brief": "Comparison of WULF Compute's three business models",
+      "description": "Details operational and financial metrics for CSP, Colocation, and Build to Suit models",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Metric | Cloud Service Provider (CSP) | Colocation - Whitespace & Rack Ready | Build to Suit |\n|---|---|---|---|\n| Description | Shell data center and GPU clusters; space, power, cooling, fiber/internet, security, compute, storage and environment. | Shell data center; lease rack ready whitespace including redundant power, cooling, fiber/internet, and security | Data center built to spec; lease space, redundant power, cooling, fiber/internet, and security |\n| Customer | Multiple - Managed through cloud partner | Multiple - Enterprise and well funded startups | Single - Hyperscaler |\n| Contract Size | 0.1 - 50 MW | 0.5 - 100 MW+ | 100+ MW |\n| Contract Term | 1 - 36 months | 5 - 15 years | 15+ years with renewals |\n| O&M | WULF managed | WULF managed | Tenant managed |\n| Build Cost per MW | $27 - 30 million (1) | $6 - 8 million (1) | $2 - 4 million (4) |\n| Financing | Equity & Debt | Equity (initially) | Highly Bankable |\n| Revenue per MW | $11 - 18 million (2) | $1.3 - 1.8 million (3) | $0.2 - 0.5 million |\n| Margins | 70 - 80% | 65 - 75% | 90% + |\n| Valuation Range | 7-12x EBITDA | 10-15x EBITDA | 15-20x EBITDA |",
+        "key_insight": "The 'Build to Suit' model delivers lower build costs per MW ($2-4M), the highest margins (90%+), and premium valuations (15-20x EBITDA)."
+      }
+    },
+    {
+      "name": "WULF Compute Build to Suit Build Cost per MW",
+      "type": "Metric",
+      "brief": "Range of build cost per MW for Build to Suit model",
+      "description": "Build to Suit model incurs $2-4M per MW build costs",
+      "properties": {
+        "unit": "USD million per MW",
+        "as_of": "2025-07-24",
+        "min": 2,
+        "max": 4
+      }
+    },
+    {
+      "name": "US Data Center Compute Usage Split",
+      "type": "Factor",
+      "brief": "Distribution of compute usage between inference and training",
+      "description": "US data centers compute use is split between inference and training tasks",
+      "properties": {
+        "inference_%": 75,
+        "training_%": 25
+      }
+    },
+    {
+      "name": "US Data Center Development Capacity",
+      "type": "Metric",
+      "brief": "Data center capacity in development in US",
+      "description": "Total pipeline capacity of US data centers in development tracked by Cushman & Wakefield",
+      "properties": {
+        "value": 47,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Data Center Hyperscale Development Capacity",
+      "type": "Metric",
+      "brief": "Hyperscale data center development capacity in US",
+      "description": "Portion of development pipeline allocated to hyperscale facilities",
+      "properties": {
+        "value": 4,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Data Center Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected data center demand in US through 2028",
+      "description": "Forecasted US data center demand through 2028, net of inference capacity",
+      "properties": {
+        "value": 62,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "US Data Center Inference-Focused Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected inference-focused data center demand through 2028",
+      "description": "US data center demand earmarked for inference tasks through 2028",
+      "properties": {
+        "value": 44,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "US Data Center Training-Focused Demand Through 2028",
+      "type": "Metric",
+      "brief": "Projected training-focused data center demand through 2028",
+      "description": "US data center demand earmarked for training tasks through 2028",
+      "properties": {
+        "value": 18,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Data Center Landscape of Americas Planned Data Centers",
+      "type": "Table",
+      "brief": "Planned data center capacity in GW across Americas categories",
+      "description": "Horizontal stacked bar chart showing planned vs commissioned capacity by category",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                  | Planned Commissioned Capacity (GW) | Total Planned (GW) |\n|---------------------------|------------------------------------|--------------------|\n| Americas - Colo           | 4.7                                | 43.6               |\n| Americas - Hyperscale     | 3.7                                | -                  |\n| Americas total - Overall  | 8.5                                | 47.4               |",
+        "key_insight": "Total planned capacity (47.4 GW) significantly exceeds planned commissioned capacity (8.5 GW), led by colocation's 43.6 GW pipeline."
+      }
+    },
+    {
+      "name": "US Data Center Total Planned Capacity",
+      "type": "Metric",
+      "brief": "Total planned data center capacity pipeline in Americas",
+      "description": "Aggregate future data center capacity planned across Americas categories",
+      "properties": {
+        "value": 47.4,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 US Data Center Landscape of Americas Data Centers Under Construction",
+      "type": "Table",
+      "brief": "Under-construction data center capacity in GW across Americas",
+      "description": "Bar chart showing commissioned and additional under-construction capacity by category",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category                      | Under Construction Commissioned Capacity (GW) | Additional Under Construction Capacity (GW) | Total Under Construction (GW) |\n|-------------------------------|-----------------------------------------------|---------------------------------------------|-------------------------------|\n| Americas - Colo               | 2.8                                           | 1.1                                         | 3.9                           |\n| Americas - Hyperscale         | 1.8                                           | 0.0                                         | 1.8                           |\n| Americas total - Overall      | 4.6                                           | 1.1                                         | 5.7                           |",
+        "key_insight": "Approximately 1.1 GW (nearly 20%) of the 5.7 GW total under construction is not yet commissioned."
+      }
+    },
+    {
+      "name": "US Data Center Additional Under Construction Capacity",
+      "type": "Metric",
+      "brief": "Uncommissioned under-construction data center capacity in Americas",
+      "description": "Portion of under-construction capacity not yet commissioned across Americas categories",
+      "properties": {
+        "value": 1.1,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 US Data Center Americas Operational Commissioned Capacity (Including Expansions)",
+      "type": "Table",
+      "brief": "Operational commissioned capacity breakdown in GW for Americas",
+      "description": "Donut chart showing current operational capacity by category",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Category | Capacity (GW) |\n|---|---|\n| Total Operational Commissioned Capacity | 20.0 |\n| Americas - Colo | 11.8 |\n| Americas - Hyperscale | 8.2 |",
+        "key_insight": "Americas operational capacity totals 20 GW, with colocation at 11.8 GW and hyperscale at 8.2 GW."
+      }
+    },
+    {
+      "name": "US Data Center Total Operational Commissioned Capacity",
+      "type": "Metric",
+      "brief": "Total currently operational commissioned data center capacity in Americas",
+      "description": "Aggregate operational commissioned capacity across Americas",
+      "properties": {
+        "value": 20.0,
+        "unit": "GW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - GPUs",
+      "type": "Factor",
+      "brief": "Graphics processing units for AI workloads",
+      "description": "GPUs are hardware accelerators crucial for AI-driven data centers and require financing solutions",
+      "properties": {
+        "asset_type": "hardware_accelerator"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "Factor",
+      "brief": "New AI companies without investment-grade ratings",
+      "description": "Relatively new AI players rated below investment grade face skepticism in financing GPU purchases",
+      "properties": {
+        "rating": "non-IG"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Hyperscalers",
+      "type": "Factor",
+      "brief": "Major cloud and AI infrastructure providers",
+      "description": "Hyperscalers have ultra-high-quality credit profiles and ample cash to finance GPUs and data centers",
+      "properties": {
+        "credit_profile_quality": "ultra-high",
+        "cash_on_hand": "significant"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - GPU-Backed Loans",
+      "type": "Factor",
+      "brief": "Loans collateralized by GPUs",
+      "description": "GPU-backed loans amortize faster than chip useful life and are expected to be popular financing solutions",
+      "properties": {
+        "amortization_period_relation": "shorter_than_chip_useful_life"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Public Securitization",
+      "type": "Factor",
+      "brief": "Securitization of GPU-backed loans",
+      "description": "Public securitization could become a solution for GPU financing but likely not until later this decade",
+      "properties": {
+        "issue_timing": "later_this_decade"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - HY Unsecured Issuance",
+      "type": "Factor",
+      "brief": "High-yield unsecured debt issuance",
+      "description": "HY unsecured issuance is an option for GPU financing with rates in the high-single digits to mid-teens percent",
+      "properties": {
+        "rate_range": "high_single_digits_to_mid_teens_pct"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Investor Skepticism",
+      "type": "Factor",
+      "brief": "Negative investor sentiment",
+      "description": "Investors are skeptical about non-IG AI players\u2019 ability to finance GPU purchases over time",
+      "properties": {
+        "direction": "negative"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Diverse Capital Pools",
+      "type": "Factor",
+      "brief": "Varied financing sources",
+      "description": "A broad array of capital pools can distribute credit risk away from corporate balance sheets",
+      "properties": {
+        "distribution": "diverse"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Macro Conditions",
+      "type": "Factor",
+      "brief": "Broader economic environment",
+      "description": "Macro conditions can affect credit appetite and financing costs",
+      "properties": {
+        "volatility": "high"
+      }
+    },
+    {
+      "name": "MS DataCenter Option 1",
+      "type": "Factor",
+      "brief": "Build power plants at data center site",
+      "description": "Off-grid self-generation solution to power data centers",
+      "properties": {
+        "solution_type": "off-grid_self_generation"
+      }
+    },
+    {
+      "name": "MS DataCenter Option 2",
+      "type": "Factor",
+      "brief": "Build data center at existing power or industrial site",
+      "description": "Leverages existing power infrastructure to reduce grid wait times",
+      "properties": {
+        "solution_type": "colocation"
+      }
+    },
+    {
+      "name": "MS DataCenter Option 3",
+      "type": "Factor",
+      "brief": "Redirect power from Bitcoin or industrial users",
+      "description": "Uses surplus power but insufficient to fully resolve bottlenecks",
+      "properties": {
+        "solution_type": "power_redirection"
+      }
+    },
+    {
+      "name": "MS DataCenter Natural Gas Power",
+      "type": "Factor",
+      "brief": "Natural gas\u2013fired power generation source",
+      "description": "Favored energy source for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Coal Power",
+      "type": "Factor",
+      "brief": "Coal\u2013fired power generation source",
+      "description": "Favored energy source for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Renewables",
+      "type": "Factor",
+      "brief": "Renewable energy sources",
+      "description": "Alternative options for off-grid power generation",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Nuclear Power",
+      "type": "Factor",
+      "brief": "Nuclear power generation source",
+      "description": "Alternative option for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Energy Storage",
+      "type": "Factor",
+      "brief": "Energy storage solutions (batteries, etc.)",
+      "description": "Supports off-grid operation while waiting for grid connection",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Political Pushback",
+      "type": "Factor",
+      "brief": "Political opposition to colocation options",
+      "description": "Increased regulatory and political resistance to using existing power sites",
+      "properties": {
+        "category": "political_risk",
+        "trend": "increasing"
+      }
+    },
+    {
+      "name": "MS DataCenter Grid Operator Pushback",
+      "type": "Factor",
+      "brief": "Grid operator resistance to additional load",
+      "description": "Pushback from grid operators on data center interconnections",
+      "properties": {
+        "category": "operational_risk",
+        "actor": "grid_operator",
+        "trend": "increasing"
+      }
+    },
+    {
+      "name": "MS DataCenter Power Prices",
+      "type": "Factor",
+      "brief": "Cost of electricity for data centers",
+      "description": "Power prices tend to increase when colocating at existing power sites",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "MS DataCenter Execution Risk",
+      "type": "Factor",
+      "brief": "Operational execution risk for de-bottlenecking solutions",
+      "description": "Risk that de-bottlenecking options may face delays or failures",
+      "properties": {
+        "severity": "high"
+      }
+    },
+    {
+      "name": "MS DataCenter Bottleneck Risk",
+      "type": "Factor",
+      "brief": "Risk of continued grid bottlenecks",
+      "description": "Potential for data center power-up delays without effective solutions",
+      "properties": {
+        "likelihood": "high"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Innovation",
+      "type": "Factor",
+      "brief": "Increase in innovation for AI models",
+      "description": "Rising innovation in AI models drives more complex architectures and higher compute demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - AI Adoption Level",
+      "type": "Factor",
+      "brief": "Under-appreciated AI adoption level",
+      "description": "Higher-than-expected adoption of AI applications boosts data center compute demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Non-linear AI Improvement",
+      "type": "Factor",
+      "brief": "Under-appreciated non-linear AI improvements",
+      "description": "Non-linear gains from AI scaling lead to significant efficiency and demand increases",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Data Center Demand",
+      "type": "Factor",
+      "brief": "Demand for data center compute capacity",
+      "description": "Compute demand driven by innovation, AI adoption, and non-linear improvements",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - DeepSeek Bearish Signal",
+      "type": "Factor",
+      "brief": "Potential bearish indicator for data center demand",
+      "description": "DeepSeek thought to signal weaker demand, but this is deemed non-material",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative spend on AI infrastructure through 2028",
+      "description": "More than $3 trillion cumulative spending on AI infrastructure by 2028",
+      "properties": {
+        "value": 3000,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Data Center Cumulative Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative data center spend including chips and servers through 2028",
+      "description": "Approximately $2.6 trillion projected spending on data centers by 2028",
+      "properties": {
+        "value": 2600,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Power Demand Through 2028",
+      "type": "Metric",
+      "brief": "Power needed for global AI data centers through 2028",
+      "description": "Estimate of >110 gigawatts required to power data centers for AI workloads by 2028",
+      "properties": {
+        "value": 110,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Power Plant Cost Estimate Through 2028",
+      "type": "Metric",
+      "brief": "Estimated cost of power plants to support AI through 2028",
+      "description": "Projected cost between $210-330 billion for power plants to meet AI infrastructure demand by 2028",
+      "properties": {
+        "value_min": 210,
+        "value_max": 330,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 AI Infrastructure Estimated Annual Data Center Spend by Workload Type",
+      "type": "Table",
+      "brief": "Annual global data center spend by workload type from 2024e to 2028e",
+      "description": "Shows rising annual spend dominated by exponential GenAI workload growth",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total GenAI Workload Spend ($mm) | Total non-AI Workload Spend ($mm) | Total Spend ($mm) |\n|------|----------------------------------|-----------------------------------|-------------------|\n| 2024e | $225,000                         | $75,000                           | $300,000          |\n| 2025e | $400,000                         | $90,000                           | $490,000          |\n| 2026e | $510,000                         | $90,000                           | $600,000          |\n| 2027e | $620,000                         | $100,000                          | $720,000          |\n| 2028e | $760,000                         | $130,000                          | $890,000          |",
+        "key_insight": "GenAI workload spend surges from $225bn in 2024e to $760bn in 2028e, driving total spend growth"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 AI Infrastructure Estimated Annual Global Data Center Spend by Type",
+      "type": "Table",
+      "brief": "Annual capital expenditure on data centers by type from 2024e to 2028e",
+      "description": "Highlights strong upward trend in data center costs, with chips and servers as larger share",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Data Centers, Excl. Chips + Servers ($B) | Chips + Servers ($B) | Total Data Center Spend ($B) |\n|------|------------------------------------------|----------------------|------------------------------|\n| 2024e| 125                                      | 175                  | 300                          |\n| 2025e| 210                                      | 285                  | 495                          |\n| 2026e| 270                                      | 330                  | 600                          |\n| 2027e| 325                                      | 400                  | 725                          |\n| 2028e| 420                                      | 475                  | 895                          |",
+        "key_insight": "Total annual data center spend grows from $300bn in 2024e to $895bn in 2028e, driven by chips and servers"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Infrastructure \u2013 Projected FCF and OBBBA Impact",
+      "type": "Table",
+      "brief": "Projected FCF and OBBBA impact for hyperscalers",
+      "description": "Chart showing projected FCF and OBBBA impact for Amazon, Google, and Meta from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Company | Metric          | 2025E  | 2026E  | 2027E  | 2028E  |\n|---------|-----------------|--------|--------|--------|--------|\n| AMZN    | Current FCF     | 30,209 | 48,046 | 61,519 | 83,820 |\n|         | OBBBA Impact    | 14,873 | 14,636 | 14,539 | 11,325 |\n|         | FCF after OBBBA | 45,083 | 62,682 | 76,058 | 95,146 |\n|         | % change        | 49%    | 30%    | 24%    | 14%    |\n| GOOGL   | Current FCF     | 78,821 | 85,520 | 95,658 | 108,517|\n|         | OBBBA Impact    | 24,724 | 4,170  | 6,047  | 5,372  |\n|         | FCF after OBBBA | 103,545| 89,690 | 101,705| 113,888|\n|         | % change        | 31%    | 5%     | 6%     | 5%     |\n| META    | Current FCF     | 44,872 | 47,429 | 56,538 | 70,439 |\n|         | OBBBA Impact    | 9,893  | 10,351 | 10,149 | 8,140  |\n|         | FCF after OBBBA | 54,765 | 57,780 | 66,687 | 78,579 |\n|         | % change        | 22%    | 22%    | 18%    | 12%    |",
+        "key_insight": "Google is poised for the largest near-term FCF boost at 31% in 2025 from a $24.7bn OBBBA impact"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure \u2013 Google 2025 FCF increase",
+      "type": "Metric",
+      "brief": "Google 2025 FCF % increase due to OBBBA",
+      "description": "Google experiences a 31% increase in FCF in 2025 from OBBBA impact",
+      "properties": {
+        "value": 31,
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "DataCenter \u2013 Securitization Rate Projection",
+      "type": "Event",
+      "brief": "Projected rise in data center securitization rate",
+      "description": "Morgan Stanley projects global data center securitization rate climbing from 10% to 25% by 2028",
+      "properties": {
+        "date": null,
+        "event_type": "projection",
+        "start_pct": 10,
+        "end_pct": 25,
+        "target_year": 2028
+      }
+    },
+    {
+      "name": "DataCenter \u2013 Untapped Securitization Potential",
+      "type": "Factor",
+      "brief": "Remaining uns securitized data center capacity",
+      "description": "Over 90% of planned data center capacity remains unsecuritized, indicating significant growth opportunity",
+      "properties": {
+        "magnitude_pct": 90,
+        "driver": "low securitization penetration"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "type": "Table",
+      "brief": "Comparison of securitized and remaining capacity across leading issuers",
+      "description": "Shows estimated ABS and CMBS securitized capacity versus announced remaining capacity for top issuers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Issuer     | Est. Securitized Capacity by ABS (MWs) | Est. Securitized Capacity by CMBS (MWs) | Announced Capacity Remaining (MWs) | Total Capacity (MWs) |\n|------------|----------------------------------------|-----------------------------------------|------------------------------------|----------------------|\n| Aligned    | 250                                    | 50                                      | 4700                               | 5000                 |\n| Stack      | 150                                    | 25                                      | 3825                               | 4000                 |\n| Vantage    | 550                                    | 100                                     | 1350                               | 2000                 |\n| Switch     | 150                                    | 50                                      | 1800                               | 2000                 |\n| CyrusOne   | 300                                    | 25                                      | 675                                | 1000                 |",
+        "key_insight": "Vast majority of announced data center capacity remains unsecuritized, highlighting significant untapped potential."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "type": "Table",
+      "brief": "Breakdown of securitized and remaining capacity updated for top issuers",
+      "description": "Highlights planned, securitized ABS and CMBS capacity and remaining capacity, showing Vantage leads in securitization",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Issuer    | Est. Securitized Capacity by ABS (MW) | Est. Securitized Capacity by CMBS (MW) | Total Securitized Capacity (MW) | Announced Capacity Remaining (MW) | Total Capacity (MW) |\n|-----------|---------------------------------------|----------------------------------------|---------------------------------|-----------------------------------|---------------------|\n| Aligned   | 250                                   | 50                                     | 300                             | 4700                              | 5000                |\n| Stack     | 150                                   | 30                                     | 180                             | 3820                              | 4000                |\n| Vantage   | 500                                   | 100                                    | 600                             | 1400                              | 2000                |\n| Switch    | 200                                   | 30                                     | 230                             | 1770                              | 2000                |\n| CyrusOne  | 300                                   | 50                                     | 350                             | 650                               | 1000                |",
+        "key_insight": "Substantial share of capacity remains unsecuritized; Vantage has highest securitized capacity at 600 MW."
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Morgan Stanley AI Coding Model Performance and Cost Comparison",
+      "type": "Table",
+      "brief": "Comparison of AI coding models' accuracy, cost, and formatting performance",
+      "description": "Shows trade-offs between accuracy, cost, and edit format quality of various AI coding models, informing investment and implementation decisions in AI-driven software development.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Model | Percent correct | Cost | Command | Correct edit format |\n|---|---|---|---|---|\n| o3 (high) + gpt-4.1 | 82.7% | $69.29 | aider --model o3 --architect | 100.0% |\n| o3 (high) | 79.6% | $111.03 | aider --model o3 | 95.1% |\n| Gemini 2.5 Pro Preview 05-06 | 76.9% | $37.41 | aider --model gemini/gemini-2.5-pro-preview-05-06 | 97.3% |\n| Gemini 2.5 Pro Preview 03-25 | 72.9% | $29.74 (est.) | aider --model gemini/gemini-2.5-pro-preview-03-25 | 92.4% |\n| o4-mini (high) | 72.0% | $19.64 | aider --model o4-mini | 90.7% |\n| claude-3-7-sonnet-20250219 (32k thinking tokens) | 64.9% | $36.83 | aider --model anthropic/claude-3-7-sonnet-20250219 --thinking-tokens 32k | 97.8% |\n| DeepSeek R1 + claude-3-5-sonnet-20241022 | 64.0% | $13.29 | aider --architect --model r1 --editor-model sonnet | 100.0% |",
+        "key_insight": "Models range from 64.0% to 82.7% accuracy with costs from $13.29 to $111.03 and no clear correlation between accuracy and cost."
+      }
+    },
+    {
+      "name": "Morgan Stanley - Percent Correct",
+      "type": "Metric",
+      "brief": "Accuracy of AI models in coding tasks",
+      "description": "Key indicator of AI models' coding accuracy, crucial for adoption decisions",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025-07-24",
+        "min": 64.0,
+        "max": 82.7
+      }
+    },
+    {
+      "name": "DataCenter AI Infrastructure Innovation Drives Depreciation Risk",
+      "type": "Factor",
+      "brief": "Risk from rapid GPU depreciation due to innovation",
+      "description": "Innovation-driven GPU cost declines increase depreciation risk for data center investments",
+      "properties": {
+        "driver": "innovation",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 DataCenter AI Infrastructure DC Capital Cost - Dollar per teraFLOPS",
+      "type": "Table",
+      "brief": "Capital cost per teraFLOP across GPU generations",
+      "description": "Table shows cost per teraFLOP halving from Hopper to B+2 generations due to GPU innovation",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Generation | Capital Cost per TeraFLOP ($) |\n|---|---|\n| Hopper | 12.00 |\n| Blackwell | 6.00 |\n| \"B+1\" | 3.00 |\n| \"B+2\" | 1.50 |",
+        "key_insight": "Capital cost per teraFLOP halves each generation, from $12 in Hopper to $1.50 in B+2"
+      }
+    },
+    {
+      "name": "MS Data Center Lightning Event",
+      "type": "Event",
+      "brief": "Lightning strike causing grid disturbance",
+      "description": "Lightning event on 230kV line triggered operational risk concerns",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "lightning_event"
+      }
+    },
+    {
+      "name": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "type": "Event",
+      "brief": "Permanent fault on a 230kV transmission line",
+      "description": "Lightning-induced fault locked out a 230kV line after auto-reclose attempts",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "transmission_line_fault",
+        "auto_reclose_attempts": 3,
+        "successive_faults": 6
+      }
+    },
+    {
+      "name": "MS Data Center 1,500MW Load Loss",
+      "type": "Event",
+      "brief": "Simultaneous loss of voltage-sensitive data center load",
+      "description": "Approximately 1,500MW of data center load tripped offline during the fault",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "load_loss",
+        "affected_load_MW": 1500
+      }
+    },
+    {
+      "name": "MS Data Center Voltage Magnitude During Fault",
+      "type": "Metric",
+      "brief": "Voltage magnitude range during transmission fault",
+      "description": "Voltage in load-loss area ranged from 0.25 to 1.0 per unit during the fault",
+      "properties": {
+        "unit": "per_unit",
+        "min": 0.25,
+        "max": 1.0,
+        "as_of": "2024-07-10"
+      }
+    },
+    {
+      "name": "MS Data Center Voltage-Sensitive Load Growth",
+      "type": "Factor",
+      "brief": "Increase in voltage-sensitive data center loads",
+      "description": "Data center voltage-sensitive loads have increased and are projected to grow rapidly",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "Factor",
+      "brief": "Elevated grid reliability risk from large data center load losses",
+      "description": "Frequency and voltage reliability risks increase as large voltage-sensitive load losses occur",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center AI Infrastructure Annual Hyperscaler Bond Issuance and IG Market Share",
+      "type": "Table",
+      "brief": "Annual hyperscaler bond issuance and IG market share trends",
+      "description": "Shows hyperscaler bond issuance volume and share of IG market from 2013 to 2025 with peaks in 2017 and 2022 and subsequent decline",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Hyperscaler Issuance ($bn) | Hyperscaler Issuance as % of Total IG Issuance (RS) |\n|------|----------------------------|-----------------------------------------------------|\n| 2013 | 6                          | 0.6%                                                |\n| 2014 | 8                          | 0.6%                                                |\n| 2015 | 24                         | 1.6%                                                |\n| 2016 | 22                         | 1.7%                                                |\n| 2017 | 34                         | 2.5%                                                |\n| 2018 | 0                          | 0.0%                                                |\n| 2019 | 0                          | 0.0%                                                |\n| 2020 | 21                         | 1.0%                                                |\n| 2021 | 19                         | 1.1%                                                |\n| 2022 | 31                         | 2.5%                                                |\n| 2023 | 9                          | 0.7%                                                |\n| 2024 | 11                         | 0.7%                                                |\n| 2025 | 5                          | 0.6%                                                |",
+        "key_insight": "Peak issuance in 2017 ($34bn) and 2022 ($31bn), declining to $5bn by 2025"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Data Center AI Infrastructure Hyperscaler Equity and Debt IG Market Share Evolution",
+      "type": "Table",
+      "brief": "Evolution of hyperscaler equity and debt shares in indices",
+      "description": "Plots hyperscaler equity % of S&P 500 versus debt % of IG market from 2013 to early 2025, highlighting divergence",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Equity % of S&P 500 | Debt % of IG Market |\n|------|---------------------|---------------------|\n| 2013 | 4.5%                | 0.3%                |\n| 2014 | 5.5%                | 0.5%                |\n| 2015 | 7.5%                | 0.8%                |\n| 2016 | 9.5%                | 1.5%                |\n| 2017 | 11.5%               | 1.8%                |\n| 2018 | 12.5%               | 1.7%                |\n| 2019 | 13.5%               | 1.6%                |\n| Early 2020 | 16.5%          | 1.5%                |\n| Mid-2020    | 15.0%          | 1.3%                |\n| Early 2021  | 17.5%          | 1.6%                |\n| Early 2022  | 18.5%          | 1.7%                |\n| Late 2022   | 11.5%          | 1.5%                |\n| 2023        | 16.0%          | 1.6%                |\n| 2024        | 18.0%          | 1.7%                |\n| Early 2025  | 17.5%          | 1.6%                |",
+        "key_insight": "Equity share rose from 4.5% in 2013 to 18% in 2024, debt share rose modestly to around 1.8%"
+      }
+    },
+    {
+      "name": "Data Center AI Infrastructure \u2013 Hyperscaler IG Debt Issuance Decline",
+      "type": "Factor",
+      "brief": "Projected decline in hyperscaler IG debt issuance post-2022",
+      "description": "Declining hyperscaler bond issuance and IG market share after peak in 2022",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center AI Infrastructure \u2013 Hyperscaler Equity-Centric Financing",
+      "type": "Factor",
+      "brief": "Financing shift toward equity over debt for hyperscalers",
+      "description": "Surging equity representation versus modest debt growth indicates equity-centric funding",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 HPC Data Center High Returns from REIT Sales",
+      "type": "Table",
+      "brief": "Scenario returns for powered shell REIT sales in HPC data centers",
+      "description": "Shows range of power, revenue, costs, margins, and value creation metrics for converting Bitcoin assets to HPC data centers and selling as a REIT to hyperscalers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Range\nData Center Total Power (MW)                                            100                 100                  100\nData Center Revenue/Watt                                $              1.55 $              1.55 $               1.55\nTotal Data Center Revenue ($m per year)                                $155                $155                 $155\nOperating Margin                                                       70%                  70%                 70%\nOperating Costs                                       $               (47) $              (47) $               (47)\nEBITDA ($m)                                                            $109                $109                 $109\nTotal Construction Cost/Watt                                             $6                  $7                   $8\nConstruction Cost ($m)                                  $              600 $                700 $               800\nConstruction Costs as a Multiple of EBITDA                            5.5                 6.5                  7.4\nLeverage as a Multiple of EBITDA                                        4.0                 4.0                  4.0\nLeverage (% of Cost)                                                  72%                  62%                 54%\nIndicative Enterprise Value/EBITDA Multiple                            10.0x               12.5x                15.0x\nResulting Enterprise Value ($m)                         $             1,085 $              1,356 $             1,628\nResulting Equity Value ($m)                             $              651 $                922 $              1,194\nValue Creation on Equity Investment                                   292%                 247%                226%\nEquity Value ($m per megawatt)                          $              6.51 $              9.22 $              11.94\nEquity Value Creation ($m per megawatt)                 $              4.85 $              6.56 $               8.28",
+        "key_insight": "Building and leasing powered shells to hyperscalers, then selling to a REIT, yields value creation levels well above where most Bitcoin stocks trade on an EV/watt basis"
+      }
+    },
+    {
+      "name": "HPC Data Center Equity Value Creation",
+      "type": "Factor",
+      "brief": "Equity value creation levels from converting Bitcoin assets to HPC data centers and REIT sale",
+      "description": "Measures percentage returns on equity investments from building and leasing powered shells to hyperscalers, then selling the assets to a REIT, compared to Bitcoin stocks' EV/watt trading multiples",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 292
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "Event",
+      "brief": "Trump admin may expand AI tech export restrictions on China",
+      "description": "Potential policy restrictions by the Trump administration on AI technology exports to China",
+      "properties": {
+        "date": null,
+        "event_type": "policy_restriction",
+        "region": "China"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Trump AI Technology Restriction Effort",
+      "type": "Factor",
+      "brief": "Trump administration's expansive AI restriction approach",
+      "description": "Expansive policy approach by the Trump administration to restrict AI technology exports",
+      "properties": {
+        "direction": "up",
+        "driver": "policy"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US AI Export Control Legislation",
+      "type": "Factor",
+      "brief": "Mark Green's proposed AI export control safeguards",
+      "description": "Proposed legislation by US House Homeland Security to prevent AI tech shocks by China",
+      "properties": {
+        "direction": "up",
+        "driver": "legislation"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Dario Amodei AI Warning",
+      "type": "Factor",
+      "brief": "Anthropic CEO warns on China tech advantage",
+      "description": "Expert opinion highlighting risk of China gaining AI advantage without restrictions",
+      "properties": {
+        "driver": "expert_opinion"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - China Chip Access",
+      "type": "Factor",
+      "brief": "Potential reduction in China's AI chip access",
+      "description": "China's inability to procure millions of AI chips could limit its AI capabilities",
+      "properties": {
+        "direction": "down",
+        "driver": "supply"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Unipolar World",
+      "type": "Factor",
+      "brief": "Scenario of US-led unipolar AI dominance",
+      "description": "World state where only the US and its allies possess advanced AI models",
+      "properties": {
+        "driver": "geopolitical"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 DCI Survey Significant Obstacles and Key Drivers",
+      "type": "Table",
+      "brief": "Survey of data center project obstacles and drivers",
+      "description": "Aggregates significance and response rates for general obstacles and specific drivers from Schneider Electric survey",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Obstacle / Specific Issue                                       | Extremely Significant (%) | Very Significant (%) | Somewhat Significant (%) | Total Significant (%) | Response Rate (%) |\n|-----------------------------------------------------------------|---------------------------|----------------------|--------------------------|-----------------------|-------------------|\n| Utility capacity or transmission constraints                    | 40                        | 33                   | 19                       | 92                    |                   |\n| Permitting issues                                               | 26                        | 30                   | 30                       | 86                    |                   |\n| Fiber availability                                              | 26                        | 33                   | 26                       | 85                    |                   |\n| Access to computer chips                                        | 32                        | 34                   | 15                       | 81                    |                   |\n| Natural gas availability                                        | 19                        | 23                   | 34                       | 76                    |                   |\n| Land availability                                               | 17                        | 30                   | 27                       | 74                    |                   |\n| Public opposition                                               | 16                        | 25                   | 33                       | 74                    |                   |\n| Water availability                                              | 21                        | 20                   | 32                       | 73                    |                   |\n| Utility quoted long wait time for more power                    |                           |                      |                          |                       | 46                |\n| Utility quoted high cost for more power                         |                           |                      |                          |                       | 43                |\n| Long lead time for on-site power generation equipment           |                           |                      |                          |                       | 42                |\n| Utility power has unpredictable energy rates                    |                           |                      |                          |                       | 42                |\n| Utility power reliability is inadequate                         |                           |                      |                          |                       | 32                |\n| Utility has given no written promise on delivery time           |                           |                      |                          |                       | 32                |\n| Site layout issues (e.g., space, can't run distribution lines)  |                           |                      |                          |                       | 27                |\n| Not running into any challenges                                 |                           |                      |                          |                       | 15                |\n| Utility does not enable sufficient renewable energy procurement |                           |                      |                          |                       | 13                |\n| Not applicable / Don't know                                     |                           |                      |                          |                       | 8                 |",
+        "key_insight": "Utility capacity or transmission constraints cited by 92% as significant"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 DCI Obstacle Significance Breakdown",
+      "type": "Table",
+      "brief": "Significance percentages for key data center project obstacles",
+      "description": "Breaks down extreme, very, and somewhat significant responses for common obstacles in data center projects",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Obstacle | Extremely Significant | Very Significant | Somewhat Significant | Total Significant |\n|---|---|---|---|---|\n| Utility capacity or transmission constraints | 40% | 33% | 19% | 92% |\n| Permitting issues | 26% | 30% | 30% | 86% |\n| Fiber availability | 26% | 33% | 26% | 85% |\n| Access to computer chips | 32% | 34% | 15% | 81% |\n| Natural gas availability | 19% | 23% | 34% | 76% |\n| Land availability | 17% | 30% | 27% | 74% |\n| Public opposition | 16% | 25% | 33% | 74% |\n| Water availability | 21% | 20% | 32% | 73% |",
+        "key_insight": "Utility capacity or transmission constraints remains the most significant obstacle at 92%"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 DCI Power-related Obstacle Percentages",
+      "type": "Table",
+      "brief": "Percentage of respondents citing power-related challenges",
+      "description": "Ranks power-related obstacles by percentage of respondents citing each as significant challenge",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Obstacle                                                      | Percentage |\n|---------------------------------------------------------------|------------|\n| Utility quoted long wait time for more power                  | 46%        |\n| Utility quoted high cost for more power                       | 43%        |\n| Long lead time for on-site power generation equipment         | 42%        |\n| Utility power has unpredictable energy rates                  | 42%        |\n| Utility power reliability is inadequate                       | 32%        |\n| Utility has given no written promise on delivery time         | 32%        |\n| Site layout issues (e.g., space, can't run distribution lines)| 27%        |\n| Not running into any challenges                               | 15%        |\n| Utility does not enable sufficient renewable energy procurement| 13%        |\n| Not applicable / Don't know                                   | 8%         |",
+        "key_insight": "Long wait times (46%) and high power costs (43%) are the top concerns"
+      }
+    },
+    {
+      "name": "DCI Utility capacity or transmission constraints",
+      "type": "Factor",
+      "brief": "Primary obstacle to data center development",
+      "description": "Dominant barrier cited by Schneider Electric survey respondents",
+      "properties": {
+        "magnitude_%": 92
+      }
+    },
+    {
+      "name": "DCI Utility quoted long wait time for more power",
+      "type": "Factor",
+      "brief": "Long wait times for power expansion",
+      "description": "Cited by 46% of respondents as a significant concern",
+      "properties": {
+        "magnitude_%": 46
+      }
+    },
+    {
+      "name": "DCI Utility quoted high cost for more power",
+      "type": "Factor",
+      "brief": "High cost of securing power",
+      "description": "Cited by 43% of respondents as a significant concern",
+      "properties": {
+        "magnitude_%": 43
+      }
+    },
+    {
+      "name": "DCI Long lead time for on-site power generation equipment",
+      "type": "Factor",
+      "brief": "Long lead times for power equipment",
+      "description": "Cited by 42% of respondents as a significant challenge",
+      "properties": {
+        "magnitude_%": 42
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Data Center Infrastructure Potential Shortfall in US Data Center Power 2025-28",
+      "type": "Table",
+      "brief": "Waterfall chart of US data center power shortfall 2025-28",
+      "description": "Illustrates projected 45 GW power deficit after accounting for construction and grid capacity",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Value (GW) |\n|-----------------------------------|------------|\n| US Power Needed, 2025-28          | 65         |\n| US DCs Under Construction         | (6)        |\n| Available US Grid Capacity        | (15)       |\n| Potential Shortfall               | (45)       |",
+        "key_insight": "Despite 6 GW from new data centers and 15 GW grid capacity, there is a 45 GW shortfall against 65 GW demand for US data centers 2025-28."
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "Metric",
+      "brief": "Projected power shortfall for US data centers",
+      "description": "Deficit between demand and supply leading to 45 GW shortfall for US data centers 2025-28",
+      "properties": {
+        "value": 45,
+        "unit": "GW",
+        "as_of": "2025-28"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Grid Access Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck due to grid access constraints",
+      "description": "Grid access identified as a bottleneck hindering growth of data center power supply",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Power Equipment Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from power equipment limitations",
+      "description": "Power equipment availability is constraining data center power provisioning",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Labor Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from labor constraints",
+      "description": "Labor shortage is limiting data center power installation and maintenance",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Political Capital Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from political capital constraints",
+      "description": "Political capital challenges are hindering approvals and support for power projects",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Morgan Stanley",
+      "type": "Company",
+      "brief": "Global investment bank",
+      "description": "Underwrites financing for AI infrastructure investments",
+      "properties": {
+        "ticker": "MS",
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 AI Data Center EV/Watt of Bitcoin Stocks",
+      "type": "Table",
+      "brief": "Bar chart of EV/Watt metrics for nine Bitcoin miners",
+      "description": "Shows EV per watt for nine Bitcoin miners using operational and development-inclusive metrics",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Company | Enterprise Value - $ per Watt (large, Op'l. and Under Construction) | Enterprise Value - $ per Watt (large, Op'l, Under Construction + Dev) |\n|---|---|---|\n| Marathon Digital (MARA) | $4.44 | $3.94 |\n| Riot Blockchain (RIOT) | $2.98 | $1.82 |\n| Cipher Mining (CIFR) | $6.77 | $2.18 |\n| BitDeer Technologies (BTDR) | $1.93 | $1.32 |\n| Galaxy Digital Holdings (GLXY) | $20.24 | $12.65 |\n| Terawulf (WULF) | $10.59 | $2.44 |\n| Core Scientific (CORZ) | $5.76 | $4.92 |\n| Applied Digital (APLD) | $5.41 | $3.42 |\n| HUT 8 (HUT) | $2.84 | $0.41 |",
+        "key_insight": "Including development-stage assets generally lowers EV/Watt, with HUT 8 showing the largest drop from $2.84 to $0.41"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "Factor",
+      "brief": "EV/Watt levels are well below HPC conversion value",
+      "description": "Bitcoin mining companies are undervalued relative to potential high-performance computing conversion metrics",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Bitcoin Mining EV/Watt Range",
+      "type": "Metric",
+      "brief": "EV per watt of multiple Bitcoin stocks",
+      "description": "The enterprise value per watt for Bitcoin mining stocks ranges between $1 and $2",
+      "properties": {
+        "min": 1,
+        "max": 2,
+        "unit": "USD per Watt",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure Lease Payment Rate to CORZ",
+      "type": "Metric",
+      "brief": "Annual lease payment rate from CoreWeave to CORZ per watt",
+      "description": "CoreWeave pays approximately $1.50 per watt per year to Core Scientific (CORZ) under lease",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD per Watt per year",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+      "type": "Event",
+      "brief": "230 KV transmission line fault causing data center load loss",
+      "description": "Lightning arrestor failure locked out a 230 KV line, leading to significant data center load disruption",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "transmission_line_fault",
+        "impact_value": 1500,
+        "unit": "MW",
+        "region": "Eastern Interconnection"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "type": "Metric",
+      "brief": "Simultaneous loss of voltage-sensitive data center load",
+      "description": "Approximately 1,500 MW of voltage-sensitive data center load tripped offline during the 230 KV line fault",
+      "properties": {
+        "value": 1500,
+        "unit": "MW",
+        "as_of": "2024-07-10"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Voltage Rise Risk",
+      "type": "Factor",
+      "brief": "Rapid voltage increases on the Bulk Electric System",
+      "description": "Large load losses can cause voltage to increase rapidly, posing reliability risks",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Frequency Rise Risk",
+      "type": "Factor",
+      "brief": "System frequency increases due to imbalance of load and generation",
+      "description": "Large, simultaneous load losses can lead to frequency rises on the system",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Hyperscaler Revenue & EBITDA Expectations",
+      "type": "Table",
+      "brief": "Forecasted revenue and EBITDA growth for hyperscalers (2023-2028)",
+      "description": "Projected hyperscaler revenue and EBITDA steadily increase, with revenue outpacing EBITDA and reaching new highs by 2028.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Revenue ($bn) | EBITDA ($bn) |\n|------|---------------|--------------|\n| 2023 | 1250          | 400          |\n| 2024 | 1400          | 520          |\n| 2025E| 1570          | 600          |\n| 2026E| 1760          | 720          |\n| 2027E| 1950          | 840          |\n| 2028E| 2120          | 980          |",
+        "key_insight": "Projected hyperscaler revenue and EBITDA steadily increase from 2023 through 2028, with revenue notably higher than EBITDA."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Hyperscalers' Cash Flows & Uses, Estimates",
+      "type": "Table",
+      "brief": "Estimated allocation of hyperscaler operating cash flows (2025-2028)",
+      "description": "Hyperscalers are projected to generate ~$2.9tr operating cash flows, primarily funding $1.6tr capex, $550bn returns, leaving $700bn free cash.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category           | Item                          | Value ($bn) |\n|--------------------|-------------------------------|-------------|\n| Cash Flow from Ops | Operating Activities          | 2900        |\n| Primary Cash Uses  | Hyperscaler Capex             | 1600        |\n| Primary Cash Uses  | Shareholder Returns           | 550         |\n| Primary Cash Uses  | FCF After Shareholder Returns | 700         |",
+        "key_insight": "Hyperscalers generate ~$2.9tr cash flows, primarily allocating $1.6tr to capex, $550bn to shareholder returns, and $700bn of free cash flow."
+      }
+    },
+    {
+      "name": "Hyperscaler Cash-Flow Funded Capex Estimate",
+      "type": "Metric",
+      "brief": "Estimated hyperscaler capex funded by cash flows",
+      "description": "Morgan Stanley estimates that hyperscalers will fund $1.4tr of capex through operating cash flows.",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Hyperscaler Revenue (2028E)",
+      "type": "Metric",
+      "brief": "Projected hyperscaler revenue for 2028",
+      "description": "Estimated revenue of $2120bn in 2028, highlighting robust growth potential.",
+      "properties": {
+        "value": 2120,
+        "unit": "USD bn",
+        "as_of": "2028E"
+      }
+    },
+    {
+      "name": "Hyperscaler Operating Cash Flows (2028E)",
+      "type": "Metric",
+      "brief": "Projected hyperscaler operating cash flows through 2028",
+      "description": "Total operating cash flows projected at $2900bn over 2025-2028 period.",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "2028E"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 AI Exponential Increase in Task Length",
+      "type": "Table",
+      "brief": "Exponential increase in AI task lengths from 2020 to 2025",
+      "description": "AI models' task completion lengths have accelerated, doubling every seven months and reaching one hour by 2025.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| AI Model/Event | Year | Task Length (approx.) |\n|---|---|---|\n| GPT 2 | 2020 | 0 mins |\n| GPT 3 | 2020 | 0 mins |\n| GPT 3.5 | 2022 | 2 mins |\n| GPT 4 | 2023 | 8 mins |\n| Sonnet 3.5 | 2024 | 20 mins |\n| o1 | 2024 | 40 mins |\n| Sonnet 3.7 | 2025 | 60 mins (1 hour) |",
+        "key_insight": "AI task lengths have doubled every seven months, reaching 60 minutes by 2025"
+      }
+    },
+    {
+      "name": "AI Task Length",
+      "type": "Metric",
+      "brief": "Duration of tasks AI models can complete",
+      "description": "Represents the approximate time AI agents can autonomously complete tasks, highlighting capability growth.",
+      "properties": {
+        "value": 60,
+        "unit": "minutes",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Real yields",
+      "type": "Factor",
+      "brief": "Positive real yields",
+      "description": "Real yields have been positive driving credit inflows",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Private credit inflows",
+      "type": "Factor",
+      "brief": "Inflows into private credit funds",
+      "description": "Credit markets seeing significant inflows led by private credit",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Private credit capacity",
+      "type": "Factor",
+      "brief": "Capacity of credit markets to finance needs",
+      "description": "Ability of private credit markets to meet financing demands",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Private Debt Fund AUM",
+      "type": "Table",
+      "brief": "Growth and deployment of global private debt fund AUM",
+      "description": "Shows rising global private debt fund AUM and deployment rates from 2008 to 2024*",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total AUM ($B) | % Deployed |\n|------|----------------|------------|\n| 2008 | $280           | 64%        |\n| 2009 | $380           | 68%        |\n| 2010 | $410           | 70%        |\n| 2011 | $430           | 68%        |\n| 2012 | $480           | 66%        |\n| 2013 | $510           | 65%        |\n| 2014 | $540           | 62%        |\n| 2015 | $600           | 61%        |\n| 2016 | $680           | 58%        |\n| 2017 | $830           | 59%        |\n| 2018 | $960           | 61%        |\n| 2019 | $1,030         | 64%        |\n| 2020 | $1,200         | 66%        |\n| 2021 | $1,470         | 68%        |\n| 2022 | $1,600         | 70%        |\n| 2023 | $1,720         | 71%        |\n| 2024*| $1,820         | 71%        |",
+        "key_insight": "Global private debt fund AUM accelerated from ~$600B in 2015 to $1.82T by 2024*, with deployment rates recovering to 71%."
+      }
+    },
+    {
+      "name": "Morgan Stanley-Total DC Securitized Financing",
+      "type": "Metric",
+      "brief": "Total volume of DC securitized credit financing through 2028",
+      "description": "Forecast cumulative issuance of securitized credit markets by 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 150,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Morgan Stanley-Securitization Rate",
+      "type": "Factor",
+      "brief": "Rate of securitization for DC financing",
+      "description": "Securitization percentage rate projected from 10% to 25% by 2028",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 15
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Est. Annual Issuance for DC Securitized Credit",
+      "type": "Table",
+      "brief": "Projected ABS and CMBS issuance 2025-2028",
+      "description": "Breakdown of ABS and CMBS issuance volumes from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Total estimated annual issuance grows significantly from $17bn in 2025 to $62bn in 2028, with ABS the larger component"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 DataCenterInvestment Financing Breakdown",
+      "type": "Table",
+      "brief": "Data center capex financing breakdown through 2028",
+      "description": "Details $2.9tr data center capex and its $1.5tr split between internal and external funding, highlighting private credit opportunities",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category          | Financing Source/Type                      | Amount ($bn) |\n|-------------------|--------------------------------------------|--------------|\n| Cash Need         | Global Capex on Data Centers (ex. Power)   | 2,900        |\n| Financing Path    | Hyperscaler Capex Funded with Cash Flows   | 1,400        |\n|                   | Corporate Debt                             | 200          |\n|                   | ABS & CMBS                                 | 150          |\n|                   | Private Credit Opportunity                 | 800          |\n|                   | Other Capital (PE, VC, Sovereign)          | 350          |",
+        "key_insight": "Of the $2.9tr projected data center capex through 2028, $1.4tr will be funded internally and $1.5tr externally, with an $800bn private credit opportunity."
+      }
+    },
+    {
+      "name": "DataCenterInvestment Global Capex Excluding Power",
+      "type": "Metric",
+      "brief": "Total global data center capex excluding power through 2028",
+      "description": "Represents $2.9tr projected global data center expansion spending excluding power costs",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "type": "Metric",
+      "brief": "Capex funded by hyperscalers' cash flows through 2028",
+      "description": "Indicates $1.4tr of data center capex covered by hyperscalers' internal cash flows",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "External private credit financing opportunity through 2028",
+      "description": "Highlights $800bn funding potential from private credit for data center expansion",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Financing Gap",
+      "type": "Metric",
+      "brief": "External financing gap for data center investments through 2028",
+      "description": "Quantifies the $1.5tr funding shortfall for data center capex needing external financing",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1500,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "type": "Factor",
+      "brief": "Overweight-rated stocks with materiality and exposure increases",
+      "description": "Focuses on >$30bn market cap stocks with attractive risk-reward and high AI rate of change alpha signal",
+      "properties": {
+        "strategy_number": 1
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "type": "Factor",
+      "brief": "New core to thesis stocks >$30bn market cap",
+      "description": "Targets >$30bn market cap companies aligned to key AI thematic investment theses",
+      "properties": {
+        "strategy_number": 2
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "type": "Factor",
+      "brief": "AI adopters with strong pricing power",
+      "description": "Selects companies breaking away with pricing power to capture AI-driven benefits",
+      "properties": {
+        "strategy_number": 3
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "type": "Factor",
+      "brief": "Stocks central to AI proliferation with high materiality and pricing power",
+      "description": "Broad approach covering enablers, adopters, and infrastructure plays for AI theme",
+      "properties": {
+        "strategy_number": 4
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - S&P Global",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - EssilorLuxottica",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Siemens Energy",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Ecolab",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Zijin Mining Group",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Titan Company",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Amazon.com",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies with high AI materiality",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - SAP",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - IBM",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - ASM International",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Microsoft",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power and high AI materiality",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong",
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Marriott International",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - DoorDash",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Rolls-Royce",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Home Depot",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - NVIDIA",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Apple",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Meta Platforms",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Alphabet",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Broadcom",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - TSMC",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - AI exposure",
+      "type": "Factor",
+      "brief": "Degree of company AI involvement",
+      "description": "Extent to which companies increase AI utilization",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - AI materiality",
+      "type": "Factor",
+      "brief": "Significance of AI to company operations",
+      "description": "Magnitude of AI\u2019s material impact across companies",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased AI exposure count",
+      "type": "Metric",
+      "brief": "Number of stocks with increased AI exposure",
+      "description": "Count of stocks that raised AI exposure",
+      "properties": {
+        "value": 412,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased AI materiality count",
+      "type": "Metric",
+      "brief": "Number of stocks with increased AI materiality",
+      "description": "Count of stocks experiencing greater AI materiality",
+      "properties": {
+        "value": 259,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased both AI exposure and materiality count",
+      "type": "Metric",
+      "brief": "Stocks increasing both AI exposure and materiality",
+      "description": "Number of stocks that raised both exposure and materiality to AI",
+      "properties": {
+        "value": 102,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased AI exposure",
+      "type": "Metric",
+      "brief": "Market cap of stocks raising AI exposure",
+      "description": "Aggregate market cap of stocks increasing AI exposure",
+      "properties": {
+        "value": 8.7,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased AI materiality",
+      "type": "Metric",
+      "brief": "Market cap of stocks raising AI materiality",
+      "description": "Aggregate market cap of stocks increasing AI materiality",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased both AI exposure and materiality",
+      "type": "Metric",
+      "brief": "Market cap of stocks increasing both AI exposure and materiality",
+      "description": "Aggregate market cap of stocks raising both exposure and materiality to AI",
+      "properties": {
+        "value": 2.4,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "Factor",
+      "brief": "Consumer Durables & Apparel industry segment",
+      "description": "Companies producing durable consumer goods and apparel",
+      "properties": {
+        "sector": "Consumer Durables & Apparel"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Discretionary sector",
+      "type": "Factor",
+      "brief": "Consumer Discretionary industry segment",
+      "description": "Companies in consumer discretionary goods and services",
+      "properties": {
+        "sector": "Consumer Discretionary"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Real Estate sector",
+      "type": "Factor",
+      "brief": "Real Estate industry segment",
+      "description": "Companies holding or developing real estate assets",
+      "properties": {
+        "sector": "Real Estate"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - REITs",
+      "type": "Factor",
+      "brief": "Real Estate Investment Trusts",
+      "description": "Companies owning and managing income-generating real estate",
+      "properties": {
+        "sector": "REITs"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Insurance sector",
+      "type": "Factor",
+      "brief": "Insurance industry segment",
+      "description": "Companies offering insurance products and services",
+      "properties": {
+        "sector": "Insurance"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Financial Services sector",
+      "type": "Factor",
+      "brief": "Financial Services industry segment",
+      "description": "Companies providing financial services",
+      "properties": {
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "Factor",
+      "brief": "Asia Pacific geographic region",
+      "description": "Countries in Asia Pacific region",
+      "properties": {
+        "region": "Asia Pacific"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel exposure increase rate",
+      "type": "Metric",
+      "brief": "Increase rate of AI exposure for Consumer Durables & Apparel stocks",
+      "description": "Percentage of Consumer Durables & Apparel stocks that saw AI exposure rise",
+      "properties": {
+        "value": 30,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel materiality increase rate",
+      "type": "Metric",
+      "brief": "Increase rate of AI materiality for Consumer Durables & Apparel stocks",
+      "description": "Percentage of Consumer Durables & Apparel stocks that saw AI materiality rise",
+      "properties": {
+        "value": 10,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Consumer Durables & Apparel companies as AI Adopters",
+      "description": "Proportion of Consumer Durables & Apparel stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 44,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Discretionary Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Consumer Discretionary companies as AI Adopters",
+      "description": "Proportion of Consumer Discretionary stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 47,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - REITs exposure percent",
+      "type": "Metric",
+      "brief": "Percent of REITs more exposed to AI",
+      "description": "Proportion of REITs with increased AI exposure",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Insurance Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Insurance companies as AI Adopters",
+      "description": "Proportion of Insurance stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 71,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Financial Services Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Financial Services companies as AI Adopters",
+      "description": "Proportion of Financial Services stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 73,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific net AI exposure increase count",
+      "type": "Metric",
+      "brief": "Net companies added to AI exposure in Asia Pacific",
+      "description": "Number of Asia Pacific stocks that increased AI exposure",
+      "properties": {
+        "value": 104,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific AI materiality increase count",
+      "type": "Metric",
+      "brief": "Asia Pacific stocks with rising AI materiality",
+      "description": "Number of Asia Pacific stocks that increased AI materiality",
+      "properties": {
+        "value": 30,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "type": "Factor",
+      "brief": "Alpha generated by AI materiality",
+      "description": "Outperformance linked to AI materiality among companies",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Relative price performance",
+      "type": "Factor",
+      "brief": "Relative price performance indicator",
+      "description": "Comparison of price movements relative to peers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Earnings revisions",
+      "type": "Factor",
+      "brief": "Earnings revisions metric",
+      "description": "Broker earnings estimate revisions influenced by AI materiality",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - 4th AI Mapping Exercise report",
+      "type": "Event",
+      "brief": "Fourth AI mapping exercise report publication",
+      "description": "Morgan Stanley\u2019s 4th AI mapping exercise report release",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "report_release"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Morgan Stanley Estimated Total Global Data Center Spend by Workload",
+      "type": "Table",
+      "brief": "Forecast of global data center spend by workload from 2024e to 2028e",
+      "description": "Shows the projected rise in data center spending, emphasizing AI workload dominance",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | AI Workload Spend ($mm) | Non-AI Workload Spend ($mm) | Total Spend ($mm) |\n|---|---|---|---|\n| 2024e | $230,000 | $80,000 | $310,000 |\n| 2025e | $400,000 | $90,000 | $490,000 |\n| 2026e | $560,000 | $90,000 | $650,000 |\n| 2027e | $690,000 | $110,000 | $800,000 |\n| 2028e | $790,000 | $120,000 | $910,000 |",
+        "key_insight": "Total global data center spend is projected to grow from $310,000mm in 2024e to $910,000mm in 2028e, driven predominantly by AI Workload Spend."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Morgan Stanley Estimated Annual Capital Cost for Chips and Servers",
+      "type": "Table",
+      "brief": "Projected chips and servers capital cost globally from 2024e to 2028e",
+      "description": "Highlights steady growth in hardware investment, reflecting financing needs in data center infrastructure",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | AI-related Capital Cost ($bn) | Non-AI related Capital Cost ($bn) | Total Capital Cost (Chips + Servers) ($bn) |\n|:-----|:------------------------------|:----------------------------------|:-------------------------------------------|\n| 2024e | 130 | 180 | 310 |\n| 2025e | 210 | 290 | 500 |\n| 2026e | 290 | 380 | 670 |\n| 2027e | 360 | 450 | 810 |\n| 2028e | 430 | 500 | 930 |",
+        "key_insight": "Total capital cost for chips and servers is forecast to increase from $310bn in 2024e to $930bn in 2028e, with both AI-related and non-AI-related costs rising steadily."
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Total Global Data Center Spend",
+      "type": "Metric",
+      "brief": "Projected total global data center spend by 2028e",
+      "description": "Forecast total global data center spend reaches $910,000mm in 2028e",
+      "properties": {
+        "value": 910000,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Total Capital Cost of Chips and Servers",
+      "type": "Metric",
+      "brief": "Forecast chips and servers capital cost by 2028e",
+      "description": "Projected total capital cost for chips and servers reaches $930bn in 2028e",
+      "properties": {
+        "value": 930,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 Global Data Center Spend through YE28",
+      "type": "Metric",
+      "brief": "Estimated cumulative data center spend through 2028",
+      "description": "Morgan Stanley estimates $2.9tr of global data center spend through 2028, excluding power investments",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Morgan Stanley \u2013 AI-specific Data Center Spend Share",
+      "type": "Metric",
+      "brief": "Share of spend allocated to AI-specific data centers",
+      "description": "85% of estimated global data center spend through 2028 is for AI-specific facilities",
+      "properties": {
+        "value": 85,
+        "unit": "%",
+        "as_of": "YE28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Data Center Infrastructure - US Grid Request Backlog",
+      "target": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Backlog of interconnection requests causes longer grid connection times"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Time to Power Solution",
+      "target": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Time to power solutions reduce grid connection time"
+    },
+    {
+      "source": "Global Data Center Infrastructure - One-Year Time Advantage Value per MW",
+      "target": "Global Data Center Infrastructure - Power Plant Construction Cost",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "One-year time advantage value exceeds power plant construction cost"
+    },
+    {
+      "source": "Table T1 \u2013 GenAI Revenue Opportunity by Segment 2023-2028",
+      "target": "GenAI Total Revenue Opportunity by 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1000,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table projects total GenAI revenue approaching $1T by 2028"
+    },
+    {
+      "source": "Table T1 \u2013 AI Data Center Infrastructure Relative Scales of Private Credit Markets",
+      "target": "AI Data Center Infrastructure Estimated ABF Total Addressable Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "USD trn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs the estimated ABF total addressable market of $20 trn."
+    },
+    {
+      "source": "Table T1 \u2013 WULF Compute Core Business Model Comparison",
+      "target": "WULF Compute Build to Suit Build Cost per MW",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights Build to Suit model's build cost per MW range"
+    },
+    {
+      "source": "Table T1 \u2013 US Data Center Landscape of Americas Planned Data Centers",
+      "target": "US Data Center Total Planned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 47.4,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows total planned capacity of 47.4 GW"
+    },
+    {
+      "source": "Table T2 \u2013 US Data Center Landscape of Americas Data Centers Under Construction",
+      "target": "US Data Center Additional Under Construction Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.1,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows 1.1 GW of under-construction capacity not yet commissioned"
+    },
+    {
+      "source": "Table T3 \u2013 US Data Center Americas Operational Commissioned Capacity (Including Expansions)",
+      "target": "US Data Center Total Operational Commissioned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 20.0,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows total operational capacity of 20 GW"
+    },
+    {
+      "source": "MS_AIDataCenterInfra - Investor Skepticism",
+      "target": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Skepticism hinders non-IG AI players\u2019 GPU financing"
+    },
+    {
+      "source": "MS_AIDataCenterInfra - GPU-Backed Loans",
+      "target": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "GPU-backed loans improve financing options for non-IG AI players"
+    },
+    {
+      "source": "MS_AIDataCenterInfra - Hyperscalers",
+      "target": "MS_AIDataCenterInfra - Macro Conditions",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Hyperscalers have lower sensitivity to macro conditions"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Natural Gas Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 favors natural gas power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Coal Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 favors coal power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Renewables",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes renewables"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Nuclear Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes nuclear power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Energy Storage",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes energy storage"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Political Pushback",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces political pushback"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Grid Operator Pushback",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces grid operator pushback"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Power Prices",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Option 2 tends to result in higher power prices"
+    },
+    {
+      "source": "MS DataCenter Option 3",
+      "target": "MS DataCenter Bottleneck Risk",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Option 3 is insufficient to resolve bottleneck risk"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 1 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Option 3",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 3 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Execution Risk",
+      "target": "MS DataCenter Bottleneck Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Execution risk leads to higher bottleneck risk"
+    },
+    {
+      "source": "Data Center Infrastructure - Innovation",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Innovation increases drive higher data center demand"
+    },
+    {
+      "source": "Data Center Infrastructure - AI Adoption Level",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Under-appreciated AI adoption levels drive compute demand"
+    },
+    {
+      "source": "Data Center Infrastructure - Non-linear AI Improvement",
+      "target": "Data Center Infrastructure - Data Center Demand",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 75
+      },
+      "description": "Non-linear AI improvements boost compute demand"
+    },
+    {
+      "source": "Table T1 \u2013 AI Infrastructure Estimated Annual Data Center Spend by Workload Type",
+      "target": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Supports assertion that cumulative AI infrastructure spend exceeds $3 trillion"
+    },
+    {
+      "source": "Table T2 \u2013 AI Infrastructure Estimated Annual Global Data Center Spend by Type",
+      "target": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Annual spend by type contributes to over $3tn cumulative AI infrastructure investment"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Infrastructure \u2013 Projected FCF and OBBBA Impact",
+      "target": "Data Center Infrastructure \u2013 Google 2025 FCF increase",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 31,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights Google\u2019s largest near-term FCF boost of 31% in 2025 from OBBBA"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "target": "DataCenter \u2013 Untapped Securitization Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Highlights vast unsecuritized capacity, informing untapped potential factor"
+    },
+    {
+      "source": "Table T2 \u2013 DataCenter MWs in Securitized Deals vs Global Capacity Ambition",
+      "target": "DataCenter \u2013 Untapped Securitization Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Reinforces large remaining capacity, supporting untapped potential factor"
+    },
+    {
+      "source": "DataCenter \u2013 Untapped Securitization Potential",
+      "target": "DataCenter \u2013 Securitization Rate Projection",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "High untapped capacity likely drives projected securitization rate increase"
+    },
+    {
+      "source": "Table T1 \u2013 Morgan Stanley AI Coding Model Performance and Cost Comparison",
+      "target": "Morgan Stanley - Percent Correct",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows distribution of percent correct values for AI coding models"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenter AI Infrastructure DC Capital Cost - Dollar per teraFLOPS",
+      "target": "DataCenter AI Infrastructure Innovation Drives Depreciation Risk",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Declining GPU capital costs inform depreciation risk"
+    },
+    {
+      "source": "MS Data Center Lightning Event",
+      "target": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Lightning event triggered the 230kV line fault"
+    },
+    {
+      "source": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "target": "MS Data Center 1,500MW Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": 1500,
+        "unit": "MW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Fault caused simultaneous loss of data center load"
+    },
+    {
+      "source": "MS Data Center 1,500MW Load Loss",
+      "target": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss increases reliability risk for frequency and voltage issues"
+    },
+    {
+      "source": "MS Data Center Voltage-Sensitive Load Growth",
+      "target": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Growth in voltage-sensitive loads causes increased reliability risk"
+    },
+    {
+      "source": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "target": "MS Data Center Voltage Magnitude During Fault",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Fault event informs observed voltage magnitude range"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center AI Infrastructure Annual Hyperscaler Bond Issuance and IG Market Share",
+      "target": "Data Center AI Infrastructure \u2013 Hyperscaler IG Debt Issuance Decline",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows decline in hyperscaler debt issuance post-2022"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center AI Infrastructure Hyperscaler Equity and Debt IG Market Share Evolution",
+      "target": "Data Center AI Infrastructure \u2013 Hyperscaler Equity-Centric Financing",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Equity share surge versus modest debt growth highlights equity-centric financing"
+    },
+    {
+      "source": "Table T1 \u2013 HPC Data Center High Returns from REIT Sales",
+      "target": "HPC Data Center Equity Value Creation",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Table shows high equity value creation from powered shell REIT sales"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Trump AI Technology Restriction Effort",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Trump admin approach causes possible AI tech restrictions on China"
+    },
+    {
+      "source": "Global Data Center Infrastructure - US AI Export Control Legislation",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Proposed legislation causes possible AI tech restrictions on China"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Dario Amodei AI Warning",
+      "target": "Global Data Center Infrastructure - Possible AI Tech Restrictions on China",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Expert warning contributes to potential AI tech restrictions"
+    },
+    {
+      "source": "Global Data Center Infrastructure - China Chip Access",
+      "target": "Global Data Center Infrastructure - Unipolar World",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Reduced chip access for China causes a unipolar world"
+    },
+    {
+      "source": "Table T1 \u2013 DCI Survey Significant Obstacles and Key Drivers",
+      "target": "DCI Utility capacity or transmission constraints",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 92,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Utility capacity constraints cited by 92% as significant"
+    },
+    {
+      "source": "Table T2 \u2013 DCI Obstacle Significance Breakdown",
+      "target": "DCI Utility capacity or transmission constraints",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 92,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Utility capacity constraints cited by 92% as significant"
+    },
+    {
+      "source": "Table T3 \u2013 DCI Power-related Obstacle Percentages",
+      "target": "DCI Utility quoted long wait time for more power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 46,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Long wait times cited by 46% as a top challenge"
+    },
+    {
+      "source": "Table T3 \u2013 DCI Power-related Obstacle Percentages",
+      "target": "DCI Utility quoted high cost for more power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 43,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "High power costs cited by 43% as a top challenge"
+    },
+    {
+      "source": "Table T3 \u2013 DCI Power-related Obstacle Percentages",
+      "target": "DCI Long lead time for on-site power generation equipment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 42,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Long lead times for on-site equipment cited by 42%"
+    },
+    {
+      "source": "Table T1 \u2013 Global Data Center Infrastructure Potential Shortfall in US Data Center Power 2025-28",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 45,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table quantifies the 45 GW potential shortfall in power for US data centers 2025-28"
+    },
+    {
+      "source": "Global Data Center Infrastructure Grid Access Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Grid access bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Power Equipment Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Power equipment bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Labor Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Labor bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Political Capital Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Political capital bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Table T1 \u2013 AI Data Center EV/Watt of Bitcoin Stocks",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.43,
+        "unit": "USD per Watt",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Including development-stage assets lowers EV/Watt by $2.43"
+    },
+    {
+      "source": "Data Center Infrastructure Bitcoin Mining EV/Watt Range",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "EV/Watt of $1\u20132 is well below HPC conversion value"
+    },
+    {
+      "source": "Data Center Infrastructure Lease Payment Rate to CORZ",
+      "target": "Data Center Infrastructure Undervaluation of Bitcoin Mining EV/Watt",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": 1.5,
+        "unit": "USD per Watt per year",
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "High lease payments of $1.50 per watt per year highlight undervaluation"
+    },
+    {
+      "source": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+      "target": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 1500,
+        "unit": "MW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fault triggered simultaneous 1,500 MW voltage-sensitive load loss"
+    },
+    {
+      "source": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "target": "Data Center Infrastructure - Voltage Rise Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss causes rapid voltage increases on the system"
+    },
+    {
+      "source": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "target": "Data Center Infrastructure - Frequency Rise Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss leads to system frequency rises due to imbalance"
+    },
+    {
+      "source": "Table T1 \u2013 Hyperscaler Revenue & EBITDA Expectations",
+      "target": "Hyperscaler Revenue (2028E)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 2120,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "T1 informs that hyperscaler revenue peaks at $2120bn by 2028."
+    },
+    {
+      "source": "Table T2 \u2013 Hyperscalers' Cash Flows & Uses, Estimates",
+      "target": "Hyperscaler Operating Cash Flows (2028E)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "T2 informs that hyperscaler operating cash flows total ~$2900bn."
+    },
+    {
+      "source": "Table T1 \u2013 AI Exponential Increase in Task Length",
+      "target": "AI Task Length",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 90
+      },
+      "description": "Table informs exponential increase in AI task length"
+    },
+    {
+      "source": "Morgan Stanley \u2013 Real yields",
+      "target": "Morgan Stanley \u2013 Private credit inflows",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Positive real yields have driven inflows into private credit"
+    },
+    {
+      "source": "Morgan Stanley \u2013 Private credit inflows",
+      "target": "Morgan Stanley \u2013 Private credit capacity",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Increasing private credit inflows enhance financing capacity"
+    },
+    {
+      "source": "Table T1 \u2013 Global Private Debt Fund AUM",
+      "target": "Morgan Stanley \u2013 Private credit capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows robust growth and deployment supporting private credit capacity"
+    },
+    {
+      "source": "Table T1 \u2013 Est. Annual Issuance for DC Securitized Credit",
+      "target": "Morgan Stanley-Securitization Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 15,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Issuance growth informs securitization rate increase"
+    },
+    {
+      "source": "Morgan Stanley-Securitization Rate",
+      "target": "Morgan Stanley-Total DC Securitized Financing",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Higher securitization rate drives increased total financing"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Global Capex Excluding Power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table illustrates $2.9tr total data center capex"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows $1.4tr of capex funded internally by hyperscalers"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Private Credit Opportunity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights $800bn private credit funding opportunity"
+    },
+    {
+      "source": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "target": "DataCenterInvestment Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Hyperscaler funding reduces $1.5tr financing gap"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - S&P Global",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds S&P Global"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - EssilorLuxottica",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds EssilorLuxottica"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Siemens Energy",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Siemens Energy"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Ecolab",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Ecolab"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Zijin Mining Group",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Zijin Mining Group"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Johnson Controls International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Titan Company",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Titan Company"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - Amazon.com",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds Amazon.com"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - SAP",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds SAP"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - IBM",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds IBM"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds Johnson Controls International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - ASM International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds ASM International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Microsoft",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Microsoft"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Marriott International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Marriott International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - DoorDash",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds DoorDash"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Rolls-Royce",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Rolls-Royce"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Home Depot",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Home Depot"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - NVIDIA",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds NVIDIA"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Microsoft",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Microsoft"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Apple",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Apple"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Amazon.com",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Amazon.com"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Meta Platforms",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Meta Platforms"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Alphabet",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Alphabet"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Broadcom",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Broadcom"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - TSMC",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds TSMC"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased AI exposure count",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 412,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "412 stocks increased AI exposure"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased AI materiality count",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 259,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "259 stocks increased AI materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased both AI exposure and materiality count",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 102,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "102 stocks increased both AI exposure and materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased AI exposure",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.7,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$8.7tn market cap saw AI exposure gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased AI materiality",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.5,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$8.5tn market cap saw AI materiality gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased both AI exposure and materiality",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.4,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$2.4tn market cap saw both AI exposure and materiality gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Increased AI exposure leads to higher AI materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "AI materiality drives alpha generation"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "target": "Global Data Center Infrastructure - Relative price performance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Alpha from AI materiality affects relative price performance"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "target": "Global Data Center Infrastructure - Earnings revisions",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Alpha from AI materiality influences earnings revisions"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI exposure rose by 30% in Consumer Durables & Apparel stocks"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI materiality rose by 10% in Consumer Durables & Apparel stocks"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 104,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI exposure increased by 104 companies in Asia Pacific"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI materiality increased for 30 companies in Asia Pacific"
+    },
+    {
+      "source": "Table T1 \u2013 Morgan Stanley Estimated Total Global Data Center Spend by Workload",
+      "target": "Morgan Stanley \u2013 Total Global Data Center Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 910000,
+        "unit": "USD mm",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs projected total global data center spend reaching $910,000mm by 2028e"
+    },
+    {
+      "source": "Table T2 \u2013 Morgan Stanley Estimated Annual Capital Cost for Chips and Servers",
+      "target": "Morgan Stanley \u2013 Total Capital Cost of Chips and Servers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 930,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs projected total capital cost for chips and servers reaching $930bn by 2028e"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/ms_powering_ai_capital_power_bottlenecks_and_mapping_adoption_20250724_converted_with_figures"
+}

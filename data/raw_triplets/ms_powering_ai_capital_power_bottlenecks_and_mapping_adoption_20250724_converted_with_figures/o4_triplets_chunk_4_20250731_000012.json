@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – DataCenterInvestment Financing Breakdown",
+      "type": "Table",
+      "brief": "Data center capex financing breakdown through 2028",
+      "description": "Details $2.9tr data center capex and its $1.5tr split between internal and external funding, highlighting private credit opportunities",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category          | Financing Source/Type                      | Amount ($bn) |\n|-------------------|--------------------------------------------|--------------|\n| Cash Need         | Global Capex on Data Centers (ex. Power)   | 2,900        |\n| Financing Path    | Hyperscaler Capex Funded with Cash Flows   | 1,400        |\n|                   | Corporate Debt                             | 200          |\n|                   | ABS & CMBS                                 | 150          |\n|                   | Private Credit Opportunity                 | 800          |\n|                   | Other Capital (PE, VC, Sovereign)          | 350          |",
+        "key_insight": "Of the $2.9tr projected data center capex through 2028, $1.4tr will be funded internally and $1.5tr externally, with an $800bn private credit opportunity."
+      }
+    },
+    {
+      "name": "DataCenterInvestment Global Capex Excluding Power",
+      "type": "Metric",
+      "brief": "Total global data center capex excluding power through 2028",
+      "description": "Represents $2.9tr projected global data center expansion spending excluding power costs",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "type": "Metric",
+      "brief": "Capex funded by hyperscalers' cash flows through 2028",
+      "description": "Indicates $1.4tr of data center capex covered by hyperscalers' internal cash flows",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "External private credit financing opportunity through 2028",
+      "description": "Highlights $800bn funding potential from private credit for data center expansion",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "DataCenterInvestment Financing Gap",
+      "type": "Metric",
+      "brief": "External financing gap for data center investments through 2028",
+      "description": "Quantifies the $1.5tr funding shortfall for data center capex needing external financing",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1500,
+        "as_of": "2028"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Global Capex Excluding Power",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table illustrates $2.9tr total data center capex"
+    },
+    {
+      "source": "Table T1 – DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows $1.4tr of capex funded internally by hyperscalers"
+    },
+    {
+      "source": "Table T1 – DataCenterInvestment Financing Breakdown",
+      "target": "DataCenterInvestment Private Credit Opportunity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights $800bn private credit funding opportunity"
+    },
+    {
+      "source": "DataCenterInvestment Hyperscaler Capex Funded with Cash Flows",
+      "target": "DataCenterInvestment Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Hyperscaler funding reduces $1.5tr financing gap"
+    }
+  ],
+  "scenarios": []
+}

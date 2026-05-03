@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "US Equities",
+      "type": "Factor",
+      "brief": "Broad US equity market performance",
+      "description": "Represents overall trend and sentiment of U.S. stock market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities Next Week Catalysts",
+      "type": "Event",
+      "brief": "Upcoming catalysts to test index sustainability",
+      "description": "Next week is a 'show-me story' that will test the bullish trend",
+      "properties": {
+        "date": null,
+        "event_type": "Catalyst",
+        "affected_tickers": [
+          "GSTMTMEG Index",
+          "GSENEPOW Index"
+        ]
+      }
+    },
+    {
+      "name": "US Equities Surge in GEV Performance post-ChatGPT",
+      "type": "Factor",
+      "brief": "Post-ChatGPT boost to GEV performance",
+      "description": "Improved GEV performance after ChatGPT surge may drive power demand",
+      "properties": {
+        "driver": "energy demand",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "type": "Table",
+      "brief": "GSTMTMEG Index performance with moving averages from Aug 2024 to Jul 2025",
+      "description": "Shows uptrend, correction, and recovery leading to new peak of 517.34",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Approx. Index Value | Short-term MA | Medium-term MA | Long-term MA |\n|---|---|---|---|---|\n| Aug 2024 | 385 | 380 | 375 | 360 |\n| Sep 09, 2024 | 405 | 395 | 385 | 370 |\n| Oct 2024 | 430 | 420 | 405 | 385 |\n| Nov 2024 | 460 | 450 | 430 | 405 |\n| Dec 2024 | 485 | 475 | 455 | 425 |\n| Jan 2025 | 505 | 495 | 480 | 445 |\n| Feb 2025 | 500 | 505 | 495 | 460 |\n| Mar 2025 | 440 | 470 | 480 | 465 |\n| Apr 2025 | 410 | 420 | 440 | 450 |\n| Early May 2025 | 440 | 415 | 420 | 445 |\n| Mid-May 2025 | 470 | 440 | 425 | 440 |\n| Jun 2025 | 495 | 480 | 455 | 445 |\n| Jul 25, 2025 | 517.34 | 487.94 | 473.93 | 447.50 |",
+        "key_insight": "From August 2024 to July 2025, the US mega cap tech index peaked in early 2025, corrected sharply into April, then recovered to a new high of 517.34 by July with bullish moving averages."
+      }
+    },
+    {
+      "name": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "type": "Table",
+      "brief": "GSENEPOW Index candle chart with moving averages from Aug 2024 to Jul 2025",
+      "description": "Highlights uptrend, mid-Jan peak, mid-Apr trough, and rebound to new high of 195.16",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | Index Value | Short-term MA (Magenta) | Mid-term MA (Green) | Long-term MA (Yellow) |\n|--------------|-------------|-------------------------|---------------------|-----------------------|\n| Aug 2024     | ~115        | ~118                    | ~119                | ~120                  |\n| Sep 2024     | ~135        | ~130                    | ~125                | ~122                  |\n| Oct 2024     | ~145        | ~145                    | ~140                | ~130                  |\n| Nov 2024     | ~160        | ~155                    | ~150                | ~140                  |\n| Dec 2024     | ~175        | ~170                    | ~160                | ~145                  |\n| Jan 2025     | ~185        | ~175                    | ~170                | ~150                  |\n| Mid-Jan 2025 | ~190        | ~180                    | ~175                | ~155                  |\n| Feb 2025     | ~150        | ~160                    | ~165                | ~150                  |\n| Mar 2025     | ~135        | ~140                    | ~145                | ~150                  |\n| Mid-Apr 2025 | ~130        | ~135                    | ~140                | ~145                  |\n| May 2025     | ~170        | ~160                    | ~155                | ~150                  |\n| Jun 2025     | ~190        | ~175                    | ~170                | ~152                  |\n| Jul 2025     | 195.16      | 180.14                  | 183.85              | 154.41                |",
+        "key_insight": "From August 2024 to July 2025, the GSENEPOW Index peaked mid-January, corrected to a trough in mid-April, then rebounded to a new high of 195.16 by July in a bullish configuration."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "target": "US Equities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 517.34,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GSTMTMEG index recovery informs broader US equities trend"
+    },
+    {
+      "source": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "target": "US Equities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 195.16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GSENEPOW index rebound informs broader US equities trend"
+    },
+    {
+      "source": "US Equities Next Week Catalysts",
+      "target": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": 7,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 65
+      },
+      "description": "Upcoming catalysts may impact GSTMTMEG index trend"
+    },
+    {
+      "source": "US Equities Surge in GEV Performance post-ChatGPT",
+      "target": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Surge in GEV performance drives GSENEPOW index rally"
+    }
+  ],
+  "scenarios": []
+}

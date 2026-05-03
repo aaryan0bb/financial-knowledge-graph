@@ -1,0 +1,77 @@
+Morgan Stanley                                                                                                            July 24, 2025 
+
+We expect $200bn of corporate debt issuance 
+
+                While hyperscalers would be able to issue >$500bn before impacting their ratings, 
+                these companies may be averse to higher on-balance-sheet debt-funding for capex 
+
+                                                                                   Hyperscaler $ Bond Issuance 
+      Hyperscaler Debt Out. As % of Total IG Market 
+                                                                                            Hyperscaler Issuance 
+                                                                                ($bn) 
+     20% 
+           -Equity % of S&P 500                                                         - Hyperscaler Issuance as % of Total IG 
+     18%                                                                       35            Issuance (RS) 
+               - Debt % of IG Market                                                                                        10% 
+     16%                                                                                                                    9% 
+                                                                               30 
+                                                                                                                            8% 
+     14% 
+                                                                               25                                           7% 
+     12% 
+                                                                               20                                           6% 
+     10% 
+                                                                                                                            5% 
+      8%                                                                       15                                           4% 
+      6%                                                                       10                                           3% 
+      4%                                                                                                                    2% 
+                                                                                5 
+                                                                                                                            1% 
+      2% 
+                                                                                0    2014 2015 2016 2017 2018 2019 2020 2021 2023 2024 0% 
+      0% 
+        2013   2015   2017    2019   2021   2023    2025                          2013                         2022      2025 
+
+Source: Bloomberg, Morgan Stanley Research                                                                                               7 
+
+    | Year | Hyperscaler Issuance ($bn) | Hyperscaler Issuance as % of Total IG Issuance (RS) |
+    |------|----------------------------|-----------------------------------------------------|
+    | 2013 | 6                          | 0.6%                                                |
+    | 2014 | 8                          | 0.6%                                                |
+    | 2015 | 24                         | 1.6%                                                |
+    | 2016 | 22                         | 1.7%                                                |
+    | 2017 | 34                         | 2.5%                                                |
+    | 2018 | 0                          | 0.0%                                                |
+    | 2019 | 0                          | 0.0%                                                |
+    | 2020 | 21                         | 1.0%                                                |
+    | 2021 | 19                         | 1.1%                                                |
+    | 2022 | 31                         | 2.5%                                                |
+    | 2023 | 9                          | 0.7%                                                |
+    | 2024 | 11                         | 0.7%                                                |
+    | 2025 | 5                          | 0.6%                                                |
+
+    Summary: The chart, "Hyperscaler $ Bond Issuance", displays annual hyperscaler bond issuance in billions of dollars (left Y-axis, bars) and as a percentage of total Investment Grade (IG) issuance (right Y-axis, line) from 2013 to 2025. Key trends show significant fluctuations, with peak issuance volumes occurring in 2017 ($34bn) and 2022 ($31bn), both also representing peaks in their share of the total IG market (2.5%). A notable inflection point is the near-zero issuance in 2018 and 2019, followed by a strong resurgence. Post-2022, both hyperscaler issuance and its proportion of the IG market are projected to decline, with 2025 showing the lowest projected issuance since 2014 at $5bn.
+
+    Explanation: This chart visually supports the broader discussion on hyperscaler debt funding strategies, highlighting their historical bond issuance patterns and future projections. Despite Morgan Stanley's observation that hyperscalers could issue substantially more debt (>$500bn) without impacting ratings, the declining issuance from 2023 to 2025 suggests a potential aversion to higher on-balance-sheet debt for capital expenditures, aligning with the narrative of companies seeking alternative financing or relying more on robust cash flows for their significant capex needs, as discussed on the preceding page.
+
+    | Year | Equity % of S&P 500 | Debt % of IG Market |
+    |------|---------------------|---------------------|
+    | 2013 | 4.5%                | 0.3%                |
+    | 2014 | 5.5%                | 0.5%                |
+    | 2015 | 7.5%                | 0.8%                |
+    | 2016 | 9.5%                | 1.5%                |
+    | 2017 | 11.5%               | 1.8%                |
+    | 2018 | 12.5%               | 1.7%                |
+    | 2019 | 13.5%               | 1.6%                |
+    | Early 2020 | 16.5%               | 1.5%                |
+    | Mid-2020 | 15.0%               | 1.3%                |
+    | Early 2021 | 17.5%               | 1.6%                |
+    | Early 2022 | 18.5%               | 1.7%                |
+    | Late 2022 | 11.5%               | 1.5%                |
+    | 2023 | 16.0%               | 1.6%                |
+    | 2024 | 18.0%               | 1.7%                |
+    | Early 2025 | 17.5%               | 1.6%                |
+
+    Summary: This time-series chart, titled "Hyperscaler Debt Out. As % of Total IG Market", displays the evolution of hyperscalers' market presence from 2013 to early 2025, using the Y-axis to represent percentages from 0% to 20%. It plots two key metrics: "Equity % of S&P 500" (gold line) and "Debt % of IG Market" (blue line). The chart reveals a dramatic increase in hyperscalers' equity representation in the S&P 500, surging from around 4.5% in 2013 to reach peaks above 18% by 2024, albeit with a notable dip in late 2022. In contrast, their debt proportion within the Investment Grade (IG) market has grown far more modestly, rising from approximately 0.3% to remain consistently between 1.5% and 1.8% from 2016 onwards, showing significantly less volatility compared to their equity share.
+
+    Explanation: The chart underscores a significant trend in hyperscaler financing: their dominant growth has been largely reflected in equity market capitalization, not through a commensurate increase in debt within the investment grade market. Despite expectations of substantial corporate debt issuance and their capacity to issue over $500bn before impacting ratings, the relatively low and stable proportion of hyperscaler debt in the IG market suggests these companies primarily fund their capital expenditures and growth through strong cash flows and equity, aligning with a stated aversion to higher on-balance-sheet debt.

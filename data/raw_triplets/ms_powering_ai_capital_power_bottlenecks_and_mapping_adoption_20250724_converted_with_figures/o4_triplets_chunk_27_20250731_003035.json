@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "MS Data Center Lightning Event",
+      "type": "Event",
+      "brief": "Lightning strike causing grid disturbance",
+      "description": "Lightning event on 230kV line triggered operational risk concerns",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "lightning_event"
+      }
+    },
+    {
+      "name": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "type": "Event",
+      "brief": "Permanent fault on a 230kV transmission line",
+      "description": "Lightning-induced fault locked out a 230kV line after auto-reclose attempts",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "transmission_line_fault",
+        "auto_reclose_attempts": 3,
+        "successive_faults": 6
+      }
+    },
+    {
+      "name": "MS Data Center 1,500MW Load Loss",
+      "type": "Event",
+      "brief": "Simultaneous loss of voltage-sensitive data center load",
+      "description": "Approximately 1,500MW of data center load tripped offline during the fault",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "load_loss",
+        "affected_load_MW": 1500
+      }
+    },
+    {
+      "name": "MS Data Center Voltage Magnitude During Fault",
+      "type": "Metric",
+      "brief": "Voltage magnitude range during transmission fault",
+      "description": "Voltage in load-loss area ranged from 0.25 to 1.0 per unit during the fault",
+      "properties": {
+        "unit": "per_unit",
+        "min": 0.25,
+        "max": 1.0,
+        "as_of": "2024-07-10"
+      }
+    },
+    {
+      "name": "MS Data Center Voltage-Sensitive Load Growth",
+      "type": "Factor",
+      "brief": "Increase in voltage-sensitive data center loads",
+      "description": "Data center voltage-sensitive loads have increased and are projected to grow rapidly",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "Factor",
+      "brief": "Elevated grid reliability risk from large data center load losses",
+      "description": "Frequency and voltage reliability risks increase as large voltage-sensitive load losses occur",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MS Data Center Lightning Event",
+      "target": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Lightning event triggered the 230kV line fault"
+    },
+    {
+      "source": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "target": "MS Data Center 1,500MW Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": 1500,
+        "unit": "MW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Fault caused simultaneous loss of data center load"
+    },
+    {
+      "source": "MS Data Center 1,500MW Load Loss",
+      "target": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss increases reliability risk for frequency and voltage issues"
+    },
+    {
+      "source": "MS Data Center Voltage-Sensitive Load Growth",
+      "target": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Growth in voltage-sensitive loads causes increased reliability risk"
+    },
+    {
+      "source": "MS Data Center 230kV Transmission Line Lightning Fault",
+      "target": "MS Data Center Voltage Magnitude During Fault",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Fault event informs observed voltage magnitude range"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "MS Data Center Lightning Event",
+      "probability": 0.72,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "MS Data Center Lightning Event",
+          "target": "MS Data Center 230kV Transmission Line Lightning Fault",
+          "lag_days": 0,
+          "prob": 0.95,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "MS Data Center 230kV Transmission Line Lightning Fault",
+          "target": "MS Data Center 1,500MW Load Loss",
+          "lag_days": 0,
+          "prob": 0.95,
+          "impact_value": 1500,
+          "unit": "MW"
+        },
+        {
+          "hop": 3,
+          "edge_type": "IMPACTS",
+          "source": "MS Data Center 1,500MW Load Loss",
+          "target": "MS Data Center Reliability Risk from Voltage-Sensitive Load Loss",
+          "lag_days": 0,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

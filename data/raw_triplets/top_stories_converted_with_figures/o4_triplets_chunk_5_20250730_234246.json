@@ -1,0 +1,297 @@
+{
+  "entities": [
+    {
+      "name": "GlobalEquity - Tesla",
+      "type": "Company",
+      "brief": "Electric vehicle and clean energy company",
+      "description": "TSLA rating cut to Sell by Punto Casa de Bolsa, PT $299.48",
+      "properties": {
+        "ticker": "TSLA",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Intel",
+      "type": "Company",
+      "brief": "Semiconductor manufacturer",
+      "description": "INTC new Buy initiation by GF Securities with PT $34",
+      "properties": {
+        "ticker": "INTC",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Credicorp",
+      "type": "Company",
+      "brief": "Latin American financial services company",
+      "description": "Credicorp rating cut from Neutral to Sell",
+      "properties": {
+        "ticker": "BAP",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Birkenstock",
+      "type": "Company",
+      "brief": "Footwear manufacturer",
+      "description": "Birkenstock rating upgraded from Neutral to Buy",
+      "properties": {
+        "ticker": "BIRK",
+        "region": "Europe"
+      }
+    },
+    {
+      "name": "GlobalEquity - Reece Ltd.",
+      "type": "Company",
+      "brief": "Australian plumbing supplier",
+      "description": "Reece Ltd. rating upgraded from Sell to Neutral",
+      "properties": {
+        "ticker": "REH.AX",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Strike T Energy",
+      "type": "Company",
+      "brief": "Energy company",
+      "description": "Strike T Energy rating downgraded from Buy to Neutral",
+      "properties": {
+        "ticker": "STX.AX",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Subaru Corp.",
+      "type": "Company",
+      "brief": "Japanese automaker",
+      "description": "Subaru Corp. rating upgraded from Neutral to Buy",
+      "properties": {
+        "ticker": "7270.T",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Trent Ltd.",
+      "type": "Company",
+      "brief": "Indian retail company",
+      "description": "Trent Ltd. rating downgraded from Buy to Neutral",
+      "properties": {
+        "ticker": "TREN.BO",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Tesla Sell RatingChange",
+      "type": "Event",
+      "brief": "Cut to Sell rating",
+      "description": "Punto Casa de Bolsa cut Tesla rating to Sell with price target $299.48",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_new": "Sell",
+        "price_target": 299.48,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "GlobalEquity - Intel Buy RatingInitiation",
+      "type": "Event",
+      "brief": "New Buy rating initiation",
+      "description": "GF Securities initiated a Buy rating on Intel with price target $34",
+      "properties": {
+        "date": null,
+        "event_type": "RatingInitiation",
+        "rating_new": "Buy",
+        "price_target": 34,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "GlobalEquity - Credicorp Sell RatingChange",
+      "type": "Event",
+      "brief": "Cut to Sell rating",
+      "description": "Credicorp rating downgraded from Neutral to Sell by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Sell"
+      }
+    },
+    {
+      "name": "GlobalEquity - Birkenstock Buy RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Buy rating",
+      "description": "Birkenstock rating upgraded from Neutral to Buy by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Buy"
+      }
+    },
+    {
+      "name": "GlobalEquity - Reece Ltd. Neutral RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Neutral rating",
+      "description": "Reece Ltd. rating upgraded from Sell to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Sell",
+        "rating_new": "Neutral"
+      }
+    },
+    {
+      "name": "GlobalEquity - Strike T Energy Neutral RatingChange",
+      "type": "Event",
+      "brief": "Downgraded to Neutral rating",
+      "description": "Strike T Energy rating downgraded from Buy to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Buy",
+        "rating_new": "Neutral"
+      }
+    },
+    {
+      "name": "GlobalEquity - Subaru Corp. Buy RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Buy rating",
+      "description": "Subaru Corp. rating upgraded from Neutral to Buy by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Buy"
+      }
+    },
+    {
+      "name": "GlobalEquity - Trent Ltd. Neutral RatingChange",
+      "type": "Event",
+      "brief": "Downgraded to Neutral rating",
+      "description": "Trent Ltd. rating downgraded from Buy to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Buy",
+        "rating_new": "Neutral"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "GlobalEquity - Tesla Sell RatingChange",
+      "target": "GlobalEquity - Tesla",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Cuts Tesla rating to Sell"
+    },
+    {
+      "source": "GlobalEquity - Intel Buy RatingInitiation",
+      "target": "GlobalEquity - Intel",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Initiates Buy rating for Intel"
+    },
+    {
+      "source": "GlobalEquity - Credicorp Sell RatingChange",
+      "target": "GlobalEquity - Credicorp",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Credicorp rating to Sell"
+    },
+    {
+      "source": "GlobalEquity - Birkenstock Buy RatingChange",
+      "target": "GlobalEquity - Birkenstock",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Birkenstock rating to Buy"
+    },
+    {
+      "source": "GlobalEquity - Reece Ltd. Neutral RatingChange",
+      "target": "GlobalEquity - Reece Ltd.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Reece Ltd. rating to Neutral"
+    },
+    {
+      "source": "GlobalEquity - Strike T Energy Neutral RatingChange",
+      "target": "GlobalEquity - Strike T Energy",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Strike T Energy rating to Neutral"
+    },
+    {
+      "source": "GlobalEquity - Subaru Corp. Buy RatingChange",
+      "target": "GlobalEquity - Subaru Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Subaru Corp. rating to Buy"
+    },
+    {
+      "source": "GlobalEquity - Trent Ltd. Neutral RatingChange",
+      "target": "GlobalEquity - Trent Ltd.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Trent Ltd. rating to Neutral"
+    }
+  ],
+  "scenarios": []
+}

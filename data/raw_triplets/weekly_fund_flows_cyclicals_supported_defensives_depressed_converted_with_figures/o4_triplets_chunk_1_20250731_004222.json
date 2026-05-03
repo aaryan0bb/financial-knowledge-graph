@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "Weekly Fund Flows – Global equity fund net flows",
+      "type": "Metric",
+      "brief": "Net flows into global equity funds",
+      "description": "Weekly net flows of USD 6 bn into global equity funds for week ending July 23, 2025.",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Global fixed income fund net flows",
+      "type": "Metric",
+      "brief": "Net flows into global fixed income funds",
+      "description": "Weekly net flows of USD 27 bn into global fixed income funds for week ending July 23, 2025.",
+      "properties": {
+        "value": 27,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Money market fund asset change",
+      "type": "Metric",
+      "brief": "Increase in money market fund assets",
+      "description": "Weekly increase of USD 14 bn in money market fund assets for week ending July 23, 2025.",
+      "properties": {
+        "value": 14,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Repatriation from US assets",
+      "type": "Factor",
+      "brief": "Investors repatriating from US assets",
+      "description": "Increased repatriation of investments from US equities across Europe and Asia.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Demand for global fixed income funds",
+      "type": "Factor",
+      "brief": "Strong demand for fixed income investments",
+      "description": "Investors showed robust demand for government and corporate bond products.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Net outflows in US equity funds",
+      "type": "Event",
+      "brief": "US equity fund outflows",
+      "description": "Net outflows from US equity funds for week ending July 23, 2025.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "net outflow",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Preference for cyclical sectors",
+      "type": "Factor",
+      "brief": "Investor preference for cyclical sectors",
+      "description": "Since early July, investors favored cyclical sectors over defensive ones.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows – Net selling of defensive funds",
+      "type": "Factor",
+      "brief": "Net selling of defensive sector funds",
+      "description": "Investors have been net sellers of defensive sector funds since early July.",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Weekly Fund Flows – Repatriation from US assets",
+      "target": "Weekly Fund Flows – Net outflows in US equity funds",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Repatriation from US assets causes net outflows in US equity funds"
+    },
+    {
+      "source": "Weekly Fund Flows – Demand for global fixed income funds",
+      "target": "Weekly Fund Flows – Global fixed income fund net flows",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong demand for fixed income drives inflows into fixed income funds"
+    },
+    {
+      "source": "Weekly Fund Flows – Preference for cyclical sectors",
+      "target": "Weekly Fund Flows – Net selling of defensive funds",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Preference for cyclical sectors causes net selling of defensive funds"
+    }
+  ],
+  "scenarios": []
+}

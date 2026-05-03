@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – MacroOptions Macro asset class implied volatility trends",
+      "type": "Table",
+      "brief": "Shows implied volatility ratios to historical average for five macro asset classes.",
+      "description": "Ratios plotted from Dec 2024 to Jul 2025, highlighting a synchronized spike in April and subsequent decline below norms by July.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | 5Y CDX HY 3mo | HY Bonds (HYG) 1mo | 5Y CDX IG 3mo | 10Y Treas (IEF) 1mo | S&P 500 (SPY) 1mo |\n|---------|---------------|--------------------|---------------|---------------------|-------------------|\n| 20Dec24 | 0.9           | 0.7                | 0.8           | 0.9                 | 0.9               |\n| 1Jan25  | 0.9           | 0.8                | 0.8           | 1.0                 | 1.0               |\n| 15Jan25 | 0.8           | 0.6                | 0.7           | 0.9                 | 0.9               |\n| 1Feb25  | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |\n| 15Feb25 | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |\n| 1Mar25  | 0.9           | 0.7                | 0.8           | 1.0                 | 1.0               |\n| 15Mar25 | 1.0           | 0.9                | 0.9           | 1.1                 | 1.2               |\n| 1Apr25  | 1.2           | 1.2                | 1.2           | 1.4                 | 1.5               |\n| 8Apr25  | 1.4           | 1.9                | 1.3           | 2.3                 | 2.8               |\n| 15Apr25 | 1.3           | 1.5                | 1.2           | 1.8                 | 2.2               |\n| 22Apr25 | 1.0           | 1.0                | 1.0           | 1.3                 | 1.4               |\n| 1May25  | 0.9           | 0.8                | 0.8           | 1.1                 | 1.2               |\n| 15May25 | 0.9           | 0.7                | 0.8           | 1.0                 | 1.1               |\n| 1Jun25  | 0.9           | 0.6                | 0.8           | 1.0                 | 1.0               |\n| 15Jun25 | 1.0           | 0.5                | 0.9           | 1.0                 | 0.9               |\n| 1Jul25  | 0.9           | 0.5                | 0.9           | 0.9                 | 0.9               |\n| 15Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |\n| 22Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |",
+        "key_insight": "All asset classes spiked in implied volatility in early April 2025, with SPY peaking at 2.8× and HYG at 1.9× their historical averages, then declined to or below the long-term average by July 2025."
+      }
+    },
+    {
+      "name": "MacroOptions volatility spike early April 2025",
+      "type": "Event",
+      "brief": "Synchronized implied volatility spike across 5 asset classes.",
+      "description": "Early April 2025 volatility spike peaked at SPY 2.8× and HYG 1.9× historical averages across credit, rates, and equities.",
+      "properties": {
+        "date": null,
+        "event_type": "volatility_spike",
+        "affected_tickers": [
+          "SPY",
+          "HYG",
+          "IEF",
+          "5Y CDX HY",
+          "5Y CDX IG"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – MacroOptions Macro asset class implied volatility trends",
+      "target": "MacroOptions volatility spike early April 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 2.8,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Table informs volatility spike event highlighting SPY peak."
+    }
+  ],
+  "scenarios": []
+}

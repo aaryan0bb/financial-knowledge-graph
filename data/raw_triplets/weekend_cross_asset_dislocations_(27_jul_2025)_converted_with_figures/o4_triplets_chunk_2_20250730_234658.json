@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Hyperscaler Capex & Total Returns",
+      "type": "Table",
+      "brief": "Trends in capex estimates and total returns for US hyperscalers and AI chip designers",
+      "description": "Shows step-wise upward revisions in 2025/2026 capex estimates and volatile total returns from Jan-24 to Jul-25",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | 2025 Capex ($bn) | 2026 Capex ($bn) | AI Chip Designers Return (%) | US Hyperscalers Return (%) |\n|:-----|:-----------------|:-----------------|:-----------------------------|:---------------------------|\n| Jan-24 | 185 | 195 | 10 | 15 |\n| Feb-24 | 190 | 200 | 25 | 20 |\n| Mar-24 | 195 | 205 | 20 | 25 |\n| Apr-24 | 230 | 240 | 30 | 20 |\n| May-24 | 235 | 255 | 35 | 25 |\n| Jun-24 | 240 | 260 | 50 | 35 |\n| Jul-24 | 245 | 265 | 40 | 30 |\n| Aug-24 | 245 | 270 | 45 | 35 |\n| Sep-24 | 250 | 275 | 50 | 35 |\n| Oct-24 | 255 | 280 | 60 | 40 |\n| Nov-24 | 295 | 320 | 65 | 45 |\n| Dec-24 | 300 | 335 | 70 | 50 |\n| Jan-25 | 305 | 340 | 80 | 50 |\n| Feb-25 | 345 | 350 | 90 | 55 |\n| Mar-25 | 350 | 360 | 50 | 30 |\n| Apr-25 | 355 | 365 | 20 | 15 |\n| May-25 | 360 | 375 | 40 | 30 |\n| Jun-25 | 370 | 385 | 60 | 45 |\n| Jul-25 | 380 | 410 | 80 | 55 |",
+        "key_insight": "2025 and 2026 capex estimates for US hyperscalers have been revised steadily upward, with 2026 capex consistently higher"
+      }
+    },
+    {
+      "name": "US Hyperscaler 2025 Capex Estimate",
+      "type": "Metric",
+      "brief": "Projected 2025 capex for US hyperscalers",
+      "description": "Aggregate capex estimate for US hyperscalers in 2025 according to GS",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jul-25",
+        "value": 380
+      }
+    },
+    {
+      "name": "US Hyperscaler 2026 Capex Estimate",
+      "type": "Metric",
+      "brief": "Projected 2026 capex for US hyperscalers",
+      "description": "Aggregate capex estimate for US hyperscalers in 2026 according to GS",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jul-25",
+        "value": 410
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Hyperscaler Capex & Total Returns",
+      "target": "US Hyperscaler 2025 Capex Estimate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table shows step-wise upward revisions in 2025 capex estimates"
+    },
+    {
+      "source": "Table T1 – US Hyperscaler Capex & Total Returns",
+      "target": "US Hyperscaler 2026 Capex Estimate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table shows step-wise upward revisions in 2026 capex estimates"
+    }
+  ],
+  "scenarios": []
+}

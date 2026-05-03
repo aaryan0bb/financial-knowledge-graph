@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet",
+      "type": "Company",
+      "brief": "Leading global technology company.",
+      "description": "Material to financial analysis as a top performer in the US internet sector with strong Q2 results influencing industry benchmarks.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Internet",
+        "market_cap_USDbn": null
+      }
+    },
+    {
+      "name": "Alphabet iQmethod Business Performance Table",
+      "type": "Table",
+      "brief": "iQmethod financial metric definitions and formulas.",
+      "description": "Standardised BofA methodology table for consistent cross-company financial analysis in the internet coverage cluster.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Business Performance                Numerator                                                                  Denominator\nReturn On Capital Employed          NOPAT = (EBIT + Interest Income) (1 - Tax Rate) + Goodwill Amortization    Total Assets - Current Liabilities + ST Debt + Accumulated Goodwill \n                                                                                                               Amortization \nReturn On Equity                    Net Income                                                                 Shareholders' Equity \nOperating Margin                    Operating Profit                                                           Sales \nEarnings Growth                     Expected 5 Year CAGR From Latest Actual                                    N/A \nFree Cash Flow                      Cash Flow From Operations - Total Capex                                    N/A ",
+        "key_insight": "iQmethod provides transparent, standardised formulas for measuring business performance across Alphabet and sector peers."
+      }
+    },
+    {
+      "name": "Alphabet Return On Capital Employed",
+      "type": "Metric",
+      "brief": "Alphabet’s ability to generate profit from capital employed.",
+      "description": "A key efficiency/profitability metric to compare Alphabet against internet sector peers.",
+      "properties": {
+        "unit": "%",
+        "as_of": "24 July 2025"
+      }
+    },
+    {
+      "name": "Alphabet Return On Equity",
+      "type": "Metric",
+      "brief": "Reflects profitability for Alphabet’s equity holders.",
+      "description": "Material for investors tracking Alphabet’s shareholder value creation.",
+      "properties": {
+        "unit": "%",
+        "as_of": "24 July 2025"
+      }
+    },
+    {
+      "name": "Alphabet Operating Margin",
+      "type": "Metric",
+      "brief": "Alphabet’s operating profit as a percent of sales.",
+      "description": "Crucial for assessing Alphabet's efficiency and comparing margins across the internet sector.",
+      "properties": {
+        "unit": "%",
+        "as_of": "24 July 2025"
+      }
+    },
+    {
+      "name": "Alphabet Free Cash Flow",
+      "type": "Metric",
+      "brief": "Net operating cash after capital expenditures.",
+      "description": "Indicates Alphabet’s capacity for reinvestment, debt repayment, and distributions.",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "24 July 2025"
+      }
+    },
+    {
+      "name": "Alphabet Earnings Growth",
+      "type": "Metric",
+      "brief": "Expected compound annual EPS growth over 5 years.",
+      "description": "Forward-looking growth metric essential for valuing Alphabet vs internet peers.",
+      "properties": {
+        "unit": "%",
+        "as_of": "24 July 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet iQmethod Business Performance Table",
+      "target": "Alphabet Return On Capital Employed",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Table defines and informs the calculation of Alphabet’s Return On Capital Employed."
+    },
+    {
+      "source": "Alphabet iQmethod Business Performance Table",
+      "target": "Alphabet Return On Equity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Table defines formula for Alphabet’s Return On Equity."
+    },
+    {
+      "source": "Alphabet iQmethod Business Performance Table",
+      "target": "Alphabet Operating Margin",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.82,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 82
+      },
+      "description": "Table provides formula for Alphabet’s Operating Margin."
+    },
+    {
+      "source": "Alphabet iQmethod Business Performance Table",
+      "target": "Alphabet Free Cash Flow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Table details formula for Alphabet’s Free Cash Flow."
+    },
+    {
+      "source": "Alphabet iQmethod Business Performance Table",
+      "target": "Alphabet Earnings Growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Table highlights projected Alphabet earnings growth as a core comparative metric."
+    }
+  ],
+  "scenarios": []
+}

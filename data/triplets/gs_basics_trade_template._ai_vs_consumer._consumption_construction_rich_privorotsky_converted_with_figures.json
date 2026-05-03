@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "name": "Economic Divergence \u2013 Real Personal Consumption Stagnation",
+      "type": "Event",
+      "brief": "Six-month stagnation in real personal consumption",
+      "description": "Uncommon six-month stagnation signals consumer weakness outside recession",
+      "properties": {
+        "duration_months": 6
+      }
+    },
+    {
+      "name": "Economic Divergence \u2013 Construction Spending Decline",
+      "type": "Event",
+      "brief": "Year-over-year decline in construction spending",
+      "description": "Construction spending fell faster over the past year than any time since the post-2008 housing bust",
+      "properties": {
+        "lookback_days": 365
+      }
+    },
+    {
+      "name": "Economic Divergence \u2013 Real Personal Consumption Expenditures Growth",
+      "type": "Metric",
+      "brief": "6-month annualized growth in real personal consumption",
+      "description": "Growth rate recently slowed to near-stagnation in 2024",
+      "properties": {
+        "unit": "%",
+        "as_of": "2024",
+        "value": 0.5
+      }
+    },
+    {
+      "name": "Economic Divergence \u2013 Construction Spending Growth",
+      "type": "Metric",
+      "brief": "Year-over-year change in construction spending",
+      "description": "Spending turned negative to \u22123% in 2024 after post-COVID rebound",
+      "properties": {
+        "unit": "%",
+        "as_of": "2024",
+        "value": -3.0
+      }
+    },
+    {
+      "name": "AI vs Consumer - US-EU Trade Deal",
+      "type": "Event",
+      "brief": "Potential US-EU trade agreement by August 1st",
+      "description": "Positive development easing tariffs between US and EU",
+      "properties": {
+        "date": "2025-08-01",
+        "event_type": "trade_agreement",
+        "region": "US-EU"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Polymarket Odds of US-EU Trade Deal",
+      "type": "Metric",
+      "brief": "Probability of US-EU trade deal by August 1st",
+      "description": "Market-implied likelihood of a US-EU trade agreement via Polymarket",
+      "properties": {
+        "value": 56,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Europe Futures Rally",
+      "type": "Factor",
+      "brief": "Sharp rise in Europe futures prices",
+      "description": "Futures rallied on news of a potential US-EU trade deal",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent of Google; beat core search and YouTube",
+      "description": "Reported beats in core search and YouTube; increased 2025 capex by $10 bn",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Alphabet Inc. 2025 Capex Upward Revision",
+      "type": "Metric",
+      "brief": "$10 bn upward revision to 2025 capex",
+      "description": "Indicates increased capex investment due to strong AI demand",
+      "properties": {
+        "value": 10,
+        "unit": "USD bn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Alphabet Inc. Cloud Revenue Growth",
+      "type": "Metric",
+      "brief": "Cloud revenue rose 32%",
+      "description": "Cloud revenue growth exceeded the 26.5% estimate",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI vs Consumer - ServiceNow",
+      "type": "Company",
+      "brief": "IT service management platform boosting AI revenue",
+      "description": "Boosted guidance on AI strength with strong revenue growth",
+      "properties": {
+        "ticker": "NOW"
+      }
+    },
+    {
+      "name": "AI vs Consumer - ServiceNow AI Revenue Growth",
+      "type": "Metric",
+      "brief": "AI revenue grew 50% quarter-on-quarter",
+      "description": "Strong AI-driven revenue growth for ServiceNow, with most top deals including Now Assist AI",
+      "properties": {
+        "value": 50,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "AI vs Consumer - US Electricity Demand Forecast Growth",
+      "type": "Metric",
+      "brief": "US electricity demand forecast to grow 2.5% annually through 2035",
+      "description": "Forecasted rise in grid/power demand supporting energy infrastructure investments",
+      "properties": {
+        "value": 2.5,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "AI vs Consumer - US Hotel RevPAR Decline",
+      "type": "Metric",
+      "brief": "RevPAR fell 1.5% YoY in Q2",
+      "description": "Decline in revenue per available room indicates weak US travel demand",
+      "properties": {
+        "value": -1.5,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "AI vs Consumer - European New Car Sales Decline",
+      "type": "Metric",
+      "brief": "European new car sales fell over 5% in June",
+      "description": "Reflects weakness in European automotive consumer sector",
+      "properties": {
+        "value": -5,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "AI vs Consumer - AI Capex/Energy Infrastructure Arms Race",
+      "type": "Factor",
+      "brief": "Rising investment competition for AI and energy infrastructure",
+      "description": "Businesses front-loading capex in AI and energy infrastructure due to demand and incentives, while consumers face headwinds",
+      "properties": {
+        "direction": "up",
+        "driver": "AI demand and tax incentives"
+      }
+    },
+    {
+      "name": "AI vs Consumer - Consumer Sector Weakness",
+      "type": "Factor",
+      "brief": "Stagnation and weakness in consumer spending sectors",
+      "description": "Disappointing indicators in travel, retail, and leisure highlight consumer spending weakness",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "AI vs Consumer - US-EU Trade Deal",
+      "target": "AI vs Consumer - Europe Futures Rally",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Trade deal news drove Europe futures higher"
+    },
+    {
+      "source": "AI vs Consumer - Alphabet Inc. 2025 Capex Upward Revision",
+      "target": "AI vs Consumer - AI Capex/Energy Infrastructure Arms Race",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 10,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Alphabet's $10bn capex revision underscores the AI capex arms race"
+    },
+    {
+      "source": "AI vs Consumer - Alphabet Inc. Cloud Revenue Growth",
+      "target": "AI vs Consumer - AI Capex/Energy Infrastructure Arms Race",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Strong cloud revenue growth fuels increased AI infrastructure investment"
+    },
+    {
+      "source": "AI vs Consumer - US Electricity Demand Forecast Growth",
+      "target": "AI vs Consumer - AI Capex/Energy Infrastructure Arms Race",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 2.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rising electricity demand forecast supports energy infrastructure investments"
+    },
+    {
+      "source": "AI vs Consumer - US Hotel RevPAR Decline",
+      "target": "AI vs Consumer - Consumer Sector Weakness",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": -1.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "RevPAR decline signals consumer sector weakness"
+    },
+    {
+      "source": "AI vs Consumer - European New Car Sales Decline",
+      "target": "AI vs Consumer - Consumer Sector Weakness",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": -5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "New car sales drop indicates weakness in consumer sector"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_basics_trade_template._ai_vs_consumer._consumption_construction_rich_privorotsky_converted_with_figures"
+}

@@ -1,0 +1,108 @@
+{
+  "report": "BofA_Automotive Industry Back to the future 2Q-25 \u2013 Solid industry backdrop sets up 2Q Autos earnings well_20250723_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:06:57.222428",
+  "total_chunks": 14,
+  "total_entities": 162,
+  "total_relationships": 91,
+  "total_scenarios": 2,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 29,
+      "relationships": 7,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_044717.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 3,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_044813.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 12,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_045006.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 11,
+      "relationships": 7,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_4_20250731_045143.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 7,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_045253.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 6,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_045511.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_045642.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 11,
+      "relationships": 7,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_8_20250731_045754.json"
+    },
+    {
+      "chunk": "chunk_9",
+      "entities": 37,
+      "relationships": 19,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_9_20250731_050113.json"
+    },
+    {
+      "chunk": "chunk_10",
+      "entities": 25,
+      "relationships": 25,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_10_20250731_050358.json"
+    },
+    {
+      "chunk": "chunk_11",
+      "entities": 6,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_11_20250731_050502.json"
+    },
+    {
+      "chunk": "chunk_12",
+      "entities": 13,
+      "relationships": 10,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_12_20250731_050611.json"
+    },
+    {
+      "chunk": "chunk_13",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_13_20250731_050618.json"
+    },
+    {
+      "chunk": "chunk_14",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_14_20250731_050655.json"
+    }
+  ]
+}

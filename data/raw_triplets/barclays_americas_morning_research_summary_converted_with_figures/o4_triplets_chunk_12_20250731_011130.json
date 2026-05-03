@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "Barclays KeyCorp",
+      "type": "Company",
+      "brief": "2Q25 EPS review: loan growth drives NII/NIM outlooks higher",
+      "description": "Better-than-expected loan growth and fees boost NII outlook despite higher provisions",
+      "properties": {
+        "ticker": "KEY",
+        "market_cap_USDbn": 20.5051,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc.",
+      "type": "Company",
+      "brief": "2Q25 earnings challenged by margin and hedge, ROE guide reiterated",
+      "description": "Missed origination and servicing expectations, but management stands by mid-to-high teens ROE guide",
+      "properties": {
+        "ticker": "PFSI",
+        "market_cap_USDbn": 5.3859,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp 2Q25 EPS Review",
+      "type": "Event",
+      "brief": "2Q25 EPS review for KeyCorp",
+      "description": "2Q25 EPS review showed slightly ahead results with higher fees and NII in line",
+      "properties": {
+        "date": "22 July 2025",
+        "event_type": "EPS Review",
+        "affected_tickers": [
+          "KEY"
+        ]
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. 2Q25 Earnings Review",
+      "type": "Event",
+      "brief": "2Q25 earnings review for PennyMac",
+      "description": "2Q25 results missed expectations due to weaker origination and servicing performance",
+      "properties": {
+        "date": "23 July 2025",
+        "event_type": "Earnings Review",
+        "affected_tickers": [
+          "PFSI"
+        ]
+      }
+    },
+    {
+      "name": "Barclays KeyCorp Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target of USD 20.00",
+      "description": "Barclays set price target based on improved loan growth and NII outlooks",
+      "properties": {
+        "value": 20.0,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate of 1.46 USD",
+      "description": "Analyst forecast for KeyCorp FY1 EPS reflecting strong fee and NII performance",
+      "properties": {
+        "value": 1.46,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays KeyCorp EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate of 1.80 USD",
+      "description": "Analyst forecast for KeyCorp FY2 EPS following better loan growth outlook",
+      "properties": {
+        "value": 1.8,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target of USD 119.00",
+      "description": "Barclays set price target based on margin and hedge segment outlook",
+      "properties": {
+        "value": 119.0,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate of 11.45 USD",
+      "description": "Analyst forecast for PennyMac FY1 EPS after challenging quarter",
+      "properties": {
+        "value": 11.45,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    },
+    {
+      "name": "Barclays PennyMac Financial Services Inc. EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate of 14.92 USD",
+      "description": "Analyst forecast for PennyMac FY2 EPS with expected ROE improvement",
+      "properties": {
+        "value": 14.92,
+        "unit": "USD",
+        "as_of": "23 July 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 20.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds price target of USD 20.00"
+    },
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.46,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds FY1 EPS estimate of 1.46 USD"
+    },
+    {
+      "source": "Barclays KeyCorp",
+      "target": "Barclays KeyCorp EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "KeyCorp holds FY2 EPS estimate of 1.80 USD"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 119.0,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds price target of USD 119.00"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 11.45,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds FY1 EPS estimate of 11.45 USD"
+    },
+    {
+      "source": "Barclays PennyMac Financial Services Inc.",
+      "target": "Barclays PennyMac Financial Services Inc. EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 14.92,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "PennyMac holds FY2 EPS estimate of 14.92 USD"
+    }
+  ],
+  "scenarios": []
+}

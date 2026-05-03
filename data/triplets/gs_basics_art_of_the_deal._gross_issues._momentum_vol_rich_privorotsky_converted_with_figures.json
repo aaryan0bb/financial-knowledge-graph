@@ -1,0 +1,170 @@
+{
+  "entities": [
+    {
+      "name": "Japan market rally overnight",
+      "type": "Factor",
+      "brief": "Nikkei futures gained over 4% overnight",
+      "description": "Overnight rally in Nikkei futures amplified by levered product flows",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 4,
+        "lookback_days": 1,
+        "driver": "levered product flows"
+      }
+    },
+    {
+      "name": "Japan 15% tariff deal",
+      "type": "Event",
+      "brief": "Unanticipated 15% Japan tariff negotiation finalized",
+      "description": "Tariff negotiations granted Japanese autos favorable status",
+      "properties": {
+        "date": null,
+        "event_type": "Tariff Deal",
+        "impact_value": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Japan 40yr auction poor result",
+      "type": "Event",
+      "brief": "Poorly received 40-year Japanese government bond auction",
+      "description": "The 40-year auction went poorly, signaling weak demand",
+      "properties": {
+        "date": null,
+        "event_type": "Auction Outcome"
+      }
+    },
+    {
+      "name": "Japan long-end yields",
+      "type": "Factor",
+      "brief": "Long-term Japanese yields rising",
+      "description": "Long-end yields pushing higher after auction disappointment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Japan momentum drawdown exacerbation",
+      "type": "Factor",
+      "brief": "Momentum drawdowns worsening",
+      "description": "Short squeezes exacerbating drawdowns in momentum stocks",
+      "properties": {
+        "direction": "down",
+        "driver": "short squeezes"
+      }
+    },
+    {
+      "name": "Japanese Market \u2013 US Momentum / SPX 1M Realized Volatility Z-score",
+      "type": "Factor",
+      "brief": "Relative realized volatility of US momentum vs S&P 500",
+      "description": "High z-score indicates momentum stocks experiencing higher volatility than the S&P 500",
+      "properties": {
+        "driver": "realized volatility ratio",
+        "magnitude_sigma": 3.48,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "Japanese Market \u2013 Sideways Trading Period",
+      "type": "Event",
+      "brief": "Period of sideways trading for momentum stocks",
+      "description": "Period where momentum strategies trade sideways amid high volatility",
+      "properties": {
+        "date": null,
+        "event_type": "sideways_trading"
+      }
+    },
+    {
+      "name": "Japanese Market \u2013 US 20yr Auction",
+      "type": "Event",
+      "brief": "Auction of 20-year US Treasury bonds",
+      "description": "US Treasury 20-year bond auction, focus of trading today",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Japanese Market \u2013 UK 15yr Auction",
+      "type": "Event",
+      "brief": "Auction of 15-year UK gilts",
+      "description": "UK government 15-year gilt auction in focus",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Japanese Market \u2013 German 10yr Auction",
+      "type": "Event",
+      "brief": "Auction of 10-year German bunds",
+      "description": "German bund 10-year auction, focus of trading",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "Germany"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japan 15% tariff deal",
+      "target": "Japan market rally overnight",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "confidence": 85,
+        "lag_days": null,
+        "impact_value": 4,
+        "unit": "%",
+        "non_linear": false
+      },
+      "description": "Tariff deal prompted over 4% rally in NKY futures"
+    },
+    {
+      "source": "Japan 40yr auction poor result",
+      "target": "Japan long-end yields",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "confidence": 80,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Poor 40yr auction led to higher long-end yields"
+    },
+    {
+      "source": "Japan market rally overnight",
+      "target": "Japan momentum drawdown exacerbation",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "confidence": 65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Rally exacerbated momentum drawdowns via short squeezes"
+    },
+    {
+      "source": "Japanese Market \u2013 US Momentum / SPX 1M Realized Volatility Z-score",
+      "target": "Japanese Market \u2013 Sideways Trading Period",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "High volatility ratio triggers sideways trading period"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_basics_art_of_the_deal._gross_issues._momentum_vol_rich_privorotsky_converted_with_figures"
+}

@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Financing: Five financing paths for global data center spend",
+      "type": "Table",
+      "brief": "Distribution of $2.9tr global data center capex across five funding sources",
+      "description": "Breakdown of $2.9 trillion global data center capex (2025-2028) by financing source, highlighting a $1.5tr external funding gap led by private credit",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Capital Source Category | Amount | Description/Details |\n|-------------------------|--------|---------------------|\n| Hyperscaler Cash Flows  | $1.4tr | Covered by Hyperscaler Cash Flows |\n| Corporate Debt Issuance | $200bn | Corporate Debt Issuance |\n| Securitized Credit      | $150bn | Securitized Credit Issuance (ABS, CMBS) |\n| Private Credit          | $800bn | Opportunity for Private Credit via Asset-based Finance & Debt Funding of JVs |\n| Other Capital           | $350bn | Primarily PE, VC, Sovereign |",
+        "key_insight": "External financing sources collectively fill a $1.5 trillion gap, with private credit leading at $800bn."
+      }
+    },
+    {
+      "name": "Data Center Financing – Global Capex",
+      "type": "Metric",
+      "brief": "Projected $2.9tr global data center investment (2025-2028)",
+      "description": "Estimated $2.9 trillion of capital expenditure on data centers from 2025 to 2028 to meet medium-term infrastructure needs",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "2025-2028"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Financing: Five financing paths for global data center spend",
+      "target": "Data Center Financing – Global Capex",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table details the estimated $2.9 trillion data center capex from 2025-2028"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "name": "Lloyds Banking Group",
+      "type": "Company",
+      "brief": "UK retail and commercial bank",
+      "description": "Leading UK bank supporting hedging and lending operations",
+      "properties": {
+        "ticker": "LLOY",
+        "sector": "Financials"
+      }
+    },
+    {
+      "name": "Lloyds 2025 hedge coverage",
+      "type": "Metric",
+      "brief": "Percentage of 2025 hedges executed",
+      "description": "Proportion of hedges locked in for 2025",
+      "properties": {
+        "unit": "%",
+        "value": 98,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Lloyds 2026 hedge coverage",
+      "type": "Metric",
+      "brief": "Percentage of 2026 hedges executed",
+      "description": "Proportion of hedges locked in for 2026",
+      "properties": {
+        "unit": "%",
+        "value": 80,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Lloyds Structural Hedge",
+      "type": "Instrument",
+      "brief": "Structural interest rate hedge",
+      "description": "Long-dated hedge with 3.5-year maturity supporting funding",
+      "properties": {
+        "maturity_years": 3.5,
+        "max_yield_pct": 3
+      }
+    },
+    {
+      "name": "Lloyds H1 mortgage volume",
+      "type": "Metric",
+      "brief": "Mortgage origination volume in H1",
+      "description": "Half-year mortgage origination volume",
+      "properties": {
+        "unit": "USD bn",
+        "value": 5.6,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "Lloyds H1 cost of risk",
+      "type": "Metric",
+      "brief": "Cost of risk in H1",
+      "description": "H1 cost of risk inside guidance",
+      "properties": {
+        "unit": "bp",
+        "value": 19,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "Lloyds Q2 cost of risk",
+      "type": "Metric",
+      "brief": "Cost of risk in Q2",
+      "description": "Quarterly cost of risk for Q2",
+      "properties": {
+        "unit": "bp",
+        "value": 11,
+        "as_of": "Q2"
+      }
+    },
+    {
+      "name": "Lloyds FCA affordability change",
+      "type": "Event",
+      "brief": "FCA mortgage affordability rule change",
+      "description": "Regulatory update by FCA on mortgage affordability criteria",
+      "properties": {
+        "date": null,
+        "event_type": "regulatory_change"
+      }
+    },
+    {
+      "name": "Lloyds mortgage pipeline",
+      "type": "Factor",
+      "brief": "Mortgage application pipeline",
+      "description": "Pending mortgage applications awaiting execution",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds 2025 hedge coverage",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 98,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank holds hedges for 2025"
+    },
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds 2026 hedge coverage",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 80,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank holds hedges for 2026"
+    },
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds Structural Hedge",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank holds structural hedge"
+    },
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds H1 mortgage volume",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.6,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank exposed to mortgage volume"
+    },
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds H1 cost of risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "bp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank exposed to H1 cost of risk"
+    },
+    {
+      "source": "Lloyds Banking Group",
+      "target": "Lloyds Q2 cost of risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 11,
+        "unit": "bp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Bank exposed to Q2 cost of risk"
+    },
+    {
+      "source": "Lloyds FCA affordability change",
+      "target": "Lloyds mortgage pipeline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "FCA change boosts pipeline"
+    },
+    {
+      "source": "Lloyds mortgage pipeline",
+      "target": "Lloyds H1 mortgage volume",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 5.6,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Pipeline drives H1 volume"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Lloyds FCA affordability change",
+      "probability": 0.75,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "IMPACTS",
+          "source": "Lloyds FCA affordability change",
+          "target": "Lloyds mortgage pipeline",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "INFORMS",
+          "source": "Lloyds mortgage pipeline",
+          "target": "Lloyds H1 mortgage volume",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": 5.6,
+          "unit": "USD bn"
+        }
+      ]
+    }
+  ]
+}

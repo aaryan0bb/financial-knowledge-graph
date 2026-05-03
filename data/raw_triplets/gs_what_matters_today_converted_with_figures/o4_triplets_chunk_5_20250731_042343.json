@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Short Squeeze Environment: 10-day Retail Participation in Short Interest Stocks",
+      "type": "Table",
+      "brief": "10-day avg retail participation in high vs low short interest stocks",
+      "description": "Shows retail participation trends for high and low short interest stocks, highlighting volatility and peaks over 2020–2025 period",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | High Short Interest Participation (%) | Low Short Interest Participation (%) |\n|-----------|---------------------------------------|--------------------------------------|\n| 23 Jul 20 | 14%                                   | 9%                                   |\n| Jan 2021  | 24%                                   | 12%                                  |\n| May 2021  | 17%                                   | 9%                                   |\n| Sep 2021  | 20%                                   | 11%                                  |\n| Jan 2022  | 19%                                   | 10%                                  |\n| May 2022  | 23%                                   | 12%                                  |\n| Sep 2022  | 17%                                   | 7%                                   |\n| Jan 2023  | 15%                                   | 7%                                   |\n| May 2023  | 22%                                   | 12%                                  |\n| Sep 2023  | 17%                                   | 8%                                   |\n| Jan 2024  | 16%                                   | 7%                                   |\n| May 2024  | 22%                                   | 10%                                  |\n| Sep 2024  | 19%                                   | 8%                                   |\n| Jan 2025  | 18%                                   | 7%                                   |\n| 22 Jul 25 | 21%                                   | 8%                                   |",
+        "key_insight": "Retail participation in high short interest stocks remains higher and more volatile than low short interest stocks, with notable peaks at early 2021 (24%), mid-2022 (23%), mid-2023 (22%), and July 2025 (21%)."
+      }
+    },
+    {
+      "name": "Short Squeeze Environment – High Short Interest Retail Participation",
+      "type": "Factor",
+      "brief": "10-day avg retail participation in high short interest stocks",
+      "description": "Reflects the 10-day moving average participation of retail investors in high short interest stocks, showing volatility and peak participation levels over 2020–2025.",
+      "properties": {
+        "lookback_days": 10,
+        "direction": "up",
+        "magnitude_%": 21
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Short Squeeze Environment: 10-day Retail Participation in Short Interest Stocks",
+      "target": "Short Squeeze Environment – High Short Interest Retail Participation",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows higher and more volatile retail participation in high short interest stocks."
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,480 @@
+{
+  "entities": [
+    {
+      "name": "ASMPT Ltd",
+      "type": "Company",
+      "brief": "Mainstream semiconductor tool provider",
+      "description": "Provides die bonders, wire bonders and molding equipment",
+      "properties": {
+        "ticker": "0522.HK",
+        "region": "Asia Pacific"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - NVIDIA",
+      "type": "Company",
+      "brief": "Chip designer launching HVDC data center power infrastructure",
+      "description": "Leading transition to 800 V HVDC power for 1 MW IT racks",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Semiconductor"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Rating Upgrade",
+      "type": "Event",
+      "brief": "Morgan Stanley rating upgrade",
+      "description": "Upgraded ASMPT Ltd from equal-weight to overweight by Morgan Stanley",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Rating Upgrade",
+        "from_rating": "Equal-weight",
+        "to_rating": "Overweight"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - AI data centers",
+      "type": "Factor",
+      "brief": "Data centers using AI",
+      "description": "Expected to drive mainstream semiconductor tool growth over next 2-3 years",
+      "properties": {
+        "direction": "up",
+        "time_horizon_years": "2-3"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - TCB solutions growth",
+      "type": "Factor",
+      "brief": "Growth in chip-to-substrate solutions",
+      "description": "Strong growth representing ~10% of company mix in 2024",
+      "properties": {
+        "magnitude_%": 10,
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - China advanced packaging and HBM investments",
+      "type": "Factor",
+      "brief": "China capex in advanced packaging and HBM",
+      "description": "Ongoing investments in advanced packaging and HBM technologies benefit ASMPT",
+      "properties": {
+        "region": "China",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Mainstream semiconductor tool growth",
+      "type": "Factor",
+      "brief": "Growth in mainstream semiconductor tool market",
+      "description": "Expected revitalization of ASMPT's tool market from AI data centers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Auto & industrial mix ratio",
+      "type": "Metric",
+      "brief": "Proportion of auto and industrial segment mix",
+      "description": "Dropped to historical low of 23% in 2023 from 41% in 1H22",
+      "properties": {
+        "unit": "%",
+        "value": 23,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 ASMPT Ltd Income Statement",
+      "type": "Table",
+      "brief": "Fiscal year forecast for EPS, revenue, EBITDA, net income and P/E",
+      "description": "Model forecasts show strong growth in EPS, revenue and net income over 2025-27",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Fiscal Year Ending      12/24  12/25e  12/26e  12/27e\nEPS (HK$)**            0.83    1.19    3.81    4.70\nPrior EPS (HK$)**       0.88    3.65    4.18\nEPS (HK$)\u00a7             1.34    1.81    3.50    5.01\nRevenue, net (HK$ mn) 13,229  13,876  16,150  17,385\nEBITDA (HK$ mn)        1,141   1,359   2,928   3,531\nModelWare net inc (HK$ mn) 345   498    1,585   1,958\nP/E                     89.8    58.8    18.4    14.9",
+        "key_insight": "Raised 2025/26/27 EPS forecasts by 36%, 4%, and 12% respectively",
+        "table_type": "Income Statement",
+        "full_rows": 7
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Revenue, net 2026 forecast",
+      "type": "Metric",
+      "brief": "Net revenue forecast for 2026",
+      "description": "Forecast revenue of HK$16,150 million in fiscal 2026",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 16150,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - EBITDA 2026 forecast",
+      "type": "Metric",
+      "brief": "EBITDA forecast for 2026",
+      "description": "Forecast EBITDA of HK$2,928 million in fiscal 2026",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 2928,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - ModelWare net income 2026 forecast",
+      "type": "Metric",
+      "brief": "ModelWare net income forecast for 2026",
+      "description": "Forecast net income of HK$1,585 million by Morgan Stanley ModelWare",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 1585,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 ASMPT \u2013 Auto Suppliers' Inventory Days are Normalizing",
+      "type": "Table",
+      "brief": "Auto suppliers' DOI normalized post-pandemic with stable averages",
+      "description": "Shows Days on Inventory and Q/Q 4Q Avg. trending towards historical norms",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | DOI | 10-Year Median | Q/Q 4Q Avg. |\n|---|---|---|---|\n| 1Q 2015 | 25 | 43 | 0.5 |\n| 2Q 2015 | 37 | 43 | 3.5 |\n| 1Q 2016 | 36 | 43 | 0.5 |\n| 1Q 2017 | 37 | 43 | 0.5 |\n| 1Q 2018 | 38 | 43 | 0.5 |\n| 1Q 2019 | 40 | 43 | 0.5 |\n| 2Q 2019 | 42 | 43 | 0.5 |\n| 3Q 2019 | 43 | 43 | 0.5 |\n| 4Q 2019 | 44 | 43 | 0.5 |\n| 1Q 2020 | 44 | 43 | 7.5 |\n| 2Q 2020 | 57 | 43 | 3.5 |\n| 3Q 2020 | 53 | 43 | 0.5 |\n| 4Q 2020 | 50 | 43 | 0.5 |\n| 1Q 2021 | 42 | 43 | -5.0 |\n| 2Q 2021 | 50 | 43 | 4.0 |\n| 3Q 2021 | 58 | 43 | 3.0 |\n| 4Q 2021 | 60 | 43 | 2.0 |\n| 1Q 2022 | 58 | 43 | 1.5 |\n| 2Q 2022 | 55 | 43 | 0.5 |\n| 3Q 2022 | 54 | 43 | -0.5 |\n| 4Q 2022 | 53 | 43 | -0.5 |\n| 1Q 2023 | 52 | 43 | -0.5 |\n| 2Q 2023 | 50 | 43 | -0.5 |\n| 3Q 2023 | 48 | 43 | 0.0 |\n| 4Q 2023 | 50 | 43 | 0.0 |\n| 1Q 2024 | 53 | 43 | 0.5 |\n| 2Q 2024 | 54 | 43 | 0.5 |\n| 3Q 2024 | 53 | 43 | 0.5 |\n| 4Q 2024 | 52 | 43 | 0.0 |\n| 1Q 2025 | N/A | 43 | 0.0 |",
+        "key_insight": "Auto suppliers' Days on Inventory have normalized since late 2021 with Q/Q 4Q Avg. stabilizing near zero"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 ASMPT \u2013 Segmental revenue mix (%)",
+      "type": "Table",
+      "brief": "Shift in ASMPT revenue composition toward Computers segment",
+      "description": "Decline in Auto + Industrial share offset by growth in Computers mix",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Period | Auto + Industrial (%) | Communication (%) | Computers (%) | Consumer (%) | Others (%) |\n|--------|-----------------------|-------------------|---------------|--------------|------------|\n| 1H22   | 34                    | 18                | 8             | 22           | 18         |\n| 2H22   | 41                    | 13                | 8             | 18           | 20         |\n| 1H23   | 41                    | 12                | 10            | 15           | 22         |\n| 2H23   | 35                    | 12                | 13            | 15           | 25         |\n| 1H24   | 38                    | 15                | 10            | 15           | 22         |\n| 2H24   | 26                    | 14                | 24            | 14           | 22         |\n| 1H25   | 23                    | 12                | 30            | 15           | 20         |",
+        "key_insight": "Auto + Industrial share dropped to 23% in 1H25, while Computers share rose to 30%"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 ASMPT \u2013 Auto OEMs",
+      "type": "Table",
+      "brief": "Auto OEM DOI and Q/Q 4Q Avg. spiked then normalized",
+      "description": "Shows extreme swings in inventory metrics around 2020-2021, normalizing by 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Period | DOI (Days) | 10-Year Median DOI (Days) | Q/Q 4Q Avg. |\n|--------|------------|---------------------------|-------------|\n| 2013 1Q | 49         | 55.5                      | 0.5         |\n| 2013 4Q | 50         | 55.5                      | 0.0         |\n| 2014 4Q | 55         | 55.5                      | 0.5         |\n| 2015 4Q | 52         | 55.5                      | 0.5         |\n| 2016 4Q | 56         | 55.5                      | 0.0         |\n| 2017 4Q | 54         | 55.5                      | 0.0         |\n| 2018 4Q | 56         | 55.5                      | 0.5         |\n| 2019 4Q | 57         | 55.5                      | 0.0         |\n| 2020 1Q | 55         | 55.5                      | 5.5         |\n| 2020 2Q | 61         | 55.5                      | 0.5         |\n| 2020 3Q | 57         | 55.5                      | -0.5        |\n| 2020 4Q | 51         | 55.5                      | -3.0        |\n| 2021 1Q | 44         | 55.5                      | -4.5        |\n| 2021 2Q | 48         | 55.5                      | -1.0        |\n| 2021 3Q | 51         | 55.5                      | 0.0         |\n| 2021 4Q | 53         | 55.5                      | 1.5         |\n| 2022 1Q | 56         | 55.5                      | 1.5         |\n| 2022 2Q | 58         | 55.5                      | 0.5         |\n| 2022 3Q | 57         | 55.5                      | 0.0         |\n| 2022 4Q | 57         | 55.5                      | 0.0         |\n| 2023 4Q | 54         | 55.5                      | -0.5        |\n| 2024 4Q | 53         | 55.5                      | 0.0         |\n| 2025 1Q | 55         | 55.5                      | 0.0         |",
+        "key_insight": "Q/Q 4Q Avg. spiked to 5.5% in 1Q 2020 preceding a DOI peak at 61 days, then normalized post-2021"
+      }
+    },
+    {
+      "name": "Table T4 \u2013 ASMPT \u2013 Auto and Industrial Revenue",
+      "type": "Table",
+      "brief": "Auto and Industrial segment revenues hit record lows in 1H25",
+      "description": "Shows sharp decline to HK$983mn and HK$524mn for Auto and Industrial in 1H25",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Period | Auto Revenue (HK$mn) | Industrial Revenue (HK$mn) |\n|---|---|---|\n| 1H22 | 2,094 | 1,466 |\n| 2H22 | 1,972 | 1,632 |\n| 1H23 | 1,798 | 1,407 |\n| 2H23 | 1,435 | 944 |\n| 1H24 | 1,555 | 907 |\n| 2H24 | 1,090 | 680 |\n| 1H25 | 983 | 524 |",
+        "key_insight": "Auto and Industrial revenues declined to record lows of HK$983mn and HK$524mn in 1H25"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Auto Suppliers' Days on Inventory",
+      "type": "Metric",
+      "brief": "Peak days on inventory for auto suppliers",
+      "description": "Peak DOI indicates inventory digestion extremes affecting ASMPT demand",
+      "properties": {
+        "unit": "days",
+        "value": 60,
+        "as_of": "4Q 2021"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Auto + Industrial mix",
+      "type": "Metric",
+      "brief": "Share of Auto + Industrial segment in revenue mix",
+      "description": "Decline in Auto + Industrial revenue share reflects shifting demand drivers",
+      "properties": {
+        "unit": "%",
+        "value": 23,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Computers mix",
+      "type": "Metric",
+      "brief": "Share of Computers segment in revenue mix",
+      "description": "Growth in Computers revenue share driven by AI data center demand",
+      "properties": {
+        "unit": "%",
+        "value": 30,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Auto OEM Q/Q 4Q Avg",
+      "type": "Metric",
+      "brief": "Quarter-over-Quarter four-quarter average change for Auto OEM DOI",
+      "description": "Spike in Q/Q average indicates volatility in OEM inventory dynamics",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "1Q 2020"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Auto OEM Days on Inventory",
+      "type": "Metric",
+      "brief": "Days on Inventory for Auto OEMs at peak",
+      "description": "Peak OEM DOI shows extreme inventory build-up during pandemic",
+      "properties": {
+        "unit": "days",
+        "value": 61,
+        "as_of": "2Q 2020"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Auto segment revenue",
+      "type": "Metric",
+      "brief": "Auto segment semi-annual revenue",
+      "description": "Decline in Auto segment revenue highlights sector weakness",
+      "properties": {
+        "unit": "HK$mn",
+        "value": 983,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT \u2013 Industrial segment revenue",
+      "type": "Metric",
+      "brief": "Industrial segment semi-annual revenue",
+      "description": "Decline in Industrial segment revenue underscores demand softness",
+      "properties": {
+        "unit": "HK$mn",
+        "value": 524,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Future GW-scale data center architecture",
+      "type": "Table",
+      "brief": "Hierarchical data center power delivery architecture featuring voltage step-down and advanced materials.",
+      "description": "Outlines multi-stage power conversion from MV AC to serverboard core, leveraging SiC and GaN components and energy storage to enable high-power AI data centers.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Stage/Location   | Component/Function         | Voltage Transformation             | Key Materials/Description                                           |\n|------------------|----------------------------|------------------------------------|---------------------------------------------------------------------|\n| Infrastructure   | AC/DC Converter            | MV AC Grid Input to 800V DC Output | Utilizes SiC and High Power Modules                                 |\n|                  | Long Duration Energy Storage | 800V DC Bus to V_bat             | Lithium-ion Batteries (Li-ion), requires SiC for DC/DC conversion   |\n| Hall             | DC/DC Converter            | 800V DC Bus                        | Connects medium duration storage to the 800V bus                   |\n|                  | Medium Duration Energy Storage | 800V DC Bus to V_bat             | Super Capacitors / New Battery Chemistry, requires SiC for DC/DC conversion |\n| Row / IT Rack    | DC/DC Converter            | 800V DC Bus                        | Connects short duration storage to the 800V bus                    |\n|                  | Short Duration Energy Storage | 800V DC Bus to V_bat             | Electrolytic Capacitors, requires SiC for DC/DC conversion          |\n| Serverboard      | HV IBC (High Voltage IBC)  | 800V DC Input to 54V/12V DC Output | Employs GaN for efficient high-voltage conversion                   |\n|                  | LV IBC (Low Voltage IBC)   | 54V DC Input to 12V/6V DC Output   | Uses GaN, Silicon (Si), and Control ICs                             |\n|                  | VRM (Voltage Regulator Module)| 12V/6V DC Input to Core Voltage  | Employs Silicon (Si) and Control ICs for final power delivery       |\n| System-wide      | Safety Breakers            | Across 800V DC Bus                 | Ensures system safety at various stages                             |",
+        "key_insight": "The Future GW-scale data center architecture progressively steps down voltage from an MV AC grid to core levels (800V DC\u219254V\u219212V/6V), integrating SiC and GaN materials with distributed energy storage at each stage."
+      }
+    },
+    {
+      "name": "ASMPT advanced manufacturing tools demand",
+      "type": "Factor",
+      "brief": "Growing need for wire bonders and die bonders",
+      "description": "Increasing demand for ASMPT's wire bonders and die bonders driven by AI data center power architecture.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT auto & industrial revenue mix",
+      "type": "Metric",
+      "brief": "Percentage of revenue from auto & industrial segment",
+      "description": "Auto and industrial segment mix declined to 23% in 1H25, hitting trough.",
+      "properties": {
+        "unit": "%",
+        "as_of": "1H25",
+        "value": 23
+      }
+    },
+    {
+      "name": "ASMPT computers revenue mix",
+      "type": "Metric",
+      "brief": "Percentage of revenue from computers segment",
+      "description": "Computers segment surpassed auto and industrial to contribute 30% of revenue in 1H25.",
+      "properties": {
+        "unit": "%",
+        "as_of": "1H25",
+        "value": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - Revenue, net 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 16150,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 revenue of HK$16,150 million"
+    },
+    {
+      "source": "Table T1 \u2013 ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - EBITDA 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2928,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 EBITDA of HK$2,928 million"
+    },
+    {
+      "source": "Table T1 \u2013 ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - ModelWare net income 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1585,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 ModelWare net income of HK$1,585 million"
+    },
+    {
+      "source": "ASMPT Ltd - AI data centers",
+      "target": "ASMPT Ltd - Mainstream semiconductor tool growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "AI data centers drive mainstream tool market growth"
+    },
+    {
+      "source": "ASMPT Ltd - Rating Upgrade",
+      "target": "ASMPT Ltd - AI data centers",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Upgrade driven by expected AI data center growth"
+    },
+    {
+      "source": "Table T1 \u2013 ASMPT \u2013 Auto Suppliers' Inventory Days are Normalizing",
+      "target": "ASMPT \u2013 Auto Suppliers' Days on Inventory",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 60,
+        "unit": "days",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows auto suppliers' DOI peaked at 60 days in 4Q 2021"
+    },
+    {
+      "source": "Table T2 \u2013 ASMPT \u2013 Segmental revenue mix (%)",
+      "target": "ASMPT \u2013 Auto + Industrial mix",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 23,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Auto + Industrial segment share dropped to 23% in 1H25"
+    },
+    {
+      "source": "Table T2 \u2013 ASMPT \u2013 Segmental revenue mix (%)",
+      "target": "ASMPT \u2013 Computers mix",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Computers segment share rose to 30% in 1H25"
+    },
+    {
+      "source": "Table T3 \u2013 ASMPT \u2013 Auto OEMs",
+      "target": "ASMPT \u2013 Auto OEM Q/Q 4Q Avg",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Q/Q 4Q Avg spiked to 5.5% in 1Q 2020"
+    },
+    {
+      "source": "Table T3 \u2013 ASMPT \u2013 Auto OEMs",
+      "target": "ASMPT \u2013 Auto OEM Days on Inventory",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 61,
+        "unit": "days",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "DOI peaked at 61 days in 2Q 2020"
+    },
+    {
+      "source": "Table T4 \u2013 ASMPT \u2013 Auto and Industrial Revenue",
+      "target": "ASMPT \u2013 Auto segment revenue",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 983,
+        "unit": "HK$mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Auto revenue fell to HK$983mn in 1H25"
+    },
+    {
+      "source": "Table T4 \u2013 ASMPT \u2013 Auto and Industrial Revenue",
+      "target": "ASMPT \u2013 Industrial segment revenue",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 524,
+        "unit": "HK$mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Industrial revenue fell to HK$524mn in 1H25"
+    },
+    {
+      "source": "Table T1 \u2013 Future GW-scale data center architecture",
+      "target": "ASMPT advanced manufacturing tools demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Power architecture drives demand for advanced manufacturing tools"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/ms_asmpt_ai_data_centers_spark_growth;_daisy.dai@morganstanley.com_+852_2848_7310_morgan_stanley_taiwan_limited+_upgrade_to_ow_20250724_converted_with_figures"
+}

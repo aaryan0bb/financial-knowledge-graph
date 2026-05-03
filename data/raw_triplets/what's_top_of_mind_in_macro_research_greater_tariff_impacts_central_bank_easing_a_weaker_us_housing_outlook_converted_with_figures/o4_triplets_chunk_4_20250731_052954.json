@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Macro global economic performance from 2018 to 2026",
+      "type": "Table",
+      "brief": "Global CAI and GDP performance 2018–2026",
+      "description": "Displays global Current Activity Indicator and historical GDP trends, highlighting the 2020 V-shaped contraction and forecasted stabilization at modest growth rates.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year/Period       | Current Activity Indicator (mo, ann.) (%) | Historical GDP (yoy) (%) | Q1 2025 GDP (yoy) (%) | GS Q2 2025 GDP Estimate (yoy) (%) | Global GDP Forecast (%) |\n|---|---|---|---|---|---|\n| 2018              | 2.5                                      | 3.0                     | N/A                   | N/A                               | N/A                    |\n| Early 2019        | 1.5                                      | 2.5                     | N/A                   | N/A                               | N/A                    |\n| Early 2020 (Trough)| -30.0                                   | -10.0                   | N/A                   | N/A                               | N/A                    |\n| Late 2020 (Peak)  | 22.0                                     | 12.0                    | N/A                   | N/A                               | N/A                    |\n| Early 2021        | 10.0                                     | 5.0                     | N/A                   | N/A                               | N/A                    |\n| Mid-2021          | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2022              | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2023              | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2024              | 2.5                                      | 2.5                     | N/A                   | N/A                               | N/A                    |\n| 2025 Q1           | 2.0                                      | 2.0                     | 2.0                   | N/A                               | N/A                    |\n| 2025 Q2           | N/A                                      | N/A                     | N/A                   | 1.5                               | N/A                    |\n| 2025 (Annual)     | N/A                                      | N/A                     | N/A                   | N/A                               | 2.4                    |\n| 2026 (Annual)     | N/A                                      | N/A                     | N/A                   | N/A                               | 2.3                    |",
+        "key_insight": "The global economy experienced a dramatic V-shaped contraction in early to late 2020 followed by stabilization at modest 2–3% growth in 2025–2026."
+      }
+    },
+    {
+      "name": "Table T2 – Macro China economic performance from 2019 to 2027",
+      "type": "Table",
+      "brief": "China’s CAI and GDP performance 2019–2027",
+      "description": "Shows China’s Current Activity Indicator and GDP volatility around pandemic, troughs and rebounds, with forecasts easing from 4.7% to 3.9%.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Data Point | Current Activity Indicator (mo, ann. % Chg.) | GDP Growth (yoy % Chg.) |\n|---|---|---|---|\n| 2019 | Average     | 6.0                                        | 6.0                   |\n| 2020 | Start       | 5.0                                        | 5.0                   |\n| 2020 | Trough      | -30.0                                      | -5.0                  |\n| 2020 | Peak        | 28.0                                       | 18.0                  |\n| 2020 | End         | 5.0                                        | 5.0                   |\n| 2021 | Peak        | 18.0                                       | 10.0                  |\n| 2021 | Trough      | 0.0                                        | 2.0                   |\n| 2021 | Average     | 5.0                                        | 5.0                   |\n| 2022 | Peak        | 12.0                                       | 5.0                   |\n| 2022 | Trough      | -15.0                                      | 2.0                   |\n| 2022 | Average     | 3.0                                        | 3.5                   |\n| 2023 | Peak        | 14.0                                       | 7.0                   |\n| 2023 | Average     | 7.0                                        | 5.0                   |\n| 2024 | Average     | 4.5                                        | 4.5                   |\n| 2025 | Mid-year    | 4.0                                        | 4.0                   |\n| 2025 | GS Forecast | N/A                                        | 4.7                   |\n| 2026 | GS Forecast | N/A                                        | 3.9                   |\n| 2027 | GS Forecast | N/A                                        | 3.9                   |",
+        "key_insight": "China’s economy showed extreme CAI and GDP swings during 2020–2023 with troughs and rebounds, then stabilized with GDP forecasts easing from 4.7% in 2025 to 3.9% in 2026."
+      }
+    },
+    {
+      "name": "Table T3 – Macro Euro area GDP vs CAI 2019-2027",
+      "type": "Table",
+      "brief": "Euro area CAI and GDP fluctuations",
+      "description": "Illustrates Euro area CAI and GDP plunges in mid-2020 and subsequent rebounds, with forecasts of modest growth in 2025–2026.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Period              | Current Activity Indicator (mo, ann.) (% Chg.) | Historical GDP (yoy) (% Chg.) | Euro area GDP Forecast (% Chg.) |\n|---|---|---|---|\n| 2019               | 1.5                                         | 1.5                       | N/A                             |\n| Early 2020         | 1.0                                         | 0.5                       | N/A                             |\n| Mid 2020           | -30.0                                       | -17.0                     | N/A                             |\n| Late 2020          | 28.0                                        | 2.0                       | N/A                             |\n| Early 2021         | -1.0                                        | -1.0                      | N/A                             |\n| Mid 2021           | 7.0                                         | 14.0                      | N/A                             |\n| Late 2021          | 2.0                                         | 2.0                       | N/A                             |\n| 2022               | 1.5                                         | 1.5                       | N/A                             |\n| 2023               | 0.5                                         | 0.5                       | N/A                             |\n| 2024               | 0.5                                         | 0.5                       | N/A                             |\n| Q1 2025            | N/A                                         | 1.0                       | N/A                             |\n| Q2 2025 (GS Est.)  | 0.8                                         | N/A                       | N/A                             |\n| **2025**           | N/A                                         | N/A                       | 1.0                             |\n| **2026**           | N/A                                         | N/A                       | 1.1                             |",
+        "key_insight": "The Euro area saw CAI and GDP plunge to -30% and -17% in mid-2020, then rebound sharply and stabilize near 0–1% with GDP growth forecasts of 1.0% in 2025 and 1.1% in 2026."
+      }
+    },
+    {
+      "name": "Table T4 – Macro US GDP vs CAI 2019-2027",
+      "type": "Table",
+      "brief": "US CAI and GDP growth trends",
+      "description": "Traces US CAI and GDP volatility during pandemic and stabilization thereafter, forecasting consistent 1.6% GDP growth.",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year/Period                 | Current Activity Indicator (% Chg. mo, ann.) | Historical/Forecasted GDP (% Chg. yoy) |\n|---|---|---|\n| 2019                        | 2.5%                                         | 2.0%                                  |\n| 2020 Q1 (Pre-Crisis)        | 2.0%                                         | 2.0%                                  |\n| 2020 Q2 (Trough)            | -30.0%                                       | -10.0%                                |\n| 2021 Q1 (Rebound Peak)      | 24.0%                                        | 12.0%                                 |\n| 2021 H2                     | 5.0%                                         | 5.0%                                  |\n| 2022 H1                     | 1.0%                                         | 2.0%                                  |\n| 2022 H2                     | 1.5%                                         | 1.5%                                  |\n| 2023 H1                     | 1.5%                                         | 1.5%                                  |\n| 2023 H2                     | 2.0%                                         | 1.5%                                  |\n| 2024 H1                     | 1.5%                                         | 2.0%                                  |\n| 2024 H2                     | 0.5%                                         | 2.0%                                  |\n| 2025 Q1 (Actual)            | 0.0%                                         | 0.5%                                  |\n| 2025 Q2 (GS Estimate)       | 0.5%                                         | 1.0%                                  |\n| 2025 Forecast (Annual)      | N/A                                          | 1.6%                                  |\n| 2026 Forecast (Annual)      | N/A                                          | 1.6%                                  |",
+        "key_insight": "US CAI dropped to -30% in 2020 and rebounded to 24% by early 2021, with GDP also dipping then recovering, stabilizing between 0% and 3%, and forecasts of 1.6% for 2025 and 2026."
+      }
+    },
+    {
+      "name": "Macro – Global GDP Forecast 2025",
+      "type": "Metric",
+      "brief": "Forecasted global GDP growth for 2025",
+      "description": "Goldman Sachs forecasts global GDP growth of 2.4% in 2025.",
+      "properties": {
+        "unit": "%",
+        "value": 2.4,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Macro – China GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted China GDP growth for 2026",
+      "description": "Goldman Sachs forecasts China’s GDP growth to ease to 3.9% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 3.9,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Macro – Euro area GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted Euro area GDP growth for 2026",
+      "description": "Goldman Sachs forecasts Euro area GDP growth of 1.1% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Macro – US GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted US GDP growth for 2026",
+      "description": "Goldman Sachs forecasts US GDP growth of 1.6% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 1.6,
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Macro global economic performance from 2018 to 2026",
+      "target": "Macro – Global GDP Forecast 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global GDP forecast for 2025"
+    },
+    {
+      "source": "Table T2 – Macro China economic performance from 2019 to 2027",
+      "target": "Macro – China GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.9,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs China GDP forecast for 2026"
+    },
+    {
+      "source": "Table T3 – Macro Euro area GDP vs CAI 2019-2027",
+      "target": "Macro – Euro area GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.1,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Euro area GDP forecast for 2026"
+    },
+    {
+      "source": "Table T4 – Macro US GDP vs CAI 2019-2027",
+      "target": "Macro – US GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs US GDP forecast for 2026"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "name": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "type": "Table",
+      "brief": "Table of global CTA positioning in equities Jan 2024–Jul 2025",
+      "description": "Charts swings in global CTA net positioning; volatility and recent neutral convergence signal capacity to alter exposure.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Global CTA Positioning |\n|------|------------------------|\n| Jan 2024 | 0.8 |\n| Feb 2024 | 0.3 |\n| Mar 2024 | 1.2 |\n| Apr 2024 | 0.6 |\n| May 2024 | -0.8 |\n| Jun 2024 | -1.8 |\n| Jul 2024 | -0.5 |\n| Aug 2024 | -0.3 |\n| Sep 2024 | 0.8 |\n| Oct 2024 | -0.2 |\n| Nov 2024 | 0.4 |\n| Dec 2024 | 0.8 |\n| Jan 2025 | 2.2 |\n| Feb 2025 | 1.0 |\n| Mar 2025 | -1.0 |\n| Apr 2025 | -2.4 |\n| May 2025 | 1.0 |\n| Jun 2025 | 2.6 |\n| Jul 2025 | -0.06 |",
+        "key_insight": "Global CTA positioning has been volatile (net long to net short), with July 2025 near-neutral (-0.06), indicating significant capacity to add or reduce equity risk."
+      }
+    },
+    {
+      "name": "Equity CTA-ES Positioning Scenarios Table",
+      "type": "Table",
+      "brief": "ES futures: historical/projected CTA signal and ±100bps scenarios",
+      "description": "Displays CTA positioning signal for S&P 500 futures, showing recent shift from negative to positive and scenario bands.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Approx. Date | Signal | +100 bps Scenario | -100 bps Scenario |\n|--------------|--------|-------------------|-------------------|\n| Apr 01, 2025 | -0.45  |                   |                   |\n| Apr 08, 2025 | -0.55  |                   |                   |\n| Apr 15, 2025 | -0.25  |                   |                   |\n| Apr 22, 2025 | -0.15  |                   |                   |\n| Apr 29, 2025 | -0.05  |                   |                   |\n| May 06, 2025 | 0.00   |                   |                   |\n| May 13, 2025 | 0.05   |                   |                   |\n| May 20, 2025 | -0.05  |                   |                   |\n| May 27, 2025 | 0.40   |                   |                   |\n| Jun 03, 2025 | 0.45   |                   |                   |\n| Jun 10, 2025 | 0.70   |                   |                   |\n| Jun 17, 2025 | 0.40   |                   |                   |\n| Jun 24, 2025 | 0.25   |                   |                   |\n| Jul 01, 2025 | 0.20   |                   |                   |\n| Jul 08, 2025 | 0.55   |                   |                   |\n| Jul 15, 2025 | 0.40   |                   |                   |\n| Jul 22, 2025 | 0.30   |                   |                   |\n| Jul 29, 2025 | 0.40   |                   |                   |\n| Aug 05, 2025 | 0.35   | 0.50              | 0.30              |\n| Aug 12, 2025 | 0.30   | 0.40              | 0.25              |\n| Aug 19, 2025 | 0.30   | 0.35              | 0.20              |\n| Aug 26, 2025 | 0.25   | 0.30              | 0.15              |",
+        "key_insight": "CTA positioning for ES futures flipped positive in May–June 2025 and is likely to remain positive, with buffer to the ‘flip’ level at 6106."
+      }
+    },
+    {
+      "name": "Equity CTA-NQ Positioning Scenarios Table",
+      "type": "Table",
+      "brief": "NQ futures: CTA positioning signal and ±100bps scenario paths",
+      "description": "Charts NQ futures positioning from negative to sharply positive in mid-June 2025, introducing scenario bands for August 2025.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date       | Signal | +100 bps Scenario | -100 bps Scenario |\n|------------|--------|-------------------|-------------------|\n| Apr 1, 2025 | -0.55  | N/A               | N/A               |\n| Apr 8, 2025 | -0.40  | N/A               | N/A               |\n| Apr 15, 2025| -0.20  | N/A               | N/A               |\n| Apr 22, 2025| -0.05  | N/A               | N/A               |\n| Apr 29, 2025| 0.05   | N/A               | N/A               |\n| May 6, 2025 | -0.05  | N/A               | N/A               |\n| May 13, 2025| 0.00   | N/A               | N/A               |\n| May 20, 2025| 0.15   | N/A               | N/A               |\n| May 27, 2025| 0.40   | N/A               | N/A               |\n| Jun 3, 2025 | 0.45   | N/A               | N/A               |\n| Jun 10, 2025| 0.50   | N/A               | N/A               |\n| Jun 17, 2025| 0.75   | N/A               | N/A               |\n| Jun 24, 2025| 0.50   | N/A               | N/A               |\n| Jul 1, 2025 | 0.35   | N/A               | N/A               |\n| Jul 8, 2025 | 0.25   | N/A               | N/A               |\n| Jul 15, 2025| 0.20   | N/A               | N/A               |\n| Jul 22, 2025| 0.30   | N/A               | N/A               |\n| Jul 29, 2025| 0.32   | N/A               | N/A               |\n| Aug 5, 2025 | 0.35   | 0.45              | 0.25              |\n| Aug 12, 2025| 0.30   | 0.40              | 0.20              |\n| Aug 19, 2025| 0.25   | 0.35              | 0.15              |\n| Aug 26, 2025| 0.22   | 0.32              | 0.12              |",
+        "key_insight": "CTA positioning in NQ futures turned sharply positive by mid-June 2025; with significant buffer before reversal threshold at 22320."
+      }
+    },
+    {
+      "name": "Equity CTA-S&P 500 CTA Flip Level",
+      "type": "Metric",
+      "brief": "Estimated S&P 500 (ES1) flip threshold for CTAs",
+      "description": "Flip level (6106) is a key threshold for systematic reduction of equity exposure in CTA strategies.",
+      "properties": {
+        "value": 6106,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-SPX Level Jul2025",
+      "type": "Metric",
+      "brief": "Current S&P 500 index level as of July 23, 2025",
+      "description": "Represents spot index level for S&P 500, compared to CTA flip level.",
+      "properties": {
+        "value": 6370,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-NQ Futures CTA Flip Level",
+      "type": "Metric",
+      "brief": "Estimated NQ (Nasdaq 100 futures) CTA flip threshold",
+      "description": "Flip level (22320) is threshold for CTA-driven reversal in NQ futures exposure.",
+      "properties": {
+        "value": 22320,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-3-month Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "3-month realized volatility in S&P 500 as of July 23, 2025",
+      "description": "Indicates recent realized volatility; impacts vol-control and systematic equity strategies.",
+      "properties": {
+        "value": 26.5,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-10-day Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "10-day realized S&P volatility as of July 23, 2025",
+      "description": "Short-term realized vol, signals rapid declines supporting vol-control risk-on shifts.",
+      "properties": {
+        "value": 4.8,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-30-day Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "30-day realized volatility in S&P 500 as of July 23, 2025",
+      "description": "Intermediate realized vol, slope versus longer-term vol informs positioning.",
+      "properties": {
+        "value": 8.9,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-3-month Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 26.5,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "CTA positioning is closely shaped by realized volatility trends in equities."
+    },
+    {
+      "source": "Equity CTA-ES Positioning Scenarios Table",
+      "target": "Equity CTA-S&P 500 CTA Flip Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6106,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "ES positioning scenarios show strong buffer above CTA systematic flip threshold."
+    },
+    {
+      "source": "Equity CTA-ES Positioning Scenarios Table",
+      "target": "Equity CTA-SPX Level Jul2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6370,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Scenarios are referenced to current S&P 500 spot index."
+    },
+    {
+      "source": "Equity CTA-NQ Positioning Scenarios Table",
+      "target": "Equity CTA-NQ Futures CTA Flip Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 22320,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "NQ positioning shown with buffer above CTA flip threshold at 22320."
+    },
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-10-day Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 4.8,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "10-day realized vol is a significant short-term CTA input."
+    },
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-30-day Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.9,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "30-day realized volatility also referenced in CTA equity exposure."
+    }
+  ],
+  "scenarios": []
+}

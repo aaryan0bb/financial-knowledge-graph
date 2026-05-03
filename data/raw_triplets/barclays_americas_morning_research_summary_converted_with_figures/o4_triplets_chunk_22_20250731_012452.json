@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "Zimvie",
+      "type": "Company",
+      "brief": "Healthcare medical supplies and devices provider",
+      "description": "U.S. Medical Supplies & Devices company undergoing acquisition and rating changes",
+      "properties": {
+        "ticker": "ZIMV",
+        "industry": "U.S. Medical Supplies & Devices",
+        "market_cap_usd_bn": 0.523
+      }
+    },
+    {
+      "name": "Zimvie Price Target",
+      "type": "Metric",
+      "brief": "Analysts’ price target for Zimvie",
+      "description": "Raised to USD 19 to reflect pending acquisition",
+      "properties": {
+        "unit": "USD",
+        "as_of": "22 Jul 2025",
+        "value": 19
+      }
+    },
+    {
+      "name": "Zimvie EPS FY1",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays EPS estimate for fiscal year 1",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY1",
+        "value": 0.9
+      }
+    },
+    {
+      "name": "Zimvie EPS FY2",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays EPS estimate for fiscal year 2",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY2",
+        "value": 0.95
+      }
+    },
+    {
+      "name": "Zimvie Rating Upgrade",
+      "type": "Event",
+      "brief": "Upgrade from Underweight to Equal Weight",
+      "description": "Rating raised in conjunction with acquisition announcement",
+      "properties": {
+        "date": "22 Jul 2025",
+        "event_type": "Rating Change",
+        "rating_from": "Underweight",
+        "rating_to": "Equal Weight"
+      }
+    },
+    {
+      "name": "Zimvie Acquisition Announcement",
+      "type": "Event",
+      "brief": "Announcement of Zimvie acquisition",
+      "description": "Acquisition of ZIMV announced Monday",
+      "properties": {
+        "date": null,
+        "event_type": "Acquisition Announcement",
+        "affected_tickers": [
+          "ZIMV"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Zimvie Acquisition Announcement",
+      "target": "Zimvie Rating Upgrade",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Acquisition announcement triggers rating upgrade"
+    },
+    {
+      "source": "Zimvie Acquisition Announcement",
+      "target": "Zimvie Price Target",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Acquisition announcement triggers price target increase"
+    }
+  ],
+  "scenarios": []
+}

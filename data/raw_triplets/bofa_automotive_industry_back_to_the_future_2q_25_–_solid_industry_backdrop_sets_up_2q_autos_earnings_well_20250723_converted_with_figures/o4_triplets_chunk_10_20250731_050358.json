@@ -1,0 +1,602 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry - BorgWarner",
+      "type": "Company",
+      "brief": "Automotive component manufacturer",
+      "description": "EV/EBITDA based $41 price objective and risk profile",
+      "properties": {
+        "ticker": "BWA",
+        "price_objective_USD": 41
+      }
+    },
+    {
+      "name": "Automotive Industry - Group 1 Auto",
+      "type": "Company",
+      "brief": "Automotive dealership operator",
+      "description": "P/E based $560 price objective amid US/NA cycle recovery",
+      "properties": {
+        "ticker": "GPI",
+        "price_objective_USD": 560
+      }
+    },
+    {
+      "name": "Automotive Industry - Lear Corp.",
+      "type": "Company",
+      "brief": "Automotive seating and electrical systems supplier",
+      "description": "$135 price objective based on EV/EBITDA multiple and strong cash flow",
+      "properties": {
+        "ticker": "LEA",
+        "price_objective_USD": 135
+      }
+    },
+    {
+      "name": "Automotive Industry - Rising Interest Rate Environment",
+      "type": "Factor",
+      "brief": "High interest rate environment",
+      "description": "Higher interest rates may dampen demand and trigger repossessions",
+      "properties": {
+        "direction": "up",
+        "driver": "interest_rate"
+      }
+    },
+    {
+      "name": "Automotive Industry - Declining Interest Rates",
+      "type": "Factor",
+      "brief": "Falling interest rates",
+      "description": "Declining rates could stimulate automotive demand and sales",
+      "properties": {
+        "direction": "down",
+        "driver": "interest_rate"
+      }
+    },
+    {
+      "name": "Automotive Industry - Raw Material Costs",
+      "type": "Factor",
+      "brief": "Increase in raw material costs",
+      "description": "Rising raw material costs pressure manufacturer margins",
+      "properties": {
+        "direction": "up",
+        "driver": "cost"
+      }
+    },
+    {
+      "name": "Automotive Industry - Slow Electric Vehicle Adoption",
+      "type": "Factor",
+      "brief": "Slower electric vehicle uptake",
+      "description": "Slow EV adoption reduces market growth for suppliers",
+      "properties": {
+        "direction": "down",
+        "driver": "adoption"
+      }
+    },
+    {
+      "name": "Automotive Industry - Global Auto Production Volume Strength",
+      "type": "Factor",
+      "brief": "Strong global production volumes",
+      "description": "High production volumes drive supplier and dealer growth",
+      "properties": {
+        "direction": "up",
+        "driver": "production_volume"
+      }
+    },
+    {
+      "name": "Automotive Industry - Electric and Hybrid Vehicle Adoption",
+      "type": "Factor",
+      "brief": "EV and hybrid vehicle uptake",
+      "description": "Faster EV and hybrid adoption boosts supplier revenue",
+      "properties": {
+        "direction": "up",
+        "driver": "adoption"
+      }
+    },
+    {
+      "name": "Automotive Industry - Relaxed Fuel-Efficiency Regulations",
+      "type": "Factor",
+      "brief": "Looser fuel-efficiency standards",
+      "description": "Relaxed regulations may reduce demand for advanced systems",
+      "properties": {
+        "direction": "down",
+        "driver": "regulation"
+      }
+    },
+    {
+      "name": "Automotive Industry - Competition in Turbocharger Industry",
+      "type": "Factor",
+      "brief": "Rising turbocharger competition",
+      "description": "Increased competition pressures margins in turbocharger segment",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Automotive Volumes Decline",
+      "type": "Factor",
+      "brief": "Declining automotive production volumes",
+      "description": "Extended volume decline negatively impacts revenue",
+      "properties": {
+        "direction": "down",
+        "driver": "production_volume"
+      }
+    },
+    {
+      "name": "Automotive Industry - US/NA Cycle Recovery",
+      "type": "Factor",
+      "brief": "Recovery of US/North America auto cycle",
+      "description": "Cycle recovery may plateau sales at high levels",
+      "properties": {
+        "direction": "up",
+        "driver": "cycle"
+      }
+    },
+    {
+      "name": "Automotive Industry - Gross Profit per Unit",
+      "type": "Factor",
+      "brief": "Gross profit per vehicle unit",
+      "description": "Higher profit per unit enhances dealer and supplier earnings",
+      "properties": {
+        "direction": "up",
+        "driver": "profit"
+      }
+    },
+    {
+      "name": "Automotive Industry - International Market Growth",
+      "type": "Factor",
+      "brief": "Growth in non-US/NA markets",
+      "description": "International market growth offsets domestic weakness",
+      "properties": {
+        "direction": "up",
+        "driver": "growth"
+      }
+    },
+    {
+      "name": "Automotive Industry - Weak US/UK Automotive Demand",
+      "type": "Factor",
+      "brief": "Lower demand in US and UK markets",
+      "description": "Weaker demand may reduce dealer revenues",
+      "properties": {
+        "direction": "down",
+        "driver": "demand"
+      }
+    },
+    {
+      "name": "Automotive Industry - Loss of Key Management",
+      "type": "Factor",
+      "brief": "Departure of key managers",
+      "description": "Loss of key management may disrupt operations",
+      "properties": {
+        "driver": "management"
+      }
+    },
+    {
+      "name": "Automotive Industry - Operating Leverage Achievement Failure",
+      "type": "Factor",
+      "brief": "Failure to reach operating leverage",
+      "description": "Inability to achieve expected leverage may harm earnings",
+      "properties": {
+        "driver": "operating_leverage"
+      }
+    },
+    {
+      "name": "Automotive Industry - Consumer Dissatisfaction with Auto Retailing",
+      "type": "Factor",
+      "brief": "Customer dissatisfaction in auto retail",
+      "description": "Consumer dissatisfaction may reduce sales and foot traffic",
+      "properties": {
+        "driver": "consumer_sentiment"
+      }
+    },
+    {
+      "name": "Automotive Industry - Franchise and Consumer Finance Law Changes",
+      "type": "Factor",
+      "brief": "Legal changes in franchise and finance",
+      "description": "Potential law changes may alter retail and finance frameworks",
+      "properties": {
+        "driver": "regulation"
+      }
+    },
+    {
+      "name": "Automotive Industry - Seating Market Competition",
+      "type": "Factor",
+      "brief": "Competition in seating market",
+      "description": "Re-emergence of seating competitor disrupts supplier sales",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Pricing Pressure from OEMs",
+      "type": "Factor",
+      "brief": "OEM pricing pressure",
+      "description": "Pricing pressure from OEM customers squeezes supplier margins",
+      "properties": {
+        "direction": "up",
+        "driver": "pressure"
+      }
+    },
+    {
+      "name": "Automotive Industry - Competition in Automotive Supply Base",
+      "type": "Factor",
+      "brief": "Intense supply base competition",
+      "description": "Fierce competition in supply base pressures sales",
+      "properties": {
+        "direction": "up",
+        "driver": "competition"
+      }
+    },
+    {
+      "name": "Automotive Industry - Loss of Business at Key Customers",
+      "type": "Factor",
+      "brief": "Loss of major customer business",
+      "description": "Loss of business at key customers reduces revenue",
+      "properties": {
+        "driver": "customer_relationship"
+      }
+    },
+    {
+      "name": "Automotive Industry - Investor Confidence",
+      "type": "Factor",
+      "brief": "Level of investor confidence",
+      "description": "Regained investor confidence through execution and performance",
+      "properties": {
+        "direction": "up",
+        "driver": "confidence"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry - Rising Interest Rate Environment",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher rates may dampen demand and trigger repossessions"
+    },
+    {
+      "source": "Automotive Industry - Raw Material Costs",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising raw material costs pressure BorgWarner margins"
+    },
+    {
+      "source": "Automotive Industry - Slow Electric Vehicle Adoption",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Slow EV adoption reduces market growth for BorgWarner"
+    },
+    {
+      "source": "Automotive Industry - Relaxed Fuel-Efficiency Regulations",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Looser fuel-efficiency regulations may lower demand for advanced systems"
+    },
+    {
+      "source": "Automotive Industry - Competition in Turbocharger Industry",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising competition pressures BorgWarner’s turbocharger margins"
+    },
+    {
+      "source": "Automotive Industry - Automotive Volumes Decline",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Extended volume decline negatively impacts BorgWarner revenue"
+    },
+    {
+      "source": "Automotive Industry - Global Auto Production Volume Strength",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong production volumes drive BorgWarner growth"
+    },
+    {
+      "source": "Automotive Industry - Electric and Hybrid Vehicle Adoption",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Faster EV and hybrid adoption boosts BorgWarner revenue"
+    },
+    {
+      "source": "Automotive Industry - Investor Confidence",
+      "target": "Automotive Industry - BorgWarner",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher investor confidence supports BorgWarner share performance"
+    },
+    {
+      "source": "Automotive Industry - Weak US/UK Automotive Demand",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weaker US/UK demand may reduce Group 1 Auto revenues"
+    },
+    {
+      "source": "Automotive Industry - Loss of Key Management",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Loss of key management may disrupt Group 1 Auto operations"
+    },
+    {
+      "source": "Automotive Industry - Operating Leverage Achievement Failure",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Failure to achieve operating leverage may harm Group 1 Auto earnings"
+    },
+    {
+      "source": "Automotive Industry - Rising Interest Rate Environment",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher rates may dampen GPI demand and trigger repossessions"
+    },
+    {
+      "source": "Automotive Industry - Consumer Dissatisfaction with Auto Retailing",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Consumer dissatisfaction may reduce Group 1 Auto sales"
+    },
+    {
+      "source": "Automotive Industry - Franchise and Consumer Finance Law Changes",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Law changes may alter Group 1 Auto retail and finance operations"
+    },
+    {
+      "source": "Automotive Industry - US/NA Cycle Recovery",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Cycle recovery may sustain high sales for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Gross Profit per Unit",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher gross profit per unit boosts Group 1 Auto earnings"
+    },
+    {
+      "source": "Automotive Industry - International Market Growth",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "International growth offsets domestic weakness for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Declining Interest Rates",
+      "target": "Automotive Industry - Group 1 Auto",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Falling rates could stimulate demand for Group 1 Auto"
+    },
+    {
+      "source": "Automotive Industry - Automotive Volumes Decline",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Extended volume decline negatively impacts Lear Corp. revenue"
+    },
+    {
+      "source": "Automotive Industry - Seating Market Competition",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Increased seating market competition may reduce Lear Corp. sales"
+    },
+    {
+      "source": "Automotive Industry - Pricing Pressure from OEMs",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "OEM pricing pressure squeezes Lear Corp. margins"
+    },
+    {
+      "source": "Automotive Industry - Loss of Business at Key Customers",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Loss of key customer business reduces Lear Corp. revenue"
+    },
+    {
+      "source": "Automotive Industry - Competition in Automotive Supply Base",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Fierce supply base competition pressures Lear Corp. sales"
+    },
+    {
+      "source": "Automotive Industry - Raw Material Costs",
+      "target": "Automotive Industry - Lear Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Rising raw material costs pressure Lear Corp. margins"
+    }
+  ],
+  "scenarios": []
+}

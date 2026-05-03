@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "Morgan Stanley",
+      "type": "Company",
+      "brief": "Global financial services firm",
+      "description": "Author of the research report forecasting data center spend",
+      "properties": {
+        "ticker": "MS"
+      }
+    },
+    {
+      "name": "Table T1 – Morgan Stanley Estimated Total Global Data Center Spend by Workload",
+      "type": "Table",
+      "brief": "Forecast of global data center spend by workload from 2024e to 2028e",
+      "description": "Shows the projected rise in data center spending, emphasizing AI workload dominance",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | AI Workload Spend ($mm) | Non-AI Workload Spend ($mm) | Total Spend ($mm) |\n|---|---|---|---|\n| 2024e | $230,000 | $80,000 | $310,000 |\n| 2025e | $400,000 | $90,000 | $490,000 |\n| 2026e | $560,000 | $90,000 | $650,000 |\n| 2027e | $690,000 | $110,000 | $800,000 |\n| 2028e | $790,000 | $120,000 | $910,000 |",
+        "key_insight": "Total global data center spend is projected to grow from $310,000mm in 2024e to $910,000mm in 2028e, driven predominantly by AI Workload Spend."
+      }
+    },
+    {
+      "name": "Table T2 – Morgan Stanley Estimated Annual Capital Cost for Chips and Servers",
+      "type": "Table",
+      "brief": "Projected chips and servers capital cost globally from 2024e to 2028e",
+      "description": "Highlights steady growth in hardware investment, reflecting financing needs in data center infrastructure",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | AI-related Capital Cost ($bn) | Non-AI related Capital Cost ($bn) | Total Capital Cost (Chips + Servers) ($bn) |\n|:-----|:------------------------------|:----------------------------------|:-------------------------------------------|\n| 2024e | 130 | 180 | 310 |\n| 2025e | 210 | 290 | 500 |\n| 2026e | 290 | 380 | 670 |\n| 2027e | 360 | 450 | 810 |\n| 2028e | 430 | 500 | 930 |",
+        "key_insight": "Total capital cost for chips and servers is forecast to increase from $310bn in 2024e to $930bn in 2028e, with both AI-related and non-AI-related costs rising steadily."
+      }
+    },
+    {
+      "name": "Morgan Stanley – Total Global Data Center Spend",
+      "type": "Metric",
+      "brief": "Projected total global data center spend by 2028e",
+      "description": "Forecast total global data center spend reaches $910,000mm in 2028e",
+      "properties": {
+        "value": 910000,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Morgan Stanley – Total Capital Cost of Chips and Servers",
+      "type": "Metric",
+      "brief": "Forecast chips and servers capital cost by 2028e",
+      "description": "Projected total capital cost for chips and servers reaches $930bn in 2028e",
+      "properties": {
+        "value": 930,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Morgan Stanley – Global Data Center Spend through YE28",
+      "type": "Metric",
+      "brief": "Estimated cumulative data center spend through 2028",
+      "description": "Morgan Stanley estimates $2.9tr of global data center spend through 2028, excluding power investments",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Morgan Stanley – AI-specific Data Center Spend Share",
+      "type": "Metric",
+      "brief": "Share of spend allocated to AI-specific data centers",
+      "description": "85% of estimated global data center spend through 2028 is for AI-specific facilities",
+      "properties": {
+        "value": 85,
+        "unit": "%",
+        "as_of": "YE28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Morgan Stanley Estimated Total Global Data Center Spend by Workload",
+      "target": "Morgan Stanley – Total Global Data Center Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 910000,
+        "unit": "USD mm",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs projected total global data center spend reaching $910,000mm by 2028e"
+    },
+    {
+      "source": "Table T2 – Morgan Stanley Estimated Annual Capital Cost for Chips and Servers",
+      "target": "Morgan Stanley – Total Capital Cost of Chips and Servers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 930,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs projected total capital cost for chips and servers reaching $930bn by 2028e"
+    }
+  ],
+  "scenarios": []
+}

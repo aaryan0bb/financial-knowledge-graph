@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "Global Data Center Infrastructure - Time to Power Solution",
+      "type": "Factor",
+      "brief": "Product accelerating data center power-up",
+      "description": "Any product that enables data centers to power up faster than default grid connection",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Grid Request Backlog",
+      "type": "Factor",
+      "brief": "Backlog of grid interconnection requests in US grids",
+      "description": "Significant backlog causing increased connection times",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Data Center Grid Connection Time (historical)",
+      "type": "Metric",
+      "brief": "Previous average grid connection time",
+      "description": "Typical grid connection time for data centers before backlog",
+      "properties": {
+        "min": 2,
+        "max": 3,
+        "unit": "years",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "Metric",
+      "brief": "Current average grid connection time",
+      "description": "Typical grid connection time for data centers after increased backlog",
+      "properties": {
+        "min": 5,
+        "max": 10,
+        "unit": "years",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - AI Data Center Facility Cost",
+      "type": "Metric",
+      "brief": "Cost per megawatt for AI data centers",
+      "description": "Facility cost to build AI data centers per megawatt",
+      "properties": {
+        "value": 30,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Power Plant Construction Cost",
+      "type": "Metric",
+      "brief": "Cost per megawatt to build power plants",
+      "description": "Typical cost for power plants per megawatt",
+      "properties": {
+        "min": 2,
+        "max": 3,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - One-Year Time Advantage Value per MW",
+      "type": "Metric",
+      "brief": "Value of a one-year time-to-power advantage per megawatt",
+      "description": "Calculated value from time-to-power math",
+      "properties": {
+        "min": 3,
+        "max": 4,
+        "unit": "USD m/MW",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Bitcoin Conversion Power Price Premia",
+      "type": "Metric",
+      "brief": "Effective power price premia from Bitcoin conversion",
+      "description": "Premia observed in Bitcoin conversion transactions",
+      "properties": {
+        "min": 300,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Data Center Infrastructure - US Grid Request Backlog",
+      "target": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Backlog of interconnection requests causes longer grid connection times"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Time to Power Solution",
+      "target": "Global Data Center Infrastructure - US Data Center Grid Connection Time (current)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Time to power solutions reduce grid connection time"
+    },
+    {
+      "source": "Global Data Center Infrastructure - One-Year Time Advantage Value per MW",
+      "target": "Global Data Center Infrastructure - Power Plant Construction Cost",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "One-year time advantage value exceeds power plant construction cost"
+    }
+  ],
+  "scenarios": []
+}

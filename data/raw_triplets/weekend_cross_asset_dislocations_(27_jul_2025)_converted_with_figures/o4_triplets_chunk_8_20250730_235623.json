@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Market Metrics Ten-Year Percentiles Overview",
+      "type": "Table",
+      "brief": "Current 10-year percentiles and historical ranges for key market metrics",
+      "description": "Highlights percentile standings for volatility, skew, credit, liquidity, positioning, and inflation indicators",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                | Metric                       | Current 10y Percentile | 1-Year 25th Percentile | 1-Year 75th Percentile |\n|-------------------------|------------------------------|------------------------|------------------------|------------------------|\n| Implied Volatility      | SPX                          | 75                     | 45                     | 80                     |\n| Implied Volatility      | SX5E                         | 50                     | 35                     | 65                     |\n| Implied Volatility      | N225                         | 65                     | 20                     | 75                     |\n| Implied Volatility      | HSCE                         | 60                     | 20                     | 75                     |\n| Implied Volatility      | FXI                          | 60                     | 20                     | 75                     |\n| Implied Volatility      | EEM                          | 10                     | 5                      | 55                     |\n| Implied Volatility      | HYG                          | 5                      | 5                      | 50                     |\n| Implied Volatility      | TLT                          | 40                     | 15                     | 70                     |\n| Implied Volatility      | USO                          | 15                     | 10                     | 60                     |\n| Implied Volatility      | GLD                          | 65                     | 55                     | 75                     |\n| Implied Volatility      | SP500 avg stk implied vol    | 60                     | 55                     | 80                     |\n| Implied Volatility      | VIX                          | 35                     | 45                     | 80                     |\n| Implied Volatility      | VVIX                         | 35                     | 35                     | 75                     |\n| Implied Volatility      | Eq factor vol                | 60                     | 55                     | 75                     |\n| Skew and Correlation    | Avg Stock put-call norm skew | 20                     | 15                     | 45                     |\n| Skew and Correlation    | SPX put-call norm skew       | 30                     | 20                     | 50                     |\n| Skew and Correlation    | USO put-call norm skew       | 15                     | 10                     | 55                     |\n| Skew and Correlation    | SPX 3m impl corr             | 10                     | 10                     | 25                     |\n| Skew and Correlation    | SPX 3m real corr             | 28                     | 28                     | 85                     |\n| Credit and Rates        | CDX IG 5Y                    | 12                     | 10                     | 40                     |\n| Credit and Rates        | CDX HY 5Y                    | 20                     | 15                     | 50                     |\n| Credit and Rates        | iTraxxMain                   | 28                     | 25                     | 45                     |\n| Liquidity and Funding   | Single stock liquidity       | 30                     | 10                     | 35                     |\n| Liquidity and Funding   | HYG Volume/5-day Vol         | 95                     | 68                     | 98                     |\n| Liquidity and Funding   | LQD Volume/5-day Vol         | 95                     | 70                     | 98                     |\n| Liquidity and Funding   | Avg Funding Sprd (3,6m)      | 90                     | 85                     | 95                     |\n| Flows and Positioning   | CFTC Asset Mgr Net           | 80                     | 70                     | 95                     |\n| Flows and Positioning   | CFTC Hedge Fd Net            | 25                     | 20                     | 45                     |\n| Flows and Positioning   | Retail SHARES % of $ vol     | 50                     | 45                     | 75                     |\n| Flows and Positioning   | Retail OPTIONS % of $ vol    | 20                     | 18                     | 70                     |\n| Inflation Swaps         | US 10Y Infl                  | 80                     | 60                     | 75                     |\n| Inflation Swaps         | JP 10Y Infl                  | 95                     | 90                     | 98                     |",
+        "key_insight": "HYG implied volatility is at the 5th percentile, whereas HYG volume-to-volatility ratios and JP 10-year inflation swaps are at the 95th percentiles."
+      }
+    },
+    {
+      "name": "Market HYG Implied Volatility",
+      "type": "Metric",
+      "brief": "HYG implied volatility at its 5th percentile",
+      "description": "Reflects exceptionally low implied volatility for HYG, indicating complacency risk",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 5
+      }
+    },
+    {
+      "name": "Market HYG Volume/5-day Vol",
+      "type": "Metric",
+      "brief": "HYG trading liquidity at its 95th percentile",
+      "description": "Indicates robust HYG volume-to-volatility liquidity, signaling strong market liquidity",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 95
+      }
+    },
+    {
+      "name": "Market JP 10Y Inflation Swaps",
+      "type": "Metric",
+      "brief": "Japanese 10-year inflation swaps at its 95th percentile",
+      "description": "Shows elevated Japanese inflation expectations priced into swap markets",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 95
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market HYG Implied Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Highlights HYG implied volatility at its 5th percentile"
+    },
+    {
+      "source": "Table T1 – Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market HYG Volume/5-day Vol",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 95,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Shows HYG volume-to-volatility ratios at its 95th percentile"
+    },
+    {
+      "source": "Table T1 – Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market JP 10Y Inflation Swaps",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 95,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Indicates Japanese 10Y inflation expectations at its 95th percentile"
+    }
+  ],
+  "scenarios": []
+}

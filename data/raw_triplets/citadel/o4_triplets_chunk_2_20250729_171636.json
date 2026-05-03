@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "EquityMarkets-US corporates blackout window end",
+      "type": "Event",
+      "brief": "US corporates return post-blackout with buyback potential",
+      "description": "Material as ending of earnings blackout window could spur increased share repurchases.",
+      "properties": {
+        "date": null,
+        "event_type": "blackout_window_end",
+        "impact_value": null,
+        "affected_tickers": null
+      }
+    },
+    {
+      "name": "EquityMarkets-Superbowl of earnings",
+      "type": "Event",
+      "brief": "Peak S&P 500 earning week on July 28",
+      "description": "Material due to 39% of S&P 500 market cap reporting in a single week.",
+      "properties": {
+        "date": "2025-07-28",
+        "event_type": "earnings_week",
+        "impact_value": 39,
+        "unit": "%",
+        "affected_tickers": "S&P 500 constituents"
+      }
+    },
+    {
+      "name": "EquityMarkets-Microsoft Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Microsoft reports Q2 2025 earnings on July 30",
+      "description": "Material as Microsoft is a key S&P 500 component and ‘Magnificent 7’ member.",
+      "properties": {
+        "date": "2025-07-30",
+        "event_type": "quarterly_earnings",
+        "ticker": "MSFT"
+      }
+    },
+    {
+      "name": "EquityMarkets-Meta Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Meta reports Q2 2025 earnings on July 30",
+      "description": "Material due to Meta's significant S&P 500 and NDX index weight.",
+      "properties": {
+        "date": "2025-07-30",
+        "event_type": "quarterly_earnings",
+        "ticker": "META"
+      }
+    },
+    {
+      "name": "EquityMarkets-Apple Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Apple reports Q2 2025 earnings on July 31",
+      "description": "Material as a top S&P 500 and ‘Magnificent 7’ component.",
+      "properties": {
+        "date": "2025-07-31",
+        "event_type": "quarterly_earnings",
+        "ticker": "AAPL"
+      }
+    },
+    {
+      "name": "EquityMarkets-Amazon Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Amazon reports Q2 2025 earnings on July 31",
+      "description": "Material due to Amazon's significant index weighting and market impact.",
+      "properties": {
+        "date": "2025-07-31",
+        "event_type": "quarterly_earnings",
+        "ticker": "AMZN"
+      }
+    },
+    {
+      "name": "EquityMarkets-Table T1 – SPX GICS Sector Quarterly Earnings by Marketcap",
+      "type": "Table",
+      "brief": "Breakdown of S&P 500 sectoral earnings timetable by market cap",
+      "description": "Material as it details the pace and concentration of earnings disclosures by sector and week.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "GICS Sector                        Jul 14      Jul 21     Jul 28      Aug 04 Aug 11 Aug 18               Aug 25 Total \nCommunication Services              1.0%        4.6%       3.2%        0.7%        0.0%       0.0%        0.0%        9.5% \nConsumer Discretionary              0.0%       2.6%        5.0%        0.9%        0.0%        1.3%       0.1%        9.9% \nConsumer Staples                    0.4%        1.1%        1.6%       0.2%        0.0%       0.9%        0.1%        4.3% \nEnergy                              0.1%        0.4%        1.5%       1.0%        0.0%       0.0%        0.0%        2.9% \nFinancials                          1.4%        1.9%       3.7%        2.2%        0.0%        0.0%        0.0%       9.2% \nHealth Care                         0.5%        1.6%       2.8%        3.0%        0.1%        0.3%       0.0%       8.3% \nIndustrials                        0.9%        2.5%       2.9%        1.7%        0.2%        0.0%        0.0%       8.2% \nInformation Technology              0.0%        2.1%       14.9%       1.8%        0.8%        1.2%       8.9%       29.7% \nMaterials                           0.0%        0.5%        1.0%       0.3%        0.0%        0.0%        0.0%       1.9% \nReal Estate                        0.0%        0.3%        1.2%       0.3%        0.0%        0.0%       0.0%        1.8% \nUtilities                          0.0%        0.3%        1.1%       0.9%        0.0%        0.0%        0.0%       2.4% \nSum total                           4.2%       17.9%       38.8%       13.1%       1.2%        3.7%        9.1%       88.0% \nAggregate                                      22.1%       60.9%      74.1%       75.2%       78.9%       88.0%",
+        "key_insight": "Nearly 39% of S&P 500 market capitalization reports earnings on the week of July 28, with information technology leading."
+      }
+    },
+    {
+      "name": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "Metric",
+      "brief": "Information Technology sector: 14.9% S&P 500 earnings in key week",
+      "description": "Material as this sector alone accounts for almost 15% of market cap reporting in a single week.",
+      "properties": {
+        "value": 14.9,
+        "unit": "%",
+        "as_of": "2025-07-28"
+      }
+    },
+    {
+      "name": "EquityMarkets-SPX index concentration",
+      "type": "Metric",
+      "brief": "SPX: ‘Magnificent 7’ represent 33% weighting",
+      "description": "33 cents per $1 in SPX go to ‘Magnificent 7’, showing high index concentration.",
+      "properties": {
+        "value": 33,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX index concentration",
+      "type": "Metric",
+      "brief": "NDX: ‘Magnificent 7’ represent 43% weighting",
+      "description": "43 cents per $1 in NDX go to ‘Magnificent 7’, implying heavy passive flow concentration.",
+      "properties": {
+        "value": 43,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "EquityMarkets-US corporate earnings beat rate",
+      "type": "Metric",
+      "brief": "87% of reporting US corporates beat estimates",
+      "description": "169/193 companies have beaten earnings so far, a signal of underappreciated earnings strength.",
+      "properties": {
+        "value": 87,
+        "unit": "%",
+        "as_of": null,
+        "num_reported": 193,
+        "num_beat": 169
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquityMarkets-Table T1 – SPX GICS Sector Quarterly Earnings by Marketcap",
+      "target": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 14.9,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table reveals Information Technology sector reports 14.9% of S&P 500 market cap earnings during key week."
+    },
+    {
+      "source": "EquityMarkets-Superbowl of earnings",
+      "target": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 14.9,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "‘Superbowl of earnings’ week is dominated by Information Technology sector’s earnings reporting."
+    },
+    {
+      "source": "EquityMarkets-Table T1 – SPX GICS Sector Quarterly Earnings by Marketcap",
+      "target": "EquityMarkets-Superbowl of earnings",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 39,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table summarizes that 39% of S&P 500 market cap will report earnings in Superbowl week."
+    },
+    {
+      "source": "EquityMarkets-Information Technology weekly earnings weight",
+      "target": "EquityMarkets-SPX index concentration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 33,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Heavy infotech earnings drive SPX passive index concentration to Magnificent 7."
+    },
+    {
+      "source": "EquityMarkets-Information Technology weekly earnings weight",
+      "target": "EquityMarkets-NDX index concentration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 43,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Infotech sector's earnings increase NDX index concentration in Magnificent 7 stocks."
+    }
+  ],
+  "scenarios": []
+}

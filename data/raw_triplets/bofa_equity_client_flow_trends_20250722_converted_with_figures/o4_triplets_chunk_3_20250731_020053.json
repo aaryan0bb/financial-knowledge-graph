@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – BofA Equity Client Flows client net buys by size segment",
+      "type": "Table",
+      "brief": "Weekly net buying by market cap segment",
+      "description": "Horizontal bar chart showing weekly and 4-week average net buys across size segments",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Market Cap Segment | Last Week (7/14-7/18) Net Buys ($mn) | 4 Week Average Net Buys ($mn) |\n|---------------------|------------------------------------|---------------------------------|\n| Total               | 2674                               | -102                            |\n| Large cap           | 1496                               | -226                            |\n| Mid cap             | 909                                | -25                             |\n| Small cap           | 269                                | 148                             |",
+        "key_insight": "Clients returned to buying across all market cap segments last week, with total net inflows of $2,674mn."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Size Segment Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across market cap segments",
+      "description": "Total weekly net buys across market cap segments reached $2,674mn, reversing prior four-week selling trends.",
+      "properties": {
+        "value": 2674,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    },
+    {
+      "name": "Table T2 – BofA Equity Client Flows client net buys by client group",
+      "type": "Table",
+      "brief": "Weekly net buying by client type",
+      "description": "Bar chart comparing weekly and 4-week average net buys across client types.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Client Type   | Last Week (7/14-7/18) ($mn) | 4-Week Average ($mn) |\n|---------------|-----------------------------|----------------------|\n| Total         | 2156                        | -248                 |\n| Corporate     | 1227                        | 1425                 |\n| Retail        | 1162                        | 583                  |\n| Hedge Funds   | 385                         | -128                 |\n| Institutional | -619                        | -2128                |",
+        "key_insight": "Corporate and Retail clients drove overall net inflows of $2,156mn last week, offsetting Institutional selling."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Client Group Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across client types",
+      "description": "Total weekly net buys by client group reached $2,156mn as Corporate and Retail clients were net buyers.",
+      "properties": {
+        "value": 2156,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    },
+    {
+      "name": "Table T3 – BofA Equity Client Flows client net buys by sector",
+      "type": "Table",
+      "brief": "Weekly net buying by sector",
+      "description": "Bar chart showing weekly and 4-week average net buys across sectors.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Sector | Last week (7/14-7/18) ($mn) | 4 wk avg ($mn) |\n|:--------------------|:----------------------------|:---------------|\n| Total               | 2,028                       | -239           |\n| Industrials         | 926                         | 142            |\n| ETFs                | 662                         | 1,113          |\n| Financials          | 398                         | 272            |\n| Tech                | 253                         | -257           |\n| Materials           | 251                         | -50            |\n| Comm. Svcs.         | 185                         | -314           |\n| Consumer Staples    | 122                         | -212           |\n| Health Care         | 68                          | -243           |\n| Energy              | -27                         | -138           |\n| Real Estate         | -39                         | -215           |\n| Utilities           | -374                        | -199           |\n| Consumer Discretionary | -399                        | -137           |",
+        "key_insight": "Total net inflows reached $2,028mn last week, led by Industrials amid Consumer Discretionary and Utilities outflows."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Sector Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across sectors",
+      "description": "Total weekly net buys across sectors reached $2,028mn, with Industrials largest inflows and notable outflows in Consumer Discretionary and Utilities.",
+      "properties": {
+        "value": 2028,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – BofA Equity Client Flows client net buys by size segment",
+      "target": "BofA Equity Client Flows Total Net Buys by Size Segment Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2674,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs total weekly net inflows across size segments"
+    },
+    {
+      "source": "Table T2 – BofA Equity Client Flows client net buys by client group",
+      "target": "BofA Equity Client Flows Total Net Buys by Client Group Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2156,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs total weekly net inflows by client group"
+    },
+    {
+      "source": "Table T3 – BofA Equity Client Flows client net buys by sector",
+      "target": "BofA Equity Client Flows Total Net Buys by Sector Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2028,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T3 informs total weekly net inflows by sector"
+    }
+  ],
+  "scenarios": []
+}

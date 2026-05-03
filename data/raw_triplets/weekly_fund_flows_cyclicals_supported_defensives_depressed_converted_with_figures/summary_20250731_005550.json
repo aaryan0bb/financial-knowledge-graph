@@ -1,0 +1,73 @@
+{
+  "report": "Weekly Fund Flows_ Cyclicals Supported, Defensives Depressed_converted_with_figures.txt",
+  "timestamp": "2025-07-31T00:55:50.925126",
+  "total_chunks": 9,
+  "total_entities": 49,
+  "total_relationships": 29,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 8,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_004222.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 8,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_004424.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 6,
+      "relationships": 5,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_004555.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_004705.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 10,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_004836.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 5,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_005026.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_005155.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 3,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250731_005357.json"
+    },
+    {
+      "chunk": "chunk_9",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_9_20250731_005548.json"
+    }
+  ]
+}

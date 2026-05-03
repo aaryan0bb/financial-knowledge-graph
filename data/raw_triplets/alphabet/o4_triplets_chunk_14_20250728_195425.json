@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet",
+      "type": "Company",
+      "brief": "Global technology conglomerate, parent company of Google",
+      "description": "Alphabet is the issuer covered in BofA Global Research with significant market presence and diverse revenue streams.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "BofA Global Research",
+      "type": "Company",
+      "brief": "Sell-side research and analysis division",
+      "description": "BofA Global Research provides equity opinions, ratings, and disclosures, and covers Alphabet in its reports.",
+      "properties": {
+        "sector": "Financials"
+      }
+    },
+    {
+      "name": "Alphabet – Investment Rating Update Event",
+      "type": "Event",
+      "brief": "Update of investment rating and price objective for Alphabet",
+      "description": "BofA Global Research rates Alphabet within Buy, Neutral, Underperform classifications and assigns a price objective as of report date.",
+      "properties": {
+        "event_type": "Investment Rating Update",
+        "date": "2025-07-24",
+        "impact_value": null,
+        "region": "Global"
+      }
+    },
+    {
+      "name": "Alphabet – Price Objective Metric",
+      "type": "Metric",
+      "brief": "Target price for Alphabet stock",
+      "description": "Represents the analyst's view of Alphabet’s potential price appreciation/depreciation.",
+      "properties": {
+        "unit": "USD",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "BofA Global Research",
+      "target": "Alphabet",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "BofA Global Research provides ratings, price targets and analysis for Alphabet."
+    },
+    {
+      "source": "Alphabet – Investment Rating Update Event",
+      "target": "Alphabet – Price Objective Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Investment Rating Update includes setting a price objective for Alphabet."
+    }
+  ],
+  "scenarios": []
+}

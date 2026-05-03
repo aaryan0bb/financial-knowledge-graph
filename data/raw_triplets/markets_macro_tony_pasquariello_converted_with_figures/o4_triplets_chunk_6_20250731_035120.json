@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Equities Current Percentile Ranks by Stock Category",
+      "type": "Table",
+      "brief": "Percentile ranks by stock category",
+      "description": "Displays current trading volume percentile ranks since 1990 for various speculative stock categories, all at elevated levels.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Percentile Rank |\n|---------------------------------|-----------------|\n| Penny stocks | 98% |\n| Stocks with EV/sales multiples > 10x | 96% |\n| Unprofitable stocks | 85% |\n| Speculative Trading Indicator | 88% |",
+        "key_insight": "All categories are at significantly high historical percentile ranks, indicating elevated trading activity in speculative assets."
+      }
+    },
+    {
+      "name": "US Equities Penny Stocks Percentile Rank",
+      "type": "Metric",
+      "brief": "Penny stocks trading volume at 98th percentile",
+      "description": "Reflects near-record trading share in penny stocks at 98th percentile since 1990.",
+      "properties": {
+        "unit": "%",
+        "value": 98,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T2 – US Equities GSXURFAV Index Weekly Performance",
+      "type": "Table",
+      "brief": "Weekly performance of GSXURFAV Index since 2020",
+      "description": "Shows GSXURFAV Index surge to initial peak, decline, recovery, and all-time high in mid-2024.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | GSXURFAV Index Value |\n|-----------|----------------------|\n| Jul 2020  | 100                  |\n| Oct 2020  | 150                  |\n| Jan 2021  | 215                  |\n| Apr 2021  | 200                  |\n| Jul 2021  | 160                  |\n| Oct 2021  | 140                  |\n| Jan 2022  | 130                  |\n| Jun 2022  | 105                  |\n| Oct 2022  | 130                  |\n| Jan 2023  | 120                  |\n| Apr 2023  | 140                  |\n| Jul 2023  | 150                  |\n| Oct 2023  | 175                  |\n| Jan 2024  | 190                  |\n| Apr 2024  | 210                  |\n| Jul 2024  | 232.18               |",
+        "key_insight": "In mid-2024, the GSXURFAV Index decisively broke above its previous 2021 peak, reaching an all-time high of 232.18, significantly surpassing prior resistance."
+      }
+    },
+    {
+      "name": "US Equities GSXURFAV Index All-Time High",
+      "type": "Metric",
+      "brief": "GSXURFAV Index reached 232.18 in mid-2024",
+      "description": "All-time high for retail favorites basket index at 232.18 in Jul 2024.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 232.18,
+        "as_of": "2024-07"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Equities Current Percentile Ranks by Stock Category",
+      "target": "US Equities Penny Stocks Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 98,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs Penny stocks at 98th percentile rank"
+    },
+    {
+      "source": "Table T2 – US Equities GSXURFAV Index Weekly Performance",
+      "target": "US Equities GSXURFAV Index All-Time High",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 232.18,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs all-time high of GSXURFAV Index at 232.18"
+    }
+  ],
+  "scenarios": []
+}

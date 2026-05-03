@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Hyperscaler Revenue & EBITDA Expectations",
+      "type": "Table",
+      "brief": "Forecasted revenue and EBITDA growth for hyperscalers (2023-2028)",
+      "description": "Projected hyperscaler revenue and EBITDA steadily increase, with revenue outpacing EBITDA and reaching new highs by 2028.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Revenue ($bn) | EBITDA ($bn) |\n|------|---------------|--------------|\n| 2023 | 1250          | 400          |\n| 2024 | 1400          | 520          |\n| 2025E| 1570          | 600          |\n| 2026E| 1760          | 720          |\n| 2027E| 1950          | 840          |\n| 2028E| 2120          | 980          |",
+        "key_insight": "Projected hyperscaler revenue and EBITDA steadily increase from 2023 through 2028, with revenue notably higher than EBITDA."
+      }
+    },
+    {
+      "name": "Table T2 – Hyperscalers' Cash Flows & Uses, Estimates",
+      "type": "Table",
+      "brief": "Estimated allocation of hyperscaler operating cash flows (2025-2028)",
+      "description": "Hyperscalers are projected to generate ~$2.9tr operating cash flows, primarily funding $1.6tr capex, $550bn returns, leaving $700bn free cash.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Category           | Item                          | Value ($bn) |\n|--------------------|-------------------------------|-------------|\n| Cash Flow from Ops | Operating Activities          | 2900        |\n| Primary Cash Uses  | Hyperscaler Capex             | 1600        |\n| Primary Cash Uses  | Shareholder Returns           | 550         |\n| Primary Cash Uses  | FCF After Shareholder Returns | 700         |",
+        "key_insight": "Hyperscalers generate ~$2.9tr cash flows, primarily allocating $1.6tr to capex, $550bn to shareholder returns, and $700bn of free cash flow."
+      }
+    },
+    {
+      "name": "Hyperscaler Cash-Flow Funded Capex Estimate",
+      "type": "Metric",
+      "brief": "Estimated hyperscaler capex funded by cash flows",
+      "description": "Morgan Stanley estimates that hyperscalers will fund $1.4tr of capex through operating cash flows.",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Hyperscaler Revenue (2028E)",
+      "type": "Metric",
+      "brief": "Projected hyperscaler revenue for 2028",
+      "description": "Estimated revenue of $2120bn in 2028, highlighting robust growth potential.",
+      "properties": {
+        "value": 2120,
+        "unit": "USD bn",
+        "as_of": "2028E"
+      }
+    },
+    {
+      "name": "Hyperscaler Operating Cash Flows (2028E)",
+      "type": "Metric",
+      "brief": "Projected hyperscaler operating cash flows through 2028",
+      "description": "Total operating cash flows projected at $2900bn over 2025-2028 period.",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "2028E"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Hyperscaler Revenue & EBITDA Expectations",
+      "target": "Hyperscaler Revenue (2028E)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 2120,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "T1 informs that hyperscaler revenue peaks at $2120bn by 2028."
+    },
+    {
+      "source": "Table T2 – Hyperscalers' Cash Flows & Uses, Estimates",
+      "target": "Hyperscaler Operating Cash Flows (2028E)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "T2 informs that hyperscaler operating cash flows total ~$2900bn."
+    }
+  ],
+  "scenarios": []
+}

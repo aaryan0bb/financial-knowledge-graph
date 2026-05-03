@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "Barclays – Replimune Group Inc",
+      "type": "Company",
+      "brief": "Biotechnology firm with recent rating downgrade",
+      "description": "Replimune Group received a rating downgrade to Equal Weight, reflecting lower optimism",
+      "properties": {
+        "ticker": "REPL",
+        "rating_outlook": "EW"
+      }
+    },
+    {
+      "name": "Barclays – Zimvie",
+      "type": "Company",
+      "brief": "Orthopedic implant tech company with rating upgrade",
+      "description": "Zimvie was upgraded from Underweight to Equal Weight, indicating increased positive outlook",
+      "properties": {
+        "ticker": "ZIMV",
+        "rating_outlook": "EW"
+      }
+    },
+    {
+      "name": "Barclays – Replimune Group Inc rating downgrade",
+      "type": "Event",
+      "brief": "Rating moved from Overweight to Equal Weight",
+      "description": "Barclays downgraded Replimune Group Inc on 23 July 2025",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "rating_change",
+        "affected_tickers": [
+          "REPL"
+        ],
+        "old_rating": "OW",
+        "new_rating": "EW"
+      }
+    },
+    {
+      "name": "Barclays – Zimvie rating upgrade",
+      "type": "Event",
+      "brief": "Rating moved from Underweight to Equal Weight",
+      "description": "Barclays upgraded Zimvie on 23 July 2025",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "rating_change",
+        "affected_tickers": [
+          "ZIMV"
+        ],
+        "old_rating": "UW",
+        "new_rating": "EW"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Barclays – Replimune Group Inc rating downgrade",
+      "target": "Barclays – Replimune Group Inc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Downgrade impacts Replimune Group Inc rating"
+    },
+    {
+      "source": "Barclays – Zimvie rating upgrade",
+      "target": "Barclays – Zimvie",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Upgrade impacts Zimvie rating"
+    }
+  ],
+  "scenarios": []
+}

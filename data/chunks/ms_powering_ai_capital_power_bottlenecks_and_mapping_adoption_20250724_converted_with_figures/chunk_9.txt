@@ -1,0 +1,52 @@
+Morgan Stanley                                                                                      July 24, 2025 
+
+Securitization rate to climb from 10% today to 25% by 2028 (MS Est.) 
+
+Securitized credit issuers                 MWs in Securitized Deals vs Global Capacity Ambition, Leading Issuers 
+have ambitious global growth 
+plans, but have to date 
+securitized just 10% of their 
+                                            6000 
+planned or operational 
+capacity (by MWs). 
+                                            5000                                       Est. Securitized Capacity by 
+                                                                                       ABS 
+Combined, the ABS issuers 
+have >25GW of planned                       4000                                       Est. Securitized Capacity by 
+capacity but have securitized                                                          CMBS 
+<3GW to date. 
+                                            3000                                       Announced Capacity 
+                                                                                       Remaining 
+While 90% of securitized MWs 
+are at present in the US, we                2000 
+see scope for greater 
+expansion into Canadian and                 1000 
+European markets as well. 
+                                              0 
+                                                    Aligned     Stack      Vantage     Switch     CyrusOne 
+
+Source: Company Filings, Morgan Stanley Research                                                                9 
+
+    | Issuer     | Est. Securitized Capacity by ABS (MWs) | Est. Securitized Capacity by CMBS (MWs) | Announced Capacity Remaining (MWs) | Total Capacity (MWs) |
+    |------------|----------------------------------------|-----------------------------------------|------------------------------------|----------------------|
+    | Aligned    | 250                                    | 50                                      | 4700                               | 5000                 |
+    | Stack      | 150                                    | 25                                      | 3825                               | 4000                 |
+    | Vantage    | 550                                    | 100                                     | 1350                               | 2000                 |
+    | Switch     | 150                                    | 50                                      | 1800                               | 2000                 |
+    | CyrusOne   | 300                                    | 25                                      | 675                                | 1000                 |
+
+    Summary: This stacked bar chart titled "MWs in Securitized Deals vs Global Capacity Ambition, Leading Issuers" compares the estimated securitized capacity (by ABS and CMBS) against the announced capacity remaining for five leading issuers: Aligned, Stack, Vantage, Switch, and CyrusOne. The Y-axis represents capacity in megawatts (MWs), ranging from 0 to 6000. A dominant trend across all issuers is that the vast majority of their announced capacity remains unsecuritized, highlighted by the large beige portions of the bars. Aligned has the largest total announced capacity at 5000 MWs, while CyrusOne has the smallest at 1000 MWs. Vantage stands out with the largest absolute securitized capacity, particularly for ABS (approximately 550 MWs), and also shows a noticeable CMBS component.
+
+    Explanation: The chart visually reinforces the broader context provided, indicating that despite ambitious global growth plans, leading securitized credit issuers have securitized only a small fraction (around 10%) of their total planned or operational capacity. The substantial "Announced Capacity Remaining" for each issuer demonstrates the significant untapped potential for securitization. This aligns with Morgan Stanley's estimate that the securitization rate is projected to climb from 10% today to 25% by 2028, underscoring the future growth opportunity in this market.
+
+    | Issuer | Est. Securitized Capacity by ABS (MW) | Est. Securitized Capacity by CMBS (MW) | Total Securitized Capacity (MW) | Announced Capacity Remaining (MW) | Total Capacity (MW) |
+    |--------|---------------------------------------|----------------------------------------|---------------------------------|-----------------------------------|---------------------|
+    | Aligned | 250 | 50 | 300 | 4700 | 5000 |
+    | Stack | 150 | 30 | 180 | 3820 | 4000 |
+    | Vantage | 500 | 100 | 600 | 1400 | 2000 |
+    | Switch | 200 | 30 | 230 | 1770 | 2000 |
+    | CyrusOne | 300 | 50 | 350 | 650 | 1000 |
+
+    Summary: This stacked bar chart, titled "MWs in Securitized Deals vs Global Capacity Ambition, Leading Issuers," displays the planned and operational capacity in Megawatts (MW) for five leading issuers: Aligned, Stack, Vantage, Switch, and CyrusOne. Each issuer's total capacity is segmented into "Est. Securitized Capacity by ABS" (dark blue), "Est. Securitized Capacity by CMBS" (light blue), and "Announced Capacity Remaining" (beige). The chart highlights that a substantial portion of the announced capacity for all issuers remains unsecuritized, particularly for Aligned, which has the largest total capacity but also the largest unsecuritized portion. Vantage stands out with the highest absolute securitized capacity (600 MW), while for most, ABS financing significantly outweighs CMBS in securitization.
+
+    Explanation: The chart visually supports Morgan Stanley's observation that while leading securitized credit issuers have ambitious global growth plans (evidenced by their total announced capacities), only a small fraction of this capacity has been securitized to date. This stark difference between planned/operational capacity and currently securitized capacity underscores a significant financing gap, reinforcing the broader context from the accompanying text that the securitization rate is poised to climb from 10% to 25% by 2028. This implies a massive opportunity for future securitization deals and alternative financing, as further hinted by the subsequent page discussing an $800 billion opportunity for private credit.

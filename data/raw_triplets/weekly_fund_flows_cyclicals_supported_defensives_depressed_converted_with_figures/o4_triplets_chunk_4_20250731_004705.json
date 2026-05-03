@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Global Fund Flows FX Flows",
+      "type": "Table",
+      "brief": "Weekly cross-border FX fund flows by region",
+      "description": "Breakdown of four-week sum and weekly FX flows across currencies and regions",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "|               | 4wk sum | 23-Jul | 16-Jul | 9-Jul | 2-Jul | 4wk avg | 23-Jul % AUM | Z-score of 4wk sum |\n|---------------|---------|--------|--------|-------|-------|---------|--------------|--------------------|\n| Total         | 78,381  | 24,695 | 18,841 | 19,058| 15,788| 0.15    | 0.19         | 2.20               |\n| G10           | 41,136  | 13,691 | 12,694 | 7,380 | 7,371 | 0.12    | 0.16         | 1.43               |\n| USD           | 17,938  | 6,283  | 5,544  | 2,865 | 3,246 | 0.09    | 0.13         | 0.35               |\n| EUR           | 6,722   | 2,210  | 2,039  | 1,494 | 978   | 0.15    | 0.20         | 2.00               |\n| GBP           | 6,227   | 1,696  | 2,019  | 1,144 | 1,367 | 0.17    | 0.19         | 2.43               |\n| JPY           | 3,566   | 1,330  | 1,466  | 445   | 325   | 0.12    | 0.18         | 1.76               |\n| ...           | ...     | ...    | ...    | ...   | ...   | ...     | ...          | ...                |",
+        "key_insight": "Four-week sum of FX flows reached USD 78,381m, led by G10 at USD 41,136m"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Total FX Flows",
+      "type": "Metric",
+      "brief": "4-week sum of cross-border FX fund flows",
+      "description": "Aggregate cross-border equity and fixed income flows over four weeks ending July 23, 2025",
+      "properties": {
+        "value": 78381,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows – G10 FX Flows",
+      "type": "Metric",
+      "brief": "4-week sum of G10 currency FX fund flows",
+      "description": "Cross-border fund flows for G10 currencies over four weeks ending July 23, 2025",
+      "properties": {
+        "value": 41136,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Global Fund Flows FX Flows",
+      "target": "Global Fund Flows – Total FX Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 78381,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows total four-week FX flow sum"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows FX Flows",
+      "target": "Global Fund Flows – G10 FX Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 41136,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows G10 four-week FX flow sum"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,123 @@
+Goldman Sachs                                                                                                  Weekly Fund Flows 
+
+                                                                         Global Fund Flows Summary 
+                                                                Millions USD                           % AUM 
+                                                        4wk sum             23-Jul           4wk avg             23-Jul 
+                               Equity                     29,084             5,798              0.03              0.02 
+                               Fixed Income               86,605            26,965              0.24              0.30 
+                                 of which: EM             11,531             5,708              0.50              0.98 
+                               Money Markets              74,716             13,707             0.18              0.13 
+                               FX Flows*                  78,381            24,695             0.15               0.19 
+                               *Cross-border fund flows, excluding hard currency and FX-hedged funds 
+
+                             Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research 
+
+                             Chart of the Week 
+
+                               $bn                 Flows into Cyclical vs Defensive* Equity Funds (4wma)                 $bn 
+                               4                                                                                            4 
+                                                                                   -Cyclicals ex. Tech 
+                               3                                                                                           3 
+                                                                                   -Defensives 
+                               2                                                                                           2 
+
+                               1                                                                                           1 
+
+                               0                                                                                            0 
+
+                               -1                                                                                           -1 
+
+                               -2                                                                                           -2 
+
+                               -3                                                                                           -3 
+
+                               -4                                                                                           -4 
+                               Jul-24       Sep-24       Nov-24       Jan-25       Mar-25      May-25        Jul-25 
+                               * Cyclicals include commodities/materials, energy, financials, and industrial sector funds; defensives include 
+                               health care/biotech, real estate, telecom, and utilities sector funds. 
+
+                             Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research 
+
+                               $bn                 Foreign Flows into US Equity Funds by Domicile (4wma)                 $bn 
+                                10                                                                                        10 
+
+                                         -Rest of world ex. US 
+                                 8                                                                                        8 
+                                          -Euro area 
+                                 6                                                                                        6 
+
+                                 4                                                                                        4 
+
+                                 2                                                                                        2 
+
+                                 0                                                                                        0 
+
+                                -2                                                                                        -2 
+
+                                 -4                                                                                       -4 
+                                 Jan-24      Apr-24        Jul-24       Oct-24      Jan-25       Apr-25        Jul-25 
+
+                             Source: EPFR, Goldman Sachs Global Investment Research 
+
+25 July 2025                                                                                                                  2 
+
+    | Date       | Rest of world ex. US Flows ($bn) | Euro area Flows ($bn) |
+    |------------|----------------------------------|-----------------------|
+    | Jan-24     | +0.8                             | +0.2                  |
+    | Feb-24     | +1.2                             | +1.0                  |
+    | Mar-24     | +0.7                             | +0.2                  |
+    | Apr-24     | +0.5                             | -0.5                  |
+    | May-24     | +0.9                             | +0.8                  |
+    | Jun-24     | +1.2                             | +1.2                  |
+    | Jul-24     | +1.5                             | +1.7                  |
+    | Aug-24     | +1.8                             | +1.5                  |
+    | Sep-24     | +1.8                             | +1.0                  |
+    | Early Oct-24 | +1.5                             | +0.5                  |
+    | Mid-Oct-24 | +0.5                             | +1.5                  |
+    | Late Oct-24 | -0.8                             | +2.5                  |
+    | Mid-Nov-24 | +0.8                             | +6.0                  |
+    | Late Nov-24 | +2.0                             | +8.1                  |
+    | Dec-24     | +2.5                             | +5.5                  |
+    | Jan-25     | +3.0                             | +3.5                  |
+    | Mid-Feb-25 | +2.0                             | +1.0                  |
+    | Mid-Mar-25 | +2.5                             | +0.5                  |
+    | Apr-25     | +1.0                             | -2.5                  |
+    | Mid-May-25 | +0.5                             | -1.0                  |
+    | Jun-25     | +0.5                             | -0.5                  |
+    | Jul-25     | +0.7                             | +0.0                  |
+
+    Summary: The chart "Foreign Flows into US Equity Funds by Domicile (4wma)" tracks the 4-week moving average of foreign investment flows into US equity funds, segmented by "Rest of world ex. US" and "Euro area," from January 2024 to July 2025. Both regions began 2024 with modest positive inflows, maintaining this trend through mid-year. A significant inflection point occurred in late 2024, with Euro area flows surging to a peak of approximately +$8.1 billion in late November, while "Rest of world ex. US" flows peaked later at +$3.0 billion in January 2025. Subsequently, a sharp reversal saw both categories turn negative in Q2 2025, with Euro area experiencing a notable trough of -$2.5 billion in April 2025, before stabilizing near zero by July 2025, as "Rest of world ex. US" flows also remained subdued.
+
+    Explanation: This chart provides visual evidence supporting the broader context that foreign demand for US equities has significantly slowed, particularly from Europe, as highlighted in the page's introductory text. The shift from strong inflows in late 2024 to substantial outflows in early-to-mid 2025 for both Euro area and Rest of World ex. US domiciles indicates a notable reduction in foreign investor appetite for US equity assets, consistent with trends of "repatriation out of US assets" and subdued foreign demand across major regions.
+
+    | Date         | Cyclicals ex. Tech ($bn) | Defensives ($bn) |
+    |--------------|--------------------------|------------------|
+    | Jul-24       | -0.4                     | -0.4             |
+    | Mid-Aug-24   | 0.4                      | 0.0              |
+    | Sep-24       | -1.8                     | -0.5             |
+    | Mid-Sep-24   | -1.2                     | -1.2             |
+    | Oct-24       | -0.7                     | -1.3             |
+    | Early Nov-24 | -0.2                     | -0.5             |
+    | Late Nov-24  | 2.6                      | -0.9             |
+    | Early Dec-24 | 1.0                      | -0.8             |
+    | Mid-Jan-25   | -0.2                     | -0.2             |
+    | Early Feb-25 | -0.5                     | -0.3             |
+    | Mid-Feb-25   | 1.4                      | -0.9             |
+    | Early Mar-25 | 0.8                      | 0.1              |
+    | Mid-Mar-25   | 0.2                      | 0.5              |
+    | Late Mar-25  | -0.1                     | 0.0              |
+    | Early Apr-25 | -0.2                     | -0.2             |
+    | Mid-Apr-25   | -0.6                     | -0.5             |
+    | Late Apr-25  | -1.2                     | -0.8             |
+    | Early May-25 | -3.4                     | -2.0             |
+    | Mid-May-25   | -2.0                     | -1.2             |
+    | Late May-25  | -1.0                     | -1.0             |
+    | Early Jun-25 | -0.2                     | -0.5             |
+    | Mid-Jun-25   | 0.8                      | 0.2              |
+    | Late Jun-25  | 1.5                      | 0.5              |
+    | Early Jul-25 | 2.0                      | 0.0              |
+    | Mid-Jul-25   | 2.8                      | -1.0             |
+
+    Summary: This line chart, titled 'Flows into Cyclical vs Defensive Equity Funds (4wma)', illustrates the 4-week moving average equity fund flows in billions of USD from July 2024 to July 2025. It compares 'Cyclicals ex. Tech' (blue line) and 'Defensives' (red line). Cyclical flows exhibited high volatility, peaking at around +$2.6bn in late November 2024 before a sharp decline to a trough of -$3.4bn in early May 2025. Defensive flows generally remained around zero or slightly negative, with a brief positive period in mid-March 2025 peaking at +$0.5bn. A significant divergence emerged from May 2025, with cyclical flows rebounding strongly to nearly +$3bn by mid-July 2025, while defensive flows simultaneously dipped further into negative territory.
+
+    Explanation: This chart, designated as the "Chart of the Week," directly supports the accompanying text's observation of a "more notable divergence between flows into cyclicals versus defensives since the beginning of July." The pronounced shift indicates a rotation in investor preference, favoring economically sensitive sectors (cyclicals) and withdrawing from more stable, defensive sectors, likely signaling increased confidence in the economic outlook.

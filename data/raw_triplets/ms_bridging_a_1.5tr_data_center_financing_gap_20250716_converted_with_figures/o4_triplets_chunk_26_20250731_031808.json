@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "DataCenterFinancing – Microsoft",
+      "type": "Company",
+      "brief": "Leading hyperscaler and investor",
+      "description": "Technology giant investing in AI startups and data centers",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Amazon.com",
+      "type": "Company",
+      "brief": "E-commerce and cloud services leader",
+      "description": "Operates AWS data centers receiving power agreements",
+      "properties": {
+        "ticker": "AMZN",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – BlackRock",
+      "type": "Company",
+      "brief": "Global investment management firm",
+      "description": "Participant in AI Infrastructure Partnership formation",
+      "properties": {
+        "ticker": "BLK",
+        "sector": "Financials"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Constellation Energy",
+      "type": "Company",
+      "brief": "Utility company providing power",
+      "description": "Partnered with Microsoft on power agreement",
+      "properties": {
+        "ticker": "CEG",
+        "sector": "Utilities"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – US VC deal value 1Q25",
+      "type": "Metric",
+      "brief": "Total US VC deal value in 1Q25",
+      "description": "Size of venture capital funding in the US for data center tech",
+      "properties": {
+        "value": 90,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – AI startup VC share 1Q25",
+      "type": "Metric",
+      "brief": "Share of VC funding to AI startups in 1Q25",
+      "description": "Portion of global VC dollars to AI and ML startups",
+      "properties": {
+        "value": 60,
+        "unit": "%",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – OpenAI VC funding 1Q25",
+      "type": "Metric",
+      "brief": "OpenAI funding round size in 1Q25",
+      "description": "Flagship $40bn round driving data center investment",
+      "properties": {
+        "value": 40,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Anthropic VC funding 1Q25",
+      "type": "Metric",
+      "brief": "Anthropic total VC funding in 1Q25",
+      "description": "Funding for AI startup Anthropic in multiple rounds",
+      "properties": {
+        "value": 4.5,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Groq VC funding 1Q25",
+      "type": "Metric",
+      "brief": "Groq VC funding round size in 1Q25",
+      "description": "AI startup Groq's funding that may drive data center use",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – US venture investment 2024",
+      "type": "Metric",
+      "brief": "Total VC investment in US in 2024",
+      "description": "Shows scale of venture capital fueling data center projects",
+      "properties": {
+        "value": 192,
+        "unit": "USD bn",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – US corporate VC investment 2024",
+      "type": "Metric",
+      "brief": "Corporate VC investment in US in 2024",
+      "description": "Contribution of corporate venture capital to overall VC funding",
+      "properties": {
+        "value": 108,
+        "unit": "USD bn",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – AI Infrastructure Partnership formation",
+      "type": "Event",
+      "brief": "Formation of AI Infrastructure Partnership",
+      "description": "BlackRock, GIP, Microsoft, and MGX formed AIP partnership",
+      "properties": {
+        "date": null,
+        "event_type": "partnership_formation",
+        "participants_count": 4
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Stargate project announcement",
+      "type": "Event",
+      "brief": "Announcement of Stargate data center project",
+      "description": "Hyperscaler-led Stargate project announced in January 2025",
+      "properties": {
+        "date": "2025-01-01",
+        "event_type": "project_announcement"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Talen Energy nuclear energy partnership announcement",
+      "type": "Event",
+      "brief": "Nuclear energy partnership announcement by Talen Energy",
+      "description": "Talen Energy partnership to supply nuclear power to AWS data centers",
+      "properties": {
+        "date": "2025-06-01",
+        "event_type": "power_agreement",
+        "region": "Pennsylvania"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Microsoft-Constellation Energy power agreement announcement",
+      "type": "Event",
+      "brief": "Power agreement announcement between Microsoft and Constellation Energy",
+      "description": "Announced collaboration for electricity supply to data centers",
+      "properties": {
+        "date": null,
+        "event_type": "power_agreement"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DataCenterFinancing – Talen Energy nuclear energy partnership announcement",
+      "target": "DataCenterFinancing – Amazon.com",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Supplies electricity to Amazon AWS data centers"
+    },
+    {
+      "source": "DataCenterFinancing – Microsoft-Constellation Energy power agreement announcement",
+      "target": "DataCenterFinancing – Microsoft",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Provides power supply collaboration for Microsoft data centers"
+    }
+  ],
+  "scenarios": []
+}

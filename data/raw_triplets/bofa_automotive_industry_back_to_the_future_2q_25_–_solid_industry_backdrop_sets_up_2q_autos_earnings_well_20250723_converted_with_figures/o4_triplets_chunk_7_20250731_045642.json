@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T15 – Automotive Industry 2025 Quarterly EPS Estimate Revisions",
+      "type": "Table",
+      "brief": "2025 quarterly EPS revisions for automotive companies",
+      "description": "Changes to 2Q25–4Q25 EPS forecasts across OEMs, suppliers, and dealers",
+      "properties": {
+        "table_id": "T15",
+        "table_content": "EPS                                        2Q25                                       3Q25                                      4Q25\nTicker                        Old         New          Change           Old         New          Change           Old         New           Change\nOEMs\nLCID                         (0.19)      (0.18)          nm            (0.21)       (0.17)         nm            (0.18)       (0.12)          nm\nRIVN                         (0.65)      (0.57)          nm            (0.75)       (0.71)         nm             (0.68)      (0.58)          nm\nSuppliers\nADNT                                                                    0.51        0.48           -5.9%          0.54        0.53           -1.9%\nAPTV                         2.04         1.89          -7.4%           2.10         1.93          -8.1%          2.25        2.02          -10.2%\nAXL                          0.16         0.12          -25.0%          0.18        0.10          -44.4%          0.17        0.02          -88.2%\nBWA                          1.22         1.16          -4.9%           1.24         1.14          -8.1%           1.24         1.17          -5.6%\nPHIN                         1.09         1.09           0.0%           1.23         1.22          -0.6%           1.20         1.22           2.0%\nLEA                          3.30         3.30           0.0%           3.15         3.15           0.0%           3.35         3.35           0.0%\nMBLY                         0.11         0.11           0.0%           0.06         0.06           0.0%           0.12         0.12           0.0%\nVC                           2.14         2.75          28.5%           2.29         2.35           2.6%           2.33         2.29          -1.7%\nDealers\nABG                          6.60         6.88           4.2%           6.90         6.90           0.0%           7.20         6.75          -6.3%\nAN                           4.85         4.85           0.0%           4.86         4.80          -1.2%           4.88         4.88           0.0%\nGPI                         10.90        10.75          -1.4%          11.45        11.36          -0.8%           10.61        10.40          -2.0%\nLAD                          9.00         9.68           7.6%           9.68         9.29          -4.0%           9.15         8.80          -3.8%\nSource: BofA Global Research estimates\nNote: ADNT FY3Q25 = CY2Q25",
+        "key_insight": "Suppliers saw mixed EPS revisions, led by Visteon's 28.5% increase for 2Q25, while OEMs remained near previous estimates."
+      }
+    },
+    {
+      "name": "Table T16 – Automotive Industry 2025-26 Annual EPS Estimate Revisions",
+      "type": "Table",
+      "brief": "2025–26 annual EPS revisions for automotive companies",
+      "description": "Changes to 2025 and 2026 EPS forecasts across OEMs, suppliers, and dealers",
+      "properties": {
+        "table_id": "T16",
+        "table_content": "EPS                                                     2025                                                       2026\nTicker                                 Old              New                 Change                 Old             New                 Change\nOEMs\nLCID                                   (0.71)           (0.59)                nm                  (0.55)           (0.61)                 nm\nRIVN                                   (2.50)           (2.28)                nm                  (2.10)           (2.12)                 nm\nSuppliers\nADNT                                    2.00             1.90                -5.0%                 2.75             2.51                -8.7%\nAPTV                                    7.49             7.53                 0.5%                 8.70             8.31                -4.5%\nAXL                                     0.45             0.32                -28.9%                0.66             0.64                -3.0%\nBWA                                     4.45             4.37                -1.8%                 4.82             4.73                -1.9%\nPHIN                                    4.48             4.49                 0.3%                 5.71             5.80                 1.6%\nLEA                                    12.90            12.90                 0.0%                16.80            16.80                 0.0%\nMBLY                                    0.30             0.30                 0.0%                 0.33             0.33                 0.0%\nVC                                      8.50             9.79                15.2%                 9.40            10.41                10.7%\nDealers\nABG                                     27.52            27.35                -0.6%               28.00            27.92                -0.3%\nAN                                      19.35            19.20                -0.8%               21.30            21.30                 0.0%\nGPI                                     43.75            43.30                -1.0%               46.90            46.70                -0.4%\nLAD                                     35.45            35.41                -0.1%               42.15            41.70                -1.1%\nSource: BofA Global Research estimates",
+        "key_insight": "Supplier EPS estimates for 2025 were up, led by Visteon's 15.2% increase, while OEMs saw minimal revisions."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T15 – Automotive Industry 2025 Quarterly EPS Estimate Revisions",
+      "target": "Table T16 – Automotive Industry 2025-26 Annual EPS Estimate Revisions",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Quarterly EPS estimate revisions inform annual forecast changes."
+    }
+  ],
+  "scenarios": []
+}

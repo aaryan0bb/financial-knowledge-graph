@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "name": "GS Macro – September rate cut",
+      "type": "Event",
+      "brief": "projected Fed rate cut in September",
+      "description": "anticipated federal funds rate reduction in September",
+      "properties": {
+        "date": null,
+        "event_type": "rate_cut",
+        "region": "US"
+      }
+    },
+    {
+      "name": "GS Macro – US housing outlook",
+      "type": "Factor",
+      "brief": "outlook for US housing market",
+      "description": "expected weak housing market due to faltering demand and supply absorption issues",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro – residential investment growth",
+      "type": "Factor",
+      "brief": "growth in US residential investment",
+      "description": "forecast to remain weak for the remainder of the year",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro – mortgage rate rebound",
+      "type": "Factor",
+      "brief": "recent rebound in mortgage rates",
+      "description": "increase in mortgage rates undermining residential investment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GS Macro – national home price change (2025)",
+      "type": "Metric",
+      "brief": "forecast home price increase for 2025",
+      "description": "projected 0.2% rise in national home prices during December-over-December 2025",
+      "properties": {
+        "value": 0.2,
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "GS Macro – national home price change (2026)",
+      "type": "Metric",
+      "brief": "forecast home price increase for 2026",
+      "description": "projected 0.8% rise in national home prices during December-over-December 2026",
+      "properties": {
+        "value": 0.8,
+        "unit": "%",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GS Macro – US net immigration rate (April 2025)",
+      "type": "Metric",
+      "brief": "annualized US net immigration pace in April",
+      "description": "estimated at 0.6 million annualized immigrants in April 2025",
+      "properties": {
+        "value": 0.6,
+        "unit": "mn",
+        "as_of": "April 2025"
+      }
+    },
+    {
+      "name": "GS Macro – US net immigration rate (June 2025)",
+      "type": "Metric",
+      "brief": "annualized US net immigration pace in June",
+      "description": "estimated at 0.5 million annualized immigrants in June 2025",
+      "properties": {
+        "value": 0.5,
+        "unit": "mn",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "GS Macro – US net immigration slowdown",
+      "type": "Factor",
+      "brief": "gradual slowdown in US net immigration",
+      "description": "decline from 0.6mn in April to 0.5mn in June indicates slowing immigration",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro – breakeven payroll job growth rate (current)",
+      "type": "Metric",
+      "brief": "current payroll growth needed to stabilize unemployment",
+      "description": "estimated 90k payroll jobs per month needed to keep unemployment stable in July 2025",
+      "properties": {
+        "value": 90,
+        "unit": "k per month",
+        "as_of": "July 2025"
+      }
+    },
+    {
+      "name": "GS Macro – breakeven payroll job growth rate (end-2025)",
+      "type": "Metric",
+      "brief": "projected payroll growth needed to stabilize unemployment by end-2025",
+      "description": "expected to lower to 70k per month by end-2025",
+      "properties": {
+        "value": 70,
+        "unit": "k per month",
+        "as_of": "end-2025"
+      }
+    },
+    {
+      "name": "GS Macro – Japanese Upper House elections outcome",
+      "type": "Event",
+      "brief": "result of recent Japanese Upper House elections",
+      "description": "narrow loss of ruling coalition majority in Japan's Upper House elections",
+      "properties": {
+        "date": null,
+        "event_type": "election",
+        "region": "Japan",
+        "result": "narrow loss of majority"
+      }
+    },
+    {
+      "name": "GS Macro – minority government continuation",
+      "type": "Factor",
+      "brief": "continuation of minority government in Japan",
+      "description": "expectation that current ruling coalition will govern as a minority in Japan",
+      "properties": {
+        "direction": "continued",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "GS Macro – fiscal policy bias",
+      "type": "Factor",
+      "brief": "bias in Japanese fiscal policy",
+      "description": "expansionary bias expected from opposition proposals on tax cuts and social security",
+      "properties": {
+        "direction": "expansionary",
+        "region": "Japan"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "GS Macro – mortgage rate rebound",
+      "target": "GS Macro – residential investment growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Mortgage rate rebound led to faltering residential investment"
+    },
+    {
+      "source": "GS Macro – residential investment growth",
+      "target": "GS Macro – US housing outlook",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak residential investment informs the weak US housing outlook"
+    },
+    {
+      "source": "GS Macro – US net immigration slowdown",
+      "target": "GS Macro – breakeven payroll job growth rate (end-2025)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "k per month",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Immigration slowdown lowers breakeven rate by 20k per month"
+    },
+    {
+      "source": "GS Macro – Japanese Upper House elections outcome",
+      "target": "GS Macro – minority government continuation",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Election result causes ruling coalition to continue in minority"
+    },
+    {
+      "source": "GS Macro – Japanese Upper House elections outcome",
+      "target": "GS Macro – fiscal policy bias",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Election outcome portends expansionary bias in Japanese fiscal policy"
+    }
+  ],
+  "scenarios": []
+}

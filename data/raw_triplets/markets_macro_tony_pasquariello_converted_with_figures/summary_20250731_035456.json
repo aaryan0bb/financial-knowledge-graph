@@ -1,0 +1,66 @@
+{
+  "report": "markets macro - Tony Pasquariello_converted_with_figures.txt",
+  "timestamp": "2025-07-31T03:54:56.531266",
+  "total_chunks": 8,
+  "total_entities": 83,
+  "total_relationships": 33,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 6,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_034247.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 21,
+      "relationships": 7,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_034449.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 17,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_034603.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 15,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_034817.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 11,
+      "relationships": 6,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_034956.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_035120.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_035231.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 5,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250731_035454.json"
+    }
+  ]
+}

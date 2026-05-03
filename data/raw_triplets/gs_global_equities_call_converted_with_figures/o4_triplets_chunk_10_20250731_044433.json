@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "USEquity – Boundless Bio Inc.",
+      "type": "Company",
+      "brief": "Biotech company rated Early-Stage",
+      "description": "Boundless Bio Inc. recently received an Early-Stage rating, indicating early development phase",
+      "properties": {
+        "ticker": "BOL",
+        "rating_outlook": "Early-Stage"
+      }
+    },
+    {
+      "name": "USEquity – Arcutis Biotherapeutics Inc.",
+      "type": "Company",
+      "brief": "Biotherapeutics firm rated Neutral",
+      "description": "Arcutis Biotherapeutics Inc. received a Neutral rating in the latest analyst update",
+      "properties": {
+        "ticker": "ARQ",
+        "rating_outlook": "Neutral"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

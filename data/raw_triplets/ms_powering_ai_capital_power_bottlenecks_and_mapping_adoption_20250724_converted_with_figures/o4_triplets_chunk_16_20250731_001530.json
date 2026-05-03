@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Morgan Stanley AI Coding Model Performance and Cost Comparison",
+      "type": "Table",
+      "brief": "Comparison of AI coding models' accuracy, cost, and formatting performance",
+      "description": "Shows trade-offs between accuracy, cost, and edit format quality of various AI coding models, informing investment and implementation decisions in AI-driven software development.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Model | Percent correct | Cost | Command | Correct edit format |\n|---|---|---|---|---|\n| o3 (high) + gpt-4.1 | 82.7% | $69.29 | aider --model o3 --architect | 100.0% |\n| o3 (high) | 79.6% | $111.03 | aider --model o3 | 95.1% |\n| Gemini 2.5 Pro Preview 05-06 | 76.9% | $37.41 | aider --model gemini/gemini-2.5-pro-preview-05-06 | 97.3% |\n| Gemini 2.5 Pro Preview 03-25 | 72.9% | $29.74 (est.) | aider --model gemini/gemini-2.5-pro-preview-03-25 | 92.4% |\n| o4-mini (high) | 72.0% | $19.64 | aider --model o4-mini | 90.7% |\n| claude-3-7-sonnet-20250219 (32k thinking tokens) | 64.9% | $36.83 | aider --model anthropic/claude-3-7-sonnet-20250219 --thinking-tokens 32k | 97.8% |\n| DeepSeek R1 + claude-3-5-sonnet-20241022 | 64.0% | $13.29 | aider --architect --model r1 --editor-model sonnet | 100.0% |",
+        "key_insight": "Models range from 64.0% to 82.7% accuracy with costs from $13.29 to $111.03 and no clear correlation between accuracy and cost."
+      }
+    },
+    {
+      "name": "Morgan Stanley - Percent Correct",
+      "type": "Metric",
+      "brief": "Accuracy of AI models in coding tasks",
+      "description": "Key indicator of AI models' coding accuracy, crucial for adoption decisions",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025-07-24",
+        "min": 64.0,
+        "max": 82.7
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Morgan Stanley AI Coding Model Performance and Cost Comparison",
+      "target": "Morgan Stanley - Percent Correct",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows distribution of percent correct values for AI coding models"
+    }
+  ],
+  "scenarios": []
+}

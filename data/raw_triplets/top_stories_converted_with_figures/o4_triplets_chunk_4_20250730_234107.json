@@ -1,0 +1,358 @@
+{
+  "entities": [
+    {
+      "name": "Global Markets - Eurozone Auto Registrations",
+      "type": "Metric",
+      "brief": "Monthly Y/Y change in vehicle registrations",
+      "description": "Auto registrations fell sharply in June, indicating weaker demand",
+      "properties": {
+        "value": -7.3,
+        "unit": "%",
+        "as_of": "2023-06"
+      }
+    },
+    {
+      "name": "Global Markets - Eurozone Flash Services PMI",
+      "type": "Metric",
+      "brief": "Flash services purchasing managers index",
+      "description": "Eurozone services PMI improved in July, indicating sector strength",
+      "properties": {
+        "value": 51.2,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Markets - Eurozone Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Flash manufacturing purchasing managers index",
+      "description": "Eurozone manufacturing PMI was in line with expectations in July",
+      "properties": {
+        "value": 49.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Markets - Jun F Building Permits Release",
+      "type": "Event",
+      "brief": "Release of final June building permits",
+      "description": "June building permits used to gauge housing market activity",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 1397,
+        "prior_value": 1397,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jul 19 Initial Jobless Claims Release",
+      "type": "Event",
+      "brief": "Release of initial U.S. jobless claims",
+      "description": "Initial jobless claims data indicates trends in unemployment",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 226,
+        "prior_value": 221,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jun Chicago Fed Nat Activity Index Release",
+      "type": "Event",
+      "brief": "Release of Chicago Fed National Activity Index",
+      "description": "Chicago Fed index measures national economic activity levels",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": -0.15,
+        "prior_value": -0.28,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul 12 Continuing Claims Release",
+      "type": "Event",
+      "brief": "Release of continuing U.S. jobless claims",
+      "description": "Continuing claims data gauges sustained unemployment trends",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 1953.5,
+        "prior_value": 1956,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Manufacturing PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. manufacturing PMI release for July",
+      "description": "S&P Global preliminary PMI gauges U.S. manufacturing activity",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 52.7,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Services PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. services PMI release for July",
+      "description": "S&P Global preliminary PMI assesses U.S. services sector health",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 53,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Composite PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. composite PMI release for July",
+      "description": "Composite PMI combines U.S. manufacturing and services data",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 52.8,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jun New Home Sales Release",
+      "type": "Event",
+      "brief": "Release of U.S. new home sales for June",
+      "description": "New home sales data tracks housing market demand in the U.S.",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 650,
+        "prior_value": 623,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jun New Home Sales MoM Release",
+      "type": "Event",
+      "brief": "Month-on-month change in June new home sales",
+      "description": "Monthly change in new home sales indicates housing demand swings",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 4.33,
+        "prior_value": -13.7,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Markets - Fed External Communications Blackout",
+      "type": "Event",
+      "brief": "Federal Reserve communications blackout period",
+      "description": "Fed's communications blackout ahead of policy meetings",
+      "properties": {
+        "date": null,
+        "event_type": "communication_blackout"
+      }
+    },
+    {
+      "name": "Global Markets - Birkenstock Rating Upgrade",
+      "type": "Event",
+      "brief": "Birkenstock raised to Buy by Goldman",
+      "description": "Goldman upgraded Birkenstock to Buy with $60 price target",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Buy",
+        "price_target": 60,
+        "unit": "USD",
+        "analyst_firm": "Goldman"
+      }
+    },
+    {
+      "name": "Global Markets - Boeing Rating Upgrade",
+      "type": "Event",
+      "brief": "Boeing raised to Outperform by KGI Securities",
+      "description": "KGI Securities upgraded Boeing to Outperform with $266 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 266,
+        "unit": "USD",
+        "analyst_firm": "KGI Securities"
+      }
+    },
+    {
+      "name": "Global Markets - General Dyna Rating Upgrade",
+      "type": "Event",
+      "brief": "General Dyna raised to Outperform by Wolfe",
+      "description": "Wolfe upgraded General Dyna to Outperform with $360 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 360,
+        "unit": "USD",
+        "analyst_firm": "Wolfe"
+      }
+    },
+    {
+      "name": "Global Markets - Northern Trus Rating Upgrade",
+      "type": "Event",
+      "brief": "Northern Trus raised to Peerperform by Wolfe",
+      "description": "Wolfe upgraded Northern Trus to Peerperform",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Peerperform",
+        "analyst_firm": "Wolfe"
+      }
+    },
+    {
+      "name": "Global Markets - Spoti Rating Upgrade",
+      "type": "Event",
+      "brief": "Spoti rated Outperform by Oppenheimer",
+      "description": "Oppenheimer rated Spoti to Outperform with $800 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 800,
+        "unit": "USD",
+        "analyst_firm": "Oppenheimer"
+      }
+    },
+    {
+      "name": "Global Markets - Travel + Leisure Co Rating Upgrade",
+      "type": "Event",
+      "brief": "Travel + Leisure Co raised to Outperform by Mizuho Securities",
+      "description": "Mizuho Securities upgraded Travel + Leisure Co to Outperform",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "analyst_firm": "Mizuho Securities"
+      }
+    },
+    {
+      "name": "Global Markets - Varonis Systems Rating Upgrade",
+      "type": "Event",
+      "brief": "Varonis Systems raised to Buy by Jefferies",
+      "description": "Jefferies upgraded Varonis Systems to Buy with $65 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Buy",
+        "price_target": 65,
+        "unit": "USD",
+        "analyst_firm": "Jefferies"
+      }
+    },
+    {
+      "name": "Global Markets - AT&T Rating Downgrade",
+      "type": "Event",
+      "brief": "AT&T cut to Hold by HSBC",
+      "description": "HSBC downgraded AT&T to Hold with $30 price target",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 30,
+        "unit": "USD",
+        "analyst_firm": "HSBC"
+      }
+    },
+    {
+      "name": "Global Markets - BankUni Rating Downgrade",
+      "type": "Event",
+      "brief": "BankUni set to Neutral by Piper Sandler",
+      "description": "Piper Sandler rated BankUni to Neutral with $43 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 43,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Chubb Rating Downgrade",
+      "type": "Event",
+      "brief": "Chubb cut to Neutral by Piper Sandler",
+      "description": "Piper Sandler downgraded Chubb to Neutral with $283 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 283,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Enovix Rating Downgrade",
+      "type": "Event",
+      "brief": "Enovix cut to Neutral by JPMorgan",
+      "description": "JPMorgan downgraded Enovix to Neutral with $12 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 12,
+        "unit": "USD",
+        "analyst_firm": "JPMorgan"
+      }
+    },
+    {
+      "name": "Global Markets - Goosehead Insurance Rating Downgrade",
+      "type": "Event",
+      "brief": "Goosehead Insurance cut to Neutral by Piper Sandler",
+      "description": "Piper Sandler downgraded Goosehead Insurance to Neutral with $109 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 109,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Johnson Controls Rating Downgrade",
+      "type": "Event",
+      "brief": "Johnson Controls cut to Hold by Jefferies",
+      "description": "Jefferies downgraded Johnson Controls to Hold with $120 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 120,
+        "unit": "USD",
+        "analyst_firm": "Jefferies"
+      }
+    },
+    {
+      "name": "Global Markets - Saia Rating Downgrade",
+      "type": "Event",
+      "brief": "Saia cut to Hold by Stifel",
+      "description": "Stifel downgraded Saia to Hold with $306 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 306,
+        "unit": "USD",
+        "analyst_firm": "Stifel"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

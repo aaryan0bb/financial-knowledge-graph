@@ -1,0 +1,66 @@
+Goldman Sachs                                                                                                               Weekly Fund Flows 
+
+ Fixed Income & Equity Flows 
+
+                                                                         Global Fund Flows 
+                                                        Millions USD                                     % AUM             Z-score of 
+                                4wk sum       23-Jul       16-Jul        9-Jul        2-Jul      4wk avg       23-Jul      4wk sum 
+ Total Equity                    29,084       5,798        4,775        16,282        2,228        0.03         0.02         -0.06 
+ Global Benchmarks1              28,799       10,317       7,289         5,118        6,075        0.12         0.17         2.64 
+ Including US                    14,673        5,220        2,839        2,625        3,989        0.09         0.12          1.88 
+  Excluding US                   14,126        5,097       4,451         2,493        2,086        0.20         0.28         2.59 
+ Developed Markets2              -4,230       -6,483       -2,685        8,280       -3,342        -0.01        -0.04        -0.70 
+ US                              -6,248       -7,687        -102         3,438       -1,897        -0.01        -0.06        -0.86 
+ Western Europe                  3,325         1,103        150          1,431         641         0.05          0.06         1.05 
+   UK-dedicated                  -2,390        -581         -586         -366         -857         -0.20        -0.19        -0.11 
+   Other                          5,715        1,684        737          1,797        1,498        0.09         0.11          1.02 
+ Japan                           -4,898        -712        -3,585        2,161        -2,762       -0.14        -0.08        -1.12 
+ Other                           3,590         813          852          1,249        677          0.26         0.23         2.12 
+ Emerging Markets3               4,506         1,960        168          2,885        -506         0.05         0.09         -0.18 
+ Global EM Benchmarks            6,572         967           173         3,010        2,422        0.18         0.10         2.02 
+ Mainland China                  -3,512        1,712        -556         -950        -3,719        -0.14         0.26        -0.79 
+ Taiwan                          -1,483       -1,241        -329         -263         351          -0.30        -0.99        -1.88 
+ Korea                           2,167         523          507          815           322          1.03        0.96          2.13 
+ India                            573          102          259           -18         230          0.14          0.10        -0.29 
+ Brazil                            29          -232          68           83           110         0.04         -1.71         0.21 
+ Other                            160           129          46          207          -222         0.01         0.04          1.04 
+ Equity Sector Flows 
+ Commodities/Materials            926          285           172         430           39          0.16         0.19          1.47 
+ Consumer Goods                   -400         -766         -754         -191         1,311        -0.04        -0.34        -0.01 
+ Energy                            85            -5         -223          101          211         0.01         0.00          0.85 
+ Financials                      9,953        2,140         1,793        3,000        3,019        0.61          0.51         2.15 
+ Health Care                     -4,836        251         -3,880       -1,441        236          -0.38        0.08         -1.14 
+ Industrials                     4,924         1,395        1,430        209          1,889        0.80         0.88         2.55 
+ Infrastructure                   1,308        603           99           179         427          0.33         0.59          1.80 
+ Real Estate                     -2,174        -196         -794          -44        -1,139        -0.10        -0.03        -0.70 
+ Technology                      2,862         -510         -340         2,155        1,558        0.05         -0.04        -0.15 
+ Telecom                           36          207          -334          -26          189         0.01         0.29         -0.18 
+ Utilities                       2,042         629          378           587          449         0.31         0.37          1.43 
+ High Beta4                      10,923        2,905       2,597         2,623        2,797        0.58         0.60         3.27 
+ Low Beta4                       -1,313        -547         -760          -49          43          -0.05        -0.08        -0.01 
+  Total Fixed Income             86,605       26,965       16,511       21,227       21,902        0.24          0.30        2.00 
+ Developed Markets 5             71,308       20,190       15,589       18,112       17,417        0.22         0.25          1.62 
+ Government                      7,345        3,788         1,947        4,290       -2,680        0.13         0.26         -0.45 
+ Mortgage-backed                 3,565         1,081         814         1,366         305         0.32         0.38          1.14 
+ Municipal                       3,549         1,782         224         1,013         531         0.15         0.30          1.02 
+ Agg-type                        23,279        5,868        5,500        3,825        8,085        0.22         0.22          1.12 
+ IG Credit                       4,922         -369          542          922         3,826        0.11         -0.03        -0.11 
+ High yield                       8,853        2,449       2,359         1,885        2,160        0.33         0.36          1.16 
+ Bank loan                       5,032         1,201        885          1,506        1,440        0.77         0.73          1.41 
+ Long-duration6                   -494         -664         508          479          -816         -0.02        -0.10        -1.36 
+ Short-duration6                 26,097        7,845        5,855        6,825        5,572        0.33          0.39         1.89 
+ Inflation-protected              448          349          481          -207         -175         0.07         0.22          1.11 
+ Emerging Markets                11,531        5,708         69         2,676         3,079        0.50         0.98         2.53 
+ Hard                             -330          -10         -452          98           33          -0.03        0.00          0.42 
+ Blend                             24          168           -2           64          -206         0.01         0.31          0.59 
+ Local                           11,838        5,550        522          2,514        3,251        1.04          1.92        3.37 
+ Money Markets                   74,716       13,707       -26,040      30,697       56,352        0.18          0.13        -0.06 
+ 1. Primarily MSCI World and MSCI ACWI benchmarks. 2. Sum of DM country- and region-dedicated funds; excludes global DM benchmark funds (e.g. MSCI 
+ World funds). 3. Sum of Global EM benchmark funds and EM country- and region-dedicated funds. 4. High beta funds include commodity, financial, & industrial 
+ sector funds. Low beta funds include consumer goods, real estate, & utility sector funds. 5. Benchmarks may include some investment grade EM bonds; 
+ categories below include DM & EM funds. 6. Long-duration includes long-term Agg-type, long-term corporate, and long-term government bond funds. Short- 
+ duration includes short-term Agg-type, short-term corporate, and short-term government bond funds. 
+
+Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research 
+
+ 25 July 2025                                                                                                                                3

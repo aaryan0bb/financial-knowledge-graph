@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Equity Inflows Hedge Funds Rolling Four-Week Net Equity Flows",
+      "type": "Table",
+      "brief": "Rolling 4-week average net equity flows for Hedge Funds",
+      "description": "Shows significant volatility in hedge fund net flows, with peaks and troughs highlighting dynamic positioning",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Hedge Funds Net Buys ($ mn, 4-wk avg. range) | Notes |\n|------|---------------------------------------------|-------|\n| 2008 | ($1,200) to $200                            | Significant outflows, especially late year. |\n| 2009 | ($700) to $1,400                            | Strong buying in Q1, then large swings. |\n| 2010 | ($500) to $500                              | More balanced flows, smaller magnitude. |\n| 2011 | ($400) to $300                              | Generally subdued activity. |\n| 2012 | ($400) to $500                              | Modest net buying periods. |\n| 2013 | ($500) to $500                              | Volatile, with both buys and sells. |\n| 2014 | ($300) to $600                              | Mostly net buying. |\n| 2015 | ($500) to $600                              | Mixed flows, some periods of strong buying. |\n| 2016 | ($600) to $600                              | Increased volatility, notable outflows. |\n| 2017 | ($300) to $500                              | Generally positive, some outflows. |\n| 2018 | ($300) to $400                              | Relatively contained flows. |\n| 2019 | ($200) to $500                              | Mostly net buying. |\n| 2020 | ($1,000) to $800                            | Sharp rebound in buying after deep early outflows. |\n| 2021 | ($800) to $800                              | Highly volatile, significant swings. |\n| 2022 | ($1,500) to $1,200                          | Extreme volatility, large outflows and peak inflows. |\n| 2023 | ($1,000) to $1,200                          | Strong inflows early year, persistent outflows later. |\n| 2024 | ($1,500) to $500                            | Dominant outflows, especially mid-year. |\n| 2025 | ($1,200) to $200                            | Continued net selling into current period. |\n| Last 3 weeks | Outflows | Rolling 4-wk avg. shows continued net selling. |",
+        "key_insight": "Hedge Funds experienced significant volatility with peaks in Q1 2009 (~$1,400mn) and troughs in late 2008, late 2022, and mid-2024."
+      }
+    },
+    {
+      "name": "Equity Inflows Hedge Funds Peak Net Buys Q1 2009",
+      "type": "Metric",
+      "brief": "Peak four-week avg net buys by Hedge Funds in early 2009",
+      "description": "Hedge funds reached a peak four-week average net buy of $1,400mn in Q1 2009, highlighting volatile flows",
+      "properties": {
+        "value": 1400,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T2 – Equity Inflows Private Clients Rolling Four-Week Net Buys",
+      "type": "Table",
+      "brief": "Rolling 4-week average net buys for private clients",
+      "description": "Private clients shifted to sustained positive net flows since December 2024, driving equity demand",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Net Buys ($ mn) |\n|---|---|\n| 2008 | -800 |\n| 2009 Low | -1,800 |\n| 2010 | -700 |\n| 2011 | -600 |\n| 2012 | -900 |\n| 2013 Low | -1,600 |\n| 2014 | +50 |\n| 2015 | +300 |\n| 2016 | -100 |\n| 2017 Peak | +1,600 |\n| 2018 | +400 |\n| 2019 | -150 |\n| 2020 Low | -1,000 |\n| 2020 Peak | +800 |\n| 2021 | -50 |\n| 2022 Peak | +1,200 |\n| 2023 | +250 |\n| 2024 Dec | +700 |\n| 2025 Peak | +1,900 |",
+        "key_insight": "Private clients' net buys turned consistently positive since December 2024, surging to nearly $2,000mn by mid-2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Private Clients All-Time High Net Buys Mid-2025",
+      "type": "Metric",
+      "brief": "All-time high four-week avg net buys by private clients",
+      "description": "Private clients reached a four-week average net buy peak of approximately $2,000mn by mid-2025",
+      "properties": {
+        "value": 2000,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T3 – Equity Inflows Corporate Clients Rolling Four-Week Average Buybacks",
+      "type": "Table",
+      "brief": "4-week average corporate client buybacks in $mn",
+      "description": "Corporate buybacks surged from moderate levels to near-record highs by 2024 before starting to decelerate in 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | Corporate Buybacks (4-wk avg, $ mn) |\n|------|------------------------------------|\n| 2009 | ~400 |\n| 2010 | ~500 |\n| 2011 | ~700 |\n| 2012 | ~800 |\n| 2013 | ~1,000 |\n| 2014 | ~2,000 |\n| 2015 | ~800 |\n| 2016 | ~1,200 |\n| 2017 | ~1,500 |\n| 2018 | ~2,500 |\n| 2019 | ~2,000 |\n| 2020 | ~1,500 |\n| 2021 | ~2,500 |\n| 2022 | ~3,500 |\n| 2023 | ~4,500 |\n| 2024 | ~5,500 |\n| 2025 | ~4,500 |",
+        "key_insight": "Corporate clients' 4-week average buybacks climbed to over $5,500mn in 2024 before decelerating in 2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Corporate Clients Peak Buybacks 2024",
+      "type": "Metric",
+      "brief": "Peak four-week avg corporate buybacks in 2024",
+      "description": "Corporate clients hit a peak four-week average buyback of $5,500mn in 2024",
+      "properties": {
+        "value": 5500,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T4 – Equity Inflows Institutional Clients Rolling Four-Week Net Equity Flows",
+      "type": "Table",
+      "brief": "Rolling 4-week average net flows for institutional clients",
+      "description": "Institutional clients have been net sellers since mid-May 2025, reaching around -$2,500mn by mid-2025",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year | Net Buys ($ mn) |\n|---|---|\n| 2008 | (500) |\n| Early 2009 | 1,800 |\n| Late 2009 | (500) |\n| 2010 | 100 |\n| 2011 | (700) |\n| Early 2012 | 900 |\n| Early 2013 | 1,300 |\n| Late 2013 | (500) |\n| Early 2014 | 1,000 |\n| Mid 2014 | (500) |\n| 2015 | (400) |\n| 2016 Trough | (1,500) |\n| Early 2017 | 700 |\n| 2018 | (500) |\n| Early 2019 | 1,400 |\n| Late 2019 | (500) |\n| Early 2020 | (1,800) |\n| Mid 2020 | 1,500 |\n| Early 2021 | 2,800 |\n| Late 2021 | (1,200) |\n| Early 2022 | 1,000 |\n| Late 2022 | (500) |\n| Early 2023 | 1,800 |\n| Late 2023 | (800) |\n| Early 2024 | 200 |\n| Mid-Late 2024 | (1,600) |\n| Mid 2025 | (2,500) |",
+        "key_insight": "Institutional clients' net flows turned negative from mid-May 2025, reaching lows near -$2,500mn by mid-2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Institutional Clients Low Net Buys Mid-2025",
+      "type": "Metric",
+      "brief": "Lowest four-week avg net sells by institutional clients",
+      "description": "Institutional clients' four-week average net flows dropped to -$2,500mn by mid-2025, marking sustained outflows",
+      "properties": {
+        "value": -2500,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T5 – Equity Inflows BofA Client Buybacks vs S&P 500 Buybacks YoY",
+      "type": "Table",
+      "brief": "4-week avg buybacks YoY comparison BofA vs S&P 500",
+      "description": "Shows strong correlation between BofA client and S&P 500 buybacks, with peaks near 500% in late 2021 and early 2024, now declining",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Year | BofA Client 4-wk Avg Buybacks YoY | S&P 500 Buybacks YoY |\n|------|-----------------------------------|----------------------|\n| 2010 | 230% | 150% |\n| 2010 | 0% | 50% |\n| 2011 | 150% | 20% |\n| 2011 | -50% | 20% |\n| 2012 | 100% | 0% |\n| 2012 | -50% | -10% |\n| 2013 | 280% | 20% |\n| 2013 | 0% | 10% |\n| 2014 | 150% | 30% |\n| 2014 | -20% | 0% |\n| 2015 | 100% | 10% |\n| 2015 | -50% | 0% |\n| 2016 | 50% | -5% |\n| 2016 | -60% | -15% |\n| 2017 | 100% | 0% |\n| 2018 | 250% | 60% |\n| 2018 | -20% | 20% |\n| 2019 | 100% | -10% |\n| 2019 | -70% | -30% |\n| 2020 | 50% | -30% |\n| 2020 | -80% | -50% |\n| 2021 | 500% | 150% |\n| 2021 | 50% | 50% |\n| 2022 | 200% | 0% |\n| 2022 | -50% | -20% |\n| 2023 | 300% | 10% |\n| 2024 | 500% | 20% |\n| 2024 | 0% | 5% |\n| 2025 | 100% | 0% |\n| 2025 | -50% | -10% |",
+        "key_insight": "BofA corporate client buybacks YoY correlated with S&P 500 buybacks, both peaking near 500% in late 2021 and early 2024 and now trending downwards."
+      }
+    },
+    {
+      "name": "Equity Inflows BofA Client Buybacks YoY Peak",
+      "type": "Metric",
+      "brief": "Peak YoY buyback growth for BofA clients",
+      "description": "BofA corporate client buybacks increased by 500% YoY at their peak, highlighting high volatility relative to market",
+      "properties": {
+        "value": 500,
+        "unit": "%",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Equity Inflows Hedge Funds Rolling Four-Week Net Equity Flows",
+      "target": "Equity Inflows Hedge Funds Peak Net Buys Q1 2009",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1400,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights Hedge Funds peak net buys of $1,400mn in Q1 2009"
+    },
+    {
+      "source": "Table T2 – Equity Inflows Private Clients Rolling Four-Week Net Buys",
+      "target": "Equity Inflows Private Clients All-Time High Net Buys Mid-2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights private clients' surge to $2,000mn net buys by mid-2025"
+    },
+    {
+      "source": "Table T3 – Equity Inflows Corporate Clients Rolling Four-Week Average Buybacks",
+      "target": "Equity Inflows Corporate Clients Peak Buybacks 2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows corporate clients' peak buybacks of $5,500mn in 2024"
+    },
+    {
+      "source": "Table T4 – Equity Inflows Institutional Clients Rolling Four-Week Net Equity Flows",
+      "target": "Equity Inflows Institutional Clients Low Net Buys Mid-2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -2500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows institutional clients' net flows of -$2,500mn by mid-2025"
+    },
+    {
+      "source": "Table T5 – Equity Inflows BofA Client Buybacks vs S&P 500 Buybacks YoY",
+      "target": "Equity Inflows BofA Client Buybacks YoY Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 500,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table indicates BofA client buybacks peaked at 500% YoY"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "Healthcare – Danaher Corp",
+      "type": "Company",
+      "brief": "Life sciences and diagnostics leader",
+      "description": "Provides bioprocessing, diagnostics, and life science solutions; strong CPHD and BecDx growth",
+      "properties": {
+        "ticker": "DHR",
+        "sector": "Healthcare",
+        "market_cap_USDbn": 135.9854
+      }
+    },
+    {
+      "name": "Healthcare – Danaher Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for Danaher",
+      "properties": {
+        "value": 225.0,
+        "unit": "USD",
+        "as_of": "23 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare – Danaher Share Price",
+      "type": "Metric",
+      "brief": "Share price",
+      "description": "Danaher share price as of 22 Jul 2025",
+      "properties": {
+        "value": 189.91,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare – Danaher EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays estimate of Danaher EPS for fiscal year one",
+      "properties": {
+        "value": 7.8,
+        "unit": "USD",
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Healthcare – Danaher EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays estimate of Danaher EPS for fiscal year two",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD",
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Healthcare – Intuitive Surgical",
+      "type": "Company",
+      "brief": "Robotic surgery equipment leader",
+      "description": "Designer and manufacturer of robotic surgical systems and related technologies",
+      "properties": {
+        "ticker": "ISRG",
+        "sector": "Healthcare",
+        "market_cap_USDbn": 183.1517
+      }
+    },
+    {
+      "name": "Healthcare – Intuitive Surgical Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for Intuitive Surgical",
+      "properties": {
+        "value": 635.0,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare – Intuitive Surgical Share Price",
+      "type": "Metric",
+      "brief": "Share price",
+      "description": "Intuitive Surgical share price as of 22 Jul 2025",
+      "properties": {
+        "value": 511.0,
+        "unit": "USD",
+        "as_of": "22 Jul 2025"
+      }
+    },
+    {
+      "name": "Healthcare – Intuitive Surgical EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY1",
+      "description": "Barclays estimate of Intuitive Surgical EPS for fiscal year one",
+      "properties": {
+        "value": 8.17,
+        "unit": "USD",
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Healthcare – Intuitive Surgical EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Forecast EPS for FY2",
+      "description": "Barclays estimate of Intuitive Surgical EPS for fiscal year two",
+      "properties": {
+        "value": 9.25,
+        "unit": "USD",
+        "as_of": "FY2(E)"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

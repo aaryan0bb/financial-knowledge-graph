@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Financing Estimated Annual DC Infrastructure and Hardware Spend",
+      "type": "Table",
+      "brief": "Annual global DC infrastructure and hardware spend from 2024e–2028e",
+      "description": "Breakdown of annual DC spend showing infrastructure and chips/servers costs rising over 2024e–2028e.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | DC Infrastructure Cost ($mm) | Chips & Servers Cost ($mm) | Total Global Spend ($mm) |\n|------|------------------------------|----------------------------|--------------------------|\n| 2024e | $129,378                     | $177,671                   | $307,049                 |\n| 2025e | $213,210                     | $280,081                   | $493,291                 |\n| 2026e | $286,763                     | $376,771                   | $663,534                 |\n| 2027e | $359,367                     | $453,337                   | $812,704                 |\n| 2028e | $436,437                     | $483,827                   | $920,264                 |",
+        "key_insight": "Total global spend projected to increase nearly threefold from $307,049mm in 2024e to $920,264mm in 2028e, with chips and servers consistently accounting for the larger share."
+      }
+    },
+    {
+      "name": "Table T2 – Data Center Financing Estimated Annual DC Workload Spend by Type",
+      "type": "Table",
+      "brief": "Annual global DC spend by GenAI and non-AI workloads 2024e–2028e",
+      "description": "Breakdown of annual data center spend between GenAI and non-AI workloads illustrating GenAI’s dominant growth from 2024e–2028e.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | GenAI Workload Spend ($mm) | Non-AI Workload Spend ($mm) | Total Global Spend ($mm) |\n|------|----------------------------|-----------------------------|--------------------------|\n| 2024e| 230,310                    | 76,740                      | 307,050                  |\n| 2025e| 405,768                    | 87,522                      | 493,290                  |\n| 2026e| 564,735                    | 98,798                      | 663,533                  |\n| 2027e| 701,789                    | 110,915                     | 812,704                  |\n| 2028e| 792,706                    | 127,558                     | 920,264                  |",
+        "key_insight": "GenAI workload spend projected to grow from $230,310mm in 2024e to $792,706mm in 2028e, driving a near-tripling of total global spend."
+      }
+    },
+    {
+      "name": "Data Center Financing – Total Global Annual Spend",
+      "type": "Metric",
+      "brief": "Projected total annual global DC spend in 2028e",
+      "description": "Reflects the forecast total capital expenditure for data centers globally in 2028e.",
+      "properties": {
+        "value": 920.264,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Data Center Financing – GenAI Workload Annual Spend",
+      "type": "Metric",
+      "brief": "Projected annual GenAI workload spend in 2028e",
+      "description": "Forecast GenAI-specific data center capital spend globally in 2028e.",
+      "properties": {
+        "value": 792.706,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Data Center Financing – Total DC Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative global DC spend through YE28",
+      "description": "Total forecast data center capital spend globally through year-end 2028, excluding power investments.",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing – AI-related DC Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative AI-related data center spend through YE28",
+      "description": "Forecast cumulative capex for AI-related workloads in data centers through 2028.",
+      "properties": {
+        "value": 2500,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing – Hardware Capex Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative hardware capex through YE28",
+      "description": "Total forecast spending on chips and servers for data centers through 2028.",
+      "properties": {
+        "value": 1600,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing – Infrastructure Capex Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative DC infrastructure capex through YE28",
+      "description": "Forecast spending on building data center infrastructure excluding hardware through 2028.",
+      "properties": {
+        "value": 1300,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing – Power Infrastructure Cost Beyond Scope",
+      "type": "Metric",
+      "brief": "Incremental power infrastructure cost estimate",
+      "description": "Estimated additional cost for incremental data center power infrastructure outside core capex note.",
+      "properties": {
+        "value": 300,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing – Annual Financing Needs 2028",
+      "type": "Metric",
+      "brief": "Annual financing needs estimate for data centers 2028",
+      "description": "Estimated annual funding requirement for data center investments in 2028.",
+      "properties": {
+        "value": 900,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing – AI-related Capex Contribution to GDP Growth",
+      "type": "Metric",
+      "brief": "Projected GDP growth contribution from AI capex",
+      "description": "Expected contribution of AI-related data center capex to GDP over 2025–26.",
+      "properties": {
+        "min": 0.4,
+        "max": 0.5,
+        "unit": "%",
+        "as_of": "2025-26"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Financing Estimated Annual DC Infrastructure and Hardware Spend",
+      "target": "Data Center Financing – Total Global Annual Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 920.264,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "Table T1 shows total DC spend rising to $920.264bn in 2028e"
+    },
+    {
+      "source": "Table T2 – Data Center Financing Estimated Annual DC Workload Spend by Type",
+      "target": "Data Center Financing – GenAI Workload Annual Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 792.706,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "Table T2 shows GenAI workload spend reaching $792.706bn in 2028e"
+    }
+  ],
+  "scenarios": []
+}

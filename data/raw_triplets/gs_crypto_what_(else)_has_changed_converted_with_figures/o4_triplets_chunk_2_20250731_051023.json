@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "Ethereum (ETH)",
+      "type": "Instrument",
+      "brief": "Leading smart-contract blockchain",
+      "description": "Ethereum token used for decentralized applications and finance",
+      "properties": {
+        "ticker": "ETH",
+        "asset_class": "cryptocurrency"
+      }
+    },
+    {
+      "name": "Bitcoin (BTC)",
+      "type": "Instrument",
+      "brief": "First and largest cryptocurrency",
+      "description": "Bitcoin token serving as digital store of value",
+      "properties": {
+        "ticker": "BTC",
+        "asset_class": "cryptocurrency"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs AUM",
+      "type": "Metric",
+      "brief": "Assets under management of US ETH spot ETFs",
+      "description": "Total assets held by US ETH spot ETFs indicating institutional adoption",
+      "properties": {
+        "value": 20,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs YTD Net Inflows",
+      "type": "Metric",
+      "brief": "Year-to-date net inflows into US ETH spot ETFs",
+      "description": "Cumulative inflows into US ETH spot ETFs since start of year",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "US ETH Spot ETFs Last 1-Month Net Inflows",
+      "type": "Metric",
+      "brief": "Net inflows into US ETH spot ETFs over the last month",
+      "description": "Recent ETF inflows highlight growing investor demand in July",
+      "properties": {
+        "value": 4.8,
+        "unit": "USD bn",
+        "as_of": "2025-07-21"
+      }
+    },
+    {
+      "name": "Table T3 – US ETH Spot ETF Net Flows vs Spot Price",
+      "type": "Table",
+      "brief": "Daily US ETH spot ETF net inflows and ETH price chart",
+      "description": "Visualizes correlation between net ETF inflows and ETH spot price from Jan to Jul 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date | Net Flows ($'m) | ETH Spot Price ($) |\n|---|---|---|\n| 1/2 | $130 | $3700 |\n| 1/8 | -$150 | $3200 |\n| 1/14 | $170 | $3400 |\n| 1/21 | $80 | $3300 |\n| 1/27 | -$130 | $2800 |\n| 1/31 | $300 | $2800 |\n| 2/6 | $10 | $2300 |\n| 2/19 | -$50 | $1800 |\n| 2/25 | -$100 | $1700 |\n| 3/3 | -$50 | $1600 |\n| 3/7 | $0 | $1500 |\n| 3/19 | -$30 | $1400 |\n| 3/31 | $10 | $1400 |\n| 4/4 | $20 | $1500 |\n| 4/10 | -$30 | $1600 |\n| 4/16 | $50 | $1800 |\n| 4/23 | $100 | $2000 |\n| 4/29 | $40 | $2200 |\n| 5/9 | $40 | $2400 |\n| 5/15 | $60 | $2500 |\n| 5/21 | $80 | $2600 |\n| 5/28 | $100 | $2700 |\n| 6/3 | $230 | $2800 |\n| 6/13 | $120 | $2700 |\n| 6/26 | $80 | $2700 |\n| 7/2 | $400 | $3200 |\n| 7/9 | $700 | $3800 |\n| 7/15 | $550 | $3200 |\n| 7/21 | $400 | $3800 |",
+        "key_insight": "Chart shows strong positive correlation between US ETH spot ETF net inflows and ETH spot price, peaking at $700m inflows and $3800 price in July"
+      }
+    },
+    {
+      "name": "Table T2 – ETH vs BTC Annualized Futures Basis",
+      "type": "Table",
+      "brief": "Annualized futures basis comparison for ETH and BTC",
+      "description": "Compares the premium of ETH and BTC futures over spot from Jan to Jul 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date       | ETH Annualized Basis (%) | BTC Annualized Basis (%) |\n|------------|--------------------------|--------------------------|\n| 2025-01-01 | 15.5                     | 14.0                     |\n| 2025-01-15 | 16.5                     | 12.0                     |\n| 2025-01-31 | 10.5                     | 11.5                     |\n| 2025-02-15 | 12.0                     | 11.0                     |\n| 2025-02-28 | 10.5                     | 10.5                     |\n| 2025-03-07 | 9.0                      | 10.0                     |\n| 2025-03-15 | 6.5                      | 8.0                      |\n| 2025-03-31 | 7.0                      | 7.5                      |\n| 2025-04-07 | 5.5                      | 7.0                      |\n| 2025-04-15 | 7.0                      | 7.5                      |\n| 2025-04-30 | 8.5                      | 8.5                      |\n| 2025-05-07 | 9.5                      | 9.0                      |\n| 2025-05-21 | 9.0                      | 8.8                      |\n| 2025-05-31 | 10.0                     | 9.0                      |\n| 2025-06-07 | 11.5                     | 9.5                      |\n| 2025-06-15 | 9.0                      | 9.0                      |\n| 2025-06-30 | 8.5                      | 8.0                      |\n| 2025-07-07 | 9.5                      | 8.0                      |\n| 2025-07-25 | 10.5                     | 8.5                      |",
+        "key_insight": "ETH futures basis recovered and exceeded BTC's from May, peaking near 11.5% vs BTC's 9.5% in early June"
+      }
+    },
+    {
+      "name": "Positive correlation between US ETH spot ETF net inflows and ETH spot price",
+      "type": "Factor",
+      "brief": "ETF inflows-price correlation",
+      "description": "Demonstrates that rising ETF inflows are associated with ETH price gains",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Premium divergence between ETH and BTC futures basis",
+      "type": "Factor",
+      "brief": "ETH futures premium exceeds BTC's",
+      "description": "Annualized futures premium of ETH remains above BTC's indicating rotation",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T3 – US ETH Spot ETF Net Flows vs Spot Price",
+      "target": "Positive correlation between US ETH spot ETF net inflows and ETH spot price",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table demonstrates strong positive correlation between ETF inflows and ETH price"
+    },
+    {
+      "source": "Table T2 – ETH vs BTC Annualized Futures Basis",
+      "target": "Premium divergence between ETH and BTC futures basis",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows ETH futures basis trading above BTC's"
+    }
+  ],
+  "scenarios": []
+}

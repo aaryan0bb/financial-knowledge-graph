@@ -1,0 +1,279 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry – Phinia Inc.",
+      "type": "Company",
+      "brief": "Automotive aftermarket supplier",
+      "description": "Provider of aftermarket automotive components with significant exposure to aftermarket segment",
+      "properties": {
+        "ticker": "PHIN",
+        "sector": "Automotive Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry – Rivian Automotive",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer",
+      "description": "EV OEM focusing on consumer and commercial vehicles",
+      "properties": {
+        "ticker": "RIVN",
+        "sector": "Automobile Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry – Visteon",
+      "type": "Company",
+      "brief": "Automotive systems supplier",
+      "description": "Supplier of cockpit electronics and automotive electronics solutions",
+      "properties": {
+        "ticker": "VC",
+        "sector": "Automotive Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry – PHIN Price Objective",
+      "type": "Metric",
+      "brief": "PHIN price target based on EV/EBITDA",
+      "description": "BofA Global Research 2025 price objective for PHIN",
+      "properties": {
+        "value": 55,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – PHIN EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "PHIN valuation multiple 2025 EV/EBITDA",
+      "description": "Valuation multiple applied to PHIN's 2025 EBITDA",
+      "properties": {
+        "value": 7.0,
+        "unit": "x",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Automotive Industry – RIVN Price Objective",
+      "type": "Metric",
+      "brief": "RIVN price target based on EV/Sales",
+      "description": "BofA Global Research 2026 price objective for RIVN",
+      "properties": {
+        "value": 10,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – RIVN EV/Sales Multiple",
+      "type": "Metric",
+      "brief": "RIVN valuation multiple 2026 EV/Sales",
+      "description": "Valuation multiple applied to RIVN's 2026 sales",
+      "properties": {
+        "value": 2.0,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry – VC Price Objective",
+      "type": "Metric",
+      "brief": "VC price target based on EV/EBITDA",
+      "description": "BofA Global Research 2026 price objective for Visteon",
+      "properties": {
+        "value": 130,
+        "unit": "USD",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry – VC EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "VC valuation multiple 2026 EV/EBITDA",
+      "description": "Valuation multiple applied to Visteon's 2026 EBITDA",
+      "properties": {
+        "value": 6.0,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Automotive Industry – Electrification Reaccelerates",
+      "type": "Factor",
+      "brief": "Faster pace of vehicle electrification",
+      "description": "Increase in electrification could pressure traditional suppliers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – Tariffs Impact Auto Production",
+      "type": "Factor",
+      "brief": "Tariffs affecting production volumes",
+      "description": "Severe tariffs could reduce automotive production volumes",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – Inability to Raise Low Cost Capital",
+      "type": "Factor",
+      "brief": "Challenges securing low cost funding",
+      "description": "Failure to raise low cost capital may hinder RIVN's growth",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Automotive Industry – UAW Strike",
+      "type": "Factor",
+      "brief": "Potential United Auto Workers strike",
+      "description": "UAW strike poses near-term risk to volumes and earnings",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry – PHIN Price Objective",
+      "target": "Automotive Industry – Phinia Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs PHIN investment case"
+    },
+    {
+      "source": "Automotive Industry – PHIN EV/EBITDA Multiple",
+      "target": "Automotive Industry – Phinia Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs PHIN valuation"
+    },
+    {
+      "source": "Automotive Industry – RIVN Price Objective",
+      "target": "Automotive Industry – Rivian Automotive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs RIVN investment case"
+    },
+    {
+      "source": "Automotive Industry – RIVN EV/Sales Multiple",
+      "target": "Automotive Industry – Rivian Automotive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/Sales multiple informs RIVN valuation"
+    },
+    {
+      "source": "Automotive Industry – VC Price Objective",
+      "target": "Automotive Industry – Visteon",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 130,
+        "unit": "USD",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs Visteon investment case"
+    },
+    {
+      "source": "Automotive Industry – VC EV/EBITDA Multiple",
+      "target": "Automotive Industry – Visteon",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6.0,
+        "unit": "x",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs Visteon valuation"
+    },
+    {
+      "source": "Automotive Industry – Electrification Reaccelerates",
+      "target": "Automotive Industry – Phinia Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Electrification reaccelerates impacts PHIN downside risk"
+    },
+    {
+      "source": "Automotive Industry – Tariffs Impact Auto Production",
+      "target": "Automotive Industry – Phinia Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs could severely impact production affecting PHIN"
+    },
+    {
+      "source": "Automotive Industry – Inability to Raise Low Cost Capital",
+      "target": "Automotive Industry – Rivian Automotive",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Capital-raising issues impact RIVN downside risk"
+    },
+    {
+      "source": "Automotive Industry – UAW Strike",
+      "target": "Automotive Industry – Visteon",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "UAW strike poses risk to Visteon's volumes"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Fund Positioning: Equity Markets Equity Sector Fund Asset Share Trends",
+      "type": "Table",
+      "brief": "Sector fund asset share trends 2010–2025",
+      "description": "Six line charts showing share of equity sector fund assets from 2010 to 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Financials Share (%) | Industrials Share (%) | Tech Share (%) | Telecom Share (%) | Health Care & Biotech Share (%) | Energy Share (%) |\n|---|---|---|---|---|---|---|\n| 2010 | 6.5 | 1.0 | 9.5 | 1.6 | 13.5 | 15.0 |\n| 2011 | 5.5 | 1.2 | 9.0 | 1.4 | 10.0 | 14.0 |\n| 2012 | 4.0 | 1.0 | 7.0 | 1.2 | 9.0 | 16.0 |\n| 2013 | 7.5 | 1.4 | 7.5 | 0.9 | 13.0 | 14.0 |\n| 2014 | 8.5 | 2.1 | 9.0 | 0.8 | 16.0 | 15.0 |\n| 2015 | 7.5 | 1.5 | 11.0 | 0.9 | 21.0 | 12.0 |\n| 2016 | 8.0 | 1.2 | 15.0 | 0.7 | 14.0 | 9.0 |\n| 2017 | 9.5 | 2.2 | 19.0 | 0.6 | 14.0 | 7.0 |\n| 2018 | 12.5 | 2.8 | 23.0 | 1.2 | 15.0 | 5.0 |\n| 2019 | 9.0 | 2.0 | 24.5 | 1.6 | 17.5 | 4.0 |\n| 2020 | 8.0 | 1.6 | 20.0 | 1.6 | 15.0 | 3.5 |\n| 2021 | 10.0 | 2.3 | 24.0 | 1.0 | 16.0 | 6.0 |\n| 2022 | 9.0 | 1.9 | 20.0 | 0.9 | 15.0 | 8.5 |\n| 2023 | 8.0 | 2.0 | 25.0 | 1.4 | 13.5 | 6.5 |\n| 2024 | 9.0 | 2.6 | 31.0 | 1.6 | 11.5 | 5.5 |\n| 2025 | 9.5 | 3.3 | 34.0 | 1.7 | 9.8 | 5.0 |",
+        "key_insight": "Tech sector share rose to over 30% by 2025, while Energy sector share declined to around 3.5% in 2020 before rebounding slightly"
+      }
+    },
+    {
+      "name": "Table T2 – Fund Positioning: Equity Markets Equity Sector Fund Asset Share Dynamics",
+      "type": "Table",
+      "brief": "Sector fund share dynamics 2010–2025",
+      "description": "Six line charts depicting evolving equity sector fund shares over the period",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Financials Share (%) | Industrials Share (%) | Tech Share (%) | Telecom Share (%) | Health Care & Biotech Share (%) | Energy Share (%) |\n|------|----------------------|-----------------------|----------------|-------------------|---------------------------------|------------------|\n| 2010 | 6.5                  | 1.8                   | 9.0            | 1.0               | 13.5                            | 10.0             |\n| 2011 | 5.0                  | 1.8                   | 9.5            | 1.0               | 10.0                            | 10.0             |\n| 2012 | 4.0                  | 1.9                   | 8.5            | 1.1               | 9.0                             | 9.0              |\n| 2013 | 7.0                  | 2.0                   | 7.5            | 1.2               | 10.0                            | 8.0              |\n| 2014 | 8.0                  | 2.2                   | 8.0            | 1.2               | 14.0                            | 7.0              |\n| 2015 | 8.5                  | 2.5                   | 9.0            | 1.0               | 20.0                            | 6.0              |\n| 2016 | 12.5                 | 2.2                   | 12.0           | 0.8               | 18.0                            | 5.0              |\n| 2017 | 10.0                 | 2.0                   | 18.0           | 0.9               | 14.0                            | 4.0              |\n| 2018 | 9.0                  | 2.0                   | 22.0           | 0.8               | 14.5                            | 4.0              |\n| 2019 | 8.0                  | 2.2                   | 24.0           | 0.7               | 15.0                            | 4.0              |\n| 2020 | 10.5                 | 2.5                   | 25.0           | 0.6               | 17.0                            | 6.0              |\n| 2021 | 9.0                  | 2.8                   | 24.0           | 0.6               | 16.0                            | 8.0              |\n| 2022 | 8.0                  | 2.6                   | 20.0           | 0.6               | 15.0                            | 11.0             |\n| 2023 | 8.0                  | 2.8                   | 26.0           | 0.5               | 13.0                            | 14.0             |\n| 2024 | 9.5                  | 3.0                   | 32.0           | 0.5               | 11.5                            | 12.0             |\n| 2025 | 9.0                  | 3.0                   | 34.0           | 0.5               | 10.0                            | 10.0             |",
+        "key_insight": "Tech share climbed from about 9% in 2010 to over 34% by 2025, accelerating after 2022 while Telecom share declined to around 0.5%"
+      }
+    },
+    {
+      "name": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "Factor",
+      "brief": "Tech sector fund asset share increased",
+      "description": "Reflects accelerating share of equity sector fund assets allocated to Tech, surpassing 30% by 2025",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 25.0
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Fund Positioning: Equity Markets Equity Sector Fund Asset Share Trends",
+      "target": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 34.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights Tech sector share rising to over 30% by 2025"
+    },
+    {
+      "source": "Table T2 – Fund Positioning: Equity Markets Equity Sector Fund Asset Share Dynamics",
+      "target": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 34.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Tech share climbing from around 9% in 2010 to over 34% by 2025"
+    }
+  ],
+  "scenarios": []
+}

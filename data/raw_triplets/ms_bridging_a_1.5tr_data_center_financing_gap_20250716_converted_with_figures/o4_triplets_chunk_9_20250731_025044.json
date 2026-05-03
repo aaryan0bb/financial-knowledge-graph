@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "TechCreditMarkets – US IG Corporate Bond Market",
+      "type": "Metric",
+      "brief": "Size of US IG corporate bond market",
+      "description": "Established US investment-grade corporate bond market is nearly $9tn.",
+      "properties": {
+        "value": 9,
+        "unit": "USD tn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Technology Sector IG Share",
+      "type": "Metric",
+      "brief": "Technology sector share of IG bond market",
+      "description": "Technology sector's share of the US IG corporate bond market is 9.6%.",
+      "properties": {
+        "value": 9.6,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Hyperscalers IG Share",
+      "type": "Metric",
+      "brief": "Hyperscalers share of IG bond market",
+      "description": "Hyperscalers account for around 2% of the US IG bond market.",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – IT Sector S&P 500 Share",
+      "type": "Metric",
+      "brief": "IT sector share of S&P 500 equity market",
+      "description": "IT sector contributes approximately 30% of S&P 500 market cap.",
+      "properties": {
+        "value": 30,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Hyperscalers S&P 500 Share",
+      "type": "Metric",
+      "brief": "Hyperscalers share of S&P 500 equity market",
+      "description": "Hyperscalers represent around 20% of S&P 500 market cap.",
+      "properties": {
+        "value": 20,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Three Issuers Issuance Capacity",
+      "type": "Metric",
+      "brief": "Issuance capacity across three large-cap tech issuers",
+      "description": "Illustrative issuance capacity across three large-cap tech issuers exceeding $500bn.",
+      "properties": {
+        "value": 500,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Hyperscalers Peer Debt Capacity",
+      "type": "Metric",
+      "brief": "Capacity for hyperscalers to match peer debt levels",
+      "description": "~$150bn capacity for hyperscalers to grow index debt toward largest non-financial IG issuers.",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – IG Technology Index Net Supply Capacity YE28",
+      "type": "Metric",
+      "brief": "Potential net IG debt supply capacity by 2028",
+      "description": "IG Technology Index could support an additional $200bn net supply by year-end 2028.",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "TechCreditMarkets – IG Tech Index Outstanding Growth",
+      "type": "Metric",
+      "brief": "Growth in IG Technology Index debt outstanding",
+      "description": "IG Technology Index saw $120bn of debt outstanding growth over past four years.",
+      "properties": {
+        "value": 120,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – IG Debt Issuance Cost",
+      "type": "Metric",
+      "brief": "Average cost of issuing IG debt",
+      "description": "Average cost of issuing US IG debt is around 5%.",
+      "properties": {
+        "value": 5,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Hyperscaler Projected Issuance 2025",
+      "type": "Metric",
+      "brief": "Projected hyperscaler bond issuance in 2025",
+      "description": "Hyperscaler bond issuance is projected to decline to $6bn by 2025.",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "TechCreditMarkets – Hyperscaler Debt Under-Indexation",
+      "type": "Factor",
+      "brief": "Low hyperscaler share in IG debt market",
+      "description": "Hyperscalers’ IG debt market share is significantly lower than their equity market share, indicating under-indexation.",
+      "properties": {
+        "magnitude_%": 18,
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 – Hyperscalers Market Presence Equity vs IG Debt",
+      "type": "Table",
+      "brief": "Contrasting hyperscalers’ equity vs IG debt market shares",
+      "description": "Time-series data from 2013 to 2025 showing hyperscalers’ equity market share growth vs stable low debt presence.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Equity % of S&P 500 | Debt % of IG Market |\n|--------|---------------------|---------------------|\n| Jan 2013 | 4.5%                | 0.2%                |\n| Jan 2014 | 5.5%                | 0.4%                |\n| Jan 2015 | 6.0%                | 0.6%                |\n| Jan 2016 | 7.5%                | 0.9%                |\n| Jan 2017 | 9.0%                | 1.2%                |\n| Jan 2018 | 10.0%               | 1.5%                |\n| Jan 2019 | 12.0%               | 1.5%                |\n| Jan 2020 | 14.5%               | 1.3%                |\n| May 2020 | 16.5%               | 1.3%                |\n| Jan 2021 | 18.0%               | 1.4%                |\n| May 2021 | 17.5%               | 1.4%                |\n| Sep 2021 | 16.0%               | 1.4%                |\n| Jan 2022 | 14.5%               | 1.3%                |\n| May 2022 | 12.0%               | 1.3%                |\n| Sep 2022 | 13.0%               | 1.3%                |\n| Jan 2023 | 14.5%               | 1.4%                |\n| May 2023 | 16.0%               | 1.5%                |\n| Sep 2023 | 17.0%               | 1.5%                |\n| Jan 2024 | 18.0%               | 1.5%                |\n| May 2024 | 17.5%               | 1.4%                |\n| Jan 2025 | 17.0%               | 1.4%                |",
+        "key_insight": "Hyperscalers’ equity share grew from about 4.5% in 2013 to nearly 18% by 2025, while their IG debt share remained below 2%."
+      }
+    },
+    {
+      "name": "Table T2 – Hyperscaler Bond Issuance Dollars and Percentage",
+      "type": "Table",
+      "brief": "Annual hyperscaler bond issuance and share of total IG issuance",
+      "description": "Time-series data showing hyperscaler bond issuance in USD bn and as percentage of total IG issuance from 2013 to 2025.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Hyperscaler Issuance ($bn) | Hyperscaler Issuance as % of Total IG Issuance |\n|------|----------------------------|------------------------------------------------|\n| 2013 | 5.5                        | 0.5%                                           |\n| 2014 | 8                          | 0.5%                                           |\n| 2015 | 24                         | 2.0%                                           |\n| 2016 | 22                         | 2.0%                                           |\n| 2017 | 33                         | 2.5%                                           |\n| 2018 | 0                          | 0.0%                                           |\n| 2019 | 0                          | 0.0%                                           |\n| 2020 | 21                         | 1.0%                                           |\n| 2021 | 19                         | 1.2%                                           |\n| 2022 | 32                         | 2.5%                                           |\n| 2023 | 9                          | 0.8%                                           |\n| 2024 | 11                         | 0.8%                                           |\n| 2025 | 6                          | 0.8%                                           |",
+        "key_insight": "Hyperscaler bond issuance peaked at $33bn in 2017 and $32bn in 2022, then declined to $9bn in 2023 and is projected at $6bn by 2025."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Hyperscalers Market Presence Equity vs IG Debt",
+      "target": "TechCreditMarkets – Hyperscalers S&P 500 Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 18,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Highlights hyperscalers’ equity market share growth"
+    },
+    {
+      "source": "Table T2 – Hyperscaler Bond Issuance Dollars and Percentage",
+      "target": "TechCreditMarkets – Hyperscaler Projected Issuance 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 6,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Projected hyperscaler issuance decline to $6bn by 2025"
+    },
+    {
+      "source": "TechCreditMarkets – Hyperscaler Debt Under-Indexation",
+      "target": "TechCreditMarkets – IG Technology Index Net Supply Capacity YE28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "confidence": 75,
+        "impact_value": null,
+        "unit": null,
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Under-indexation drives additional capacity to issue $200bn by YE28"
+    }
+  ],
+  "scenarios": []
+}

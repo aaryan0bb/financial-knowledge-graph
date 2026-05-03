@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "GOOGL",
+      "type": "Company",
+      "brief": "Alphabet Inc. Class A shares",
+      "description": "Ticker for the main search and AI-focused technology company",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "CMG",
+      "type": "Company",
+      "brief": "Chipotle Mexican Grill",
+      "description": "Casual dining restaurant chain flagged by Consumer team",
+      "properties": {
+        "ticker": "CMG",
+        "sector": "Consumer"
+      }
+    },
+    {
+      "name": "CMG Pre-Market Price Drop",
+      "type": "Event",
+      "brief": "CMG down 10% in pre-market trading",
+      "description": "Chipotle shares fell 10% in pre-market on surprising same-store sales growth datapoint",
+      "properties": {
+        "date": null,
+        "event_type": "price_move",
+        "impact_value": -10,
+        "unit": "%",
+        "affected_tickers": [
+          "CMG"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 – GOOGL Capex and Revenue Growth Outlook",
+      "type": "Table",
+      "brief": "GSe revenues, capex, D&A and GAAP expense growth for GOOGL 2023-2030E",
+      "description": "Exhibit showing projections of revenues, capex, D&A, and GAAP expenses from 2023 to 2030E",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Exhibit 1: GOOGL - GSe Revenues, Capex, D&A and GAAP Expense Growth\n$mm, 2023-2030E\n                                      2023     2024    2025E    2026E   2027E    2028E   2029E    2030E\nTotal Revenues (Net)               $ 256,508 $ 295,118 $ 334,627 $ 377,761 $ 424,416 $ 474,047 $ 525,683 $ 578,688\n  % y/y growth                        9.7%    15.1%    13.4%    12.9%    12.4%    11.7%    10.9%    10.1%\nTotal Capex                        $ 32,251 $ 52,535 $ 84,749 $ 101,699 $ 116,954 $ 128,649 $ 141,514 $ 155,665\n  % y/y growth                        2.4%    62.9%    61.3%    20.0%    15.0%    10.0%    10.0%    10.0%\n  % capital intensity                  12.6%    17.8%    25.3%    26.9%    27.6%    27.1%    26.9%    26.9%\nTotal GAAP Expenses                 $ 172,215 $ 182,728 $ 206,548 $ 232,247 $ 261,394 $ 291,879 $ 321,450 $ 350,261\n  % y/y growth                        8.3%     6.1%    13.0%    12.4%    11.7%    10.1%     9.0%\nTotal D&A                          $ 13,326 $ 15,311 $ 22,888 $ 32,947 $ 43,912 $ 55,557 $ 67,672 $ 79,109\n  % y/y growth                       -12.8%    14.9%    49.5%    44.0%    33.3%    26.5%    21.8%    16.9%\nTotal GAAP Expenses (ex-D&A and one-timers)* $ 154,956 $ 166,110 $ 181,968 $ 199,300 $ 217,482 $ 236,322 $ 253,778 $ 271,152\n  % y/y growth                        8.7%     7.2%     9.5%     9.5%\n*one-timers include reported restructuring charges & legal accruals of ~$3.9bn in 2023, ~$1.3bn in 2024 and ~$1.7bn in 2025E",
+        "key_insight": "GOOGL's capex is projected to triple from $32.3bn in 2023 to $101.7bn in 2026, while revenues grow by 50% over the same period."
+      }
+    },
+    {
+      "name": "GOOGL Capex Growth Projection",
+      "type": "Metric",
+      "brief": "Capex tripling from 2023 to 2026",
+      "description": "Projected capex to increase threefold between 2023 and 2026",
+      "properties": {
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GOOGL Revenue Growth Projection",
+      "type": "Metric",
+      "brief": "Revenues up 50% from 2023 to 2026",
+      "description": "Projected total revenues increase by 50% between 2023 and 2026",
+      "properties": {
+        "unit": "%",
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – GOOGL Capex and Revenue Growth Outlook",
+      "target": "GOOGL Capex Growth Projection",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs that GOOGL's capex will triple from 2023 to 2026"
+    },
+    {
+      "source": "Table T1 – GOOGL Capex and Revenue Growth Outlook",
+      "target": "GOOGL Revenue Growth Projection",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs that GOOGL's revenues will grow by 50% from 2023 to 2026"
+    }
+  ],
+  "scenarios": []
+}

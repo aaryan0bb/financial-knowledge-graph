@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "EquityMarket-Q3-2025 Earnings Beat Table",
+      "type": "Table",
+      "brief": "Q3 2025 S&P 500 sector earnings beats and totals",
+      "description": "Table summarizes sector-level S&P 500 earnings beats, misses, and beat percentage for Q3 2025 as of July 23, 2025. Highlights sectors leading and lagging earnings expectations.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Industry                                              # Reported                  # Beat               % Beat \n    Communication Services                                              10                 10              100% \n    Consumer Discretionary                                              24                 18                75% \n    Consumer Staples                                                    24                20                 83% \n     Energy                                                               5                  4                80% \n    Financials                                                          34                31                  91% \n     Health Care                                                        19                 18                 94% \n    Industrials                                                         27                27               100% \n    Information Technology                                              41                35                 85% \n     Materials                                                            5                  2               40% \n     Real Estate                                                           3                 3             100% \n     Utilities                                                             1                 1             100% \n Total                                                                193               169                  87% ",
+        "key_insight": "87% of S&P 500 companies reporting Q3 2025 have beaten earnings expectations as of July 23, with standout 100% beat rates in Industrials, Real Estate, Utilities, and Communication Services."
+      }
+    },
+    {
+      "name": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "Factor",
+      "brief": "Elevated single-name price dispersion beneath stable S&P index level",
+      "description": "Despite a calm S&P 500 spot, significant underlying stock-level performance divergence was observed during the week of July 23, 2025.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 7
+      }
+    },
+    {
+      "name": "EquityMarket-Retail Demand Volatility July 2025",
+      "type": "Factor",
+      "brief": "Retail flows into high volatility, anti-momentum, consensus shorted equities",
+      "description": "Retail trading showed increased demand for high realized volatility and anti-momentum stocks during the week of July 23, 2025, per Citadel Securities.",
+      "properties": {
+        "direction": "up",
+        "driver": "retail flows"
+      }
+    },
+    {
+      "name": "EquityMarket-July Seasonality Trend",
+      "type": "Factor",
+      "brief": "Historic S&P 500 tendency to rally post mid-to-late July",
+      "description": "Over the past 100 years, the S&P 500 typically bases around this week in July before rising towards month-end, influenced by vacation schedules and market positioning.",
+      "properties": {
+        "lookback_days": 36500,
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquityMarket-Q3-2025 Earnings Beat Table",
+      "target": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 87,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "High earnings beat rate informs underlying dispersion in price action."
+    },
+    {
+      "source": "EquityMarket-July 2025 Dispersion Movement",
+      "target": "EquityMarket-Retail Demand Volatility July 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Stock-level dispersion drives retail demand in volatility strategies."
+    },
+    {
+      "source": "EquityMarket-July Seasonality Trend",
+      "target": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 70
+      },
+      "description": "Seasonal pattern triggers increased equity movement and dispersion."
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "EquityMarket-July Seasonality Trend",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "EquityMarket-July Seasonality Trend",
+          "target": "EquityMarket-July 2025 Dispersion Movement",
+          "lag_days": 0,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "EquityMarket-July 2025 Dispersion Movement",
+          "target": "EquityMarket-Retail Demand Volatility July 2025",
+          "lag_days": 0,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

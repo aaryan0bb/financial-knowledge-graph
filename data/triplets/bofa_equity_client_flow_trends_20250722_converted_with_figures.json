@@ -1,0 +1,1797 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 Equity Inflows Hedge Funds Rolling Four-Week Net Equity Flows",
+      "type": "Table",
+      "brief": "Rolling 4-week average net equity flows for Hedge Funds",
+      "description": "Shows significant volatility in hedge fund net flows, with peaks and troughs highlighting dynamic positioning",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Hedge Funds Net Buys ($ mn, 4-wk avg. range) | Notes |\n|------|---------------------------------------------|-------|\n| 2008 | ($1,200) to $200                            | Significant outflows, especially late year. |\n| 2009 | ($700) to $1,400                            | Strong buying in Q1, then large swings. |\n| 2010 | ($500) to $500                              | More balanced flows, smaller magnitude. |\n| 2011 | ($400) to $300                              | Generally subdued activity. |\n| 2012 | ($400) to $500                              | Modest net buying periods. |\n| 2013 | ($500) to $500                              | Volatile, with both buys and sells. |\n| 2014 | ($300) to $600                              | Mostly net buying. |\n| 2015 | ($500) to $600                              | Mixed flows, some periods of strong buying. |\n| 2016 | ($600) to $600                              | Increased volatility, notable outflows. |\n| 2017 | ($300) to $500                              | Generally positive, some outflows. |\n| 2018 | ($300) to $400                              | Relatively contained flows. |\n| 2019 | ($200) to $500                              | Mostly net buying. |\n| 2020 | ($1,000) to $800                            | Sharp rebound in buying after deep early outflows. |\n| 2021 | ($800) to $800                              | Highly volatile, significant swings. |\n| 2022 | ($1,500) to $1,200                          | Extreme volatility, large outflows and peak inflows. |\n| 2023 | ($1,000) to $1,200                          | Strong inflows early year, persistent outflows later. |\n| 2024 | ($1,500) to $500                            | Dominant outflows, especially mid-year. |\n| 2025 | ($1,200) to $200                            | Continued net selling into current period. |\n| Last 3 weeks | Outflows | Rolling 4-wk avg. shows continued net selling. |",
+        "key_insight": "Hedge Funds experienced significant volatility with peaks in Q1 2009 (~$1,400mn) and troughs in late 2008, late 2022, and mid-2024."
+      }
+    },
+    {
+      "name": "Equity Inflows Hedge Funds Peak Net Buys Q1 2009",
+      "type": "Metric",
+      "brief": "Peak four-week avg net buys by Hedge Funds in early 2009",
+      "description": "Hedge funds reached a peak four-week average net buy of $1,400mn in Q1 2009, highlighting volatile flows",
+      "properties": {
+        "value": 1400,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Equity Inflows Private Clients Rolling Four-Week Net Buys",
+      "type": "Table",
+      "brief": "Rolling 4-week average net buys for private clients",
+      "description": "Private clients shifted to sustained positive net flows since December 2024, driving equity demand",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Net Buys ($ mn) |\n|---|---|\n| 2008 | -800 |\n| 2009 Low | -1,800 |\n| 2010 | -700 |\n| 2011 | -600 |\n| 2012 | -900 |\n| 2013 Low | -1,600 |\n| 2014 | +50 |\n| 2015 | +300 |\n| 2016 | -100 |\n| 2017 Peak | +1,600 |\n| 2018 | +400 |\n| 2019 | -150 |\n| 2020 Low | -1,000 |\n| 2020 Peak | +800 |\n| 2021 | -50 |\n| 2022 Peak | +1,200 |\n| 2023 | +250 |\n| 2024 Dec | +700 |\n| 2025 Peak | +1,900 |",
+        "key_insight": "Private clients' net buys turned consistently positive since December 2024, surging to nearly $2,000mn by mid-2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Private Clients All-Time High Net Buys Mid-2025",
+      "type": "Metric",
+      "brief": "All-time high four-week avg net buys by private clients",
+      "description": "Private clients reached a four-week average net buy peak of approximately $2,000mn by mid-2025",
+      "properties": {
+        "value": 2000,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Equity Inflows Corporate Clients Rolling Four-Week Average Buybacks",
+      "type": "Table",
+      "brief": "4-week average corporate client buybacks in $mn",
+      "description": "Corporate buybacks surged from moderate levels to near-record highs by 2024 before starting to decelerate in 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | Corporate Buybacks (4-wk avg, $ mn) |\n|------|------------------------------------|\n| 2009 | ~400 |\n| 2010 | ~500 |\n| 2011 | ~700 |\n| 2012 | ~800 |\n| 2013 | ~1,000 |\n| 2014 | ~2,000 |\n| 2015 | ~800 |\n| 2016 | ~1,200 |\n| 2017 | ~1,500 |\n| 2018 | ~2,500 |\n| 2019 | ~2,000 |\n| 2020 | ~1,500 |\n| 2021 | ~2,500 |\n| 2022 | ~3,500 |\n| 2023 | ~4,500 |\n| 2024 | ~5,500 |\n| 2025 | ~4,500 |",
+        "key_insight": "Corporate clients' 4-week average buybacks climbed to over $5,500mn in 2024 before decelerating in 2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Corporate Clients Peak Buybacks 2024",
+      "type": "Metric",
+      "brief": "Peak four-week avg corporate buybacks in 2024",
+      "description": "Corporate clients hit a peak four-week average buyback of $5,500mn in 2024",
+      "properties": {
+        "value": 5500,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Equity Inflows Institutional Clients Rolling Four-Week Net Equity Flows",
+      "type": "Table",
+      "brief": "Rolling 4-week average net flows for institutional clients",
+      "description": "Institutional clients have been net sellers since mid-May 2025, reaching around -$2,500mn by mid-2025",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year | Net Buys ($ mn) |\n|---|---|\n| 2008 | (500) |\n| Early 2009 | 1,800 |\n| Late 2009 | (500) |\n| 2010 | 100 |\n| 2011 | (700) |\n| Early 2012 | 900 |\n| Early 2013 | 1,300 |\n| Late 2013 | (500) |\n| Early 2014 | 1,000 |\n| Mid 2014 | (500) |\n| 2015 | (400) |\n| 2016 Trough | (1,500) |\n| Early 2017 | 700 |\n| 2018 | (500) |\n| Early 2019 | 1,400 |\n| Late 2019 | (500) |\n| Early 2020 | (1,800) |\n| Mid 2020 | 1,500 |\n| Early 2021 | 2,800 |\n| Late 2021 | (1,200) |\n| Early 2022 | 1,000 |\n| Late 2022 | (500) |\n| Early 2023 | 1,800 |\n| Late 2023 | (800) |\n| Early 2024 | 200 |\n| Mid-Late 2024 | (1,600) |\n| Mid 2025 | (2,500) |",
+        "key_insight": "Institutional clients' net flows turned negative from mid-May 2025, reaching lows near -$2,500mn by mid-2025."
+      }
+    },
+    {
+      "name": "Equity Inflows Institutional Clients Low Net Buys Mid-2025",
+      "type": "Metric",
+      "brief": "Lowest four-week avg net sells by institutional clients",
+      "description": "Institutional clients' four-week average net flows dropped to -$2,500mn by mid-2025, marking sustained outflows",
+      "properties": {
+        "value": -2500,
+        "unit": "USD mn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T5 \u2013 Equity Inflows BofA Client Buybacks vs S&P 500 Buybacks YoY",
+      "type": "Table",
+      "brief": "4-week avg buybacks YoY comparison BofA vs S&P 500",
+      "description": "Shows strong correlation between BofA client and S&P 500 buybacks, with peaks near 500% in late 2021 and early 2024, now declining",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Year | BofA Client 4-wk Avg Buybacks YoY | S&P 500 Buybacks YoY |\n|------|-----------------------------------|----------------------|\n| 2010 | 230% | 150% |\n| 2010 | 0% | 50% |\n| 2011 | 150% | 20% |\n| 2011 | -50% | 20% |\n| 2012 | 100% | 0% |\n| 2012 | -50% | -10% |\n| 2013 | 280% | 20% |\n| 2013 | 0% | 10% |\n| 2014 | 150% | 30% |\n| 2014 | -20% | 0% |\n| 2015 | 100% | 10% |\n| 2015 | -50% | 0% |\n| 2016 | 50% | -5% |\n| 2016 | -60% | -15% |\n| 2017 | 100% | 0% |\n| 2018 | 250% | 60% |\n| 2018 | -20% | 20% |\n| 2019 | 100% | -10% |\n| 2019 | -70% | -30% |\n| 2020 | 50% | -30% |\n| 2020 | -80% | -50% |\n| 2021 | 500% | 150% |\n| 2021 | 50% | 50% |\n| 2022 | 200% | 0% |\n| 2022 | -50% | -20% |\n| 2023 | 300% | 10% |\n| 2024 | 500% | 20% |\n| 2024 | 0% | 5% |\n| 2025 | 100% | 0% |\n| 2025 | -50% | -10% |",
+        "key_insight": "BofA corporate client buybacks YoY correlated with S&P 500 buybacks, both peaking near 500% in late 2021 and early 2024 and now trending downwards."
+      }
+    },
+    {
+      "name": "Equity Inflows BofA Client Buybacks YoY Peak",
+      "type": "Metric",
+      "brief": "Peak YoY buyback growth for BofA clients",
+      "description": "BofA corporate client buybacks increased by 500% YoY at their peak, highlighting high volatility relative to market",
+      "properties": {
+        "value": 500,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T20 \u2013 Equity Client Flow Trends \u2013 Health Care rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Health Care sector",
+      "description": "Exhibit 20 shows Health Care sector had three straight weeks of negative 4-week average flows amid historical volatility",
+      "properties": {
+        "table_id": "T20",
+        "table_content": "| Year | Rolling 4-wk Avg. Flow ($ mn) |\n|---|---|\n| 2008 | 0 |\n| 2009 | -50 |\n| 2010 | 100 |\n| 2011 | -50 |\n| 2012 | 300 |\n| 2013 | -100 |\n| 2014 | -200 |\n| 2015 | -50 |\n| 2016 | -400 |\n| 2017 | -100 |\n| 2018 | 400 |\n| 2019 | -200 |\n| 2020 | -800 |\n| 2020 | 800 (mid-year peak) |\n| 2021 | 0 |\n| 2022 | -700 |\n| 2022 | 1000 (late year peak) |\n| 2023 | 200 |\n| 2023 | -1000 (late year trough) |\n| 2024 | -500 (recent) |",
+        "key_insight": "Health Care flows were volatile with peaks around 2012, 2018, late 2022, and three consecutive weeks of outflows"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends \u2013 Health Care three-week outflow trend",
+      "type": "Factor",
+      "brief": "Three consecutive weeks of negative flows in Health Care",
+      "description": "Chart title indicates rolling four-week average outflows for three straight weeks in Health Care",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 3,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "Table T26 \u2013 Equity Client Flow Trends \u2013 ETF rolling 4-wk average flows",
+      "type": "Table",
+      "brief": "Rolling four-week average ETF flows from week 8 to 25",
+      "description": "Exhibit 26 shows volatile ETF flows with net inflows since February 2025",
+      "properties": {
+        "table_id": "T26",
+        "table_content": "| Week | 4-Week Avg. ETF Flows ($ mn) |\n|------|-------------------------------|\n| 08   | 0                             |\n| 09   | 200                           |\n| 10   | 500                           |\n| 11   | 750                           |\n| 12   | 1,000                         |\n| 13   | 700                           |\n| 14   | 0                             |\n| 15   | 2,800                         |\n| 16   | -1,000                        |\n| 17   | 2,500                         |\n| 18   | 1,200                         |\n| 19   | 1,000                         |\n| 20   | -2,500                        |\n| 21   | 1,800                         |\n| 22   | -1,200                        |\n| 23   | 1,500                         |\n| 24   | 1,000                         |\n| 25   | 500                           |",
+        "key_insight": "ETF flows were volatile with peaks at $2,800M but net inflows since Feb 2025"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends \u2013 ETF net inflow trend since Feb 2025",
+      "type": "Factor",
+      "brief": "Net inflows trend in ETFs since Feb 2025 despite volatility",
+      "description": "Overall trend shows net ETF inflows since February 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T17 \u2013 Equity Client Flow Trends \u2013 Consumer Staples rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Consumer Staples sector",
+      "description": "Exhibit 17 shows Consumer Staples outflows for the last seven weeks, ending at -$150M",
+      "properties": {
+        "table_id": "T17",
+        "table_content": "| Week | Sector           | Rolling 4-wk Avg. Flows ($ mn) |\n|------|------------------|--------------------------------|\n| 08   | Consumer Staples | -200                           |\n| 09   | Consumer Staples | -100                           |\n| 10   | Consumer Staples | 100                            |\n| 11   | Consumer Staples | 0                              |\n| 12   | Consumer Staples | -100                           |\n| 13   | Consumer Staples | -50                            |\n| 14   | Consumer Staples | 50                             |\n| 15   | Consumer Staples | 0                              |\n| 16   | Consumer Staples | -50                            |\n| 17   | Consumer Staples | 0                              |\n| 18   | Consumer Staples | 50                             |\n| 19   | Consumer Staples | -50                            |\n| 20   | Consumer Staples | -500                           |\n| 21   | Consumer Staples | -200                           |\n| 22   | Consumer Staples | -250                           |\n| 23   | Consumer Staples | -150                           |\n| 24   | Consumer Staples | -150                           |",
+        "key_insight": "Consumer Staples faced sustained outflows over seven weeks, peaking at -$500M"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends \u2013 Consumer Staples seven-week outflow trend",
+      "type": "Factor",
+      "brief": "Seven consecutive weeks of outflows in Consumer Staples",
+      "description": "Chart title indicates seven straight weeks of negative flows in Consumer Staples",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 7,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "Table T27 \u2013 Equity Client Flow Trends \u2013 Real Estate rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Real Estate sector",
+      "description": "Exhibit 27 shows Real Estate outflows since Apr '25, with latest -$350M",
+      "properties": {
+        "table_id": "T27",
+        "table_content": "| Week | Rolling 4-wk Avg. Flows ($ mn) |\n|---|---|\n| 15 | -50 |\n| 16 | -150 |\n| 17 | -300 |\n| 18 | -100 |\n| 19 | +150 |\n| 20 | -200 |\n| 21 | +450 |\n| 22 | -250 |\n| 23 | +350 |\n| 24 | -150 |\n| 25 | -350 |",
+        "key_insight": "Real Estate flows peaked at +$450M but shifted to outflows since Apr 2025 at -$350M"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends \u2013 Real Estate net outflow trend since Apr 2025",
+      "type": "Factor",
+      "brief": "Net outflows in Real Estate since April 2025",
+      "description": "Chart indicates sustained negative flows in Real Estate since April 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Equity inflows resurgence: Large cap net buys (4-week avg)",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net equity flows for large caps",
+      "description": "Shows net buys from 2008 to mid-2025, highlighting peak flows and recent downturn",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date/Period | Net Buys (Mn $) |\n|---|---|\n| 2008 Early | -$1,000 |\n| 2008 Late | -$1,500 |\n| 2009 Mid | $1,500 |\n| 2010 Early | $500 |\n| 2011 Early | -$1,000 |\n| 2012 Mid | $800 |\n| 2013 Late | $1,000 |\n| 2014 Mid | -$500 |\n| 2015 Mid | $1,000 |\n| 2016 Early | -$1,500 |\n| 2017 Mid | $1,500 |\n| 2018 Early | $2,000 |\n| 2018 Late | $3,000 |\n| 2019 Mid | $2,500 |\n| 2020 Q1 | $3,000 |\n| 2020 Q2 | -$1,000 |\n| 2020 Q4 | $2,000 |\n| 2021 Q1 | $4,500 |\n| 2021 Q4 | $1,000 |\n| 2022 Q1 | -$1,500 |\n| 2022 Q3 | $4,000 |\n| 2023 Q1 | $3,000 |\n| 2023 Q4 | $4,000 |\n| 2024 Q1 | $4,000 |\n| 2024 Q2 | $6,000 |\n| 2024 Q4 | $7,000 |\n| 2025 Q1 | $7,000 |\n| 2025 Q2 | $2,000 |\n| 2025 Latest | -$500 |",
+        "key_insight": "Large-cap net buys rose steadily from 2018, peaking around $7,000 million in early 2025 before turning negative at -$500 million in mid-2025."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence \u2013 Large cap net buys",
+      "type": "Metric",
+      "brief": "4-week avg net buys flipped to -$500M in mid-2025",
+      "description": "Represents the inflection where large-cap net buys turned negative for the first time since March 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "mid-2025",
+        "value": -500
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Equity inflows resurgence: Small caps rolling 4-wk avg flows flip positive",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net buys for small caps indicating flip positive",
+      "description": "Shows volatile small-cap flows with sustained positive trend in 2024 and 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Small Cap Net Buys ($ mn) | Observation |\n|---|---|---|\n| 2008 | -200 to +400 | Highly volatile, large initial positive spike, then significant negative flows. |\n| 2009 | -100 to +200 | Mixed flows, moderate positive peaks. |\n| 2010 | -50 to +200 | Generally positive bias, occasional dips. |\n| 2011 | -200 to +100 | Predominantly negative flows. |\n| 2012 | -150 to +150 | Mixed, fluctuating around zero. |\n| 2013 | -100 to +200 | Mixed flows, some positive spikes. |\n| 2014 | -100 to +150 | Mixed, slight positive bias. |\n| 2015 | -200 to +550 | Major peak inflow in mid-year, otherwise mixed to negative. |\n| 2016 | -300 to +150 | Significant outflows, more pronounced negative periods. |\n| 2017 | -150 to +200 | Mixed, with moderate positive spikes. |\n| 2018 | -200 to +100 | Mixed, tending towards net outflows. |\n| 2019 | -150 to +400 | Strong positive spikes, otherwise mixed. |\n| 2020 | -150 to +400 | Strong positive spikes, particularly early in the year, then mixed. |\n| 2021 | -200 to +400 | Significant positive spikes, some notable outflows. |\n| 2022 | -200 to +200 | Mixed flows, fluctuating around zero. |\n| 2023 | -100 to +250 | Mixed but with more frequent positive flows. |\n| 2024 | -50 to +200 | Shift towards more consistent positive flows. |\n| 2025 | 0 to +200 | Sustained positive flows (\"flip positive\" as per title). |",
+        "key_insight": "Small-cap net buys have shown a sustained positive trend in 2024 and year-to-date 2025, marking a 'flip positive'."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence \u2013 Small cap flows flip positive",
+      "type": "Factor",
+      "brief": "Sustained positive small-cap net buys in 2024\u201325",
+      "description": "Small-cap net buys flipped positive in 2024 and remained positive through mid-2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Equity inflows resurgence: Mid caps rolling 4-wk avg outflows for four consecutive weeks",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net buys for mid caps showing persistent outflows",
+      "description": "Highlights mid-cap peaks and sustained outflows up to mid-2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year/Period | Mid Cap Net Buys ($ mn) |\n|-------------|-------------------------|\n| 2008        | -200 to 200             |\n| Early 2009  | -600                    |\n| Mid 2009    | 200                     |\n| Late 2010   | -300                    |\n| Late 2011   | -400                    |\n| Late 2012   | 600                     |\n| Early 2013  | -100                    |\n| Mid 2015    | 500                     |\n| Early 2016  | -400                    |\n| Early 2017  | 500                     |\n| Early 2019  | 500                     |\n| Mid 2020    | 300                     |\n| Early 2021  | 400                     |\n| Early 2022  | 950 (Peak Inflows)      |\n| Late 2022   | -200                    |\n| Early 2023  | -600 (Peak Outflows)    |\n| Late 2023   | 50                      |\n| Early 2024  | -300                   |\n| Mid 2024    | 100                     |\n| Late 2024   | -100                    |\n| Early 2025  | 400                     |\n| Mid 2025    | -250 (Recent Outflows)  |",
+        "key_insight": "Mid-cap net buys peaked near $950mn in early 2022 before flipping to -$600mn in early 2023, and have persisted as outflows for four consecutive weeks through mid-2025."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence \u2013 Mid cap persistent outflows",
+      "type": "Factor",
+      "brief": "Mid-cap net buys shifted to outflows through mid-2025",
+      "description": "Mid-cap net buys peaked in early 2022 then turned negative and persisted as outflows through mid-2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Equity flows: Energy sector cumulative flows 2017-2024",
+      "type": "Table",
+      "brief": "Cumulative ETF and single stock flows for Energy",
+      "description": "Shows divergence between ETF and single stock cumulative flows in Energy sector from 2017 to late 2024",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Cumulative ETF Flows ($mn) | Cumulative Single Stock Flows ($mn) |\n|---|---|---|\n| Jan 2017 | 0 | 0 |\n| Jul 2017 | 700 | -2000 |\n| Jan 2018 | 2500 | -1000 |\n| Jul 2019 | 3500 | 0 |\n| Jan 2020 | 4000 | -5000 |\n| Jul 2021 | 6000 | -4500 |\n| Jan 2022 | 5500 | -8000 |\n| Jul 2023 | 4800 | -6000 |\n| Jan 2024 | 4500 | -5500 |\n| End 2024 | 4000 | -5000 |",
+        "key_insight": "ETF cumulative flows peaked at ~$6,000mn in mid-2021 then declined to ~$4,000mn by late 2024, while single stock flows trough at -$8,000mn in early 2022 and recovered to -$5,000mn by late 2024."
+      }
+    },
+    {
+      "name": "Equity flows Energy ETF cumulative peak",
+      "type": "Metric",
+      "brief": "Peak ETF cumulative flow in Energy sector",
+      "description": "Highest cumulative ETF inflow of Energy sector around mid-2021",
+      "properties": {
+        "unit": "USD mn",
+        "value": 6000,
+        "as_of": "2021-06"
+      }
+    },
+    {
+      "name": "Equity flows Energy single stock cumulative trough",
+      "type": "Metric",
+      "brief": "Trough single stock cumulative flow in Energy sector",
+      "description": "Lowest cumulative single stock flow of Energy sector around early 2022",
+      "properties": {
+        "unit": "USD mn",
+        "value": -8000,
+        "as_of": "2022-01"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Equity flows: Financials sector cumulative flows 2016-2024",
+      "type": "Table",
+      "brief": "Cumulative ETF and single stock flows for Financials",
+      "description": "Shows divergence with strong single stock inflows versus flat-to-negative ETF flows in Financials sector from 2016 to 2024",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Single Stock Cumulative Flow ($mn) | ETF Cumulative Flow ($mn) |\n|------|------------------------------------|---------------------------|\n| 2016 | -2000 | 0 |\n| 2017 | 2000 | 500 |\n| 2018 | 18000 | 1500 |\n| 2019 | 35000 | 2500 |\n| 2020 | 40000 | 2000 |\n| 2021 | 48000 | 1000 |\n| 2022 | 47000 | 500 |\n| 2023 | 45000 | 0 |\n| 2024 | 50000 | -1000 |",
+        "key_insight": "Single stock flows in Financials rose steadily to ~$50,000mn by 2024, while ETF flows remained near zero and turned slightly negative by end-2024."
+      }
+    },
+    {
+      "name": "Equity flows Financials single stock cumulative 2024",
+      "type": "Metric",
+      "brief": "End-2024 single stock cumulative flow in Financials",
+      "description": "Cumulative single stock flow in Financials sector by end-2024",
+      "properties": {
+        "unit": "USD mn",
+        "value": 50000,
+        "as_of": "2024-12"
+      }
+    },
+    {
+      "name": "Equity flows Financials ETF cumulative end-2024",
+      "type": "Metric",
+      "brief": "End-2024 ETF cumulative flow in Financials",
+      "description": "Cumulative ETF flow in Financials sector by end-2024",
+      "properties": {
+        "unit": "USD mn",
+        "value": -1000,
+        "as_of": "2024-12"
+      }
+    },
+    {
+      "name": "Table T44 \u2013 Equity ETF flows: Staples rolling 4-wk avg flows",
+      "type": "Table",
+      "brief": "4-week average net flows for Staples ETFs",
+      "description": "Rolling 4-week average net flows for Staples ETFs from January 2017 to January 2025",
+      "properties": {
+        "table_id": "T44",
+        "table_content": "| Date | 4-week Avg. Flows ($ mn) |\n|---|---|\n| 1/6/17 | -50 |\n| 1/6/18 | -40 |\n| Early 2019 Peak | 280 |\n| Mid-2019 Trough | -180 |\n| 1/6/20 | 0 |\n| Early 2021 Trough | -100 |\n| 1/6/21 | -80 |\n| Early 2022 Peak | 160 |\n| 1/6/22 | 80 |\n| Mid-2022 Trough | -100 |\n| 1/6/23 | 0 |\n| Mid-2023 Peak | 100 |\n| Late 2023 Trough | -150 |\n| 1/6/24 | 10 |\n| 1/6/25 | -20 |",
+        "key_insight": "Staples ETFs saw peak inflows near $280 mn in early 2019."
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Staples ETFs early-2019 peak 4-week avg flow",
+      "type": "Metric",
+      "brief": "Peak net flow for Staples ETFs in early 2019",
+      "description": "Indicates significant investor inflow spike in consumer staples sector, highlighting tactical buying in early 2019.",
+      "properties": {
+        "value": 280,
+        "unit": "USD mm",
+        "as_of": "Early 2019"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Equity Inflows: BofA Client Net Buys vs S&P 500 Index (2008-2025)",
+      "type": "Table",
+      "brief": "Dual-axis chart of client net buys and S&P 500 index",
+      "description": "Compares BofA client net buying flows against S&P 500 performance from 2008 to 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | S&P 500 Index (RHS) | Net Buys, 4 wk avg ($mn) (LHS) |\n|---|---|---|\n| 2008 | 1300 | -1500 |\n| 2009 | 900 | 500 |\n| 2010 | 1200 | 200 |\n| 2011 | 1200 | -1000 |\n| 2012 | 1400 | 500 |\n| 2013 | 1800 | 1000 |\n| 2014 | 2000 | 500 |\n| 2015 | 2050 | -500 |\n| 2016 | 2150 | 500 |\n| 2017 | 2600 | 1000 |\n| 2018 | 2800 | 500 |\n| 2019 | 3200 | 800 |\n| 2020 (early) | 2800 | -3000 |\n| 2020 (late) | 3700 | 500 |\n| 2021 | 4600 | 2000 |\n| 2022 (early) | 4800 | 1000 |\n| 2022 (late) | 3800 | -2000 |\n| 2023 (mid) | 4200 | -2000 |\n| 2023 (late) | 4500 | -1500 |\n| 2024 (Q1) | 5000 | 0 |\n| 2024 (Q2) | 5400 | 4000 |\n| 2024 (Q3) | 5500 | 1000 |\n| 2024 (Q4) | 5000 | -4000 |\n| 2025 (Q1) | 5800 | 2000 |\n| 2025 (latest) | 5700 | 1000 |",
+        "key_insight": "Client net buying peaked near $4,000mn in mid-2024, reversed to net selling in late 2024, and recovered to positive flows in early 2025 as the S&P 500 reached new highs."
+      }
+    },
+    {
+      "name": "Equity Inflows - BofA Client Net Buys 4wk Avg",
+      "type": "Metric",
+      "brief": "4-week average net buys by BofA clients",
+      "description": "Peak 4-week average net buying activity among clients",
+      "properties": {
+        "value": 4000,
+        "unit": "USD mn",
+        "as_of": "2024-mid"
+      }
+    },
+    {
+      "name": "Equity Inflows - S&P 500 Index Level",
+      "type": "Metric",
+      "brief": "S&P 500 Index level",
+      "description": "Represents market performance driving client flows",
+      "properties": {
+        "value": 5800,
+        "unit": "indexPts",
+        "as_of": "2025-Q1"
+      }
+    },
+    {
+      "name": "Equity ETF Flows - Table T1 \u2013 Mid-cap ETFs Rolling 4-Week Avg Flow",
+      "type": "Table",
+      "brief": "4-week avg flows for Mid-cap ETFs (Jan 2017\u2013Mar 2025)",
+      "description": "Tracks rolling 4-week average flows showing volatility and flip positive in early 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | 4-Week Avg. Flow ($mn) |\n|---|---|\n| 1/6/17 | 30 |\n| 8/6/17 | -100 |\n| 3/6/18 | 20 |\n| 10/6/18 | 80 |\n| 5/6/19 | 10 |\n| 12/6/19 | -20 |\n| 7/6/20 | -20 |\n| 2/6/21 | 0 |\n| 9/6/21 | 50 |\n| 4/6/22 | 60 |\n| 11/6/22 | -20 |\n| 6/6/23 | -100 |\n| 1/6/24 | -50 |\n| 8/6/24 | 0 |\n| 3/6/25 | 40 |",
+        "key_insight": "Flows have been highly volatile with inflection points mid-2017 and mid-2023, flipping positive in early 2025 suggesting renewed cautious investor interest."
+      }
+    },
+    {
+      "name": "Equity ETF Flows - Mid-cap ETFs Rolling 4-Week Avg Flow Metric",
+      "type": "Metric",
+      "brief": "Mid-cap ETFs rolling 4-week average flow",
+      "description": "Latest mid-cap ETF flows flipped positive to $40mn in March 2025",
+      "properties": {
+        "value": 40,
+        "unit": "USD mn",
+        "as_of": "2025-03"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Equity Client Flow Trends: Materials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Materials sector",
+      "description": "Shows the volatile 4-week average ETF flows for the Materials sector from Jan 2017 to Jul 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | 4-wk Avg. Flow ($mn) |\n|------------|----------------------|\n| Jan 2017   | -50                  |\n| Mar 2017   | 100                  |\n| Oct 2017   | -150                 |\n| Jan 2018   | 0                    |\n| Apr 2018   | 150                  |\n| Aug 2018   | -150                 |\n| Jan 2019   | -25                  |\n| Jul 2019   | 75                   |\n| Nov 2019   | -100                 |\n| Jan 2020   | -50                  |\n| Apr 2020   | 100                  |\n| Jul 2020   | -150                 |\n| Jan 2021   | 50                   |\n| Mar 2021   | 175                  |\n| Jul 2021   | -100                 |\n| Jan 2022   | 25                   |\n| Apr 2022   | 100                  |\n| Jul 2022   | -175                 |\n| Jan 2023   | -25                  |\n| Apr 2023   | 100                  |\n| Jun 2023   | -100                 |\n| Jan 2024   | 0                    |\n| Feb 2024   | 100                  |\n| Dec 2024   | 0                    |\n| Jan 2025   | 75                   |\n| Current    | 150                  |",
+        "key_insight": "Materials ETFs exhibited high volatility with inflows and outflows oscillating sharply"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Technology sector",
+      "description": "Illustrates the Technology sector's ETF flow trends, showing surges and deep outflows over period",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | 4-week Avg Flow ($ mn) |\n|-----------|------------------------|\n| Jan 2017  | 50                     |\n| Jul 2017  | 100                    |\n| Jan 2018  | 120                    |\n| Jun 2018  | -50                    |\n| Jan 2019  | -80                    |\n| Jul 2019  | 50                     |\n| Jan 2020  | -20                    |\n| May 2020  | 180                    |\n| Aug 2020  | 250                    |\n| Nov 2020  | 280                    |\n| Jan 2021  | -320                   |\n| Apr 2021  | -80                    |\n| Jul 2021  | 150                    |\n| Nov 2021  | 100                    |\n| Feb 2022  | -50                    |\n| Jul 2022  | -100                   |\n| Oct 2022  | -120                   |\n| Jan 2023  | -80                    |\n| Apr 2023  | 50                     |\n| Sep 2023  | 0                      |\n| Jan 2024  | 20                     |\n| Mar 2024  | -50                    |\n| May 2024  | -100                   |\n| Jul 2024  | -120                   |\n| Oct 2024  | -160                   |\n| Jan 2025  | -150                   |\n| Current   | -160                   |",
+        "key_insight": "Tech ETFs shifted from peaks to deep troughs and sustained outflows since mid-2024"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Financials sector",
+      "description": "Tracks Financials ETF flows showing volatile inflows and recent outflows over Jan 2017 to Jan 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date     | 4-Week Average Flow ($ mn) |\n|----------|-----------------------------|\n| 1/6/17   | 10                          |\n| 5/6/17   | 200                         |\n| 10/6/17  | -50                         |\n| 1/6/18   | 100                         |\n| 5/6/18   | -100                        |\n| 1/6/19   | 20                          |\n| 3/6/19   | 250                         |\n| 8/6/19   | -100                        |\n| 1/6/20   | 50                          |\n| 4/6/20   | -150                        |\n| 7/6/20   | 150                         |\n| 1/6/21   | -100                        |\n| 3/6/21   | 100                         |\n| 8/6/21   | -100                        |\n| 1/6/22   | -50                         |\n| 3/6/22   | 100                         |\n| 8/6/22   | -100                        |\n| 1/6/23   | -50                         |\n| 3/6/23   | 100                         |\n| 8/6/23   | -100                        |\n| 1/6/24   | -50                         |\n| 3/6/24   | 50                          |\n| 8/6/24   | -50                         |\n| 1/6/25   | -150                        |",
+        "key_insight": "Financials ETFs have shifted to three weeks of net outflows, dropping to -$150mn"
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Equity Client Flow Trends: Health Care ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Health Care sector",
+      "description": "Highlights volatility in Health Care ETF flows with recent sustained outflows",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Date     | 4-week Avg. Flow ($mn) |\n|----------|------------------------|\n| 1/6/17   | 0                      |\n| Jul-17   | 50                     |\n| 1/6/18   | 100                    |\n| Jul-18   | -50                    |\n| 1/6/19   | 50                     |\n| Jul-19   | 80                     |\n| 1/6/20   | 50                     |\n| Jul-20   | -100                   |\n| 1/6/21   | 100                    |\n| Jun-21   | 300                    |\n| 1/6/22   | 150                    |\n| Aug-22   | -100                   |\n| 1/6/23   | 100                    |\n| Jun-23   | -200                   |\n| 1/6/24   | 50                     |\n| Jun-24   | -200                   |\n| 1/6/25   | 50                     |\n| Apr-25   | 80                     |\n| May-25   | 0                      |\n| Jun-25   | -50                    |\n| Jul-25   | -100                   |",
+        "key_insight": "Health Care ETFs experienced three consecutive weeks of outflows, dropping to -$100mn"
+      }
+    },
+    {
+      "name": "Table T5 \u2013 Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg. outflows since mid-May 2025",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Tech sector showing recent outflows",
+      "description": "Displays significant Tech ETF flow volatility with recent outflows peaking at -$280mn",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Date      | 4-Week Avg Flow ($ mn) |\n|-----------|------------------------|\n| 1/6/17    | 20                     |\n| 1/6/18    | 50                     |\n| 6/1/18    | 280                    |\n| 1/6/19    | -340                   |\n| 6/1/19    | 150                    |\n| 1/6/20    | 50                     |\n| 6/1/20    | 180                    |\n| 1/6/21    | 380                    |\n| 6/1/21    | 220                    |\n| 1/6/22    | 80                     |\n| 6/1/22    | -300                   |\n| 1/6/23    | 50                     |\n| 6/1/23    | 200                    |\n| 1/6/24    | 150                    |\n| 6/1/24    | 100                    |\n| 1/6/25    | -100                   |\n| Current   | -280                   |",
+        "key_insight": "Tech ETFs are in a sustained outflow trend since mid-May 2025, reaching -$280mn"
+      }
+    },
+    {
+      "name": "Table T6 \u2013 Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg. (Time Series)",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Financials sector over time",
+      "description": "Time series of Financials ETF flows shows peaks and outflows through Jan 2025",
+      "properties": {
+        "table_id": "T6",
+        "table_content": "| Date     | Financials ETF 4-wk Avg. Flows ($ mn) |\n|----------|---------------------------------------|\n| Jan 2017 | 50                                    |\n| Jul 2017 | 10                                    |\n| Jan 2018 | 180                                   |\n| Jul 2018 | -180                                  |\n| Jan 2019 | 100                                   |\n| Jul 2019 | -100                                  |\n| Jan 2020 | 220                                   |\n| Jul 2020 | -180                                  |\n| Jan 2021 | 280                                   |\n| Jul 2021 | 0                                     |\n| Jan 2022 | 150                                   |\n| Jul 2022 | -100                                  |\n| Jan 2023 | 80                                    |\n| Jul 2023 | -50                                   |\n| Jan 2024 | 100                                   |\n| Jul 2024 | -70                                   |\n| Jan 2025 | -120                                  |",
+        "key_insight": "Financials ETFs saw inflow peaks and resumed outflows into early 2025"
+      }
+    },
+    {
+      "name": "Table T7 \u2013 Equity Client Flow Trends: Industrials ETFs: rolling 4-wk avg.",
+      "type": "Table",
+      "brief": "4-week avg ETF flows for Industrials sector",
+      "description": "Tracks Industrials ETF flows showing peaks and recent sustained outflows",
+      "properties": {
+        "table_id": "T7",
+        "table_content": "| Date    | Rolling 4-Week Average Flow ($mn) |\n|---------|-----------------------------------|\n| Jan-17  | 0                                 |\n| May-17  | 10                                |\n| Sep-17  | 30                                |\n| Jan-18  | 50                                |\n| Apr-18  | 80                                |\n| Jul-18  | 100                               |\n| Nov-18  | -20                               |\n| Jan-19  | -170                              |\n| Apr-19  | -50                               |\n| Jul-19  | 50                                |\n| Oct-19  | 10                                |\n| Jan-20  | -10                               |\n| Jun-20  | 20                                |\n| Jan-21  | 120                               |\n| Mar-21  | 80                                |\n| Jul-21  | 0                                 |\n| Oct-21  | -100                              |\n| Jan-22  | -20                               |\n| Apr-22  | 10                                |\n| Sep-22  | 50                                |\n| Jan-23  | 80                                |\n| May-23  | 100                               |\n| Sep-23  | 50                                |\n| Jan-24  | 0                                 |\n| Apr-24  | -50                               |\n| Aug-24  | -20                               |\n| Nov-24  | -100                              |\n| Jan-25  | -150                              |\n| Apr-25  | -80                               |\n| Jul-25  | -100                              |",
+        "key_insight": "Industrials ETFs have been in outflow for seven consecutive weeks, down to -$100mn"
+      }
+    },
+    {
+      "name": "Table T76 \u2013 Equity Inflows: Mid Cap ETFs acceleration now slowing",
+      "type": "Table",
+      "brief": "Mid Cap ETF cumulative net buys slowing momentum",
+      "description": "Shows Mid Cap ETF inflows surged then plateaued, indicating slowing momentum",
+      "properties": {
+        "table_id": "T76",
+        "table_content": "| Date | Cumulative Net Buys ($mn) |\n|---|---|\n| 12/30/16 | 0 |\n| Jun 2017 | 500 |\n| 12/30/17 | 250 |\n| Jun 2018 | 450 |\n| 12/30/18 | 150 |\n| Jun 2019 | 750 |\n| 12/30/19 | 50 |\n| Jun 2020 | -250 |\n| 12/30/20 | -50 |\n| Jun 2021 | 350 |\n| 12/30/21 | 100 |\n| Jun 2022 | 400 |\n| 12/30/22 | -100 |\n| Jun 2023 | -350 |\n| 12/30/23 | -50 |\n| Mar 2024 | 300 |\n| Jul 2024 | 700 |\n| Sep 2024 | 780 |\n| Oct 2024 | 800 |\n| Dec 2024 | 790 |\n| Jul 2025 | 780 |",
+        "key_insight": "Mid Cap ETF inflows surged from -$50mn to ~$800mn from late 2023 to October 2024 before plateauing, indicating slowing momentum."
+      }
+    },
+    {
+      "name": "Table T73 \u2013 Equity Inflows: Value ETF flows outpacing Growth ETF flows",
+      "type": "Table",
+      "brief": "Cumulative net buys for Growth vs Value ETFs",
+      "description": "Illustrates preference for Value ETFs over Growth ETFs, highlighting value acceleration post-2020",
+      "properties": {
+        "table_id": "T73",
+        "table_content": "| Date | Growth ETFs (Cumulative Net Buys $mn) | Value ETFs (Cumulative Net Buys $mn) |\n|------|---------------------------------------|--------------------------------------|\n| 12/16 | -2,000 | 1,000 |\n| 06/17 | -1,500 | 3,000 |\n| 12/17 | -1,000 | 5,000 |\n| 06/18 | 0 | 7,000 |\n| 12/18 | 2,000 | 8,000 |\n| 06/19 | 6,000 | 9,000 |\n| 12/19 | 8,000 | 10,000 |\n| 06/20 | 6,000 | 11,000 |\n| 12/20 | 6,000 | 12,000 |\n| 06/21 | 8,000 | 16,000 |\n| 12/21 | 10,000 | 20,000 |\n| 06/22 | 13,000 | 26,000 |\n| 12/22 | 15,000 | 30,000 |\n| 06/23 | 18,000 | 34,000 |\n| 12/23 | 20,000 | 38,000 |\n| 06/24 | 25,000 | 43,000 |\n| 12/24 | 29,000 | 48,000 |",
+        "key_insight": "Value ETFs outpaced Growth ETFs in cumulative net buys from 2016 to 2024, with value accelerating post-2020 while growth lagged."
+      }
+    },
+    {
+      "name": "Table T75 \u2013 Equity Inflows: Large Cap ETF cumulative net buys",
+      "type": "Table",
+      "brief": "Large Cap ETF cumulative net buys trend",
+      "description": "Tracks robust and re-accelerated large cap ETF inflows, highlighting a mid-2022 inflection",
+      "properties": {
+        "table_id": "T75",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|:-----------|----------------------------:|\n| 12/30/16 | 0 |\n| 06/30/17 | 20,000 |\n| 12/30/17 | 35,000 |\n| 06/30/18 | 45,000 |\n| 12/30/18 | 50,000 |\n| 06/30/19 | 60,000 |\n| 12/30/19 | 70,000 |\n| 06/30/20 | 80,000 |\n| 12/30/20 | 95,000 |\n| 06/30/21 | 110,000 |\n| 12/30/21 | 118,000 |\n| 06/30/22 | 125,000 |\n| 12/30/22 | 120,000 |\n| 06/30/23 | 135,000 |\n| 12/30/23 | 155,000 |\n| 06/30/24 | 165,000 |\n| 12/30/24 | 172,000 |\n| Current (mid-2025) | 177,000 |",
+        "key_insight": "Large Cap ETF cumulative net buys rose steadily to $177,000mn by mid-2025, with a mid-2022 inflection followed by re-acceleration."
+      }
+    },
+    {
+      "name": "Table T78 \u2013 Equity Inflows: Broad Market ETF inflows YTD",
+      "type": "Table",
+      "brief": "Broad Market ETF inflows year-to-date",
+      "description": "Shows cumulative net buys for Broad Market ETFs with surges mid-2020 and mid-2023 then stabilization",
+      "properties": {
+        "table_id": "T78",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|------------|----------------------------|\n| 12/30/16 | 0 |\n| Mid-2017 | 1,000 |\n| 12/30/17 | 1,000 |\n| Early 2018 | 1,500 |\n| Late 2018 | 0 |\n| 12/30/18 | 0 |\n| Mid-2019 | 1,000 |\n| 12/30/19 | 2,000 |\n| Early 2020 | 2,500 |\n| Mid-2020 | 7,000 |\n| 12/30/20 | 9,000 |\n| Early 2021 | 10,000 |\n| Mid-2021 | 10,800 |\n| Late 2021 | 6,000 |\n| 12/30/21 | 6,200 |\n| Early 2022 | 7,000 |\n| Mid-2022 | 8,000 |\n| 12/30/22 | 9,500 |\n| Early 2023 | 10,000 |\n| Mid-2023 | 16,000 |\n| 12/30/23 | 17,000 |\n| Early 2024 | 17,500 |\n| Mid-2024 | 15,500 |\n| Late 2024 | 16,000 |",
+        "key_insight": "Broad Market ETF inflows accelerated significantly mid-2020 to late-2021, with further surges in mid-2023 before stabilizing around $16,000mn by late 2024."
+      }
+    },
+    {
+      "name": "Table T74 \u2013 Equity Inflows: Blend ETF cumulative net buys",
+      "type": "Table",
+      "brief": "Blend ETF cumulative net buys trend",
+      "description": "Highlights sustained and accelerating cumulative inflows into Blend ETFs from 2017 to 2024",
+      "properties": {
+        "table_id": "T74",
+        "table_content": "| Date | Cumulative Net Buys ($ mn) |\n|------|----------------------------|\n| 12/30/16 | 0 |\n| 06/30/17 | 15,000 |\n| 12/30/17 | 30,000 |\n| 06/30/18 | 40,000 |\n| 12/30/18 | 45,000 |\n| 06/30/19 | 55,000 |\n| 12/30/19 | 60,000 |\n| 06/30/20 | 90,000 |\n| 12/30/20 | 115,000 |\n| 06/30/21 | 120,000 |\n| 12/30/21 | 118,000 |\n| 06/30/22 | 125,000 |\n| 12/30/22 | 130,000 |\n| 06/30/23 | 140,000 |\n| 12/30/23 | 148,000 |\n| 06/30/24 | 152,000 |\n| 12/30/24 | 155,000 |",
+        "key_insight": "Blend ETF cumulative net buys grew steadily from 2017 to 2024, with a sharp rise from late 2019 to 2020 and sustained inflows thereafter."
+      }
+    },
+    {
+      "name": "Equity Inflows: Mid Cap ETF momentum slowing",
+      "type": "Factor",
+      "brief": "Mid Cap ETF inflow momentum is decelerating",
+      "description": "Recent plateau in mid-cap ETF cumulative buys indicates waning investor momentum",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Equity Inflows: Value ETF preference",
+      "type": "Factor",
+      "brief": "Value ETFs outpace Growth ETFs in inflows",
+      "description": "Clients favor value-oriented ETFs, with value cumulative buys consistently higher",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Large Cap ETF inflow trend",
+      "type": "Factor",
+      "brief": "Large Cap ETF inflows remain robust and re-accelerating",
+      "description": "Large cap ETFs saw strong cumulative net buy growth, especially post-2022",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Broad Market ETF inflow momentum",
+      "type": "Factor",
+      "brief": "Broad Market ETF inflows surged and stabilized",
+      "description": "Broad market ETFs experienced significant surges mid-2020 and mid-2023 then leveled off",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Equity Inflows: Blend ETF inflow trend",
+      "type": "Factor",
+      "brief": "Blend ETF inflows grew strongly and persistently",
+      "description": "Sustained and accelerating cumulative inflows into blend ETFs from 2017 to 2024",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_Resurgence",
+      "type": "Event",
+      "brief": "Resurgence in equity inflows",
+      "description": "Resurgence in equity inflows across client types and sectors",
+      "properties": {
+        "date": null,
+        "event_type": "Resurgence"
+      }
+    },
+    {
+      "name": "EquityInflows_PrivateClients",
+      "type": "Factor",
+      "brief": "Private client buying behavior",
+      "description": "Private clients net buyers of equities last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_HedgeFunds",
+      "type": "Factor",
+      "brief": "Hedge fund buying behavior",
+      "description": "Hedge funds increased equity purchases last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_InstitutionalClients",
+      "type": "Factor",
+      "brief": "Institutional client selling behavior",
+      "description": "Institutional clients net sellers of equities last week",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "EquityInflows_Industrials",
+      "type": "Factor",
+      "brief": "Industrials sector net flows",
+      "description": "Industrials sector saw net buying across client types last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_Financials",
+      "type": "Factor",
+      "brief": "Financials sector net flows",
+      "description": "Financials sector saw net buying across client types last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Two-week net buying and selling of Industrials",
+      "type": "Table",
+      "brief": "Two-week net flows of Industrials stocks (2008-2025)",
+      "description": "Highlights volatility and a near-record $2bn inflow in mid-2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Approx. Two-Week Net Flow Range ($mn) | Observation |\n|---|---|---|\n| 2008 | $(1,000) to +500 | Mixed flows, fluctuating around zero |\n| 2009 | $(700) to +200 | Generally negative bias |\n| 2010 | $(500) to +500 | Mixed flows |\n| 2011 | $(800) to +600 | Mixed flows |\n| 2012 | $(800) to +700 | Mixed flows |\n| 2013 | $(800) to +700 | Mixed flows |\n| 2014 | $(800) to +1,200 | Notable positive spikes |\n| 2015 | $(1,500) to +1,900 | Historic peak (+1,900mn) in early 2015, followed by negative flows |\n| 2016 | $(1,500) to +200 | Predominantly negative flows |\n| 2017 | $(1,000) to +500 | Mixed flows, slightly negative bias |\n| 2018 | $(2,000) to +1,000 | Wider fluctuations, strong positive flows |\n| 2019 | $(1,500) to +1,000 | Mixed flows |\n| 2020 | $(1,500) to +800 | Mixed flows, negative during market downturn |\n| 2021 | $(2,000) to +1,200 | Strong positive and negative swings |\n| 2022 | $(2,000) to +1,600 | Significant positive peaks |\n| 2023 | $(1,500) to +800 | Mixed flows |\n| 2024 | $(1,500) to +1,000 | Mixed flows |\n| 2025 (YTD) | $(1,000) to +2,000 | Near-record inflows (approx. +2,000mn) |",
+        "key_insight": "Near-record two-week inflow of around $2,000mn in mid-2025, the second-largest since early 2015"
+      }
+    },
+    {
+      "name": "Equity Inflows \u2013 Industrials two-week net inflow peak",
+      "type": "Metric",
+      "brief": "Near-record two-week inflow of Industrials in mid-2025",
+      "description": "This inflow peaked around $2,000mn, marking the second-largest two-week net flow since early 2015",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": null,
+        "value": 2000
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Institutional clients cumulative net selling since 2008",
+      "type": "Table",
+      "brief": "Cumulative net sells of US equities by client type (2008-2025)",
+      "description": "Institutional clients have sold approximately $300bn, the steepest decline among client types",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Hedge Funds (Cumulative Net Buys, $bn) | Institutional (Cumulative Net Buys, $bn) | Private Client (Cumulative Net Buys, $bn) |\n|------|----------------------------------------|------------------------------------------|------------------------------------------|\n| 2008 | 0 | 0 | 0 |\n| 2009 | -5 | -2 | -20 |\n| 2010 | -10 | -5 | -40 |\n| 2011 | -12 | -10 | -60 |\n| 2012 | -15 | -20 | -80 |\n| 2013 | -20 | -40 | -120 |\n| 2014 | -25 | -80 | -140 |\n| 2015 | -28 | -110 | -160 |\n| 2016 | -30 | -150 | -180 |\n| 2017 | -40 | -180 | -190 |\n| 2018 | -50 | -200 | -190 |\n| 2019 | -70 | -220 | -200 |\n| 2020 | -80 | -230 | -210 |\n| 2021 | -85 | -250 | -220 |\n| 2022 | -90 | -280 | -220 |\n| 2023 | -100 | -290 | -210 |\n| 2024 | -110 | -295 | -200 |\n| 2025 (Jul) | -120 | -300 | -180 |",
+        "key_insight": "Institutional clients have cumulatively sold approximately $300bn of US equities by mid-2025"
+      }
+    },
+    {
+      "name": "Equity Inflows \u2013 Institutional cumulative net selling",
+      "type": "Metric",
+      "brief": "Institutional clients have sold ~$300bn since 2008",
+      "description": "Institutional clients exhibit the largest cumulative selling, reaching approximately -$300bn by mid-2025",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -300
+      }
+    },
+    {
+      "name": "Table T3 \u2013 12-month cumulative net flows by client type",
+      "type": "Table",
+      "brief": "Cumulative net equity flows by client type over past year",
+      "description": "Institutional clients net sold ~$60bn; private clients net bought ~$30bn; hedge funds net sold ~$38bn in past 12 months",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date | Hedge Funds ($bn) | Institutional ($bn) | Private Client ($bn) |\n|--------|-------------------|---------------------|----------------------|\n| Jul-24 | 0 | 0 | 0 |\n| Aug-24 | -5 | -10 | 0 |\n| Sep-24 | -10 | -20 | -2 |\n| Oct-24 | -15 | -30 | -2 |\n| Nov-24 | -20 | -40 | 0 |\n| Dec-24 | -25 | -45 | 2 |\n| Jan-25 | -30 | -50 | 5 |\n| Feb-25 | -32 | -52 | 10 |\n| Mar-25 | -35 | -55 | 15 |\n| Apr-25 | -30 | -50 | 20 |\n| May-25 | -30 | -50 | 22 |\n| Jun-25 | -35 | -55 | 25 |\n| Jul-25 | -38 | -58 | 28 |",
+        "key_insight": "Institutional clients sold ~$60bn, private clients bought ~$30bn, hedge funds sold ~$38bn in past 12 months"
+      }
+    },
+    {
+      "name": "Equity Inflows \u2013 Institutional 12-month net selling",
+      "type": "Metric",
+      "brief": "Institutional net sold ~$60bn in past 12 months",
+      "description": "Over the past year, institutional clients were net sellers, totaling around -$60bn by July 2025",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -60
+      }
+    },
+    {
+      "name": "Equity Inflows \u2013 Private client 12-month net buying",
+      "type": "Metric",
+      "brief": "Private clients net bought ~$30bn in past year",
+      "description": "Private clients accumulated net inflows of approximately $30bn over the past 12 months",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": 30
+      }
+    },
+    {
+      "name": "Equity Inflows \u2013 Hedge Funds 12-month net selling",
+      "type": "Metric",
+      "brief": "Hedge funds net sold ~$38bn in past year",
+      "description": "Hedge funds showed cumulative net selling of around -$38bn over the past 12 months",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": -38
+      }
+    },
+    {
+      "name": "Table T15 \u2013 Equity ETF flows net buys by style",
+      "type": "Table",
+      "brief": "Equity ETF net buys by style comparison",
+      "description": "Breakdown of net inflows for Value, Blend, and Growth ETFs comparing current week and 4-week average.",
+      "properties": {
+        "table_id": "T15",
+        "table_content": "| Style | Current Week ($ mn) | 4-Week Average ($ mn) |\n|-------|---------------------|-----------------------|\n| Value | 100                 | 125                   |\n| Blend | 190                 | 450                   |\n| Growth| 230                 | 105                   |",
+        "key_insight": "Blend ETFs show the highest 4-week average inflows at $450 million, and Growth ETFs experienced a strong current week inflow of $230 million."
+      }
+    },
+    {
+      "name": "Table T13 \u2013 Equity ETF flows net buys by market capitalization",
+      "type": "Table",
+      "brief": "Equity ETF net buys by market capitalization",
+      "description": "Client ETF flows across market caps comparing current week and 4-week average highlighting inflows and outflows.",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Market Cap    | 4-wk avg. ($ mn) | Current week ($ mn) |\n|---------------|------------------|---------------------|\n| Large-cap     | 580              | 390                 |\n| Small-cap     | 70               | 110                 |\n| Broad Market  | 40               | 70                  |\n| Mid-cap       | -15              | -10                 |",
+        "key_insight": "Large-cap ETFs had the strongest inflows with a 4-week average of $580 million, while Mid-cap ETFs were the only segment with net outflows, at -$10 million this week."
+      }
+    },
+    {
+      "name": "Table T12 \u2013 Equity ETF flows net buys by asset class",
+      "type": "Table",
+      "brief": "ETF net buys by asset class",
+      "description": "Client ETF flows categorized by asset class comparing current week and 4-week average highlighting inflows and outflows.",
+      "properties": {
+        "table_id": "T12",
+        "table_content": "| Asset Class | 4-wk Avg. Net Buys ($ mn) | Current Week Net Buys ($ mn) |\n|-------------|---------------------------|------------------------------|\n| Equity      | 700                       | 570                          |\n| Other       | 140                       | 160                          |\n| Fixed Income| 200                       | -40                          |",
+        "key_insight": "Equity ETFs showed the largest inflows with a 4-week average of $700 million, while Fixed Income ETFs shifted from a 4-week average inflow of $200 million to a $40 million net outflow this week."
+      }
+    },
+    {
+      "name": "Table T14 \u2013 Equity ETF flows net buys by sector",
+      "type": "Table",
+      "brief": "Equity ETF net buys by sector",
+      "description": "ETF flows across GICS sectors comparing current week and 4-week average highlighting leaders and laggards.",
+      "properties": {
+        "table_id": "T14",
+        "table_content": "| Sector                 | 4-wk avg. ($ mn) | Current week ($ mn) |\n|------------------------|------------------|---------------------|\n| Health Care            | 40               | 70                  |\n| Consumer Discretionary | 60               | 50                  |\n| Utilities              | 10               | 20                  |\n| Communications         | 0                | 20                  |\n| Energy                 | 30               | 0                   |\n| Real Estate            | 15               | 5                   |\n| Materials              | -10              | 5                   |\n| Consumer Staples       | -20              | -20                 |\n| Financial              | -40              | -5                  |\n| Industrials            | -60              | -70                 |\n| Technology             | -100             | -190                |",
+        "key_insight": "Health Care ETFs had the strongest inflows at $70 million this week, while Technology ETFs saw the largest outflows, intensifying to -$190 million this week."
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Blend ETF 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Blend ETFs",
+      "description": "Blend ETFs recorded a 4-week average inflow of $450 million, indicating strong sustained interest.",
+      "properties": {
+        "value": 450,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Growth ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net inflow for Growth ETFs",
+      "description": "Growth ETFs saw a current week net inflow of $230 million, indicating a recent surge.",
+      "properties": {
+        "value": 230,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Large-cap ETF 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Large-cap ETFs",
+      "description": "Large-cap ETFs had a 4-week average inflow of $580 million, the strongest among market caps.",
+      "properties": {
+        "value": 580,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Mid-cap ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Mid-cap ETFs",
+      "description": "Mid-cap ETFs experienced a net outflow of $10 million this week, the only segment with outflows.",
+      "properties": {
+        "value": -10,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Equity asset class 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Equity ETFs",
+      "description": "Equity ETFs had a 4-week average inflow of $700 million, the largest among asset classes.",
+      "properties": {
+        "value": 700,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Fixed Income ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Fixed Income ETFs",
+      "description": "Fixed Income ETFs shifted to a net outflow of $40 million this week after prior inflows.",
+      "properties": {
+        "value": -40,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Health Care ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net inflow for Health Care ETFs",
+      "description": "Health Care ETFs had a net inflow of $70 million this week, the strongest among sectors.",
+      "properties": {
+        "value": 70,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows \u2013 Technology ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Technology ETFs",
+      "description": "Technology ETFs saw a net outflow of $190 million this week, the largest among sectors.",
+      "properties": {
+        "value": -190,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 BofA Equity Client Flows client net buys by size segment",
+      "type": "Table",
+      "brief": "Weekly net buying by market cap segment",
+      "description": "Horizontal bar chart showing weekly and 4-week average net buys across size segments",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Market Cap Segment | Last Week (7/14-7/18) Net Buys ($mn) | 4 Week Average Net Buys ($mn) |\n|---------------------|------------------------------------|---------------------------------|\n| Total               | 2674                               | -102                            |\n| Large cap           | 1496                               | -226                            |\n| Mid cap             | 909                                | -25                             |\n| Small cap           | 269                                | 148                             |",
+        "key_insight": "Clients returned to buying across all market cap segments last week, with total net inflows of $2,674mn."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Size Segment Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across market cap segments",
+      "description": "Total weekly net buys across market cap segments reached $2,674mn, reversing prior four-week selling trends.",
+      "properties": {
+        "value": 2674,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 BofA Equity Client Flows client net buys by client group",
+      "type": "Table",
+      "brief": "Weekly net buying by client type",
+      "description": "Bar chart comparing weekly and 4-week average net buys across client types.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Client Type   | Last Week (7/14-7/18) ($mn) | 4-Week Average ($mn) |\n|---------------|-----------------------------|----------------------|\n| Total         | 2156                        | -248                 |\n| Corporate     | 1227                        | 1425                 |\n| Retail        | 1162                        | 583                  |\n| Hedge Funds   | 385                         | -128                 |\n| Institutional | -619                        | -2128                |",
+        "key_insight": "Corporate and Retail clients drove overall net inflows of $2,156mn last week, offsetting Institutional selling."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Client Group Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across client types",
+      "description": "Total weekly net buys by client group reached $2,156mn as Corporate and Retail clients were net buyers.",
+      "properties": {
+        "value": 2156,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 BofA Equity Client Flows client net buys by sector",
+      "type": "Table",
+      "brief": "Weekly net buying by sector",
+      "description": "Bar chart showing weekly and 4-week average net buys across sectors.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Sector | Last week (7/14-7/18) ($mn) | 4 wk avg ($mn) |\n|:--------------------|:----------------------------|:---------------|\n| Total               | 2,028                       | -239           |\n| Industrials         | 926                         | 142            |\n| ETFs                | 662                         | 1,113          |\n| Financials          | 398                         | 272            |\n| Tech                | 253                         | -257           |\n| Materials           | 251                         | -50            |\n| Comm. Svcs.         | 185                         | -314           |\n| Consumer Staples    | 122                         | -212           |\n| Health Care         | 68                          | -243           |\n| Energy              | -27                         | -138           |\n| Real Estate         | -39                         | -215           |\n| Utilities           | -374                        | -199           |\n| Consumer Discretionary | -399                        | -137           |",
+        "key_insight": "Total net inflows reached $2,028mn last week, led by Industrials amid Consumer Discretionary and Utilities outflows."
+      }
+    },
+    {
+      "name": "BofA Equity Client Flows Total Net Buys by Sector Last Week",
+      "type": "Metric",
+      "brief": "Total net inflows across sectors",
+      "description": "Total weekly net buys across sectors reached $2,028mn, with Industrials largest inflows and notable outflows in Consumer Discretionary and Utilities.",
+      "properties": {
+        "value": 2028,
+        "unit": "USD mn",
+        "as_of": "7/14-7/18"
+      }
+    },
+    {
+      "name": "Equity Inflows",
+      "type": "Factor",
+      "brief": "Resurgence in equity inflows led by client buying",
+      "description": "Represents renewed increase in equity inflows across sectors driven by retail and hedge fund clients",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Equity Inflows: Utilities outflows; ETF inflows",
+      "type": "Table",
+      "brief": "Utilities sector cumulative ETF and single stock flows 2017-2024",
+      "description": "Highlights sustained utility stock outflows and volatile but modest ETF flows over time",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | ETF Cumulative Flows ($mn) | Single Stock Cumulative Flows ($mn) |\n|---|---|---|\n| Early 2017 | 0 | 0 |\n| Mid-2017 | -250 | -4500 |\n| Late-2017 | -300 | -5000 |\n| Early-2018 | -200 | -5500 |\n| Mid-2018 | 0 | -7000 |\n| Late-2018 | -400 | -5000 |\n| Early-2019 | -200 | -6000 |\n| Mid-2019 | -500 | -4000 |\n| Early-2020 | -800 | -4500 |\n| Mid-2020 | 200 | -5000 |\n| Early-2021 | 900 | -5000 |\n| Mid-2021 | 0 | -5500 |\n| Late-2021 | -800 | -6000 |\n| Early-2022 | -500 | -6500 |\n| Mid-2022 | 0 | -6500 |\n| Late-2022 | 800 | -6000 |\n| Early-2023 | 900 | -6000 |\n| Mid-2023 | 400 | -5800 |\n| Late-2023 | -800 | -3000 |\n| Early-2024 | 400 | -5000 |\n| Mid-2024 | 500 | -6000 |\n| Late-2024 | 450 | -6000 |",
+        "key_insight": "Utilities single stock flows show sustained large cumulative outflows, while ETF flows fluctuated near zero with peaks around $900mn and troughs near -$800mn"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Equity Inflows: Real Estate net buy swings",
+      "type": "Table",
+      "brief": "Real Estate sector cumulative ETF and single stock net buys 2016-2024",
+      "description": "Shows volatile single stock swings and sustained ETF outflows in Real Estate from 2016 to 2024",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | ETF Cumulative Net Buys ($ mn) | Single Stock Cumulative Net Buys ($ mn) |\n|---|---|---|\n| 2016 | 0 | 0 |\n| 2017 mid | -300 | -3000 |\n| 2018 mid | -700 | -6000 |\n| 2019 mid | -1000 | -8000 |\n| 2019 late | -1200 | -8500 |\n| 2020 early | -1500 | -7000 |\n| 2020 mid | -2000 | -3000 |\n| 2020 late | -1900 | 0 |\n| 2021 mid | -1500 | 1000 |\n| 2022 early | -1800 | 2000 |\n| 2022 mid | -2500 | 2400 |\n| 2022 late | -3500 | 1000 |\n| 2023 mid | -3000 | -500 |\n| 2023 late | -3500 | -1000 |\n| 2024 mid | -4000 | -1800 |\n| 2024 late | -4500 | -2000 |",
+        "key_insight": "Real Estate single stock flows swung from deep cumulative outflows to inflows around mid-2022 before reversing back to outflows by late 2024, while ETF flows remained consistently negative"
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Equity Inflows: Utilities long-term outflows vs ETFs",
+      "type": "Table",
+      "brief": "Utilities sector long-term ETF and single stock flows 2016-2024",
+      "description": "Illustrates sustained single stock outflows and relatively flat ETF accumulation over the long term",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | ETF Cumulative Flow ($mn) | Single Stock Cumulative Flow ($mn) |\n|---|---|---|\n| 2016 | 0 | 0 |\n| 2017 | 500 | -1000 |\n| 2018 | 1500 | -500 |\n| 2019 | 1000 | -1500 |\n| 2020 | 1800 | -3000 |\n| 2020.5 | 1000 | -1000 |\n| 2021 | 0 | -5000 |\n| 2021.5 | 500 | -2000 |\n| 2022 | 0 | -7000 |\n| 2023 | -200 | -7500 |\n| 2024 | 200 | -7800 |",
+        "key_insight": "Utilities single stock flows show accelerating long-term cumulative outflows reaching nearly -$8bn by 2024, while ETF flows peaked around $1.8bn in 2020 then fluctuated near zero"
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Equity Inflows: Tech cumulative flows by asset type",
+      "type": "Table",
+      "brief": "Tech sector cumulative flows by ETF vs single stock 2017-2024",
+      "description": "Highlights divergence with massive single stock inflows versus modest ETF accumulation",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year | Asset Type | Cumulative Flow ($ mn) |\n|---|---|---|\n| 2017 Early | ETF | 0 |\n| 2017 Early | Single Stock | 0 |\n| 2017 End | ETF | 5,000 |\n| 2017 End | Single Stock | -5,000 |\n| 2018 Mid | ETF | 2,000 |\n| 2018 Mid | Single Stock | 5,000 |\n| 2018 End | ETF | 3,000 |\n| 2018 End | Single Stock | 10,000 |\n| 2019 Mid | ETF | 5,000 |\n| 2019 Mid | Single Stock | 15,000 |\n| 2020 Mid | ETF | 8,000 |\n| 2020 Mid | Single Stock | 10,000 |\n| 2021 Mid | ETF | 5,000 |\n| 2021 Mid | Single Stock | 20,000 |\n| 2022 Mid | ETF | 6,000 |\n| 2022 Mid | Single Stock | 60,000 |\n| 2023 Mid | ETF | 3,000 |\n| 2023 Mid | Single Stock | 80,000 |\n| 2024 Mid | ETF | 2,000 |\n| 2024 Mid | Single Stock | 100,000 |\n| 2024 End | ETF | 1,000 |\n| 2024 End | Single Stock | 110,000 |",
+        "key_insight": "Technology asset type flows show single stock cumulative inflows accelerating to $110bn by end-2024, while ETF flows remained modest"
+      }
+    },
+    {
+      "name": "Table T5 \u2013 Equity Inflows: Comm Services single stock rebound",
+      "type": "Table",
+      "brief": "Communication Services ETF vs single stock flows 2016-2024",
+      "description": "Shows dramatic single stock recovery against steady ETF accumulation in Communication Services",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Year | Single Stock Cum. Net Buys ($ mn) | ETF Cum. Net Buys ($ mn) |\n|------|-----------------------------------|--------------------------|\n| 2016 | 0                                 | 0                        |\n| 2017 | -5k                               | 5k                       |\n| 2018 | -10k                              | 8k                       |\n| 2019 | -15k                              | 9k                       |\n| 2020 | -20k                              | 10k                      |\n| 2021 | -10k                              | 12k                      |\n| 2022 | 0                                 | 12k                      |\n| 2023 | 40k                               | 12k                      |\n| 2024 | 72k                               | 16k                      |",
+        "key_insight": "Communication Services single stock flows reversed from -20k trough in 2020 to +72k by 2024, while ETF flows rose modestly"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 Equity Inflows Hedge Funds Rolling Four-Week Net Equity Flows",
+      "target": "Equity Inflows Hedge Funds Peak Net Buys Q1 2009",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1400,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights Hedge Funds peak net buys of $1,400mn in Q1 2009"
+    },
+    {
+      "source": "Table T2 \u2013 Equity Inflows Private Clients Rolling Four-Week Net Buys",
+      "target": "Equity Inflows Private Clients All-Time High Net Buys Mid-2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights private clients' surge to $2,000mn net buys by mid-2025"
+    },
+    {
+      "source": "Table T3 \u2013 Equity Inflows Corporate Clients Rolling Four-Week Average Buybacks",
+      "target": "Equity Inflows Corporate Clients Peak Buybacks 2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows corporate clients' peak buybacks of $5,500mn in 2024"
+    },
+    {
+      "source": "Table T4 \u2013 Equity Inflows Institutional Clients Rolling Four-Week Net Equity Flows",
+      "target": "Equity Inflows Institutional Clients Low Net Buys Mid-2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -2500,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows institutional clients' net flows of -$2,500mn by mid-2025"
+    },
+    {
+      "source": "Table T5 \u2013 Equity Inflows BofA Client Buybacks vs S&P 500 Buybacks YoY",
+      "target": "Equity Inflows BofA Client Buybacks YoY Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 500,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table indicates BofA client buybacks peaked at 500% YoY"
+    },
+    {
+      "source": "Table T20 \u2013 Equity Client Flow Trends \u2013 Health Care rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends \u2013 Health Care three-week outflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T20 informs on Health Care three-week outflow trend"
+    },
+    {
+      "source": "Table T26 \u2013 Equity Client Flow Trends \u2013 ETF rolling 4-wk average flows",
+      "target": "Equity Client Flow Trends \u2013 ETF net inflow trend since Feb 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T26 informs on ETF net inflow trend since Feb 2025"
+    },
+    {
+      "source": "Table T17 \u2013 Equity Client Flow Trends \u2013 Consumer Staples rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends \u2013 Consumer Staples seven-week outflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T17 informs on Consumer Staples seven-week outflow trend"
+    },
+    {
+      "source": "Table T27 \u2013 Equity Client Flow Trends \u2013 Real Estate rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends \u2013 Real Estate net outflow trend since Apr 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T27 informs on Real Estate net outflow trend since Apr 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Equity inflows resurgence: Large cap net buys (4-week avg)",
+      "target": "Equity inflows resurgence \u2013 Large cap net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -500,
+        "unit": "USD mn",
+        "non_linear": null
+      },
+      "description": "Table shows large-cap net buys flipped to -$500M in mid-2025"
+    },
+    {
+      "source": "Table T2 \u2013 Equity inflows resurgence: Small caps rolling 4-wk avg flows flip positive",
+      "target": "Equity inflows resurgence \u2013 Small cap flows flip positive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Table shows sustained positive small-cap flows in 2024 and mid-2025"
+    },
+    {
+      "source": "Table T3 \u2013 Equity inflows resurgence: Mid caps rolling 4-wk avg outflows for four consecutive weeks",
+      "target": "Equity inflows resurgence \u2013 Mid cap persistent outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Table shows persistent mid-cap outflows through mid-2025"
+    },
+    {
+      "source": "Table T1 \u2013 Equity flows: Energy sector cumulative flows 2017-2024",
+      "target": "Equity flows Energy ETF cumulative peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Energy ETF peak cumulative flows"
+    },
+    {
+      "source": "Table T1 \u2013 Equity flows: Energy sector cumulative flows 2017-2024",
+      "target": "Equity flows Energy single stock cumulative trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -8000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Energy single stock trough cumulative flows"
+    },
+    {
+      "source": "Table T2 \u2013 Equity flows: Financials sector cumulative flows 2016-2024",
+      "target": "Equity flows Financials single stock cumulative 2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 50000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Financials single stock cumulative flows"
+    },
+    {
+      "source": "Table T2 \u2013 Equity flows: Financials sector cumulative flows 2016-2024",
+      "target": "Equity flows Financials ETF cumulative end-2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Financials ETF cumulative flows"
+    },
+    {
+      "source": "Table T44 \u2013 Equity ETF flows: Staples rolling 4-wk avg flows",
+      "target": "Equity ETF flows \u2013 Staples ETFs early-2019 peak 4-week avg flow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 280,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Highlights early-2019 peak net flow of $280 mn"
+    },
+    {
+      "source": "Table T1 \u2013 Equity Inflows: BofA Client Net Buys vs S&P 500 Index (2008-2025)",
+      "target": "Equity Inflows - BofA Client Net Buys 4wk Avg",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 4000,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows peak net buying of $4,000mn in mid-2024"
+    },
+    {
+      "source": "Table T1 \u2013 Equity Inflows: BofA Client Net Buys vs S&P 500 Index (2008-2025)",
+      "target": "Equity Inflows - S&P 500 Index Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 5800,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Table shows S&P 500 reached new highs at 5800 in Q1 2025"
+    },
+    {
+      "source": "Equity ETF Flows - Table T1 \u2013 Mid-cap ETFs Rolling 4-Week Avg Flow",
+      "target": "Equity ETF Flows - Mid-cap ETFs Rolling 4-Week Avg Flow Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 40,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights mid-cap ETF flows flipping positive to $40mn in March 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Equity Client Flow Trends: Materials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Materials ETF Flow Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights high volatility in Materials ETF flows"
+    },
+    {
+      "source": "Table T2 \u2013 Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Tech ETF Sustained Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows sustained net outflows in Tech ETFs since mid-2024"
+    },
+    {
+      "source": "Table T3 \u2013 Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Financials ETF Recent Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table indicates three weeks of net outflows in Financials ETFs"
+    },
+    {
+      "source": "Table T4 \u2013 Equity Client Flow Trends: Health Care ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Health Care ETF Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows three consecutive weeks of outflows in Health Care ETFs"
+    },
+    {
+      "source": "Table T5 \u2013 Equity Client Flow Trends: Tech ETFs: rolling 4-wk avg. outflows since mid-May 2025",
+      "target": "Equity Client Flow Trends: Tech ETF Heavy Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights significant Tech ETF outflows since mid-May 2025"
+    },
+    {
+      "source": "Table T6 \u2013 Equity Client Flow Trends: Financials ETFs: rolling 4-wk avg. (Time Series)",
+      "target": "Equity Client Flow Trends: Financials ETF Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table demonstrates volatile inflows and outflows in Financials ETFs"
+    },
+    {
+      "source": "Table T7 \u2013 Equity Client Flow Trends: Industrials ETFs: rolling 4-wk avg.",
+      "target": "Equity Client Flow Trends: Industrials ETF Outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows seven consecutive weeks of outflows in Industrials ETFs"
+    },
+    {
+      "source": "Table T76 \u2013 Equity Inflows: Mid Cap ETFs acceleration now slowing",
+      "target": "Equity Inflows: Mid Cap ETF momentum slowing",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs that mid-cap ETF inflow momentum is slowing"
+    },
+    {
+      "source": "Table T73 \u2013 Equity Inflows: Value ETF flows outpacing Growth ETF flows",
+      "target": "Equity Inflows: Value ETF preference",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs preference for Value ETFs over Growth ETFs"
+    },
+    {
+      "source": "Table T75 \u2013 Equity Inflows: Large Cap ETF cumulative net buys",
+      "target": "Equity Inflows: Large Cap ETF inflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs strong and re-accelerating large cap ETF inflows"
+    },
+    {
+      "source": "Table T78 \u2013 Equity Inflows: Broad Market ETF inflows YTD",
+      "target": "Equity Inflows: Broad Market ETF inflow momentum",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs broad market ETF inflow surges and stabilization"
+    },
+    {
+      "source": "Table T74 \u2013 Equity Inflows: Blend ETF cumulative net buys",
+      "target": "Equity Inflows: Blend ETF inflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs sustained and accelerating blend ETF inflows"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_PrivateClients",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers private client buying"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_HedgeFunds",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers hedge fund buying"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_InstitutionalClients",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers institutional client selling"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_Industrials",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence leads to broad-based buying in Industrials"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_Financials",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence leads to broad-based buying in Financials"
+    },
+    {
+      "source": "Table T1 \u2013 Two-week net buying and selling of Industrials",
+      "target": "Equity Inflows \u2013 Industrials two-week net inflow peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2000,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T1 informs the peak Industrials two-week net inflow metric"
+    },
+    {
+      "source": "Table T2 \u2013 Institutional clients cumulative net selling since 2008",
+      "target": "Equity Inflows \u2013 Institutional cumulative net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -300,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T2 informs the institutional clients cumulative net selling metric"
+    },
+    {
+      "source": "Table T3 \u2013 12-month cumulative net flows by client type",
+      "target": "Equity Inflows \u2013 Institutional 12-month net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -60,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the institutional 12-month net selling metric"
+    },
+    {
+      "source": "Table T3 \u2013 12-month cumulative net flows by client type",
+      "target": "Equity Inflows \u2013 Private client 12-month net buying",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the private client 12-month net buying metric"
+    },
+    {
+      "source": "Table T3 \u2013 12-month cumulative net flows by client type",
+      "target": "Equity Inflows \u2013 Hedge Funds 12-month net selling",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -38,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table T3 informs the hedge funds 12-month net selling metric"
+    },
+    {
+      "source": "Table T15 \u2013 Equity ETF flows net buys by style",
+      "target": "Equity ETF flows \u2013 Blend ETF 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 450,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Blend ETFs had the highest 4-week average inflows at $450mm."
+    },
+    {
+      "source": "Table T15 \u2013 Equity ETF flows net buys by style",
+      "target": "Equity ETF flows \u2013 Growth ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 230,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Growth ETFs saw a current week inflow of $230mm."
+    },
+    {
+      "source": "Table T13 \u2013 Equity ETF flows net buys by market capitalization",
+      "target": "Equity ETF flows \u2013 Large-cap ETF 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 580,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Large-cap ETFs had a 4-week average inflow of $580mm."
+    },
+    {
+      "source": "Table T13 \u2013 Equity ETF flows net buys by market capitalization",
+      "target": "Equity ETF flows \u2013 Mid-cap ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -10,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Mid-cap ETFs experienced a current week outflow of $10mm."
+    },
+    {
+      "source": "Table T12 \u2013 Equity ETF flows net buys by asset class",
+      "target": "Equity ETF flows \u2013 Equity asset class 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 700,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Equity ETFs had a 4-week average inflow of $700mm."
+    },
+    {
+      "source": "Table T12 \u2013 Equity ETF flows net buys by asset class",
+      "target": "Equity ETF flows \u2013 Fixed Income ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -40,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Fixed Income ETFs shifted to a $40mm net outflow this week."
+    },
+    {
+      "source": "Table T14 \u2013 Equity ETF flows net buys by sector",
+      "target": "Equity ETF flows \u2013 Health Care ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Health Care ETFs had a current week inflow of $70mm."
+    },
+    {
+      "source": "Table T14 \u2013 Equity ETF flows net buys by sector",
+      "target": "Equity ETF flows \u2013 Technology ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -190,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Technology ETFs saw a current week outflow of $190mm."
+    },
+    {
+      "source": "Table T1 \u2013 BofA Equity Client Flows client net buys by size segment",
+      "target": "BofA Equity Client Flows Total Net Buys by Size Segment Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2674,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs total weekly net inflows across size segments"
+    },
+    {
+      "source": "Table T2 \u2013 BofA Equity Client Flows client net buys by client group",
+      "target": "BofA Equity Client Flows Total Net Buys by Client Group Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2156,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs total weekly net inflows by client group"
+    },
+    {
+      "source": "Table T3 \u2013 BofA Equity Client Flows client net buys by sector",
+      "target": "BofA Equity Client Flows Total Net Buys by Sector Last Week",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2028,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T3 informs total weekly net inflows by sector"
+    },
+    {
+      "source": "Table T1 \u2013 Equity Inflows: Utilities outflows; ETF inflows",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights divergent flows in the Utilities sector"
+    },
+    {
+      "source": "Table T2 \u2013 Equity Inflows: Real Estate net buy swings",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Shows volatile Real Estate flow trends"
+    },
+    {
+      "source": "Table T3 \u2013 Equity Inflows: Utilities long-term outflows vs ETFs",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Illustrates long-term Utilities outflows versus ETF flows"
+    },
+    {
+      "source": "Table T4 \u2013 Equity Inflows: Tech cumulative flows by asset type",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights Tech sector asset-type flow divergence"
+    },
+    {
+      "source": "Table T5 \u2013 Equity Inflows: Comm Services single stock rebound",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights Communication Services single stock rebound versus ETF flows"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/bofa_equity_client_flow_trends_20250722_converted_with_figures"
+}

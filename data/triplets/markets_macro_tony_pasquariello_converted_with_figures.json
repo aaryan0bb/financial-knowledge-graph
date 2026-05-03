@@ -1,0 +1,1331 @@
+{
+  "entities": [
+    {
+      "name": "US Equities \u2013 S&P 500",
+      "type": "Metric",
+      "brief": "U.S. large-cap equity index",
+      "description": "Benchmark index trading at multi-week highs",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Equities \u2013 Growth/Inflation Tradeoff",
+      "type": "Factor",
+      "brief": "tradeoff between growth and inflation",
+      "description": "Appears unattractive per economic outlook",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Retail Investor Risk Appetite",
+      "type": "Factor",
+      "brief": "retail investors hunting risky assets",
+      "description": "Retail investors have become rapacious",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Back End Rates",
+      "type": "Factor",
+      "brief": "long-term interest rates",
+      "description": "Back end rates continue to simmer",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Bull Market",
+      "type": "Factor",
+      "brief": "ongoing bull market trend",
+      "description": "Primary market trend remains higher",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities \u2013 MSFT Earnings",
+      "type": "Event",
+      "brief": "Microsoft earnings report",
+      "description": "Scheduled next week Wednesday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "MSFT"
+        ]
+      }
+    },
+    {
+      "name": "US Equities \u2013 META Earnings",
+      "type": "Event",
+      "brief": "Meta Platforms earnings report",
+      "description": "Scheduled next week Wednesday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "META"
+        ]
+      }
+    },
+    {
+      "name": "US Equities \u2013 AMZN Earnings",
+      "type": "Event",
+      "brief": "Amazon earnings report",
+      "description": "Scheduled next week Thursday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "AMZN"
+        ]
+      }
+    },
+    {
+      "name": "US Equities \u2013 AAPL Earnings",
+      "type": "Event",
+      "brief": "Apple earnings report",
+      "description": "Scheduled next week Thursday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "AAPL"
+        ]
+      }
+    },
+    {
+      "name": "US Equities \u2013 FOMC Meeting",
+      "type": "Event",
+      "brief": "Federal Reserve FOMC meeting",
+      "description": "Key Fed meeting with potential dissent",
+      "properties": {
+        "date": null,
+        "event_type": "meeting",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Fed Governors Dissent",
+      "type": "Event",
+      "brief": "Fed governors voting dissent",
+      "description": "First time since 1993 two governors dissent",
+      "properties": {
+        "date": null,
+        "event_type": "dissent",
+        "count": 2
+      }
+    },
+    {
+      "name": "US Equities \u2013 US Payrolls Release",
+      "type": "Event",
+      "brief": "U.S. payrolls data release",
+      "description": "Labor market approaching stall speed",
+      "properties": {
+        "date": null,
+        "event_type": "payroll_report",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Tariff Deadline EU",
+      "type": "Event",
+      "brief": "EU tariff deadline",
+      "description": "Deadline with highest stakes",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_deadline",
+        "region": "EU"
+      }
+    },
+    {
+      "name": "US Equities \u2013 US Labor Market",
+      "type": "Factor",
+      "brief": "U.S. labor market",
+      "description": "Approaching stall speed",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Equity Implied Volatility",
+      "type": "Factor",
+      "brief": "short-dated equity implied volatility",
+      "description": "Has been hammered recently",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Interest Rate Implied Volatility",
+      "type": "Factor",
+      "brief": "short-dated rate implied volatility",
+      "description": "Has been hammered recently",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Cheap Gamma",
+      "type": "Factor",
+      "brief": "cheap gamma exposure",
+      "description": "Cheap gamma due to low short-dated vol",
+      "properties": {
+        "driver": "volatility_down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 NDX Options",
+      "type": "Instrument",
+      "brief": "options on Nasdaq-100 index",
+      "description": "Short-dated options with cheap gamma",
+      "properties": {
+        "ticker": "NDX",
+        "maturity": "short-dated",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Equities \u2013 QQQ Options",
+      "type": "Instrument",
+      "brief": "options on QQQ ETF",
+      "description": "Short-dated options with cheap gamma",
+      "properties": {
+        "ticker": "QQQ",
+        "maturity": "short-dated",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Equities \u2013 S&P 500 Consolidation Risk",
+      "type": "Factor",
+      "brief": "risk of S&P 500 pullback",
+      "description": "Consolidation due after 15-week rally",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities \u2013 Short-Term Risk/Reward Profile",
+      "type": "Factor",
+      "brief": "short-term risk/reward profile",
+      "description": "Risk/reward profile becoming tricky",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Equities Current Percentile Ranks by Stock Category",
+      "type": "Table",
+      "brief": "Percentile ranks by stock category",
+      "description": "Displays current trading volume percentile ranks since 1990 for various speculative stock categories, all at elevated levels.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Percentile Rank |\n|---------------------------------|-----------------|\n| Penny stocks | 98% |\n| Stocks with EV/sales multiples > 10x | 96% |\n| Unprofitable stocks | 85% |\n| Speculative Trading Indicator | 88% |",
+        "key_insight": "All categories are at significantly high historical percentile ranks, indicating elevated trading activity in speculative assets."
+      }
+    },
+    {
+      "name": "US Equities Penny Stocks Percentile Rank",
+      "type": "Metric",
+      "brief": "Penny stocks trading volume at 98th percentile",
+      "description": "Reflects near-record trading share in penny stocks at 98th percentile since 1990.",
+      "properties": {
+        "unit": "%",
+        "value": 98,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T2 \u2013 US Equities GSXURFAV Index Weekly Performance",
+      "type": "Table",
+      "brief": "Weekly performance of GSXURFAV Index since 2020",
+      "description": "Shows GSXURFAV Index surge to initial peak, decline, recovery, and all-time high in mid-2024.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | GSXURFAV Index Value |\n|-----------|----------------------|\n| Jul 2020  | 100                  |\n| Oct 2020  | 150                  |\n| Jan 2021  | 215                  |\n| Apr 2021  | 200                  |\n| Jul 2021  | 160                  |\n| Oct 2021  | 140                  |\n| Jan 2022  | 130                  |\n| Jun 2022  | 105                  |\n| Oct 2022  | 130                  |\n| Jan 2023  | 120                  |\n| Apr 2023  | 140                  |\n| Jul 2023  | 150                  |\n| Oct 2023  | 175                  |\n| Jan 2024  | 190                  |\n| Apr 2024  | 210                  |\n| Jul 2024  | 232.18               |",
+        "key_insight": "In mid-2024, the GSXURFAV Index decisively broke above its previous 2021 peak, reaching an all-time high of 232.18, significantly surpassing prior resistance."
+      }
+    },
+    {
+      "name": "US Equities GSXURFAV Index All-Time High",
+      "type": "Metric",
+      "brief": "GSXURFAV Index reached 232.18 in mid-2024",
+      "description": "All-time high for retail favorites basket index at 232.18 in Jul 2024.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 232.18,
+        "as_of": "2024-07"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Long US Equity Position",
+      "type": "Factor",
+      "brief": "Position betting on rising US equities",
+      "description": "Modest long bias on US equities amid fiscal conversation",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Long Stores-of-Value Position",
+      "type": "Factor",
+      "brief": "Position in stores-of-value assets",
+      "description": "Modestly long stores-of-value amid fiscal conversation",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Short US Dollar Position",
+      "type": "Factor",
+      "brief": "Short position on the US dollar",
+      "description": "Modestly short US dollar amid fiscal conversation",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Global Yield Curve Steepening",
+      "type": "Factor",
+      "brief": "Bias towards global yield curve steepening",
+      "description": "Expectation of steeper yield curves globally",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Discretionary Hedge Fund US Equity Net Selling",
+      "type": "Factor",
+      "brief": "Discretionary hedge funds sold US equities for four weeks",
+      "description": "Four consecutive weeks of US equity selling by discretionary hedge funds",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 28
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Systematic Trading US Equity Demand Past Month",
+      "type": "Factor",
+      "brief": "Systematic community demand in US equities",
+      "description": "USD 99bn demand in past month by systematic trading community",
+      "properties": {
+        "magnitude_usd_bn": 99,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Systematic Trading US Equity Demand Next Month Forecast",
+      "type": "Factor",
+      "brief": "Forecast demand in US equities by systematic trading",
+      "description": "Expected USD 89bn demand next month by systematic trading community",
+      "properties": {
+        "magnitude_usd_bn": 89
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Seasonal Demand Slowdown Jul-Aug",
+      "type": "Factor",
+      "brief": "Seasonal slowdown in stock demand from July to August",
+      "description": "Ferocity of demand expected to slow as July transitions to August",
+      "properties": {
+        "direction": "down",
+        "season_period": "Jul-Aug"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Corporate Repurchase Execution Peak in August",
+      "type": "Factor",
+      "brief": "Peak corporate share repurchase execution in August",
+      "description": "August is the single most active month for executed repurchases",
+      "properties": {
+        "month": "August",
+        "magnitude_peak": true
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Earnings Beat Rate Current Period",
+      "type": "Metric",
+      "brief": "Percentage of S&P names beating estimates",
+      "description": "65% of S&P names have beaten final estimates by >1 std dev",
+      "properties": {
+        "value": 65,
+        "unit": "%",
+        "as_of": "Reporting period"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Earnings Beat Rate Long-Term Average",
+      "type": "Metric",
+      "brief": "Long-term average earnings beat rate",
+      "description": "Long-term average beat rate of S&P names is 48%",
+      "properties": {
+        "value": 48,
+        "unit": "%",
+        "as_of": "Long-term average"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Consensus Earnings Growth Estimate",
+      "type": "Metric",
+      "brief": "Consensus earnings growth estimate",
+      "description": "Consensus estimate for earnings growth is +4%",
+      "properties": {
+        "value": 4,
+        "unit": "%",
+        "as_of": "Consensus"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Trump 2.0 Policy Impact",
+      "type": "Event",
+      "brief": "Trump 2.0 policy impact on companies",
+      "description": "New policy changes impacting companies like GM and Verizon",
+      "properties": {
+        "date": null,
+        "event_type": "Policy",
+        "affected_tickers": [
+          "GM",
+          "VZ"
+        ]
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 General Motors",
+      "type": "Company",
+      "brief": "Automaker experiencing selloff on tariffs",
+      "description": "GM sold off due to Trump 2.0 tariff policies",
+      "properties": {
+        "ticker": "GM",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Verizon Communications",
+      "type": "Company",
+      "brief": "Telecom company rallying on expense deductions",
+      "description": "Verizon rallied due to Trump 2.0 expense deduction policies",
+      "properties": {
+        "ticker": "VZ",
+        "sector": "Telecommunications"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 Alphabet Inc.",
+      "type": "Company",
+      "brief": "Tech company focused on AI innovation",
+      "description": "Alphabet's demand environment is wide open for AI innovation",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "S&P 500 \u2013 AI Innovation Demand Environment",
+      "type": "Factor",
+      "brief": "Demand environment for AI innovation",
+      "description": "Wide open demand environment for AI innovation as noted by NOW",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market Top Seven US Banks Corporate Loan Growth Q1",
+      "type": "Metric",
+      "brief": "Corporate loan growth for top seven banks in Q1 2025",
+      "description": "Year-over-year corporate loan growth for the top seven US banks in Q1 2025",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": "Q1 2025"
+      }
+    },
+    {
+      "name": "US Market Top Seven US Banks Corporate Loan Growth Q2",
+      "type": "Metric",
+      "brief": "Corporate loan growth for top seven banks in Q2 2025",
+      "description": "Year-over-year corporate loan growth for the top seven US banks in Q2 2025",
+      "properties": {
+        "value": 5,
+        "unit": "%",
+        "as_of": "Q2 2025"
+      }
+    },
+    {
+      "name": "US Market JPM TBV Ratio",
+      "type": "Metric",
+      "brief": "JPM price-to-tangible-book multiple",
+      "description": "JPM trades at around 3.0x tangible book value",
+      "properties": {
+        "value": 3.0,
+        "unit": "x",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Market Bank Physical Check Processing Cost",
+      "type": "Metric",
+      "brief": "Cost to process a physical check",
+      "description": "It costs a US bank as much as $7 to process a physical check",
+      "properties": {
+        "value": 7,
+        "unit": "USD",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Market XLI ETF",
+      "type": "Instrument",
+      "brief": "ETF tracking US industrials",
+      "description": "ETF XLI represents US industrial sector performance",
+      "properties": {
+        "ticker": "XLI"
+      }
+    },
+    {
+      "name": "US Market XLI May 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in May 2025",
+      "description": "XLI returned 8.8% in May 2025",
+      "properties": {
+        "value": 8.8,
+        "unit": "%",
+        "as_of": "May 2025"
+      }
+    },
+    {
+      "name": "US Market XLI June 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in June 2025",
+      "description": "XLI returned 3.3% in June 2025",
+      "properties": {
+        "value": 3.3,
+        "unit": "%",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "US Market XLI July 2025 Return",
+      "type": "Metric",
+      "brief": "XLI return in July 2025",
+      "description": "XLI returned 5.1% in July 2025",
+      "properties": {
+        "value": 5.1,
+        "unit": "%",
+        "as_of": "July 2025"
+      }
+    },
+    {
+      "name": "US Market Hedge Fund Community Net Exposure",
+      "type": "Factor",
+      "brief": "Hedge fund net exposure to XLI",
+      "description": "Hedge funds net exposure to XLI reached the 100th percentile over nine weeks",
+      "properties": {
+        "magnitude": 100,
+        "unit": "percentile",
+        "lookback_days": 63
+      }
+    },
+    {
+      "name": "US Market GEV",
+      "type": "Company",
+      "brief": "AI/data center related stock",
+      "description": "GEV has returned 100% year-to-date in 2025",
+      "properties": {
+        "ticker": "GEV",
+        "performance_ytd_pct": 100
+      }
+    },
+    {
+      "name": "US Market GE",
+      "type": "Company",
+      "brief": "Industrial conglomerate",
+      "description": "GE has returned 60% year-to-date in 2025",
+      "properties": {
+        "ticker": "GE",
+        "performance_ytd_pct": 60
+      }
+    },
+    {
+      "name": "US Market ISM Contraction Frequency",
+      "type": "Factor",
+      "brief": "ISM in contractionary territory frequency",
+      "description": "ISM has been in contraction for 30 of the last 32 months",
+      "properties": {
+        "magnitude_months": 30,
+        "lookback_months": 32
+      }
+    },
+    {
+      "name": "US Market Lower Interest Rates",
+      "type": "Factor",
+      "brief": "Prospective interest rate decline",
+      "description": "Potential for lower interest rates in 2H 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "Event",
+      "brief": "Investor re-evaluation of cyclical exposures",
+      "description": "Investors are re-evaluating deeper cyclical exposures in 2H 2025",
+      "properties": {
+        "date": null,
+        "event_type": "investor_revaluation"
+      }
+    },
+    {
+      "name": "US Market US Economic Growth",
+      "type": "Factor",
+      "brief": "US economic growth trend",
+      "description": "Overall US economic growth trend under influence of bank lending",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities",
+      "type": "Factor",
+      "brief": "Broad US equity market performance",
+      "description": "Represents overall trend and sentiment of U.S. stock market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities Next Week Catalysts",
+      "type": "Event",
+      "brief": "Upcoming catalysts to test index sustainability",
+      "description": "Next week is a 'show-me story' that will test the bullish trend",
+      "properties": {
+        "date": null,
+        "event_type": "Catalyst",
+        "affected_tickers": [
+          "GSTMTMEG Index",
+          "GSENEPOW Index"
+        ]
+      }
+    },
+    {
+      "name": "US Equities Surge in GEV Performance post-ChatGPT",
+      "type": "Factor",
+      "brief": "Post-ChatGPT boost to GEV performance",
+      "description": "Improved GEV performance after ChatGPT surge may drive power demand",
+      "properties": {
+        "driver": "energy demand",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "type": "Table",
+      "brief": "GSTMTMEG Index performance with moving averages from Aug 2024 to Jul 2025",
+      "description": "Shows uptrend, correction, and recovery leading to new peak of 517.34",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Approx. Index Value | Short-term MA | Medium-term MA | Long-term MA |\n|---|---|---|---|---|\n| Aug 2024 | 385 | 380 | 375 | 360 |\n| Sep 09, 2024 | 405 | 395 | 385 | 370 |\n| Oct 2024 | 430 | 420 | 405 | 385 |\n| Nov 2024 | 460 | 450 | 430 | 405 |\n| Dec 2024 | 485 | 475 | 455 | 425 |\n| Jan 2025 | 505 | 495 | 480 | 445 |\n| Feb 2025 | 500 | 505 | 495 | 460 |\n| Mar 2025 | 440 | 470 | 480 | 465 |\n| Apr 2025 | 410 | 420 | 440 | 450 |\n| Early May 2025 | 440 | 415 | 420 | 445 |\n| Mid-May 2025 | 470 | 440 | 425 | 440 |\n| Jun 2025 | 495 | 480 | 455 | 445 |\n| Jul 25, 2025 | 517.34 | 487.94 | 473.93 | 447.50 |",
+        "key_insight": "From August 2024 to July 2025, the US mega cap tech index peaked in early 2025, corrected sharply into April, then recovered to a new high of 517.34 by July with bullish moving averages."
+      }
+    },
+    {
+      "name": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "type": "Table",
+      "brief": "GSENEPOW Index candle chart with moving averages from Aug 2024 to Jul 2025",
+      "description": "Highlights uptrend, mid-Jan peak, mid-Apr trough, and rebound to new high of 195.16",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | Index Value | Short-term MA (Magenta) | Mid-term MA (Green) | Long-term MA (Yellow) |\n|--------------|-------------|-------------------------|---------------------|-----------------------|\n| Aug 2024     | ~115        | ~118                    | ~119                | ~120                  |\n| Sep 2024     | ~135        | ~130                    | ~125                | ~122                  |\n| Oct 2024     | ~145        | ~145                    | ~140                | ~130                  |\n| Nov 2024     | ~160        | ~155                    | ~150                | ~140                  |\n| Dec 2024     | ~175        | ~170                    | ~160                | ~145                  |\n| Jan 2025     | ~185        | ~175                    | ~170                | ~150                  |\n| Mid-Jan 2025 | ~190        | ~180                    | ~175                | ~155                  |\n| Feb 2025     | ~150        | ~160                    | ~165                | ~150                  |\n| Mar 2025     | ~135        | ~140                    | ~145                | ~150                  |\n| Mid-Apr 2025 | ~130        | ~135                    | ~140                | ~145                  |\n| May 2025     | ~170        | ~160                    | ~155                | ~150                  |\n| Jun 2025     | ~190        | ~175                    | ~170                | ~152                  |\n| Jul 2025     | 195.16      | 180.14                  | 183.85              | 154.41                |",
+        "key_insight": "From August 2024 to July 2025, the GSENEPOW Index peaked mid-January, corrected to a trough in mid-April, then rebounded to a new high of 195.16 by July in a bullish configuration."
+      }
+    },
+    {
+      "name": "US Equities: S&P 500 All-Time High",
+      "type": "Event",
+      "brief": "S&P 500 reached fresh record highs",
+      "description": "The S&P 500 index went wire-to-wire and sits at new all-time highs",
+      "properties": {
+        "date": "2025-07-26",
+        "event_type": "all_time_high",
+        "affected_tickers": [
+          "SPX"
+        ]
+      }
+    },
+    {
+      "name": "US Equities: August 1st, 2025 Framework Deal Deadline",
+      "type": "Event",
+      "brief": "Deadline for key framework deals",
+      "description": "August 1st deadline spurred framework deal agreements",
+      "properties": {
+        "date": "2025-08-01",
+        "event_type": "deal_deadline",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equities: Framework Deal Agreements",
+      "type": "Event",
+      "brief": "Agreements of framework deals",
+      "description": "A handful of framework deals were agreed ahead of the deadline",
+      "properties": {
+        "date": null,
+        "event_type": "deal_agreement",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equities: Risk Premia",
+      "type": "Factor",
+      "brief": "Additional return demanded by investors",
+      "description": "Risk premia are being wrung out of the markets due to deal activity",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities: GOOG",
+      "type": "Company",
+      "brief": "Alphabet\u2019s share rally on AI capex",
+      "description": "GOOG ratified the theme of growing AI capex commitment",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Equities: AI Capex Commitment",
+      "type": "Factor",
+      "brief": "Growth in AI capital expenditure commitment",
+      "description": "Commitment to AI capex is only growing, signaling strong investment focus",
+      "properties": {
+        "direction": "up",
+        "driver": "earnings reporting season"
+      }
+    },
+    {
+      "name": "US Equities real personal consumption stagnation",
+      "type": "Factor",
+      "brief": "Stagnation in real personal consumption",
+      "description": "Real personal consumption has been flat on net for six months, rare outside recession",
+      "properties": {
+        "direction": "flat",
+        "lookback_days": 180
+      }
+    },
+    {
+      "name": "US Equities housing activity slowdown",
+      "type": "Factor",
+      "brief": "Sharp slowdown in housing activity",
+      "description": "Overall construction spending falling faster over past year than post-2008 bust",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities H1 real GDP growth estimate",
+      "type": "Metric",
+      "brief": "Tracking estimate for H1 real GDP growth",
+      "description": "Estimated H1 real GDP growth of 1.1%, about a percentage point below potential",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "US Equities H2 real GDP growth forecast",
+      "type": "Metric",
+      "brief": "Forecast for H2 real GDP growth",
+      "description": "Expected H2 real GDP growth pace similar to H1 at 1.1%",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "H2"
+      }
+    },
+    {
+      "name": "US Equities tariff-related price increases drag",
+      "type": "Factor",
+      "brief": "Drag on real income from tariffs",
+      "description": "Tariff-related price increases eating into real income",
+      "properties": {
+        "direction": "down",
+        "driver": "tariffs"
+      }
+    },
+    {
+      "name": "Japan Equities US-Japan trade deal",
+      "type": "Event",
+      "brief": "Trade agreement between US and Japan",
+      "description": "Elimination of volume restrictions on Japanese exports under new trade deal",
+      "properties": {
+        "date": null,
+        "event_type": "trade_agreement",
+        "region": "US & Japan"
+      }
+    },
+    {
+      "name": "Japan Equities NKY Index",
+      "type": "Instrument",
+      "brief": "Nikkei 225 index",
+      "description": "NKY index broke above 40,000 on trade deal optimism",
+      "properties": {
+        "ticker": "NKY"
+      }
+    },
+    {
+      "name": "Japan Equities TPX Index",
+      "type": "Instrument",
+      "brief": "Topix index",
+      "description": "TPX index took out prior highs after trade deal",
+      "properties": {
+        "ticker": "TPX"
+      }
+    },
+    {
+      "name": "Japan Equities local technicals",
+      "type": "Factor",
+      "brief": "Local technical support from systematic traders",
+      "description": "Technical indicators from systematic community remain supportive",
+      "properties": {
+        "direction": "up",
+        "driver": "technical analysis"
+      }
+    },
+    {
+      "name": "Global Equities systematic long/short performance retracement",
+      "type": "Factor",
+      "brief": "Retracement in systematic long/short strategies",
+      "description": "High gross exposure long/short performance has retraced sharply",
+      "properties": {
+        "direction": "down",
+        "driver": "positioning"
+      }
+    },
+    {
+      "name": "Global Equities momentum factor pressure",
+      "type": "Factor",
+      "brief": "Downward pressure on momentum factor",
+      "description": "Momentum factor under immense global pressure recently",
+      "properties": {
+        "direction": "down",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Table T16 \u2013 US Equities Power Up America Basket Performance",
+      "type": "Table",
+      "brief": "Performance of 'Power Up America' basket over Aug 2024\u2013Jul 2025",
+      "description": "Displays index and moving averages, highlighting peak, trough, and nine-week rally",
+      "properties": {
+        "table_id": "T16",
+        "table_content": "| Date                  | GSCBMSAL Index | Purple MA | Green MA | Yellow MA |\n|-----------------------|----------------|-----------|----------|-----------|\n| Aug 2024              | ~175           | ~170      | ~165     | ~160      |\n| Sep 2024              | ~185           | ~180      | ~175     | ~170      |\n| Oct 2024              | ~195           | ~190      | ~185     | ~175      |\n| Nov 2024              | ~205           | ~200      | ~195     | ~180      |\n| Dec 2024              | ~210           | ~205      | ~200     | ~185      |\n| Jan 2025              | ~220           | ~215      | ~205     | ~190      |\n| Early Feb 2025 (Peak) | ~230           | ~220      | ~215     | ~195      |\n| Mid Feb 2025          | ~200           | ~215      | ~210     | ~195      |\n| Mar 2025              | ~160           | ~190      | ~180     | ~190      |\n| Early Apr 2025 (Trough) | ~140         | ~165      | ~155     | ~185      |\n| May 2025              | ~175           | ~160      | ~155     | ~180      |\n| Jun 2025              | ~205           | ~185      | ~175     | ~185      |\n| Early Jul 2025        | ~220           | ~200      | ~190     | ~188      |\n| Jul 25, 2025 (Current) | 226.24        | 207.63    | 196.96   | 188.63    |",
+        "key_insight": "The basket peaked around Feb 2025 at ~230, declined to ~140 by early April, then rallied nine consecutive weeks to 226.24"
+      }
+    },
+    {
+      "name": "US Equities GSCBMSAL Index",
+      "type": "Instrument",
+      "brief": "Basket of popular shorted stocks",
+      "description": "Index tracking performance of heavily shorted stocks",
+      "properties": {
+        "ticker": "GSCBMSAL Index",
+        "current_value": 226.24,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "US Equities Recent nine-week rally",
+      "type": "Factor",
+      "brief": "Index up nine consecutive weeks",
+      "description": "GSCBMSAL Index has gained for nine straight weeks",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 63
+      }
+    },
+    {
+      "name": "US Equities Potential short squeeze",
+      "type": "Event",
+      "brief": "Possible short squeeze scenario",
+      "description": "Sustained rally may trigger a short squeeze on popular shorts",
+      "properties": {
+        "date": null,
+        "event_type": "short_squeeze",
+        "affected_tickers": [
+          "GSCBMSAL Index"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equities \u2013 S&P 500",
+      "target": "US Equities \u2013 S&P 500 Consolidation Risk",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Extended rally likely triggers consolidation risk"
+    },
+    {
+      "source": "US Equities \u2013 S&P 500 Consolidation Risk",
+      "target": "US Equities \u2013 Short-Term Risk/Reward Profile",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Consolidation risk impacts short-term risk/reward"
+    },
+    {
+      "source": "US Equities \u2013 Equity Implied Volatility",
+      "target": "US Equities \u2013 Cheap Gamma",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low equity vol causes cheap gamma"
+    },
+    {
+      "source": "US Equities \u2013 Interest Rate Implied Volatility",
+      "target": "US Equities \u2013 Cheap Gamma",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low rate vol causes cheap gamma"
+    },
+    {
+      "source": "US Equities \u2013 FOMC Meeting",
+      "target": "US Equities \u2013 Fed Governors Dissent",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "FOMC meeting likely triggers governors' dissent"
+    },
+    {
+      "source": "US Equities \u2013 US Payrolls Release",
+      "target": "US Equities \u2013 US Labor Market",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Payrolls release triggers labor market stall"
+    },
+    {
+      "source": "US Equities \u2013 Retail Investor Risk Appetite",
+      "target": "US Equities \u2013 Short-Term Risk/Reward Profile",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "High retail risk appetite impacts R/R profile"
+    },
+    {
+      "source": "Table T1 \u2013 US Equities Current Percentile Ranks by Stock Category",
+      "target": "US Equities Penny Stocks Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 98,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs Penny stocks at 98th percentile rank"
+    },
+    {
+      "source": "Table T2 \u2013 US Equities GSXURFAV Index Weekly Performance",
+      "target": "US Equities GSXURFAV Index All-Time High",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 232.18,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs all-time high of GSXURFAV Index at 232.18"
+    },
+    {
+      "source": "S&P 500 \u2013 Trump 2.0 Policy Impact",
+      "target": "S&P 500 \u2013 General Motors",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Policy impacts GM leading to selloff"
+    },
+    {
+      "source": "S&P 500 \u2013 Trump 2.0 Policy Impact",
+      "target": "S&P 500 \u2013 Verizon Communications",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Policy impacts Verizon via expense deductions"
+    },
+    {
+      "source": "S&P 500 \u2013 AI Innovation Demand Environment",
+      "target": "S&P 500 \u2013 Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "AI demand environment influences Alphabet's price reaction"
+    },
+    {
+      "source": "US Market Hedge Fund Community Net Exposure",
+      "target": "US Market XLI ETF",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": 100,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Hedge fund net exposure to XLI at 100th percentile"
+    },
+    {
+      "source": "US Market Top Seven US Banks Corporate Loan Growth Q2",
+      "target": "US Market US Economic Growth",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Higher corporate loan growth is net positive for US economic growth"
+    },
+    {
+      "source": "US Market Lower Interest Rates",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Lower rates support re-evaluation of cyclical exposures"
+    },
+    {
+      "source": "US Market ISM Contraction Frequency",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Frequent ISM contraction supports re-evaluation of exposures"
+    },
+    {
+      "source": "US Market GEV",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Concentrated GEV performance triggers cyclical re-evaluation"
+    },
+    {
+      "source": "US Market GE",
+      "target": "US Market Re-evaluation of Deeper Cyclical Exposures",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Concentrated GE performance triggers cyclical re-evaluation"
+    },
+    {
+      "source": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "target": "US Equities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 517.34,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GSTMTMEG index recovery informs broader US equities trend"
+    },
+    {
+      "source": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "target": "US Equities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 195.16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GSENEPOW index rebound informs broader US equities trend"
+    },
+    {
+      "source": "US Equities Next Week Catalysts",
+      "target": "Table T1 - US Equities GSTMTMEG Index Performance August 2024 to July 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": 7,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 65
+      },
+      "description": "Upcoming catalysts may impact GSTMTMEG index trend"
+    },
+    {
+      "source": "US Equities Surge in GEV Performance post-ChatGPT",
+      "target": "Table T2 - US Equities GSENEPOW Index Performance August 2024 to July 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Surge in GEV performance drives GSENEPOW index rally"
+    },
+    {
+      "source": "US Equities: August 1st, 2025 Framework Deal Deadline",
+      "target": "US Equities: Framework Deal Agreements",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Deadline spurred framework deal agreements"
+    },
+    {
+      "source": "US Equities: Framework Deal Agreements",
+      "target": "US Equities: Risk Premia",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Framework deals reduce market risk premia"
+    },
+    {
+      "source": "US Equities: GOOG",
+      "target": "US Equities: AI Capex Commitment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "GOOG's earnings solidify growing AI capex commitment"
+    },
+    {
+      "source": "US Equities real personal consumption stagnation",
+      "target": "US Equities H1 real GDP growth estimate",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Weak consumption stagnation pushed down H1 GDP growth estimate to 1.1%"
+    },
+    {
+      "source": "US Equities tariff-related price increases drag",
+      "target": "US Equities H2 real GDP growth forecast",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariff price increases offset boost, weighing on H2 GDP growth forecast"
+    },
+    {
+      "source": "Japan Equities US-Japan trade deal",
+      "target": "Japan Equities NKY Index",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 40000,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Trade deal drove NKY to break above 40,000"
+    },
+    {
+      "source": "Japan Equities US-Japan trade deal",
+      "target": "Japan Equities TPX Index",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Trade deal propelled TPX to new highs"
+    },
+    {
+      "source": "Japan Equities local technicals",
+      "target": "Japan Equities NKY Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Supportive local technicals underpin NKY breakout"
+    },
+    {
+      "source": "Global Equities systematic long/short performance retracement",
+      "target": "Global Equities momentum factor pressure",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Retracement in systematic L/S performance contributed to momentum pressure"
+    },
+    {
+      "source": "Table T16 \u2013 US Equities Power Up America Basket Performance",
+      "target": "US Equities GSCBMSAL Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 226.24,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights index peak, trough, and nine-week rally to 226.24"
+    },
+    {
+      "source": "US Equities Recent nine-week rally",
+      "target": "US Equities Potential short squeeze",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Sustained rally could trigger a short squeeze scenario"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/markets_macro_tony_pasquariello_converted_with_figures"
+}

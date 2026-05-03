@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "Global Equity Markets - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google, ticker GOOG",
+      "description": "Alphabet Inc. (GOOG) is the parent of Google, reporting earnings beat and capex raise",
+      "properties": {
+        "ticker": "GOOG"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Tesla Inc.",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer, ticker TSLA",
+      "description": "Tesla Inc. (TSLA) builds EVs and faced pre-market stock drop on tariff and earnings concerns",
+      "properties": {
+        "ticker": "TSLA"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Chinese Investment Banks Fee Cuts",
+      "type": "Event",
+      "brief": "Chinese banks cut bond issuance fees to $100",
+      "description": "China's investment banks slashed bond fees to as low as $100 amid a tepid credit market",
+      "properties": {
+        "date": null,
+        "event_type": "fee_cut",
+        "impact_value": 100,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Manufacturing PMI (Jul)",
+      "type": "Metric",
+      "brief": "Japan manufacturing PMI for July",
+      "description": "Flash manufacturing PMI came in at 48.8, down from 50.1 in June indicating contraction",
+      "properties": {
+        "value": 48.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Services PMI (Jul)",
+      "type": "Metric",
+      "brief": "Japan services PMI for July",
+      "description": "Flash services PMI rose to 53.5, up from 51.7 in June indicating expansion",
+      "properties": {
+        "value": 53.5,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - US-South Korea Investment Fund Talks",
+      "type": "Event",
+      "brief": "Discussion on creating fund for US project investments",
+      "description": "The US and South Korea discussed creating a fund to invest in American projects as part of a trade deal",
+      "properties": {
+        "date": null,
+        "event_type": "fund_creation_discussion",
+        "region": "US, South Korea"
+      }
+    },
+    {
+      "name": "Global Equity Markets - ECB Forecasted Rate Cut",
+      "type": "Event",
+      "brief": "Bloomberg Economics forecasts 25-bp rate cut in September",
+      "description": "Economists expect the ECB to cut rates by 25 bp in September to cushion US tariffs impact",
+      "properties": {
+        "date": "2023-09",
+        "event_type": "rate_cut",
+        "impact_value": 25,
+        "unit": "bp"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Eurozone Flash Services PMI (Jul)",
+      "type": "Metric",
+      "brief": "Eurozone services PMI for July",
+      "description": "Flash services PMI climbed to 51.2, up from 50.5 and above forecasts",
+      "properties": {
+        "value": 51.2,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Eurozone Flash Manufacturing PMI (Jul)",
+      "type": "Metric",
+      "brief": "Eurozone manufacturing PMI for July",
+      "description": "Flash manufacturing PMI rose to 49.8, up from 49.5 though still below neutral mark",
+      "properties": {
+        "value": 49.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Trump Fed Headquarters Tour",
+      "type": "Event",
+      "brief": "Trump plans to tour Fed headquarters",
+      "description": "President Trump will tour the Fed headquarters to ratchet up pressure on Powell to lower rates",
+      "properties": {
+        "date": null,
+        "event_type": "site_visit",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Equity Markets - White House Pressure on Powell",
+      "type": "Factor",
+      "brief": "Increased pressure on Fed to cut rates",
+      "description": "The White House is applying pressure on Fed Chair Powell to lower interest rates",
+      "properties": {
+        "direction": "up",
+        "driver": "pressure to lower rates"
+      }
+    },
+    {
+      "name": "Global Equity Markets - US Tariff Range",
+      "type": "Metric",
+      "brief": "Tariffs announced on US trading partners",
+      "description": "US trading partners will face tariffs ranging from 15% to 50% ahead of an Aug. 1 deadline",
+      "properties": {
+        "min": 15,
+        "max": 50,
+        "unit": "%",
+        "as_of": "2023-08-01"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Alphabet Inc. 2025 Capex",
+      "type": "Metric",
+      "brief": "Alphabet's projected capital expenditure for 2025",
+      "description": "GOOG unexpectedly raised 2025 capex by ~$10 bn to $85 bn against consensus",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - GOOG Stock Price Increase",
+      "type": "Event",
+      "brief": "GOOG shares rose by 3.25%",
+      "description": "GOOG stock gained 3.25% after a ~6% EPS beat and a surprise capex raise",
+      "properties": {
+        "date": null,
+        "event_type": "stock_price_increase",
+        "impact_value": 3.25,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "Event",
+      "brief": "TSLA shares fell 6% pre-market",
+      "description": "Tesla stock dropped 6% pre-market after comments on rough quarters and tariff pressures",
+      "properties": {
+        "date": null,
+        "event_type": "stock_price_decrease",
+        "impact_value": -6,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - End of EV Incentives",
+      "type": "Factor",
+      "brief": "Termination of electric vehicle purchase incentives",
+      "description": "The Trump administration ended electric vehicle incentives, reducing support for automakers",
+      "properties": {
+        "direction": "down",
+        "driver": "policy_change"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Equity Markets - White House Pressure on Powell",
+      "target": "Global Equity Markets - Trump Fed Headquarters Tour",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pressure triggers Trump's Fed tour"
+    },
+    {
+      "source": "Global Equity Markets - End of EV Incentives",
+      "target": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "End of EV incentives causes Tesla stock drop"
+    },
+    {
+      "source": "Global Equity Markets - US Tariff Range",
+      "target": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariff pressures impacted Tesla shares"
+    },
+    {
+      "source": "Global Equity Markets - US Tariff Range",
+      "target": "Global Equity Markets - ECB Forecasted Rate Cut",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs prompt ECB to cut 25 bp"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "Short Interest Pair GSPUWSHI Index",
+      "type": "Instrument",
+      "brief": "High vs Low Short Interest Pair index",
+      "description": "Sector, industry & factor neutral index measuring short interest pair returns",
+      "properties": {
+        "ticker": "GSPUWSHI",
+        "volatility": 13,
+        "volatility_unit": "%"
+      }
+    },
+    {
+      "name": "Short Interest Pair 1m Return",
+      "type": "Metric",
+      "brief": "1-month return of GSPUWSHI Index in July 2025",
+      "description": "9.965% 1-month return for the Short Interest Pair index in July 2025",
+      "properties": {
+        "value": 9.965,
+        "unit": "%",
+        "as_of": "2025-07"
+      }
+    },
+    {
+      "name": "Short Interest Pair 99.7th Percentile Rally",
+      "type": "Factor",
+      "brief": "99.7th percentile monthly return rally",
+      "description": "1-month return rally at 99.7th percentile vs last 17 years",
+      "properties": {
+        "magnitude_sigma": 3.8,
+        "percentile": 99.7,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Short Interest Pair Retail Participation",
+      "type": "Factor",
+      "brief": "Spike in retail participation",
+      "description": "Retail participation has spiked in high short interest names",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Short Interest Pair Animal Spirit",
+      "type": "Factor",
+      "brief": "Market animal spirit",
+      "description": "Market rally driven by animal spirit",
+      "properties": {
+        "driver": "animal spirit"
+      }
+    },
+    {
+      "name": "Short Interest Pair October 2008 Rally",
+      "type": "Event",
+      "brief": "1-month return peak in October 2008",
+      "description": "12.5% 1-month return rally for the Short Interest Pair index",
+      "properties": {
+        "date": "2008-10",
+        "event_type": "rally",
+        "impact_value": 12.5,
+        "unit": "%",
+        "affected_tickers": [
+          "GSPUWSHI"
+        ]
+      }
+    },
+    {
+      "name": "Short Interest Pair January 2021 Rally",
+      "type": "Event",
+      "brief": "1-month return peak in January 2021",
+      "description": "19.5% 1-month return rally for the Short Interest Pair index",
+      "properties": {
+        "date": "2021-01",
+        "event_type": "rally",
+        "impact_value": 19.5,
+        "unit": "%",
+        "affected_tickers": [
+          "GSPUWSHI"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Short Interest Pair Animal Spirit",
+      "target": "Short Interest Pair 1m Return",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Animal spirit drove the short interest pair's rally"
+    },
+    {
+      "source": "Short Interest Pair Retail Participation",
+      "target": "Short Interest Pair 1m Return",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Retail participation spike drove the short interest pair's rally"
+    },
+    {
+      "source": "Short Interest Pair GSPUWSHI Index",
+      "target": "Short Interest Pair 1m Return",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "GSPUWSHI Index produces the 1-month return metric"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "Automotive industry – NADA Used Vehicle Price Index",
+      "type": "Table",
+      "brief": "Used vehicle price index from Jun 1997 to Jun 2025",
+      "description": "Tracks NADA used vehicle price trends and identifies pandemic-driven volatility",
+      "properties": {
+        "table_id": "T12",
+        "table_content": "| Date   | NADA Used Vehicle Price Index |\n|--------|-------------------------------|\n| Jun-97 | 105.0                         |\n| Jun-98 | 110.0                         |\n| Jun-99 | 115.0                         |\n| Jun-00 | 110.0                         |\n| Jun-01 | 105.0                         |\n| Jun-02 | 98.0                          |\n| Jun-03 | 95.0                          |\n| Jun-04 | 98.0                          |\n| Jun-05 | 105.0                         |\n| Jun-06 | 108.0                         |\n| Jun-07 | 105.0                         |\n| Jun-08 | 85.0                          |\n| Jun-09 | 105.0                         |\n| Jun-10 | 115.0                         |\n| Jun-11 | 123.0                         |\n| Jun-12 | 125.0                         |\n| Jun-13 | 120.0                         |\n| Jun-14 | 120.0                         |\n| Jun-15 | 115.0                         |\n| Jun-16 | 118.0                         |\n| Jun-17 | 120.0                         |\n| Jun-18 | 120.0                         |\n| Jun-19 | 122.0                         |\n| Jun-20 | 140.0                         |\n| Jun-21 | 210.0                         |\n| Jun-22 | 195.0                         |\n| Jun-23 | 205.0                         |\n| Jun-24 | 203.0                         |\n| Jun-25 | 238.3                         |",
+        "key_insight": "The index surged dramatically post-mid-2020, peaking at 210 in mid-2021, correcting by mid-2022, and hitting a new all-time high of 238.3 in June 2025"
+      }
+    },
+    {
+      "name": "Automotive industry – Manheim Used Vehicle Value Index",
+      "type": "Table",
+      "brief": "Used vehicle value index from Jun 1997 to Jun 2025",
+      "description": "Tracks Manheim index volatility and pandemic-induced price spikes",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Date   | Manheim Used Vehicle Value Index |\n|--------|----------------------------------|\n| Jun-97 | 100                              |\n| Jun-98 | 105                              |\n| Jun-99 | 110                              |\n| Jun-00 | 108                              |\n| Jun-01 | 105                              |\n| Jun-02 | 103                              |\n| Jun-03 | 108                              |\n| Jun-04 | 110                              |\n| Jun-05 | 115                              |\n| Jun-06 | 120                              |\n| Jun-07 | 125                              |\n| Jun-08 | 100                              |\n| Jun-09 | 120                              |\n| Jun-10 | 135                              |\n| Jun-11 | 138                              |\n| Jun-12 | 135                              |\n| Jun-13 | 135                              |\n| Jun-14 | 135                              |\n| Jun-15 | 138                              |\n| Jun-16 | 140                              |\n| Jun-17 | 145                              |\n| Jun-18 | 150                              |\n| Jun-19 | 160                              |\n| Jun-20 | 170                              |\n| Jun-21 | 250                              |\n| Jun-22 | 230                              |\n| Jun-23 | 195                              |\n| Jun-24 | 196.1                            |\n| Jun-25 | 208.5                            |",
+        "key_insight": "A sharp surge from ~170 to ~250-260 during mid-2020 to mid-2021, followed by a correction to 196.1 and recovery to 208.5 by June 2025"
+      }
+    },
+    {
+      "name": "Automotive industry – NADA Used Vehicle Price Index YoY Change",
+      "type": "Metric",
+      "brief": "Year-over-year change in NADA index",
+      "description": "NADA index rose 16.0% YoY in 2Q 2025, reflecting strong demand",
+      "properties": {
+        "value": 16.0,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry – NADA Used Vehicle Price Index QoQ Change",
+      "type": "Metric",
+      "brief": "Quarter-over-quarter change in NADA index",
+      "description": "NADA index rose 7.3% QoQ in 2Q 2025, indicating accelerating price gains",
+      "properties": {
+        "value": 7.3,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry – Manheim Used Vehicle Value Index YoY Change",
+      "type": "Metric",
+      "brief": "Year-over-year change in Manheim index",
+      "description": "Manheim index rose 5.1% YoY in 2Q 2025, showing moderate value gains",
+      "properties": {
+        "value": 5.1,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    },
+    {
+      "name": "Automotive industry – Manheim Used Vehicle Value Index Sequential Change",
+      "type": "Metric",
+      "brief": "Sequential change in Manheim index",
+      "description": "Manheim index rose 1.6% sequentially in 2Q 2025, signalling stabilization",
+      "properties": {
+        "value": 1.6,
+        "unit": "%",
+        "as_of": "2Q:25"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T12 – Automotive industry – NADA Used Vehicle Price Index",
+      "target": "Automotive industry – NADA Used Vehicle Price Index YoY Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 16.0,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 16.0% YoY increase in 2Q 2025"
+    },
+    {
+      "source": "Table T12 – Automotive industry – NADA Used Vehicle Price Index",
+      "target": "Automotive industry – NADA Used Vehicle Price Index QoQ Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.3,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 7.3% QoQ increase in 2Q 2025"
+    },
+    {
+      "source": "Table T13 – Automotive industry – Manheim Used Vehicle Value Index",
+      "target": "Automotive industry – Manheim Used Vehicle Value Index YoY Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 5.1% YoY increase in 2Q 2025"
+    },
+    {
+      "source": "Table T13 – Automotive industry – Manheim Used Vehicle Value Index",
+      "target": "Automotive industry – Manheim Used Vehicle Value Index Sequential Change",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table data shows a 1.6% sequential increase in 2Q 2025"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Initial Jobless Claims: Seasonally Adjusted Initial Claims, by Year",
+      "type": "Table",
+      "brief": "Weekly initial jobless claims by month for 2023–2025",
+      "description": "Weekly seasonally adjusted initial claims show 2025 volatility with peaks and decline to 217k in July",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Month | 2023 (Thousands) | 2024 (Thousands) | 2025 (Thousands) |\n|-------|------------------|------------------|------------------|\n| Jan   | 205              | 195              | 206              |\n| Feb   | 210              | 220              | 222              |\n| Mar   | 220              | 215              | 242              |\n| Apr   | 230              | 210              | 223              |\n| May   | 245              | 208              | 240              |\n| Jun   | 230              | 215              | 250              |\n| Jul   | 215              | 230              | 217              |\n| Aug   | 235              | 245              | N/A              |\n| Sep   | 225              | 220              | N/A              |\n| Oct   | 200              | 260              | N/A              |\n| Nov   | 215              | 220              | N/A              |\n| Dec   | 200              | 205              | N/A              |",
+        "key_insight": "2025 claims showed higher volatility with peaks at 242k in March, 240k in May, and 250k in June then declined to 217k in July"
+      }
+    },
+    {
+      "name": "US Initial Jobless Claims - 2025-07-19",
+      "type": "Metric",
+      "brief": "Initial jobless claims for week ending July 19, 2025",
+      "description": "Decline in initial jobless claims to 217,000 for the week ending July 19, 2025",
+      "properties": {
+        "value": 217,
+        "unit": "thousands",
+        "as_of": "2025-07-19"
+      }
+    },
+    {
+      "name": "US Initial Jobless Claims - 2025 Volatility",
+      "type": "Factor",
+      "brief": "Higher volatility in 2025 initial jobless claims",
+      "description": "2025 claims showed higher volatility compared to 2023 and 2024 per chart",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Initial Jobless Claims - Easing in New Unemployment Filings",
+      "type": "Factor",
+      "brief": "Potential easing in new unemployment filings",
+      "description": "Decline in claims to 217,000 suggests some easing in new unemployment filings",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Initial Jobless Claims: Seasonally Adjusted Initial Claims, by Year",
+      "target": "US Initial Jobless Claims - 2025 Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table indicates higher 2025 volatility compared to previous years"
+    },
+    {
+      "source": "US Initial Jobless Claims - 2025-07-19",
+      "target": "US Initial Jobless Claims - Easing in New Unemployment Filings",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Decline to 217,000 triggers easing in new unemployment filings"
+    }
+  ],
+  "scenarios": []
+}

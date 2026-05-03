@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "name": "Lloyds",
+      "type": "Company",
+      "brief": "UK bank with strong hedging and growth outlook",
+      "description": "Lloyds Banking Group PLC underpins analysis with hedges, deposit performance and profitability",
+      "properties": {
+        "ticker": "LLOY",
+        "sector": "Financials"
+      }
+    },
+    {
+      "name": "Lloyds – structural hedge",
+      "type": "Factor",
+      "brief": "Hedging of future interest rates",
+      "description": "Structural interest rate hedge locking in rates for 2025 and 2026",
+      "properties": {
+        "locked_2025_pct": 98,
+        "locked_2026_pct": 80,
+        "driver": "higher rates"
+      }
+    },
+    {
+      "name": "Lloyds – deposits mix",
+      "type": "Factor",
+      "brief": "Composition of deposit liabilities",
+      "description": "Mix of ISA and PCA deposits which experienced pushback but was addressed",
+      "properties": {
+        "resolved": true
+      }
+    },
+    {
+      "name": "Lloyds – PCA outflows",
+      "type": "Metric",
+      "brief": "First half outflow from PCAs",
+      "description": "PCA outflows of £0.7bn in H1 2025",
+      "properties": {
+        "value": 0.7,
+        "unit": "GBP bn",
+        "as_of": "2025 H1"
+      }
+    },
+    {
+      "name": "Lloyds – CoR run rate",
+      "type": "Metric",
+      "brief": "Cost of risk run rate",
+      "description": "Cost of risk run rate at 19bps as of call date",
+      "properties": {
+        "value": 19,
+        "unit": "bp",
+        "as_of": "2025-07-24",
+        "target_bp": 25
+      }
+    },
+    {
+      "name": "Lloyds – EPS growth",
+      "type": "Metric",
+      "brief": "Expected EPS growth rate",
+      "description": "Projected EPS growth of 20% over next two years",
+      "properties": {
+        "value": 20,
+        "unit": "%",
+        "as_of": "2025-2027 forecast"
+      }
+    },
+    {
+      "name": "Lloyds – Return on tangible equity",
+      "type": "Metric",
+      "brief": "Projected return on tangible equity",
+      "description": "ROTE expected in the high teens over next two years",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025-2027 forecast"
+      }
+    },
+    {
+      "name": "Lloyds – motor decision",
+      "type": "Event",
+      "brief": "Supreme Court motor provisions decision",
+      "description": "Expect decision before summer recess with no provision change pending FCA review",
+      "properties": {
+        "date": null,
+        "event_type": "court_decision",
+        "affected_tickers": [
+          "LLOY"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Lloyds",
+      "target": "Lloyds – structural hedge",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds structural hedge locking in future rates"
+    },
+    {
+      "source": "Lloyds",
+      "target": "Lloyds – deposits mix",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Company exposed to deposit mix risk"
+    },
+    {
+      "source": "Lloyds – PCA outflows",
+      "target": "Lloyds – deposits mix",
+      "type": "CAUSES",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": 0.7,
+        "unit": "GBP bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "PCA outflows contribute to deposit mix shifts"
+    },
+    {
+      "source": "Lloyds",
+      "target": "Lloyds – PCA outflows",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": 0.7,
+        "unit": "GBP bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company exposed to PCA outflows in H1 2025"
+    },
+    {
+      "source": "Lloyds",
+      "target": "Lloyds – CoR run rate",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company exposed to cost of risk run rate of 19bp"
+    }
+  ],
+  "scenarios": []
+}

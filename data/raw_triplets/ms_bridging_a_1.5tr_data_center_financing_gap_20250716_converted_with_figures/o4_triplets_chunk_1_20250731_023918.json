@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Financing Gap",
+      "type": "Metric",
+      "brief": "Amount needed to finance data centers",
+      "description": "Financing shortfall requiring bridge to support data center infrastructure",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD tr",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing - Credit Markets",
+      "type": "Factor",
+      "brief": "Credit markets' role in data center financing",
+      "description": "Private, corporate, and securitized credit markets critical to meeting financing needs",
+      "properties": {
+        "driver": "data center financing"
+      }
+    },
+    {
+      "name": "Data Center Financing - Private Credit",
+      "type": "Factor",
+      "brief": "Private credit in data center financing",
+      "description": "Private credit's growth and return potential for data center financing",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - ABS/CMBS",
+      "type": "Factor",
+      "brief": "Asset-backed and CMBS securities for data center financing",
+      "description": "Securitized products aiding data center financing growth and returns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Interest Rates",
+      "type": "Factor",
+      "brief": "Interest rates affecting financing capacity",
+      "description": "Lower rates risk dampening financing capacity in credit markets",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - Economic Growth",
+      "type": "Factor",
+      "brief": "Economic growth affecting financing demand",
+      "description": "Weaker growth could dampen end-investor demand for credit",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - End-Investor Demand",
+      "type": "Factor",
+      "brief": "Demand from end-investors for credit",
+      "description": "End-investor demand could be dampened by lower rates and weaker growth",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Financing - Credit Markets",
+      "target": "Data Center Financing Gap",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.5,
+        "unit": "USD tr",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Credit markets critical to bridging data center financing gap"
+    },
+    {
+      "source": "Data Center Financing - Private Credit",
+      "target": "Data Center Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Private credit aids in meeting data center financing needs"
+    },
+    {
+      "source": "Data Center Financing - ABS/CMBS",
+      "target": "Data Center Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "ABS/CMBS supports data center financing growth potential"
+    },
+    {
+      "source": "Data Center Financing - Interest Rates",
+      "target": "Data Center Financing - End-Investor Demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Lower interest rates could dampen end-investor demand"
+    },
+    {
+      "source": "Data Center Financing - Economic Growth",
+      "target": "Data Center Financing - End-Investor Demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Weaker economic growth could reduce end-investor demand"
+    },
+    {
+      "source": "Data Center Financing - End-Investor Demand",
+      "target": "Data Center Financing - Credit Markets",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Lower end-investor demand may weaken credit markets"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Data Center Financing - Interest Rates",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "IMPACTS",
+          "source": "Data Center Financing - Interest Rates",
+          "target": "Data Center Financing - End-Investor Demand",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "Data Center Financing - End-Investor Demand",
+          "target": "Data Center Financing - Credit Markets",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

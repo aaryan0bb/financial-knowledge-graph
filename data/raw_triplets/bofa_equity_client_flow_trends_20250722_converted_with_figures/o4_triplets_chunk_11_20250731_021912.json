@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Equity ETF Flows - Table T1 – Mid-cap ETFs Rolling 4-Week Avg Flow",
+      "type": "Table",
+      "brief": "4-week avg flows for Mid-cap ETFs (Jan 2017–Mar 2025)",
+      "description": "Tracks rolling 4-week average flows showing volatility and flip positive in early 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | 4-Week Avg. Flow ($mn) |\n|---|---|\n| 1/6/17 | 30 |\n| 8/6/17 | -100 |\n| 3/6/18 | 20 |\n| 10/6/18 | 80 |\n| 5/6/19 | 10 |\n| 12/6/19 | -20 |\n| 7/6/20 | -20 |\n| 2/6/21 | 0 |\n| 9/6/21 | 50 |\n| 4/6/22 | 60 |\n| 11/6/22 | -20 |\n| 6/6/23 | -100 |\n| 1/6/24 | -50 |\n| 8/6/24 | 0 |\n| 3/6/25 | 40 |",
+        "key_insight": "Flows have been highly volatile with inflection points mid-2017 and mid-2023, flipping positive in early 2025 suggesting renewed cautious investor interest."
+      }
+    },
+    {
+      "name": "Equity ETF Flows - Mid-cap ETFs Rolling 4-Week Avg Flow Metric",
+      "type": "Metric",
+      "brief": "Mid-cap ETFs rolling 4-week average flow",
+      "description": "Latest mid-cap ETF flows flipped positive to $40mn in March 2025",
+      "properties": {
+        "value": 40,
+        "unit": "USD mn",
+        "as_of": "2025-03"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity ETF Flows - Table T1 – Mid-cap ETFs Rolling 4-Week Avg Flow",
+      "target": "Equity ETF Flows - Mid-cap ETFs Rolling 4-Week Avg Flow Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 40,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights mid-cap ETF flows flipping positive to $40mn in March 2025"
+    }
+  ],
+  "scenarios": []
+}

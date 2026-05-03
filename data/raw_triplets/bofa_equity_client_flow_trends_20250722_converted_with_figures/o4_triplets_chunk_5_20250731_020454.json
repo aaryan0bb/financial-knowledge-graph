@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "Table T20 – Equity Client Flow Trends – Health Care rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Health Care sector",
+      "description": "Exhibit 20 shows Health Care sector had three straight weeks of negative 4-week average flows amid historical volatility",
+      "properties": {
+        "table_id": "T20",
+        "table_content": "| Year | Rolling 4-wk Avg. Flow ($ mn) |\n|---|---|\n| 2008 | 0 |\n| 2009 | -50 |\n| 2010 | 100 |\n| 2011 | -50 |\n| 2012 | 300 |\n| 2013 | -100 |\n| 2014 | -200 |\n| 2015 | -50 |\n| 2016 | -400 |\n| 2017 | -100 |\n| 2018 | 400 |\n| 2019 | -200 |\n| 2020 | -800 |\n| 2020 | 800 (mid-year peak) |\n| 2021 | 0 |\n| 2022 | -700 |\n| 2022 | 1000 (late year peak) |\n| 2023 | 200 |\n| 2023 | -1000 (late year trough) |\n| 2024 | -500 (recent) |",
+        "key_insight": "Health Care flows were volatile with peaks around 2012, 2018, late 2022, and three consecutive weeks of outflows"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends – Health Care three-week outflow trend",
+      "type": "Factor",
+      "brief": "Three consecutive weeks of negative flows in Health Care",
+      "description": "Chart title indicates rolling four-week average outflows for three straight weeks in Health Care",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 3,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "Table T26 – Equity Client Flow Trends – ETF rolling 4-wk average flows",
+      "type": "Table",
+      "brief": "Rolling four-week average ETF flows from week 8 to 25",
+      "description": "Exhibit 26 shows volatile ETF flows with net inflows since February 2025",
+      "properties": {
+        "table_id": "T26",
+        "table_content": "| Week | 4-Week Avg. ETF Flows ($ mn) |\n|------|-------------------------------|\n| 08   | 0                             |\n| 09   | 200                           |\n| 10   | 500                           |\n| 11   | 750                           |\n| 12   | 1,000                         |\n| 13   | 700                           |\n| 14   | 0                             |\n| 15   | 2,800                         |\n| 16   | -1,000                        |\n| 17   | 2,500                         |\n| 18   | 1,200                         |\n| 19   | 1,000                         |\n| 20   | -2,500                        |\n| 21   | 1,800                         |\n| 22   | -1,200                        |\n| 23   | 1,500                         |\n| 24   | 1,000                         |\n| 25   | 500                           |",
+        "key_insight": "ETF flows were volatile with peaks at $2,800M but net inflows since Feb 2025"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends – ETF net inflow trend since Feb 2025",
+      "type": "Factor",
+      "brief": "Net inflows trend in ETFs since Feb 2025 despite volatility",
+      "description": "Overall trend shows net ETF inflows since February 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T17 – Equity Client Flow Trends – Consumer Staples rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Consumer Staples sector",
+      "description": "Exhibit 17 shows Consumer Staples outflows for the last seven weeks, ending at -$150M",
+      "properties": {
+        "table_id": "T17",
+        "table_content": "| Week | Sector           | Rolling 4-wk Avg. Flows ($ mn) |\n|------|------------------|--------------------------------|\n| 08   | Consumer Staples | -200                           |\n| 09   | Consumer Staples | -100                           |\n| 10   | Consumer Staples | 100                            |\n| 11   | Consumer Staples | 0                              |\n| 12   | Consumer Staples | -100                           |\n| 13   | Consumer Staples | -50                            |\n| 14   | Consumer Staples | 50                             |\n| 15   | Consumer Staples | 0                              |\n| 16   | Consumer Staples | -50                            |\n| 17   | Consumer Staples | 0                              |\n| 18   | Consumer Staples | 50                             |\n| 19   | Consumer Staples | -50                            |\n| 20   | Consumer Staples | -500                           |\n| 21   | Consumer Staples | -200                           |\n| 22   | Consumer Staples | -250                           |\n| 23   | Consumer Staples | -150                           |\n| 24   | Consumer Staples | -150                           |",
+        "key_insight": "Consumer Staples faced sustained outflows over seven weeks, peaking at -$500M"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends – Consumer Staples seven-week outflow trend",
+      "type": "Factor",
+      "brief": "Seven consecutive weeks of outflows in Consumer Staples",
+      "description": "Chart title indicates seven straight weeks of negative flows in Consumer Staples",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 7,
+        "unit": "USD mn"
+      }
+    },
+    {
+      "name": "Table T27 – Equity Client Flow Trends – Real Estate rolling 4-wk average outflows",
+      "type": "Table",
+      "brief": "Rolling four-week average outflows in Real Estate sector",
+      "description": "Exhibit 27 shows Real Estate outflows since Apr '25, with latest -$350M",
+      "properties": {
+        "table_id": "T27",
+        "table_content": "| Week | Rolling 4-wk Avg. Flows ($ mn) |\n|---|---|\n| 15 | -50 |\n| 16 | -150 |\n| 17 | -300 |\n| 18 | -100 |\n| 19 | +150 |\n| 20 | -200 |\n| 21 | +450 |\n| 22 | -250 |\n| 23 | +350 |\n| 24 | -150 |\n| 25 | -350 |",
+        "key_insight": "Real Estate flows peaked at +$450M but shifted to outflows since Apr 2025 at -$350M"
+      }
+    },
+    {
+      "name": "Equity Client Flow Trends – Real Estate net outflow trend since Apr 2025",
+      "type": "Factor",
+      "brief": "Net outflows in Real Estate since April 2025",
+      "description": "Chart indicates sustained negative flows in Real Estate since April 2025",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T20 – Equity Client Flow Trends – Health Care rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends – Health Care three-week outflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T20 informs on Health Care three-week outflow trend"
+    },
+    {
+      "source": "Table T26 – Equity Client Flow Trends – ETF rolling 4-wk average flows",
+      "target": "Equity Client Flow Trends – ETF net inflow trend since Feb 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T26 informs on ETF net inflow trend since Feb 2025"
+    },
+    {
+      "source": "Table T17 – Equity Client Flow Trends – Consumer Staples rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends – Consumer Staples seven-week outflow trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T17 informs on Consumer Staples seven-week outflow trend"
+    },
+    {
+      "source": "Table T27 – Equity Client Flow Trends – Real Estate rolling 4-wk average outflows",
+      "target": "Equity Client Flow Trends – Real Estate net outflow trend since Apr 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T27 informs on Real Estate net outflow trend since Apr 2025"
+    }
+  ],
+  "scenarios": []
+}

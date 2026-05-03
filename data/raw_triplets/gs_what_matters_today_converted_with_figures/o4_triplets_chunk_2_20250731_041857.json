@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "Hedge Funds - Fundamental L/S Returns MTD",
+      "type": "Metric",
+      "brief": "Monthly-to-date fundamental long/short returns",
+      "description": "Fundamental L/S strategy returned 0.7% MTD driven by beta gains",
+      "properties": {
+        "value": 0.7,
+        "unit": "%",
+        "as_of": "MTD"
+      }
+    },
+    {
+      "name": "Hedge Funds - Fundamental L/S Returns YTD",
+      "type": "Metric",
+      "brief": "Year-to-date fundamental long/short returns",
+      "description": "Fundamental L/S strategy returned 7% YTD",
+      "properties": {
+        "value": 7,
+        "unit": "%",
+        "as_of": "YTD"
+      }
+    },
+    {
+      "name": "Hedge Funds - PB Book Gross Exposure",
+      "type": "Metric",
+      "brief": "Gross exposure for the full PB book",
+      "description": "PB book gross exposure declined by 7 pts in July",
+      "properties": {
+        "value": -7,
+        "unit": "pts",
+        "as_of": "July"
+      }
+    },
+    {
+      "name": "Hedge Funds - Gross Leverage",
+      "type": "Factor",
+      "brief": "Overall hedge fund gross leverage trend",
+      "description": "Hedge fund gross leverage has seen a sharp decline month-to-date",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Hedge Funds - Beta Gains",
+      "type": "Factor",
+      "brief": "Beta-driven gains factor for Fundamental L/S",
+      "description": "Beta gains driving fundamental L/S returns",
+      "properties": {
+        "driver": "beta",
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Hedge Funds - Beta Gains",
+      "target": "Hedge Funds - Fundamental L/S Returns MTD",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Beta gains drive Fundamental L/S returns MTD"
+    }
+  ],
+  "scenarios": []
+}

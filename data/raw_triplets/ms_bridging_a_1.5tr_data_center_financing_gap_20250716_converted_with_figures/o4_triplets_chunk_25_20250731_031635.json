@@ -1,0 +1,331 @@
+{
+  "entities": [
+    {
+      "name": "DataCenterCreditMarkets – CoreWeave",
+      "type": "Company",
+      "brief": "Neocloud data center services company",
+      "description": "Issuer of a $2bn 5NC2 bond at par to yield 9.25% in late May 2025",
+      "properties": {
+        "ticker": "CRWV",
+        "sector": "Neocloud Data Center Services"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – CoreWeave 5NC2 Bond Issuance",
+      "type": "Event",
+      "brief": "CoreWeave $2bn 5NC2 bond issuance",
+      "description": "CoreWeave priced a $2bn 5NC2 bond at par to yield 9.25% in late May 2025",
+      "properties": {
+        "date": null,
+        "event_type": "bond_issuance",
+        "impact_value": 2.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Cisco",
+      "type": "Company",
+      "brief": "Networking equipment company",
+      "description": "Issued a $13.5bn seven-part bond to partially finance the Splunk acquisition",
+      "properties": {
+        "ticker": "CSCO",
+        "sector": "Networking Equipment"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Cisco $13.5bn Bond Issuance",
+      "type": "Event",
+      "brief": "Cisco $13.5bn seven-part bond issuance",
+      "description": "Cisco did a $13.5bn seven-part bond deal in February 2024",
+      "properties": {
+        "date": "2024-02",
+        "event_type": "bond_issuance",
+        "impact_value": 13.5,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Hewlett Packard Enterprise",
+      "type": "Company",
+      "brief": "Technology company",
+      "description": "Issued a $9bn six-part bond to help fund the Juniper acquisition",
+      "properties": {
+        "ticker": "HPE",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – HPE $9bn Bond Issuance",
+      "type": "Event",
+      "brief": "HPE $9bn six-part bond issuance",
+      "description": "HPE did a $9bn six-part bond deal in September 2024",
+      "properties": {
+        "date": "2024-09",
+        "event_type": "bond_issuance",
+        "impact_value": 9.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Synopsys",
+      "type": "Company",
+      "brief": "EDA software company",
+      "description": "Issued a $10bn six-part bond to fund part of the Ansys deal",
+      "properties": {
+        "ticker": "SNPS",
+        "sector": "EDA Software"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Synopsys $10bn Bond Issuance",
+      "type": "Event",
+      "brief": "Synopsys $10bn six-part bond issuance",
+      "description": "Synopsys did a $10bn six-part bond deal in March 2025",
+      "properties": {
+        "date": "2025-03",
+        "event_type": "bond_issuance",
+        "impact_value": 10.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – KKR",
+      "type": "Company",
+      "brief": "Private equity firm",
+      "description": "Sponsor in the $15bn take-private of CyrusOne",
+      "properties": {
+        "ticker": "KKR",
+        "sector": "Private Equity"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – KKR Take-private of CyrusOne",
+      "type": "Event",
+      "brief": "KKR $15bn take-private of CyrusOne",
+      "description": "KKR and GIP took CyrusOne private in a $15bn deal",
+      "properties": {
+        "date": null,
+        "event_type": "take_private",
+        "impact_value": 15.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Equinix",
+      "type": "Company",
+      "brief": "IG-rated data center operator",
+      "description": "Holds $8.9bn of index debt and a JV with GIC and CPP",
+      "properties": {
+        "ticker": "EQIX",
+        "sector": "Data Center REIT"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – EQIX Series C Mandatory Convertible Preferred Issuance",
+      "type": "Event",
+      "brief": "EQIX $1.35bn Series C convertible preferred issuance",
+      "description": "EQIX priced $1.35bn of Series C mandatory convertible preferred stock in September 2024",
+      "properties": {
+        "date": "2024-09",
+        "event_type": "preferred_issuance",
+        "impact_value": 1.35,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Microsoft",
+      "type": "Company",
+      "brief": "Hyperscaler",
+      "description": "Has $42.6bn of index debt outstanding",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Hyperscaler"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Super Micro Computer",
+      "type": "Company",
+      "brief": "AI server manufacturer",
+      "description": "Issued a zero-coupon convertible due 2030",
+      "properties": {
+        "ticker": "SMCI",
+        "sector": "Server Manufacturer"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – SMCI 2030 Convertible Issuance",
+      "type": "Event",
+      "brief": "SMCI zero-coupon convertible issuance",
+      "description": "Super Micro Computer was in the market with a new zero-coupon convertible due in 2030",
+      "properties": {
+        "date": null,
+        "event_type": "convertible_issuance",
+        "impact_value": null,
+        "unit": null
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Alphabet",
+      "type": "Company",
+      "brief": "Technology company",
+      "description": "Issued multi-currency bonds in April 2025",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Alphabet USD Bond Issuance",
+      "type": "Event",
+      "brief": "Alphabet $5bn four-part bond issuance",
+      "description": "Alphabet did a US$5bn four-part bond deal in April 2025",
+      "properties": {
+        "date": "2025-04",
+        "event_type": "bond_issuance",
+        "impact_value": 5.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets – Alphabet EUR Bond Issuance",
+      "type": "Event",
+      "brief": "Alphabet €6.75bn five-part bond issuance",
+      "description": "Alphabet did a €6.75bn five-part bond deal in April 2025",
+      "properties": {
+        "date": "2025-04",
+        "event_type": "bond_issuance",
+        "impact_value": 6.75,
+        "unit": "EUR bn"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DataCenterCreditMarkets – CoreWeave",
+      "target": "DataCenterCreditMarkets – CoreWeave 5NC2 Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "CoreWeave priced the 5NC2 bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Cisco",
+      "target": "DataCenterCreditMarkets – Cisco $13.5bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Cisco executed the $13.5bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Hewlett Packard Enterprise",
+      "target": "DataCenterCreditMarkets – HPE $9bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "HPE executed the $9bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Synopsys",
+      "target": "DataCenterCreditMarkets – Synopsys $10bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Synopsys executed the $10bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – KKR",
+      "target": "DataCenterCreditMarkets – KKR Take-private of CyrusOne",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "KKR led the CyrusOne take-private"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Equinix",
+      "target": "DataCenterCreditMarkets – EQIX Series C Mandatory Convertible Preferred Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Equinix priced the Series C preferred issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Super Micro Computer",
+      "target": "DataCenterCreditMarkets – SMCI 2030 Convertible Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "SMCI issued the zero-coupon convertible"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Alphabet",
+      "target": "DataCenterCreditMarkets – Alphabet USD Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Alphabet executed the US$5bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets – Alphabet",
+      "target": "DataCenterCreditMarkets – Alphabet EUR Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Alphabet executed the €6.75bn bond issuance"
+    }
+  ],
+  "scenarios": []
+}

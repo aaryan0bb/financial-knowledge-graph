@@ -1,0 +1,33 @@
+Morgan Stanley                                                                                                                   July 24, 2025 
+
+      Estimating Incremental Financing Needs and Paths 
+
+      We estimate a $1.5 trillion gap in data center investment needs that will need to be financed through external markets 
+      once we account for hyperscaler capex funded with cash flows. 
+
+                   Estimated financing breakdown for total capex, 2025-28; $800 billion opportunity for private credit 
+
+                         Cash Need                         $2.9tr Global Capex on Data Centers (ex. Power) 
+
+                                                                           $200bn $150bn   $800bn 
+                                                                                                 Private     Capital $350bn (PE, Other VC, 
+                      Financing Path         $1.4tr Hyperscaler Capex           ABS & 
+                                              Funded with Cash Flows        Corp. Debt CMBS Credit Opportunity Sovereign) 
+
+                                 0             500           1,000         1,500          2,000         2,500          3,000 
+                                                            Estimated Cash Need or Source through 2028 ($bn) 
+
+Source: Morgan Stanley Research estimates                                                                                                       4 
+
+    | Category          | Financing Source/Type                      | Amount ($bn) |
+    |-------------------|--------------------------------------------|--------------|
+    | Cash Need         | Global Capex on Data Centers (ex. Power)   | 2,900        |
+    | Financing Path    | Hyperscaler Capex Funded with Cash Flows   | 1,400        |
+    |                   | Corporate Debt                             | 200          |
+    |                   | ABS & CMBS                                 | 150          |
+    |                   | Private Credit Opportunity                 | 800          |
+    |                   | Other Capital (PE, VC, Sovereign)          | 350          |
+
+    Summary: This horizontal bar chart visualizes the estimated global capital expenditure for data centers (excluding power) through 2028, totaling $2.9 trillion, and details its corresponding financing pathways. The x-axis represents the estimated cash need or source in billions of dollars. The chart highlights that a significant $1.4 trillion of this capex is expected to be funded by hyperscalers' internal cash flows. The remaining $1.5 trillion is projected to come from external financing, with a notable $800 billion opportunity for private credit, followed by $350 billion from other capital (PE, VC, Sovereign), $200 billion from corporate debt, and $150 billion from ABS & CMBS.
+
+    Explanation: The chart directly addresses the estimated $1.5 trillion financing gap for data center investment, illustrating how external markets are anticipated to fund this massive infrastructure expansion. It underscores the critical role of diverse financing sources, particularly highlighting the substantial opportunity for private credit, in enabling the projected growth in data center capacity required for increasing global data and AI workloads.

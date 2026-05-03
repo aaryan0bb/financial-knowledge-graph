@@ -1,0 +1,25 @@
+Morgan Stanley                                                                              July 24, 2025 
+
+The Most Attractive Grid "De-Bottlenecking" Solutions 
+
+   Definition of a "de-bottlenecking" solution: any product that can result in data centers powering up more 
+   rapidly than the default approach (file a grid interconnection request at a greenfield site) 
+
+   Option #1: build power plants at the data center site, and go off-grid while waiting for grid 
+   connection approval 
+
+   - Favors natural gas and coal power, but we could also see renewables, nuclear power and energy storage 
+
+   - Significant potential operational issues with not being connected to the grid 
+
+· Option #2: build the data center at a power plant or industrial site with ample power infrastructure 
+
+   - Increasingly facing political and grid operator pushback; tends to result in higher power prices 
+
+   Option #3: redirect power available to a Bitcoin site or industrial power user 
+
+   - We view this as an attractive option, but not large enough to resolve the bottleneck issue 
+
+. Our concern: many of these options face significant execution risk - the risk of a bottleneck is high 
+
+                                                                                                      20

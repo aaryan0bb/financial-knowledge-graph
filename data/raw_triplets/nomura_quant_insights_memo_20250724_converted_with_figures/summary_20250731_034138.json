@@ -1,0 +1,52 @@
+{
+  "report": "Nomura Quant Insights Memo_20250724_converted_with_figures.txt",
+  "timestamp": "2025-07-31T03:41:38.822355",
+  "total_chunks": 6,
+  "total_entities": 14,
+  "total_relationships": 9,
+  "total_scenarios": 2,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_033923.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 11,
+      "relationships": 7,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_2_20250731_034107.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_034121.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_034127.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_034131.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_034136.json"
+    }
+  ]
+}

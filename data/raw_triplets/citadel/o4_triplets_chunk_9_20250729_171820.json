@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "Equity Market-Money Market AUM Table T1 – Money Market AUM Trends Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Money Market Assets Under Management trends, Jan-Jul 2025",
+      "description": "Charts the movement of AUM in USD trillions, highlighting a sharp April dip and July peak; material for liquidity and structural bid analysis.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | AUM (Trillions) |\n|-----------|-----------------|\n| Jan 10    | 6.85            |\n| Jan 20    | 6.91            |\n| Jan 30    | 6.87            |\n| Feb 10    | 6.91            |\n| Feb 20    | 6.89            |\n| Mar 1     | 6.92            |\n| Mar 10    | 7.03            |\n| Mar 20    | 7.02            |\n| Mar 30    | 7.00            |\n| Apr 5     | 7.03            |\n| Apr 15    | 6.88            |\n| Apr 25    | 6.91            |\n| May 5     | 6.91            |\n| May 15    | 6.94            |\n| May 25    | 6.93            |\n| Jun 5     | 6.97            |\n| Jun 15    | 7.02            |\n| Jun 25    | 7.01            |\n| Jul 5     | 7.03            |\n| Jul 15    | 7.06            |\n| Jul 25    | 7.05            |",
+        "key_insight": "Money Market AUM experienced a sharp $151bn dip in mid-April 2025, but rebounded to record highs by mid-July, highlighting persistent cash demand.",
+        "table_type": "Other",
+        "full_rows": 21
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning Table T2 – US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "type": "Table",
+      "brief": "US Equity Aggregate CTA Positioning from Jan 2024 to Jul 2025",
+      "description": "Shows large swings from net short to net long by CTAs; material for gauging systematic demand on equities.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | CTA Positioning |\n|--------------|-----------------|\n| Jan 2024     | 0.3             |\n| Mid-Jan 2024 | 0.2             |\n| Feb 2024     | 0.1             |\n| Mid-Feb 2024 | 0.0             |\n| Early Mar 2024 | -0.2            |\n| Apr 2024     | -0.5            |\n| Late Apr 2024 | -0.3            |\n| Mid-May 2024 | 0.0             |\n| Early Jun 2024 | 0.3             |\n| Jul 2024     | 0.7             |\n| Late Jul 2024 | 0.1             |\n| Aug 2024     | -0.3            |\n| Sep 2024     | -0.5            |\n| Oct 2024     | 0.4             |\n| Mid-Nov 2024 | 0.1             |\n| Dec 2024     | 0.0             |\n| Early Jan 2025 | -0.4            |\n| Mid-Feb 2025 | -0.8            |\n| Early Mar 2025 | -1.0            |\n| Late Mar 2025 | -0.5            |\n| Apr 2025     | 0.0             |\n| Mid-May 2025 | 0.8             |\n| Early Jun 2025 | 1.0             |\n| Mid-Jun 2025 | 0.7             |\n| Jul 2025     | 0.55            |",
+        "key_insight": "CTAs moved from net short in early 2025 to strong net long by July 2025, reflecting a major shift in systematic equity demand.",
+        "table_type": "Other",
+        "full_rows": 25
+      }
+    },
+    {
+      "name": "Equity Market-Money Market AUM peak_metric",
+      "type": "Metric",
+      "brief": "Money Market AUM peak in July 2025",
+      "description": "AUM reached its highest value of $7.06tn in July, signifying record cash levels and structural bid.",
+      "properties": {
+        "unit": "USD tn",
+        "value": 7.06,
+        "peak_date": "Jul 15, 2025"
+      }
+    },
+    {
+      "name": "Equity Market-Money Market AUM trough_metric",
+      "type": "Metric",
+      "brief": "Money Market AUM trough in April 2025",
+      "description": "The April trough of $6.88tn marks the sharpest recent drop, driven by $151bn in redemptions.",
+      "properties": {
+        "unit": "USD tn",
+        "value": 6.88,
+        "trough_date": "Apr 15, 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning peak_metric",
+      "type": "Metric",
+      "brief": "Highest net long CTA equity positioning, early June 2025",
+      "description": "CTA net long exposure peaked at 1.0 in early June, indicating aggressive re-leveraging.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 1.0,
+        "peak_date": "Early Jun 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning trough_metric",
+      "type": "Metric",
+      "brief": "Lowest net short CTA positioning, early March 2025",
+      "description": "CTA positioning hit a low of -1.0 in Mar 2025, marking capitulation before a sharp reversal.",
+      "properties": {
+        "unit": "indexPts",
+        "value": -1.0,
+        "trough_date": "Early Mar 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning current_metric",
+      "type": "Metric",
+      "brief": "CTA net long positioning as of July 2025",
+      "description": "CTAs currently net long 0.55, signaling moderately strong systematic equity demand.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 0.55,
+        "as_of": "Jul 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity Market-Money Market AUM Table T1 – Money Market AUM Trends Jan-Jul 2025",
+      "target": "Equity Market-Money Market AUM peak_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 7.06,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows AUM peak at $7.06tn in July 2025"
+    },
+    {
+      "source": "Equity Market-Money Market AUM Table T1 – Money Market AUM Trends Jan-Jul 2025",
+      "target": "Equity Market-Money Market AUM trough_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.92,
+        "lag_days": null,
+        "impact_value": 6.88,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 92
+      },
+      "description": "Table shows AUM trough at $6.88tn in April 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 – US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning peak_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.93,
+        "lag_days": null,
+        "impact_value": 1.0,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 93
+      },
+      "description": "CTA exposure peaked at 1.0 in early June 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 – US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning trough_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.91,
+        "lag_days": null,
+        "impact_value": -1.0,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 91
+      },
+      "description": "CTA exposure trough at -1.0 in Mar 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 – US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning current_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.94,
+        "lag_days": null,
+        "impact_value": 0.55,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 94
+      },
+      "description": "CTA net long exposure currently at 0.55 as of July 2025"
+    }
+  ],
+  "scenarios": []
+}

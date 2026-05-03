@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry Lithia Motors A",
+      "type": "Company",
+      "brief": "Regional auto dealer chain",
+      "description": "Operates auto dealerships with strong earnings and M&A growth.",
+      "properties": {
+        "ticker": "LAD",
+        "price_objective_USD": 500
+      }
+    },
+    {
+      "name": "Automotive Industry Lucid Group",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer",
+      "description": "EV maker; valuation based on EV/Sales multiple.",
+      "properties": {
+        "ticker": "LCID",
+        "price_objective_USD": 1.0
+      }
+    },
+    {
+      "name": "Automotive Industry Mobileye",
+      "type": "Company",
+      "brief": "ADAS and autonomous driving technology supplier",
+      "description": "Supplies semiconductors for advanced driving systems; valuation tied to EV/Sales multiple.",
+      "properties": {
+        "ticker": "MBLY",
+        "price_objective_USD": 18
+      }
+    },
+    {
+      "name": "Automotive Industry Lithia Motors A Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for LAD",
+      "description": "Price objective based on 12x P/E multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 500,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry Lucid Group Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for LCID",
+      "description": "Price objective based on 2.0x EV/Sales multiple on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 1.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Automotive Industry Mobileye Price Objective",
+      "type": "Metric",
+      "brief": "Analyst price target for MBLY",
+      "description": "Price objective based on 7.5x EV/Sales multiple on 2025E sales",
+      "properties": {
+        "unit": "USD",
+        "value": 18,
+        "as_of": "2025-07-23"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry Lithia Motors A Price Objective",
+      "target": "Automotive Industry Lithia Motors A",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    },
+    {
+      "source": "Automotive Industry Lucid Group Price Objective",
+      "target": "Automotive Industry Lucid Group",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    },
+    {
+      "source": "Automotive Industry Mobileye Price Objective",
+      "target": "Automotive Industry Mobileye",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Price objective informs company valuation"
+    }
+  ],
+  "scenarios": []
+}

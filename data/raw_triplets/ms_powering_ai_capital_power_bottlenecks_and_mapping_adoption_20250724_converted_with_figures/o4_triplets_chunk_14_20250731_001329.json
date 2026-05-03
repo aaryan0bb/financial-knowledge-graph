@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "name": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative spend on AI infrastructure through 2028",
+      "description": "More than $3 trillion cumulative spending on AI infrastructure by 2028",
+      "properties": {
+        "value": 3000,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Data Center Cumulative Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative data center spend including chips and servers through 2028",
+      "description": "Approximately $2.6 trillion projected spending on data centers by 2028",
+      "properties": {
+        "value": 2600,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Power Demand Through 2028",
+      "type": "Metric",
+      "brief": "Power needed for global AI data centers through 2028",
+      "description": "Estimate of >110 gigawatts required to power data centers for AI workloads by 2028",
+      "properties": {
+        "value": 110,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "AI Infrastructure Power Plant Cost Estimate Through 2028",
+      "type": "Metric",
+      "brief": "Estimated cost of power plants to support AI through 2028",
+      "description": "Projected cost between $210-330 billion for power plants to meet AI infrastructure demand by 2028",
+      "properties": {
+        "value_min": 210,
+        "value_max": 330,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Table T1 – AI Infrastructure Estimated Annual Data Center Spend by Workload Type",
+      "type": "Table",
+      "brief": "Annual global data center spend by workload type from 2024e to 2028e",
+      "description": "Shows rising annual spend dominated by exponential GenAI workload growth",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total GenAI Workload Spend ($mm) | Total non-AI Workload Spend ($mm) | Total Spend ($mm) |\n|------|----------------------------------|-----------------------------------|-------------------|\n| 2024e | $225,000                         | $75,000                           | $300,000          |\n| 2025e | $400,000                         | $90,000                           | $490,000          |\n| 2026e | $510,000                         | $90,000                           | $600,000          |\n| 2027e | $620,000                         | $100,000                          | $720,000          |\n| 2028e | $760,000                         | $130,000                          | $890,000          |",
+        "key_insight": "GenAI workload spend surges from $225bn in 2024e to $760bn in 2028e, driving total spend growth"
+      }
+    },
+    {
+      "name": "Table T2 – AI Infrastructure Estimated Annual Global Data Center Spend by Type",
+      "type": "Table",
+      "brief": "Annual capital expenditure on data centers by type from 2024e to 2028e",
+      "description": "Highlights strong upward trend in data center costs, with chips and servers as larger share",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Data Centers, Excl. Chips + Servers ($B) | Chips + Servers ($B) | Total Data Center Spend ($B) |\n|------|------------------------------------------|----------------------|------------------------------|\n| 2024e| 125                                      | 175                  | 300                          |\n| 2025e| 210                                      | 285                  | 495                          |\n| 2026e| 270                                      | 330                  | 600                          |\n| 2027e| 325                                      | 400                  | 725                          |\n| 2028e| 420                                      | 475                  | 895                          |",
+        "key_insight": "Total annual data center spend grows from $300bn in 2024e to $895bn in 2028e, driven by chips and servers"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – AI Infrastructure Estimated Annual Data Center Spend by Workload Type",
+      "target": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Supports assertion that cumulative AI infrastructure spend exceeds $3 trillion"
+    },
+    {
+      "source": "Table T2 – AI Infrastructure Estimated Annual Global Data Center Spend by Type",
+      "target": "AI Infrastructure Total Cumulative Spend Through 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Annual spend by type contributes to over $3tn cumulative AI infrastructure investment"
+    }
+  ],
+  "scenarios": []
+}

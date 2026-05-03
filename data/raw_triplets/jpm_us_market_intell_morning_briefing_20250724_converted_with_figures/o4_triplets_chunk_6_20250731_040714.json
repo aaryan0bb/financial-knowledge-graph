@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Financial Market Liquidity and SPX Index Trend",
+      "type": "Table",
+      "brief": "Trend of US liquidity proxy and SPX index from 2022 to 2025",
+      "description": "Shows divergence as SPX surges to 6352.30 by mid-2025 while liquidity dips then recovers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Approx. Date | US Liquidity Proxy (M) | SPX Index |\n|---------------|------------------------|-----------|\n| Early 2022    | 6.8                    | 6100      |\n| Mid 2022      | 5.7                    | 3800      |\n| End 2022      | 5.8                    | 4000      |\n| Mid 2023      | 6.4                    | 4500      |\n| End 2023      | 5.8                    | 4700      |\n| Mid 2024      | 6.0                    | 5700      |\n| End 2024      | 6.4                    | 6000      |\n| Early 2025    | 5.8                    | 6100      |\n| Mid 2025      | 6.409                  | 6352.30   |",
+        "key_insight": "The SPX Index surged to 6352.30 by mid-2025 while the US Liquidity Proxy dipped sharply in early 2025 before recovering to 6.409M."
+      }
+    },
+    {
+      "name": "US Financial Market - SPX Index",
+      "type": "Metric",
+      "brief": "U.S. large-cap equity benchmark index",
+      "description": "Reflects performance of the S&P 500 equity index",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "Mid 2025"
+      }
+    },
+    {
+      "name": "US Financial Market - US Liquidity Proxy Index",
+      "type": "Metric",
+      "brief": "Proxy for U.S. market liquidity conditions",
+      "description": "Tracks estimated liquidity in the U.S. market in millions",
+      "properties": {
+        "unit": "USD mm",
+        "as_of": "Mid 2025"
+      }
+    },
+    {
+      "name": "US Financial Market - Leading Index Release",
+      "type": "Event",
+      "brief": "US Leading Index release scheduled at 10am ET on Jul 21",
+      "description": "Release of the US Conference Board Leading Economic Index",
+      "properties": {
+        "date": null,
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Financial Market - Retail Investor Support",
+      "type": "Factor",
+      "brief": "Retail investor participation as equity backstop",
+      "description": "Retail buying interest supports equity market strength",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Corporate Buyback Support",
+      "type": "Factor",
+      "brief": "Corporate share buybacks propping up equities",
+      "description": "Corporate buybacks provide support against market drawdowns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Low Realized Macro Volatility",
+      "type": "Factor",
+      "brief": "Reduced macro volatility supporting equities",
+      "description": "Lower realized macroeconomic volatility bolsters equity performance",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Financial Market Liquidity and SPX Index Trend",
+      "target": "US Financial Market - SPX Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6352.3,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "SPX Index peaked at 6352.30 by mid-2025"
+    },
+    {
+      "source": "Table T1 – US Financial Market Liquidity and SPX Index Trend",
+      "target": "US Financial Market - US Liquidity Proxy Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6.409,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "US Liquidity Proxy dipped to 6.409M and then recovered"
+    },
+    {
+      "source": "US Financial Market - Retail Investor Support",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Retail investor support backstops SPX performance"
+    },
+    {
+      "source": "US Financial Market - Corporate Buyback Support",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Corporate buybacks support equity performance"
+    },
+    {
+      "source": "US Financial Market - Low Realized Macro Volatility",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low macro volatility underpins equity strength"
+    }
+  ],
+  "scenarios": []
+}

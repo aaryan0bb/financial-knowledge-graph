@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "DC Financing – Private Credit",
+      "type": "Factor",
+      "brief": "Private credit as financing channel",
+      "description": "Private credit's growing role in financing data centers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DC Financing – Asset-Based Finance (ABF)",
+      "type": "Instrument",
+      "brief": "Asset-based finance for data centers",
+      "description": "ABF leading private credit opportunity for data center financing",
+      "properties": {
+        "instrument_type": "asset-based finance"
+      }
+    },
+    {
+      "name": "DC Financing – Construction/Commercial Mortgage Loan",
+      "type": "Instrument",
+      "brief": "Mortgage loan for data center construction",
+      "description": "Initial financing form via construction or commercial mortgage loan",
+      "properties": {
+        "instrument_type": "construction/commercial mortgage loan",
+        "maturity": "short-term"
+      }
+    },
+    {
+      "name": "DC Financing – Bank Lending (C&I)",
+      "type": "Instrument",
+      "brief": "Commercial and industrial bank lending capacity",
+      "description": "Bank lending capacity for data center projects is limited",
+      "properties": {
+        "total_outstanding_USDtn": 3
+      }
+    },
+    {
+      "name": "DC Financing – Corporate Bond and Securitized Credit Financing",
+      "type": "Metric",
+      "brief": "Corporate bond and securitized credit financing",
+      "description": "Size of corporate bond and securitized credit financing for data centers",
+      "properties": {
+        "value": 350,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing – Financing Gap",
+      "type": "Metric",
+      "brief": "Unmet data center financing need",
+      "description": "Gap between total financing needs and available corporate bond and securitized credit",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD tn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing – $800bn Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Potential private credit market size",
+      "description": "Estimated $800bn private credit opportunity for data center financing led by ABF",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing – Hyperscaler Self-Build Share",
+      "type": "Metric",
+      "brief": "Hyperscaler data center self-build percentage",
+      "description": "Share of data center capacity self-built by hyperscalers",
+      "properties": {
+        "min": 20,
+        "max": 45,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing – Equinix",
+      "type": "Company",
+      "brief": "Public data center REIT Equinix",
+      "description": "Large public data center REIT with investment-grade debt profile",
+      "properties": {
+        "ticker": "EQIX",
+        "market_cap_USDbn": 74,
+        "total_debt_USDbn": 9,
+        "rating": "mid-to-low BBB"
+      }
+    },
+    {
+      "name": "DC Financing – Oracle",
+      "type": "Company",
+      "brief": "Technology company leasing data centers",
+      "description": "Oracle leases its data centers rather than owning them",
+      "properties": {
+        "ticker": "ORCL",
+        "data_center_strategy": "leases only"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DC Financing – Asset-Based Finance (ABF)",
+      "target": "DC Financing – $800bn Private Credit Opportunity",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "ABF drives the $800bn private credit opportunity"
+    },
+    {
+      "source": "DC Financing – Private Credit",
+      "target": "DC Financing – Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Private credit helps close the financing gap"
+    },
+    {
+      "source": "DC Financing – Corporate Bond and Securitized Credit Financing",
+      "target": "DC Financing – Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 350,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Corporate bond and securitized credit covers $350bn of needs"
+    }
+  ],
+  "scenarios": []
+}

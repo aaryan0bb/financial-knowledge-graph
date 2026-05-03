@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "Ethereum – Corporate ETH purchases",
+      "type": "Event",
+      "brief": "Public companies bought ETH reserves",
+      "description": "Publicly traded US companies purchased over $1.5b of ETH in the last month",
+      "properties": {
+        "date": null,
+        "event_type": "purchase",
+        "impact_value": 1.5,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "ETH"
+        ],
+        "region": "US"
+      }
+    },
+    {
+      "name": "Ethereum – Institutional corporate interest",
+      "type": "Factor",
+      "brief": "Growing institutional and corporate interest in ETH",
+      "description": "Rising trend of publicly traded companies and governments holding Ethereum reserves",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – Top 10 ETH holders (ETH units)",
+      "type": "Table",
+      "brief": "Ranked list of top 10 holders of ETH",
+      "description": "Bar chart of entities holding the largest Ethereum amounts",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Holder                                  | ETH Units |\n|-----------------------------------------|-----------|\n| Sharplink Gaming.SBET                   | 358,000   |\n| Bitmine Immersion Technologies.BMNR     | 300,000   |\n| Ethereum Foundation                     | 240,000   |\n| PulseChain Sach                         | 165,000   |\n| Coinbase Global, Inc.COIN               | 135,000   |\n| Bit Digital, Inc.BTBT                   | 120,000   |\n| Golem Foundation                        | 100,000   |\n| Gnosis DAO                              | 65,000    |\n| US Government                           | 58,000    |\n| BTCS Inc.BTCS                           | 55,000    |",
+        "key_insight": "Sharplink Gaming.SBET holds 358,000 ETH and Bitmine Immersion Technologies.BMNR holds 300,000 ETH; top 10 collectively hold over 1.6m ETH (~$6b)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Top 10 ETH holders (ETH units)",
+      "target": "Ethereum – Institutional corporate interest",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1600000,
+        "unit": "ETH",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Table highlights rising corporate and government ETH holdings indicating growing institutional interest"
+    }
+  ],
+  "scenarios": []
+}

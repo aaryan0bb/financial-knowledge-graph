@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "U.S. Financial Market",
+      "type": "Factor",
+      "brief": "Asset class representing US financial market",
+      "description": "Broad asset class encompassing US financial sector trading and performance",
+      "properties": {
+        "region": "U.S.",
+        "asset_class": "Financial Market"
+      }
+    },
+    {
+      "name": "Table T1 – Delivery Channels of Data Assets & Alpha",
+      "type": "Table",
+      "brief": "Channels through which DA&A delivers data",
+      "description": "Illustrates five platforms for delivering J.P. Morgan’s Data Assets & Alpha group’s insights",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Channel Type | Description |\n|---|---|\n| DA&A Website | Web-based platform for accessing content |\n| JPM Markets | Online platform likely for market data and analysis |\n| Conference Calls | Live audio/video discussions and presentations |\n| Podcasts | On-demand audio content, likely featuring insights and analysis |\n| Fusion & DataQuery | Data platforms for accessing and querying financial data |",
+        "key_insight": "Five distinct channels through which J.P. Morgan’s Data Assets & Alpha group delivers financial intelligence and data."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Delivery Channels of Data Assets & Alpha",
+      "target": "U.S. Financial Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Delivery platforms inform US financial market participants"
+    }
+  ],
+  "scenarios": []
+}

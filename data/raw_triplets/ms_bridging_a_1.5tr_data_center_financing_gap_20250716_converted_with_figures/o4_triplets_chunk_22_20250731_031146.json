@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – IG Tech Index Debt and Yield Trend",
+      "type": "Table",
+      "brief": "Tracks IG Tech Index debt outstanding and yields from 2005 to 2025",
+      "description": "Dual-axis line chart showing IG Tech Index debt rising to $730bn by Jul-25 and yield volatility peaking at 7.3% in Oct-08",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | IG Tech Index Amt Outstanding ($bn) | IG Tech Index Yield to Worst (%) |\n|---|---|---|\n| Jul-05 | 20 | 4.5 |\n| Jul-06 | 40 | 4.5 |\n| Jul-07 | 60 | 5.0 |\n| Jan-08 | 70 | 5.5 |\n| Oct-08 | 90 | 7.3 |\n| Jul-09 | 100 | 3.0 |\n| Jul-10 | 120 | 3.5 |\n| Jul-11 | 140 | 2.5 |\n| Jul-12 | 160 | 2.0 |\n| Jul-13 | 180 | 2.5 |\n| Jul-14 | 200 | 3.0 |\n| Jan-15 | 210 | 2.5 |\n| Jul-15 | 220 | 3.0 |\n| Jan-16 | 230 | 2.5 |\n| Jul-16 | 250 | 2.5 |\n| Jan-17 | 270 | 2.8 |\n| Jul-17 | 300 | 3.0 |\n| Jan-18 | 320 | 3.5 |\n| Jul-18 | 350 | 3.5 |\n| Jan-19 | 380 | 3.0 |\n| Jul-19 | 400 | 2.8 |\n| Jan-20 | 440 | 1.8 |\n| Mar-20 | 450 | 4.0 |\n| Jul-20 | 480 | 1.8 |\n| Jul-21 | 550 | 2.0 |\n| Jan-22 | 600 | 4.0 |\n| Jul-22 | 650 | 5.0 |\n| Oct-22 | 680 | 5.5 |\n| Jul-23 | 700 | 5.0 |\n| Jul-24 | 720 | 4.8 |\n| Jul-25 | 730 | 5.0 |",
+        "key_insight": "IG Tech Index debt outstanding rose steadily to $730bn by Jul-25 while yields peaked at 7.3% in Oct-08 and stabilized around 5% by 2025"
+      }
+    },
+    {
+      "name": "IG Tech Index Amount Outstanding",
+      "type": "Metric",
+      "brief": "Outstanding debt of the IG Tech Index",
+      "description": "Amount of debt outstanding in the IG Tech Index as of Jul-25",
+      "properties": {
+        "value": 730,
+        "unit": "USD bn",
+        "as_of": "Jul-25"
+      }
+    },
+    {
+      "name": "IG Tech Index Yield to Worst Peak",
+      "type": "Metric",
+      "brief": "Peak yield to worst of the IG Tech Index",
+      "description": "Maximum yield to worst recorded for IG Tech Index during the 2008 financial crisis",
+      "properties": {
+        "value": 7.3,
+        "unit": "%",
+        "as_of": "Oct-08"
+      }
+    },
+    {
+      "name": "Table T2 – IG Tech Index Yield Comparison",
+      "type": "Table",
+      "brief": "Comparison of YTW for IG Tech BBB vs. broader IG Tech Index vs. 10-year average",
+      "description": "Line chart showing IG Tech BBB Index yields consistently higher than the IG Tech Index and above the 3.5% 10-year average from 2015 to 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | IG Tech BBB Index YTW (%) | IG Tech Index YTW (%) | IG Tech Index Last 10Y Avg (%) |\n|------|---------------------------|-----------------------|--------------------------------|\n| Jul-15 | 3.6 | 3.0 | 3.5 |\n| Jan-16 | 3.9 | 3.2 | 3.5 |\n| Jul-16 | 3.8 | 2.7 | 3.5 |\n| Jan-17 | 3.6 | 3.0 | 3.5 |\n| Jul-17 | 3.8 | 3.2 | 3.5 |\n| Jan-18 | 4.1 | 3.5 | 3.5 |\n| Jul-18 | 4.3 | 3.7 | 3.5 |\n| Jan-19 | 3.7 | 3.0 | 3.5 |\n| Jul-19 | 3.4 | 2.8 | 3.5 |\n| Jan-20 | 2.8 | 2.2 | 3.5 |\n| Jul-20 | 2.1 | 1.7 | 3.5 |\n| Jan-21 | 2.0 | 1.6 | 3.5 |\n| Jul-21 | 2.2 | 1.8 | 3.5 |\n| Jan-22 | 3.5 | 3.0 | 3.5 |\n| Jul-22 | 5.8 | 5.3 | 3.5 |\n| Jan-23 | 5.6 | 5.1 | 3.5 |\n| Jul-23 | 6.2 | 5.7 | 3.5 |\n| Jan-24 | 5.2 | 4.7 | 3.5 |\n| Jul-24 | 5.4 | 4.9 | 3.5 |\n| Jan-25 | 5.0 | 4.5 | 3.5 |",
+        "key_insight": "IG Tech BBB Index yields consistently exceed broader IG Tech Index yields by about 0.5% and remain above the 3.5% 10-year average"
+      }
+    },
+    {
+      "name": "IG Tech Yield Spread",
+      "type": "Metric",
+      "brief": "Yield spread between IG Tech BBB Index and broader IG Tech Index",
+      "description": "Difference in yield to worst between IG Tech BBB Index and the IG Tech Index as of Jan-25",
+      "properties": {
+        "value": 0.5,
+        "unit": "%",
+        "as_of": "Jan-25"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – IG Tech Index Debt and Yield Trend",
+      "target": "IG Tech Index Amount Outstanding",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 730,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows IG Tech Index debt rising to $730bn by Jul-25"
+    },
+    {
+      "source": "Table T1 – IG Tech Index Debt and Yield Trend",
+      "target": "IG Tech Index Yield to Worst Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 7.3,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows IG Tech Index YTW peaking at 7.3% in Oct-08"
+    },
+    {
+      "source": "Table T2 – IG Tech Index Yield Comparison",
+      "target": "IG Tech Yield Spread",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 0.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows yield spread of 0.5% between IG Tech BBB and IG Tech Index as of Jan-25"
+    }
+  ],
+  "scenarios": []
+}

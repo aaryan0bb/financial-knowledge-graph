@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "Credit Markets $2.9tr Spend Opportunity",
+      "type": "Metric",
+      "brief": "Total spend opportunity on data centers and GenAI",
+      "description": "Represents the ~$2.9 trillion opportunity to finance data center and generative AI infrastructure",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets $200bn Bond Issuance",
+      "type": "Metric",
+      "brief": "Projected technology credit bond issuance",
+      "description": "Expected ~$200 billion of bond issuance to complement cash flows and new leases in technology credit",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets $800bn Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Estimated opportunity in private credit",
+      "description": "An $800 billion opportunity in private credit led by asset-based finance (ABF)",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets Securitized Credit Take-Out Option",
+      "type": "Factor",
+      "brief": "Securitized credit as a growing take-out option",
+      "description": "Securitized credit is becoming an increasingly sought-after financing take-out option",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

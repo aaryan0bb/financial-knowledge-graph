@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Credit Vol USD IG Spread 20-Year Trend",
+      "type": "Table",
+      "brief": "20-year USD IG spread historical trend",
+      "description": "Shows USD Investment Grade credit spreads peaking in 2008 and 2020, and trading near 1st percentile lows (~70-80) through July 2026.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | USD IG Spread |\n|-----------|---------------|\n| Jul 2005  | 70            |\n| Mid 2007  | 80            |\n| Oct 2008  | 600           |\n| Apr 2009  | 350           |\n| Sep 2011  | 250           |\n| Apr 2012  | 180           |\n| Jun 2014  | 100           |\n| Feb 2016  | 180           |\n| Nov 2018  | 150           |\n| Mar 2020  | 380           |\n| Oct 2020  | 100           |\n| Oct 2022  | 150           |\n| Jul 2023  | 80            |\n| Jul 2025  | 70            |\n| Jul 2026  | 70            |",
+        "key_insight": "USD IG spreads spiked above 600 in 2008 and around 380 in 2020, but have compressed to 1st percentile lows (~70-80) and are expected to remain low through 2026."
+      }
+    },
+    {
+      "name": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "type": "Metric",
+      "brief": "Implied volatility for HYG 3-month ATM options",
+      "description": "Shows extremely low 3-month ATM implied volatility in the HYG credit complex.",
+      "properties": {
+        "unit": "volPts",
+        "value": 4,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Credit Vol HYG Oct 79/73 Put Spread",
+      "type": "Instrument",
+      "brief": "Long HYG Oct 79/73 put spread",
+      "description": "Long put spread on HYG with strikes 79/73 expiring October 2025, premium paid $0.50.",
+      "properties": {
+        "ticker": "HYG",
+        "maturity": "2025-10",
+        "strike": "79/73",
+        "position": "long put spread"
+      }
+    },
+    {
+      "name": "US Credit Vol HYG Nov 79/73 Put Spread",
+      "type": "Instrument",
+      "brief": "Long HYG Nov 79/73 put spread",
+      "description": "Long put spread on HYG with strikes 79/73 expiring November 2025, premium paid $0.64.",
+      "properties": {
+        "ticker": "HYG",
+        "maturity": "2025-11",
+        "strike": "79/73",
+        "position": "long put spread"
+      }
+    },
+    {
+      "name": "US Credit Vol Demand for Credit Hedges",
+      "type": "Factor",
+      "brief": "Increased demand for credit hedges",
+      "description": "Non-traditional investors are spending more premium on credit hedges amid low volatility.",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "target": "US Credit Vol HYG Oct 79/73 Put Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Implied volatility level affects cost of the Oct put spread"
+    },
+    {
+      "source": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "target": "US Credit Vol HYG Nov 79/73 Put Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Implied volatility level affects cost of the Nov put spread"
+    }
+  ],
+  "scenarios": []
+}

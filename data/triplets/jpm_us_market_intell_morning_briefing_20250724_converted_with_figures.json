@@ -1,0 +1,1701 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 Short Interest Retail Flows Trends 2019 to 2025",
+      "type": "Table",
+      "brief": "Time series of retail short interest flows (2019\u20132025)",
+      "description": "Illustrates cyclical swings and a declining trend in retail buying peaks around key market events.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Short Interest Retail Flows | Event/Annotation | Trend Line |\n|---|---|---|---|\n| 4/13/2019 | -2.5 | | |\n| Jul 2019 | 1.5 | | |\n| Oct 2019 | -0.5 | | |\n| Feb 2020 | 3.0 | | |\n| Mar 2020 | -7.5 | Covid dip | |\n| Jun 2020 | -1.0 | | |\n| Oct 2020 | 1.0 | | |\n| Jan 2021 | 7.0 | Vaccine peak | |\n| Apr 2021 | 3.0 | | 7.0 |\n| Aug 2021 | -1.5 | | |\n| Dec 2021 | 0.5 | | |\n| Mar 2022 | 3.5 | Inflation peak | |\n| Apr 2022 | 1.5 | | 4.5 |\n| Aug 2022 | -3.0 | | |\n| Dec 2022 | 0.5 | | |\n| Mar 2023 | 3.5 | | |\n| Apr 2023 | 1.5 | | 2.0 |\n| Aug 2023 | -3.0 | | |\n| Oct 2023 | -7.0 | Rate 5% dip | |\n| Jan 2024 | 1.5 | | |\n| Apr 2024 | -1.0 | | -0.5 |\n| Aug 2024 | -3.5 | | |\n| Dec 2024 | -2.0 | | |\n| Feb 2025 | -1.5 | Current bounce | |\n| Apr 2025 | -1.0 | | -1.5 |",
+        "key_insight": "Cyclical retail sentiment swings show declining buying peaks from ~7.0 in early 2021 to ~1.0 by early 2025."
+      }
+    },
+    {
+      "name": "US Financial Market Retail Buying Peak Early 2021",
+      "type": "Metric",
+      "brief": "Highest retail buying peak in early 2021",
+      "description": "Highest retail buying peak occurred in early 2021, marking vaccine-driven sentiment high.",
+      "properties": {
+        "value": 7.0,
+        "unit": "indexPts",
+        "as_of": "Jan 2021"
+      }
+    },
+    {
+      "name": "US Financial Market Trade Deals Before August 1",
+      "type": "Event",
+      "brief": "Anticipated trade deals before August deadline",
+      "description": "Trade negotiations expected by August 1 that could sustain market buying.",
+      "properties": {
+        "date": null,
+        "event_type": "trade_deal",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Financial Market Sustained Buying",
+      "type": "Factor",
+      "brief": "Continued market buying",
+      "description": "Potential sustained buying if trade deals are reached before August 1.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JPM JPMPURE Index",
+      "type": "Instrument",
+      "brief": "Momentum hedge index",
+      "description": "Index recommended for hedging momentum exposure until month end.",
+      "properties": {
+        "ticker": "JPMPURE",
+        "position": "hedge"
+      }
+    },
+    {
+      "name": "JPM JPBPURE Index",
+      "type": "Instrument",
+      "brief": "Negative beta hedge index",
+      "description": "Index recommended for hedging negative beta exposure until month end.",
+      "properties": {
+        "ticker": "JPBPURE",
+        "position": "hedge"
+      }
+    },
+    {
+      "name": "U.S. Financial Market",
+      "type": "Factor",
+      "brief": "Asset class representing US financial market",
+      "description": "Broad asset class encompassing US financial sector trading and performance",
+      "properties": {
+        "region": "U.S.",
+        "asset_class": "Financial Market"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Delivery Channels of Data Assets & Alpha",
+      "type": "Table",
+      "brief": "Channels through which DA&A delivers data",
+      "description": "Illustrates five platforms for delivering J.P. Morgan\u2019s Data Assets & Alpha group\u2019s insights",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Channel Type | Description |\n|---|---|\n| DA&A Website | Web-based platform for accessing content |\n| JPM Markets | Online platform likely for market data and analysis |\n| Conference Calls | Live audio/video discussions and presentations |\n| Podcasts | On-demand audio content, likely featuring insights and analysis |\n| Fusion & DataQuery | Data platforms for accessing and querying financial data |",
+        "key_insight": "Five distinct channels through which J.P. Morgan\u2019s Data Assets & Alpha group delivers financial intelligence and data."
+      }
+    },
+    {
+      "name": "US Market \u2013 Alphabet Inc.",
+      "type": "Company",
+      "brief": "Ticker GOOG tech giant",
+      "description": "Leading tech company driving AI interest post-earnings",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market \u2013 Broadcom Inc.",
+      "type": "Company",
+      "brief": "Ticker AVGO semiconductor firm",
+      "description": "Device maker benefiting from increased capex demand",
+      "properties": {
+        "ticker": "AVGO",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market \u2013 NVIDIA Corporation",
+      "type": "Company",
+      "brief": "Ticker NVDA AI chip leader",
+      "description": "Graphics and AI chip developer boosted by capital spending trends",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market \u2013 Tesla Inc.",
+      "type": "Company",
+      "brief": "Ticker TSLA EV manufacturer",
+      "description": "Electric vehicle maker with choppy guidance causing stock drop",
+      "properties": {
+        "ticker": "TSLA",
+        "sector": "Consumer Discretionary"
+      }
+    },
+    {
+      "name": "US Market \u2013 Technology Sector",
+      "type": "Factor",
+      "brief": "Technology sector performance",
+      "description": "Sector led futures higher in U.S. trading",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market \u2013 AI Theme",
+      "type": "Factor",
+      "brief": "AI thematic investing trend",
+      "description": "Investment focus on AI driving tech sector momentum",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market \u2013 Capital Expenditure Boost",
+      "type": "Factor",
+      "brief": "Increased capex in tech sector",
+      "description": "Capital spending rise supports semiconductor firms",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market \u2013 GOOG Earnings Release",
+      "type": "Event",
+      "brief": "Alphabet quarterly earnings release",
+      "description": "Earnings report that spurred AI theme resurgence",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "AVGO",
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "name": "US Market \u2013 Tesla Guidance Update",
+      "type": "Event",
+      "brief": "Tesla guidance announcement",
+      "description": "Company guidance causing 6% stock decline",
+      "properties": {
+        "date": null,
+        "event_type": "guidance_release",
+        "impact_value": -6,
+        "unit": "%",
+        "affected_tickers": [
+          "TSLA"
+        ]
+      }
+    },
+    {
+      "name": "US Market \u2013 Russia-Ukraine Talks",
+      "type": "Event",
+      "brief": "Diplomatic negotiations between Russia and Ukraine",
+      "description": "Talks leading to ceasefire and prisoner swap discussions",
+      "properties": {
+        "date": null,
+        "event_type": "diplomatic_talks",
+        "outcomes": [
+          "ceasefire",
+          "prisoner_swap",
+          "leadership_meeting"
+        ]
+      }
+    },
+    {
+      "name": "US Market \u2013 TSLA Daily Return",
+      "type": "Metric",
+      "brief": "Daily stock return for Tesla",
+      "description": "TSLA shares fell on choppy guidance",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market \u2013 WTI Price",
+      "type": "Metric",
+      "brief": "WTI crude oil price per barrel",
+      "description": "West Texas Intermediate price after 130bps rise",
+      "properties": {
+        "value": 66.1,
+        "unit": "USD",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market \u2013 U.S. 10Y Treasury Yield",
+      "type": "Metric",
+      "brief": "10-year U.S. Treasury yield",
+      "description": "Yield on 10-year note at close",
+      "properties": {
+        "value": 4.392,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market \u2013 VIX Index",
+      "type": "Metric",
+      "brief": "CBOE Volatility Index level",
+      "description": "VIX level indicating market volatility",
+      "properties": {
+        "value": 15.3,
+        "unit": "indexPts",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Financial Market Liquidity and SPX Index Trend",
+      "type": "Table",
+      "brief": "Trend of US liquidity proxy and SPX index from 2022 to 2025",
+      "description": "Shows divergence as SPX surges to 6352.30 by mid-2025 while liquidity dips then recovers",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Approx. Date | US Liquidity Proxy (M) | SPX Index |\n|---------------|------------------------|-----------|\n| Early 2022    | 6.8                    | 6100      |\n| Mid 2022      | 5.7                    | 3800      |\n| End 2022      | 5.8                    | 4000      |\n| Mid 2023      | 6.4                    | 4500      |\n| End 2023      | 5.8                    | 4700      |\n| Mid 2024      | 6.0                    | 5700      |\n| End 2024      | 6.4                    | 6000      |\n| Early 2025    | 5.8                    | 6100      |\n| Mid 2025      | 6.409                  | 6352.30   |",
+        "key_insight": "The SPX Index surged to 6352.30 by mid-2025 while the US Liquidity Proxy dipped sharply in early 2025 before recovering to 6.409M."
+      }
+    },
+    {
+      "name": "US Financial Market - SPX Index",
+      "type": "Metric",
+      "brief": "U.S. large-cap equity benchmark index",
+      "description": "Reflects performance of the S&P 500 equity index",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "Mid 2025"
+      }
+    },
+    {
+      "name": "US Financial Market - US Liquidity Proxy Index",
+      "type": "Metric",
+      "brief": "Proxy for U.S. market liquidity conditions",
+      "description": "Tracks estimated liquidity in the U.S. market in millions",
+      "properties": {
+        "unit": "USD mm",
+        "as_of": "Mid 2025"
+      }
+    },
+    {
+      "name": "US Financial Market - Leading Index Release",
+      "type": "Event",
+      "brief": "US Leading Index release scheduled at 10am ET on Jul 21",
+      "description": "Release of the US Conference Board Leading Economic Index",
+      "properties": {
+        "date": null,
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Financial Market - Retail Investor Support",
+      "type": "Factor",
+      "brief": "Retail investor participation as equity backstop",
+      "description": "Retail buying interest supports equity market strength",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Corporate Buyback Support",
+      "type": "Factor",
+      "brief": "Corporate share buybacks propping up equities",
+      "description": "Corporate buybacks provide support against market drawdowns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Low Realized Macro Volatility",
+      "type": "Factor",
+      "brief": "Reduced macro volatility supporting equities",
+      "description": "Lower realized macroeconomic volatility bolsters equity performance",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 White House AI Action Plan",
+      "type": "Event",
+      "brief": "Policy plan to strengthen AI and semiconductor sector",
+      "description": "US government action plan outlining measures to boost AI infrastructure and semiconductor manufacturing",
+      "properties": {
+        "date": null,
+        "event_type": "action_plan"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Boost to Domestic Semiconductor Production",
+      "type": "Factor",
+      "brief": "Increased domestic semiconductor manufacturing support",
+      "description": "Policy measures to streamline regulations and drive capital investment in semiconductor fabs and R&D",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Enhanced Export Controls & Supply Chain Security",
+      "type": "Factor",
+      "brief": "Stricter export controls on semiconductor exports",
+      "description": "Policy to plug supply chain control gaps and protect IP while meeting global AI demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Investment in AI & DC Infrastructure",
+      "type": "Factor",
+      "brief": "Spending on AI datacenters and infrastructure",
+      "description": "Plan to build high-security datacenters and robust AI infrastructure backbone",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 MegaCap Tech Equities",
+      "type": "Factor",
+      "brief": "Long positions in mega cap technology stocks",
+      "description": "Analyst recommendation to take long exposure to mega cap tech equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Cyclical Equities",
+      "type": "Factor",
+      "brief": "Long positions in cyclical stocks",
+      "description": "Analyst recommendation to take long exposure to cyclical equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 High Beta Plays",
+      "type": "Factor",
+      "brief": "Long positions in high beta assets",
+      "description": "Analyst recommendation to take long exposure to high beta plays",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Australia Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Australian equities",
+      "description": "Analyst recommendation to take long positions in the Australian equity market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 China Tech Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Chinese tech stocks",
+      "description": "Analyst recommendation to take long positions in China technology equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Japan Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Japanese equities",
+      "description": "Analyst recommendation to take long positions in the Japanese equity market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 US Outperformance vs RoW",
+      "type": "Factor",
+      "brief": "US expected to outperform rest of world",
+      "description": "Analyst sentiment that US markets will outperform the rest of the world in the near term",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 VIX",
+      "type": "Instrument",
+      "brief": "CBOE Volatility Index positions as hedge",
+      "description": "Long positions in VIX or VIX products used to hedge near-term market downside",
+      "properties": {
+        "ticker": "VIX",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 SPX Put Options",
+      "type": "Instrument",
+      "brief": "Long SPX put options as hedge",
+      "description": "Long SPX put positions recommended for near-term downside protection",
+      "properties": {
+        "ticker": "SPX",
+        "instrument_type": "put",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 SPX Put Spreads",
+      "type": "Instrument",
+      "brief": "Long SPX put spreads as hedge",
+      "description": "Long SPX put spread positions recommended for near-term downside protection",
+      "properties": {
+        "ticker": "SPX",
+        "instrument_type": "put spread",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 US 10-Year Yield Hit 5%",
+      "type": "Event",
+      "brief": "10-year Treasury yield reached 5%",
+      "description": "US 10-year Treasury yield hit 5% at the end of 2023",
+      "properties": {
+        "date": null,
+        "event_type": "interest_rate_threshold",
+        "impact_value": 5,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US Financial Market \u2013 Retail Buying in High Short Interest Stocks",
+      "type": "Factor",
+      "brief": "Retail purchases in high short interest stocks",
+      "description": "Retail buying in high short interest equities has recovered to neutral or slightly positive levels",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Macro Data - UK Public Finances",
+      "type": "Event",
+      "brief": "UK public finances data release",
+      "description": "Release of UK public finance figures at 2am ET, informing fiscal outlook.",
+      "properties": {
+        "date": "Jul 22",
+        "event_type": "economic_release",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Global Macro Data - Eurozone Consumer Confidence Jul 23",
+      "type": "Event",
+      "brief": "Eurozone consumer confidence survey publication",
+      "description": "Monthly release of Eurozone consumer confidence index at 10am ET.",
+      "properties": {
+        "date": "Jul 23",
+        "event_type": "economic_release",
+        "region": "Eurozone"
+      }
+    },
+    {
+      "name": "Global Macro Data - Japan PMIs Jul 23",
+      "type": "Event",
+      "brief": "Japan manufacturing and services PMI report",
+      "description": "Release of Japan PMIs at 8:30pm ET to gauge business activity.",
+      "properties": {
+        "date": "Jul 23",
+        "event_type": "economic_release",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "Global Macro Data - Germany GfK Consumer Confidence",
+      "type": "Event",
+      "brief": "Germany GfK consumer confidence survey release",
+      "description": "Presentation of Germany GfK consumer confidence data at 2am ET.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "Germany"
+      }
+    },
+    {
+      "name": "Global Macro Data - France Manufacturing Confidence",
+      "type": "Event",
+      "brief": "France manufacturing confidence index release",
+      "description": "Publication of France manufacturing confidence figures at 2:45am ET.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "France"
+      }
+    },
+    {
+      "name": "Global Macro Data - France PMIs",
+      "type": "Event",
+      "brief": "France purchasing managers index release",
+      "description": "Release of France PMIs at 3:15am ET indicating business momentum.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "France"
+      }
+    },
+    {
+      "name": "Global Macro Data - Germany PMIs",
+      "type": "Event",
+      "brief": "Germany purchasing managers index release",
+      "description": "Publication of Germany PMIs at 3:30am ET for sector health.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "Germany"
+      }
+    },
+    {
+      "name": "Global Macro Data - Eurozone PMIs",
+      "type": "Event",
+      "brief": "Eurozone PMI report publication",
+      "description": "Eurozone PMIs released at 4am ET to measure regional activity.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "Eurozone"
+      }
+    },
+    {
+      "name": "Global Macro Data - UK PMIs",
+      "type": "Event",
+      "brief": "UK purchasing managers index release",
+      "description": "Release of UK PMIs at 4:30am ET to track manufacturing/services.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Global Macro Data - Eurozone ECB Meeting",
+      "type": "Event",
+      "brief": "ECB monetary policy meeting",
+      "description": "European Central Bank policy meeting at 8:15am ET to discuss rates.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "central_bank_meeting",
+        "region": "Eurozone"
+      }
+    },
+    {
+      "name": "Global Macro Data - UK GfK Consumer Confidence Jul 24",
+      "type": "Event",
+      "brief": "UK GfK consumer confidence survey release",
+      "description": "Publication of UK GfK consumer confidence at 7:01pm ET.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Global Macro Data - Japan Tokyo CPI",
+      "type": "Event",
+      "brief": "Tokyo consumer price index release",
+      "description": "Release of Tokyo CPI data at 7:30pm ET covering inflation trends.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "Global Macro Data - UK Retail Sales",
+      "type": "Event",
+      "brief": "UK retail sales data release",
+      "description": "Monthly UK retail sales figures released at 2am ET.",
+      "properties": {
+        "date": "Jul 25",
+        "event_type": "economic_release",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Global Macro Data - France Consumer Confidence",
+      "type": "Event",
+      "brief": "France consumer confidence survey release",
+      "description": "Release of France consumer confidence index at 2:45am ET.",
+      "properties": {
+        "date": "Jul 25",
+        "event_type": "economic_release",
+        "region": "France"
+      }
+    },
+    {
+      "name": "Global Macro Data - Germany IFO Business Climate",
+      "type": "Event",
+      "brief": "Germany IFO business climate survey release",
+      "description": "IFO business climate data for Germany released at 4am ET.",
+      "properties": {
+        "date": "Jul 25",
+        "event_type": "economic_release",
+        "region": "Germany"
+      }
+    },
+    {
+      "name": "Global Macro Data - US CPI Release Aug 12",
+      "type": "Event",
+      "brief": "US consumer price index release",
+      "description": "US CPI data release acting as a near-term catalyst.",
+      "properties": {
+        "date": "Aug 12",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US CPI Release Sep 11",
+      "type": "Event",
+      "brief": "US consumer price index release",
+      "description": "US CPI data release acting as a near-term catalyst.",
+      "properties": {
+        "date": "Sep 11",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US ISM Manufacturing PMI Aug 1",
+      "type": "Event",
+      "brief": "US ISM manufacturing PMI release",
+      "description": "ISM manufacturing survey release serving as near-term catalyst.",
+      "properties": {
+        "date": "Aug 1",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US ISM Manufacturing PMI Sep 2",
+      "type": "Event",
+      "brief": "US ISM manufacturing PMI release",
+      "description": "ISM manufacturing survey release serving as near-term catalyst.",
+      "properties": {
+        "date": "Sep 2",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US ISM Services PMI Aug 5",
+      "type": "Event",
+      "brief": "US ISM services PMI release",
+      "description": "ISM services survey release serving as near-term catalyst.",
+      "properties": {
+        "date": "Aug 5",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US ISM Services PMI Sep 4",
+      "type": "Event",
+      "brief": "US ISM services PMI release",
+      "description": "ISM services survey release serving as near-term catalyst.",
+      "properties": {
+        "date": "Sep 4",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PMI Manufacturing Jul 24",
+      "type": "Event",
+      "brief": "US PMI manufacturing index release",
+      "description": "US PMI manufacturing release on Jul 24 as short-term catalyst.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PMI Manufacturing Aug 21",
+      "type": "Event",
+      "brief": "US PMI manufacturing index release",
+      "description": "US PMI manufacturing release on Aug 21 as short-term catalyst.",
+      "properties": {
+        "date": "Aug 21",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PMI Services Jul 24",
+      "type": "Event",
+      "brief": "US PMI services index release",
+      "description": "US PMI services release on Jul 24 as short-term catalyst.",
+      "properties": {
+        "date": "Jul 24",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PMI Services Aug 21",
+      "type": "Event",
+      "brief": "US PMI services index release",
+      "description": "US PMI services release on Aug 21 as short-term catalyst.",
+      "properties": {
+        "date": "Aug 21",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Non-Farm Payrolls Aug 1",
+      "type": "Event",
+      "brief": "US non-farm payrolls report release",
+      "description": "NFP data release acting as a near-term labor market catalyst.",
+      "properties": {
+        "date": "Aug 1",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Non-Farm Payrolls Sep 5",
+      "type": "Event",
+      "brief": "US non-farm payrolls report release",
+      "description": "NFP data release acting as a near-term labor market catalyst.",
+      "properties": {
+        "date": "Sep 5",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PCE Release Aug 29",
+      "type": "Event",
+      "brief": "US personal consumption expenditures release",
+      "description": "PCE data release as a key inflation indicator.",
+      "properties": {
+        "date": "Aug 29",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US PCE Release Sep 26",
+      "type": "Event",
+      "brief": "US personal consumption expenditures release",
+      "description": "PCE data release as a key inflation indicator.",
+      "properties": {
+        "date": "Sep 26",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Retail Sales Aug 15",
+      "type": "Event",
+      "brief": "US retail sales report release",
+      "description": "US retail sales data as a consumption gauge.",
+      "properties": {
+        "date": "Aug 15",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Retail Sales Sep 16",
+      "type": "Event",
+      "brief": "US retail sales report release",
+      "description": "US retail sales data as a consumption gauge.",
+      "properties": {
+        "date": "Sep 16",
+        "event_type": "economic_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Federal Reserve Meeting Jul 30",
+      "type": "Event",
+      "brief": "Federal Reserve policy meeting",
+      "description": "Scheduled Federal Reserve rate decision meeting date.",
+      "properties": {
+        "date": "Jul 30",
+        "event_type": "central_bank_meeting",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - US Federal Reserve Meeting Sep 17",
+      "type": "Event",
+      "brief": "Federal Reserve policy meeting",
+      "description": "Scheduled Federal Reserve rate decision meeting date.",
+      "properties": {
+        "date": "Sep 17",
+        "event_type": "central_bank_meeting",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - Jackson Hole Symposium",
+      "type": "Event",
+      "brief": "Jackson Hole economic symposium",
+      "description": "Annual Jackson Hole meeting for central bankers and economists.",
+      "properties": {
+        "date": "Aug 21-23",
+        "event_type": "conference",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - EU-China Summit Jul 24-25",
+      "type": "Event",
+      "brief": "EU-China leadership summit",
+      "description": "Summit between EU and China leaders to discuss trade and relations.",
+      "properties": {
+        "date": "Jul 24-25",
+        "event_type": "summit",
+        "region": "International"
+      }
+    },
+    {
+      "name": "Global Macro Data - US-China Trade Talk Jul 27-30",
+      "type": "Event",
+      "brief": "Bilateral US-China trade negotiations",
+      "description": "US-China trade talks scheduled to advance negotiating positions.",
+      "properties": {
+        "date": "Jul 27-30",
+        "event_type": "trade_negotiation",
+        "region": "International"
+      }
+    },
+    {
+      "name": "Global Macro Data - IEEPA Tariff Case Oral Argument",
+      "type": "Event",
+      "brief": "Oral argument in IEEPA tariff case appeal",
+      "description": "Court hearing on tariff case under International Emergency Economic Powers Act.",
+      "properties": {
+        "date": "Jul 31",
+        "event_type": "legal_proceeding",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Macro Data - New Tariff Deadline Announcement",
+      "type": "Event",
+      "brief": "Trump tariff negotiation deadline announcement",
+      "description": "Presidential announcement of new tariff negotiation deadline.",
+      "properties": {
+        "date": "Aug 1",
+        "event_type": "policy_announcement",
+        "region": "International"
+      }
+    },
+    {
+      "name": "Global Macro Data - China Tariff Pause Ends",
+      "type": "Event",
+      "brief": "End of China tariff pause",
+      "description": "Conclusion of 90-day pause on China tariffs impacting trade policy.",
+      "properties": {
+        "date": "Aug 12",
+        "event_type": "policy_change",
+        "region": "China"
+      }
+    },
+    {
+      "name": "Global Macro Data - JCPOA Expiration",
+      "type": "Event",
+      "brief": "Expiry of Iran nuclear deal",
+      "description": "Scheduled expiration of the Joint Comprehensive Plan of Action agreement.",
+      "properties": {
+        "date": "Oct 18",
+        "event_type": "policy_expiration",
+        "region": "Iran"
+      }
+    },
+    {
+      "name": "US Financial Market - Economic Data Releases July 22 2025",
+      "type": "Event",
+      "brief": "Multiple Fed survey releases",
+      "description": "Scheduled releases of Philadelphia and Richmond Fed indices reflecting regional manufacturing and business conditions.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Philly Fed Non-Mfg Activity",
+          "Richmond Fed Manufacturing Index",
+          "Richmond Fed Business Conditions"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Housing Data Releases July 23 2025",
+      "type": "Event",
+      "brief": "Mortgage and existing home sales reports",
+      "description": "Scheduled release of US mortgage applications and existing home sales reflecting housing market activity.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Mortgage Applications",
+          "Existing Home Sales"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Mixed Economic Indicators July 24 2025",
+      "type": "Event",
+      "brief": "Various PMI, Fed activity, jobless claims, and permits",
+      "description": "Scheduled releases including Chicago Fed, jobless claims, PMI surveys, home sales, Kansas City Fed, and building permits.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Chicago Fed National Activity Index",
+          "Initial Jobless Claims",
+          "Continuing Jobless Claims",
+          "PMI Manufacturing",
+          "PMI Services",
+          "PMI Composite",
+          "New Home Sales",
+          "Kansas City Fed Manufacturing Activity",
+          "Building Permits (revision)"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Orders and Survey Releases July 25 2025",
+      "type": "Event",
+      "brief": "Durable/capital goods orders and Fed services survey",
+      "description": "Scheduled releases of durable and capital goods orders, Kansas City Fed services index, and US economic survey.",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Durable Goods Orders",
+          "Capital Goods Orders",
+          "Kansas City Fed Services Activity",
+          "Bloomberg US Economic Survey"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Canada Industrial Production July 21 2025",
+      "type": "Event",
+      "brief": "Canada IP report",
+      "description": "Scheduled release of Canadian industrial production data reflecting manufacturing output.",
+      "properties": {
+        "date": "2025-07-21",
+        "event_type": "Economic Indicator Release",
+        "region": "Canada",
+        "indicators": [
+          "Industrial Production"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 21 2025",
+      "type": "Event",
+      "brief": "Earnings for focused US companies",
+      "description": "Scheduled earnings releases from key US companies including AGNC, ARE, and others.",
+      "properties": {
+        "date": "2025-07-21",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "AGNC",
+          "ARE",
+          "CLF",
+          "DPZ",
+          "MEDP",
+          "ROP",
+          "VZ"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 22 2025",
+      "type": "Event",
+      "brief": "Earnings for major US companies",
+      "description": "Scheduled earnings releases from major companies including BKR, COF, CRCL, and others.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "BKR",
+          "COF",
+          "CRCL",
+          "CSGP",
+          "DGX",
+          "DHI",
+          "DHR",
+          "EFX",
+          "ENPH",
+          "EQT",
+          "GM",
+          "HAL",
+          "IPG",
+          "IQV",
+          "ISRG",
+          "IVZ",
+          "KEY",
+          "KO",
+          "LMT",
+          "MSCI",
+          "NOC",
+          "PCAR",
+          "PEGA",
+          "PHM",
+          "PM",
+          "RTX",
+          "SHW",
+          "SYF",
+          "THC",
+          "TXN",
+          "VBTX"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 23 2025",
+      "type": "Event",
+      "brief": "Earnings for diversified US companies",
+      "description": "Scheduled earnings releases from companies including APH, BSX, CCI, and others.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "APH",
+          "BSX",
+          "CCI",
+          "CME",
+          "CMG",
+          "COOP",
+          "CSX",
+          "FAF",
+          "FCX",
+          "FI",
+          "GD",
+          "GEV",
+          "GOOGL",
+          "HAS",
+          "HLT",
+          "IBM",
+          "KNX",
+          "LII",
+          "LVS",
+          "LW",
+          "MCO",
+          "MOH",
+          "NEE",
+          "NLY",
+          "NOW",
+          "NTRS",
+          "ORLY",
+          "OTIS",
+          "QS",
+          "SEI",
+          "T",
+          "TDY",
+          "TMO",
+          "TMUS",
+          "TSLA",
+          "URI",
+          "VKTX"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 24 2025",
+      "type": "Event",
+      "brief": "Earnings for industrial and tech companies",
+      "description": "Scheduled earnings releases from companies including AAL, AMP, BX, and others.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "AAL",
+          "AMP",
+          "BX",
+          "BYD",
+          "CHX",
+          "CNP",
+          "DAR",
+          "DECK",
+          "DLR",
+          "DOW",
+          "EW",
+          "FLEX",
+          "HON",
+          "INTC",
+          "KDP",
+          "LHX",
+          "LUV",
+          "NDAQ",
+          "NEM",
+          "POOL",
+          "SF",
+          "SLM",
+          "TRU",
+          "TSCO",
+          "TXT",
+          "UNP",
+          "VC",
+          "VLO",
+          "WAB",
+          "WST",
+          "WY"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 25 2025",
+      "type": "Event",
+      "brief": "Earnings for varied US companies",
+      "description": "Scheduled earnings releases from companies including BAH, CHTR, CNC, and others.",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "BAH",
+          "CHTR",
+          "CNC",
+          "FIX",
+          "FLG",
+          "HCA",
+          "PSX",
+          "ROG",
+          "SAIA",
+          "SKX",
+          "XRX"
+        ]
+      }
+    },
+    {
+      "name": "USMarket Market Bullishness",
+      "type": "Factor",
+      "brief": "Tactical bullish market outlook",
+      "description": "Prevailing bullish sentiment informed by macro, earnings, and trade factors",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Resilient Macro Data",
+      "type": "Factor",
+      "brief": "Strong macroeconomic data",
+      "description": "Resilient US macro indicators support bullish thesis",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Positive Earnings Growth",
+      "type": "Factor",
+      "brief": "Corporate earnings trending positive",
+      "description": "Earnings growth among companies is robust",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Thawing Trade Rhetoric",
+      "type": "Factor",
+      "brief": "Improving trade relations rhetoric",
+      "description": "Trade discussions between US and partners are warming",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - US Equities Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for US equities improved",
+      "description": "Market liquidity conditions for US Equities have seen notable improvement",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - 10y Bunds Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for 10y Bunds improved",
+      "description": "Market liquidity conditions for 10-year German Bunds have improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Corporate Bond ETFs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for corporate bond ETFs improved",
+      "description": "Market liquidity conditions for corporate bond ETFs have improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Eurostoxx Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Eurostoxx futures impaired",
+      "description": "Market liquidity conditions for Eurostoxx futures remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Nikkei Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Nikkei futures impaired",
+      "description": "Market liquidity conditions for Nikkei futures remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - 10y USTs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for 10y USTs impaired",
+      "description": "Market liquidity conditions for 10-year US Treasuries remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - JGBs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for JGBs impaired",
+      "description": "Market liquidity conditions for Japanese Government Bonds remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Bitcoin Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for bitcoin futures deteriorated",
+      "description": "Market liquidity conditions for bitcoin futures have deteriorated",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Ethereum Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Ethereum futures deteriorated",
+      "description": "Market liquidity conditions for Ethereum futures have deteriorated",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Realized Macro Volatility",
+      "type": "Factor",
+      "brief": "Macro volatility has been subdued",
+      "description": "Realized GDP and inflation volatility has been rather subdued since 2023",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Market Volatility",
+      "type": "Factor",
+      "brief": "Market volatility is low",
+      "description": "Market volatility in equities has remained low, supported by retail investors and buybacks",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Hedge Funds Inflows",
+      "type": "Factor",
+      "brief": "Hedge funds inflows have accelerated",
+      "description": "Hedge funds have seen an acceleration of inflows in 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Digital Assets Inflows",
+      "type": "Factor",
+      "brief": "Digital assets inflows have accelerated",
+      "description": "Digital assets have seen an acceleration of inflows in 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Private Equity Fundraising",
+      "type": "Factor",
+      "brief": "Private equity fundraising is weak",
+      "description": "Fundraising has been weak in private equity in 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Private Credit Fundraising",
+      "type": "Factor",
+      "brief": "Private credit fundraising is weak",
+      "description": "Fundraising has been weak in private credit in 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Hedge Funds Positive Alpha Streak",
+      "type": "Event",
+      "brief": "Hedge funds produced positive alpha for fifth year",
+      "description": "Hedge funds have produced positive alpha so far in 2025, marking a fifth consecutive year",
+      "properties": {
+        "date": null,
+        "event_type": "positive_alpha",
+        "streak_years": 5
+      }
+    },
+    {
+      "name": "US Financial Market - JPXXMEME Index",
+      "type": "Instrument",
+      "brief": "Retail-driven meme stock index",
+      "description": "Represents basket of 'meme stocks' reflecting retail investor sentiment",
+      "properties": {
+        "ticker": "JPXXMEME"
+      }
+    },
+    {
+      "name": "US Financial Market - SPX Index",
+      "type": "Instrument",
+      "brief": "Broad US equity market index",
+      "description": "Reflects performance of S&P 500 large-cap equities",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "US Financial Market - NDX Index",
+      "type": "Instrument",
+      "brief": "US tech-heavy equity index",
+      "description": "Tracks performance of Nasdaq-100 large-cap technology stocks",
+      "properties": {
+        "ticker": "NDX"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Financial Market Liquidity Proxy vs SPX",
+      "type": "Table",
+      "brief": "Normalized performance of JPXXMEME, SPX, and NDX indices with JPXXMEME outperformance",
+      "description": "Time series normalized to 12/31/2024 shows JPXXMEME volatility and recovery vs SPX and NDX",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date (2025) | JPXXMEME Index | SPX Index | NDX Index |\n|---------------|----------------|-----------|-----------|\n| Jan 1         | 100.00         | 100.00    | 100.00    |\n| Jan 15        | 105.00         | 103.00    | 103.00    |\n| Feb 1         | 117.00         | 108.00    | 108.00    |\n| Feb 15        | 105.00         | 105.00    | 105.00    |\n| Feb 28        | 89.00          | 99.00     | 99.00     |\n| Mar 15        | 78.00          | 93.00     | 93.00     |\n| Mar 31        | 68.00          | 89.00     | 89.00     |\n| Apr 15        | 88.00          | 95.00     | 95.00     |\n| Apr 30        | 100.00         | 100.00    | 100.00    |\n| May 15        | 115.00         | 103.00    | 104.00    |\n| May 31        | 125.00         | 105.00    | 106.00    |\n| Jun 15        | 135.00         | 107.00    | 108.00    |\n| Jun 30        | 138.00         | 107.50    | 109.50    |\n| Jul 15        | 140.00         | 108.00    | 110.00    |\n| Last Price    | 140.09         | 108.00    | 110.13    |",
+        "key_insight": "JPXXMEME Index significantly outperformed SPX and NDX, ending at 140.09 vs 108.00 and 110.13 by July 2025."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 Short Interest Retail Flows Trends 2019 to 2025",
+      "target": "US Financial Market Retail Buying Peak Early 2021",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 7.0 indexPts peak in retail buying in early 2021."
+    },
+    {
+      "source": "US Financial Market Trade Deals Before August 1",
+      "target": "US Financial Market Sustained Buying",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Trade deals before August 1 may trigger sustained buying."
+    },
+    {
+      "source": "Table T1 \u2013 Delivery Channels of Data Assets & Alpha",
+      "target": "U.S. Financial Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Delivery platforms inform US financial market participants"
+    },
+    {
+      "source": "US Market \u2013 GOOG Earnings Release",
+      "target": "US Market \u2013 AI Theme",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "GOOG earnings release triggered AI theme resurgence"
+    },
+    {
+      "source": "US Market \u2013 AI Theme",
+      "target": "US Market \u2013 Technology Sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AI theme is driving tech sector performance"
+    },
+    {
+      "source": "US Market \u2013 Capital Expenditure Boost",
+      "target": "US Market \u2013 Broadcom Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CapEx boost benefiting Broadcom"
+    },
+    {
+      "source": "US Market \u2013 Capital Expenditure Boost",
+      "target": "US Market \u2013 NVIDIA Corporation",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CapEx boost benefiting NVIDIA"
+    },
+    {
+      "source": "US Market \u2013 Tesla Guidance Update",
+      "target": "US Market \u2013 TSLA Daily Return",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": -6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Tesla guidance update triggered 6% stock drop"
+    },
+    {
+      "source": "Table T1 \u2013 US Financial Market Liquidity and SPX Index Trend",
+      "target": "US Financial Market - SPX Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6352.3,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "SPX Index peaked at 6352.30 by mid-2025"
+    },
+    {
+      "source": "Table T1 \u2013 US Financial Market Liquidity and SPX Index Trend",
+      "target": "US Financial Market - US Liquidity Proxy Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6.409,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "US Liquidity Proxy dipped to 6.409M and then recovered"
+    },
+    {
+      "source": "US Financial Market - Retail Investor Support",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Retail investor support backstops SPX performance"
+    },
+    {
+      "source": "US Financial Market - Corporate Buyback Support",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Corporate buybacks support equity performance"
+    },
+    {
+      "source": "US Financial Market - Low Realized Macro Volatility",
+      "target": "US Financial Market - SPX Index",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low macro volatility underpins equity strength"
+    },
+    {
+      "source": "US Financial Market \u2013 White House AI Action Plan",
+      "target": "US Financial Market \u2013 Boost to Domestic Semiconductor Production",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers higher semiconductor production"
+    },
+    {
+      "source": "US Financial Market \u2013 White House AI Action Plan",
+      "target": "US Financial Market \u2013 Enhanced Export Controls & Supply Chain Security",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers stricter export controls and supply chain security"
+    },
+    {
+      "source": "US Financial Market \u2013 White House AI Action Plan",
+      "target": "US Financial Market \u2013 Investment in AI & DC Infrastructure",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers increased AI and datacenter infrastructure investment"
+    },
+    {
+      "source": "US Financial Market \u2013 US 10-Year Yield Hit 5%",
+      "target": "US Financial Market \u2013 Retail Buying in High Short Interest Stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Yield hitting 5% impacted retail buying in short interest stocks"
+    },
+    {
+      "source": "USMarket Resilient Macro Data",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Resilient macro data impacts market bullishness"
+    },
+    {
+      "source": "USMarket Positive Earnings Growth",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Positive earnings growth impacts market bullishness"
+    },
+    {
+      "source": "USMarket Thawing Trade Rhetoric",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Thawing trade rhetoric impacts market bullishness"
+    },
+    {
+      "source": "US Financial Market - Realized Macro Volatility",
+      "target": "US Financial Market - Market Volatility",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Low realized macro volatility caused low market volatility"
+    },
+    {
+      "source": "Table T1 \u2013 US Financial Market Liquidity Proxy vs SPX",
+      "target": "US Financial Market - JPXXMEME Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 140.09,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows JPXXMEME Index outperformance, ending at 140.09 by July 2025"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/jpm_us_market_intell_morning_briefing_20250724_converted_with_figures"
+}

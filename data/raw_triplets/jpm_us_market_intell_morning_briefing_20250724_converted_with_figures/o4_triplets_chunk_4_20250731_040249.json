@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Short Interest Retail Flows Trends 2019 to 2025",
+      "type": "Table",
+      "brief": "Time series of retail short interest flows (2019–2025)",
+      "description": "Illustrates cyclical swings and a declining trend in retail buying peaks around key market events.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Short Interest Retail Flows | Event/Annotation | Trend Line |\n|---|---|---|---|\n| 4/13/2019 | -2.5 | | |\n| Jul 2019 | 1.5 | | |\n| Oct 2019 | -0.5 | | |\n| Feb 2020 | 3.0 | | |\n| Mar 2020 | -7.5 | Covid dip | |\n| Jun 2020 | -1.0 | | |\n| Oct 2020 | 1.0 | | |\n| Jan 2021 | 7.0 | Vaccine peak | |\n| Apr 2021 | 3.0 | | 7.0 |\n| Aug 2021 | -1.5 | | |\n| Dec 2021 | 0.5 | | |\n| Mar 2022 | 3.5 | Inflation peak | |\n| Apr 2022 | 1.5 | | 4.5 |\n| Aug 2022 | -3.0 | | |\n| Dec 2022 | 0.5 | | |\n| Mar 2023 | 3.5 | | |\n| Apr 2023 | 1.5 | | 2.0 |\n| Aug 2023 | -3.0 | | |\n| Oct 2023 | -7.0 | Rate 5% dip | |\n| Jan 2024 | 1.5 | | |\n| Apr 2024 | -1.0 | | -0.5 |\n| Aug 2024 | -3.5 | | |\n| Dec 2024 | -2.0 | | |\n| Feb 2025 | -1.5 | Current bounce | |\n| Apr 2025 | -1.0 | | -1.5 |",
+        "key_insight": "Cyclical retail sentiment swings show declining buying peaks from ~7.0 in early 2021 to ~1.0 by early 2025."
+      }
+    },
+    {
+      "name": "US Financial Market Retail Buying Peak Early 2021",
+      "type": "Metric",
+      "brief": "Highest retail buying peak in early 2021",
+      "description": "Highest retail buying peak occurred in early 2021, marking vaccine-driven sentiment high.",
+      "properties": {
+        "value": 7.0,
+        "unit": "indexPts",
+        "as_of": "Jan 2021"
+      }
+    },
+    {
+      "name": "US Financial Market Trade Deals Before August 1",
+      "type": "Event",
+      "brief": "Anticipated trade deals before August deadline",
+      "description": "Trade negotiations expected by August 1 that could sustain market buying.",
+      "properties": {
+        "date": null,
+        "event_type": "trade_deal",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Financial Market Sustained Buying",
+      "type": "Factor",
+      "brief": "Continued market buying",
+      "description": "Potential sustained buying if trade deals are reached before August 1.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JPM JPMPURE Index",
+      "type": "Instrument",
+      "brief": "Momentum hedge index",
+      "description": "Index recommended for hedging momentum exposure until month end.",
+      "properties": {
+        "ticker": "JPMPURE",
+        "position": "hedge"
+      }
+    },
+    {
+      "name": "JPM JPBPURE Index",
+      "type": "Instrument",
+      "brief": "Negative beta hedge index",
+      "description": "Index recommended for hedging negative beta exposure until month end.",
+      "properties": {
+        "ticker": "JPBPURE",
+        "position": "hedge"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Short Interest Retail Flows Trends 2019 to 2025",
+      "target": "US Financial Market Retail Buying Peak Early 2021",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 7.0 indexPts peak in retail buying in early 2021."
+    },
+    {
+      "source": "US Financial Market Trade Deals Before August 1",
+      "target": "US Financial Market Sustained Buying",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Trade deals before August 1 may trigger sustained buying."
+    }
+  ],
+  "scenarios": []
+}

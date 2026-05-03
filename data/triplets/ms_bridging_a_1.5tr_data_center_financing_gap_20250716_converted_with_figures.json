@@ -1,0 +1,3999 @@
+{
+  "entities": [
+    {
+      "name": "Table T17 \u2013 GenAIDataCenter Global GenAI Power Consumption and Growth Rates",
+      "type": "Table",
+      "brief": "Global GenAI power use and growth projections (2023-2028)",
+      "description": "Highlights global GenAI power consumption rising from 29 TWh to 686 TWh by 2028, with growth rate slowing from 176% to 43%, underscoring infrastructure demands.",
+      "properties": {
+        "table_id": "T17",
+        "table_content": "| Year | Total Power Used by GenAI (TWh) | Annual Growth Rate |\n|------|---------------------------------|--------------------|\n| 2023e | 29                              | -                  |\n| 2024e | 80                              | 176%               |\n| 2025e | 175                             | 119%               |\n| 2026e | 300                             | 71%                |\n| 2027e | 480                             | 60%                |\n| 2028e | 686                             | 43%                |",
+        "key_insight": "Global GenAI power consumption projected to rise from 29 TWh in 2023 to 686 TWh by 2028, while growth rate decelerates from 176% to 43%."
+      }
+    },
+    {
+      "name": "Table T18 \u2013 GenAIDataCenter US GenAI Power Consumption and Growth Rates",
+      "type": "Table",
+      "brief": "US GenAI power use and growth projections (2023-2028)",
+      "description": "Shows US GenAI power consumption increasing from 10 TWh to 370 TWh by 2028, with growth rate peaking at 440% then decelerating to 45%, indicating strong domestic AI infrastructure demand.",
+      "properties": {
+        "table_id": "T18",
+        "table_content": "| Year | Power Used by GenAI (TWh) | Annual Growth Rate |\n|------|---------------------------|--------------------|\n| 2023e | 10                        | N/A                |\n| 2024e | 35                        | ~440%              |\n| 2025e | 90                        | ~150%              |\n| 2026e | 160                       | ~80%               |\n| 2027e | 260                       | ~60%               |\n| 2028e | 370                       | ~45%               |",
+        "key_insight": "US GenAI power consumption forecast to increase from 10 TWh in 2023 to 370 TWh by 2028, with growth rate peaking near 440% in 2024 then falling to around 45% by 2028."
+      }
+    },
+    {
+      "name": "Table T19 \u2013 GenAIDataCenter Global Data Center Capex by Region and Workload",
+      "type": "Table",
+      "brief": "Global data center capex allocation by region and hardware/build (2025-2028)",
+      "description": "Breaks down $2.89 trillion of global data center investment into $1.296 trillion build costs and $1.594 trillion hardware costs, highlighting US build spend of $754 billion and AI hardware share of $1.419 trillion.",
+      "properties": {
+        "table_id": "T19",
+        "table_content": "| Category | Sub-category | Amount ($bn) | Cost per MW |\n|---|---|---|---|\n| Total Capex 2025-2028 | | $2,890 | N/A |\n| Global Build Costs | Total | $1,296 | N/A |\n| Global Build Costs | US | $754 | ~$11mm/MW |\n| Global Build Costs | APAC | $101 | ~$8mm/MW |\n| Global Build Costs | Europe | $117 | ~$12mm/MW |\n| Global Build Costs | ROW | $324 | ~$10mm/MW |\n| Total Hardware Costs | Total | $1,594 | N/A |\n| Total Hardware Costs | AI Hardware | $1,419 | ~$16.5mm/MW |\n| Total Hardware Costs | non-AI Hardware | $175 | ~$6.5mm/MW |",
+        "key_insight": "Global data center capex of $2.89 trillion for 2025-2028 split into $1.296 trillion build costs and $1.594 trillion hardware costs, with US build costs at $754 billion and AI hardware costs at $1.419 trillion."
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global GenAI Power Consumption",
+      "type": "Metric",
+      "brief": "Projected global GenAI power consumption by 2028",
+      "description": "Estimated to reach 686 TWh in 2028, indicating significant energy requirements for global AI infrastructure.",
+      "properties": {
+        "unit": "TWh",
+        "value": 686,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "Metric",
+      "brief": "Projected US GenAI power consumption by 2028",
+      "description": "Forecast at 370 TWh in 2028, reflecting US share of global AI infrastructure growth.",
+      "properties": {
+        "unit": "TWh",
+        "value": 370,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global Data Center Capex 2025-2028",
+      "type": "Metric",
+      "brief": "Total global data center capex for 2025-2028",
+      "description": "Projected at $2.89 trillion, reflecting massive investment needs for AI and non-AI workloads.",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2890,
+        "as_of": "2025-2028"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Global Total Data Center Power Usage",
+      "type": "Metric",
+      "brief": "Projected total data center power usage globally by 2028",
+      "description": "Expected to rise to 1235 TWh in 2028 driven by AI and traditional workloads.",
+      "properties": {
+        "unit": "TWh",
+        "value": 1235,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter Total Data Center Capacity",
+      "type": "Metric",
+      "brief": "Projected total data center capacity by 2028",
+      "description": "Estimated capacity growth from 56 GW to 188 GW by 2028 reflecting power demand translation.",
+      "properties": {
+        "unit": "GW",
+        "value": 188,
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "GenAIDataCenter US Share of Global GenAI Power Usage",
+      "type": "Factor",
+      "brief": "US share of global GenAI power consumption",
+      "description": "US expected to account for about 55% of global GenAI power usage, indicating domestic concentration.",
+      "properties": {
+        "magnitude_%": 55
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Microsoft",
+      "type": "Company",
+      "brief": "Leading hyperscaler and investor",
+      "description": "Technology giant investing in AI startups and data centers",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Amazon.com",
+      "type": "Company",
+      "brief": "E-commerce and cloud services leader",
+      "description": "Operates AWS data centers receiving power agreements",
+      "properties": {
+        "ticker": "AMZN",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 BlackRock",
+      "type": "Company",
+      "brief": "Global investment management firm",
+      "description": "Participant in AI Infrastructure Partnership formation",
+      "properties": {
+        "ticker": "BLK",
+        "sector": "Financials"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Constellation Energy",
+      "type": "Company",
+      "brief": "Utility company providing power",
+      "description": "Partnered with Microsoft on power agreement",
+      "properties": {
+        "ticker": "CEG",
+        "sector": "Utilities"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 US VC deal value 1Q25",
+      "type": "Metric",
+      "brief": "Total US VC deal value in 1Q25",
+      "description": "Size of venture capital funding in the US for data center tech",
+      "properties": {
+        "value": 90,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 AI startup VC share 1Q25",
+      "type": "Metric",
+      "brief": "Share of VC funding to AI startups in 1Q25",
+      "description": "Portion of global VC dollars to AI and ML startups",
+      "properties": {
+        "value": 60,
+        "unit": "%",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 OpenAI VC funding 1Q25",
+      "type": "Metric",
+      "brief": "OpenAI funding round size in 1Q25",
+      "description": "Flagship $40bn round driving data center investment",
+      "properties": {
+        "value": 40,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Anthropic VC funding 1Q25",
+      "type": "Metric",
+      "brief": "Anthropic total VC funding in 1Q25",
+      "description": "Funding for AI startup Anthropic in multiple rounds",
+      "properties": {
+        "value": 4.5,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Groq VC funding 1Q25",
+      "type": "Metric",
+      "brief": "Groq VC funding round size in 1Q25",
+      "description": "AI startup Groq's funding that may drive data center use",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD bn",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 US venture investment 2024",
+      "type": "Metric",
+      "brief": "Total VC investment in US in 2024",
+      "description": "Shows scale of venture capital fueling data center projects",
+      "properties": {
+        "value": 192,
+        "unit": "USD bn",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 US corporate VC investment 2024",
+      "type": "Metric",
+      "brief": "Corporate VC investment in US in 2024",
+      "description": "Contribution of corporate venture capital to overall VC funding",
+      "properties": {
+        "value": 108,
+        "unit": "USD bn",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 AI Infrastructure Partnership formation",
+      "type": "Event",
+      "brief": "Formation of AI Infrastructure Partnership",
+      "description": "BlackRock, GIP, Microsoft, and MGX formed AIP partnership",
+      "properties": {
+        "date": null,
+        "event_type": "partnership_formation",
+        "participants_count": 4
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Stargate project announcement",
+      "type": "Event",
+      "brief": "Announcement of Stargate data center project",
+      "description": "Hyperscaler-led Stargate project announced in January 2025",
+      "properties": {
+        "date": "2025-01-01",
+        "event_type": "project_announcement"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Talen Energy nuclear energy partnership announcement",
+      "type": "Event",
+      "brief": "Nuclear energy partnership announcement by Talen Energy",
+      "description": "Talen Energy partnership to supply nuclear power to AWS data centers",
+      "properties": {
+        "date": "2025-06-01",
+        "event_type": "power_agreement",
+        "region": "Pennsylvania"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Microsoft-Constellation Energy power agreement announcement",
+      "type": "Event",
+      "brief": "Power agreement announcement between Microsoft and Constellation Energy",
+      "description": "Announced collaboration for electricity supply to data centers",
+      "properties": {
+        "date": null,
+        "event_type": "power_agreement"
+      }
+    },
+    {
+      "name": "Credit Markets $2.9tr Spend Opportunity",
+      "type": "Metric",
+      "brief": "Total spend opportunity on data centers and GenAI",
+      "description": "Represents the ~$2.9 trillion opportunity to finance data center and generative AI infrastructure",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets $200bn Bond Issuance",
+      "type": "Metric",
+      "brief": "Projected technology credit bond issuance",
+      "description": "Expected ~$200 billion of bond issuance to complement cash flows and new leases in technology credit",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets $800bn Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Estimated opportunity in private credit",
+      "description": "An $800 billion opportunity in private credit led by asset-based finance (ABF)",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets Securitized Credit Take-Out Option",
+      "type": "Factor",
+      "brief": "Securitized credit as a growing take-out option",
+      "description": "Securitized credit is becoming an increasingly sought-after financing take-out option",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing Global Data Center Capex",
+      "type": "Metric",
+      "brief": "Projected global data center capital expenditure",
+      "description": "Forecast $2.9 trillion in global data center capex through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Hyperscaler Capex Covered by Internal Cash Flows",
+      "type": "Metric",
+      "brief": "Hyperscaler-funded capex via internal cash flows",
+      "description": "$1.4 trillion of hyperscaler capex funded by internal cash flows through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Estimated Financing Gap",
+      "type": "Metric",
+      "brief": "Medium-term financing gap for data centers",
+      "description": "Estimated $1.5 trillion gap in data center financing needing external capital",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1500,
+        "as_of": "Medium-term"
+      }
+    },
+    {
+      "name": "Data Center Financing Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Growth opportunity in private credit for data centers",
+      "description": "Projected $800 billion+ private credit growth opportunity through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Incremental IG Tech Bond Supply",
+      "type": "Metric",
+      "brief": "Incremental investment-grade tech bond issuance",
+      "description": "Forecast $200 billion of incremental IG technology bond supply through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 200,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Data Center Securitized Credit Issuance",
+      "type": "Metric",
+      "brief": "Projected data center securitized credit issuance",
+      "description": "Forecast $150 billion of DC ABS/CMBS issuance through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 150,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing US Securitized Issuance (Current)",
+      "type": "Metric",
+      "brief": "Current US data center securitized issuance",
+      "description": "Approximately $50 billion issued to date backing ~10% of US data center capacity",
+      "properties": {
+        "unit": "USD bn",
+        "value": 50,
+        "as_of": "To date"
+      }
+    },
+    {
+      "name": "Data Center Financing US Securitization Rate (Projected)",
+      "type": "Metric",
+      "brief": "Projected US securitization rate of new capacity",
+      "description": "Estimated 25% of new US data center capacity securitized by 2028",
+      "properties": {
+        "unit": "%",
+        "value": 25,
+        "as_of": "By 2028"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Financing Needs and Funding Breakdown",
+      "type": "Table",
+      "brief": "Projected data center financing needs and funding sources through 2028",
+      "description": "Lists global capex, financing gap, and breakdown of funding mechanisms",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Financial Segment / Need           | Value ($Billion) | Timeframe / Scope      | Details / Source                                     |\n|------------------------------------|------------------|------------------------|------------------------------------------------------|\n| Global Data Center Capex (Total)   | 2,900            | Through 2028           | For build and hardware costs                         |\n| Hyperscaler Capex (Covered)        | 1,400            |                        | Funded by internal cash flows                        |\n| Estimated Financing Gap            | 1,500            | Medium-term            | Needs external capital to fill                       |\n| Private Credit Opportunity         | 800+             | Through 2028           | Led by Asset-Based Finance (ABF)                     |\n| Incremental IG Tech Bond Supply    | 200              | Through 2028           | Expected corporate bond issuance                     |\n| Data Center Securitized Credit     | 150              | Through 2028           | Projected ABS/CMBS issuance                          |\n| US Securitized Issuance (Current)  | ~50              | To date                | Backed by ~10% of US data center capacity            |\n| US Securitization Rate (Projected) | 25%              | By 2028                | Of new GWs in US securitized market                  |",
+        "key_insight": "Projected $2.9tr global data center capex through 2028 creates a $1.5tr financing gap to be filled by private credit, bonds, and securitization."
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Potential Shortfall in Power for US Data Centers, 2025-28",
+      "type": "Table",
+      "brief": "Illustrates projected power deficit for US data centers",
+      "description": "Waterfall chart showing reductions leading to a 45 GW shortfall from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Component                       | Value (GW) | Cumulative (GW) |\n|---------------------------------|------------|-----------------|\n| US Power Needed, 2025-28        | 65         | 65              |\n| US DCs Under Construction       | -5         | 60              |\n| Available US Grid Capacity      | -15        | 45              |\n| Potential Shortfall             | 45         | 45              |",
+        "key_insight": "US data centers face a projected 45 GW power shortfall from 2025 to 2028."
+      }
+    },
+    {
+      "name": "Data Center Power Shortfall",
+      "type": "Metric",
+      "brief": "Projected power deficit for US data centers",
+      "description": "Estimated unmet power demand of 45 GW for US data centers through 2028",
+      "properties": {
+        "value": 45,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Grid Constraints",
+      "type": "Factor",
+      "brief": "Grid constraints challenge data center expansion",
+      "description": "92% of survey respondents cite grid constraints as a challenge to data center growth",
+      "properties": {
+        "magnitude_percent": 92
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 US IG Corporate Bond Market",
+      "type": "Metric",
+      "brief": "Size of US IG corporate bond market",
+      "description": "Established US investment-grade corporate bond market is nearly $9tn.",
+      "properties": {
+        "value": 9,
+        "unit": "USD tn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Technology Sector IG Share",
+      "type": "Metric",
+      "brief": "Technology sector share of IG bond market",
+      "description": "Technology sector's share of the US IG corporate bond market is 9.6%.",
+      "properties": {
+        "value": 9.6,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Hyperscalers IG Share",
+      "type": "Metric",
+      "brief": "Hyperscalers share of IG bond market",
+      "description": "Hyperscalers account for around 2% of the US IG bond market.",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 IT Sector S&P 500 Share",
+      "type": "Metric",
+      "brief": "IT sector share of S&P 500 equity market",
+      "description": "IT sector contributes approximately 30% of S&P 500 market cap.",
+      "properties": {
+        "value": 30,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Hyperscalers S&P 500 Share",
+      "type": "Metric",
+      "brief": "Hyperscalers share of S&P 500 equity market",
+      "description": "Hyperscalers represent around 20% of S&P 500 market cap.",
+      "properties": {
+        "value": 20,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Three Issuers Issuance Capacity",
+      "type": "Metric",
+      "brief": "Issuance capacity across three large-cap tech issuers",
+      "description": "Illustrative issuance capacity across three large-cap tech issuers exceeding $500bn.",
+      "properties": {
+        "value": 500,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Hyperscalers Peer Debt Capacity",
+      "type": "Metric",
+      "brief": "Capacity for hyperscalers to match peer debt levels",
+      "description": "~$150bn capacity for hyperscalers to grow index debt toward largest non-financial IG issuers.",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 IG Technology Index Net Supply Capacity YE28",
+      "type": "Metric",
+      "brief": "Potential net IG debt supply capacity by 2028",
+      "description": "IG Technology Index could support an additional $200bn net supply by year-end 2028.",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 IG Tech Index Outstanding Growth",
+      "type": "Metric",
+      "brief": "Growth in IG Technology Index debt outstanding",
+      "description": "IG Technology Index saw $120bn of debt outstanding growth over past four years.",
+      "properties": {
+        "value": 120,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 IG Debt Issuance Cost",
+      "type": "Metric",
+      "brief": "Average cost of issuing IG debt",
+      "description": "Average cost of issuing US IG debt is around 5%.",
+      "properties": {
+        "value": 5,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Hyperscaler Projected Issuance 2025",
+      "type": "Metric",
+      "brief": "Projected hyperscaler bond issuance in 2025",
+      "description": "Hyperscaler bond issuance is projected to decline to $6bn by 2025.",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "TechCreditMarkets \u2013 Hyperscaler Debt Under-Indexation",
+      "type": "Factor",
+      "brief": "Low hyperscaler share in IG debt market",
+      "description": "Hyperscalers\u2019 IG debt market share is significantly lower than their equity market share, indicating under-indexation.",
+      "properties": {
+        "magnitude_%": 18,
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Hyperscalers Market Presence Equity vs IG Debt",
+      "type": "Table",
+      "brief": "Contrasting hyperscalers\u2019 equity vs IG debt market shares",
+      "description": "Time-series data from 2013 to 2025 showing hyperscalers\u2019 equity market share growth vs stable low debt presence.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Equity % of S&P 500 | Debt % of IG Market |\n|--------|---------------------|---------------------|\n| Jan 2013 | 4.5%                | 0.2%                |\n| Jan 2014 | 5.5%                | 0.4%                |\n| Jan 2015 | 6.0%                | 0.6%                |\n| Jan 2016 | 7.5%                | 0.9%                |\n| Jan 2017 | 9.0%                | 1.2%                |\n| Jan 2018 | 10.0%               | 1.5%                |\n| Jan 2019 | 12.0%               | 1.5%                |\n| Jan 2020 | 14.5%               | 1.3%                |\n| May 2020 | 16.5%               | 1.3%                |\n| Jan 2021 | 18.0%               | 1.4%                |\n| May 2021 | 17.5%               | 1.4%                |\n| Sep 2021 | 16.0%               | 1.4%                |\n| Jan 2022 | 14.5%               | 1.3%                |\n| May 2022 | 12.0%               | 1.3%                |\n| Sep 2022 | 13.0%               | 1.3%                |\n| Jan 2023 | 14.5%               | 1.4%                |\n| May 2023 | 16.0%               | 1.5%                |\n| Sep 2023 | 17.0%               | 1.5%                |\n| Jan 2024 | 18.0%               | 1.5%                |\n| May 2024 | 17.5%               | 1.4%                |\n| Jan 2025 | 17.0%               | 1.4%                |",
+        "key_insight": "Hyperscalers\u2019 equity share grew from about 4.5% in 2013 to nearly 18% by 2025, while their IG debt share remained below 2%."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Hyperscaler Bond Issuance Dollars and Percentage",
+      "type": "Table",
+      "brief": "Annual hyperscaler bond issuance and share of total IG issuance",
+      "description": "Time-series data showing hyperscaler bond issuance in USD bn and as percentage of total IG issuance from 2013 to 2025.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Hyperscaler Issuance ($bn) | Hyperscaler Issuance as % of Total IG Issuance |\n|------|----------------------------|------------------------------------------------|\n| 2013 | 5.5                        | 0.5%                                           |\n| 2014 | 8                          | 0.5%                                           |\n| 2015 | 24                         | 2.0%                                           |\n| 2016 | 22                         | 2.0%                                           |\n| 2017 | 33                         | 2.5%                                           |\n| 2018 | 0                          | 0.0%                                           |\n| 2019 | 0                          | 0.0%                                           |\n| 2020 | 21                         | 1.0%                                           |\n| 2021 | 19                         | 1.2%                                           |\n| 2022 | 32                         | 2.5%                                           |\n| 2023 | 9                          | 0.8%                                           |\n| 2024 | 11                         | 0.8%                                           |\n| 2025 | 6                          | 0.8%                                           |",
+        "key_insight": "Hyperscaler bond issuance peaked at $33bn in 2017 and $32bn in 2022, then declined to $9bn in 2023 and is projected at $6bn by 2025."
+      }
+    },
+    {
+      "name": "DataCenterCredit Exhibit 34 Chart",
+      "type": "Chart",
+      "brief": "Tech share of S&P500 vs US IG Index",
+      "description": "Time series of Info Tech % of S&P500 and Tech % of US IG Index from 2000 to 2025",
+      "properties": {
+        "chart_id": "Exhibit 34",
+        "chart_type": "Time Series"
+      }
+    },
+    {
+      "name": "DataCenterCredit Exhibit 36 Chart",
+      "type": "Chart",
+      "brief": "MSFT operating and finance lease liabilities",
+      "description": "Quarterly MSFT lease liabilities from Dec-22 to Mar-25 showing operating and finance leases",
+      "properties": {
+        "chart_id": "Exhibit 36",
+        "chart_type": "Stacked Bar"
+      }
+    },
+    {
+      "name": "DataCenterCredit Exhibit 37 Chart",
+      "type": "Chart",
+      "brief": "MSFT additional leases not yet commenced",
+      "description": "Disclosed additional finance and operating leases not yet commenced for MSFT from Dec-22 to Mar-25",
+      "properties": {
+        "chart_id": "Exhibit 37",
+        "chart_type": "Stacked Bar"
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT",
+      "type": "Company",
+      "brief": "Microsoft Corporation",
+      "description": "Leading technology company with significant data center lease commitments",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Information Technology"
+      }
+    },
+    {
+      "name": "DataCenterCredit ORCL",
+      "type": "Company",
+      "brief": "Oracle Corporation",
+      "description": "Enterprise software and cloud services company using data center leases",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "Information Technology"
+      }
+    },
+    {
+      "name": "DataCenterCredit Info. Tech. Index % of S&P500",
+      "type": "Metric",
+      "brief": "Info Tech share of S&P500 market cap",
+      "description": "Info Tech sector represented 32.0% of S&P500 market capitalization as of Jul-25",
+      "properties": {
+        "unit": "%",
+        "as_of": "Jul-25",
+        "value": 32.0
+      }
+    },
+    {
+      "name": "DataCenterCredit Tech Index % of US IG Index",
+      "type": "Metric",
+      "brief": "Tech debt share in US investment grade index",
+      "description": "Tech Index comprised 9.6% of US IG index market value as of Jul-25",
+      "properties": {
+        "unit": "%",
+        "as_of": "Jul-25",
+        "value": 9.6
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT total lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT total lease liabilities",
+      "description": "Total of MSFT operating and finance leases more than doubled to $63bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 63.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT finance lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT finance lease liabilities",
+      "description": "MSFT finance lease liabilities grew to $40bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 40.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT operating lease liabilities",
+      "type": "Metric",
+      "brief": "MSFT operating lease liabilities",
+      "description": "MSFT operating lease liabilities increased to $23bn by Mar-25",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Mar-25",
+        "value": 23.0
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT total leases not yet commenced",
+      "type": "Metric",
+      "brief": "MSFT total not-yet commenced lease liabilities peak",
+      "description": "Total MSFT leases not yet commenced peaked at $117bn in Jun-24",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jun-24",
+        "value": 117.0,
+        "peak_date": "Jun-24"
+      }
+    },
+    {
+      "name": "DataCenterCredit MSFT additional finance leases not yet commenced",
+      "type": "Metric",
+      "brief": "MSFT additional finance leases not commenced peak",
+      "description": "MSFT additional finance leases not yet commenced peaked at $109bn in Jun-24",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jun-24",
+        "value": 109.0,
+        "peak_date": "Jun-24"
+      }
+    },
+    {
+      "name": "DataCenterCredit ORCL additional lease commitments not yet commenced",
+      "type": "Metric",
+      "brief": "ORCL additional not-yet commenced lease commitments",
+      "description": "ORCL has $43bn of additional lease commitments that have not yet commenced",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": null,
+        "value": 43.0
+      }
+    },
+    {
+      "name": "DataCenterFinancing Table T4 \u2013 Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "type": "Table",
+      "brief": "Projected breakdown of $2.9tr data center capex 2025-2028",
+      "description": "Breakdown of global data center capex (ex. power) into internal cash flows, private credit, corporate debt, ABS & CMBS, and other capital",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category | Sub-Category/Source | Estimated Amount ($bn) |\n|---|---|---|\n| Cash Need | Total Global Capex on Data Centers (ex. Power) | 2,900 |\n| Financing Path | Hyperscaler Capex Funded with Cash Flows | 1,400 |\n| Financing Path | Corporate Debt | 200 |\n| Financing Path | ABS & CMBS | 150 |\n| Financing Path | Private Credit Opportunity | 800 |\n| Financing Path | Other Capital (PE, VC, Sovereign) | 350 |",
+        "key_insight": "Nearly half of the $2.9tr data center capex is funded by hyperscaler cash flows, with the remainder supplemented by private credit, corporate debt, ABS & CMBS, and other capital"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Global Capex CY25-CY28",
+      "type": "Metric",
+      "brief": "Total data center capex excluding power",
+      "description": "Estimated $2.9tr global capex on data centers from 2025 through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Hyperscaler Cash Flows CY25-CY28",
+      "type": "Metric",
+      "brief": "Capex funded by hyperscaler cash flows",
+      "description": "Estimated $1.4tr of data center capex funded internally from 2025 to 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Private Credit Opportunity CY25-CY28",
+      "type": "Metric",
+      "brief": "Capex financed via private credit",
+      "description": "Estimated $800bn of data center capex financed through private credit from 2025 to 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 IG Tech Index Debt and Yield Trend",
+      "type": "Table",
+      "brief": "Tracks IG Tech Index debt outstanding and yields from 2005 to 2025",
+      "description": "Dual-axis line chart showing IG Tech Index debt rising to $730bn by Jul-25 and yield volatility peaking at 7.3% in Oct-08",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | IG Tech Index Amt Outstanding ($bn) | IG Tech Index Yield to Worst (%) |\n|---|---|---|\n| Jul-05 | 20 | 4.5 |\n| Jul-06 | 40 | 4.5 |\n| Jul-07 | 60 | 5.0 |\n| Jan-08 | 70 | 5.5 |\n| Oct-08 | 90 | 7.3 |\n| Jul-09 | 100 | 3.0 |\n| Jul-10 | 120 | 3.5 |\n| Jul-11 | 140 | 2.5 |\n| Jul-12 | 160 | 2.0 |\n| Jul-13 | 180 | 2.5 |\n| Jul-14 | 200 | 3.0 |\n| Jan-15 | 210 | 2.5 |\n| Jul-15 | 220 | 3.0 |\n| Jan-16 | 230 | 2.5 |\n| Jul-16 | 250 | 2.5 |\n| Jan-17 | 270 | 2.8 |\n| Jul-17 | 300 | 3.0 |\n| Jan-18 | 320 | 3.5 |\n| Jul-18 | 350 | 3.5 |\n| Jan-19 | 380 | 3.0 |\n| Jul-19 | 400 | 2.8 |\n| Jan-20 | 440 | 1.8 |\n| Mar-20 | 450 | 4.0 |\n| Jul-20 | 480 | 1.8 |\n| Jul-21 | 550 | 2.0 |\n| Jan-22 | 600 | 4.0 |\n| Jul-22 | 650 | 5.0 |\n| Oct-22 | 680 | 5.5 |\n| Jul-23 | 700 | 5.0 |\n| Jul-24 | 720 | 4.8 |\n| Jul-25 | 730 | 5.0 |",
+        "key_insight": "IG Tech Index debt outstanding rose steadily to $730bn by Jul-25 while yields peaked at 7.3% in Oct-08 and stabilized around 5% by 2025"
+      }
+    },
+    {
+      "name": "IG Tech Index Amount Outstanding",
+      "type": "Metric",
+      "brief": "Outstanding debt of the IG Tech Index",
+      "description": "Amount of debt outstanding in the IG Tech Index as of Jul-25",
+      "properties": {
+        "value": 730,
+        "unit": "USD bn",
+        "as_of": "Jul-25"
+      }
+    },
+    {
+      "name": "IG Tech Index Yield to Worst Peak",
+      "type": "Metric",
+      "brief": "Peak yield to worst of the IG Tech Index",
+      "description": "Maximum yield to worst recorded for IG Tech Index during the 2008 financial crisis",
+      "properties": {
+        "value": 7.3,
+        "unit": "%",
+        "as_of": "Oct-08"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 IG Tech Index Yield Comparison",
+      "type": "Table",
+      "brief": "Comparison of YTW for IG Tech BBB vs. broader IG Tech Index vs. 10-year average",
+      "description": "Line chart showing IG Tech BBB Index yields consistently higher than the IG Tech Index and above the 3.5% 10-year average from 2015 to 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | IG Tech BBB Index YTW (%) | IG Tech Index YTW (%) | IG Tech Index Last 10Y Avg (%) |\n|------|---------------------------|-----------------------|--------------------------------|\n| Jul-15 | 3.6 | 3.0 | 3.5 |\n| Jan-16 | 3.9 | 3.2 | 3.5 |\n| Jul-16 | 3.8 | 2.7 | 3.5 |\n| Jan-17 | 3.6 | 3.0 | 3.5 |\n| Jul-17 | 3.8 | 3.2 | 3.5 |\n| Jan-18 | 4.1 | 3.5 | 3.5 |\n| Jul-18 | 4.3 | 3.7 | 3.5 |\n| Jan-19 | 3.7 | 3.0 | 3.5 |\n| Jul-19 | 3.4 | 2.8 | 3.5 |\n| Jan-20 | 2.8 | 2.2 | 3.5 |\n| Jul-20 | 2.1 | 1.7 | 3.5 |\n| Jan-21 | 2.0 | 1.6 | 3.5 |\n| Jul-21 | 2.2 | 1.8 | 3.5 |\n| Jan-22 | 3.5 | 3.0 | 3.5 |\n| Jul-22 | 5.8 | 5.3 | 3.5 |\n| Jan-23 | 5.6 | 5.1 | 3.5 |\n| Jul-23 | 6.2 | 5.7 | 3.5 |\n| Jan-24 | 5.2 | 4.7 | 3.5 |\n| Jul-24 | 5.4 | 4.9 | 3.5 |\n| Jan-25 | 5.0 | 4.5 | 3.5 |",
+        "key_insight": "IG Tech BBB Index yields consistently exceed broader IG Tech Index yields by about 0.5% and remain above the 3.5% 10-year average"
+      }
+    },
+    {
+      "name": "IG Tech Yield Spread",
+      "type": "Metric",
+      "brief": "Yield spread between IG Tech BBB Index and broader IG Tech Index",
+      "description": "Difference in yield to worst between IG Tech BBB Index and the IG Tech Index as of Jan-25",
+      "properties": {
+        "value": 0.5,
+        "unit": "%",
+        "as_of": "Jan-25"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 GPU & Custom Silicon Cost per MW 2024",
+      "type": "Metric",
+      "brief": "Cost per MW for GPUs & custom silicon in 2024",
+      "description": "Average capital cost per MW for GPUs & custom silicon in 2024",
+      "properties": {
+        "value": 19.2,
+        "unit": "USD mm/MW",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 GPU & Custom Silicon Cost per MW 2028",
+      "type": "Metric",
+      "brief": "Projected cost per MW for GPUs & custom silicon in 2028",
+      "description": "Estimated average capital cost per MW for GPUs & custom silicon in 2028",
+      "properties": {
+        "value": 13.7,
+        "unit": "USD mm/MW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Power Bottleneck",
+      "type": "Factor",
+      "brief": "Insufficient power capacity risk for data centers",
+      "description": "Risk that insufficient power capacity in the US will limit data center build",
+      "properties": {
+        "driver": "power capacity"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 US GenAI Workload Share Forecast",
+      "type": "Event",
+      "brief": "Forecast that 55% of GenAI workloads will be in the US",
+      "description": "Estimation that 55% of GenAI workloads will be situated in the US",
+      "properties": {
+        "date": null,
+        "event_type": "forecast",
+        "impact_value": 55,
+        "unit": "%",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Table T33 \u2013 Credit Markets US Corporate IG Index Top 25 Members",
+      "type": "Table",
+      "brief": "Top 25 non-financial IG index constituents by par debt",
+      "description": "Lists top US IG index constituents sorted by par value index debt outstanding",
+      "properties": {
+        "table_id": "T33",
+        "table_content": "US Corporate IG Index (LUAC) - Top 25 Members\n                                                                         Par Index                                                                                       Par Index \n Ticker                   GICS Sector                                                            Ticker                  GICS Sector\n                                                                         Debt ($bn)                                                                                      Debt ($bn)\n JPM                     Financials                                                  177.7   DUK                           Utilities                                                     66.8\n BAC                     Financials                                                  175.1   TMUS                          Communication Services                                       62.0\n MS                      Financials                                                  144.8   AVGO                          Information Technology                                       56.9\n C                       Financials                                                  118.7   ABBV                          Health Care                                                   56.4\n WFC                     Financials                                                  117.9   CHTR                          Communication Services                                       52.8\n GS                      Financials                                                  114.8   AMGN                          Health Care                                                   52.2\n T                       Communication Services                                       86.8   GM                            Consumer Discretionary                                        50.7\n HSBC                    Financials                                                    84.0   AMZN                         Consumer Discretionary                                        50.3\n CMCSA                   Communication Services                                        80.8   CVS                          Health Care                                                   50.1\n ORCL                    Information Technology                                       80.0   NEE                           Utilities                                                     49.9\n VZ                      Communication Services                                       78.7   PFE                           Health Care                                                   49.6\n AAPL                    Information Technology                                        75.5   F                             Consumer Discretionary                                        46.3\n UNH                     Health Care                                                   73.4",
+        "key_insight": "Illustrative issuance capacity of ~$150bn across three technology credits when focusing on index debt relative to top non-financial IG constituents"
+      }
+    },
+    {
+      "name": "Credit Markets Illustrative Issuance Capacity",
+      "type": "Metric",
+      "brief": "Illustrative issuance capacity across three technology credits",
+      "description": "Approximate issuance capacity when focusing on index debt relative to top non-financial IG constituents",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets IG Technology Index Additional Net Supply Capacity",
+      "type": "Metric",
+      "brief": "Capacity for additional net supply through YE28",
+      "description": "IG Technology Index could support an additional $200bn of net supply through YE28",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Credit Markets \u2013 Fixed Rate Inflows and Outflows",
+      "type": "Table",
+      "brief": "Quarterly inflows, outflows, and net flows for fixed rate products from 3Q16 to 3Q24",
+      "description": "Highlights significant inflow surge and net flow dynamics, including a drop in 1Q22 and peak in 3Q23",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Quarter | Inflows ($bn) | Outflows ($bn) | Net Flows ($bn) |\n|---------|---------------|----------------|-----------------|\n| 3Q16    | 9             | 5              | 4               |\n| 1Q17    | 9             | 6              | 3               |\n| 3Q17    | 8             | 7              | 1               |\n| 1Q18    | 10            | 7              | 3               |\n| 3Q18    | 13            | 8              | 5               |\n| 1Q19    | 15            | 9              | 6               |\n| 3Q19    | 10            | 8              | 2               |\n| 1Q20    | 12            | 8              | 4               |\n| 3Q20    | 14            | 8              | 6               |\n| 1Q21    | 13            | 10             | 3               |\n| 3Q21    | 15            | 11             | 4               |\n| 1Q22    | 11            | 15             | -4              |\n| 3Q22    | 28            | 15             | 13              |\n| 1Q23    | 35            | 18             | 17              |\n| 3Q23    | 58            | 28             | 30              |\n| 1Q24    | 33            | 27             | 6               |\n| 3Q24    | 32            | 17             | 15              |",
+        "key_insight": "Following a negative net flow of -$4bn in 1Q22, net flows surged to a peak of $30bn in 3Q23."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Credit Markets \u2013 ABF now accounts for ~3% of insurance investments",
+      "type": "Table",
+      "brief": "Allocation of insurers' investments across asset classes",
+      "description": "Highlights ABF's current 3% share, suggesting significant room for growth",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Investment Category         | Percentage of Total Investments |\n|-----------------------------|---------------------------------|\n| Commercial Real Estate Lending | 13%                             |\n| Private Placements          | 11%                             |\n| Residential Mortgages       | 4%                              |\n| Asset-based finance         | 3%                              |\n| Mid-Market Lending          | 2%                              |\n| Infrastructure Fund Finance | 1%                              |\n| Other                       | 0%                              |",
+        "key_insight": "Asset-based finance currently represents 3% of insurers' total investments, indicating significant room for growth."
+      }
+    },
+    {
+      "name": "Credit Markets \u2013 Demand for Asset-Based Finance from insurers",
+      "type": "Factor",
+      "brief": "Need for high-quality spread products from insurers' capital inflows",
+      "description": "Growing inflows into fixed annuity products create demand for spread-generating ABF investments",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Credit Markets \u2013 Growth potential for Asset-Based Finance",
+      "type": "Factor",
+      "brief": "Room for growth as ABF share is low",
+      "description": "Reflects significant room for growth as ABF accounts for only 3% of insurers' total investments",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Financing: Five financing paths for global data center spend",
+      "type": "Table",
+      "brief": "Distribution of $2.9tr global data center capex across five funding sources",
+      "description": "Breakdown of $2.9 trillion global data center capex (2025-2028) by financing source, highlighting a $1.5tr external funding gap led by private credit",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Capital Source Category | Amount | Description/Details |\n|-------------------------|--------|---------------------|\n| Hyperscaler Cash Flows  | $1.4tr | Covered by Hyperscaler Cash Flows |\n| Corporate Debt Issuance | $200bn | Corporate Debt Issuance |\n| Securitized Credit      | $150bn | Securitized Credit Issuance (ABS, CMBS) |\n| Private Credit          | $800bn | Opportunity for Private Credit via Asset-based Finance & Debt Funding of JVs |\n| Other Capital           | $350bn | Primarily PE, VC, Sovereign |",
+        "key_insight": "External financing sources collectively fill a $1.5 trillion gap, with private credit leading at $800bn."
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Global Capex",
+      "type": "Metric",
+      "brief": "Projected $2.9tr global data center investment (2025-2028)",
+      "description": "Estimated $2.9 trillion of capital expenditure on data centers from 2025 to 2028 to meet medium-term infrastructure needs",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "2025-2028"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Financing Asset-Based Financing Market Size Comparison",
+      "type": "Table",
+      "brief": "Comparison of ABF TAM, direct lending AUM, and deployed ABF capital",
+      "description": "Shows ABF market (~$20+T) versus current direct lending AUM and deployed ABF capital",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                                   | Value          |\n|--------------------------------------------|----------------|\n| Estimated Total Addressable Market for ABF | ~$20+ trillion |\n| Current Direct Lending Fund AUM            | ~$2.2 trillion |\n| Current Deployed Capital for ABF           | ~$0.6 trillion |",
+        "key_insight": "ABF market (~$20+ trillion) far exceeds direct lending AUM (~$2.2 trillion) and deployed ABF capital (~$0.6 trillion)"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "type": "Table",
+      "brief": "Growth of private debt fund AUM and deployment rates",
+      "description": "Tracks AUM growth from $300B in 2008 to $1.82T in 2024 and deployment rates between 56%\u201370%",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Total AUM ($B) | % Deployed (rs) |\n|------|----------------|-----------------|\n| 2008 | $300           | 65%             |\n| 2009 | $350           | 68%             |\n| 2010 | $400           | 70%             |\n| 2011 | $420           | 69%             |\n| 2012 | $480           | 67%             |\n| 2013 | $540           | 63%             |\n| 2014 | $570           | 62%             |\n| 2015 | $630           | 59%             |\n| 2016 | $730           | 58%             |\n| 2017 | $870           | 56%             |\n| 2018 | $1,000         | 59%             |\n| 2019 | $1,130         | 61%             |\n| 2020 | $1,350         | 60%             |\n| 2021 | $1,570         | 64%             |\n| 2022 | $1,680         | 67%             |\n| 2023 | $1,750         | 68%             |\n| 2024*| $1,820         | 70%             |",
+        "key_insight": "Total AUM grew from $300B in 2008 to $1.82T by 2024, with deployment rates cycling between 56% and 70%"
+      }
+    },
+    {
+      "name": "Data Center Financing ABF Total Addressable Market",
+      "type": "Metric",
+      "brief": "Estimated size of ABF market",
+      "description": "The estimated total addressable market for asset-based financing",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 20,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Direct Lending Fund AUM",
+      "type": "Metric",
+      "brief": "Current direct lending fund assets under management",
+      "description": "Total AUM of direct lending funds in private credit",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 2.2,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Deployed ABF Capital",
+      "type": "Metric",
+      "brief": "Current deployed capital for ABF",
+      "description": "Amount of capital currently deployed in asset-based financing",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 0.6,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Financing Global Private Debt Fund AUM",
+      "type": "Metric",
+      "brief": "Global private debt fund AUM as of 2024",
+      "description": "Assets under management in global private debt funds by 2024",
+      "properties": {
+        "unit": "USD trillion",
+        "value": 1.82,
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "Data Center Financing Global Private Debt Fund Deployment Rate",
+      "type": "Metric",
+      "brief": "Deployment rate of private debt fund capital",
+      "description": "Percentage of private debt fund AUM deployed by 2024",
+      "properties": {
+        "unit": "%",
+        "value": 70,
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Private Credit AUM Growth",
+      "type": "Factor",
+      "brief": "Case for further expansion in private credit AUM",
+      "description": "Increasing appetite for stable, uncorrelated returns driving expansion potential",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Asset-Based Finance",
+      "type": "Factor",
+      "brief": "Financing secured by loans and contractual cash flows",
+      "description": "Broad term for loans secured by pools of assets generating predictable cash flows",
+      "properties": {
+        "driver": "leases and contractual cash flows"
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Equinix-GIC/CPP JV",
+      "type": "Event",
+      "brief": "Joint venture between Equinix, GIC, and CPP",
+      "description": "Over $15bn JV between Equinix (EQIX) and GIC/CPP to finance data centers",
+      "properties": {
+        "date": null,
+        "event_type": "JV formation",
+        "affected_tickers": [
+          "EQIX"
+        ],
+        "impact_value": 15,
+        "unit": "USD bn",
+        "region": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Financing Gap",
+      "type": "Metric",
+      "brief": "Gap in data center financing needs",
+      "description": "Estimated $1.15tr gap after excluding hyperscaler cash flows and securitized credit",
+      "properties": {
+        "value": 1150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 Other Capital Sources",
+      "type": "Metric",
+      "brief": "Capital from sovereigns, PE, VC, and bank lending",
+      "description": "Other sources totaling $350bn across sovereign, private equity, venture capital, bank lending, and others",
+      "properties": {
+        "value": 350,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 AI/ML VC Share in Q1 2025",
+      "type": "Metric",
+      "brief": "Share of VC investment into AI/ML startups",
+      "description": "Nearly 60% of global VC investment in 1Q 2025 was directed toward AI and machine learning startups",
+      "properties": {
+        "value": 60,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing \u2013 VC Investment in AI/ML Q1 2025",
+      "type": "Metric",
+      "brief": "Total VC investment in AI/ML startups",
+      "description": "$73bn of global VC investment in 1Q 2025 directed toward AI and machine learning startups",
+      "properties": {
+        "value": 73,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Technology Credit \u2013 Cash Flow",
+      "type": "Table",
+      "brief": "Cash flow and use allocation for hyperscalers",
+      "description": "Shows CFO, capex, shareholder returns, and FCF for hyperscalers, highlighting cash flows covering expenditure",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Metric | Total Value ($bn) | Capex ($bn) | Shareholder Returns ($bn) | FCF after Shareholder Returns ($bn) |\n|---|---|---|---|---|---|\n| CY23 | CFO | 350 | - | - | - |\n| CY23 | Cash Use | 350 | 140 | 110 | 100 |\n| CY24 | CFO | 460 | - | - | - |\n| CY24 | Cash Use | 460 | 230 | 100 | 130 |\n| CY25E | CFO | 550 | - | - | - |\n| CY25E | Cash Use | 550 | 320 | 100 | 130 |\n| CY26E | CFO | 650 | - | - | - |\n| CY26E | Cash Use | 650 | 380 | 120 | 150 |\n| CY27E | CFO | 770 | - | - | - |\n| CY27E | Cash Use | 770 | 430 | 130 | 210 |",
+        "key_insight": "CFO rises from $350bn in CY23 to $770bn in CY27E, covering increasing capex and shareholder returns",
+        "table_type": "Cash Flow",
+        "full_rows": 12
+      }
+    },
+    {
+      "name": "Technology Credit \u2013 Cash Flow from Operations",
+      "type": "Metric",
+      "brief": "Projected cash flow from operations at CY27E",
+      "description": "Estimates hyperscalers\u2019 CFO to assess internal financing capacity",
+      "properties": {
+        "unit": "USD bn",
+        "value": 770,
+        "as_of": "CY27E"
+      }
+    },
+    {
+      "name": "Technology Credit \u2013 Capital Expenditures",
+      "type": "Metric",
+      "brief": "Projected capex requirement at CY27E",
+      "description": "Forecast of hyperscalers\u2019 capex used to assess funding needs",
+      "properties": {
+        "unit": "USD bn",
+        "value": 430,
+        "as_of": "CY27E"
+      }
+    },
+    {
+      "name": "Technology Credit \u2013 Free Cash Flow after Shareholder Returns",
+      "type": "Metric",
+      "brief": "Projected free cash flow after shareholder returns at CY27E",
+      "description": "Key indicator of residual cash available for growth and debt",
+      "properties": {
+        "unit": "USD bn",
+        "value": 210,
+        "as_of": "CY27E"
+      }
+    },
+    {
+      "name": "Table T30 \u2013 DataCenterCredit Sizable Debt Cushion Under Tech Bond Ratings",
+      "type": "Table",
+      "brief": "Illustrative issuance capacity for three tech issuers under downgrade thresholds",
+      "description": "Shows >$500bn issuance capacity cushion for GOOGL, MSFT, AMZN against adj. debt/EBITDA downgrade thresholds as of late Q2 2024",
+      "properties": {
+        "table_id": "T30",
+        "table_content": "Issuer                                                        GOOGL                       MSFT                       AMZN\nAgency for analysis                                             S&P                         S&P                         S&P\nRating                                                         AA+                         AAA                         AA\n\nSelect downgrade threshold details (focus more on quantitative rather than qualitative)\n                                                    Sustained lev >1x, as result of acq. or change in financial policy\n                                                    Lev >1x sustained, most likely from sustained heavy capex & large acq.\n                                                    Lev exceeds 1.5x, among other metrics & considerations\n\nReported recent adj. leverage                                   NM                         0.2x                        0.4x\nReported recent adj. debt ($bn)                                (54.8)                      29.2                       58.6\nAgency est. FY25E adj. EBITDA ($bn)                           172.2                       161.2                       155.9\nIllustrative issuance capacity ($bn)                           227.0                       132.0                       175.2\nFY25 end for reference                                       12/31/25                    6/30/25                    12/31/25\nSelect info above as of ...                                  12/31/24                    6/30/24                    12/31/24\nSource: Note dated ...                                        3/6/25                     5/21/25                     5/6/25\nSource: Company filings, S&P, Morgan Stanley Research.",
+        "key_insight": "More than $500bn of issuance capacity exists across GOOGL, MSFT, and AMZN under current adj. debt/EBITDA downgrade thresholds"
+      }
+    },
+    {
+      "name": "DataCenterCredit \u2013 Reliance on unsecured corporate debt",
+      "type": "Factor",
+      "brief": "Unsecured corporate debt reliance expected to grow in phases",
+      "description": "Morgan Stanley expects large-cap technology companies to increase reliance on unsecured corporate debt gradually through 2028",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Gross New Issuance of Data Center Securitized Credit",
+      "type": "Table",
+      "brief": "Annual issuance trends of data center securitized credit",
+      "description": "Shows CMBS and ABS issuance for data center securitized credit from 2018 to 2025 YTD, highlighting surge and recovery",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | CMBS Issuance ($mm) | ABS Issuance ($mm) | Total Issuance ($mm) |\n|------|---------------------|--------------------|----------------------|\n| 2018 | $200                | $1,500             | $1,700               |\n| 2019 | $250                | $1,483             | $1,733               |\n| 2020 | $100                | $3,119             | $3,219               |\n| 2021 | $3,500              | $6,855             | $10,355              |\n| 2022 | $900                | $961               | $1,861               |\n| 2023 | $2,900              | $6,655             | $9,555               |\n| 2024 | $3,200              | $8,499             | $11,699              |\n| 2025 YTD | $5,200            | $6,950             | $12,150              |",
+        "key_insight": "Total issuance has generally trended upward with a surge to $10,355mm in 2021 and recovery to $12,150mm in 2025 YTD"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit Market",
+      "type": "Factor",
+      "brief": "Forecast financing supply for data center ABS and CMBS",
+      "description": "Estimated to provide around $150bn of ABS and CMBS financing to US data centers from 2025 to 2028",
+      "properties": {
+        "magnitude_usd_bn": 150
+      }
+    },
+    {
+      "name": "Data Center Total Issuance",
+      "type": "Metric",
+      "brief": "Total annual securitized credit issuance in 2025 YTD",
+      "description": "Total gross new issuance reached $12,150mm as of June 30, 2025",
+      "properties": {
+        "value": 12150,
+        "unit": "USD mm",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center Cumulative Securitized Debt Raised",
+      "type": "Metric",
+      "brief": "Total securitized debt raised since 2018",
+      "description": "Over $50bn of data center-backed debt raised through USD securitized credit since 2018",
+      "properties": {
+        "value": 50,
+        "unit": "USD bn",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center GSMS 2025-800D",
+      "type": "Instrument",
+      "brief": "CMBS issue backed by under-construction data center",
+      "description": "First securitized credit data center deal featuring a highly transitional data center",
+      "properties": {
+        "ticker": "GSMS 2025-800D"
+      }
+    },
+    {
+      "name": "Data Center Financing - Public Credit Market",
+      "type": "Factor",
+      "brief": "Cheapest source of financing",
+      "description": "Public credit market remains the cheapest source of financing",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Private Credit",
+      "type": "Factor",
+      "brief": "Alternative external capital",
+      "description": "Private credit reliance increases under weak macro conditions",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Weak Macro Conditions",
+      "type": "Factor",
+      "brief": "Weaker macro conditions",
+      "description": "Weak macro conditions could increase reliance on external capital",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - Slower Revenue Growth",
+      "type": "Factor",
+      "brief": "Slower revenue growth",
+      "description": "Slower revenue growth could drive demand for external financing",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - 1990s Capex Cycle",
+      "type": "Event",
+      "brief": "Mid-to-late 1990s capex cycle",
+      "description": "Significant capex and credit growth in the late 1990s capex cycle",
+      "properties": {
+        "date": null,
+        "event_type": "capex_cycle"
+      }
+    },
+    {
+      "name": "Data Center Financing - 2000-04 Default Cycle",
+      "type": "Event",
+      "brief": "Sharp default cycle from 2000 to 2004",
+      "description": "The default cycle peaked following late-1990s debt growth",
+      "properties": {
+        "date": null,
+        "event_type": "default_cycle"
+      }
+    },
+    {
+      "name": "Data Center Financing - All Corporates Default Rate",
+      "type": "Metric",
+      "brief": "Default rate for all corporates",
+      "description": "Percentage of defaults among all corporates with peak in 2009",
+      "properties": {
+        "unit": "%",
+        "max": 4.9,
+        "peak_date": "2009",
+        "as_of": "2022"
+      }
+    },
+    {
+      "name": "Data Center Financing - Speculative-grade Default Rate",
+      "type": "Metric",
+      "brief": "Default rate for speculative-grade issuers",
+      "description": "Percentage of defaults among speculative-grade issuers with peak in 2009",
+      "properties": {
+        "unit": "%",
+        "max": 12.0,
+        "peak_date": "2009",
+        "as_of": "2022"
+      }
+    },
+    {
+      "name": "Data Center Financing - IG Gross Issuance",
+      "type": "Metric",
+      "brief": "Annual gross issuance of IG debt",
+      "description": "Investment-grade gross issuance peaked at $660bn in 2001",
+      "properties": {
+        "unit": "USD bn",
+        "max": 660,
+        "peak_date": "2001",
+        "as_of": "2004"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Aligned (ADC)",
+      "type": "Company",
+      "brief": "Developer issuing data center ABS",
+      "description": "Issued ABS totalling $2.6bn between 2021 and 2023",
+      "properties": {
+        "ticker": "ADC",
+        "issued_amount_USDbn": 2.6
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Equinix (EQIX)",
+      "type": "Company",
+      "brief": "Large US data center developer",
+      "description": "Has issued BBB-rated bonds instead of securitized debt",
+      "properties": {
+        "ticker": "EQIX",
+        "rating_outlook": "BBB"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Preference Shift to Other Debt Types",
+      "type": "Factor",
+      "brief": "Risk shift from securitized markets to other debt types",
+      "description": "Industry maturation could favor private credit or unsecured corporate credit",
+      "properties": {
+        "driver": "industry maturation"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Data Center Obsolescence Risk",
+      "type": "Factor",
+      "brief": "Risk data center capacity exceeds future demand",
+      "description": "Compute advances and quantum computing may reduce data center demand",
+      "properties": {
+        "driver": "compute technology advancements"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Power Capacity Constraint",
+      "type": "Factor",
+      "brief": "Limited power availability bottlenecks development",
+      "description": "US power capacity constraints may delay data center growth",
+      "properties": {
+        "driver": "power availability"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Tech Exposure Concentration Limits",
+      "type": "Factor",
+      "brief": "Limit on tech allocation caps securitized credit demand",
+      "description": "Fixed-income funds\u2019 tech exposure limits could constrain ABS issuance",
+      "properties": {
+        "driver": "allocation limits"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Aligned ABS Issuance 2021-2023",
+      "type": "Event",
+      "brief": "ABS issuance by Aligned between 2021-2023",
+      "description": "Aligned issued ABS four times totalling $2.6bn with 323MW collateral",
+      "properties": {
+        "date": null,
+        "event_type": "ABS Issuance",
+        "impact_value": 2.6,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Aligned Financing Round January 2025",
+      "type": "Event",
+      "brief": "Equity and debt financing round by Aligned in January 2025",
+      "description": "Aligned completed $12bn financing round with $5bn equity and $7bn debt commitments",
+      "properties": {
+        "date": "2025-01-01",
+        "event_type": "Financing Round",
+        "impact_value": 12,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Table T46 \u2013 Data Center Credit Annual Coupons 2018\u20132025",
+      "type": "Table",
+      "brief": "Annual coupons for US debt types over time",
+      "description": "Historic and projected financing costs for data center ABS and corporate bonds",
+      "properties": {
+        "table_id": "T46",
+        "table_content": "| Year | US DC ABS | US HY Corp 4-7y | US IG Corp 4-7y, A/BBB | US DC CMBS Fixed Rate |\n|------|-----------|-----------------|------------------------|-----------------------|\n| 2018 | 4.5%      | 7.5%            | 4.1%                   | 4.4%                  |\n| 2019 | 3.8%      | 7.2%            | 3.8%                   | 3.8%                  |\n| 2020 | 2.6%      | 6.8%            | 3.2%                   | 3.2%                  |\n| 2021 | 3.3%      | 5.9%            | 2.0%                   | 3.4%                  |\n| 2022 | 5.3%      | 7.4%            | 4.4%                   | 3.5%                  |\n| 2023 | 5.5%      | 8.6%            | 5.5%                   | 6.5%                  |\n| 2024 | 5.5%      | 8.1%            | 5.1%                   | 5.9%                  |\n| 2025 | 5.4%      | 8.0%            | 5.2%                   | 6.4%                  |",
+        "key_insight": "From 2021 to 2023, coupons for all US debt types rose significantly, with HY bonds highest, DC ABS and IG coupons converging after 2022 and DC CMBS peaking in 2023"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 US High Yield Corporate Bond Coupon Rate",
+      "type": "Metric",
+      "brief": "High Yield bonds (4-7y) coupon rate",
+      "description": "Annual coupon rate for US HY corporate bonds with 4-7 year maturity in data center financing context",
+      "properties": {
+        "unit": "%",
+        "value": 8.6,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 US DC ABS Coupon Rate",
+      "type": "Metric",
+      "brief": "ABS coupon rate for data center securitized debt",
+      "description": "Annual coupon rate for US Data Center ABS in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 US DC CMBS Fixed Rate Coupon Rate",
+      "type": "Metric",
+      "brief": "CMBS fixed-rate coupon rate for data center securitized debt",
+      "description": "Annual coupon rate for US DC Commercial Mortgage-Backed Securities Fixed Rate in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 6.5,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 CoreWeave",
+      "type": "Company",
+      "brief": "Neocloud data center services company",
+      "description": "Issuer of a $2bn 5NC2 bond at par to yield 9.25% in late May 2025",
+      "properties": {
+        "ticker": "CRWV",
+        "sector": "Neocloud Data Center Services"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 CoreWeave 5NC2 Bond Issuance",
+      "type": "Event",
+      "brief": "CoreWeave $2bn 5NC2 bond issuance",
+      "description": "CoreWeave priced a $2bn 5NC2 bond at par to yield 9.25% in late May 2025",
+      "properties": {
+        "date": null,
+        "event_type": "bond_issuance",
+        "impact_value": 2.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Cisco",
+      "type": "Company",
+      "brief": "Networking equipment company",
+      "description": "Issued a $13.5bn seven-part bond to partially finance the Splunk acquisition",
+      "properties": {
+        "ticker": "CSCO",
+        "sector": "Networking Equipment"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Cisco $13.5bn Bond Issuance",
+      "type": "Event",
+      "brief": "Cisco $13.5bn seven-part bond issuance",
+      "description": "Cisco did a $13.5bn seven-part bond deal in February 2024",
+      "properties": {
+        "date": "2024-02",
+        "event_type": "bond_issuance",
+        "impact_value": 13.5,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Hewlett Packard Enterprise",
+      "type": "Company",
+      "brief": "Technology company",
+      "description": "Issued a $9bn six-part bond to help fund the Juniper acquisition",
+      "properties": {
+        "ticker": "HPE",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 HPE $9bn Bond Issuance",
+      "type": "Event",
+      "brief": "HPE $9bn six-part bond issuance",
+      "description": "HPE did a $9bn six-part bond deal in September 2024",
+      "properties": {
+        "date": "2024-09",
+        "event_type": "bond_issuance",
+        "impact_value": 9.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Synopsys",
+      "type": "Company",
+      "brief": "EDA software company",
+      "description": "Issued a $10bn six-part bond to fund part of the Ansys deal",
+      "properties": {
+        "ticker": "SNPS",
+        "sector": "EDA Software"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Synopsys $10bn Bond Issuance",
+      "type": "Event",
+      "brief": "Synopsys $10bn six-part bond issuance",
+      "description": "Synopsys did a $10bn six-part bond deal in March 2025",
+      "properties": {
+        "date": "2025-03",
+        "event_type": "bond_issuance",
+        "impact_value": 10.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 KKR",
+      "type": "Company",
+      "brief": "Private equity firm",
+      "description": "Sponsor in the $15bn take-private of CyrusOne",
+      "properties": {
+        "ticker": "KKR",
+        "sector": "Private Equity"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 KKR Take-private of CyrusOne",
+      "type": "Event",
+      "brief": "KKR $15bn take-private of CyrusOne",
+      "description": "KKR and GIP took CyrusOne private in a $15bn deal",
+      "properties": {
+        "date": null,
+        "event_type": "take_private",
+        "impact_value": 15.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Equinix",
+      "type": "Company",
+      "brief": "IG-rated data center operator",
+      "description": "Holds $8.9bn of index debt and a JV with GIC and CPP",
+      "properties": {
+        "ticker": "EQIX",
+        "sector": "Data Center REIT"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 EQIX Series C Mandatory Convertible Preferred Issuance",
+      "type": "Event",
+      "brief": "EQIX $1.35bn Series C convertible preferred issuance",
+      "description": "EQIX priced $1.35bn of Series C mandatory convertible preferred stock in September 2024",
+      "properties": {
+        "date": "2024-09",
+        "event_type": "preferred_issuance",
+        "impact_value": 1.35,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Microsoft",
+      "type": "Company",
+      "brief": "Hyperscaler",
+      "description": "Has $42.6bn of index debt outstanding",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Hyperscaler"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Super Micro Computer",
+      "type": "Company",
+      "brief": "AI server manufacturer",
+      "description": "Issued a zero-coupon convertible due 2030",
+      "properties": {
+        "ticker": "SMCI",
+        "sector": "Server Manufacturer"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 SMCI 2030 Convertible Issuance",
+      "type": "Event",
+      "brief": "SMCI zero-coupon convertible issuance",
+      "description": "Super Micro Computer was in the market with a new zero-coupon convertible due in 2030",
+      "properties": {
+        "date": null,
+        "event_type": "convertible_issuance",
+        "impact_value": null,
+        "unit": null
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Alphabet",
+      "type": "Company",
+      "brief": "Technology company",
+      "description": "Issued multi-currency bonds in April 2025",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Alphabet USD Bond Issuance",
+      "type": "Event",
+      "brief": "Alphabet $5bn four-part bond issuance",
+      "description": "Alphabet did a US$5bn four-part bond deal in April 2025",
+      "properties": {
+        "date": "2025-04",
+        "event_type": "bond_issuance",
+        "impact_value": 5.0,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "DataCenterCreditMarkets \u2013 Alphabet EUR Bond Issuance",
+      "type": "Event",
+      "brief": "Alphabet \u20ac6.75bn five-part bond issuance",
+      "description": "Alphabet did a \u20ac6.75bn five-part bond deal in April 2025",
+      "properties": {
+        "date": "2025-04",
+        "event_type": "bond_issuance",
+        "impact_value": 6.75,
+        "unit": "EUR bn"
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 GPU ABS securitization",
+      "type": "Instrument",
+      "brief": "GPU lease-backed ABS instrument",
+      "description": "Amortizing ABS structure backed by GPU hardware leases",
+      "properties": {
+        "position": "amortizing",
+        "min_maturity_years": 4,
+        "max_maturity_years": 8
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 data center ABS securitization",
+      "type": "Instrument",
+      "brief": "Data center lease-backed ABS instrument",
+      "description": "Non-amortizing ABS issuance backed by long-lived data center assets",
+      "properties": {
+        "position": "non-amortizing",
+        "min_maturity_years": 20
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 chip useful shelf life",
+      "type": "Metric",
+      "brief": "Useful lifespan of GPU chips",
+      "description": "Determines amortization period for GPU ABS structures",
+      "properties": {
+        "unit": "years",
+        "min": 4,
+        "max": 8,
+        "as_of": "present"
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 data center useful life",
+      "type": "Metric",
+      "brief": "Typical lifespan of data center assets",
+      "description": "Informs maturity profile of data center ABS issuances",
+      "properties": {
+        "unit": "years",
+        "min": 20,
+        "as_of": "present"
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 average ABS market financing cost",
+      "type": "Metric",
+      "brief": "Average ABS issuer cost of capital",
+      "description": "Average financing cost for ABS issuers since 2022",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center ABS \u2013 USD IG debt coupon rate",
+      "type": "Metric",
+      "brief": "4-7 year USD IG debt coupon range",
+      "description": "Benchmark coupon rates for investment-grade corporate debt",
+      "properties": {
+        "unit": "%",
+        "min": 4,
+        "max": 7,
+        "as_of": "4-7y"
+      }
+    },
+    {
+      "name": "Table T25 \u2013 DataCenter Annual US Spend by Workload Type",
+      "type": "Table",
+      "brief": "Annual US spend segmented by GenAI and non-AI workloads",
+      "description": "Stacked bar chart shows annual US spend on data center infrastructure rising from 2025 to 2028, driven by GenAI.",
+      "properties": {
+        "table_id": "T25",
+        "table_content": "| Year | Total GenAI Workload Spend ($mm) | Total Non-AI Workload Spend ($mm) | Total Annual US Spend ($mm) |\n|------|----------------------------------|-----------------------------------|-----------------------------|\n| 2025e | $234,819 | $51,242 | $286,062 |\n| 2026e | $323,852 | $57,175 | $381,027 |\n| 2027e | $401,000 | $63,850 | $464,850 |\n| 2028e | $436,675 | $70,679 | $507,354 |",
+        "key_insight": "Annual US spend on data center infrastructure increases consistently from 2025 to 2028, driven predominantly by GenAI workload spend."
+      }
+    },
+    {
+      "name": "Table T26 \u2013 DataCenter Annual US Capital Spend by Asset Type",
+      "type": "Table",
+      "brief": "Projected annual US capital spend segmented by DC infrastructure and hardware",
+      "description": "Stacked bar chart shows annual US data center capex rising from 2025e to 2028e, with chips & servers cost as the larger portion.",
+      "properties": {
+        "table_id": "T26",
+        "table_content": "| Year | Capital Cost of DCs, Excl. Chips + Servers ($mm) | Capital Cost of Chips + Servers ($mm) | Total Annual Spend ($mm) |\n|------|--------------------------------------------------|---------------------------------------|--------------------------|\n| 2025e | $128,185 | $157,877 | $286,062 |\n| 2026e | $169,222 | $211,805 | $381,027 |\n| 2027e | $210,252 | $254,598 | $464,850 |\n| 2028e | $245,968 | $261,386 | $507,354 |",
+        "key_insight": "Annual US data center capex rises from $286 billion in 2025e to $507 billion in 2028e, with chips & servers cost as the larger portion."
+      }
+    },
+    {
+      "name": "DataCenter GenAI Workload Spend",
+      "type": "Metric",
+      "brief": "GenAI workload spend in 2028e",
+      "description": "2028 GenAI workload spend dominates annual US data center infrastructure spend.",
+      "properties": {
+        "value": 436675,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "DataCenter Capital Cost of Chips + Servers",
+      "type": "Metric",
+      "brief": "Chips & servers capital cost in 2028e",
+      "description": "2028 capital cost of chips and servers is the largest portion of annual US data center capex.",
+      "properties": {
+        "value": 261386,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Table T9 \u2013 Data Center Securitized Credit Estimated Annual Issuance",
+      "type": "Table",
+      "brief": "Projected annual ABS and CMBS issuance growth by 2028",
+      "description": "Shows annual securitized credit issuance for data centers rising from $17bn in 2025 to $62bn by 2028",
+      "properties": {
+        "table_id": "T9",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Total annual issuance projected to grow from $17bn in 2025 to $62bn by 2028"
+      }
+    },
+    {
+      "name": "Table T10 \u2013 Data Center Securitized Credit Financing Rates vs IG/HY",
+      "type": "Table",
+      "brief": "Financing rates for securitized credit vs IG and HY corporates",
+      "description": "Line chart data showing rates for US DC ABS, CMBS, IG and HY corporate debt from 2018\u20132025",
+      "properties": {
+        "table_id": "T10",
+        "table_content": "| Year | US DC ABS | US IG Corp 4-7y, A/BBB | US HY Corp 4-7y | US DC CMBS Fixed Rate |\n|------|-----------|------------------------|-----------------|-----------------------|\n| 2018 | 4.50%     | 4.10%                  | 7.50%           | 4.50%                 |\n| 2019 | 3.70%     | 3.80%                  | 7.15%           | 3.80%                 |\n| 2020 | 2.55%     | 3.20%                  | 6.75%           | 3.20%                 |\n| 2021 | 3.30%     | 2.00%                  | 5.90%           | 3.40%                 |\n| 2022 | 5.25%     | 4.20%                  | 7.40%           | 3.55%                 |\n| 2023 | 5.55%     | 5.60%                  | 8.80%           | 6.55%                 |\n| 2024 | 5.65%     | 5.10%                  | 8.20%           | 6.00%                 |\n| 2025 | 5.50%     | 5.15%                  | 8.00%           | 6.45%                 |",
+        "key_insight": "US DC ABS and CMBS rates tracked below HY and converged with IG rates post-2021"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "Metric",
+      "brief": "Total annual securitized credit issuance for data centers by 2028",
+      "description": "Combined ABS and CMBS issuance projected for data centers in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 62,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit US IG Corp 4-7y Financing Rate",
+      "type": "Metric",
+      "brief": "US IG 4-7y rate low at 2.00% in 2021",
+      "description": "Shows trough of IG 4-7y financing rate in 2021",
+      "properties": {
+        "unit": "%",
+        "value": 2.0,
+        "as_of": "2021"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit US HY Corp 4-7y Financing Rate",
+      "type": "Metric",
+      "brief": "US HY 4-7y rate peaked at 8.80% in 2023",
+      "description": "Shows peak of HY 4-7y financing rate in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 8.8,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit ABS/CMBS Penetration",
+      "type": "Factor",
+      "brief": "Share of data center MW capacity backed by ABS or CMBS by 2028",
+      "description": "Projected percentage of data center capacity financed via ABS or CMBS by 2028",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 25
+      }
+    },
+    {
+      "name": "Data Center Financing Gap",
+      "type": "Metric",
+      "brief": "Amount needed to finance data centers",
+      "description": "Financing shortfall requiring bridge to support data center infrastructure",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD tr",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing - Credit Markets",
+      "type": "Factor",
+      "brief": "Credit markets' role in data center financing",
+      "description": "Private, corporate, and securitized credit markets critical to meeting financing needs",
+      "properties": {
+        "driver": "data center financing"
+      }
+    },
+    {
+      "name": "Data Center Financing - ABS/CMBS",
+      "type": "Factor",
+      "brief": "Asset-backed and CMBS securities for data center financing",
+      "description": "Securitized products aiding data center financing growth and returns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Financing - Interest Rates",
+      "type": "Factor",
+      "brief": "Interest rates affecting financing capacity",
+      "description": "Lower rates risk dampening financing capacity in credit markets",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - Economic Growth",
+      "type": "Factor",
+      "brief": "Economic growth affecting financing demand",
+      "description": "Weaker growth could dampen end-investor demand for credit",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Data Center Financing - End-Investor Demand",
+      "type": "Factor",
+      "brief": "Demand from end-investors for credit",
+      "description": "End-investor demand could be dampened by lower rates and weaker growth",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected operating cash flows of hyperscalers 2025-2028",
+      "description": "Total cash generated from operations by hyperscalers over 2025-2028, indicating internal funding capacity",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Capex CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected capital expenditures of hyperscalers 2025-2028",
+      "description": "Total capex spend by hyperscalers over 2025-2028, reflecting data center and AI investments",
+      "properties": {
+        "value": 1600,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Capex Funded by Cash Flows CY25-CY28",
+      "type": "Metric",
+      "brief": "Portion of hyperscaler capex covered by operating cash flows 2025-2028",
+      "description": "Amount of hyperscaler capex funded internally by cash flows, used as proxy in analysis",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Shareholder Returns CY25-CY28",
+      "type": "Metric",
+      "brief": "Cash allocated to shareholder returns by hyperscalers 2025-2028",
+      "description": "Estimated cash outflows for hyperscaler shareholder returns over 2025-2028",
+      "properties": {
+        "value": 550,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Free Cash Flow after Shareholder Returns CY25-CY28",
+      "type": "Metric",
+      "brief": "Residual free cash flow after shareholder returns 2025-2028",
+      "description": "Free cash flow remaining after allocating cash flows to capex and shareholder returns",
+      "properties": {
+        "value": 700,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Combined Capex Guide 2025",
+      "type": "Metric",
+      "brief": "Hyperscalers' combined capex guidance for 2025",
+      "description": "Combined capex guidance from hyperscalers for 2025, reflecting elevated capital intensity",
+      "properties": {
+        "min": 300,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Hyperscaler Financing Gap CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected financing shortfall for hyperscaler capex 2025-2028",
+      "description": "Remaining funding gap after internal cash coverage for AI/data center capex 2025-2028",
+      "properties": {
+        "value": 1500,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Hyperscaler Related Corporate Debt Issuance Estimate CY25-CY28",
+      "type": "Metric",
+      "brief": "Projected related corporate debt issuance over 2025-2028",
+      "description": "Estimate of corporate debt issuance tied to hyperscaler capex funding from 2025-2028",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Net Leverage",
+      "type": "Metric",
+      "brief": "Technology sector net leverage",
+      "description": "Net leverage of 0.8x for the tech sector as of 1Q25 indicates strong credit quality",
+      "properties": {
+        "value": 0.8,
+        "unit": "x",
+        "as_of": "1Q25"
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Illustrative Issuance Capacity (3 issuers)",
+      "type": "Metric",
+      "brief": "Total issuance capacity across three issuers",
+      "description": "Represents >$500bn debt capacity based on downgrade thresholds",
+      "properties": {
+        "value": 500,
+        "unit": "USD bn",
+        "as_of": "current"
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Illustrative Issuance Capacity (single issuer)",
+      "type": "Metric",
+      "brief": "Issuance capacity for one issuer before downgrade threshold",
+      "description": "Represents >$200bn net debt increase before reaching downgrade threshold",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "current"
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Alphabet Inc.",
+      "type": "Company",
+      "brief": "US technology company and Google parent",
+      "description": "Major tech issuer with high credit rating and issuance capacity analysis",
+      "properties": {
+        "ticker": "GOOGL"
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Alphabet AA+ Downgrade Threshold Commentary",
+      "type": "Event",
+      "brief": "S&P commentary on Alphabet's AA+ downgrade threshold",
+      "description": "S&P noted Alphabet must increase net debt by >$200bn before AA+ downgrade",
+      "properties": {
+        "date": "2025-04-28",
+        "event_type": "Downgrade Threshold Commentary",
+        "impact_value": 200,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "Tech Credit \u2013 Alphabet Inc."
+        ],
+        "threshold_leverage_x": 1
+      }
+    },
+    {
+      "name": "Tech Credit \u2013 Credit Spread Premium over IG",
+      "type": "Factor",
+      "brief": "Tech sector OAS premium relative to IG Index",
+      "description": "IG Tech Index consistently trades ~15bp tighter than broader IG Index indicating superior credit quality",
+      "properties": {
+        "direction": "down",
+        "magnitude_bp": 15
+      }
+    },
+    {
+      "name": "Table T29 \u2013 Tech Credit Index OAS IG vs IG Tech",
+      "type": "Table",
+      "brief": "Line chart of OAS spreads for IG and IG Tech Indices over time",
+      "description": "Displays OAS for broad IG and IG Tech Indices from Dec 2019 to mid-2025",
+      "properties": {
+        "table_id": "T29",
+        "table_content": "| Date | IG Index OAS (bps) | IG Tech Index OAS (bps) |\n| :------- | :----------------- | :---------------------- |\n| Dec-19 | 100 | 75 |\n| Jan-20 | 90 | 80 |\n| Mar-20 | 350 | 290 |\n| Apr-20 | 200 | 150 |\n| Jun-20 | 150 | 100 |\n| Sep-20 | 120 | 80 |\n| Dec-20 | 100 | 70 |\n| Mar-21 | 80 | 70 |\n| Jun-21 | 70 | 70 |\n| Sep-21 | 90 | 90 |\n| Dec-21 | 110 | 110 |\n| Mar-22 | 120 | 115 |\n| Jun-22 | 140 | 130 |\n| Sep-22 | 155 | 145 |\n| Dec-22 | 130 | 120 |\n| Mar-23 | 100 | 90 |\n| Jun-23 | 85 | 75 |\n| Sep-23 | 75 | 65 |\n| Dec-23 | 80 | 70 |\n| Mar-24 | 70 | 60 |\n| Jun-24 | 85 | 70 |\n| Sep-24 | 110 | 80 |\n| Dec-24 | 90 | 60 |\n| Latest | 75 | 60 |",
+        "key_insight": "The IG Tech Index maintains a roughly 15bp tighter OAS spread than the broader IG Index, reflecting stronger credit quality."
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Hyperscaler Cash Flow",
+      "type": "Metric",
+      "brief": "Hyperscaler cash flow baseline",
+      "description": "Total hyperscaler cash flow used in financing gap calculation",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Corporate Debt Contribution",
+      "type": "Metric",
+      "brief": "Corporate debt added for financing calculation",
+      "description": "Corporate debt portion added to hyperscaler cash flow before gap computation",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Securitized Debt Contribution",
+      "type": "Metric",
+      "brief": "Securitized debt added for financing calculation",
+      "description": "Securitized debt portion added to hyperscaler cash flow before gap computation",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Capital Gap",
+      "type": "Metric",
+      "brief": "Residual capital needed for data center financing",
+      "description": "Gap after corporate and securitized debt additions to hyperscaler cash flow",
+      "properties": {
+        "value": 1150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit \u2013 Private Credit Financing Potential",
+      "type": "Metric",
+      "brief": "Estimated private credit financing potential",
+      "description": "Estimated growth potential of $800bn in private credit financing via ABF channel",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Private Credit",
+      "type": "Factor",
+      "brief": "Private credit as financing channel",
+      "description": "Private credit's growing role in financing data centers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Asset-Based Finance (ABF)",
+      "type": "Instrument",
+      "brief": "Asset-based finance for data centers",
+      "description": "ABF leading private credit opportunity for data center financing",
+      "properties": {
+        "instrument_type": "asset-based finance"
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Construction/Commercial Mortgage Loan",
+      "type": "Instrument",
+      "brief": "Mortgage loan for data center construction",
+      "description": "Initial financing form via construction or commercial mortgage loan",
+      "properties": {
+        "instrument_type": "construction/commercial mortgage loan",
+        "maturity": "short-term"
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Bank Lending (C&I)",
+      "type": "Instrument",
+      "brief": "Commercial and industrial bank lending capacity",
+      "description": "Bank lending capacity for data center projects is limited",
+      "properties": {
+        "total_outstanding_USDtn": 3
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Corporate Bond and Securitized Credit Financing",
+      "type": "Metric",
+      "brief": "Corporate bond and securitized credit financing",
+      "description": "Size of corporate bond and securitized credit financing for data centers",
+      "properties": {
+        "value": 350,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Financing Gap",
+      "type": "Metric",
+      "brief": "Unmet data center financing need",
+      "description": "Gap between total financing needs and available corporate bond and securitized credit",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD tn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing \u2013 $800bn Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Potential private credit market size",
+      "description": "Estimated $800bn private credit opportunity for data center financing led by ABF",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Hyperscaler Self-Build Share",
+      "type": "Metric",
+      "brief": "Hyperscaler data center self-build percentage",
+      "description": "Share of data center capacity self-built by hyperscalers",
+      "properties": {
+        "min": 20,
+        "max": 45,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Equinix",
+      "type": "Company",
+      "brief": "Public data center REIT Equinix",
+      "description": "Large public data center REIT with investment-grade debt profile",
+      "properties": {
+        "ticker": "EQIX",
+        "market_cap_USDbn": 74,
+        "total_debt_USDbn": 9,
+        "rating": "mid-to-low BBB"
+      }
+    },
+    {
+      "name": "DC Financing \u2013 Oracle",
+      "type": "Company",
+      "brief": "Technology company leasing data centers",
+      "description": "Oracle leases its data centers rather than owning them",
+      "properties": {
+        "ticker": "ORCL",
+        "data_center_strategy": "leases only"
+      }
+    },
+    {
+      "name": "Table T13 \u2013 DataCenterCredit Quarterly Fixed-Rate Inflows and Net Flows",
+      "type": "Table",
+      "brief": "Quarterly fixed-rate inflows, outflows, and net flows from 3Q16 to 3Q24",
+      "description": "Shows surge in fixed-rate inflows beginning 1Q22, peaking in 1Q23 driving net flows.",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Quarter | Inflows ($bn) | Outflows ($bn) | Net flows ($bn) |\n|---------|---------------|----------------|-----------------|\n| 3Q16    | 8             | 2              | 6               |\n| 1Q17    | 10            | 4              | 6               |\n| 3Q17    | 10            | 6              | 4               |\n| 1Q18    | 10            | 4              | 6               |\n| 3Q18    | 10            | 7              | 3               |\n| 1Q19    | 14            | 5              | 9               |\n| 3Q19    | 11            | 5              | 6               |\n| 1Q20    | 10            | 4              | 6               |\n| 3Q20    | 15            | 4              | 11              |\n| 1Q21    | 14            | 5              | 9               |\n| 3Q21    | 14            | 6              | 8               |\n| 1Q22    | 28            | 10             | 18              |\n| 3Q22    | 35            | 15             | 20              |\n| 1Q23    | 48            | 20             | 28              |\n| 3Q23    | 30            | 20             | 10              |\n| 1Q24    | 30            | 20             | 10              |\n| 3Q24    | 30            | 12             | 18              |",
+        "key_insight": "Inflows peaked at $48bn in 1Q23 after a surge starting in 1Q22, driving net flows up to $28bn."
+      }
+    },
+    {
+      "name": "Table T14 \u2013 DataCenterCredit US Corporate Bond Market Ownership Trends",
+      "type": "Table",
+      "brief": "Ownership distribution of US corporate bonds by investor type from 1990 to 2022",
+      "description": "Highlights the decline in insurance company ownership and rise of non-US investors.",
+      "properties": {
+        "table_id": "T14",
+        "table_content": "| Year | Households/Other | Insurance | Mutual Funds | Pension Funds | Financial Instit. | Others | Non-US Investors |\n|------|------------------|-----------|--------------|---------------|-------------------|--------|------------------|\n| 1990 | 12.0%            | 38.0%     | 6.0%         | 14.0%         | 10.0%             | 5.0%   | 15.0%            |\n| 1992 | 15.0%            | 35.0%     | 6.0%         | 13.0%         | 10.0%             | 4.0%   | 17.0%            |\n| 1994 | 18.0%            | 32.0%     | 6.0%         | 12.0%         | 10.0%             | 4.0%   | 18.0%            |\n| 1996 | 16.0%            | 33.0%     | 6.0%         | 12.0%         | 10.0%             | 4.0%   | 19.0%            |\n| 1998 | 12.0%            | 35.0%     | 7.0%         | 12.0%         | 10.0%             | 4.0%   | 20.0%            |\n| 2000 | 10.0%            | 38.0%     | 8.0%         | 12.0%         | 9.0%              | 4.0%   | 19.0%            |\n| 2002 | 8.0%             | 40.0%     | 9.0%         | 11.0%         | 10.0%             | 4.0%   | 18.0%            |\n| 2004 | 5.0%             | 41.0%     | 9.0%         | 10.0%         | 12.0%             | 4.0%   | 19.0%            |\n| 2006 | 4.0%             | 40.0%     | 10.0%        | 10.0%         | 14.0%             | 4.0%   | 18.0%            |\n| 2008 | 5.0%             | 35.0%     | 11.0%        | 11.0%         | 16.0%             | 3.0%   | 19.0%            |\n| 2010 | 6.0%             | 32.0%     | 12.0%        | 12.0%         | 18.0%             | 3.0%   | 17.0%            |\n| 2012 | 4.0%             | 31.0%     | 14.0%        | 12.0%         | 20.0%             | 3.0%   | 16.0%            |\n| 2014 | 1.0%             | 30.0%     | 15.0%        | 12.0%         | 22.0%             | 3.0%   | 17.0%            |\n| 2016 | 0.5%             | 31.0%     | 17.0%        | 11.0%         | 18.0%             | 4.0%   | 18.5%            |\n| 2018 | 0.5%             | 32.0%     | 18.0%        | 10.0%         | 15.0%             | 4.0%   | 20.5%            |\n| 2020 | 0.5%             | 28.0%     | 18.0%        | 9.0%          | 14.0%             | 5.0%   | 25.5%            |\n| 2022 | 0.5%             | 25.0%     | 18.0%        | 10.0%         | 12.0%             | 6.0%   | 28.5%            |",
+        "key_insight": "Non-US investors increased their US corporate bond ownership from roughly 15% to almost 30% between 1990 and 2022, while insurance companies' share fell from about 40% to 25%."
+      }
+    },
+    {
+      "name": "DataCenterCredit Demand-Supply Imbalance",
+      "type": "Factor",
+      "brief": "Credit demand exceeds supply",
+      "description": "High fixed-rate inflows have outpaced credit issuance creating excess demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenterCredit Non-US Investor Ownership Shift",
+      "type": "Factor",
+      "brief": "Non-US investors dominate US corporate bonds",
+      "description": "Non-US investors' ownership grew to nearly 30% in 2022 while insurance companies declined",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 15
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Financing Estimated Annual DC Infrastructure and Hardware Spend",
+      "type": "Table",
+      "brief": "Annual global DC infrastructure and hardware spend from 2024e\u20132028e",
+      "description": "Breakdown of annual DC spend showing infrastructure and chips/servers costs rising over 2024e\u20132028e.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | DC Infrastructure Cost ($mm) | Chips & Servers Cost ($mm) | Total Global Spend ($mm) |\n|------|------------------------------|----------------------------|--------------------------|\n| 2024e | $129,378                     | $177,671                   | $307,049                 |\n| 2025e | $213,210                     | $280,081                   | $493,291                 |\n| 2026e | $286,763                     | $376,771                   | $663,534                 |\n| 2027e | $359,367                     | $453,337                   | $812,704                 |\n| 2028e | $436,437                     | $483,827                   | $920,264                 |",
+        "key_insight": "Total global spend projected to increase nearly threefold from $307,049mm in 2024e to $920,264mm in 2028e, with chips and servers consistently accounting for the larger share."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Data Center Financing Estimated Annual DC Workload Spend by Type",
+      "type": "Table",
+      "brief": "Annual global DC spend by GenAI and non-AI workloads 2024e\u20132028e",
+      "description": "Breakdown of annual data center spend between GenAI and non-AI workloads illustrating GenAI\u2019s dominant growth from 2024e\u20132028e.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | GenAI Workload Spend ($mm) | Non-AI Workload Spend ($mm) | Total Global Spend ($mm) |\n|------|----------------------------|-----------------------------|--------------------------|\n| 2024e| 230,310                    | 76,740                      | 307,050                  |\n| 2025e| 405,768                    | 87,522                      | 493,290                  |\n| 2026e| 564,735                    | 98,798                      | 663,533                  |\n| 2027e| 701,789                    | 110,915                     | 812,704                  |\n| 2028e| 792,706                    | 127,558                     | 920,264                  |",
+        "key_insight": "GenAI workload spend projected to grow from $230,310mm in 2024e to $792,706mm in 2028e, driving a near-tripling of total global spend."
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Total Global Annual Spend",
+      "type": "Metric",
+      "brief": "Projected total annual global DC spend in 2028e",
+      "description": "Reflects the forecast total capital expenditure for data centers globally in 2028e.",
+      "properties": {
+        "value": 920.264,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 GenAI Workload Annual Spend",
+      "type": "Metric",
+      "brief": "Projected annual GenAI workload spend in 2028e",
+      "description": "Forecast GenAI-specific data center capital spend globally in 2028e.",
+      "properties": {
+        "value": 792.706,
+        "unit": "USD bn",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Total DC Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative global DC spend through YE28",
+      "description": "Total forecast data center capital spend globally through year-end 2028, excluding power investments.",
+      "properties": {
+        "value": 2900,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 AI-related DC Spend Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative AI-related data center spend through YE28",
+      "description": "Forecast cumulative capex for AI-related workloads in data centers through 2028.",
+      "properties": {
+        "value": 2500,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Hardware Capex Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative hardware capex through YE28",
+      "description": "Total forecast spending on chips and servers for data centers through 2028.",
+      "properties": {
+        "value": 1600,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Infrastructure Capex Through 2028",
+      "type": "Metric",
+      "brief": "Cumulative DC infrastructure capex through YE28",
+      "description": "Forecast spending on building data center infrastructure excluding hardware through 2028.",
+      "properties": {
+        "value": 1300,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Power Infrastructure Cost Beyond Scope",
+      "type": "Metric",
+      "brief": "Incremental power infrastructure cost estimate",
+      "description": "Estimated additional cost for incremental data center power infrastructure outside core capex note.",
+      "properties": {
+        "value": 300,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 Annual Financing Needs 2028",
+      "type": "Metric",
+      "brief": "Annual financing needs estimate for data centers 2028",
+      "description": "Estimated annual funding requirement for data center investments in 2028.",
+      "properties": {
+        "value": 900,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing \u2013 AI-related Capex Contribution to GDP Growth",
+      "type": "Metric",
+      "brief": "Projected GDP growth contribution from AI capex",
+      "description": "Expected contribution of AI-related data center capex to GDP over 2025\u201326.",
+      "properties": {
+        "min": 0.4,
+        "max": 0.5,
+        "unit": "%",
+        "as_of": "2025-26"
+      }
+    },
+    {
+      "name": "DataCenter-AssetBasedFinance",
+      "type": "Factor",
+      "brief": "Secured financing by assets' cash flows",
+      "description": "Encompasses secured lending by contractual cash flows, critical for data center financing",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenter-FinancingLeaseCost",
+      "type": "Metric",
+      "brief": "Annual lease cost as percentage of upfront cost",
+      "description": "Data center lease costs typically range mid- to high-single-digit percent of upfront investment",
+      "properties": {
+        "unit": "%",
+        "min": 7,
+        "max": 10,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T1 \u2013 DataCenter What is asset-backed finance?",
+      "type": "Table",
+      "brief": "Core attributes of Asset-Based Finance",
+      "description": "Defines ABF's key features: collateral range, growth potential, bespoke IG structures, low correlation to other asset classes",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Core Concept | Key Attribute/Benefit |\n|--------------|-----------------------|\n| ABF          | Wide Collateral Range |\n| ABF          | Huge Growth Potential |\n| ABF          | Bespoke Structures & Potential for IG Rating |\n| ABF          | Low Correlation to Other Asset Classes |",
+        "key_insight": "Asset-Based Finance offers wide collateral range, substantial growth potential, bespoke IG structures, and low correlation to other asset classes."
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "type": "Table",
+      "brief": "Forecast of securitized issuance vs DC capacity",
+      "description": "Projection of total data center securitized issuance and new US DC capacity from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total Securitized Issuance ($bn) | US New Installed DC Capacity (GW) |\n|------|----------------------------------|-----------------------------------|\n| 2025 | 17                               | 11                                |\n| 2026 | 27                               | 16                                |\n| 2027 | 44                               | 20                                |\n| 2028 | 62                               | 22                                |",
+        "key_insight": "Total securitized issuance is forecast to increase from $17 bn in 2025 to $62 bn in 2028, while US DC capacity nearly doubles from 11 GW to 22 GW"
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 Total Securitized Issuance",
+      "type": "Metric",
+      "brief": "Forecasted total securitized issuance in 2028",
+      "description": "Forecast total securitized credit issuance in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 62
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 US New Installed DC Capacity",
+      "type": "Metric",
+      "brief": "Forecasted US new DC capacity in 2028",
+      "description": "Forecast US data center capacity installed in 2028",
+      "properties": {
+        "unit": "GW",
+        "as_of": "2028",
+        "value": 22
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Data Center Securitization Securitized Capacity vs Global Ambition",
+      "type": "Table",
+      "brief": "Comparison of securitized vs planned capacity",
+      "description": "Estimated securitized capacity by ABS and CMBS compared to announced global ambition for leading issuers",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Issuer   | Est. Securitized Capacity by ABS (MW) | Est. Securitized Capacity by CMBS (MW) | Total Securitized Capacity (MW) | Announced Capacity Remaining (MW) | Total Global Capacity Ambition (MW) |\n|----------|---------------------------------------|----------------------------------------|---------------------------------|-----------------------------------|------------------------------------|\n| Aligned  | 250                                   | 10                                     | 260                             | 4740                              | 5000                               |\n| Stack    | 80                                    | 20                                     | 100                             | 3900                              | 4000                               |\n| Vantage  | 600                                   | 10                                     | 610                             | 1390                              | 2000                               |\n| Switch   | 150                                   | 80                                     | 230                             | 1770                              | 2000                               |\n| CyrusOne | 200                                   | 20                                     | 220                             | 780                               | 1000                               |",
+        "key_insight": "Leading issuers have securitized just around 10% of planned capacity, leaving the vast majority unsecuritized"
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 Securitized Share of Planned Capacity",
+      "type": "Metric",
+      "brief": "Share of planned capacity securitized",
+      "description": "Proportion of issuers' planned global data center capacity that has been securitized to date",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "value": 10
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 Vantage ABS Securitized Capacity",
+      "type": "Metric",
+      "brief": "Vantage's ABS securitized capacity",
+      "description": "Estimated capacity by ABS securitization for Vantage",
+      "properties": {
+        "unit": "MW",
+        "as_of": "2025-06-30",
+        "value": 600
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 Aligned Total Global Capacity Ambition",
+      "type": "Metric",
+      "brief": "Aligned's global capacity ambition",
+      "description": "Announced total global capacity ambition for Aligned",
+      "properties": {
+        "unit": "MW",
+        "as_of": "2025-06-30",
+        "value": 5000
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Data Center Securitization Estimated Annual Issuance Projection",
+      "type": "Table",
+      "brief": "Projected ABS and CMBS issuance",
+      "description": "Forecast of ABS, CMBS, and total securitized issuance for data centers from 2025 to 2028",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Annual issuance is set to rise from $17 bn in 2025 to $62 bn in 2028, with ABS as the largest component"
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 ABS Issuance",
+      "type": "Metric",
+      "brief": "Forecasted ABS issuance in 2028",
+      "description": "Projected ABS issuance for data center securitization in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 37
+      }
+    },
+    {
+      "name": "Data Center Securitization \u2013 CMBS Issuance",
+      "type": "Metric",
+      "brief": "Forecasted CMBS issuance in 2028",
+      "description": "Projected CMBS issuance for data center securitization in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 25
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T17 \u2013 GenAIDataCenter Global GenAI Power Consumption and Growth Rates",
+      "target": "GenAIDataCenter Global GenAI Power Consumption",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 686,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table projects global GenAI power consumption reaching 686 TWh in 2028"
+    },
+    {
+      "source": "Table T18 \u2013 GenAIDataCenter US GenAI Power Consumption and Growth Rates",
+      "target": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 370,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts US GenAI power consumption reaching 370 TWh by 2028"
+    },
+    {
+      "source": "Table T19 \u2013 GenAIDataCenter Global Data Center Capex by Region and Workload",
+      "target": "GenAIDataCenter Global Data Center Capex 2025-2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2890,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows global data center capex of $2.89 trillion for 2025-2028"
+    },
+    {
+      "source": "GenAIDataCenter Global GenAI Power Consumption",
+      "target": "GenAIDataCenter Global Total Data Center Power Usage",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1235,
+        "unit": "TWh",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "GenAI power expansion drives total data center power usage to 1235 TWh by 2028"
+    },
+    {
+      "source": "GenAIDataCenter US Share of Global GenAI Power Usage",
+      "target": "GenAIDataCenter US GenAI Power Consumption",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "US share of global GenAI power consumption drives US GenAI power usage"
+    },
+    {
+      "source": "GenAIDataCenter Global Total Data Center Power Usage",
+      "target": "GenAIDataCenter Total Data Center Capacity",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 188,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Total data center power usage growth leads to 188 GW capacity by 2028"
+    },
+    {
+      "source": "DataCenterFinancing \u2013 Talen Energy nuclear energy partnership announcement",
+      "target": "DataCenterFinancing \u2013 Amazon.com",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Supplies electricity to Amazon AWS data centers"
+    },
+    {
+      "source": "DataCenterFinancing \u2013 Microsoft-Constellation Energy power agreement announcement",
+      "target": "DataCenterFinancing \u2013 Microsoft",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Provides power supply collaboration for Microsoft data centers"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Global Data Center Capex",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs global data center capex projection."
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Estimated Financing Gap",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1500,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs estimated financing gap."
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Private Credit Opportunity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs private credit growth opportunity."
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Potential Shortfall in Power for US Data Centers, 2025-28",
+      "target": "Data Center Power Shortfall",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 45,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table quantifies the 45 GW power shortfall informing the power shortfall metric."
+    },
+    {
+      "source": "Data Center Grid Constraints",
+      "target": "Data Center Power Shortfall",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Grid constraints contribute to the power shortfall risk."
+    },
+    {
+      "source": "Table T1 \u2013 Hyperscalers Market Presence Equity vs IG Debt",
+      "target": "TechCreditMarkets \u2013 Hyperscalers S&P 500 Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 18,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Highlights hyperscalers\u2019 equity market share growth"
+    },
+    {
+      "source": "Table T2 \u2013 Hyperscaler Bond Issuance Dollars and Percentage",
+      "target": "TechCreditMarkets \u2013 Hyperscaler Projected Issuance 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 6,
+        "unit": "USD bn",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Projected hyperscaler issuance decline to $6bn by 2025"
+    },
+    {
+      "source": "TechCreditMarkets \u2013 Hyperscaler Debt Under-Indexation",
+      "target": "TechCreditMarkets \u2013 IG Technology Index Net Supply Capacity YE28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "confidence": 75,
+        "impact_value": null,
+        "unit": null,
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Under-indexation drives additional capacity to issue $200bn by YE28"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 34 Chart",
+      "target": "DataCenterCredit Info. Tech. Index % of S&P500",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 32.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 34 shows Info Tech share of S&P500 at 32%"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 34 Chart",
+      "target": "DataCenterCredit Tech Index % of US IG Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 9.6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 34 shows Tech share of US IG Index at 9.6%"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT total lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 63.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT total lease liabilities reached $63bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT finance lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 40.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT finance lease liabilities reached $40bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 36 Chart",
+      "target": "DataCenterCredit MSFT operating lease liabilities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 23.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 36 shows MSFT operating lease liabilities reached $23bn by Mar-25"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 37 Chart",
+      "target": "DataCenterCredit MSFT total leases not yet commenced",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 117.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 37 shows MSFT total leases not yet commenced peaked at $117bn in Jun-24"
+    },
+    {
+      "source": "DataCenterCredit Exhibit 37 Chart",
+      "target": "DataCenterCredit MSFT additional finance leases not yet commenced",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 109.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Exhibit 37 shows MSFT additional finance leases not commenced peaked at $109bn in Jun-24"
+    },
+    {
+      "source": "DataCenterCredit ORCL",
+      "target": "DataCenterCredit ORCL additional lease commitments not yet commenced",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 43.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "ORCL holds $43bn of additional lease commitments not yet commenced"
+    },
+    {
+      "source": "DataCenterFinancing Table T4 \u2013 Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Global Capex CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $2.9tr total data center capex need 2025-2028"
+    },
+    {
+      "source": "DataCenterFinancing Table T4 \u2013 Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Hyperscaler Cash Flows CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $1.4tr funded by hyperscaler cash flows 2025-2028"
+    },
+    {
+      "source": "DataCenterFinancing Table T4 \u2013 Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Private Credit Opportunity CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $800bn financed via private credit 2025-2028"
+    },
+    {
+      "source": "Table T1 \u2013 IG Tech Index Debt and Yield Trend",
+      "target": "IG Tech Index Amount Outstanding",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 730,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows IG Tech Index debt rising to $730bn by Jul-25"
+    },
+    {
+      "source": "Table T1 \u2013 IG Tech Index Debt and Yield Trend",
+      "target": "IG Tech Index Yield to Worst Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 7.3,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows IG Tech Index YTW peaking at 7.3% in Oct-08"
+    },
+    {
+      "source": "Table T2 \u2013 IG Tech Index Yield Comparison",
+      "target": "IG Tech Yield Spread",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 0.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table shows yield spread of 0.5% between IG Tech BBB and IG Tech Index as of Jan-25"
+    },
+    {
+      "source": "Data Center Financing \u2013 GPU & Custom Silicon Cost per MW 2024",
+      "target": "Data Center Financing \u2013 GPU & Custom Silicon Cost per MW 2028",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -5.5,
+        "unit": "USD mm/MW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Cost per MW declines by 5.5 USD mm/MW from 2024 to 2028"
+    },
+    {
+      "source": "Data Center Financing \u2013 Power Bottleneck",
+      "target": "Data Center Financing \u2013 US GenAI Workload Share Forecast",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Power constraints may reduce the share of GenAI workloads in the US"
+    },
+    {
+      "source": "Table T33 \u2013 Credit Markets US Corporate IG Index Top 25 Members",
+      "target": "Credit Markets Illustrative Issuance Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Highlights issuance capacity of ~$150bn across three tech credits"
+    },
+    {
+      "source": "Table T1 \u2013 Credit Markets \u2013 Fixed Rate Inflows and Outflows",
+      "target": "Credit Markets \u2013 Demand for Asset-Based Finance from insurers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Surge in fixed annuity inflows drives demand for spread-generating ABF investments"
+    },
+    {
+      "source": "Table T2 \u2013 Credit Markets \u2013 ABF now accounts for ~3% of insurance investments",
+      "target": "Credit Markets \u2013 Growth potential for Asset-Based Finance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "ABF's 3% share of insurers' investments indicates significant growth potential"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing: Five financing paths for global data center spend",
+      "target": "Data Center Financing \u2013 Global Capex",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table details the estimated $2.9 trillion data center capex from 2025-2028"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing ABF Total Addressable Market",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows ABF TAM of ~$20 trillion"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing Direct Lending Fund AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.2,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows direct lending AUM of ~$2.2 trillion"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Asset-Based Financing Market Size Comparison",
+      "target": "Data Center Financing Deployed ABF Capital",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.6,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows deployed ABF capital of ~$0.6 trillion"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "target": "Data Center Financing Global Private Debt Fund AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.82,
+        "unit": "USD trillion",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows AUM rising to $1.82 trillion by 2024"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Financing Global Private Debt Fund AUM Growth and Deployment",
+      "target": "Data Center Financing Global Private Debt Fund Deployment Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows deployment rate reaching 70% by 2024"
+    },
+    {
+      "source": "DataCenterFinancing \u2013 Financing Gap",
+      "target": "DataCenterFinancing \u2013 Private Credit AUM Growth",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Financing gap drives expansion in private credit"
+    },
+    {
+      "source": "DataCenterFinancing \u2013 Private Credit AUM Growth",
+      "target": "DataCenterFinancing \u2013 Asset-Based Finance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Private credit growth promotes asset-based finance adoption"
+    },
+    {
+      "source": "DataCenterFinancing \u2013 Asset-Based Finance",
+      "target": "DataCenterFinancing \u2013 Equinix-GIC/CPP JV",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "ABF framework exemplified by Equinix-GIC/CPP JV"
+    },
+    {
+      "source": "Table T1 \u2013 Technology Credit \u2013 Cash Flow",
+      "target": "Technology Credit \u2013 Cash Flow from Operations",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 770,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected CFO metric at CY27E"
+    },
+    {
+      "source": "Table T1 \u2013 Technology Credit \u2013 Cash Flow",
+      "target": "Technology Credit \u2013 Capital Expenditures",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 430,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected capex metric at CY27E"
+    },
+    {
+      "source": "Table T1 \u2013 Technology Credit \u2013 Cash Flow",
+      "target": "Technology Credit \u2013 Free Cash Flow after Shareholder Returns",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 210,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs projected FCF after shareholder returns at CY27E"
+    },
+    {
+      "source": "Table T30 \u2013 DataCenterCredit Sizable Debt Cushion Under Tech Bond Ratings",
+      "target": "DataCenterCredit \u2013 Reliance on unsecured corporate debt",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Table suggests cushion capacity will drive phased increase in unsecured debt reliance"
+    },
+    {
+      "source": "Table T1 \u2013 Gross New Issuance of Data Center Securitized Credit",
+      "target": "Data Center Total Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12150,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows total issuance reached 12,150 USD mm in 2025 YTD"
+    },
+    {
+      "source": "Data Center Financing - Weak Macro Conditions",
+      "target": "Data Center Financing - Private Credit",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak macro conditions drive reliance on private credit"
+    },
+    {
+      "source": "Data Center Financing - Slower Revenue Growth",
+      "target": "Data Center Financing - Private Credit",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Slower revenue growth drives reliance on private credit"
+    },
+    {
+      "source": "Data Center Financing - 1990s Capex Cycle",
+      "target": "Data Center Financing - 2000-04 Default Cycle",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "1990s capex cycle ended with default cycle in 2000-04"
+    },
+    {
+      "source": "Table T46 \u2013 Data Center Credit Annual Coupons 2018\u20132025",
+      "target": "Data Center Credit \u2013 US High Yield Corporate Bond Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 8.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "HY bond coupons peaked at 8.6% in 2023"
+    },
+    {
+      "source": "Table T46 \u2013 Data Center Credit Annual Coupons 2018\u20132025",
+      "target": "Data Center Credit \u2013 US DC ABS Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "DC ABS coupons rose to 5.5% in 2023"
+    },
+    {
+      "source": "Table T46 \u2013 Data Center Credit Annual Coupons 2018\u20132025",
+      "target": "Data Center Credit \u2013 US DC CMBS Fixed Rate Coupon Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6.5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "DC CMBS fixed-rate coupons spiked to 6.5% in 2023"
+    },
+    {
+      "source": "Data Center Credit \u2013 Aligned (ADC)",
+      "target": "Data Center Credit \u2013 Aligned ABS Issuance 2021-2023",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Aligned\u2019s ABS issuance between 2021 and 2023"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 CoreWeave",
+      "target": "DataCenterCreditMarkets \u2013 CoreWeave 5NC2 Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "CoreWeave priced the 5NC2 bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Cisco",
+      "target": "DataCenterCreditMarkets \u2013 Cisco $13.5bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Cisco executed the $13.5bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Hewlett Packard Enterprise",
+      "target": "DataCenterCreditMarkets \u2013 HPE $9bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "HPE executed the $9bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Synopsys",
+      "target": "DataCenterCreditMarkets \u2013 Synopsys $10bn Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Synopsys executed the $10bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 KKR",
+      "target": "DataCenterCreditMarkets \u2013 KKR Take-private of CyrusOne",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "KKR led the CyrusOne take-private"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Equinix",
+      "target": "DataCenterCreditMarkets \u2013 EQIX Series C Mandatory Convertible Preferred Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Equinix priced the Series C preferred issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Super Micro Computer",
+      "target": "DataCenterCreditMarkets \u2013 SMCI 2030 Convertible Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "SMCI issued the zero-coupon convertible"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Alphabet",
+      "target": "DataCenterCreditMarkets \u2013 Alphabet USD Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Alphabet executed the US$5bn bond issuance"
+    },
+    {
+      "source": "DataCenterCreditMarkets \u2013 Alphabet",
+      "target": "DataCenterCreditMarkets \u2013 Alphabet EUR Bond Issuance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Alphabet executed the \u20ac6.75bn bond issuance"
+    },
+    {
+      "source": "Data Center ABS \u2013 chip useful shelf life",
+      "target": "Data Center ABS \u2013 GPU ABS securitization",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Chip shelf life triggers amortizing structure of GPU ABS"
+    },
+    {
+      "source": "Data Center ABS \u2013 data center useful life",
+      "target": "Data Center ABS \u2013 data center ABS securitization",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Long data center life triggers non-amortizing ABS structure"
+    },
+    {
+      "source": "Data Center ABS \u2013 average ABS market financing cost",
+      "target": "Data Center ABS \u2013 USD IG debt coupon rate",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "ABS financing cost comparable to 4-7y USD IG debt coupons"
+    },
+    {
+      "source": "Table T25 \u2013 DataCenter Annual US Spend by Workload Type",
+      "target": "DataCenter GenAI Workload Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "GenAI workload spend drives annual US spend trend"
+    },
+    {
+      "source": "Table T26 \u2013 DataCenter Annual US Capital Spend by Asset Type",
+      "target": "DataCenter Capital Cost of Chips + Servers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Chips & servers cost drives total US capex trend"
+    },
+    {
+      "source": "Table T9 \u2013 Data Center Securitized Credit Estimated Annual Issuance",
+      "target": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 62,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Total issuance projected to grow to $62bn by 2028"
+    },
+    {
+      "source": "Data Center Securitized Credit ABS/CMBS Penetration",
+      "target": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Higher ABS/CMBS penetration could drive total issuance growth"
+    },
+    {
+      "source": "Table T10 \u2013 Data Center Securitized Credit Financing Rates vs IG/HY",
+      "target": "Data Center Securitized Credit US IG Corp 4-7y Financing Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "IG Corp 4-7y rate declined to 2.00% in 2021"
+    },
+    {
+      "source": "Table T10 \u2013 Data Center Securitized Credit Financing Rates vs IG/HY",
+      "target": "Data Center Securitized Credit US HY Corp 4-7y Financing Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.8,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "HY Corp 4-7y rate peaked at 8.80% in 2023"
+    },
+    {
+      "source": "Data Center Financing - Credit Markets",
+      "target": "Data Center Financing Gap",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.5,
+        "unit": "USD tr",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Credit markets critical to bridging data center financing gap"
+    },
+    {
+      "source": "Data Center Financing - Private Credit",
+      "target": "Data Center Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Private credit aids in meeting data center financing needs"
+    },
+    {
+      "source": "Data Center Financing - ABS/CMBS",
+      "target": "Data Center Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "ABS/CMBS supports data center financing growth potential"
+    },
+    {
+      "source": "Data Center Financing - Interest Rates",
+      "target": "Data Center Financing - End-Investor Demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Lower interest rates could dampen end-investor demand"
+    },
+    {
+      "source": "Data Center Financing - Economic Growth",
+      "target": "Data Center Financing - End-Investor Demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Weaker economic growth could reduce end-investor demand"
+    },
+    {
+      "source": "Data Center Financing - End-Investor Demand",
+      "target": "Data Center Financing - Credit Markets",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Lower end-investor demand may weaken credit markets"
+    },
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Capex CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1600,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows fund capital expenditures"
+    },
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Shareholder Returns CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 550,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows fund shareholder returns"
+    },
+    {
+      "source": "Hyperscaler Cash Flows from Operations CY25-CY28",
+      "target": "Hyperscaler Free Cash Flow after Shareholder Returns CY25-CY28",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 700,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Operating cash flows residual after shareholder returns"
+    },
+    {
+      "source": "Hyperscaler Capex Funded by Cash Flows CY25-CY28",
+      "target": "Hyperscaler Financing Gap CY25-CY28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1500,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "CF-funded capex leaves financing shortfall"
+    },
+    {
+      "source": "Table T29 \u2013 Tech Credit Index OAS IG vs IG Tech",
+      "target": "Tech Credit \u2013 Credit Spread Premium over IG",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 15,
+        "unit": "bp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "IG Tech Index spreads ~15bp tighter than IG Index"
+    },
+    {
+      "source": "Tech Credit \u2013 Net Leverage",
+      "target": "Tech Credit \u2013 Illustrative Issuance Capacity (3 issuers)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 500,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Lower leverage implies capacity for >$500bn issuance"
+    },
+    {
+      "source": "Tech Credit \u2013 Alphabet AA+ Downgrade Threshold Commentary",
+      "target": "Tech Credit \u2013 Illustrative Issuance Capacity (single issuer)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 200,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "S&P: Alphabet can increase net debt by >$200bn before AA+ downgrade"
+    },
+    {
+      "source": "Data Center Credit \u2013 Hyperscaler Cash Flow",
+      "target": "Data Center Credit \u2013 Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1400,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Hyperscaler cash flow reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit \u2013 Corporate Debt Contribution",
+      "target": "Data Center Credit \u2013 Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -200,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Corporate debt reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit \u2013 Securitized Debt Contribution",
+      "target": "Data Center Credit \u2013 Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Securitized debt reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit \u2013 Capital Gap",
+      "target": "Data Center Credit \u2013 Private Credit Financing Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "70/30 split yields private credit financing estimate"
+    },
+    {
+      "source": "DC Financing \u2013 Asset-Based Finance (ABF)",
+      "target": "DC Financing \u2013 $800bn Private Credit Opportunity",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "ABF drives the $800bn private credit opportunity"
+    },
+    {
+      "source": "DC Financing \u2013 Private Credit",
+      "target": "DC Financing \u2013 Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Private credit helps close the financing gap"
+    },
+    {
+      "source": "DC Financing \u2013 Corporate Bond and Securitized Credit Financing",
+      "target": "DC Financing \u2013 Financing Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 350,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Corporate bond and securitized credit covers $350bn of needs"
+    },
+    {
+      "source": "Table T13 \u2013 DataCenterCredit Quarterly Fixed-Rate Inflows and Net Flows",
+      "target": "DataCenterCredit Demand-Supply Imbalance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fixed-rate inflows inform credit demand-supply imbalance"
+    },
+    {
+      "source": "Table T14 \u2013 DataCenterCredit US Corporate Bond Market Ownership Trends",
+      "target": "DataCenterCredit Non-US Investor Ownership Shift",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Ownership data informs shift toward non-US investors"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Financing Estimated Annual DC Infrastructure and Hardware Spend",
+      "target": "Data Center Financing \u2013 Total Global Annual Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 920.264,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "Table T1 shows total DC spend rising to $920.264bn in 2028e"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Financing Estimated Annual DC Workload Spend by Type",
+      "target": "Data Center Financing \u2013 GenAI Workload Annual Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "confidence": 95,
+        "lag_days": null,
+        "impact_value": 792.706,
+        "unit": "USD bn",
+        "non_linear": null
+      },
+      "description": "Table T2 shows GenAI workload spend reaching $792.706bn in 2028e"
+    },
+    {
+      "source": "Table T1 \u2013 DataCenter What is asset-backed finance?",
+      "target": "DataCenter-AssetBasedFinance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table defines the core attributes of Asset-Based Finance"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "target": "Data Center Securitization \u2013 Total Securitized Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 62,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Forecast issuance increases to $62 bn by 2028"
+    },
+    {
+      "source": "Table T1 \u2013 Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "target": "Data Center Securitization \u2013 US New Installed DC Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 22,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Forecast capacity rises to 22 GW by 2028"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization \u2013 Securitized Share of Planned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Issuers have securitized just around 10% of planned capacity"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization \u2013 Vantage ABS Securitized Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 600,
+        "unit": "MW",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Vantage has approx. 600 MW securitized via ABS"
+    },
+    {
+      "source": "Table T2 \u2013 Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization \u2013 Aligned Total Global Capacity Ambition",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 5000,
+        "unit": "MW",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Aligned has announced global capacity ambition of ~5000 MW"
+    },
+    {
+      "source": "Table T3 \u2013 Data Center Securitization Estimated Annual Issuance Projection",
+      "target": "Data Center Securitization \u2013 ABS Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 37,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "ABS issuance projected at $37 bn in 2028"
+    },
+    {
+      "source": "Table T3 \u2013 Data Center Securitization Estimated Annual Issuance Projection",
+      "target": "Data Center Securitization \u2013 CMBS Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "CMBS issuance projected at $25 bn in 2028"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/ms_bridging_a_1.5tr_data_center_financing_gap_20250716_converted_with_figures"
+}

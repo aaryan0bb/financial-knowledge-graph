@@ -1,0 +1,62 @@
+Morgan Stanley                                                                                                                          July 24, 2025 
+
+                                                                                                                                          Correct 
+Al Adoption Use Case: Coding                                             Model           Percent correct         Cost        Command       edit 
+                                                                                                                                          format 
+
+Microsoft: as much as 30% of code currently                              03 (high) + 82.7%               $69.29               aider -- model 100.0% 
+                                                                         gpt-4.1                                             03 -- architect 
+written by Al 
+                                                                                                                              aider -- model 
+                                                                         o3 (high)   79.6%               $111.03             03           95.1% 
+
+Anthropic CEO: within 3-6 months, 90% of                                                                                      aider -- model 
+                                                                         Gemini 2.5 Pro                                      gemini/gemini- 
+code will be produced by Al                                                          76.9%               $37.41                           97.3% 
+                                                                         Preview 05-06                                       2.5-pro-preview- 
+                                                                                                                             05-06 
+
+Coding-related US jobs:                                                                                                       aider -- model 
+                                                                         Gemini 2.5 Pro                                      gemini/gemini- 
+                                                                                     72.9%                                                92.4% 
+                                                                         Preview 03-25                                       2.5-pro-preview- 
+                                                                                                                             03-25 
+      Computer programmers: 140k jobs, 
+                                                                                                                              aider -- model 
+     $100k avg salary                                                    04-mini (high) 72.0%            $19.64                           90.7% 
+                                                                                                                             04-mini 
+
+                                                                                                                              aider -- model 
+·    Web developers: 223k jobs, $96k avg                                 claude-3-7-                                         anthropic/claude 
+                                                                         sonnet- 
+                                                                                                                              3-7-sonnet- 
+     salary                                                              20250219 (32k 64.9%             $36.83              20250219 -- 97.8% 
+                                                                         thinking 
+                                                                                                                             thinking-tokens 
+                                                                         tokens) 
+                                                                                                                             32k 
+     Software developers: 1.7m jobs, $131k 
+                                                                                                                              aider -- 
+     avg salary                                                          DeepSeek R1                                         architect -- 
+                                                                         + claude-3-5- 
+                                                                                     64.0%               $13.29              model r1 -- 100.0% 
+                                                                         sonnet- 
+                                                                                                                             editor-model 
+                                                                         20241022 
+                                                                                                                             sonnet 
+
+Source: Aider Polyglot.                                                                                                                                 16 
+
+    | Model | Percent correct | Cost | Command | Correct edit format |
+    |---|---|---|---|---|
+    | o3 (high) + gpt-4.1 | 82.7% | $69.29 | aider --model o3 --architect | 100.0% |
+    | o3 (high) | 79.6% | $111.03 | aider --model o3 | 95.1% |
+    | Gemini 2.5 Pro Preview 05-06 | 76.9% | $37.41 | aider --model gemini/gemini-2.5-pro-preview-05-06 | 97.3% |
+    | Gemini 2.5 Pro Preview 03-25 | 72.9% | $29.74 (est.) | aider --model gemini/gemini-2.5-pro-preview-03-25 | 92.4% |
+    | o4-mini (high) | 72.0% | $19.64 | aider --model o4-mini | 90.7% |
+    | claude-3-7-sonnet-20250219 (32k thinking tokens) | 64.9% | $36.83 | aider --model anthropic/claude-3-7-sonnet-20250219 --thinking-tokens 32k | 97.8% |
+    | DeepSeek R1 + claude-3-5-sonnet-20241022 | 64.0% | $13.29 | aider --architect --model r1 --editor-model sonnet | 100.0% |
+
+    Summary: This chart benchmarks various AI models for their performance in coding tasks, illustrating their "Percent correct" (green bars) and "Cost" (blue bars), along with the "Correct edit format" percentage. The models are ranked by their "Percent correct," ranging from 82.7% (o3 high + gpt-4.1) down to 64.0% (DeepSeek R1 + claude-3-5-sonnet). Costs vary significantly, from a low of $13.29 (DeepSeek R1) to a high of $111.03 (o3 high). While "Correct edit format" is generally high (mostly above 90%), there's no direct correlation between high "Percent correct" or "Correct edit format" and lower cost, with some top performers like 'o3 (high)' incurring a very high cost.
+
+    Explanation: The chart provides a practical evaluation of different AI models for coding, directly supporting the broader context of increasing AI adoption in software development, where figures suggest AI could produce 30% to 90% of code within months. This comparative analysis is crucial for businesses and developers to weigh the accuracy and formatting quality of AI-generated code against the operational costs, informing strategic decisions on AI integration to optimize efficiency and expenditure in an evolving job market for computer programmers, web developers, and software developers.

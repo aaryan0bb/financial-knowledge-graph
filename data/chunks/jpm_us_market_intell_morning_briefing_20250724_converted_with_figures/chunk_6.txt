@@ -1,0 +1,65 @@
+Track Annotate # News O, Zoom            -6500 
+                                                                     6352.30 
+  6.8M- 
+                                                                     -6000 
+  6.6M- 
+                                                                     -5500 
+ 6.409M 
+                                                                     -5000 
+  6.2M 
+
+  6M                                                                 -4500 
+
+  5.8M                                                               4000 
+
+  5.6M                                            US Liquidity Proxy Index (L1) 6.409M 
+                          Source: Bloomberg; JPM Mkt Intel SPX Index - Last Price (R1) 6352.30 -3500 
+
+            2022              2023             2024           2025 
+
+NEWS LINKS 
+
+   .   EU Sees Progress Toward US Trade Deal With 15% Tariffs (BBG) 
+   ·   Stocks Climb on US-EU Trade Reports as Bonds Slide (BBG) 
+
+   .   Bessent, Lutnick Hail Japan Finance Pledge in Tariff Deal (BBG) 
+   ·   Bond Traders Step Up 2026 Fed Cut Bets After Trump Bashes Powell (BBG) 
+
+      Japan Trade Deal Offers US Automakers Relief, Not New Markets (BBG) 
+      June home sales drop as prices hit record high (CNBC) 
+
+   ·   Mortgage demand flatlines at low levels, as mortgage rates hit 4-week high (CNBC) 
+   .   Institutional landlords see new competition from an unexpected source (CNBC) 
+
+   .   BOJ sees trade deal as raising chance of meeting inflation goal (RTRS) 
+
+   .   UK borrows more as inflation adds to debt bill, and Reeves' headache (RTRS) 
+
+   ·   US existing home sales hit nine-month low in June (RTRS) 
+   .   Home Prices Hit Record High in June, Dragging Down Sales (WSJ) 
+
+       EU Seeks 15% Baseline Tariffs In U.S. Trade Deal (WSJ) 
+
+      Trump Administration Pledges to Stimulate Al Use and Exports (WSJ) 
+
+WEEKLY ECONOMIC DATA / EARNINGS 
+US CALENDAR 
+ECONOMICS 
+
+      JUL 21 - Leading Index at 10am ET. 
+
+    | Approx. Date | US Liquidity Proxy (M) | SPX Index |
+    |---------------|------------------------|-----------|
+    | Early 2022    | 6.8                    | 6100      |
+    | Mid 2022      | 5.7                    | 3800      |
+    | End 2022      | 5.8                    | 4000      |
+    | Mid 2023      | 6.4                    | 4500      |
+    | End 2023      | 5.8                    | 4700      |
+    | Mid 2024      | 6.0                    | 5700      |
+    | End 2024      | 6.4                    | 6000      |
+    | Early 2025    | 5.8                    | 6100      |
+    | Mid 2025      | 6.409                  | 6352.30   |
+
+    Summary: This dual-axis line chart displays the trend of the US Liquidity Proxy Index (blue line, left Y-axis in millions) and the SPX Index (black line, right Y-axis) from early 2022 to mid-2025. Initially, in 2022, both indices exhibited a correlated decline, followed by a period of volatility for liquidity while SPX began a steady ascent. A notable divergence emerged from late 2023 through mid-2025, particularly highlighted by the red dashed oval: the SPX Index experienced a strong, sustained surge to a peak of 6352.30 by mid-2025, even as the US Liquidity Proxy saw a sharp dip in early 2025 before recovering to 6.409M.
+
+    Explanation: The chart illustrates that while US liquidity conditions have experienced significant fluctuations, including a sharp recovery in mid-2025 after a dip, the SPX Index has maintained a strong upward trajectory, reaching new highs. This persistent strength in equities, despite periods of liquidity impairment, aligns with the broader context of improved market liquidity conditions for US Equities, low realized macro volatility, and factors like retail investor and corporate buyback support acting as a backstop against drawdowns, as mentioned in the accompanying text. The recent divergence suggests that these underlying supportive factors might be driving equity performance independently of short-term liquidity dips.

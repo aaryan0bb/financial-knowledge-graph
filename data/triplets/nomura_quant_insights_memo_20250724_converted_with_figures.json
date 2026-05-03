@@ -1,0 +1,271 @@
+{
+  "entities": [
+    {
+      "name": "JapanEquities-More liquid bank stocks",
+      "type": "Factor",
+      "brief": "Bank stocks with high market cap and trading volume",
+      "description": "Bank stocks in Japan with above-average liquidity",
+      "properties": {
+        "group": "more_liquid"
+      }
+    },
+    {
+      "name": "JapanEquities-Less liquid bank stocks",
+      "type": "Factor",
+      "brief": "Bank stocks with lower market cap and trading volume",
+      "description": "Bank stocks in Japan with below-average liquidity",
+      "properties": {
+        "group": "less_liquid"
+      }
+    },
+    {
+      "name": "JapanEquities-Value stocks",
+      "type": "Factor",
+      "brief": "Stocks with low price-to-book metrics",
+      "description": "Japanese value stocks seen catching up after rate rises",
+      "properties": {
+        "driver": "value"
+      }
+    },
+    {
+      "name": "JapanEquities-Yen interest rates",
+      "type": "Factor",
+      "brief": "Interest rates on Japanese yen-denominated bonds",
+      "description": "Yields on yen bonds have recently increased",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-Prime Minister Ishiba Resignation",
+      "type": "Event",
+      "brief": "Reports of PM Ishiba stepping down",
+      "description": "Potential resignation of Japan's Prime Minister Ishiba",
+      "properties": {
+        "date": null,
+        "event_type": "resignation",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "JapanEquities-Government leadership uncertainty",
+      "type": "Factor",
+      "brief": "Uncertainty over future Japanese government leadership",
+      "description": "Volatility risk from LDP leadership contest and PM change",
+      "properties": {
+        "driver": "political_instability",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-Rate hike trade",
+      "type": "Factor",
+      "brief": "Investor bets on further interest rate increases",
+      "description": "Resurgent rate hike trade in bond and equity markets",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-JPY",
+      "type": "Instrument",
+      "brief": "Japanese yen currency",
+      "description": "FX currency used in USD/JPY pair",
+      "properties": {
+        "ticker": "JPY"
+      }
+    },
+    {
+      "name": "JapanEquities-USD/JPY spot rate",
+      "type": "Metric",
+      "brief": "Spot exchange rate of USD per JPY",
+      "description": "USD/JPY pair had edged lower by the memo date",
+      "properties": {
+        "unit": "JPY per USD",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "JapanEquities-USD/JPY risk reversal",
+      "type": "Metric",
+      "brief": "Risk reversal measure for USD/JPY options",
+      "description": "USD/JPY risk reversal has rebounded",
+      "properties": {
+        "unit": "volPts",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "JapanEquities-Nonresident investor JPY outlook",
+      "type": "Factor",
+      "brief": "Expectations of yen weakening by overseas investors",
+      "description": "Nonresident investors increasingly expect JPY to weaken",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Nikkei 225 - US-Japan trade agreement",
+      "type": "Event",
+      "brief": "US-Japan trade agreement with reciprocal 15% tariffs",
+      "description": "Reciprocal tariff on Japanese goods and sectoral tariff on autos set at 15%",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "trade_agreement",
+        "tariff_rate": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Nikkei 225 - CTA net buying",
+      "type": "Factor",
+      "brief": "CTAs expected to buy net \u00a5400bn near index 41,000-41,500",
+      "description": "CTAs likely to add another \u00a5400bn of net buying if index stays near 41,000-41,500",
+      "properties": {
+        "magnitude": 400,
+        "unit": "JPY bn",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Nikkei 225 - rally extension",
+      "type": "Metric",
+      "brief": "Index tends to extend rally by 3%",
+      "description": "Index historically extends its rally by another 3% in similar situations",
+      "properties": {
+        "value": 3,
+        "unit": "%",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "JapanEquities-More liquid bank stocks",
+      "target": "JapanEquities-Less liquid bank stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Outperformed less liquid bank stocks on preceding day"
+    },
+    {
+      "source": "JapanEquities-Yen interest rates",
+      "target": "JapanEquities-Value stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Yen rate rise driving value stocks catch-up"
+    },
+    {
+      "source": "JapanEquities-Prime Minister Ishiba Resignation",
+      "target": "JapanEquities-Government leadership uncertainty",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Resignation reports increase leadership uncertainty"
+    },
+    {
+      "source": "JapanEquities-Government leadership uncertainty",
+      "target": "JapanEquities-More liquid bank stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Leadership uncertainty could dampen liquid bank stocks performance"
+    },
+    {
+      "source": "JapanEquities-Rate hike trade",
+      "target": "JapanEquities-JPY",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Rate hike trade did not strengthen JPY"
+    },
+    {
+      "source": "JapanEquities-Nonresident investor JPY outlook",
+      "target": "JapanEquities-USD/JPY spot rate",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Investor expectations contribute to lower USD/JPY spot rate"
+    },
+    {
+      "source": "JapanEquities-USD/JPY spot rate",
+      "target": "JapanEquities-USD/JPY risk reversal",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Lower spot rate leads to risk reversal rebound"
+    },
+    {
+      "source": "Nikkei 225 - US-Japan trade agreement",
+      "target": "Nikkei 225 - CTA net buying",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Trade agreement prompted CTAs to increase long exposure"
+    },
+    {
+      "source": "Nikkei 225 - CTA net buying",
+      "target": "Nikkei 225 - rally extension",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CTA net buying tends to extend the rally by another 3%"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/nomura_quant_insights_memo_20250724_converted_with_figures"
+}

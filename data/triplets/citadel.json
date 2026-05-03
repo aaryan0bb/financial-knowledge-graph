@@ -1,0 +1,1417 @@
+{
+  "entities": [
+    {
+      "name": "Equity Markets\u2013Table T1 \u2013 Money Markets Asset Under Management Jan 2020\u2013Jul 2025",
+      "type": "Table",
+      "brief": "Shows evolution of money market AUM over time",
+      "description": "Tracks the steady growth of money market assets from $3.6T to $7.0T, highlighting liquidity build-up and redemption events.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | AUM (trillions) |\n|---|---|\n| Jan 2020 | 3.6 |\n| Apr 2020 | 4.8 |\n| Aug 2020 | 4.5 |\n| Dec 2020 | 4.4 |\n| Apr 2021 | 4.5 |\n| Aug 2021 | 4.5 |\n| Dec 2021 | 4.6 |\n| Apr 2022 | 4.4 |\n| Aug 2022 | 4.5 |\n| Dec 2022 | 4.7 |\n| Feb 2023 | 5.0 |\n| Apr 2023 | 5.4 |\n| Jun 2023 | 5.6 |\n| Aug 2023 | 5.8 |\n| Oct 2023 | 6.0 |\n| Dec 2023 | 6.1 |\n| Feb 2024 | 6.3 |\n| Apr 2024 | 6.5 |\n| Jun 2024 | 6.6 |\n| Aug 2024 | 6.7 |\n| Oct 2024 | 6.8 |\n| Dec 2024 | 6.9 |\n| Feb 2025 | 6.95 |\n| Apr 2025 | 6.98 |\n| Jul 2025 | 7.00 |",
+        "key_insight": "Money market AUM climbed from $3.6T in Jan 2020 to a record $7T in Jul 2025 due to persistent liquidity inflows."
+      }
+    },
+    {
+      "name": "Equity Markets\u2013Money Market AUM",
+      "type": "Metric",
+      "brief": "Total assets under management in money markets",
+      "description": "Represents available liquidity; reached $7T in July 2025, providing a cash buffer for market conditions.",
+      "properties": {
+        "unit": "USD tn",
+        "as_of": "Jul 2025",
+        "value": 7.0
+      }
+    },
+    {
+      "name": "Equity Markets\u2013Money Market Redemption Event Apr 2025",
+      "type": "Event",
+      "brief": "Large cash redemption from money markets",
+      "description": "During April 2\u201316, 2025, investors redeemed $151B, indicating tactical withdrawal from cash despite overall uptrend.",
+      "properties": {
+        "date": "2025-04-16",
+        "event_type": "Redemption",
+        "impact_value": 151,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Equity Market-Money Market AUM Table T1 \u2013 Money Market AUM Trends Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Money Market Assets Under Management trends, Jan-Jul 2025",
+      "description": "Charts the movement of AUM in USD trillions, highlighting a sharp April dip and July peak; material for liquidity and structural bid analysis.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | AUM (Trillions) |\n|-----------|-----------------|\n| Jan 10    | 6.85            |\n| Jan 20    | 6.91            |\n| Jan 30    | 6.87            |\n| Feb 10    | 6.91            |\n| Feb 20    | 6.89            |\n| Mar 1     | 6.92            |\n| Mar 10    | 7.03            |\n| Mar 20    | 7.02            |\n| Mar 30    | 7.00            |\n| Apr 5     | 7.03            |\n| Apr 15    | 6.88            |\n| Apr 25    | 6.91            |\n| May 5     | 6.91            |\n| May 15    | 6.94            |\n| May 25    | 6.93            |\n| Jun 5     | 6.97            |\n| Jun 15    | 7.02            |\n| Jun 25    | 7.01            |\n| Jul 5     | 7.03            |\n| Jul 15    | 7.06            |\n| Jul 25    | 7.05            |",
+        "key_insight": "Money Market AUM experienced a sharp $151bn dip in mid-April 2025, but rebounded to record highs by mid-July, highlighting persistent cash demand.",
+        "table_type": "Other",
+        "full_rows": 21
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning Table T2 \u2013 US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "type": "Table",
+      "brief": "US Equity Aggregate CTA Positioning from Jan 2024 to Jul 2025",
+      "description": "Shows large swings from net short to net long by CTAs; material for gauging systematic demand on equities.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | CTA Positioning |\n|--------------|-----------------|\n| Jan 2024     | 0.3             |\n| Mid-Jan 2024 | 0.2             |\n| Feb 2024     | 0.1             |\n| Mid-Feb 2024 | 0.0             |\n| Early Mar 2024 | -0.2            |\n| Apr 2024     | -0.5            |\n| Late Apr 2024 | -0.3            |\n| Mid-May 2024 | 0.0             |\n| Early Jun 2024 | 0.3             |\n| Jul 2024     | 0.7             |\n| Late Jul 2024 | 0.1             |\n| Aug 2024     | -0.3            |\n| Sep 2024     | -0.5            |\n| Oct 2024     | 0.4             |\n| Mid-Nov 2024 | 0.1             |\n| Dec 2024     | 0.0             |\n| Early Jan 2025 | -0.4            |\n| Mid-Feb 2025 | -0.8            |\n| Early Mar 2025 | -1.0            |\n| Late Mar 2025 | -0.5            |\n| Apr 2025     | 0.0             |\n| Mid-May 2025 | 0.8             |\n| Early Jun 2025 | 1.0             |\n| Mid-Jun 2025 | 0.7             |\n| Jul 2025     | 0.55            |",
+        "key_insight": "CTAs moved from net short in early 2025 to strong net long by July 2025, reflecting a major shift in systematic equity demand.",
+        "table_type": "Other",
+        "full_rows": 25
+      }
+    },
+    {
+      "name": "Equity Market-Money Market AUM peak_metric",
+      "type": "Metric",
+      "brief": "Money Market AUM peak in July 2025",
+      "description": "AUM reached its highest value of $7.06tn in July, signifying record cash levels and structural bid.",
+      "properties": {
+        "unit": "USD tn",
+        "value": 7.06,
+        "peak_date": "Jul 15, 2025"
+      }
+    },
+    {
+      "name": "Equity Market-Money Market AUM trough_metric",
+      "type": "Metric",
+      "brief": "Money Market AUM trough in April 2025",
+      "description": "The April trough of $6.88tn marks the sharpest recent drop, driven by $151bn in redemptions.",
+      "properties": {
+        "unit": "USD tn",
+        "value": 6.88,
+        "trough_date": "Apr 15, 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning peak_metric",
+      "type": "Metric",
+      "brief": "Highest net long CTA equity positioning, early June 2025",
+      "description": "CTA net long exposure peaked at 1.0 in early June, indicating aggressive re-leveraging.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 1.0,
+        "peak_date": "Early Jun 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning trough_metric",
+      "type": "Metric",
+      "brief": "Lowest net short CTA positioning, early March 2025",
+      "description": "CTA positioning hit a low of -1.0 in Mar 2025, marking capitulation before a sharp reversal.",
+      "properties": {
+        "unit": "indexPts",
+        "value": -1.0,
+        "trough_date": "Early Mar 2025"
+      }
+    },
+    {
+      "name": "Equity Market-CTA Positioning current_metric",
+      "type": "Metric",
+      "brief": "CTA net long positioning as of July 2025",
+      "description": "CTAs currently net long 0.55, signaling moderately strong systematic equity demand.",
+      "properties": {
+        "unit": "indexPts",
+        "value": 0.55,
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Equity S&P 500 Table T1 \u2013 July 2025 daily indexed S&P 500 performance",
+      "type": "Table",
+      "brief": "S&P 500 daily indexed performance during July 2025",
+      "description": "Shows the S&P 500 indexed daily values for each day in July 2025, highlighting an early-month rally, mid-month dip, and late-month recovery.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | S&P 500 Index |\n|---|---|\n| Jul 01 | 100.30 |\n| Jul 02 | 100.45 |\n| Jul 03 | 100.70 |\n| Jul 04 | 100.95 |\n| Jul 05 | 101.35 |\n| Jul 06 | 101.20 |\n| Jul 07 | 101.28 |\n| Jul 08 | 101.58 |\n| Jul 09 | 101.70 |\n| Jul 10 | 101.85 |\n| Jul 11 | 101.98 |\n| Jul 12 | 102.10 |\n| Jul 13 | 102.18 |\n| Jul 14 | 102.20 |\n| Jul 15 | 102.25 |\n| Jul 16 | 102.20 |\n| Jul 17 | 102.00 |\n| Jul 18 | 101.90 |\n| Jul 19 | 101.80 |\n| Jul 20 | 101.75 |\n| Jul 21 | 101.68 |\n| Jul 22 | 101.62 |\n| Jul 23 | 101.78 |\n| Jul 24 | 101.90 |\n| Jul 25 | 102.05 |\n| Jul 26 | 102.10 |\n| Jul 27 | 102.18 |\n| Jul 28 | 102.22 |\n| Jul 29 | 102.30 |",
+        "key_insight": "S&P 500 displays historical July pattern: rally into mid-month, dip, then further gains into end-of-month."
+      }
+    },
+    {
+      "name": "Equity S&P 500 Metric \u2013 S&P 500 Indexed Value July 29 2025",
+      "type": "Metric",
+      "brief": "S&P 500 index value at July 29, 2025",
+      "description": "Represents the indexed value of S&P 500 at the end of July, confirming upward seasonal trend.",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "2025-07-29",
+        "value": 102.3
+      }
+    },
+    {
+      "name": "Equity VIX Metric \u2013 Spot VIX July 2025",
+      "type": "Metric",
+      "brief": "Spot VIX value in July 2025",
+      "description": "Spot VIX is 16 as of July 2025, marking a low seasonal point linked to increased systematic equity demand.",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "2025-07-23",
+        "value": 16
+      }
+    },
+    {
+      "name": "EquityMarkets-US corporates blackout window end",
+      "type": "Event",
+      "brief": "US corporates return post-blackout with buyback potential",
+      "description": "Material as ending of earnings blackout window could spur increased share repurchases.",
+      "properties": {
+        "date": null,
+        "event_type": "blackout_window_end",
+        "impact_value": null,
+        "affected_tickers": null
+      }
+    },
+    {
+      "name": "EquityMarkets-Superbowl of earnings",
+      "type": "Event",
+      "brief": "Peak S&P 500 earning week on July 28",
+      "description": "Material due to 39% of S&P 500 market cap reporting in a single week.",
+      "properties": {
+        "date": "2025-07-28",
+        "event_type": "earnings_week",
+        "impact_value": 39,
+        "unit": "%",
+        "affected_tickers": "S&P 500 constituents"
+      }
+    },
+    {
+      "name": "EquityMarkets-Microsoft Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Microsoft reports Q2 2025 earnings on July 30",
+      "description": "Material as Microsoft is a key S&P 500 component and \u2018Magnificent 7\u2019 member.",
+      "properties": {
+        "date": "2025-07-30",
+        "event_type": "quarterly_earnings",
+        "ticker": "MSFT"
+      }
+    },
+    {
+      "name": "EquityMarkets-Meta Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Meta reports Q2 2025 earnings on July 30",
+      "description": "Material due to Meta's significant S&P 500 and NDX index weight.",
+      "properties": {
+        "date": "2025-07-30",
+        "event_type": "quarterly_earnings",
+        "ticker": "META"
+      }
+    },
+    {
+      "name": "EquityMarkets-Apple Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Apple reports Q2 2025 earnings on July 31",
+      "description": "Material as a top S&P 500 and \u2018Magnificent 7\u2019 component.",
+      "properties": {
+        "date": "2025-07-31",
+        "event_type": "quarterly_earnings",
+        "ticker": "AAPL"
+      }
+    },
+    {
+      "name": "EquityMarkets-Amazon Q2 2025 earnings",
+      "type": "Event",
+      "brief": "Amazon reports Q2 2025 earnings on July 31",
+      "description": "Material due to Amazon's significant index weighting and market impact.",
+      "properties": {
+        "date": "2025-07-31",
+        "event_type": "quarterly_earnings",
+        "ticker": "AMZN"
+      }
+    },
+    {
+      "name": "EquityMarkets-Table T1 \u2013 SPX GICS Sector Quarterly Earnings by Marketcap",
+      "type": "Table",
+      "brief": "Breakdown of S&P 500 sectoral earnings timetable by market cap",
+      "description": "Material as it details the pace and concentration of earnings disclosures by sector and week.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "GICS Sector                        Jul 14      Jul 21     Jul 28      Aug 04 Aug 11 Aug 18               Aug 25 Total \nCommunication Services              1.0%        4.6%       3.2%        0.7%        0.0%       0.0%        0.0%        9.5% \nConsumer Discretionary              0.0%       2.6%        5.0%        0.9%        0.0%        1.3%       0.1%        9.9% \nConsumer Staples                    0.4%        1.1%        1.6%       0.2%        0.0%       0.9%        0.1%        4.3% \nEnergy                              0.1%        0.4%        1.5%       1.0%        0.0%       0.0%        0.0%        2.9% \nFinancials                          1.4%        1.9%       3.7%        2.2%        0.0%        0.0%        0.0%       9.2% \nHealth Care                         0.5%        1.6%       2.8%        3.0%        0.1%        0.3%       0.0%       8.3% \nIndustrials                        0.9%        2.5%       2.9%        1.7%        0.2%        0.0%        0.0%       8.2% \nInformation Technology              0.0%        2.1%       14.9%       1.8%        0.8%        1.2%       8.9%       29.7% \nMaterials                           0.0%        0.5%        1.0%       0.3%        0.0%        0.0%        0.0%       1.9% \nReal Estate                        0.0%        0.3%        1.2%       0.3%        0.0%        0.0%       0.0%        1.8% \nUtilities                          0.0%        0.3%        1.1%       0.9%        0.0%        0.0%        0.0%       2.4% \nSum total                           4.2%       17.9%       38.8%       13.1%       1.2%        3.7%        9.1%       88.0% \nAggregate                                      22.1%       60.9%      74.1%       75.2%       78.9%       88.0%",
+        "key_insight": "Nearly 39% of S&P 500 market capitalization reports earnings on the week of July 28, with information technology leading."
+      }
+    },
+    {
+      "name": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "Metric",
+      "brief": "Information Technology sector: 14.9% S&P 500 earnings in key week",
+      "description": "Material as this sector alone accounts for almost 15% of market cap reporting in a single week.",
+      "properties": {
+        "value": 14.9,
+        "unit": "%",
+        "as_of": "2025-07-28"
+      }
+    },
+    {
+      "name": "EquityMarkets-SPX index concentration",
+      "type": "Metric",
+      "brief": "SPX: \u2018Magnificent 7\u2019 represent 33% weighting",
+      "description": "33 cents per $1 in SPX go to \u2018Magnificent 7\u2019, showing high index concentration.",
+      "properties": {
+        "value": 33,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX index concentration",
+      "type": "Metric",
+      "brief": "NDX: \u2018Magnificent 7\u2019 represent 43% weighting",
+      "description": "43 cents per $1 in NDX go to \u2018Magnificent 7\u2019, implying heavy passive flow concentration.",
+      "properties": {
+        "value": 43,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "EquityMarkets-US corporate earnings beat rate",
+      "type": "Metric",
+      "brief": "87% of reporting US corporates beat estimates",
+      "description": "169/193 companies have beaten earnings so far, a signal of underappreciated earnings strength.",
+      "properties": {
+        "value": 87,
+        "unit": "%",
+        "as_of": null,
+        "num_reported": 193,
+        "num_beat": 169
+      }
+    },
+    {
+      "name": "EquityMarket-Q3-2025 Earnings Beat Table",
+      "type": "Table",
+      "brief": "Q3 2025 S&P 500 sector earnings beats and totals",
+      "description": "Table summarizes sector-level S&P 500 earnings beats, misses, and beat percentage for Q3 2025 as of July 23, 2025. Highlights sectors leading and lagging earnings expectations.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Industry                                              # Reported                  # Beat               % Beat \n    Communication Services                                              10                 10              100% \n    Consumer Discretionary                                              24                 18                75% \n    Consumer Staples                                                    24                20                 83% \n     Energy                                                               5                  4                80% \n    Financials                                                          34                31                  91% \n     Health Care                                                        19                 18                 94% \n    Industrials                                                         27                27               100% \n    Information Technology                                              41                35                 85% \n     Materials                                                            5                  2               40% \n     Real Estate                                                           3                 3             100% \n     Utilities                                                             1                 1             100% \n Total                                                                193               169                  87% ",
+        "key_insight": "87% of S&P 500 companies reporting Q3 2025 have beaten earnings expectations as of July 23, with standout 100% beat rates in Industrials, Real Estate, Utilities, and Communication Services."
+      }
+    },
+    {
+      "name": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "Factor",
+      "brief": "Elevated single-name price dispersion beneath stable S&P index level",
+      "description": "Despite a calm S&P 500 spot, significant underlying stock-level performance divergence was observed during the week of July 23, 2025.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 7
+      }
+    },
+    {
+      "name": "EquityMarket-Retail Demand Volatility July 2025",
+      "type": "Factor",
+      "brief": "Retail flows into high volatility, anti-momentum, consensus shorted equities",
+      "description": "Retail trading showed increased demand for high realized volatility and anti-momentum stocks during the week of July 23, 2025, per Citadel Securities.",
+      "properties": {
+        "direction": "up",
+        "driver": "retail flows"
+      }
+    },
+    {
+      "name": "EquityMarket-July Seasonality Trend",
+      "type": "Factor",
+      "brief": "Historic S&P 500 tendency to rally post mid-to-late July",
+      "description": "Over the past 100 years, the S&P 500 typically bases around this week in July before rising towards month-end, influenced by vacation schedules and market positioning.",
+      "properties": {
+        "lookback_days": 36500,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityMarket-S&P 500 September Daily Performance Table T1 \u2013 Average S&P 500 daily performance declines in September",
+      "type": "Table",
+      "brief": "S&P 500 September daily average performance shows seasonal weakness.",
+      "description": "Provides indexed S&P 500 performance per September day, highlighting persistent negative trend and low troughs.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Day of Sep | S&P 500 Performance |\n|------------|---------------------|\n| 01         | 100.15              |\n| 02         | 100.40              |\n| 03         | 100.20              |\n| 04         | 100.05              |\n| 05         | 100.25              |\n| 06         | 100.28              |\n| 07         | 100.25              |\n| 08         | 100.15              |\n| 09         | 100.00              |\n| 10         | 99.65               |\n| 11         | 99.80               |\n| 12         | 99.70               |\n| 13         | 99.65               |\n| 14         | 99.63               |\n| 15         | 99.60               |\n| 16         | 99.95               |\n| 17         | 99.78               |\n| 18         | 99.75               |\n| 19         | 99.78               |\n| 20         | 99.55               |\n| 21         | 99.40               |\n| 22         | 99.30               |\n| 23         | 99.15               |\n| 24         | 99.00               |\n| 25         | 98.60               |\n| 26         | 98.75               |\n| 27         | 98.85               |\n| 28         | 98.50               |\n| 29         | 98.38               |\n| 30         | 98.30               |",
+        "key_insight": "The S&P 500 exhibits a consistent negative seasonal trend during September, culminating in monthly lows near 98.30 index level."
+      }
+    },
+    {
+      "name": "EquityMarket-September Negative Seasonality",
+      "type": "Factor",
+      "brief": "September regularly coincides with S&P 500 seasonal weakness.",
+      "description": "Historical S&P 500 data since 1928 reveals a recurring negative pattern in September, supporting timing of potential corrections.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 1.85,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "type": "Table",
+      "brief": "Table of global CTA positioning in equities Jan 2024\u2013Jul 2025",
+      "description": "Charts swings in global CTA net positioning; volatility and recent neutral convergence signal capacity to alter exposure.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Global CTA Positioning |\n|------|------------------------|\n| Jan 2024 | 0.8 |\n| Feb 2024 | 0.3 |\n| Mar 2024 | 1.2 |\n| Apr 2024 | 0.6 |\n| May 2024 | -0.8 |\n| Jun 2024 | -1.8 |\n| Jul 2024 | -0.5 |\n| Aug 2024 | -0.3 |\n| Sep 2024 | 0.8 |\n| Oct 2024 | -0.2 |\n| Nov 2024 | 0.4 |\n| Dec 2024 | 0.8 |\n| Jan 2025 | 2.2 |\n| Feb 2025 | 1.0 |\n| Mar 2025 | -1.0 |\n| Apr 2025 | -2.4 |\n| May 2025 | 1.0 |\n| Jun 2025 | 2.6 |\n| Jul 2025 | -0.06 |",
+        "key_insight": "Global CTA positioning has been volatile (net long to net short), with July 2025 near-neutral (-0.06), indicating significant capacity to add or reduce equity risk."
+      }
+    },
+    {
+      "name": "Equity CTA-ES Positioning Scenarios Table",
+      "type": "Table",
+      "brief": "ES futures: historical/projected CTA signal and \u00b1100bps scenarios",
+      "description": "Displays CTA positioning signal for S&P 500 futures, showing recent shift from negative to positive and scenario bands.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Approx. Date | Signal | +100 bps Scenario | -100 bps Scenario |\n|--------------|--------|-------------------|-------------------|\n| Apr 01, 2025 | -0.45  |                   |                   |\n| Apr 08, 2025 | -0.55  |                   |                   |\n| Apr 15, 2025 | -0.25  |                   |                   |\n| Apr 22, 2025 | -0.15  |                   |                   |\n| Apr 29, 2025 | -0.05  |                   |                   |\n| May 06, 2025 | 0.00   |                   |                   |\n| May 13, 2025 | 0.05   |                   |                   |\n| May 20, 2025 | -0.05  |                   |                   |\n| May 27, 2025 | 0.40   |                   |                   |\n| Jun 03, 2025 | 0.45   |                   |                   |\n| Jun 10, 2025 | 0.70   |                   |                   |\n| Jun 17, 2025 | 0.40   |                   |                   |\n| Jun 24, 2025 | 0.25   |                   |                   |\n| Jul 01, 2025 | 0.20   |                   |                   |\n| Jul 08, 2025 | 0.55   |                   |                   |\n| Jul 15, 2025 | 0.40   |                   |                   |\n| Jul 22, 2025 | 0.30   |                   |                   |\n| Jul 29, 2025 | 0.40   |                   |                   |\n| Aug 05, 2025 | 0.35   | 0.50              | 0.30              |\n| Aug 12, 2025 | 0.30   | 0.40              | 0.25              |\n| Aug 19, 2025 | 0.30   | 0.35              | 0.20              |\n| Aug 26, 2025 | 0.25   | 0.30              | 0.15              |",
+        "key_insight": "CTA positioning for ES futures flipped positive in May\u2013June 2025 and is likely to remain positive, with buffer to the \u2018flip\u2019 level at 6106."
+      }
+    },
+    {
+      "name": "Equity CTA-NQ Positioning Scenarios Table",
+      "type": "Table",
+      "brief": "NQ futures: CTA positioning signal and \u00b1100bps scenario paths",
+      "description": "Charts NQ futures positioning from negative to sharply positive in mid-June 2025, introducing scenario bands for August 2025.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Date       | Signal | +100 bps Scenario | -100 bps Scenario |\n|------------|--------|-------------------|-------------------|\n| Apr 1, 2025 | -0.55  | N/A               | N/A               |\n| Apr 8, 2025 | -0.40  | N/A               | N/A               |\n| Apr 15, 2025| -0.20  | N/A               | N/A               |\n| Apr 22, 2025| -0.05  | N/A               | N/A               |\n| Apr 29, 2025| 0.05   | N/A               | N/A               |\n| May 6, 2025 | -0.05  | N/A               | N/A               |\n| May 13, 2025| 0.00   | N/A               | N/A               |\n| May 20, 2025| 0.15   | N/A               | N/A               |\n| May 27, 2025| 0.40   | N/A               | N/A               |\n| Jun 3, 2025 | 0.45   | N/A               | N/A               |\n| Jun 10, 2025| 0.50   | N/A               | N/A               |\n| Jun 17, 2025| 0.75   | N/A               | N/A               |\n| Jun 24, 2025| 0.50   | N/A               | N/A               |\n| Jul 1, 2025 | 0.35   | N/A               | N/A               |\n| Jul 8, 2025 | 0.25   | N/A               | N/A               |\n| Jul 15, 2025| 0.20   | N/A               | N/A               |\n| Jul 22, 2025| 0.30   | N/A               | N/A               |\n| Jul 29, 2025| 0.32   | N/A               | N/A               |\n| Aug 5, 2025 | 0.35   | 0.45              | 0.25              |\n| Aug 12, 2025| 0.30   | 0.40              | 0.20              |\n| Aug 19, 2025| 0.25   | 0.35              | 0.15              |\n| Aug 26, 2025| 0.22   | 0.32              | 0.12              |",
+        "key_insight": "CTA positioning in NQ futures turned sharply positive by mid-June 2025; with significant buffer before reversal threshold at 22320."
+      }
+    },
+    {
+      "name": "Equity CTA-S&P 500 CTA Flip Level",
+      "type": "Metric",
+      "brief": "Estimated S&P 500 (ES1) flip threshold for CTAs",
+      "description": "Flip level (6106) is a key threshold for systematic reduction of equity exposure in CTA strategies.",
+      "properties": {
+        "value": 6106,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-SPX Level Jul2025",
+      "type": "Metric",
+      "brief": "Current S&P 500 index level as of July 23, 2025",
+      "description": "Represents spot index level for S&P 500, compared to CTA flip level.",
+      "properties": {
+        "value": 6370,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-NQ Futures CTA Flip Level",
+      "type": "Metric",
+      "brief": "Estimated NQ (Nasdaq 100 futures) CTA flip threshold",
+      "description": "Flip level (22320) is threshold for CTA-driven reversal in NQ futures exposure.",
+      "properties": {
+        "value": 22320,
+        "unit": "indexPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-3-month Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "3-month realized volatility in S&P 500 as of July 23, 2025",
+      "description": "Indicates recent realized volatility; impacts vol-control and systematic equity strategies.",
+      "properties": {
+        "value": 26.5,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-10-day Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "10-day realized S&P volatility as of July 23, 2025",
+      "description": "Short-term realized vol, signals rapid declines supporting vol-control risk-on shifts.",
+      "properties": {
+        "value": 4.8,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity CTA-30-day Realized S&P Volatility",
+      "type": "Metric",
+      "brief": "30-day realized volatility in S&P 500 as of July 23, 2025",
+      "description": "Intermediate realized vol, slope versus longer-term vol informs positioning.",
+      "properties": {
+        "value": 8.9,
+        "unit": "volPts",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "type": "Table",
+      "brief": "VIX monthly performance seasonal line chart since 1990",
+      "description": "Shows typical VIX seasonality, with lowest volatility in July and a rebound peaking in October; impacts rules-based equity demand.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Month | VIX Performance |\n|-------|-----------------|\n| Jan   | 18.40           |\n| Feb   | 18.50           |\n| Mar   | 18.20           |\n| Apr   | 17.10           |\n| May   | 17.20           |\n| Jun   | 17.05           |\n| Jul   | 16.65           |\n| Aug   | 17.00           |\n| Sep   | 17.80           |\n| Oct   | 18.90           |\n| Nov   | 17.40           |\n| Dec   | 17.95           |",
+        "key_insight": "July typically marks the annual VIX low (~16.65), with a sharp rebound peaking in October (~18.90), reflecting a strong historical seasonal volatility pattern."
+      }
+    },
+    {
+      "name": "EquitiesMarket-Longest-Retail-Cash-Buying-Streaks-Chart",
+      "type": "Table",
+      "brief": "Retail cash buying streaks bar chart tracked by Citadel Securities",
+      "description": "Highlights five periods of sustained retail daily cash equity buying, with June 2025 being the longest streak in the past four years.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date of Streak | Buying Streak (Days) |\n|----------------|----------------------|\n| Apr 2017       | 25                   |\n| Jan 2020       | 21                   |\n| Nov 2020       | 32                   |\n| Mar 2021       | 23                   |\n| Jun 2025       | 19                   |",
+        "key_insight": "The 19-day retail cash equities buying streak in June 2025 is the fifth longest on record and the longest in the past four years, signaling robust retail demand."
+      }
+    },
+    {
+      "name": "EquitiesMarket-VIX-July-Low",
+      "type": "Metric",
+      "brief": "VIX seasonal July low value",
+      "description": "July represents the typical annual low for VIX, with a value of 16.65.",
+      "properties": {
+        "unit": null,
+        "value": 16.65,
+        "as_of": "July"
+      }
+    },
+    {
+      "name": "EquitiesMarket-VIX-October-Peak",
+      "type": "Metric",
+      "brief": "VIX seasonal October peak value",
+      "description": "October shows the yearly peak for VIX, at 18.90.",
+      "properties": {
+        "unit": null,
+        "value": 18.9,
+        "as_of": "October"
+      }
+    },
+    {
+      "name": "EquitiesMarket-RetailBuyingStreak-June2025",
+      "type": "Event",
+      "brief": "Sustained retail cash equity buying June 2025",
+      "description": "Retail investors bought cash equities for 19 consecutive trading sessions as of June 2025, the longest streak since 2021.",
+      "properties": {
+        "date": "2025-06",
+        "event_type": "RetailCashBuyingStreak",
+        "impact_value": 19,
+        "unit": "days"
+      }
+    },
+    {
+      "name": "EquityMarkets-Table T1 \u2013 NDX September Historical Daily Performance",
+      "type": "Table",
+      "brief": "NDX daily performance during September since 1985",
+      "description": "Shows historical September daily moves for Nasdaq 100, highlighting seasonal weakness.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | NDX Performance |\n|---|---|\n| Sep 01 | 100.17 |\n| Sep 02 | 100.52 |\n| Sep 03 | 100.00 |\n| Sep 04 | 99.95 |\n| Sep 05 | 99.55 |\n| Sep 06 | 99.30 |\n| Sep 07 | 99.50 |\n| Sep 08 | 99.60 |\n| Sep 09 | 99.78 |\n| Sep 10 | 100.10 |",
+        "key_insight": "NDX typically peaks in early September before sustained declines, ending the month near lows."
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX September Peak Performance",
+      "type": "Metric",
+      "brief": "Highest NDX normalized performance in September",
+      "description": "Shows NDX reached its monthly peak around September 13th at 100.70.",
+      "properties": {
+        "value": 100.7,
+        "unit": "indexPts",
+        "as_of": "Sep 13"
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX September Monthly Low",
+      "type": "Metric",
+      "brief": "Lowest NDX normalized performance in September",
+      "description": "NDX closed at its lowest point of the month, 98.72, on September 28th.",
+      "properties": {
+        "value": 98.72,
+        "unit": "indexPts",
+        "as_of": "Sep 28"
+      }
+    },
+    {
+      "name": "Equity-Market Vol Control Table T1 \u2013 Vol Control Exposure Levels 2022-2025",
+      "type": "Table",
+      "brief": "Vol Control exposure across 5%, 10%, 15% targets (2022-2025)",
+      "description": "Displays how Vol Control strategies changed equity allocations based on volatility trends from 2022 to 2025.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Vol Control Setting | Exposure Level |\n|---|---|---|\n| 2022 (Start) | 5% | 20% |\n| 2023 (Mid) | 5% | 35% |\n| 2024 (Peak) | 5% | 45% |\n| 2025 (Low) | 5% | ~10% |\n| 2025 (Current) | 5% | 27% |\n| 2022 (Start) | 10% | 65% |\n| 2023 (Mid) | 10% | 85% |\n| 2024 (Peak) | 10% | ~110% |\n| 2025 (Low) | 10% | ~20% |\n| 2025 (Current) | 10% | 55% |\n| 2022 (Start) | 15% | 95% |\n| 2023 (Peak) | 15% | ~140% |\n| 2024 (Mid) | 15% | ~120% |\n| 2025 (Low) | 15% | ~30% |\n| 2025 (Current) | 15% | 83% |",
+        "key_insight": "Vol Control strategies cut equity exposure sharply in early 2025 as volatility rose, but have since partially recovered, still below 2023/2024 highs."
+      }
+    },
+    {
+      "name": "Equity-Market Vol Control Current 5% Exposure Metric",
+      "type": "Metric",
+      "brief": "Current 5% target Vol Control equity exposure (as of 7/23/25)",
+      "description": "Current equity exposure for Vol Control strategies at 5% volatility target, showing recovery but below peak.",
+      "properties": {
+        "value": 27,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Vol Control Current 10% Exposure Metric",
+      "type": "Metric",
+      "brief": "Current 10% target Vol Control equity exposure (as of 7/23/25)",
+      "description": "Current equity exposure for Vol Control strategies at 10% volatility target; substantial rebound from 2025 lows.",
+      "properties": {
+        "value": 55,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Vol Control Current 15% Exposure Metric",
+      "type": "Metric",
+      "brief": "Current 15% target Vol Control equity exposure (as of 7/23/25)",
+      "description": "Current equity exposure for Vol Control strategies at 15% volatility target, showing strongest recovery but below historical peaks.",
+      "properties": {
+        "value": 83,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Risk Parity Table T2 \u2013 Risk Parity Positions 2022-2025",
+      "type": "Table",
+      "brief": "Risk Parity asset positions (ES, TY, CL, GC), 2022-2025",
+      "description": "Shows asset class allocations (equity, Treasuries, crude oil, gold) in Risk Parity strategies and their multi-year inflection points.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Asset | Year (Approx.) | Position (%) |\n|---------|----------------|--------------|\n| ES      | Early 2022     | 18%          |\n| ES      | Mid 2023       | 28%          |\n| ES      | Early 2025     | 12%          |\n| ES      | Current        | 23%          |\n| TY      | Early 2022     | 55%          |\n| TY      | Late 2022      | 40%          |\n| TY      | Early 2024     | 37%          |\n| TY      | Current        | 55%          |\n| CL      | Early 2022     | 7%           |\n| CL      | Mid 2023       | 12%          |\n| CL      | Current        | 7%           |\n| GC      | Early 2022     | 20%          |\n| GC      | Mid 2022       | 30%          |\n| GC      | Mid 2023       | 28%          |\n| GC      | Current        | 13%          |",
+        "key_insight": "Risk Parity fixed income allocation (TY) has fully recovered to 55% from 2024 lows; equity (ES) and gold (GC) remain well below previous peaks."
+      }
+    },
+    {
+      "name": "Equity-Market Risk Parity Current ES Position Metric",
+      "type": "Metric",
+      "brief": "Current S&P 500 futures (ES) position in Risk Parity",
+      "description": "Risk Parity equity allocation to ES as of mid-2025, up from 2025 low but below peak.",
+      "properties": {
+        "value": 23,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Risk Parity Current TY Position Metric",
+      "type": "Metric",
+      "brief": "Current 10Y Treasury (TY) position in Risk Parity",
+      "description": "Current Risk Parity allocation to TY (10-Year Treasury futures), rebounding to cycle highs.",
+      "properties": {
+        "value": 55,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Risk Parity Current CL Position Metric",
+      "type": "Metric",
+      "brief": "Current Crude Oil (CL) position in Risk Parity",
+      "description": "Current Risk Parity allocation to crude oil futures remains low.",
+      "properties": {
+        "value": 7,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market Risk Parity Current GC Position Metric",
+      "type": "Metric",
+      "brief": "Current Gold (GC) position in Risk Parity",
+      "description": "Allocation to gold futures in Risk Parity strategies; down from previous highs.",
+      "properties": {
+        "value": 13,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Equity-Market MOVE Index Near Cycle Lows 2025 Event",
+      "type": "Event",
+      "brief": "MOVE Index at lowest level since 2022 (as of 7/23/25)",
+      "description": "Risk Parity strategies are influenced by low MOVE Index, signaling capacity to add equity exposure.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Volatility index low",
+        "impact_value": null,
+        "affected_tickers": [],
+        "region": "Global"
+      }
+    },
+    {
+      "name": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "Factor",
+      "brief": "Net notional activity by retail clients in cash equities",
+      "description": "Represents the magnitude and trend of buying or selling by retail clients in Citadel Securities' cash equities desk; signals risk sentiment.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 8.8,
+        "lookback_days": 189
+      }
+    },
+    {
+      "name": "CitadelSecurities Retail Options Positioning",
+      "type": "Factor",
+      "brief": "Directional activity in retail options trading",
+      "description": "Captures the directional buying (bullish/bearish) by retail investors in options via Citadel Securities, indicating risk appetite.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 91,
+        "streak_days": 13
+      }
+    },
+    {
+      "name": "CitadelSecurities Table T1 \u2013 Weekly Net Notional Cash Equities Activity Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Weekly net notional retail activity in cash equities",
+      "description": "Displays weekly % std dev of net notional in retail cash equities Jan\u2013mid-July 2025, showing trend shifts and peaks.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Week Start Date | Net Notional (% Std Dev) |\n|-----------------|--------------------------|\n| Jan 06          | 5.8%                     |\n| Jan 13          | -1.0%                    |\n| Jan 20          | 1.0%                     |\n| Jan 27          | 4.0%                     |\n| Feb 03          | 3.3%                     |\n| Feb 10          | 7.3%                     |\n| Feb 17          | 3.4%                     |\n| Feb 24          | 1.8%                     |\n| Mar 03          | 0.5%                     |\n| Mar 10          | -0.5%                    |",
+        "key_insight": "Retail net buying has dominated 12 of past 14 weeks, with the strongest buying on June 30 (8.8%) and Feb 10 (7.3%)."
+      }
+    },
+    {
+      "name": "CitadelSecurities Table T2 \u2013 Weekly Net Notional Retail Clients Cash Equities Activity Jan-Jul 2025",
+      "type": "Table",
+      "brief": "Weekly net notional for retail clients in cash equities",
+      "description": "Shows client-focused cash equities net flows Jan\u2013mid-July 2025, with focus on green-shaded, persistent buying zone.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Week Start | Net Notional (% Std Dev) |\n|------------|--------------------------|\n| Jan 06     | 5.7%                     |\n| Jan 13     | -1.0%                    |\n| Jan 20     | 0.9%                     |\n| Jan 27     | 3.9%                     |\n| Feb 03     | 3.2%                     |\n| Feb 10     | 7.3%                     |\n| Feb 17     | 3.3%                     |\n| Feb 24     | 1.8%                     |\n| Mar 03     | 0.5%                     |\n| Mar 10     | -0.4%                    |",
+        "key_insight": "Consistent net buying since late April, with major peaks in mid-Feb (7.3%) and late June (8.6%), supporting narrative bullishness."
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500",
+      "type": "Factor",
+      "brief": "S&P 500 equity market highs and volatility",
+      "description": "Primary market trend watched for all-time highs and potential for a 'blow-off' top, underpinned by technicals and sector laggards.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 19
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Concentration Table T1 \u2013 Q2 S&P 500 Earnings Reporting Intensity",
+      "type": "Table",
+      "brief": "Concentration timeline of S&P 500 market cap reporting Q2 earnings",
+      "description": "Visualizes the percentage of S&P 500 market cap announcing Q2 earnings by week, peaking significantly during the week of July 28th.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Week    | % of SPX Market Cap |\n|---------|---------------------|\n| Jul 14  | 4.2%                |\n| Jul 21  | 17.9%               |\n| Jul 28  | 38.8%               |\n| Aug 04  | 13.1%               |\n| Aug 11  | 1.2%                |\n| Aug 18  | 3.7%                |\n| Aug 25  | 9.1%                |",
+        "key_insight": "Nearly 39% of the S&P 500 market capitalization reports Q2 earnings during the week of July 28th, concentrating market-moving information in a single week."
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Peak Reporting Week Metric",
+      "type": "Metric",
+      "brief": "Peak corporate earnings reports concentration in a single week",
+      "description": "Represents the peak intensity of S&P 500 Q2 earnings reporting, with 38.8% of market cap reporting during the week of July 28th.",
+      "properties": {
+        "value": 38.8,
+        "unit": "%",
+        "as_of": "Jul 28"
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Alphabet Inc.",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, reporting Q2 earnings",
+      "description": "Alphabet comprises 3.62% of the S&P 500 and is among first M7 to report Q2 earnings, affecting market sentiment.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Communications",
+        "market_cap_weight_pct": 3.62
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Tesla Inc.",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, reporting Q2 earnings",
+      "description": "Tesla comprises 1.8% of the S&P 500 and is among the first M7 to report Q2 earnings, impacting sector performance.",
+      "properties": {
+        "ticker": "TSLA",
+        "sector": "Consumer Discretionary",
+        "market_cap_weight_pct": 1.8
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Nvidia Corporation",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, last to report Q2 earnings",
+      "description": "Nvidia is the last of the Magnificent 7 to report Q2 earnings, scheduled for August 27th.",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Information Technology",
+        "market_cap_weight_pct": null
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "Event",
+      "brief": "Majority of S&P 500 market cap reporting Q2 earnings by late August",
+      "description": "By August 29th, 88% of S&P 500 market capitalization will have reported Q2 earnings; 18% reporting during the current week.",
+      "properties": {
+        "date": "2025-08-29",
+        "event_type": "Earnings Season Completion",
+        "impact_value": 88,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Equity Market \u2013 Longest Retail Weekly Option Buying Streaks on Record Table",
+      "type": "Table",
+      "brief": "Table of historical retail option buying streaks.",
+      "description": "Shows the seven longest streaks of retail weekly option buying since Jan 2020, including current 12-week streak as of Apr 2025.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Weeks |\n|------|-------|\n| Jan 2020 | 12 |\n| Jul 2020 | 17 |\n| Nov 2020 | 17 |\n| Mar 2021 | 23 |\n| Aug 2021 | 16 |\n| Nov 2023 | 24 |\n| Apr 2025 | 12 |",
+        "key_insight": "Current retail option buying streak reached 12 weeks in April 2025, only the 7th such streak since 2020, with prior average duration at 18 weeks."
+      }
+    },
+    {
+      "name": "Equity Market \u2013 Institutional Options Put/Call Direction Ratio by Week Table",
+      "type": "Table",
+      "brief": "Weekly institutional put/call direction ratios Jan\u2013Jul 2025.",
+      "description": "Displays Citadel Securities clients\u2019 weekly put/call ratios from Jan to Jul 2025, emphasizing sustained bearish positioning from May\u2013Jul.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | Put/Call Ratio |\n|-----------|----------------|\n| Jan 06    | -13%           |\n| Jan 13    | -8%            |\n| Jan 20    | -13%           |\n| Jan 27    | 7%             |\n| Feb 03    | -28%           |\n| Feb 10    | 12%            |\n| Feb 17    | 13%            |\n| Feb 24    | -12%           |\n| Mar 03    | 3%             |\n| Mar 10    | 21%            |\n| Mar 17    | 5%             |\n| Mar 24    | -23%           |\n| Mar 31    | 14%            |\n| Apr 07    | 9%             |\n| Apr 14    | -5%            |\n| Apr 21    | 15%            |\n| Apr 28    | -9%            |\n| May 05    | -17%           |\n| May 12    | -27%           |\n| May 19    | -10%           |\n| May 26    | -1%            |\n| Jun 02    | 12%            |\n| Jun 09    | -2%            |\n| Jun 16    | -13%           |\n| Jun 23    | -6%            |\n| Jun 30    | -10%           |\n| Jul 07    | -18%           |\n| Jul 14    | -2%            |",
+        "key_insight": "Institutional investors showed persistent bearishness between May and July 2025, as evidenced by the negative put/call direction ratios."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity Markets\u2013Table T1 \u2013 Money Markets Asset Under Management Jan 2020\u2013Jul 2025",
+      "target": "Equity Markets\u2013Money Market AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table tracks the record rise in money market AUM to $7T in July 2025."
+    },
+    {
+      "source": "Equity Markets\u2013Money Market Redemption Event Apr 2025",
+      "target": "Equity Markets\u2013Money Market AUM",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": -151,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "April 2025 redemption temporarily reduced total AUM despite ongoing uptrend."
+    },
+    {
+      "source": "Equity Market-Money Market AUM Table T1 \u2013 Money Market AUM Trends Jan-Jul 2025",
+      "target": "Equity Market-Money Market AUM peak_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 7.06,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows AUM peak at $7.06tn in July 2025"
+    },
+    {
+      "source": "Equity Market-Money Market AUM Table T1 \u2013 Money Market AUM Trends Jan-Jul 2025",
+      "target": "Equity Market-Money Market AUM trough_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.92,
+        "lag_days": null,
+        "impact_value": 6.88,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 92
+      },
+      "description": "Table shows AUM trough at $6.88tn in April 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 \u2013 US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning peak_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.93,
+        "lag_days": null,
+        "impact_value": 1.0,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 93
+      },
+      "description": "CTA exposure peaked at 1.0 in early June 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 \u2013 US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning trough_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.91,
+        "lag_days": null,
+        "impact_value": -1.0,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 91
+      },
+      "description": "CTA exposure trough at -1.0 in Mar 2025"
+    },
+    {
+      "source": "Equity Market-CTA Positioning Table T2 \u2013 US Equity Aggregate CTA Positioning Jan 2024-Jul 2025",
+      "target": "Equity Market-CTA Positioning current_metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.94,
+        "lag_days": null,
+        "impact_value": 0.55,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 94
+      },
+      "description": "CTA net long exposure currently at 0.55 as of July 2025"
+    },
+    {
+      "source": "Equity S&P 500 Table T1 \u2013 July 2025 daily indexed S&P 500 performance",
+      "target": "Equity S&P 500 Metric \u2013 S&P 500 Indexed Value July 29 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 102.3,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs headline S&P 500 indexed value at July 29."
+    },
+    {
+      "source": "Equity S&P 500 Table T1 \u2013 July 2025 daily indexed S&P 500 performance",
+      "target": "Equity VIX Metric \u2013 Spot VIX July 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Low July VIX informs non-fundamental equity demand pattern."
+    },
+    {
+      "source": "EquityMarkets-Table T1 \u2013 SPX GICS Sector Quarterly Earnings by Marketcap",
+      "target": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 14.9,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table reveals Information Technology sector reports 14.9% of S&P 500 market cap earnings during key week."
+    },
+    {
+      "source": "EquityMarkets-Superbowl of earnings",
+      "target": "EquityMarkets-Information Technology weekly earnings weight",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 14.9,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "\u2018Superbowl of earnings\u2019 week is dominated by Information Technology sector\u2019s earnings reporting."
+    },
+    {
+      "source": "EquityMarkets-Table T1 \u2013 SPX GICS Sector Quarterly Earnings by Marketcap",
+      "target": "EquityMarkets-Superbowl of earnings",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 39,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table summarizes that 39% of S&P 500 market cap will report earnings in Superbowl week."
+    },
+    {
+      "source": "EquityMarkets-Information Technology weekly earnings weight",
+      "target": "EquityMarkets-SPX index concentration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 33,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Heavy infotech earnings drive SPX passive index concentration to Magnificent 7."
+    },
+    {
+      "source": "EquityMarkets-Information Technology weekly earnings weight",
+      "target": "EquityMarkets-NDX index concentration",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 43,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Infotech sector's earnings increase NDX index concentration in Magnificent 7 stocks."
+    },
+    {
+      "source": "EquityMarket-Q3-2025 Earnings Beat Table",
+      "target": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 87,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "High earnings beat rate informs underlying dispersion in price action."
+    },
+    {
+      "source": "EquityMarket-July 2025 Dispersion Movement",
+      "target": "EquityMarket-Retail Demand Volatility July 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Stock-level dispersion drives retail demand in volatility strategies."
+    },
+    {
+      "source": "EquityMarket-July Seasonality Trend",
+      "target": "EquityMarket-July 2025 Dispersion Movement",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 70
+      },
+      "description": "Seasonal pattern triggers increased equity movement and dispersion."
+    },
+    {
+      "source": "EquityMarket-S&P 500 September Daily Performance Table T1 \u2013 Average S&P 500 daily performance declines in September",
+      "target": "EquityMarket-September Negative Seasonality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1.85,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows S&P 500\u2019s consistent negative September trend and informs negative seasonality factor."
+    },
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-3-month Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 26.5,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "CTA positioning is closely shaped by realized volatility trends in equities."
+    },
+    {
+      "source": "Equity CTA-ES Positioning Scenarios Table",
+      "target": "Equity CTA-S&P 500 CTA Flip Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6106,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "ES positioning scenarios show strong buffer above CTA systematic flip threshold."
+    },
+    {
+      "source": "Equity CTA-ES Positioning Scenarios Table",
+      "target": "Equity CTA-SPX Level Jul2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6370,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Scenarios are referenced to current S&P 500 spot index."
+    },
+    {
+      "source": "Equity CTA-NQ Positioning Scenarios Table",
+      "target": "Equity CTA-NQ Futures CTA Flip Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 22320,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "NQ positioning shown with buffer above CTA flip threshold at 22320."
+    },
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-10-day Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 4.8,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "10-day realized vol is a significant short-term CTA input."
+    },
+    {
+      "source": "Equity CTA-Global Equity Aggregate CTA Positioning Table",
+      "target": "Equity CTA-30-day Realized S&P Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.9,
+        "unit": "volPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "30-day realized volatility also referenced in CTA equity exposure."
+    },
+    {
+      "source": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "target": "EquitiesMarket-VIX-July-Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 16.65,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Chart shows July VIX low of 16.65 is typical seasonal minimum."
+    },
+    {
+      "source": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "target": "EquitiesMarket-VIX-October-Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 18.9,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Chart highlights October as the typical VIX peak at 18.90."
+    },
+    {
+      "source": "EquitiesMarket-Longest-Retail-Cash-Buying-Streaks-Chart",
+      "target": "EquitiesMarket-RetailBuyingStreak-June2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "days",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Bar chart shows 19-day retail buying streak in June 2025 as longest since 2021."
+    },
+    {
+      "source": "EquityMarkets-Table T1 \u2013 NDX September Historical Daily Performance",
+      "target": "EquityMarkets-NDX September Peak Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 100.7,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows the peak NDX value occurred around Sep 13 at 100.70 index points."
+    },
+    {
+      "source": "EquityMarkets-Table T1 \u2013 NDX September Historical Daily Performance",
+      "target": "EquityMarkets-NDX September Monthly Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 98.72,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows NDX closed near monthly low of 98.72 on Sep 28."
+    },
+    {
+      "source": "Equity-Market Vol Control Table T1 \u2013 Vol Control Exposure Levels 2022-2025",
+      "target": "Equity-Market Vol Control Current 5% Exposure Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 27,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current (7/23/25) 5% target Vol Control exposure."
+    },
+    {
+      "source": "Equity-Market Vol Control Table T1 \u2013 Vol Control Exposure Levels 2022-2025",
+      "target": "Equity-Market Vol Control Current 10% Exposure Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current (7/23/25) 10% target Vol Control exposure."
+    },
+    {
+      "source": "Equity-Market Vol Control Table T1 \u2013 Vol Control Exposure Levels 2022-2025",
+      "target": "Equity-Market Vol Control Current 15% Exposure Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 83,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current (7/23/25) 15% target Vol Control exposure."
+    },
+    {
+      "source": "Equity-Market Risk Parity Table T2 \u2013 Risk Parity Positions 2022-2025",
+      "target": "Equity-Market Risk Parity Current ES Position Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 23,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current equity (ES) position in Risk Parity."
+    },
+    {
+      "source": "Equity-Market Risk Parity Table T2 \u2013 Risk Parity Positions 2022-2025",
+      "target": "Equity-Market Risk Parity Current TY Position Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 55,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current fixed income (TY) allocation in Risk Parity."
+    },
+    {
+      "source": "Equity-Market Risk Parity Table T2 \u2013 Risk Parity Positions 2022-2025",
+      "target": "Equity-Market Risk Parity Current CL Position Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current crude oil (CL) position in Risk Parity."
+    },
+    {
+      "source": "Equity-Market Risk Parity Table T2 \u2013 Risk Parity Positions 2022-2025",
+      "target": "Equity-Market Risk Parity Current GC Position Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 13,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs current gold (GC) position in Risk Parity."
+    },
+    {
+      "source": "Equity-Market MOVE Index Near Cycle Lows 2025 Event",
+      "target": "Equity-Market Risk Parity Current ES Position Metric",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Low MOVE Index level triggers Risk Parity capacity to increase equity (ES) allocation."
+    },
+    {
+      "source": "CitadelSecurities Table T1 \u2013 Weekly Net Notional Cash Equities Activity Jan-Jul 2025",
+      "target": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table quantifies net notional peak in retail cash equities activity (June 30: 8.8%)."
+    },
+    {
+      "source": "CitadelSecurities Table T2 \u2013 Weekly Net Notional Retail Clients Cash Equities Activity Jan-Jul 2025",
+      "target": "CitadelSecurities Retail Cash Equities Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table corroborates persistent net buying and peak in late June (8.6%)."
+    },
+    {
+      "source": "Equity Market Dynamics S&P 500 Q2 Earnings Concentration Table T1 \u2013 Q2 S&P 500 Earnings Reporting Intensity",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Peak Reporting Week Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 38.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table identifies 38.8% SPX market cap peak earnings reporting in week of July 28th."
+    },
+    {
+      "source": "Equity Market Dynamics Alphabet Inc.",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 3.62,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Alphabet's Q2 report meaningfully affects SPX market cap during earnings season."
+    },
+    {
+      "source": "Equity Market Dynamics Tesla Inc.",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Tesla's Q2 report impacts SPX earnings season sentiment and market cap."
+    },
+    {
+      "source": "Equity Market Dynamics Nvidia Corporation",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Nvidia's Q2 earnings conclusion marks end of M7 reporting in earnings season."
+    },
+    {
+      "source": "Equity Market \u2013 Longest Retail Weekly Option Buying Streaks on Record Table",
+      "target": "Equity Market \u2013 Retail Option Buying Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "weeks",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table reveals a 12-week retail option buying streak as of April 2025."
+    },
+    {
+      "source": "Equity Market \u2013 Institutional Options Put/Call Direction Ratio by Week Table",
+      "target": "Equity Market \u2013 Institutional Bearish Market Positioning",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -27,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table documents sustained bearish institutional positioning, peaking at -27% in May 2025."
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/citadel"
+}

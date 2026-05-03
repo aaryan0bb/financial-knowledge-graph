@@ -1,0 +1,1061 @@
+{
+  "entities": [
+    {
+      "name": "Global Equity Markets - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google, ticker GOOG",
+      "description": "Alphabet Inc. (GOOG) is the parent of Google, reporting earnings beat and capex raise",
+      "properties": {
+        "ticker": "GOOG"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Tesla Inc.",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer, ticker TSLA",
+      "description": "Tesla Inc. (TSLA) builds EVs and faced pre-market stock drop on tariff and earnings concerns",
+      "properties": {
+        "ticker": "TSLA"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Chinese Investment Banks Fee Cuts",
+      "type": "Event",
+      "brief": "Chinese banks cut bond issuance fees to $100",
+      "description": "China's investment banks slashed bond fees to as low as $100 amid a tepid credit market",
+      "properties": {
+        "date": null,
+        "event_type": "fee_cut",
+        "impact_value": 100,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Manufacturing PMI (Jul)",
+      "type": "Metric",
+      "brief": "Japan manufacturing PMI for July",
+      "description": "Flash manufacturing PMI came in at 48.8, down from 50.1 in June indicating contraction",
+      "properties": {
+        "value": 48.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Services PMI (Jul)",
+      "type": "Metric",
+      "brief": "Japan services PMI for July",
+      "description": "Flash services PMI rose to 53.5, up from 51.7 in June indicating expansion",
+      "properties": {
+        "value": 53.5,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - US-South Korea Investment Fund Talks",
+      "type": "Event",
+      "brief": "Discussion on creating fund for US project investments",
+      "description": "The US and South Korea discussed creating a fund to invest in American projects as part of a trade deal",
+      "properties": {
+        "date": null,
+        "event_type": "fund_creation_discussion",
+        "region": "US, South Korea"
+      }
+    },
+    {
+      "name": "Global Equity Markets - ECB Forecasted Rate Cut",
+      "type": "Event",
+      "brief": "Bloomberg Economics forecasts 25-bp rate cut in September",
+      "description": "Economists expect the ECB to cut rates by 25 bp in September to cushion US tariffs impact",
+      "properties": {
+        "date": "2023-09",
+        "event_type": "rate_cut",
+        "impact_value": 25,
+        "unit": "bp"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Eurozone Flash Services PMI (Jul)",
+      "type": "Metric",
+      "brief": "Eurozone services PMI for July",
+      "description": "Flash services PMI climbed to 51.2, up from 50.5 and above forecasts",
+      "properties": {
+        "value": 51.2,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Eurozone Flash Manufacturing PMI (Jul)",
+      "type": "Metric",
+      "brief": "Eurozone manufacturing PMI for July",
+      "description": "Flash manufacturing PMI rose to 49.8, up from 49.5 though still below neutral mark",
+      "properties": {
+        "value": 49.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Trump Fed Headquarters Tour",
+      "type": "Event",
+      "brief": "Trump plans to tour Fed headquarters",
+      "description": "President Trump will tour the Fed headquarters to ratchet up pressure on Powell to lower rates",
+      "properties": {
+        "date": null,
+        "event_type": "site_visit",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Global Equity Markets - White House Pressure on Powell",
+      "type": "Factor",
+      "brief": "Increased pressure on Fed to cut rates",
+      "description": "The White House is applying pressure on Fed Chair Powell to lower interest rates",
+      "properties": {
+        "direction": "up",
+        "driver": "pressure to lower rates"
+      }
+    },
+    {
+      "name": "Global Equity Markets - US Tariff Range",
+      "type": "Metric",
+      "brief": "Tariffs announced on US trading partners",
+      "description": "US trading partners will face tariffs ranging from 15% to 50% ahead of an Aug. 1 deadline",
+      "properties": {
+        "min": 15,
+        "max": 50,
+        "unit": "%",
+        "as_of": "2023-08-01"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Alphabet Inc. 2025 Capex",
+      "type": "Metric",
+      "brief": "Alphabet's projected capital expenditure for 2025",
+      "description": "GOOG unexpectedly raised 2025 capex by ~$10 bn to $85 bn against consensus",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - GOOG Stock Price Increase",
+      "type": "Event",
+      "brief": "GOOG shares rose by 3.25%",
+      "description": "GOOG stock gained 3.25% after a ~6% EPS beat and a surprise capex raise",
+      "properties": {
+        "date": null,
+        "event_type": "stock_price_increase",
+        "impact_value": 3.25,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "Event",
+      "brief": "TSLA shares fell 6% pre-market",
+      "description": "Tesla stock dropped 6% pre-market after comments on rough quarters and tariff pressures",
+      "properties": {
+        "date": null,
+        "event_type": "stock_price_decrease",
+        "impact_value": -6,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - End of EV Incentives",
+      "type": "Factor",
+      "brief": "Termination of electric vehicle purchase incentives",
+      "description": "The Trump administration ended electric vehicle incentives, reducing support for automakers",
+      "properties": {
+        "direction": "down",
+        "driver": "policy_change"
+      }
+    },
+    {
+      "name": "GlobalEquity - Tesla",
+      "type": "Company",
+      "brief": "Electric vehicle and clean energy company",
+      "description": "TSLA rating cut to Sell by Punto Casa de Bolsa, PT $299.48",
+      "properties": {
+        "ticker": "TSLA",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Intel",
+      "type": "Company",
+      "brief": "Semiconductor manufacturer",
+      "description": "INTC new Buy initiation by GF Securities with PT $34",
+      "properties": {
+        "ticker": "INTC",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Credicorp",
+      "type": "Company",
+      "brief": "Latin American financial services company",
+      "description": "Credicorp rating cut from Neutral to Sell",
+      "properties": {
+        "ticker": "BAP",
+        "region": "Americas"
+      }
+    },
+    {
+      "name": "GlobalEquity - Birkenstock",
+      "type": "Company",
+      "brief": "Footwear manufacturer",
+      "description": "Birkenstock rating upgraded from Neutral to Buy",
+      "properties": {
+        "ticker": "BIRK",
+        "region": "Europe"
+      }
+    },
+    {
+      "name": "GlobalEquity - Reece Ltd.",
+      "type": "Company",
+      "brief": "Australian plumbing supplier",
+      "description": "Reece Ltd. rating upgraded from Sell to Neutral",
+      "properties": {
+        "ticker": "REH.AX",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Strike T Energy",
+      "type": "Company",
+      "brief": "Energy company",
+      "description": "Strike T Energy rating downgraded from Buy to Neutral",
+      "properties": {
+        "ticker": "STX.AX",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Subaru Corp.",
+      "type": "Company",
+      "brief": "Japanese automaker",
+      "description": "Subaru Corp. rating upgraded from Neutral to Buy",
+      "properties": {
+        "ticker": "7270.T",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Trent Ltd.",
+      "type": "Company",
+      "brief": "Indian retail company",
+      "description": "Trent Ltd. rating downgraded from Buy to Neutral",
+      "properties": {
+        "ticker": "TREN.BO",
+        "region": "Asia"
+      }
+    },
+    {
+      "name": "GlobalEquity - Tesla Sell RatingChange",
+      "type": "Event",
+      "brief": "Cut to Sell rating",
+      "description": "Punto Casa de Bolsa cut Tesla rating to Sell with price target $299.48",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_new": "Sell",
+        "price_target": 299.48,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "GlobalEquity - Intel Buy RatingInitiation",
+      "type": "Event",
+      "brief": "New Buy rating initiation",
+      "description": "GF Securities initiated a Buy rating on Intel with price target $34",
+      "properties": {
+        "date": null,
+        "event_type": "RatingInitiation",
+        "rating_new": "Buy",
+        "price_target": 34,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "GlobalEquity - Credicorp Sell RatingChange",
+      "type": "Event",
+      "brief": "Cut to Sell rating",
+      "description": "Credicorp rating downgraded from Neutral to Sell by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Sell"
+      }
+    },
+    {
+      "name": "GlobalEquity - Birkenstock Buy RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Buy rating",
+      "description": "Birkenstock rating upgraded from Neutral to Buy by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Buy"
+      }
+    },
+    {
+      "name": "GlobalEquity - Reece Ltd. Neutral RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Neutral rating",
+      "description": "Reece Ltd. rating upgraded from Sell to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Sell",
+        "rating_new": "Neutral"
+      }
+    },
+    {
+      "name": "GlobalEquity - Strike T Energy Neutral RatingChange",
+      "type": "Event",
+      "brief": "Downgraded to Neutral rating",
+      "description": "Strike T Energy rating downgraded from Buy to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Buy",
+        "rating_new": "Neutral"
+      }
+    },
+    {
+      "name": "GlobalEquity - Subaru Corp. Buy RatingChange",
+      "type": "Event",
+      "brief": "Upgraded to Buy rating",
+      "description": "Subaru Corp. rating upgraded from Neutral to Buy by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Neutral",
+        "rating_new": "Buy"
+      }
+    },
+    {
+      "name": "GlobalEquity - Trent Ltd. Neutral RatingChange",
+      "type": "Event",
+      "brief": "Downgraded to Neutral rating",
+      "description": "Trent Ltd. rating downgraded from Buy to Neutral by GS",
+      "properties": {
+        "date": null,
+        "event_type": "RatingChange",
+        "rating_old": "Buy",
+        "rating_new": "Neutral"
+      }
+    },
+    {
+      "name": "Global Equity Markets \u2013 Japan NKY",
+      "type": "Instrument",
+      "brief": "Nikkei 225 index jumped 1.59%",
+      "description": "Japan\u2019s NKY rose 1.59% to 41,826.34 index points",
+      "properties": {
+        "ticker": "NKY",
+        "change_pct": 1.59,
+        "last": 41826.34,
+        "last_unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Equity Markets \u2013 Ethereum",
+      "type": "Instrument",
+      "brief": "Ethereum price increased 1.61%",
+      "description": "Ethereum climbed 1.61% to 3,627.30 USD",
+      "properties": {
+        "ticker": "Ethereum",
+        "change_pct": 1.61,
+        "last": 3627.3,
+        "last_unit": "USD"
+      }
+    },
+    {
+      "name": "Global Equity Markets \u2013 Copper",
+      "type": "Instrument",
+      "brief": "Copper futures up 1.73%",
+      "description": "Copper advanced 1.73% to 589.50 USD",
+      "properties": {
+        "ticker": "Copper",
+        "change_pct": 1.73,
+        "last": 589.5,
+        "last_unit": "USD"
+      }
+    },
+    {
+      "name": "Global Equity Markets - GSPUWSHI Index",
+      "type": "Instrument",
+      "brief": "High vs Low Short Interest Pair index",
+      "description": "Sector, industry, & factor neutral index tracking high vs low short interest returns",
+      "properties": {
+        "ticker": "GSPUWSHI",
+        "volatility_%": 13
+      }
+    },
+    {
+      "name": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "Event",
+      "brief": "10% one-month rally",
+      "description": "Best monthly returns since January 2021 meme stock squeeze",
+      "properties": {
+        "date": null,
+        "event_type": "return_rally",
+        "impact_value": 10,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Animal Spirit",
+      "type": "Factor",
+      "brief": "Market optimism driver",
+      "description": "Animal spirit fueled the rally",
+      "properties": {
+        "driver": "animal spirit"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Strong Retail Participation",
+      "type": "Factor",
+      "brief": "Retail investor trading driver",
+      "description": "Strong retail participation fueled the rally",
+      "properties": {
+        "driver": "strong retail participation"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Australia Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Australia flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI rose from 50.6 in June",
+      "properties": {
+        "value": 51.6,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Australia Flash Services PMI",
+      "type": "Metric",
+      "brief": "Australia flash services PMI for July 2025",
+      "description": "July services PMI rose from 51.8 in June",
+      "properties": {
+        "value": 53.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - India Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "India flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI rose from 58.4 in June",
+      "properties": {
+        "value": 59.2,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - India Flash Services PMI",
+      "type": "Metric",
+      "brief": "India flash services PMI for July 2025",
+      "description": "July services PMI fell from 60.4 in June",
+      "properties": {
+        "value": 59.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Japan flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI fell from 50.1 in June",
+      "properties": {
+        "value": 48.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Services PMI",
+      "type": "Metric",
+      "brief": "Japan flash services PMI for July 2025",
+      "description": "July services PMI rose from 51.7 in June",
+      "properties": {
+        "value": 53.5,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - South Korea Q2 2025 GDP Q/Q Growth",
+      "type": "Metric",
+      "brief": "South Korea Q2 2025 GDP Q/Q growth",
+      "description": "Q2 GDP came ahead of Street expectations",
+      "properties": {
+        "value": 0.6,
+        "unit": "%",
+        "as_of": "Q2 2025"
+      }
+    },
+    {
+      "name": "Global Markets - Eurozone Auto Registrations",
+      "type": "Metric",
+      "brief": "Monthly Y/Y change in vehicle registrations",
+      "description": "Auto registrations fell sharply in June, indicating weaker demand",
+      "properties": {
+        "value": -7.3,
+        "unit": "%",
+        "as_of": "2023-06"
+      }
+    },
+    {
+      "name": "Global Markets - Eurozone Flash Services PMI",
+      "type": "Metric",
+      "brief": "Flash services purchasing managers index",
+      "description": "Eurozone services PMI improved in July, indicating sector strength",
+      "properties": {
+        "value": 51.2,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Markets - Eurozone Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Flash manufacturing purchasing managers index",
+      "description": "Eurozone manufacturing PMI was in line with expectations in July",
+      "properties": {
+        "value": 49.8,
+        "unit": "indexPts",
+        "as_of": "2023-07"
+      }
+    },
+    {
+      "name": "Global Markets - Jun F Building Permits Release",
+      "type": "Event",
+      "brief": "Release of final June building permits",
+      "description": "June building permits used to gauge housing market activity",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 1397,
+        "prior_value": 1397,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jul 19 Initial Jobless Claims Release",
+      "type": "Event",
+      "brief": "Release of initial U.S. jobless claims",
+      "description": "Initial jobless claims data indicates trends in unemployment",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 226,
+        "prior_value": 221,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jun Chicago Fed Nat Activity Index Release",
+      "type": "Event",
+      "brief": "Release of Chicago Fed National Activity Index",
+      "description": "Chicago Fed index measures national economic activity levels",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": -0.15,
+        "prior_value": -0.28,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul 12 Continuing Claims Release",
+      "type": "Event",
+      "brief": "Release of continuing U.S. jobless claims",
+      "description": "Continuing claims data gauges sustained unemployment trends",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 1953.5,
+        "prior_value": 1956,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Manufacturing PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. manufacturing PMI release for July",
+      "description": "S&P Global preliminary PMI gauges U.S. manufacturing activity",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 52.7,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Services PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. services PMI release for July",
+      "description": "S&P Global preliminary PMI assesses U.S. services sector health",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 53,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jul P S&P Global U.S. Composite PMI Release",
+      "type": "Event",
+      "brief": "Preliminary U.S. composite PMI release for July",
+      "description": "Composite PMI combines U.S. manufacturing and services data",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 52.8,
+        "prior_value": 52.9,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Markets - Jun New Home Sales Release",
+      "type": "Event",
+      "brief": "Release of U.S. new home sales for June",
+      "description": "New home sales data tracks housing market demand in the U.S.",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 650,
+        "prior_value": 623,
+        "unit": "k"
+      }
+    },
+    {
+      "name": "Global Markets - Jun New Home Sales MoM Release",
+      "type": "Event",
+      "brief": "Month-on-month change in June new home sales",
+      "description": "Monthly change in new home sales indicates housing demand swings",
+      "properties": {
+        "date": null,
+        "event_type": "economic_data_release",
+        "estimate_value": 4.33,
+        "prior_value": -13.7,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Markets - Fed External Communications Blackout",
+      "type": "Event",
+      "brief": "Federal Reserve communications blackout period",
+      "description": "Fed's communications blackout ahead of policy meetings",
+      "properties": {
+        "date": null,
+        "event_type": "communication_blackout"
+      }
+    },
+    {
+      "name": "Global Markets - Birkenstock Rating Upgrade",
+      "type": "Event",
+      "brief": "Birkenstock raised to Buy by Goldman",
+      "description": "Goldman upgraded Birkenstock to Buy with $60 price target",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Buy",
+        "price_target": 60,
+        "unit": "USD",
+        "analyst_firm": "Goldman"
+      }
+    },
+    {
+      "name": "Global Markets - Boeing Rating Upgrade",
+      "type": "Event",
+      "brief": "Boeing raised to Outperform by KGI Securities",
+      "description": "KGI Securities upgraded Boeing to Outperform with $266 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 266,
+        "unit": "USD",
+        "analyst_firm": "KGI Securities"
+      }
+    },
+    {
+      "name": "Global Markets - General Dyna Rating Upgrade",
+      "type": "Event",
+      "brief": "General Dyna raised to Outperform by Wolfe",
+      "description": "Wolfe upgraded General Dyna to Outperform with $360 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 360,
+        "unit": "USD",
+        "analyst_firm": "Wolfe"
+      }
+    },
+    {
+      "name": "Global Markets - Northern Trus Rating Upgrade",
+      "type": "Event",
+      "brief": "Northern Trus raised to Peerperform by Wolfe",
+      "description": "Wolfe upgraded Northern Trus to Peerperform",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Peerperform",
+        "analyst_firm": "Wolfe"
+      }
+    },
+    {
+      "name": "Global Markets - Spoti Rating Upgrade",
+      "type": "Event",
+      "brief": "Spoti rated Outperform by Oppenheimer",
+      "description": "Oppenheimer rated Spoti to Outperform with $800 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "price_target": 800,
+        "unit": "USD",
+        "analyst_firm": "Oppenheimer"
+      }
+    },
+    {
+      "name": "Global Markets - Travel + Leisure Co Rating Upgrade",
+      "type": "Event",
+      "brief": "Travel + Leisure Co raised to Outperform by Mizuho Securities",
+      "description": "Mizuho Securities upgraded Travel + Leisure Co to Outperform",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Outperform",
+        "analyst_firm": "Mizuho Securities"
+      }
+    },
+    {
+      "name": "Global Markets - Varonis Systems Rating Upgrade",
+      "type": "Event",
+      "brief": "Varonis Systems raised to Buy by Jefferies",
+      "description": "Jefferies upgraded Varonis Systems to Buy with $65 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_upgrade",
+        "new_rating": "Buy",
+        "price_target": 65,
+        "unit": "USD",
+        "analyst_firm": "Jefferies"
+      }
+    },
+    {
+      "name": "Global Markets - AT&T Rating Downgrade",
+      "type": "Event",
+      "brief": "AT&T cut to Hold by HSBC",
+      "description": "HSBC downgraded AT&T to Hold with $30 price target",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 30,
+        "unit": "USD",
+        "analyst_firm": "HSBC"
+      }
+    },
+    {
+      "name": "Global Markets - BankUni Rating Downgrade",
+      "type": "Event",
+      "brief": "BankUni set to Neutral by Piper Sandler",
+      "description": "Piper Sandler rated BankUni to Neutral with $43 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 43,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Chubb Rating Downgrade",
+      "type": "Event",
+      "brief": "Chubb cut to Neutral by Piper Sandler",
+      "description": "Piper Sandler downgraded Chubb to Neutral with $283 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 283,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Enovix Rating Downgrade",
+      "type": "Event",
+      "brief": "Enovix cut to Neutral by JPMorgan",
+      "description": "JPMorgan downgraded Enovix to Neutral with $12 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 12,
+        "unit": "USD",
+        "analyst_firm": "JPMorgan"
+      }
+    },
+    {
+      "name": "Global Markets - Goosehead Insurance Rating Downgrade",
+      "type": "Event",
+      "brief": "Goosehead Insurance cut to Neutral by Piper Sandler",
+      "description": "Piper Sandler downgraded Goosehead Insurance to Neutral with $109 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Neutral",
+        "price_target": 109,
+        "unit": "USD",
+        "analyst_firm": "Piper Sandler"
+      }
+    },
+    {
+      "name": "Global Markets - Johnson Controls Rating Downgrade",
+      "type": "Event",
+      "brief": "Johnson Controls cut to Hold by Jefferies",
+      "description": "Jefferies downgraded Johnson Controls to Hold with $120 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 120,
+        "unit": "USD",
+        "analyst_firm": "Jefferies"
+      }
+    },
+    {
+      "name": "Global Markets - Saia Rating Downgrade",
+      "type": "Event",
+      "brief": "Saia cut to Hold by Stifel",
+      "description": "Stifel downgraded Saia to Hold with $306 PT",
+      "properties": {
+        "date": null,
+        "event_type": "rating_downgrade",
+        "new_rating": "Hold",
+        "price_target": 306,
+        "unit": "USD",
+        "analyst_firm": "Stifel"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Equity Markets - White House Pressure on Powell",
+      "target": "Global Equity Markets - Trump Fed Headquarters Tour",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Pressure triggers Trump's Fed tour"
+    },
+    {
+      "source": "Global Equity Markets - End of EV Incentives",
+      "target": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "End of EV incentives causes Tesla stock drop"
+    },
+    {
+      "source": "Global Equity Markets - US Tariff Range",
+      "target": "Global Equity Markets - Tesla Stock Price Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariff pressures impacted Tesla shares"
+    },
+    {
+      "source": "Global Equity Markets - US Tariff Range",
+      "target": "Global Equity Markets - ECB Forecasted Rate Cut",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs prompt ECB to cut 25 bp"
+    },
+    {
+      "source": "GlobalEquity - Tesla Sell RatingChange",
+      "target": "GlobalEquity - Tesla",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Cuts Tesla rating to Sell"
+    },
+    {
+      "source": "GlobalEquity - Intel Buy RatingInitiation",
+      "target": "GlobalEquity - Intel",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Initiates Buy rating for Intel"
+    },
+    {
+      "source": "GlobalEquity - Credicorp Sell RatingChange",
+      "target": "GlobalEquity - Credicorp",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Credicorp rating to Sell"
+    },
+    {
+      "source": "GlobalEquity - Birkenstock Buy RatingChange",
+      "target": "GlobalEquity - Birkenstock",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Birkenstock rating to Buy"
+    },
+    {
+      "source": "GlobalEquity - Reece Ltd. Neutral RatingChange",
+      "target": "GlobalEquity - Reece Ltd.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Reece Ltd. rating to Neutral"
+    },
+    {
+      "source": "GlobalEquity - Strike T Energy Neutral RatingChange",
+      "target": "GlobalEquity - Strike T Energy",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Strike T Energy rating to Neutral"
+    },
+    {
+      "source": "GlobalEquity - Subaru Corp. Buy RatingChange",
+      "target": "GlobalEquity - Subaru Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Upgrades Subaru Corp. rating to Buy"
+    },
+    {
+      "source": "GlobalEquity - Trent Ltd. Neutral RatingChange",
+      "target": "GlobalEquity - Trent Ltd.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Downgrades Trent Ltd. rating to Neutral"
+    },
+    {
+      "source": "Global Equity Markets - Animal Spirit",
+      "target": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Animal spirit drove the rally"
+    },
+    {
+      "source": "Global Equity Markets - Strong Retail Participation",
+      "target": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Strong retail participation drove the rally"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/top_stories_converted_with_figures"
+}

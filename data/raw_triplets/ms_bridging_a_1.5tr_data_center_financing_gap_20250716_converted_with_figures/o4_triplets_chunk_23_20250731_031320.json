@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "Table T33 – Credit Markets US Corporate IG Index Top 25 Members",
+      "type": "Table",
+      "brief": "Top 25 non-financial IG index constituents by par debt",
+      "description": "Lists top US IG index constituents sorted by par value index debt outstanding",
+      "properties": {
+        "table_id": "T33",
+        "table_content": "US Corporate IG Index (LUAC) - Top 25 Members\n                                                                         Par Index                                                                                       Par Index \n Ticker                   GICS Sector                                                            Ticker                  GICS Sector\n                                                                         Debt ($bn)                                                                                      Debt ($bn)\n JPM                     Financials                                                  177.7   DUK                           Utilities                                                     66.8\n BAC                     Financials                                                  175.1   TMUS                          Communication Services                                       62.0\n MS                      Financials                                                  144.8   AVGO                          Information Technology                                       56.9\n C                       Financials                                                  118.7   ABBV                          Health Care                                                   56.4\n WFC                     Financials                                                  117.9   CHTR                          Communication Services                                       52.8\n GS                      Financials                                                  114.8   AMGN                          Health Care                                                   52.2\n T                       Communication Services                                       86.8   GM                            Consumer Discretionary                                        50.7\n HSBC                    Financials                                                    84.0   AMZN                         Consumer Discretionary                                        50.3\n CMCSA                   Communication Services                                        80.8   CVS                          Health Care                                                   50.1\n ORCL                    Information Technology                                       80.0   NEE                           Utilities                                                     49.9\n VZ                      Communication Services                                       78.7   PFE                           Health Care                                                   49.6\n AAPL                    Information Technology                                        75.5   F                             Consumer Discretionary                                        46.3\n UNH                     Health Care                                                   73.4",
+        "key_insight": "Illustrative issuance capacity of ~$150bn across three technology credits when focusing on index debt relative to top non-financial IG constituents"
+      }
+    },
+    {
+      "name": "Credit Markets Illustrative Issuance Capacity",
+      "type": "Metric",
+      "brief": "Illustrative issuance capacity across three technology credits",
+      "description": "Approximate issuance capacity when focusing on index debt relative to top non-financial IG constituents",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Credit Markets IG Technology Index Additional Net Supply Capacity",
+      "type": "Metric",
+      "brief": "Capacity for additional net supply through YE28",
+      "description": "IG Technology Index could support an additional $200bn of net supply through YE28",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": "YE28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T33 – Credit Markets US Corporate IG Index Top 25 Members",
+      "target": "Credit Markets Illustrative Issuance Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Highlights issuance capacity of ~$150bn across three tech credits"
+    }
+  ],
+  "scenarios": []
+}

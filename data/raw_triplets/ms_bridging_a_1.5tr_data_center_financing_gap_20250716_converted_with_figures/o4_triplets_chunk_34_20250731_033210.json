@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Credit – Hyperscaler Cash Flow",
+      "type": "Metric",
+      "brief": "Hyperscaler cash flow baseline",
+      "description": "Total hyperscaler cash flow used in financing gap calculation",
+      "properties": {
+        "value": 1400,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit – Corporate Debt Contribution",
+      "type": "Metric",
+      "brief": "Corporate debt added for financing calculation",
+      "description": "Corporate debt portion added to hyperscaler cash flow before gap computation",
+      "properties": {
+        "value": 200,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit – Securitized Debt Contribution",
+      "type": "Metric",
+      "brief": "Securitized debt added for financing calculation",
+      "description": "Securitized debt portion added to hyperscaler cash flow before gap computation",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit – Capital Gap",
+      "type": "Metric",
+      "brief": "Residual capital needed for data center financing",
+      "description": "Gap after corporate and securitized debt additions to hyperscaler cash flow",
+      "properties": {
+        "value": 1150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Data Center Credit – Private Credit Financing Potential",
+      "type": "Metric",
+      "brief": "Estimated private credit financing potential",
+      "description": "Estimated growth potential of $800bn in private credit financing via ABF channel",
+      "properties": {
+        "value": 800,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Credit – Hyperscaler Cash Flow",
+      "target": "Data Center Credit – Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1400,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Hyperscaler cash flow reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit – Corporate Debt Contribution",
+      "target": "Data Center Credit – Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -200,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Corporate debt reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit – Securitized Debt Contribution",
+      "target": "Data Center Credit – Capital Gap",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Securitized debt reduces capital gap"
+    },
+    {
+      "source": "Data Center Credit – Capital Gap",
+      "target": "Data Center Credit – Private Credit Financing Potential",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "70/30 split yields private credit financing estimate"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "name": "US Financial Market - US Equities Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for US equities improved",
+      "description": "Market liquidity conditions for US Equities have seen notable improvement",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - 10y Bunds Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for 10y Bunds improved",
+      "description": "Market liquidity conditions for 10-year German Bunds have improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Corporate Bond ETFs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for corporate bond ETFs improved",
+      "description": "Market liquidity conditions for corporate bond ETFs have improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Eurostoxx Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Eurostoxx futures impaired",
+      "description": "Market liquidity conditions for Eurostoxx futures remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Nikkei Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Nikkei futures impaired",
+      "description": "Market liquidity conditions for Nikkei futures remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - 10y USTs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for 10y USTs impaired",
+      "description": "Market liquidity conditions for 10-year US Treasuries remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - JGBs Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for JGBs impaired",
+      "description": "Market liquidity conditions for Japanese Government Bonds remain somewhat impaired",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Bitcoin Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for bitcoin futures deteriorated",
+      "description": "Market liquidity conditions for bitcoin futures have deteriorated",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Ethereum Futures Market Liquidity Conditions",
+      "type": "Factor",
+      "brief": "Liquidity conditions for Ethereum futures deteriorated",
+      "description": "Market liquidity conditions for Ethereum futures have deteriorated",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Realized Macro Volatility",
+      "type": "Factor",
+      "brief": "Macro volatility has been subdued",
+      "description": "Realized GDP and inflation volatility has been rather subdued since 2023",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Market Volatility",
+      "type": "Factor",
+      "brief": "Market volatility is low",
+      "description": "Market volatility in equities has remained low, supported by retail investors and buybacks",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Hedge Funds Inflows",
+      "type": "Factor",
+      "brief": "Hedge funds inflows have accelerated",
+      "description": "Hedge funds have seen an acceleration of inflows in 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Digital Assets Inflows",
+      "type": "Factor",
+      "brief": "Digital assets inflows have accelerated",
+      "description": "Digital assets have seen an acceleration of inflows in 2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market - Private Equity Fundraising",
+      "type": "Factor",
+      "brief": "Private equity fundraising is weak",
+      "description": "Fundraising has been weak in private equity in 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Private Credit Fundraising",
+      "type": "Factor",
+      "brief": "Private credit fundraising is weak",
+      "description": "Fundraising has been weak in private credit in 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Financial Market - Hedge Funds Positive Alpha Streak",
+      "type": "Event",
+      "brief": "Hedge funds produced positive alpha for fifth year",
+      "description": "Hedge funds have produced positive alpha so far in 2025, marking a fifth consecutive year",
+      "properties": {
+        "date": null,
+        "event_type": "positive_alpha",
+        "streak_years": 5
+      }
+    },
+    {
+      "name": "US Financial Market - JPXXMEME Index",
+      "type": "Instrument",
+      "brief": "Retail-driven meme stock index",
+      "description": "Represents basket of 'meme stocks' reflecting retail investor sentiment",
+      "properties": {
+        "ticker": "JPXXMEME"
+      }
+    },
+    {
+      "name": "US Financial Market - SPX Index",
+      "type": "Instrument",
+      "brief": "Broad US equity market index",
+      "description": "Reflects performance of S&P 500 large-cap equities",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "US Financial Market - NDX Index",
+      "type": "Instrument",
+      "brief": "US tech-heavy equity index",
+      "description": "Tracks performance of Nasdaq-100 large-cap technology stocks",
+      "properties": {
+        "ticker": "NDX"
+      }
+    },
+    {
+      "name": "Table T1 – US Financial Market Liquidity Proxy vs SPX",
+      "type": "Table",
+      "brief": "Normalized performance of JPXXMEME, SPX, and NDX indices with JPXXMEME outperformance",
+      "description": "Time series normalized to 12/31/2024 shows JPXXMEME volatility and recovery vs SPX and NDX",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date (2025) | JPXXMEME Index | SPX Index | NDX Index |\n|---------------|----------------|-----------|-----------|\n| Jan 1         | 100.00         | 100.00    | 100.00    |\n| Jan 15        | 105.00         | 103.00    | 103.00    |\n| Feb 1         | 117.00         | 108.00    | 108.00    |\n| Feb 15        | 105.00         | 105.00    | 105.00    |\n| Feb 28        | 89.00          | 99.00     | 99.00     |\n| Mar 15        | 78.00          | 93.00     | 93.00     |\n| Mar 31        | 68.00          | 89.00     | 89.00     |\n| Apr 15        | 88.00          | 95.00     | 95.00     |\n| Apr 30        | 100.00         | 100.00    | 100.00    |\n| May 15        | 115.00         | 103.00    | 104.00    |\n| May 31        | 125.00         | 105.00    | 106.00    |\n| Jun 15        | 135.00         | 107.00    | 108.00    |\n| Jun 30        | 138.00         | 107.50    | 109.50    |\n| Jul 15        | 140.00         | 108.00    | 110.00    |\n| Last Price    | 140.09         | 108.00    | 110.13    |",
+        "key_insight": "JPXXMEME Index significantly outperformed SPX and NDX, ending at 140.09 vs 108.00 and 110.13 by July 2025."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Financial Market - Realized Macro Volatility",
+      "target": "US Financial Market - Market Volatility",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Low realized macro volatility caused low market volatility"
+    },
+    {
+      "source": "Table T1 – US Financial Market Liquidity Proxy vs SPX",
+      "target": "US Financial Market - JPXXMEME Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 140.09,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows JPXXMEME Index outperformance, ending at 140.09 by July 2025"
+    }
+  ],
+  "scenarios": []
+}

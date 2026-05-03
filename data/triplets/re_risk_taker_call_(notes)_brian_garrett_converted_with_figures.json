@@ -1,0 +1,435 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 US Volatility VIX vs UX1 rolldown (normalized)",
+      "type": "Table",
+      "brief": "Rolldown difference between VIX spot and front-month future",
+      "description": "Tracks VIX term structure from July 2015 to early September 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Normalized VIX Rolldown |\n|------------|-------------------------|\n| Jul 2015   | 0.50                    |\n| Oct 2015   | 0.10                    |\n| Jan 2016   | -0.10                   |\n| Jul 2016   | 0.05                    |\n| Jan 2017   | -0.05                   |\n| Jul 2017   | -0.10                   |\n| Jan 2018   | 0.30                    |\n| Jul 2018   | 0.00                    |\n| Jan 2019   | -0.15                   |\n| Jul 2019   | 0.00                    |\n| Jan 2020   | 0.40                    |\n| Apr 2020   | 0.00                    |\n| Jul 2020   | 0.05                    |\n| Jan 2021   | 0.00                    |\n| Jul 2021   | -0.10                   |\n| Jan 2022   | 0.10                    |\n| Jul 2022   | -0.10                   |\n| Jan 2023   | -0.15                   |\n| Jul 2023   | 0.00                    |\n| Jan 2024   | -0.05                   |\n| Jul 2024   | 0.05                    |\n| Jan 2025   | 0.55                    |\n| Jul 2025   | -0.16                   |",
+        "key_insight": "As of Jul 2025, VIX vs UX1 rolldown is -0.16, indicating steep contango"
+      }
+    },
+    {
+      "name": "US Volatility \u2013 steep contango",
+      "type": "Factor",
+      "brief": "Steep contango in VIX term structure",
+      "description": "Negative rolldown of -0.16 shows August VIX future trading above spot, enabling roll-down strategies",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 US Volatility SPX 6m 10dp/40dp put vol skew ratio",
+      "type": "Table",
+      "brief": "SPX 6-month 10\u03b4/40\u03b4 put vol skew ratio from July 2010 to Sep 2025",
+      "description": "Charts demand for deep out-of-the-money puts via the put vol skew ratio",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | SPX 6m 10dp/40dp Put Vol Skew Ratio |\n|-----------|-------------------------------------|\n| Jul 2010  | 1.24                                |\n| Jan 2011  | 1.28                                |\n| Jul 2011  | 1.28                                |\n| Jan 2012  | 1.24                                |\n| Jul 2012  | 1.25                                |\n| Jan 2013  | 1.23                                |\n| Jul 2013  | 1.20                                |\n| Jan 2014  | 1.28                                |\n| Jul 2014  | 1.28                                |\n| Jan 2015  | 1.30                                |\n| Jul 2015  | 1.28                                |\n| Jan 2016  | 1.24                                |\n| Jul 2016  | 1.28                                |\n| Jan 2017  | 1.28                                |\n| Jul 2017  | 1.32                                |\n| Jan 2018  | 1.34                                |\n| Jul 2018  | 1.28                                |\n| Jan 2019  | 1.25                                |\n| Jul 2019  | 1.28                                |\n| Jan 2020  | 1.30                                |\n| Jul 2020  | 1.28                                |\n| Jan 2021  | 1.35                                |\n| Jul 2021  | 1.36                                |\n| Jan 2022  | 1.25                                |\n| Jul 2022  | 1.18                                |\n| Jan 2023  | 1.28                                |\n| Jul 2023  | 1.32                                |\n| Jan 2024  | 1.33                                |\n| Jul 2024  | 1.30                                |\n| Jan 2025  | 1.32                                |\n| Jul 2025  | 1.34                                |",
+        "key_insight": "As of Jul 2025, SPX 6m 10dp/40dp put vol skew is 1.34, near multi-year highs indicating strong downside demand"
+      }
+    },
+    {
+      "name": "US Volatility \u2013 elevated SPX put vol skew",
+      "type": "Factor",
+      "brief": "Elevated SPX 6m put vol skew ratio as of Jul 2025",
+      "description": "Ratio at 1.34 indicates deep OTM puts priced higher relative to 40\u03b4 puts",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility \u2013 average implied earnings move all stocks",
+      "type": "Metric",
+      "brief": "Average implied move for earnings at 470 bps",
+      "description": "Implied volatility for earnings across all stocks is extremely low, indicating complacency",
+      "properties": {
+        "unit": "bp",
+        "value": 470,
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Volatility \u2013 market complacency ahead of earnings",
+      "type": "Factor",
+      "brief": "Market complacency indicated by low earnings implied moves",
+      "description": "Low average implied moves prior to earnings suggests investors are complacent and relief rallies possible",
+      "properties": {
+        "driver": "low implied volatility"
+      }
+    },
+    {
+      "name": "US Volatility \u2013 AMZN long call",
+      "type": "Instrument",
+      "brief": "Long call option on AMZN flat into earnings",
+      "description": "Favorite trade idea is AMZN upside via call options into earnings",
+      "properties": {
+        "ticker": "AMZN",
+        "position": "long"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 NDX-SPX 3m ATM Implied Vol Spread",
+      "type": "Table",
+      "brief": "3m ATM implied vol spread between NDX and SPX",
+      "description": "Shows the absolute 3m ATM implied volatility spread from July 2021 to Aug 2025, highlighting peaks near 7.8 and current trough near 3.5.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date     | NDX - SPX Vol Spread (absolute) |\n|----------|---------------------------------|\n| Jul 2021 | 4.2                             |\n| Aug 2021 | 3.0                             |\n| Oct 2021 | 5.0                             |\n| Dec 2021 | 4.0                             |\n| Jan 2022 | 6.0                             |\n| Feb 2022 | 7.8                             |\n| Apr 2022 | 5.5                             |\n| Jun 2022 | 4.0                             |\n| Aug 2022 | 6.0                             |\n| Oct 2022 | 4.0                             |\n| Dec 2022 | 5.5                             |\n| Jan 2023 | 5.0                             |\n| Mar 2023 | 3.0                             |\n| May 2023 | 5.0                             |\n| Jul 2023 | 4.0                             |\n| Sep 2023 | 6.5                             |\n| Dec 2023 | 4.0                             |\n| Jan 2024 | 4.5                             |\n| Mar 2024 | 3.8                             |\n| May 2024 | 5.0                             |\n| Jul 2024 | 4.0                             |\n| Sep 2024 | 5.5                             |\n| Dec 2024 | 4.0                             |\n| Jan 2025 | 4.0                             |\n| Mar 2025 | 3.8                             |\n| Jul 2025 | 3.5                             |",
+        "key_insight": "The NDX-SPX 3m ATM implied vol spread peaked at 7.8 in Feb 2022 and is near its lower end at 3.5 in Jul 2025."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 NVDA 2w ATM Implied Volatility",
+      "type": "Table",
+      "brief": "NVDA 2-week ATM implied volatility history",
+      "description": "Displays NVDA's 2-week ATM implied volatility from July 2020 to Sep 2025, highlighting spikes above 80% and a recent low near 35%.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date    | NVDA 2w ATM Implied Vol (%) |\n|---------|-----------------------------|\n| 2020-07 | 60                          |\n| 2020-08 | 50                          |\n| 2020-09 | 60                          |\n| 2020-11 | 30                          |\n| 2021-01 | 40                          |\n| 2021-02 | 65                          |\n| 2021-04 | 40                          |\n| 2021-07 | 65                          |\n| 2021-09 | 45                          |\n| 2021-11 | 70                          |\n| 2022-01 | 90                          |\n| 2022-03 | 60                          |\n| 2022-05 | 80                          |\n| 2022-07 | 50                          |\n| 2022-09 | 70                          |\n| 2022-12 | 35                          |\n| 2023-01 | 40                          |\n| 2023-04 | 80                          |\n| 2023-07 | 40                          |\n| 2023-09 | 75                          |\n| 2023-11 | 40                          |\n| 2024-01 | 30                          |\n| 2024-03 | 85                          |\n| 2024-05 | 45                          |\n| 2024-07 | 80                          |\n| 2024-09 | 50                          |\n| 2024-11 | 70                          |\n| 2025-01 | 60                          |\n| 2025-03 | 85                          |\n| 2025-07 | 35                          |",
+        "key_insight": "NVDA's 2w ATM implied volatility has spiked above 80% multiple times and is at approximately 35% in Jul 2025, near 5-year lows."
+      }
+    },
+    {
+      "name": "USFM Vol \u2013 NVIDIA",
+      "type": "Company",
+      "brief": "Market-leading AI GPU maker",
+      "description": "NVIDIA's implied volatility underpins key options strategy insights",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "USFM Vol \u2013 Nasdaq 100 Index",
+      "type": "Instrument",
+      "brief": "Tech-heavy equity index",
+      "description": "Nasdaq 100 used to compare tech implied volatility against broader market",
+      "properties": {
+        "ticker": "NDX"
+      }
+    },
+    {
+      "name": "USFM Vol \u2013 S&P 500 Index",
+      "type": "Instrument",
+      "brief": "Broad-market equity index",
+      "description": "S&P 500 used as benchmark in volatility spread analysis",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "USFM Vol \u2013 NDX-SPX 3m ATM Vol Spread Compression",
+      "type": "Factor",
+      "brief": "Reduced volatility divergence between NDX and SPX",
+      "description": "The narrowing 3m ATM vol spread suggests reduced relative uncertainty in tech stocks",
+      "properties": {
+        "direction": "down",
+        "value": 3.5,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "USFM Vol \u2013 NVDA 2w ATM Implied Vol Low",
+      "type": "Factor",
+      "brief": "NVDA implied volatility at 5-year lows",
+      "description": "NVDA's 2w ATM implied volatility at around 35% indicates market complacency ahead of earnings",
+      "properties": {
+        "direction": "down",
+        "value": 35,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Credit Vol USD IG Spread 20-Year Trend",
+      "type": "Table",
+      "brief": "20-year USD IG spread historical trend",
+      "description": "Shows USD Investment Grade credit spreads peaking in 2008 and 2020, and trading near 1st percentile lows (~70-80) through July 2026.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | USD IG Spread |\n|-----------|---------------|\n| Jul 2005  | 70            |\n| Mid 2007  | 80            |\n| Oct 2008  | 600           |\n| Apr 2009  | 350           |\n| Sep 2011  | 250           |\n| Apr 2012  | 180           |\n| Jun 2014  | 100           |\n| Feb 2016  | 180           |\n| Nov 2018  | 150           |\n| Mar 2020  | 380           |\n| Oct 2020  | 100           |\n| Oct 2022  | 150           |\n| Jul 2023  | 80            |\n| Jul 2025  | 70            |\n| Jul 2026  | 70            |",
+        "key_insight": "USD IG spreads spiked above 600 in 2008 and around 380 in 2020, but have compressed to 1st percentile lows (~70-80) and are expected to remain low through 2026."
+      }
+    },
+    {
+      "name": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "type": "Metric",
+      "brief": "Implied volatility for HYG 3-month ATM options",
+      "description": "Shows extremely low 3-month ATM implied volatility in the HYG credit complex.",
+      "properties": {
+        "unit": "volPts",
+        "value": 4,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Credit Vol HYG Oct 79/73 Put Spread",
+      "type": "Instrument",
+      "brief": "Long HYG Oct 79/73 put spread",
+      "description": "Long put spread on HYG with strikes 79/73 expiring October 2025, premium paid $0.50.",
+      "properties": {
+        "ticker": "HYG",
+        "maturity": "2025-10",
+        "strike": "79/73",
+        "position": "long put spread"
+      }
+    },
+    {
+      "name": "US Credit Vol HYG Nov 79/73 Put Spread",
+      "type": "Instrument",
+      "brief": "Long HYG Nov 79/73 put spread",
+      "description": "Long put spread on HYG with strikes 79/73 expiring November 2025, premium paid $0.64.",
+      "properties": {
+        "ticker": "HYG",
+        "maturity": "2025-11",
+        "strike": "79/73",
+        "position": "long put spread"
+      }
+    },
+    {
+      "name": "US Credit Vol Demand for Credit Hedges",
+      "type": "Factor",
+      "brief": "Increased demand for credit hedges",
+      "description": "Non-traditional investors are spending more premium on credit hedges amid low volatility.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility VIX Term Structure Steepness",
+      "type": "Factor",
+      "brief": "difference between Aug VIX future and spot",
+      "description": "Term structure slope indicates roll-down opportunity",
+      "properties": {
+        "magnitude_indexPts": 2.75,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility VIX August Future Price",
+      "type": "Metric",
+      "brief": "Aug VIX future price",
+      "description": "Price of VIX future expiring in August",
+      "properties": {
+        "unit": "indexPts",
+        "value": 18.15,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Volatility VIX Spot Price",
+      "type": "Metric",
+      "brief": "Current VIX spot price",
+      "description": "Immediate implied volatility gauge",
+      "properties": {
+        "unit": "indexPts",
+        "value": 15.4,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "US Volatility Option Put Vol Skew",
+      "type": "Factor",
+      "brief": "skew between 10dp and 40dp put vols",
+      "description": "Elevated put vol skew indicates demand for downside protection",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Volatility Implied Volatility Level",
+      "type": "Factor",
+      "brief": "absolute level of implied volatility",
+      "description": "Implied vol remains low",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Volatility Investor Premium Spending Hesitancy",
+      "type": "Factor",
+      "brief": "investors reluctant to buy vol premium",
+      "description": "Low premium spending signals complacency",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "Factor",
+      "brief": "put spreads to capture roll-down",
+      "description": "Strategy involves put spreads with 2\u20133:1 payouts for VIX roll-down",
+      "properties": {
+        "driver": "roll-down"
+      }
+    },
+    {
+      "name": "US Volatility Non-Consensus Equity Downside Strategy",
+      "type": "Factor",
+      "brief": "equity downside non-consensus trade",
+      "description": "Downside equity trades offer non-consensus opportunities amid complacent vol",
+      "properties": {
+        "driver": "equity downside"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 US Volatility VIX vs UX1 rolldown (normalized)",
+      "target": "US Volatility \u2013 steep contango",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -0.16,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights a -0.16 rolldown indicating steep contango"
+    },
+    {
+      "source": "Table T2 \u2013 US Volatility SPX 6m 10dp/40dp put vol skew ratio",
+      "target": "US Volatility \u2013 elevated SPX put vol skew",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.34,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows skew at 1.34, indicating elevated demand for OTM puts"
+    },
+    {
+      "source": "US Volatility \u2013 average implied earnings move all stocks",
+      "target": "US Volatility \u2013 market complacency ahead of earnings",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 470,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Low implied earnings move of 470 bp indicates investor complacency ahead of earnings"
+    },
+    {
+      "source": "Table T1 \u2013 NDX-SPX 3m ATM Implied Vol Spread",
+      "target": "USFM Vol \u2013 NDX-SPX 3m ATM Vol Spread Compression",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.5,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T1 informs the factor of compressed NDX-SPX vol spread"
+    },
+    {
+      "source": "Table T2 \u2013 NVDA 2w ATM Implied Volatility",
+      "target": "USFM Vol \u2013 NVDA 2w ATM Implied Vol Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 35,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table T2 informs the factor of NVDA's low 2w ATM implied vol"
+    },
+    {
+      "source": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "target": "US Credit Vol HYG Oct 79/73 Put Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Implied volatility level affects cost of the Oct put spread"
+    },
+    {
+      "source": "US Credit Vol HYG 3M ATM Implied Volatility",
+      "target": "US Credit Vol HYG Nov 79/73 Put Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Implied volatility level affects cost of the Nov put spread"
+    },
+    {
+      "source": "US Volatility VIX Term Structure Steepness",
+      "target": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Steep VIX curve causes preference for put spread roll-down"
+    },
+    {
+      "source": "US Volatility Option Put Vol Skew",
+      "target": "US Volatility Roll-Down Put Spread Strategy",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Elevated vol skew increases attractiveness of put spreads"
+    },
+    {
+      "source": "US Volatility Implied Volatility Level",
+      "target": "US Volatility Investor Premium Spending Hesitancy",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low implied vol causes hesitation in premium spending"
+    },
+    {
+      "source": "US Volatility Investor Premium Spending Hesitancy",
+      "target": "US Volatility Non-Consensus Equity Downside Strategy",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Hesitancy to spend premium triggers non-consensus equity downside trade"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/re_risk_taker_call_(notes)_brian_garrett_converted_with_figures"
+}

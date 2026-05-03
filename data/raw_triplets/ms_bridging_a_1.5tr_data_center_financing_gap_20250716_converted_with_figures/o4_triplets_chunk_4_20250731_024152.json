@@ -1,0 +1,148 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Financing Global Data Center Capex",
+      "type": "Metric",
+      "brief": "Projected global data center capital expenditure",
+      "description": "Forecast $2.9 trillion in global data center capex through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Hyperscaler Capex Covered by Internal Cash Flows",
+      "type": "Metric",
+      "brief": "Hyperscaler-funded capex via internal cash flows",
+      "description": "$1.4 trillion of hyperscaler capex funded by internal cash flows through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Estimated Financing Gap",
+      "type": "Metric",
+      "brief": "Medium-term financing gap for data centers",
+      "description": "Estimated $1.5 trillion gap in data center financing needing external capital",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1500,
+        "as_of": "Medium-term"
+      }
+    },
+    {
+      "name": "Data Center Financing Private Credit Opportunity",
+      "type": "Metric",
+      "brief": "Growth opportunity in private credit for data centers",
+      "description": "Projected $800 billion+ private credit growth opportunity through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Incremental IG Tech Bond Supply",
+      "type": "Metric",
+      "brief": "Incremental investment-grade tech bond issuance",
+      "description": "Forecast $200 billion of incremental IG technology bond supply through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 200,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing Data Center Securitized Credit Issuance",
+      "type": "Metric",
+      "brief": "Projected data center securitized credit issuance",
+      "description": "Forecast $150 billion of DC ABS/CMBS issuance through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 150,
+        "as_of": "Through 2028"
+      }
+    },
+    {
+      "name": "Data Center Financing US Securitized Issuance (Current)",
+      "type": "Metric",
+      "brief": "Current US data center securitized issuance",
+      "description": "Approximately $50 billion issued to date backing ~10% of US data center capacity",
+      "properties": {
+        "unit": "USD bn",
+        "value": 50,
+        "as_of": "To date"
+      }
+    },
+    {
+      "name": "Data Center Financing US Securitization Rate (Projected)",
+      "type": "Metric",
+      "brief": "Projected US securitization rate of new capacity",
+      "description": "Estimated 25% of new US data center capacity securitized by 2028",
+      "properties": {
+        "unit": "%",
+        "value": 25,
+        "as_of": "By 2028"
+      }
+    },
+    {
+      "name": "Table T1 – Data Center Financing Needs and Funding Breakdown",
+      "type": "Table",
+      "brief": "Projected data center financing needs and funding sources through 2028",
+      "description": "Lists global capex, financing gap, and breakdown of funding mechanisms",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Financial Segment / Need           | Value ($Billion) | Timeframe / Scope      | Details / Source                                     |\n|------------------------------------|------------------|------------------------|------------------------------------------------------|\n| Global Data Center Capex (Total)   | 2,900            | Through 2028           | For build and hardware costs                         |\n| Hyperscaler Capex (Covered)        | 1,400            |                        | Funded by internal cash flows                        |\n| Estimated Financing Gap            | 1,500            | Medium-term            | Needs external capital to fill                       |\n| Private Credit Opportunity         | 800+             | Through 2028           | Led by Asset-Based Finance (ABF)                     |\n| Incremental IG Tech Bond Supply    | 200              | Through 2028           | Expected corporate bond issuance                     |\n| Data Center Securitized Credit     | 150              | Through 2028           | Projected ABS/CMBS issuance                          |\n| US Securitized Issuance (Current)  | ~50              | To date                | Backed by ~10% of US data center capacity            |\n| US Securitization Rate (Projected) | 25%              | By 2028                | Of new GWs in US securitized market                  |",
+        "key_insight": "Projected $2.9tr global data center capex through 2028 creates a $1.5tr financing gap to be filled by private credit, bonds, and securitization."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Global Data Center Capex",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs global data center capex projection."
+    },
+    {
+      "source": "Table T1 – Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Estimated Financing Gap",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1500,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs estimated financing gap."
+    },
+    {
+      "source": "Table T1 – Data Center Financing Needs and Funding Breakdown",
+      "target": "Data Center Financing Private Credit Opportunity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table T1 informs private credit growth opportunity."
+    }
+  ],
+  "scenarios": []
+}

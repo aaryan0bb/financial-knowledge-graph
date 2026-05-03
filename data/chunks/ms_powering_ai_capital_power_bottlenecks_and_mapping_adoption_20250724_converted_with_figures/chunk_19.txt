@@ -1,0 +1,65 @@
+Morgan Stanley                                                                                                                                                 July 24, 2025 
+
+ What Is the Compute Used for? 75%/25% Inference/Training in the US 
+
+    Cushman & Wakefield is tracking 47 gigawatts of US data centers in development; 4 GW is "hyperscale" 
+
+ . Our 62 gigawatts of US data center demand through 2028, net of ~44 gigawatts of Inference-focused data 
+    centers, would imply ~18 gigawatts of Training-focused data centers (~1/4 of our 62 GW total) 
+
+    This resulting ~18 gigawatts for Training through 2028 makes sense, given we have several US companies that 
+    each plan to have multiple gigawatts for Training 
+
+       Americas Operational                              Landscape of Americas Data                        Landscape of Americas Planned 
+       Commissioned Capacity (Including                  Centers Under Construction                        Data Centers 
+       Expansions) 
+
+                                                                 Americas - Colo 2.8 GW      3.9 GW                Americas - Colo   4.7 GW          43.6 GW 
+
+                  8.2 GW 
+
+                           20 GW 
+                                                                                       1.8 GW                Americas - Hyperscale 3.7 GW 
+                       Total Operational                   Americas - Hyperscale 
+                        Commissioned 
+                           Capacity 
+
+                                       11.8 GW 
+                                                          Americas total - Overall      4.6 GW    5.7 GW    Americas total - Overall   8.5 GW        47.4 GW 
+
+                                                               Total Under Construction (MW)                            Total Planned (MW) 
+              Americas - Colo   Americas - Hyperscale          Under Construction Commissioned Capacity                Planned Commissioned Capacity 
+
+       Source: datacenterHawk, DC Byte, Cushman & Wakefield Research Source: datacenterHawk, DC Byte, Cushman & Wakefield Research Source: datacenterHawk, DC Byte, Cushman & Wakefield Research 
+
+                                                                                                                                                                                 19 
+
+    | Category                  | Planned Commissioned Capacity (GW) | Total Planned (GW) |
+    |---------------------------|------------------------------------|--------------------|
+    | Americas - Colo           | 4.7                                | 43.6               |
+    | Americas - Hyperscale     | 3.7                                | -                  |
+    | Americas total - Overall  | 8.5                                | 47.4               |
+
+    Summary: This horizontal stacked bar chart, titled "Landscape of Americas Planned Data Centers", displays planned data center capacity in Gigawatts (GW) across the Americas. It breaks down capacity by two categories: Colocation (Colo) and Hyperscale, along with an overall total. Each category shows "Planned Commissioned Capacity" (dark green) and "Total Planned" (light green). The chart reveals a massive pipeline of future data center capacity, with the "Total Planned" segment (47.4 GW overall) significantly outweighing the "Planned Commissioned Capacity" (8.5 GW overall). Notably, "Americas - Colo" accounts for the vast majority (43.6 GW) of the light green "Total Planned" capacity, while "Americas - Hyperscale" shows a substantial 3.7 GW in "Planned Commissioned Capacity" but does not explicitly label its "Total Planned" segment. The overall total planned capacity across both categories sums to 55.9 GW.
+
+    Explanation: The substantial planned data center capacity, totaling 55.9 GW, aligns with the context provided on the page, which mentions 47 GW of US data centers currently "in development" and a projected 62 GW of US data center demand through 2028. This immense pipeline underscores the rapid expansion of compute infrastructure, driven largely by AI, and directly relates to the "power issues" and "grid constraints" highlighted as paramount on the previous page. The breakdown further illustrates the distinct growth trajectories and investment focuses within the data center market, particularly the dominance of colocation in the total planned capacity.
+
+    | Category                      | Under Construction Commissioned Capacity (GW) | Additional Under Construction Capacity (GW) | Total Under Construction (GW) |
+    |-------------------------------|-----------------------------------------------|---------------------------------------------|-------------------------------|
+    | Americas - Colo               | 2.8                                           | 1.1                                         | 3.9                           |
+    | Americas - Hyperscale         | 1.8                                           | 0.0                                         | 1.8                           |
+    | Americas total - Overall      | 4.6                                           | 1.1                                         | 5.7                           |
+
+    Summary: This bar chart, titled "Landscape of Americas Data Centers Under Construction," illustrates the capacity in Gigawatts (GW) of data centers currently being built in the Americas, segmented by type (Colocation, Hyperscale) and an overall total. Each bar differentiates between "Under Construction Commissioned Capacity" (dark purple) and "Additional Under Construction Capacity" (light purple), which represents the portion not yet commissioned but still under construction. Colocation projects show a substantial 2.8 GW already commissioned within the 3.9 GW total under construction, with 1.1 GW remaining to be commissioned. In contrast, Hyperscale projects, at 1.8 GW under construction, are shown entirely as commissioned capacity, with no additional uncommissioned segment. The overall total reflects 4.6 GW of commissioned capacity and 1.1 GW of additional capacity, summing to 5.7 GW currently under construction.
+
+    Explanation: This detailed breakdown of data center capacity under construction provides insight into the progress of new supply, specifically noting that approximately 1.1 GW (or nearly 20%) of the total 5.7 GW currently under construction across the Americas is not yet commissioned. This aligns with the broader context of challenges in bringing data centers online, such as "grid constraints" and "longer lead times for power" highlighted on the previous page. The differing completion status between colocation and hyperscale projects could imply varying speeds of development or power procurement strategies, which are critical given the discussion on "de-bottlenecking solutions" on the subsequent page.
+
+    | Category | Capacity (GW) |
+    |---|---|
+    | Total Operational Commissioned Capacity | 20.0 |
+    | Americas - Colo | 11.8 |
+    | Americas - Hyperscale | 8.2 |
+
+    Summary: This donut chart, titled "Americas Operational Commissioned Capacity (Including Expansions)," illustrates the breakdown of the total 20 GW operational data center capacity in the Americas. The capacity is segmented into two main categories: "Americas - Colo" accounting for 11.8 GW, and "Americas - Hyperscale" representing 8.2 GW. The chart provides a static view, showing the relative contributions of colocation and hyperscale facilities to the region's current operational data center infrastructure.
+
+    Explanation: This chart provides a crucial baseline of the currently operational data center capacity in the Americas. When viewed in the context of the page's discussion about 47 GW of US data centers "in development" and 62 GW of US data center demand through 2028, it highlights the significant projected growth relative to the existing installed capacity. The information helps to frame the scale of ongoing and future data center expansion initiatives.

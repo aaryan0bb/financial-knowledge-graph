@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "Table T9 – Data Center Securitized Credit Estimated Annual Issuance",
+      "type": "Table",
+      "brief": "Projected annual ABS and CMBS issuance growth by 2028",
+      "description": "Shows annual securitized credit issuance for data centers rising from $17bn in 2025 to $62bn by 2028",
+      "properties": {
+        "table_id": "T9",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Total annual issuance projected to grow from $17bn in 2025 to $62bn by 2028"
+      }
+    },
+    {
+      "name": "Table T10 – Data Center Securitized Credit Financing Rates vs IG/HY",
+      "type": "Table",
+      "brief": "Financing rates for securitized credit vs IG and HY corporates",
+      "description": "Line chart data showing rates for US DC ABS, CMBS, IG and HY corporate debt from 2018–2025",
+      "properties": {
+        "table_id": "T10",
+        "table_content": "| Year | US DC ABS | US IG Corp 4-7y, A/BBB | US HY Corp 4-7y | US DC CMBS Fixed Rate |\n|------|-----------|------------------------|-----------------|-----------------------|\n| 2018 | 4.50%     | 4.10%                  | 7.50%           | 4.50%                 |\n| 2019 | 3.70%     | 3.80%                  | 7.15%           | 3.80%                 |\n| 2020 | 2.55%     | 3.20%                  | 6.75%           | 3.20%                 |\n| 2021 | 3.30%     | 2.00%                  | 5.90%           | 3.40%                 |\n| 2022 | 5.25%     | 4.20%                  | 7.40%           | 3.55%                 |\n| 2023 | 5.55%     | 5.60%                  | 8.80%           | 6.55%                 |\n| 2024 | 5.65%     | 5.10%                  | 8.20%           | 6.00%                 |\n| 2025 | 5.50%     | 5.15%                  | 8.00%           | 6.45%                 |",
+        "key_insight": "US DC ABS and CMBS rates tracked below HY and converged with IG rates post-2021"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "Metric",
+      "brief": "Total annual securitized credit issuance for data centers by 2028",
+      "description": "Combined ABS and CMBS issuance projected for data centers in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 62,
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit US IG Corp 4-7y Financing Rate",
+      "type": "Metric",
+      "brief": "US IG 4-7y rate low at 2.00% in 2021",
+      "description": "Shows trough of IG 4-7y financing rate in 2021",
+      "properties": {
+        "unit": "%",
+        "value": 2.0,
+        "as_of": "2021"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit US HY Corp 4-7y Financing Rate",
+      "type": "Metric",
+      "brief": "US HY 4-7y rate peaked at 8.80% in 2023",
+      "description": "Shows peak of HY 4-7y financing rate in 2023",
+      "properties": {
+        "unit": "%",
+        "value": 8.8,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit ABS/CMBS Penetration",
+      "type": "Factor",
+      "brief": "Share of data center MW capacity backed by ABS or CMBS by 2028",
+      "description": "Projected percentage of data center capacity financed via ABS or CMBS by 2028",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 25
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T9 – Data Center Securitized Credit Estimated Annual Issuance",
+      "target": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 62,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Total issuance projected to grow to $62bn by 2028"
+    },
+    {
+      "source": "Data Center Securitized Credit ABS/CMBS Penetration",
+      "target": "Data Center Securitized Credit Total Annual Issuance",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Higher ABS/CMBS penetration could drive total issuance growth"
+    },
+    {
+      "source": "Table T10 – Data Center Securitized Credit Financing Rates vs IG/HY",
+      "target": "Data Center Securitized Credit US IG Corp 4-7y Financing Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "IG Corp 4-7y rate declined to 2.00% in 2021"
+    },
+    {
+      "source": "Table T10 – Data Center Securitized Credit Financing Rates vs IG/HY",
+      "target": "Data Center Securitized Credit US HY Corp 4-7y Financing Rate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.8,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "HY Corp 4-7y rate peaked at 8.80% in 2023"
+    }
+  ],
+  "scenarios": []
+}

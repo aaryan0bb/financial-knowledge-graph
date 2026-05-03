@@ -1,0 +1,309 @@
+{
+  "entities": [
+    {
+      "name": "MS DataCenter Option 1",
+      "type": "Factor",
+      "brief": "Build power plants at data center site",
+      "description": "Off-grid self-generation solution to power data centers",
+      "properties": {
+        "solution_type": "off-grid_self_generation"
+      }
+    },
+    {
+      "name": "MS DataCenter Option 2",
+      "type": "Factor",
+      "brief": "Build data center at existing power or industrial site",
+      "description": "Leverages existing power infrastructure to reduce grid wait times",
+      "properties": {
+        "solution_type": "colocation"
+      }
+    },
+    {
+      "name": "MS DataCenter Option 3",
+      "type": "Factor",
+      "brief": "Redirect power from Bitcoin or industrial users",
+      "description": "Uses surplus power but insufficient to fully resolve bottlenecks",
+      "properties": {
+        "solution_type": "power_redirection"
+      }
+    },
+    {
+      "name": "MS DataCenter Natural Gas Power",
+      "type": "Factor",
+      "brief": "Natural gas–fired power generation source",
+      "description": "Favored energy source for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Coal Power",
+      "type": "Factor",
+      "brief": "Coal–fired power generation source",
+      "description": "Favored energy source for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Renewables",
+      "type": "Factor",
+      "brief": "Renewable energy sources",
+      "description": "Alternative options for off-grid power generation",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Nuclear Power",
+      "type": "Factor",
+      "brief": "Nuclear power generation source",
+      "description": "Alternative option for off-grid power plants",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Energy Storage",
+      "type": "Factor",
+      "brief": "Energy storage solutions (batteries, etc.)",
+      "description": "Supports off-grid operation while waiting for grid connection",
+      "properties": {
+        "category": "power_source"
+      }
+    },
+    {
+      "name": "MS DataCenter Political Pushback",
+      "type": "Factor",
+      "brief": "Political opposition to colocation options",
+      "description": "Increased regulatory and political resistance to using existing power sites",
+      "properties": {
+        "category": "political_risk",
+        "trend": "increasing"
+      }
+    },
+    {
+      "name": "MS DataCenter Grid Operator Pushback",
+      "type": "Factor",
+      "brief": "Grid operator resistance to additional load",
+      "description": "Pushback from grid operators on data center interconnections",
+      "properties": {
+        "category": "operational_risk",
+        "actor": "grid_operator",
+        "trend": "increasing"
+      }
+    },
+    {
+      "name": "MS DataCenter Power Prices",
+      "type": "Factor",
+      "brief": "Cost of electricity for data centers",
+      "description": "Power prices tend to increase when colocating at existing power sites",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "MS DataCenter Execution Risk",
+      "type": "Factor",
+      "brief": "Operational execution risk for de-bottlenecking solutions",
+      "description": "Risk that de-bottlenecking options may face delays or failures",
+      "properties": {
+        "severity": "high"
+      }
+    },
+    {
+      "name": "MS DataCenter Bottleneck Risk",
+      "type": "Factor",
+      "brief": "Risk of continued grid bottlenecks",
+      "description": "Potential for data center power-up delays without effective solutions",
+      "properties": {
+        "likelihood": "high"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Natural Gas Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 favors natural gas power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Coal Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 favors coal power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Renewables",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes renewables"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Nuclear Power",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes nuclear power"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Energy Storage",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Option 1 also includes energy storage"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Political Pushback",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces political pushback"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Grid Operator Pushback",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces grid operator pushback"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Power Prices",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Option 2 tends to result in higher power prices"
+    },
+    {
+      "source": "MS DataCenter Option 3",
+      "target": "MS DataCenter Bottleneck Risk",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Option 3 is insufficient to resolve bottleneck risk"
+    },
+    {
+      "source": "MS DataCenter Option 1",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 1 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Option 2",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 2 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Option 3",
+      "target": "MS DataCenter Execution Risk",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Option 3 faces execution risk"
+    },
+    {
+      "source": "MS DataCenter Execution Risk",
+      "target": "MS DataCenter Bottleneck Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Execution risk leads to higher bottleneck risk"
+    }
+  ],
+  "scenarios": []
+}

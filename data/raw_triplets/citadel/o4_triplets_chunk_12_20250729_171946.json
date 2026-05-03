@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "EquityMarket-S&P 500 September Daily Performance Table T1 – Average S&P 500 daily performance declines in September",
+      "type": "Table",
+      "brief": "S&P 500 September daily average performance shows seasonal weakness.",
+      "description": "Provides indexed S&P 500 performance per September day, highlighting persistent negative trend and low troughs.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Day of Sep | S&P 500 Performance |\n|------------|---------------------|\n| 01         | 100.15              |\n| 02         | 100.40              |\n| 03         | 100.20              |\n| 04         | 100.05              |\n| 05         | 100.25              |\n| 06         | 100.28              |\n| 07         | 100.25              |\n| 08         | 100.15              |\n| 09         | 100.00              |\n| 10         | 99.65               |\n| 11         | 99.80               |\n| 12         | 99.70               |\n| 13         | 99.65               |\n| 14         | 99.63               |\n| 15         | 99.60               |\n| 16         | 99.95               |\n| 17         | 99.78               |\n| 18         | 99.75               |\n| 19         | 99.78               |\n| 20         | 99.55               |\n| 21         | 99.40               |\n| 22         | 99.30               |\n| 23         | 99.15               |\n| 24         | 99.00               |\n| 25         | 98.60               |\n| 26         | 98.75               |\n| 27         | 98.85               |\n| 28         | 98.50               |\n| 29         | 98.38               |\n| 30         | 98.30               |",
+        "key_insight": "The S&P 500 exhibits a consistent negative seasonal trend during September, culminating in monthly lows near 98.30 index level."
+      }
+    },
+    {
+      "name": "EquityMarket-September Negative Seasonality",
+      "type": "Factor",
+      "brief": "September regularly coincides with S&P 500 seasonal weakness.",
+      "description": "Historical S&P 500 data since 1928 reveals a recurring negative pattern in September, supporting timing of potential corrections.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 1.85,
+        "lookback_days": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquityMarket-S&P 500 September Daily Performance Table T1 – Average S&P 500 daily performance declines in September",
+      "target": "EquityMarket-September Negative Seasonality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1.85,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows S&P 500’s consistent negative September trend and informs negative seasonality factor."
+    }
+  ],
+  "scenarios": []
+}

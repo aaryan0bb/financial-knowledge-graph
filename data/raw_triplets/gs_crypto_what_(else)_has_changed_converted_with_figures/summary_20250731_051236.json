@@ -1,0 +1,38 @@
+{
+  "report": "GS Crypto - What (else) has changed_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:12:36.461244",
+  "total_chunks": 4,
+  "total_entities": 24,
+  "total_relationships": 8,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 8,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_050853.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 9,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_051023.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 3,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_051118.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_051234.json"
+    }
+  ]
+}

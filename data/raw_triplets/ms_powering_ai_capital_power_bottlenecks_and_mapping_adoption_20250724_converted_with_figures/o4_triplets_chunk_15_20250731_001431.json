@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – GenAI Revenue Opportunity by Segment 2023-2028",
+      "type": "Table",
+      "brief": "Projected GenAI revenue across Enterprise Software and Consumer Internet through 2028",
+      "description": "Shows exponential growth in GenAI revenue opportunity, with Consumer Internet leading, culminating in ~$1T total by 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Enterprise Software ($B) | Consumer Internet ($B) |\n|------|--------------------------|------------------------|\n| 2023 | 4                        | 11                     |\n| 2024 | 16                       | 29                     |\n| 2025 | 59                       | 94                     |\n| 2026 | 148                      | 228                    |\n| 2027 | 256                      | 416                    |\n| 2028 | 401                      | 683                    |",
+        "key_insight": "Total GenAI revenue is projected to approach $1 trillion by 2028, with $683B from Consumer Internet and $401B from Enterprise Software."
+      }
+    },
+    {
+      "name": "GenAI Total Revenue Opportunity by 2028",
+      "type": "Metric",
+      "brief": "Projected total GenAI revenue opportunity by 2028",
+      "description": "Forecasted combined enterprise and consumer GenAI revenue nearing $1T by 2028",
+      "properties": {
+        "value": 1000,
+        "unit": "USD bn",
+        "as_of": "2028"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – GenAI Revenue Opportunity by Segment 2023-2028",
+      "target": "GenAI Total Revenue Opportunity by 2028",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1000,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table projects total GenAI revenue approaching $1T by 2028"
+    }
+  ],
+  "scenarios": []
+}

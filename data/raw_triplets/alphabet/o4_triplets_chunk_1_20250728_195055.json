@@ -1,0 +1,300 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet",
+      "type": "Company",
+      "brief": "Global technology giant, parent of Google",
+      "description": "Dominant in Search and Cloud, with strong growth in AI and digital advertising.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology",
+        "market_cap_usd": 2361705000000,
+        "rating_outlook": "BUY"
+      }
+    },
+    {
+      "name": "Alphabet Q2 2025 Financial Results",
+      "type": "Event",
+      "brief": "Alphabet's Q2 2025 earnings release",
+      "description": "Material as it beat Street expectations; shows Alphabet's business momentum.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "EarningsResult",
+        "impact_value": 81.7,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "name": "Alphabet Q2 2025 Net Revenue",
+      "type": "Metric",
+      "brief": "Net revenue outcome for Q2 2025",
+      "description": "Key headline metric—net revenue beat Street at $81.7bn vs $79.9bn.",
+      "properties": {
+        "value": 81.7,
+        "unit": "USD bn",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Q2 2025 EPS",
+      "type": "Metric",
+      "brief": "Earnings per share Q2 2025",
+      "description": "EPS exceeded consensus at $2.31 vs $2.18.",
+      "properties": {
+        "value": 2.31,
+        "unit": "USD",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Cloud Q2 2025 Revenue Growth",
+      "type": "Metric",
+      "brief": "Cloud business YoY revenue growth",
+      "description": "Cloud revenue grew 32% YoY, ahead of Street at 27%.",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Search Q2 2025 Revenue Growth",
+      "type": "Metric",
+      "brief": "Search revenue YoY growth",
+      "description": "Google Search revenue grew 12% YoY, ahead of Street at 9%.",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Q2 2025 Paid Click Growth",
+      "type": "Metric",
+      "brief": "YoY growth in paid clicks",
+      "description": "Paid click growth accelerated to 4% YoY, approaching 5% last year.",
+      "properties": {
+        "value": 4,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Gemini MAUs Q2 2025",
+      "type": "Metric",
+      "brief": "Monthly Active Users of Gemini",
+      "description": "Gemini MAUs ramped by 50mn to 450mn in two months, incremental to Search.",
+      "properties": {
+        "value": 450,
+        "unit": "mn",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Cloud Q2 2025 Margins",
+      "type": "Metric",
+      "brief": "Operating margin for Cloud Q2",
+      "description": "Cloud margin up 942 bps to 20.7%.",
+      "properties": {
+        "value": 20.7,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet Cloud Q2 2025 Backlog",
+      "type": "Metric",
+      "brief": "Cloud backlog and YoY change",
+      "description": "Cloud backlog up 38% YoY and $16bn Q/Q, indicates demand.",
+      "properties": {
+        "value": 38,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet FY25 Capex Guidance",
+      "type": "Metric",
+      "brief": "2025 Capex guidance",
+      "description": "Raised guidance to $85bn for data center buildout.",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Alphabet Price Objective Change July 2025",
+      "type": "Event",
+      "brief": "BofA raises Alphabet price target",
+      "description": "Target increased from $210 to $217 reflecting higher EPS and growth.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "PriceTargetChange",
+        "impact_value": 217,
+        "unit": "USD",
+        "affected_tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "name": "Alphabet Regulatory Risk Event Aug 2025",
+      "type": "Event",
+      "brief": "Potential DOJ case ruling in August",
+      "description": "Expected antitrust ruling, cited as main risk overhang.",
+      "properties": {
+        "date": null,
+        "event_type": "RegulatoryRisk",
+        "impact_value": null,
+        "unit": null,
+        "affected_tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 – Alphabet Key Financial Estimates Table",
+      "type": "Table",
+      "brief": "Key multi-year historical and estimated financial metrics for Alphabet.",
+      "description": "Summarizes core headline metrics—EPS, DPS, revenue—through 2027E.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "|                     | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---------------------|-------|-------|-------|-------|-------|\n| EPS                 | 5.80  | 8.04  | 10.06 | 10.60 | 11.58 |\n| EPS Change (YoY)    | 27.2% | 38.6% | 25.1% | 5.4%  | 9.2%  |\n| Consensus EPS (BBG) |       |       | 10.34 | 11.42 | 13.23 |\n| Consensus EPS (VA)  |       |       | 10.05 | 10.79 | 12.92 |\n| DPS                 | 0     | 0.60  | 0.61  | 0.60  | 0.60  |\n| EPS (GOOG)          | 5.80  | 8.04  | 10.06 | 10.60 | 11.58 |\n| DPS (GOOG)          | 0     | 0.60  | 0.61  | 0.60  | 0.60  |\n| P/E                 | 32.8x | 23.7x | 18.9x | 17.9x | 16.4x |\n| Dividend Yield      | 0%    | 0.3%  | 0.3%  | 0.3%  | 0.3%  |\n| EV/EBITDA*          | 19.2x | 15.7x | 13.4x | 11.5x | 10.1x |\n",
+        "key_insight": "Alphabet’s EPS is expected to grow steadily, reaching $11.58 in 2027E, while P/E multiple compresses."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Q2 2025 Financial Results",
+      "target": "Alphabet Q2 2025 Net Revenue",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": 0,
+        "impact_value": 81.7,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Q2 2025 financials inform headline net revenue."
+    },
+    {
+      "source": "Alphabet Q2 2025 Financial Results",
+      "target": "Alphabet Q2 2025 EPS",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": 2.31,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Q2 2025 financials inform headline EPS."
+    },
+    {
+      "source": "Alphabet",
+      "target": "Alphabet Q2 2025 Net Revenue",
+      "type": "OWNS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": 0,
+        "impact_value": 81.7,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Alphabet owns its headline net revenue metric."
+    },
+    {
+      "source": "Alphabet Cloud Q2 2025 Revenue Growth",
+      "target": "Alphabet Q2 2025 Financial Results",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Cloud revenue growth contributed to overall Q2 beat."
+    },
+    {
+      "source": "Alphabet Cloud Q2 2025 Backlog",
+      "target": "Alphabet Cloud Q2 2025 Revenue Growth",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 38,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Strong backlog informs cloud revenue growth."
+    },
+    {
+      "source": "Alphabet Q2 2025 Paid Click Growth",
+      "target": "Alphabet Search Q2 2025 Revenue Growth",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 4,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Paid click growth drives higher search revenue."
+    },
+    {
+      "source": "Alphabet Price Objective Change July 2025",
+      "target": "Alphabet",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 217,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Raising price objective increases fair value."
+    },
+    {
+      "source": "Alphabet Regulatory Risk Event Aug 2025",
+      "target": "Alphabet",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Potential DOJ ruling poses risk to Alphabet."
+    },
+    {
+      "source": "Table T1 – Alphabet Key Financial Estimates Table",
+      "target": "Alphabet Q2 2025 EPS",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": 10.06,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table summary informs EPS forecast."
+    }
+  ],
+  "scenarios": []
+}

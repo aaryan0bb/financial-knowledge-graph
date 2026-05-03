@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Global Fund Flows",
+      "type": "Table",
+      "brief": "Weekly global fund flows snapshot",
+      "description": "Fund flows by asset class and region for week ending July 23, 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "<TRUNCATED: first 10 rows only>",
+        "key_insight": "Significant inflows into fixed income funds contrasted with modest equity flows",
+        "table_type": "Ratios",
+        "full_rows": 49
+      }
+    },
+    {
+      "name": "Global Fund Flows – Total Fixed Income",
+      "type": "Metric",
+      "brief": "Four-week sum of fixed income fund inflows",
+      "description": "Represents strong demand for fixed income investments",
+      "properties": {
+        "value": 86605,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Total Equity",
+      "type": "Metric",
+      "brief": "Four-week sum of equity fund flows",
+      "description": "Indicates modest equity investment trends",
+      "properties": {
+        "value": 29084,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Government Bond Funds",
+      "type": "Metric",
+      "brief": "Four-week sum of government bond fund flows",
+      "description": "Reflects strong demand for government bonds",
+      "properties": {
+        "value": 7345,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows – Inflation-Protected Securities",
+      "type": "Metric",
+      "brief": "Four-week sum of inflation-protected securities flows",
+      "description": "Signals hedging against inflation expectations",
+      "properties": {
+        "value": 448,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows – High Beta Funds",
+      "type": "Metric",
+      "brief": "Four-week sum of high beta fund flows",
+      "description": "Indicates investor preference for cyclical assets",
+      "properties": {
+        "value": 10923,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Global Fund Flows",
+      "target": "Global Fund Flows – Total Fixed Income",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 86605,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights 4-week fixed income inflows of $86,605m"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows",
+      "target": "Global Fund Flows – Total Equity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 29084,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week equity fund flows of $29,084m"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows",
+      "target": "Global Fund Flows – Government Bond Funds",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7345,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week government bond fund inflows of $7,345m"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows",
+      "target": "Global Fund Flows – Inflation-Protected Securities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 448,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week inflation-protected securities flows of $448m"
+    },
+    {
+      "source": "Table T1 – Global Fund Flows",
+      "target": "Global Fund Flows – High Beta Funds",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10923,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week high beta fund inflows of $10,923m"
+    }
+  ],
+  "scenarios": []
+}

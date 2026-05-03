@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "Global Fund Flows Goldman Sachs",
+      "type": "Company",
+      "brief": "Global investment bank",
+      "description": "Publisher of weekly fund flow report",
+      "properties": {
+        "ticker": "GS"
+      }
+    },
+    {
+      "name": "Global Fund Flows Post-Pandemic Recovery Optimism",
+      "type": "Factor",
+      "brief": "Optimism after pandemic",
+      "description": "Investor optimism driving recovery flows post-pandemic",
+      "properties": {
+        "driver": "post-pandemic recovery optimism"
+      }
+    },
+    {
+      "name": "Global Fund Flows Accommodative Monetary Policies",
+      "type": "Factor",
+      "brief": "Central bank policy easing",
+      "description": "Monetary easing accommodating markets",
+      "properties": {
+        "driver": "accommodative monetary policies"
+      }
+    },
+    {
+      "name": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "Event",
+      "brief": "Peak inflows across asset classes",
+      "description": "Strong fund inflows in 2020-2021 across multiple categories",
+      "properties": {
+        "date": null,
+        "event_type": "inflow_peak",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Global Fund Flows Rising Inflation",
+      "type": "Factor",
+      "brief": "Inflation increase",
+      "description": "Rising inflation levels driving market correction",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Fund Flows Rising Interest Rates",
+      "type": "Factor",
+      "brief": "Interest rate hikes",
+      "description": "Rising interest rates driving outflows",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Fund Flows Sharp Outflows 2022",
+      "type": "Event",
+      "brief": "Significant outflows across asset classes",
+      "description": "Sharp fund outflows in 2022 across multiple categories",
+      "properties": {
+        "date": "2022",
+        "event_type": "outflow_spike",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Global Fund Flows Market Uncertainty",
+      "type": "Factor",
+      "brief": "Broad investor uncertainty",
+      "description": "Elevated market uncertainty impacting allocation decisions",
+      "properties": {
+        "driver": "market uncertainty"
+      }
+    },
+    {
+      "name": "Global Fund Flows Strategic Re-evaluation of Investment Prospects",
+      "type": "Factor",
+      "brief": "Portfolio strategy review",
+      "description": "Investors re-evaluating investment prospects",
+      "properties": {
+        "driver": "strategic re-evaluation of investment prospects"
+      }
+    },
+    {
+      "name": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "Event",
+      "brief": "Mixed to negative fund flows",
+      "description": "Mixed or negative fund flow trends in early 2025",
+      "properties": {
+        "date": null,
+        "event_type": "mixed_negative_flows",
+        "region": "global"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Fund Flows Post-Pandemic Recovery Optimism",
+      "target": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Post-pandemic optimism drove inflows in 2020-2021"
+    },
+    {
+      "source": "Global Fund Flows Accommodative Monetary Policies",
+      "target": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Accommodative monetary policies drove inflows in 2020-2021"
+    },
+    {
+      "source": "Global Fund Flows Rising Inflation",
+      "target": "Global Fund Flows Sharp Outflows 2022",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Rising inflation drove sharp outflows in 2022"
+    },
+    {
+      "source": "Global Fund Flows Rising Interest Rates",
+      "target": "Global Fund Flows Sharp Outflows 2022",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Rising interest rates drove sharp outflows in 2022"
+    },
+    {
+      "source": "Global Fund Flows Market Uncertainty",
+      "target": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Market uncertainty drove mixed-negative flows in early 2025"
+    },
+    {
+      "source": "Global Fund Flows Strategic Re-evaluation of Investment Prospects",
+      "target": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Strategic re-evaluation drove mixed-negative flows in early 2025"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "Japanese Market – US Momentum / SPX 1M Realized Volatility Z-score",
+      "type": "Factor",
+      "brief": "Relative realized volatility of US momentum vs S&P 500",
+      "description": "High z-score indicates momentum stocks experiencing higher volatility than the S&P 500",
+      "properties": {
+        "driver": "realized volatility ratio",
+        "magnitude_sigma": 3.48,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "Japanese Market – Sideways Trading Period",
+      "type": "Event",
+      "brief": "Period of sideways trading for momentum stocks",
+      "description": "Period where momentum strategies trade sideways amid high volatility",
+      "properties": {
+        "date": null,
+        "event_type": "sideways_trading"
+      }
+    },
+    {
+      "name": "Japanese Market – US 20yr Auction",
+      "type": "Event",
+      "brief": "Auction of 20-year US Treasury bonds",
+      "description": "US Treasury 20-year bond auction, focus of trading today",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Japanese Market – UK 15yr Auction",
+      "type": "Event",
+      "brief": "Auction of 15-year UK gilts",
+      "description": "UK government 15-year gilt auction in focus",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Japanese Market – German 10yr Auction",
+      "type": "Event",
+      "brief": "Auction of 10-year German bunds",
+      "description": "German bund 10-year auction, focus of trading",
+      "properties": {
+        "date": null,
+        "event_type": "auction",
+        "region": "Germany"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese Market – US Momentum / SPX 1M Realized Volatility Z-score",
+      "target": "Japanese Market – Sideways Trading Period",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "High volatility ratio triggers sideways trading period"
+    }
+  ],
+  "scenarios": []
+}

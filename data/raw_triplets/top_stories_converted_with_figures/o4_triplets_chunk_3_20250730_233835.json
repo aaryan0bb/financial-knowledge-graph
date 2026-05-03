@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "name": "Global Equity Markets - GSPUWSHI Index",
+      "type": "Instrument",
+      "brief": "High vs Low Short Interest Pair index",
+      "description": "Sector, industry, & factor neutral index tracking high vs low short interest returns",
+      "properties": {
+        "ticker": "GSPUWSHI",
+        "volatility_%": 13
+      }
+    },
+    {
+      "name": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "Event",
+      "brief": "10% one-month rally",
+      "description": "Best monthly returns since January 2021 meme stock squeeze",
+      "properties": {
+        "date": null,
+        "event_type": "return_rally",
+        "impact_value": 10,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Animal Spirit",
+      "type": "Factor",
+      "brief": "Market optimism driver",
+      "description": "Animal spirit fueled the rally",
+      "properties": {
+        "driver": "animal spirit"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Strong Retail Participation",
+      "type": "Factor",
+      "brief": "Retail investor trading driver",
+      "description": "Strong retail participation fueled the rally",
+      "properties": {
+        "driver": "strong retail participation"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Australia Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Australia flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI rose from 50.6 in June",
+      "properties": {
+        "value": 51.6,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Australia Flash Services PMI",
+      "type": "Metric",
+      "brief": "Australia flash services PMI for July 2025",
+      "description": "July services PMI rose from 51.8 in June",
+      "properties": {
+        "value": 53.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - India Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "India flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI rose from 58.4 in June",
+      "properties": {
+        "value": 59.2,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - India Flash Services PMI",
+      "type": "Metric",
+      "brief": "India flash services PMI for July 2025",
+      "description": "July services PMI fell from 60.4 in June",
+      "properties": {
+        "value": 59.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Manufacturing PMI",
+      "type": "Metric",
+      "brief": "Japan flash manufacturing PMI for July 2025",
+      "description": "July manufacturing PMI fell from 50.1 in June",
+      "properties": {
+        "value": 48.8,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - Japan Flash Services PMI",
+      "type": "Metric",
+      "brief": "Japan flash services PMI for July 2025",
+      "description": "July services PMI rose from 51.7 in June",
+      "properties": {
+        "value": 53.5,
+        "unit": "indexPts",
+        "as_of": "Jul 2025"
+      }
+    },
+    {
+      "name": "Global Equity Markets - South Korea Q2 2025 GDP Q/Q Growth",
+      "type": "Metric",
+      "brief": "South Korea Q2 2025 GDP Q/Q growth",
+      "description": "Q2 GDP came ahead of Street expectations",
+      "properties": {
+        "value": 0.6,
+        "unit": "%",
+        "as_of": "Q2 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Equity Markets - Animal Spirit",
+      "target": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Animal spirit drove the rally"
+    },
+    {
+      "source": "Global Equity Markets - Strong Retail Participation",
+      "target": "Global Equity Markets - GSPUWSHI Index 10% Monthly Rally",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Strong retail participation drove the rally"
+    }
+  ],
+  "scenarios": []
+}

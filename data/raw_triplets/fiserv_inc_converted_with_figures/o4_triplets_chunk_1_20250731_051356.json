@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "Fiserv Inc.",
+      "type": "Company",
+      "brief": "Financial services technology provider",
+      "description": "Subject of 2Q25 earnings report with mixed performance",
+      "properties": {
+        "ticker": "FI"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - EPS Beat",
+      "type": "Metric",
+      "brief": "2% EPS beat in 2Q25",
+      "description": "EPS beat driven by lower tax rate",
+      "properties": {
+        "value": 2,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - 2Q25 Adjusted Revenue",
+      "type": "Metric",
+      "brief": "2Q25 adjusted revenue in line at $5.20bn",
+      "description": "Reported adjusted revenue in line with expectations",
+      "properties": {
+        "value": 5.2,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Lower Tax Rate",
+      "type": "Factor",
+      "brief": "Reduced tax rate",
+      "description": "Lower tax rate contributed to EPS beat",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Merchant Revenue Miss ex Clover",
+      "type": "Event",
+      "brief": "Miss on merchant revenue excluding Clover",
+      "description": "Missed expectations on merchant revenue ex Clover",
+      "properties": {
+        "date": null,
+        "event_type": "miss"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Merchant Margin Miss",
+      "type": "Event",
+      "brief": "Miss on merchant margins",
+      "description": "Lower than expected merchant margins",
+      "properties": {
+        "date": null,
+        "event_type": "miss"
+      }
+    },
+    {
+      "name": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "Factor",
+      "brief": "Expected stock underperformance",
+      "description": "Stock expected to underperform due to merchant revenue and margin misses",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fiserv Inc. - Lower Tax Rate",
+      "target": "Fiserv Inc. - EPS Beat",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Lower tax rate drove the EPS beat"
+    },
+    {
+      "source": "Fiserv Inc. - Merchant Revenue Miss ex Clover",
+      "target": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Revenue miss contributes to expected stock underperformance"
+    },
+    {
+      "source": "Fiserv Inc. - Merchant Margin Miss",
+      "target": "Fiserv Inc. - Stock Underperformance Outlook",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Margin miss contributes to expected stock underperformance"
+    }
+  ],
+  "scenarios": []
+}

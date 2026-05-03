@@ -1,0 +1,255 @@
+{
+  "entities": [
+    {
+      "name": "AGNC Investment Corp.",
+      "type": "Company",
+      "brief": "Mortgage REIT focusing on agency MBS",
+      "description": "Specializes in agency mortgage-backed securities with normalized NIM and attractive MBS investment returns",
+      "properties": {
+        "ticker": "AGNC",
+        "market_cap_USDbn": 9.5609,
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "AGNC - 2Q25 EPS",
+      "type": "Metric",
+      "brief": "Reported EPS for 2Q25",
+      "description": "Second quarter 2025 earnings per share result",
+      "properties": {
+        "unit": "USD",
+        "value": 0.38,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - BARC 2Q25 EPS Estimate",
+      "type": "Metric",
+      "brief": "Barclays estimate for 2Q25 EPS",
+      "description": "Analyst estimate by Barclays for 2Q25 EPS",
+      "properties": {
+        "unit": "USD",
+        "value": 0.42,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - Street 2Q25 EPS Estimate",
+      "type": "Metric",
+      "brief": "Consensus street estimate for 2Q25 EPS",
+      "description": "Consensus analyst estimate for 2Q25 EPS",
+      "properties": {
+        "unit": "USD",
+        "value": 0.41,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "AGNC - Net Interest Margin",
+      "type": "Factor",
+      "brief": "NIM normalization continues",
+      "description": "Net interest margin is normalizing, affecting earnings",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "AGNC - Lower Cost Swaps Roll Off",
+      "type": "Factor",
+      "brief": "End of lower cost interest rate swaps",
+      "description": "Roll-off of lower cost swaps reduced net interest margin",
+      "properties": {
+        "driver": "roll-off"
+      }
+    },
+    {
+      "name": "AGNC - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Current price target by Barclays Equity Research",
+      "properties": {
+        "unit": "USD",
+        "value": 9.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "AGNC - Share Price",
+      "type": "Metric",
+      "brief": "Share price on 22 July 2025",
+      "description": "Market price for AGNC as of report",
+      "properties": {
+        "unit": "USD",
+        "value": 9.37,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "AGNC - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Expected EPS for next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": 1.62,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "AGNC - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Expected EPS for fiscal year two",
+      "properties": {
+        "unit": "USD",
+        "value": 1.6,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "GFINBURO - Grupo Financiero Inbursa, SAB de C.V.",
+      "type": "Company",
+      "brief": "Mexican financial services conglomerate",
+      "description": "Offers banking, insurance, and asset management services in Mexico",
+      "properties": {
+        "ticker": "GFINBURO.MX",
+        "market_cap_MXDbn": 297.1558,
+        "sector": "Banks"
+      }
+    },
+    {
+      "name": "GFINBURO - Net Interest Income",
+      "type": "Factor",
+      "brief": "Net interest income decline",
+      "description": "Lower-than-expected net interest income weighed on EPS",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GFINBURO - Provisions",
+      "type": "Factor",
+      "brief": "Higher loan loss provisions",
+      "description": "Increased provisions reduced earnings",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GFINBURO - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Current price target by Barclays Equity Research",
+      "properties": {
+        "unit": "MXN",
+        "value": 58.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "GFINBURO - Share Price",
+      "type": "Metric",
+      "brief": "Share price on 22 July 2025",
+      "description": "Market price for GFINBURO as of report",
+      "properties": {
+        "unit": "MXN",
+        "value": 48.94,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "GFINBURO - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Expected EPS for next fiscal year",
+      "properties": {
+        "unit": "MXN",
+        "value": 5.7,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "GFINBURO - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Expected EPS for fiscal year two",
+      "properties": {
+        "unit": "MXN",
+        "value": 6.4,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "GFINBURO - 2Q25 EPS Review",
+      "type": "Event",
+      "brief": "Quarterly earnings review for Q2 2025",
+      "description": "Earnings review event impacted by NII and provisions",
+      "properties": {
+        "date": null,
+        "event_type": "EPS Review",
+        "affected_tickers": [
+          "GFINBURO.MX"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "AGNC - Lower Cost Swaps Roll Off",
+      "target": "AGNC - Net Interest Margin",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Roll-off of lower cost swaps reduced NIM"
+    },
+    {
+      "source": "AGNC - Net Interest Margin",
+      "target": "AGNC - 2Q25 EPS",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "NIM normalization caused EPS miss"
+    },
+    {
+      "source": "GFINBURO - Net Interest Income",
+      "target": "GFINBURO - 2Q25 EPS Review",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Lower net interest income weighed on EPS"
+    },
+    {
+      "source": "GFINBURO - Provisions",
+      "target": "GFINBURO - 2Q25 EPS Review",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Higher provisions reduced earnings"
+    }
+  ],
+  "scenarios": []
+}

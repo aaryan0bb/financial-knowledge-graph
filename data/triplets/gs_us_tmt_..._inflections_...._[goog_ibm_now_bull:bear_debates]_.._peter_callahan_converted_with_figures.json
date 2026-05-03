@@ -1,0 +1,861 @@
+{
+  "entities": [
+    {
+      "name": "TMT - Alphabet Inc.",
+      "type": "Company",
+      "brief": "Search and AI-focused core business",
+      "description": "Alphabet leverages Search product and AI to differentiate in TMT sector",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "TMT",
+        "rating_outlook": "Buy"
+      }
+    },
+    {
+      "name": "TMT - IBM",
+      "type": "Company",
+      "brief": "Enterprise tech and consulting services provider",
+      "description": "IBM is a debated large-cap tech stock facing mixed software momentum and FCF growth",
+      "properties": {
+        "ticker": "IBM",
+        "sector": "TMT",
+        "rating_outlook": "Buy"
+      }
+    },
+    {
+      "name": "TMT - Oracle Corp.",
+      "type": "Company",
+      "brief": "Enterprise software company",
+      "description": "Oracle is one of large-cap tech stocks debated alongside IBM",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - Uber Technologies Inc.",
+      "type": "Company",
+      "brief": "Ridesharing and mobility platform",
+      "description": "Uber is among debated large-cap tech equities alongside IBM",
+      "properties": {
+        "ticker": "UBER",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow, Inc.",
+      "type": "Company",
+      "brief": "Cloud-based IT service management provider",
+      "description": "Strong ServiceNow performance drives pre-market gains amidst sector sentiment",
+      "properties": {
+        "ticker": "NOW",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT - IBM Pre-Market Price Change",
+      "type": "Event",
+      "brief": "IBM share price change in pre-market trading",
+      "description": "IBM stock fell 6.5% in pre-market trading",
+      "properties": {
+        "date": null,
+        "event_type": "price_change",
+        "impact_value": -6.5,
+        "unit": "%",
+        "affected_tickers": [
+          "IBM"
+        ],
+        "region": "pre-market"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow Pre-Market Price Change",
+      "type": "Event",
+      "brief": "ServiceNow share price change in pre-market trading",
+      "description": "ServiceNow stock rose 8% in pre-market trading",
+      "properties": {
+        "date": null,
+        "event_type": "price_change",
+        "impact_value": 8,
+        "unit": "%",
+        "affected_tickers": [
+          "NOW"
+        ],
+        "region": "pre-market"
+      }
+    },
+    {
+      "name": "TMT - Negative Investor Sentiment",
+      "type": "Factor",
+      "brief": "Widespread bearish investor sentiment",
+      "description": "Investor sentiment turned negative amid software momentum and FCF misses",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "TMT - Bullish Sentiment",
+      "type": "Factor",
+      "brief": "Positive investor sentiment or bull case",
+      "description": "Bullish views hinge on margins beat and software growth outlook",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Software Momentum",
+      "type": "Factor",
+      "brief": "Momentum in software growth",
+      "description": "Software segment underperformed with deceleration in organic growth",
+      "properties": {
+        "direction": "down",
+        "driver": "organic growth deceleration"
+      }
+    },
+    {
+      "name": "TMT - Consulting Bookings Decline",
+      "type": "Factor",
+      "brief": "IBM consulting bookings change",
+      "description": "IBM's consulting bookings declined year-over-year",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 18
+      }
+    },
+    {
+      "name": "TMT - Gross Margin Beat",
+      "type": "Metric",
+      "brief": "IBM gross margin beat",
+      "description": "IBM delivered gross margins about 2 percentage points above expectations",
+      "properties": {
+        "value": 2,
+        "unit": "percentage_point",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TMT \u2013 Google CapEx",
+      "type": "Metric",
+      "brief": "Projected capital expenditure for Google in 2026",
+      "description": "Google's planned capex of around $102 bn for 2026",
+      "properties": {
+        "unit": "USD bn",
+        "value": 102,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "TMT \u2013 Google D&A",
+      "type": "Metric",
+      "brief": "Projected depreciation & amortization for Google in 2026",
+      "description": "Google's projected D&A of approximately $33 bn reflecting 44% y/y growth",
+      "properties": {
+        "unit": "USD bn",
+        "value": 33,
+        "as_of": "2026",
+        "growth_pct": 44
+      }
+    },
+    {
+      "name": "TMT \u2013 Google Cloud Revenue Growth",
+      "type": "Metric",
+      "brief": "Year-on-year growth of Google Cloud revenue",
+      "description": "Google Cloud revenue growth rate inflecting to 32% y/y",
+      "properties": {
+        "unit": "%",
+        "value": 32,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "TMT \u2013 GenAI Investment Sentiment",
+      "type": "Factor",
+      "brief": "Investor sentiment toward GenAI investments",
+      "description": "Investors comfortable green lighting GenAI investments",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT \u2013 Enterprise Tech Spending Inflection",
+      "type": "Factor",
+      "brief": "Emerging inflection in enterprise IT spending",
+      "description": "Notable positive inflections in IT and enterprise technology spending",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT \u2013 IBM CEO Optimism",
+      "type": "Factor",
+      "brief": "Shift in IBM CEO's sentiment",
+      "description": "IBM CEO moved from cautious optimism to optimism about the macro environment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT \u2013 ServiceNow CEO AI Demand View",
+      "type": "Factor",
+      "brief": "ServiceNow CEO's view on AI demand environment",
+      "description": "ServiceNow CEO said demand environment is wide open for AI innovation",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GOOGL \u2013 Google",
+      "type": "Company",
+      "brief": "Search and cloud technology giant",
+      "description": "Major technology company driving growth through AI and cloud initiatives",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "GOOGL \u2013 Bull sentiment",
+      "type": "Factor",
+      "brief": "Investor optimism driven by valuation and growth",
+      "description": "Bull camp sentiment due to cheap valuation and growth metrics",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GOOGL \u2013 Bear sentiment",
+      "type": "Factor",
+      "brief": "Investor caution due to capital and regulatory risks",
+      "description": "Bear camp sentiment from rising capex and regulatory overhang",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GOOGL \u2013 GAAP EPS ex-cash multiple",
+      "type": "Metric",
+      "brief": "Forward GAAP EPS ex-cash valuation multiple",
+      "description": "Forward 2026 GAAP EPS ex-cash multiple indicating valuation",
+      "properties": {
+        "value": 18,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GOOGL \u2013 YouTube y/y growth rate",
+      "type": "Metric",
+      "brief": "Year-over-year YouTube revenue growth",
+      "description": "Indicates strong YouTube growth driven by Shorts and subscriptions",
+      "properties": {
+        "value": 13,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "GOOGL \u2013 Cloud operating margin expansion",
+      "type": "Metric",
+      "brief": "Year-over-year operating margin expansion for Google Cloud",
+      "description": "Operating margins expanded by 900 basis points y/y in Cloud segment",
+      "properties": {
+        "value": 900,
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "GOOGL \u2013 share buyback pacing",
+      "type": "Metric",
+      "brief": "Annual share repurchase pacing",
+      "description": "Share buyback pacing down to $13.6bn from $15\u201316bn",
+      "properties": {
+        "value": 13.6,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "TMT_ServiceNow",
+      "type": "Company",
+      "brief": "Enterprise cloud software provider",
+      "description": "ServiceNow is a cloud computing company specializing in enterprise IT operations management",
+      "properties": {
+        "ticker": "NOW",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT_Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google",
+      "description": "Alphabet Inc. is a technology conglomerate focusing on search, AI, and cloud",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT_ServiceNow Subscription Revenue Beat",
+      "type": "Metric",
+      "brief": "200 bps beat on subscription revenue and cRPO",
+      "description": "ServiceNow beat its subscription revenues and contracted RPO by 200 basis points",
+      "properties": {
+        "value": 200,
+        "unit": "bp",
+        "as_of": "2Q"
+      }
+    },
+    {
+      "name": "TMT_Alphabet 2Q Capex Growth",
+      "type": "Metric",
+      "brief": "70% y/y capex acceleration",
+      "description": "Alphabet's capital expenditure accelerated 70% year-over-year in Q2",
+      "properties": {
+        "value": 70,
+        "unit": "%",
+        "as_of": "2Q"
+      }
+    },
+    {
+      "name": "TMT_Alphabet 2025 Capex Outlook",
+      "type": "Metric",
+      "brief": "Raised capex outlook to $85bn for 2025",
+      "description": "Alphabet raised its 2025 capital expenditure outlook to $85 billion",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "2025",
+        "magnitude_%": 13
+      }
+    },
+    {
+      "name": "TMT_ServiceNow Q3 Guide Deceleration",
+      "type": "Metric",
+      "brief": "350 bps implied deceleration in Q3 guide",
+      "description": "ServiceNow's Q3 guide implies a deceleration of approximately 350 basis points",
+      "properties": {
+        "value": 350,
+        "unit": "bp",
+        "as_of": "3Q guide"
+      }
+    },
+    {
+      "name": "TMT_ServiceNow FY26 AI ACV Target",
+      "type": "Metric",
+      "brief": "$1bn AI ACV target for FY26",
+      "description": "ServiceNow aims to reach $1 billion AI annual contract value in fiscal year 2026",
+      "properties": {
+        "value": 1,
+        "unit": "USD bn",
+        "as_of": "FY26"
+      }
+    },
+    {
+      "name": "TMT - IBM Consulting",
+      "type": "Company",
+      "brief": "IBM's IT services consulting division",
+      "description": "IBM Consulting revenue in-line with expectations, leveraging strong GenAI backlog",
+      "properties": {
+        "ticker": "IBM",
+        "sector": "IT Services",
+        "b_t_b_ratio": 1.14
+      }
+    },
+    {
+      "name": "TMT - Google Cloud Growth",
+      "type": "Metric",
+      "brief": "Google Cloud year-on-year revenue growth",
+      "description": "Google Cloud accelerated to 32% y/y growth",
+      "properties": {
+        "unit": "%",
+        "value": 32,
+        "as_of": "y/y"
+      }
+    },
+    {
+      "name": "TMT - ServiceNow cRPO Performance",
+      "type": "Factor",
+      "brief": "ServiceNow's cRPO results",
+      "description": "NOW's solid cRPO results expected to ease enterprise software concerns",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Enterprise Software Risk Concerns",
+      "type": "Factor",
+      "brief": "Near-term enterprise software concerns",
+      "description": "Caution remains around enterprise software demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT - Waymo Cumulative Miles Driven",
+      "type": "Metric",
+      "brief": "Waymo autonomous miles driven",
+      "description": "Waymo has driven over 100 million autonomous miles",
+      "properties": {
+        "unit": "miles",
+        "value": 100000000,
+        "as_of": null
+      }
+    },
+    {
+      "name": "TMT - Tesla Autonomous Ride-Hailing Deployment",
+      "type": "Event",
+      "brief": "Tesla goal for autonomous ride-hailing deployment",
+      "description": "TSLA aims to serve half of U.S. population with autonomous ride-hailing by year-end",
+      "properties": {
+        "date": null,
+        "event_type": "deployment_goal",
+        "affected_tickers": [
+          "TSLA"
+        ],
+        "region": "US",
+        "impact_value": 50,
+        "unit": "% population"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics",
+      "type": "Company",
+      "brief": "Global semiconductor manufacturer",
+      "description": "STMicroelectronics supplies chips across automotive and industrial markets",
+      "properties": {
+        "ticker": "STM",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics Share Price Change",
+      "type": "Metric",
+      "brief": "STMicro two-day share price drop",
+      "description": "STMicro shares declined 18% over two days",
+      "properties": {
+        "unit": "%",
+        "value": -18,
+        "as_of": "2-day period"
+      }
+    },
+    {
+      "name": "TMT - STMicroelectronics Q2 Automotive Results Release",
+      "type": "Event",
+      "brief": "Q2 automotive results and margins guide",
+      "description": "STMicro released weaker automotive results and softer Q3 margins guide",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "STM"
+        ],
+        "region": "EU"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear",
+      "type": "Company",
+      "brief": "Provider of connectivity semiconductors",
+      "description": "MaxLinear focuses on RF and broadband chip solutions",
+      "properties": {
+        "ticker": "MXL",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear Share Price Change",
+      "type": "Metric",
+      "brief": "MaxLinear share price jump",
+      "description": "MaxLinear shares rose 30% on earnings beat and raised guidance",
+      "properties": {
+        "unit": "%",
+        "value": 30,
+        "as_of": "session"
+      }
+    },
+    {
+      "name": "TMT - MaxLinear Q2 Earnings Beat-and-Raise",
+      "type": "Event",
+      "brief": "Q2 earnings beat and guidance raise",
+      "description": "MaxLinear reported Q2 beat and raised order commentary",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "MXL"
+        ]
+      }
+    },
+    {
+      "name": "TMT - Texas Instruments Inc.",
+      "type": "Company",
+      "brief": "Analog and embedded semiconductor maker",
+      "description": "Texas Instruments supplies analog and embedded processing chips",
+      "properties": {
+        "ticker": "TXN",
+        "sector": "Semiconductors"
+      }
+    },
+    {
+      "name": "TMT - Texas Instruments Share Price Change",
+      "type": "Metric",
+      "brief": "TXN one-day share price drop",
+      "description": "Texas Instruments shares fell 13% in one day (second worst day in 25+ years)",
+      "properties": {
+        "unit": "%",
+        "value": -13,
+        "as_of": "yesterday"
+      }
+    },
+    {
+      "name": "GOOGL",
+      "type": "Company",
+      "brief": "Alphabet Inc. Class A shares",
+      "description": "Ticker for the main search and AI-focused technology company",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "CMG",
+      "type": "Company",
+      "brief": "Chipotle Mexican Grill",
+      "description": "Casual dining restaurant chain flagged by Consumer team",
+      "properties": {
+        "ticker": "CMG",
+        "sector": "Consumer"
+      }
+    },
+    {
+      "name": "CMG Pre-Market Price Drop",
+      "type": "Event",
+      "brief": "CMG down 10% in pre-market trading",
+      "description": "Chipotle shares fell 10% in pre-market on surprising same-store sales growth datapoint",
+      "properties": {
+        "date": null,
+        "event_type": "price_move",
+        "impact_value": -10,
+        "unit": "%",
+        "affected_tickers": [
+          "CMG"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 \u2013 GOOGL Capex and Revenue Growth Outlook",
+      "type": "Table",
+      "brief": "GSe revenues, capex, D&A and GAAP expense growth for GOOGL 2023-2030E",
+      "description": "Exhibit showing projections of revenues, capex, D&A, and GAAP expenses from 2023 to 2030E",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Exhibit 1: GOOGL - GSe Revenues, Capex, D&A and GAAP Expense Growth\n$mm, 2023-2030E\n                                      2023     2024    2025E    2026E   2027E    2028E   2029E    2030E\nTotal Revenues (Net)               $ 256,508 $ 295,118 $ 334,627 $ 377,761 $ 424,416 $ 474,047 $ 525,683 $ 578,688\n  % y/y growth                        9.7%    15.1%    13.4%    12.9%    12.4%    11.7%    10.9%    10.1%\nTotal Capex                        $ 32,251 $ 52,535 $ 84,749 $ 101,699 $ 116,954 $ 128,649 $ 141,514 $ 155,665\n  % y/y growth                        2.4%    62.9%    61.3%    20.0%    15.0%    10.0%    10.0%    10.0%\n  % capital intensity                  12.6%    17.8%    25.3%    26.9%    27.6%    27.1%    26.9%    26.9%\nTotal GAAP Expenses                 $ 172,215 $ 182,728 $ 206,548 $ 232,247 $ 261,394 $ 291,879 $ 321,450 $ 350,261\n  % y/y growth                        8.3%     6.1%    13.0%    12.4%    11.7%    10.1%     9.0%\nTotal D&A                          $ 13,326 $ 15,311 $ 22,888 $ 32,947 $ 43,912 $ 55,557 $ 67,672 $ 79,109\n  % y/y growth                       -12.8%    14.9%    49.5%    44.0%    33.3%    26.5%    21.8%    16.9%\nTotal GAAP Expenses (ex-D&A and one-timers)* $ 154,956 $ 166,110 $ 181,968 $ 199,300 $ 217,482 $ 236,322 $ 253,778 $ 271,152\n  % y/y growth                        8.7%     7.2%     9.5%     9.5%\n*one-timers include reported restructuring charges & legal accruals of ~$3.9bn in 2023, ~$1.3bn in 2024 and ~$1.7bn in 2025E",
+        "key_insight": "GOOGL's capex is projected to triple from $32.3bn in 2023 to $101.7bn in 2026, while revenues grow by 50% over the same period."
+      }
+    },
+    {
+      "name": "GOOGL Capex Growth Projection",
+      "type": "Metric",
+      "brief": "Capex tripling from 2023 to 2026",
+      "description": "Projected capex to increase threefold between 2023 and 2026",
+      "properties": {
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GOOGL Revenue Growth Projection",
+      "type": "Metric",
+      "brief": "Revenues up 50% from 2023 to 2026",
+      "description": "Projected total revenues increase by 50% between 2023 and 2026",
+      "properties": {
+        "unit": "%",
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TMT - Negative Investor Sentiment",
+      "target": "TMT - Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Negative sentiment pressures Alphabet"
+    },
+    {
+      "source": "TMT - Software Momentum",
+      "target": "TMT - Negative Investor Sentiment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decelerated software momentum triggered negative sentiment"
+    },
+    {
+      "source": "TMT - Consulting Bookings Decline",
+      "target": "TMT - Negative Investor Sentiment",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Decline in consulting bookings contributed to negative sentiment"
+    },
+    {
+      "source": "TMT - Negative Investor Sentiment",
+      "target": "TMT - IBM Pre-Market Price Change",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -6.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Bearish sentiment drove IBM pre-market drop"
+    },
+    {
+      "source": "TMT - Gross Margin Beat",
+      "target": "TMT - Bullish Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "percentage_point",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Margin beat informs bullish case"
+    },
+    {
+      "source": "TMT - AI Multi-Surface Approach",
+      "target": "TMT - Alphabet Inc.",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AI multi-surface approach informs Alphabet's positioning"
+    },
+    {
+      "source": "TMT \u2013 Google CapEx",
+      "target": "TMT \u2013 Google D&A",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Higher capex drives increased D&A expense"
+    },
+    {
+      "source": "TMT \u2013 Google Cloud Revenue Growth",
+      "target": "TMT \u2013 GenAI Investment Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Google Cloud growth informs investor GenAI sentiment"
+    },
+    {
+      "source": "TMT \u2013 Enterprise Tech Spending Inflection",
+      "target": "TMT \u2013 IBM CEO Optimism",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Enterprise tech spending inflection triggered IBM CEO optimism"
+    },
+    {
+      "source": "TMT \u2013 Enterprise Tech Spending Inflection",
+      "target": "TMT \u2013 ServiceNow CEO AI Demand View",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Enterprise tech spending inflection triggered ServiceNow CEO AI demand view"
+    },
+    {
+      "source": "GOOGL \u2013 GAAP EPS ex-cash multiple",
+      "target": "GOOGL \u2013 Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Low GAAP EPS multiple triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL \u2013 YouTube y/y growth rate",
+      "target": "GOOGL \u2013 Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strong YouTube growth triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL \u2013 Cloud operating margin expansion",
+      "target": "GOOGL \u2013 Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Cloud margin expansion triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL \u2013 share buyback pacing",
+      "target": "GOOGL \u2013 Bear sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Reduction in buyback pacing triggers bearish investor sentiment"
+    },
+    {
+      "source": "TMT_Alphabet 2Q Capex Growth",
+      "target": "TMT_Alphabet 2025 Capex Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 13,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Strong Q2 capex growth led Alphabet to raise its 2025 capex outlook"
+    },
+    {
+      "source": "TMT - ServiceNow cRPO Performance",
+      "target": "TMT - Enterprise Software Risk Concerns",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Solid cRPO results could ease enterprise software concerns"
+    },
+    {
+      "source": "TMT - STMicroelectronics Q2 Automotive Results Release",
+      "target": "TMT - STMicroelectronics Share Price Change",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -18,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Weaker auto results and soft margins guide drove share price down"
+    },
+    {
+      "source": "TMT - MaxLinear Q2 Earnings Beat-and-Raise",
+      "target": "TMT - MaxLinear Share Price Change",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Earnings beat and raise pushed shares up"
+    },
+    {
+      "source": "Table T1 \u2013 GOOGL Capex and Revenue Growth Outlook",
+      "target": "GOOGL Capex Growth Projection",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs that GOOGL's capex will triple from 2023 to 2026"
+    },
+    {
+      "source": "Table T1 \u2013 GOOGL Capex and Revenue Growth Outlook",
+      "target": "GOOGL Revenue Growth Projection",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs that GOOGL's revenues will grow by 50% from 2023 to 2026"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_us_tmt_..._inflections_...._[goog_ibm_now_bull:bear_debates]_.._peter_callahan_converted_with_figures"
+}

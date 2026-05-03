@@ -1,0 +1,235 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet Inc. (GOOGL)",
+      "type": "Company",
+      "brief": "Alphabet Inc. Class A shares",
+      "description": "Parent company of Google services, ticker GOOGL",
+      "properties": {
+        "ticker": "GOOGL"
+      }
+    },
+    {
+      "name": "Google 2025 Capex Guidance",
+      "type": "Metric",
+      "brief": "2025 capital expenditure guidance",
+      "description": "Guidance raised by $10bn to ~$85bn",
+      "properties": {
+        "unit": "USD bn",
+        "value": 85,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Broadcom Inc. (AVGO)",
+      "type": "Company",
+      "brief": "Semiconductor company",
+      "description": "Semis/AI chip maker saw early gains",
+      "properties": {
+        "ticker": "AVGO",
+        "price_change_percent": 2
+      }
+    },
+    {
+      "name": "Advanced Micro Devices Inc. (AMD)",
+      "type": "Company",
+      "brief": "Semiconductor company",
+      "description": "Chip maker saw early session gains",
+      "properties": {
+        "ticker": "AMD",
+        "price_change_percent": 1
+      }
+    },
+    {
+      "name": "NVIDIA Corp. (NVDA)",
+      "type": "Company",
+      "brief": "GPU and AI computing leader",
+      "description": "Chip maker saw early session gains",
+      "properties": {
+        "ticker": "NVDA",
+        "price_change_percent": 1
+      }
+    },
+    {
+      "name": "Google Search Feature AI Overviews Users",
+      "type": "Metric",
+      "brief": "Users of Search feature AI Overviews",
+      "description": "Over 2B users reported in headlines",
+      "properties": {
+        "unit": "count",
+        "value": 2000000000,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Google VEO3 Videos Made",
+      "type": "Metric",
+      "brief": "Videos made using VEO3",
+      "description": "Over 70M videos made using VEO3 technology",
+      "properties": {
+        "unit": "count",
+        "value": 70000000,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Google Gemini App Monthly Active Users",
+      "type": "Metric",
+      "brief": "Monthly active users of Gemini App",
+      "description": "Over 450M US monthly active users reported",
+      "properties": {
+        "unit": "count",
+        "value": 450000000,
+        "as_of": "2025-07-24",
+        "region": "US"
+      }
+    },
+    {
+      "name": "International Business Machines Corp. (IBM)",
+      "type": "Company",
+      "brief": "Technology and consulting firm",
+      "description": "IBM shares fell on underwhelming software results",
+      "properties": {
+        "ticker": "IBM",
+        "price_change_percent": -5
+      }
+    },
+    {
+      "name": "ServiceNow Inc. (NOW)",
+      "type": "Company",
+      "brief": "Cloud workflow software provider",
+      "description": "Shares rose on beat and FY guidance raise",
+      "properties": {
+        "ticker": "NOW",
+        "price_change_percent": 7
+      }
+    },
+    {
+      "name": "Tesla Inc. (TSLA)",
+      "type": "Company",
+      "brief": "Electric vehicle maker",
+      "description": "Shares fell on EPS miss and executive warning",
+      "properties": {
+        "ticker": "TSLA",
+        "price_change_percent": -6
+      }
+    },
+    {
+      "name": "IBM Underwhelming Software Results",
+      "type": "Event",
+      "brief": "Underwhelming software results",
+      "description": "IBM reported weaker-than-expected software results",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Software Results Miss"
+      }
+    },
+    {
+      "name": "NOW FY Guidance Raise",
+      "type": "Event",
+      "brief": "FY guidance raised",
+      "description": "ServiceNow raised full-year guidance after beat",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Guidance Raise"
+      }
+    },
+    {
+      "name": "TSLA EPS Miss and Musk Warning",
+      "type": "Event",
+      "brief": "EPS miss and warning of tough year",
+      "description": "Tesla reported EPS miss and Musk warned of challenges",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "EPS Miss"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "Broadcom Inc. (AVGO)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 2,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives Broadcom shares up"
+    },
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "Advanced Micro Devices Inc. (AMD)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives AMD shares up"
+    },
+    {
+      "source": "Google 2025 Capex Guidance",
+      "target": "NVIDIA Corp. (NVDA)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 1,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capex guidance increase drives NVIDIA shares up"
+    },
+    {
+      "source": "IBM Underwhelming Software Results",
+      "target": "International Business Machines Corp. (IBM)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": -5,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Software miss drives IBM shares down"
+    },
+    {
+      "source": "NOW FY Guidance Raise",
+      "target": "ServiceNow Inc. (NOW)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": 7,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Guidance raise pushes ServiceNow shares up"
+    },
+    {
+      "source": "TSLA EPS Miss and Musk Warning",
+      "target": "Tesla Inc. (TSLA)",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 0,
+        "impact_value": -6,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "EPS miss and warning drag Tesla shares down"
+    }
+  ],
+  "scenarios": []
+}

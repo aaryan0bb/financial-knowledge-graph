@@ -1,0 +1,170 @@
+{
+  "entities": [
+    {
+      "name": "OTLY - Oatly Group AB",
+      "type": "Company",
+      "brief": "Oat-based beverage and dairy substitute producer",
+      "description": "Barclays assigns Overweight rating and USD14 price target ahead of 2Q25 earnings, projecting 2H25 sales and EBITDA improvement.",
+      "properties": {
+        "ticker": "OTLY",
+        "sector": "Consumer",
+        "market_cap_USDbn": 0.4558,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "OTLY - 2Q25 Earnings Prep",
+      "type": "Event",
+      "brief": "Preparation for 2Q25 earnings by OTLY",
+      "description": "Analyst prepares for OTLY 2Q25 earnings release",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_prep",
+        "affected_tickers": [
+          "OTLY"
+        ]
+      }
+    },
+    {
+      "name": "OTLY - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for OTLY shares",
+      "description": "Barclays sets price target of USD14 ahead of 2Q25 earnings",
+      "properties": {
+        "unit": "USD",
+        "value": 14.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OTLY - Share Price",
+      "type": "Metric",
+      "brief": "Share price for OTLY as of 22 July 2025",
+      "description": "Barclays reports share price at USD15.23 on Jul 22, 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 15.23,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "OTLY - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for OTLY in FY1E",
+      "description": "Barclays estimates FY1 EPS at -4.46 for OTLY",
+      "properties": {
+        "unit": "USD",
+        "value": -4.46,
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "OTLY - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for OTLY in FY2E",
+      "description": "Barclays estimates FY2 EPS at -2.83 for OTLY",
+      "properties": {
+        "unit": "USD",
+        "value": -2.83,
+        "as_of": "FY2 (E)"
+      }
+    },
+    {
+      "name": "OTLY - EBITDA 2Q25",
+      "type": "Metric",
+      "brief": "Forecast EBITDA for OTLY in 2Q25",
+      "description": "Barclays expects a -$3mm EBITDA in 2Q25 for OTLY",
+      "properties": {
+        "unit": "USD mm",
+        "value": -3,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "PM - Philip Morris International Inc.",
+      "type": "Company",
+      "brief": "Global tobacco and nicotine products manufacturer",
+      "description": "Barclays maintains Overweight rating and USD225 price target following recent earnings, highlighting key investor considerations.",
+      "properties": {
+        "ticker": "PM",
+        "sector": "European Consumer Staples",
+        "market_cap_USDbn": 257.2456,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "PM - Earnings Report",
+      "type": "Event",
+      "brief": "Philip Morris reported earnings",
+      "description": "Philip Morris reported earnings prompting discussion of investor topics",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report",
+        "affected_tickers": [
+          "PM"
+        ]
+      }
+    },
+    {
+      "name": "PM - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for PM shares",
+      "description": "Barclays sets price target of USD225 following PM earnings",
+      "properties": {
+        "unit": "USD",
+        "value": 225.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "PM - Share Price",
+      "type": "Metric",
+      "brief": "Share price for PM as of 23 July 2025",
+      "description": "Barclays reports share price at USD165.27 on Jul 23, 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 165.27,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "PM - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for PM in FY1E",
+      "description": "Barclays estimates FY1 EPS at 7.60 for PM",
+      "properties": {
+        "unit": "USD",
+        "value": 7.6,
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "PM - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Projected EPS for PM in FY2E",
+      "description": "Barclays estimates FY2 EPS at 8.63 for PM",
+      "properties": {
+        "unit": "USD",
+        "value": 8.63,
+        "as_of": "FY2 (E)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "OTLY - 2Q25 Earnings Prep",
+      "target": "OTLY - EBITDA 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -3,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Earnings prep informs 2Q25 EBITDA forecast"
+    }
+  ],
+  "scenarios": []
+}

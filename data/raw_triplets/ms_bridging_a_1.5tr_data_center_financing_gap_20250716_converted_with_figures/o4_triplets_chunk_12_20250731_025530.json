@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "DataCenterFinancing – Private Credit AUM Growth",
+      "type": "Factor",
+      "brief": "Case for further expansion in private credit AUM",
+      "description": "Increasing appetite for stable, uncorrelated returns driving expansion potential",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Asset-Based Finance",
+      "type": "Factor",
+      "brief": "Financing secured by loans and contractual cash flows",
+      "description": "Broad term for loans secured by pools of assets generating predictable cash flows",
+      "properties": {
+        "driver": "leases and contractual cash flows"
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Equinix-GIC/CPP JV",
+      "type": "Event",
+      "brief": "Joint venture between Equinix, GIC, and CPP",
+      "description": "Over $15bn JV between Equinix (EQIX) and GIC/CPP to finance data centers",
+      "properties": {
+        "date": null,
+        "event_type": "JV formation",
+        "affected_tickers": [
+          "EQIX"
+        ],
+        "impact_value": 15,
+        "unit": "USD bn",
+        "region": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Financing Gap",
+      "type": "Metric",
+      "brief": "Gap in data center financing needs",
+      "description": "Estimated $1.15tr gap after excluding hyperscaler cash flows and securitized credit",
+      "properties": {
+        "value": 1150,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing – Other Capital Sources",
+      "type": "Metric",
+      "brief": "Capital from sovereigns, PE, VC, and bank lending",
+      "description": "Other sources totaling $350bn across sovereign, private equity, venture capital, bank lending, and others",
+      "properties": {
+        "value": 350,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing – AI/ML VC Share in Q1 2025",
+      "type": "Metric",
+      "brief": "Share of VC investment into AI/ML startups",
+      "description": "Nearly 60% of global VC investment in 1Q 2025 was directed toward AI and machine learning startups",
+      "properties": {
+        "value": 60,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "DataCenterFinancing – VC Investment in AI/ML Q1 2025",
+      "type": "Metric",
+      "brief": "Total VC investment in AI/ML startups",
+      "description": "$73bn of global VC investment in 1Q 2025 directed toward AI and machine learning startups",
+      "properties": {
+        "value": 73,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DataCenterFinancing – Financing Gap",
+      "target": "DataCenterFinancing – Private Credit AUM Growth",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1150,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Financing gap drives expansion in private credit"
+    },
+    {
+      "source": "DataCenterFinancing – Private Credit AUM Growth",
+      "target": "DataCenterFinancing – Asset-Based Finance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Private credit growth promotes asset-based finance adoption"
+    },
+    {
+      "source": "DataCenterFinancing – Asset-Based Finance",
+      "target": "DataCenterFinancing – Equinix-GIC/CPP JV",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "ABF framework exemplified by Equinix-GIC/CPP JV"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "DataCenterFinancing – Financing Gap",
+      "probability": 0.8,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "DataCenterFinancing – Financing Gap",
+          "target": "DataCenterFinancing – Private Credit AUM Growth",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": 1150,
+          "unit": "USD bn"
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "DataCenterFinancing – Private Credit AUM Growth",
+          "target": "DataCenterFinancing – Asset-Based Finance",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 3,
+          "edge_type": "INFORMS",
+          "source": "DataCenterFinancing – Asset-Based Finance",
+          "target": "DataCenterFinancing – Equinix-GIC/CPP JV",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

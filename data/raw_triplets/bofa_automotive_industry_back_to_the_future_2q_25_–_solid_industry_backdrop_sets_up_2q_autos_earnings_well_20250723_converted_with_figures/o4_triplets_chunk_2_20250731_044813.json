@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Automotive Industry Regional Contributions to 2Q25 Global LV Production Growth",
+      "type": "Table",
+      "brief": "Waterfall chart of regional contributions to global LV production growth in 2Q25",
+      "description": "Breakdown of regional contributions to the forecasted 2.6% YoY global LV production growth in 2Q25",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Region | Contribution to Global LV Production Growth (YoY %) |\n| :------------------- | :------------------------------------------------ |\n| Greater China | 2.8% |\n| South Asia | 0.6% |\n| South America | 0.3% |\n| Japan/Korea | 0.0% |\n| Middle East/Africa | -0.2% |\n| Europe | -0.3% |\n| North America | -0.6% |\n| Global | 2.6% |",
+        "key_insight": "Primary drivers of the forecasted 2.6% YoY global LV production growth in 2Q25 are Greater China (2.8%), South Asia (0.6%), and South America (0.3%), offset by drags from North America (-0.6%), Europe (-0.3%), and Middle East/Africa (-0.2%), with Japan/Korea neutral (0.0%)."
+      }
+    },
+    {
+      "name": "Automotive Industry – 2Q25 Global LV Production Forecast Revision",
+      "type": "Factor",
+      "brief": "Forecast revised higher since March",
+      "description": "Global LV production forecast for 2Q25 was revised up by 190bp since March 2025",
+      "properties": {
+        "magnitude_bp": 190,
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Automotive Industry – 2Q25 Global LV Production Growth Forecast",
+      "type": "Metric",
+      "brief": "Forecasted 2.6% YoY growth",
+      "description": "S&P Global estimates see global LV production up 2.6% YoY in 2Q25",
+      "properties": {
+        "unit": "%",
+        "as_of": "2Q25",
+        "value": 2.6
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

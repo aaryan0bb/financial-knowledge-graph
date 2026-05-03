@@ -1,0 +1,34 @@
+Morgan Stanley                                                                                                        July 24, 2025 
+
+An $800bn opportunity for private credit, led by asset-based financing (ABF) 
+
+                                                               Total Addressable Market for ABF Significantly Larger than Direct Lending 
+
+  We think private capital - in 
+  particular, credit - will play a key                                                     Estimated 
+  role in meeting a majority of the                                               Total Addressable Market for 
+  remaining financing gap as it sits                                                          ABF 
+  optimally at the intersection of                                                       (~$20+ trillion) 
+  significant expansion in AUM in a 
+  higher-rate environment and the 
+  complex, global, and customized                                                            Current 
+                                                                                      Direct Lending Fund AUM* 
+  financing needs that are associated 
+                                                                                          (~$2.2 trillion) 
+  with Al build-out. 
+
+                                                                                     Current Deployed Capital for 
+                                                                                             ABF* 
+                                                                                          ($~0.6 trillion) 
+
+Source: Morgan Stanley Research. Note: Direct lending fund AUM from Cobalt, current deployed capital ABF does not include securitizations 10 
+
+    | Category | Value |
+    |:-------------------------------------------|:------------------|
+    | Estimated Total Addressable Market for ABF | ~$20+ trillion |
+    | Current Direct Lending Fund AUM* | ~$2.2 trillion |
+    | Current Deployed Capital for ABF* | ~$0.6 trillion |
+
+    Summary: This nested circle diagram visually represents the relative scales of various private credit markets. The outermost, largest circle depicts the Estimated Total Addressable Market for Asset-Based Financing (ABF) at over $20 trillion. Concentric within it is the Current Direct Lending Fund Assets Under Management (AUM) valued at approximately $2.2 trillion. The smallest, innermost circle illustrates the Current Deployed Capital for ABF, which stands at around $0.6 trillion. The chart highlights a substantial gap between current ABF deployment and its immense estimated addressable market.
+
+    Explanation: The chart underscores the significant untapped potential within asset-based financing (ABF), presenting it as an $800 billion opportunity for private credit, as per the page title, implying a smaller, more immediate portion of the $20+ trillion total addressable market. This aligns with the accompanying text on page 10, which identifies private credit as crucial for addressing the financing gaps in areas like AI build-out, emphasizing ABF's optimal position to meet complex, customized financing needs given the substantial AUM in a higher-rate environment.

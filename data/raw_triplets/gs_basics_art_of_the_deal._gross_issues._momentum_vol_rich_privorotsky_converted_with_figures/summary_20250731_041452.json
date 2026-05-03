@@ -1,0 +1,24 @@
+{
+  "report": "GS Basics - Art of the Deal. Gross Issues. Momentum Vol - Rich Privorotsky_converted_with_figures.txt",
+  "timestamp": "2025-07-31T04:14:52.937166",
+  "total_chunks": 2,
+  "total_entities": 10,
+  "total_relationships": 4,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 5,
+      "relationships": 3,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_041350.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 5,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_041450.json"
+    }
+  ]
+}

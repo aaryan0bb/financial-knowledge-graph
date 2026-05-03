@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "name": "Table T15 – Equity ETF flows net buys by style",
+      "type": "Table",
+      "brief": "Equity ETF net buys by style comparison",
+      "description": "Breakdown of net inflows for Value, Blend, and Growth ETFs comparing current week and 4-week average.",
+      "properties": {
+        "table_id": "T15",
+        "table_content": "| Style | Current Week ($ mn) | 4-Week Average ($ mn) |\n|-------|---------------------|-----------------------|\n| Value | 100                 | 125                   |\n| Blend | 190                 | 450                   |\n| Growth| 230                 | 105                   |",
+        "key_insight": "Blend ETFs show the highest 4-week average inflows at $450 million, and Growth ETFs experienced a strong current week inflow of $230 million."
+      }
+    },
+    {
+      "name": "Table T13 – Equity ETF flows net buys by market capitalization",
+      "type": "Table",
+      "brief": "Equity ETF net buys by market capitalization",
+      "description": "Client ETF flows across market caps comparing current week and 4-week average highlighting inflows and outflows.",
+      "properties": {
+        "table_id": "T13",
+        "table_content": "| Market Cap    | 4-wk avg. ($ mn) | Current week ($ mn) |\n|---------------|------------------|---------------------|\n| Large-cap     | 580              | 390                 |\n| Small-cap     | 70               | 110                 |\n| Broad Market  | 40               | 70                  |\n| Mid-cap       | -15              | -10                 |",
+        "key_insight": "Large-cap ETFs had the strongest inflows with a 4-week average of $580 million, while Mid-cap ETFs were the only segment with net outflows, at -$10 million this week."
+      }
+    },
+    {
+      "name": "Table T12 – Equity ETF flows net buys by asset class",
+      "type": "Table",
+      "brief": "ETF net buys by asset class",
+      "description": "Client ETF flows categorized by asset class comparing current week and 4-week average highlighting inflows and outflows.",
+      "properties": {
+        "table_id": "T12",
+        "table_content": "| Asset Class | 4-wk Avg. Net Buys ($ mn) | Current Week Net Buys ($ mn) |\n|-------------|---------------------------|------------------------------|\n| Equity      | 700                       | 570                          |\n| Other       | 140                       | 160                          |\n| Fixed Income| 200                       | -40                          |",
+        "key_insight": "Equity ETFs showed the largest inflows with a 4-week average of $700 million, while Fixed Income ETFs shifted from a 4-week average inflow of $200 million to a $40 million net outflow this week."
+      }
+    },
+    {
+      "name": "Table T14 – Equity ETF flows net buys by sector",
+      "type": "Table",
+      "brief": "Equity ETF net buys by sector",
+      "description": "ETF flows across GICS sectors comparing current week and 4-week average highlighting leaders and laggards.",
+      "properties": {
+        "table_id": "T14",
+        "table_content": "| Sector                 | 4-wk avg. ($ mn) | Current week ($ mn) |\n|------------------------|------------------|---------------------|\n| Health Care            | 40               | 70                  |\n| Consumer Discretionary | 60               | 50                  |\n| Utilities              | 10               | 20                  |\n| Communications         | 0                | 20                  |\n| Energy                 | 30               | 0                   |\n| Real Estate            | 15               | 5                   |\n| Materials              | -10              | 5                   |\n| Consumer Staples       | -20              | -20                 |\n| Financial              | -40              | -5                  |\n| Industrials            | -60              | -70                 |\n| Technology             | -100             | -190                |",
+        "key_insight": "Health Care ETFs had the strongest inflows at $70 million this week, while Technology ETFs saw the largest outflows, intensifying to -$190 million this week."
+      }
+    },
+    {
+      "name": "Equity ETF flows – Blend ETF 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Blend ETFs",
+      "description": "Blend ETFs recorded a 4-week average inflow of $450 million, indicating strong sustained interest.",
+      "properties": {
+        "value": 450,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Growth ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net inflow for Growth ETFs",
+      "description": "Growth ETFs saw a current week net inflow of $230 million, indicating a recent surge.",
+      "properties": {
+        "value": 230,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Large-cap ETF 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Large-cap ETFs",
+      "description": "Large-cap ETFs had a 4-week average inflow of $580 million, the strongest among market caps.",
+      "properties": {
+        "value": 580,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Mid-cap ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Mid-cap ETFs",
+      "description": "Mid-cap ETFs experienced a net outflow of $10 million this week, the only segment with outflows.",
+      "properties": {
+        "value": -10,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Equity asset class 4-week average net buys",
+      "type": "Metric",
+      "brief": "4-week average net inflow for Equity ETFs",
+      "description": "Equity ETFs had a 4-week average inflow of $700 million, the largest among asset classes.",
+      "properties": {
+        "value": 700,
+        "unit": "USD mm",
+        "as_of": "4-wk avg"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Fixed Income ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Fixed Income ETFs",
+      "description": "Fixed Income ETFs shifted to a net outflow of $40 million this week after prior inflows.",
+      "properties": {
+        "value": -40,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Health Care ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net inflow for Health Care ETFs",
+      "description": "Health Care ETFs had a net inflow of $70 million this week, the strongest among sectors.",
+      "properties": {
+        "value": 70,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    },
+    {
+      "name": "Equity ETF flows – Technology ETF current week net buys",
+      "type": "Metric",
+      "brief": "Current week net outflow for Technology ETFs",
+      "description": "Technology ETFs saw a net outflow of $190 million this week, the largest among sectors.",
+      "properties": {
+        "value": -190,
+        "unit": "USD mm",
+        "as_of": "current week"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T15 – Equity ETF flows net buys by style",
+      "target": "Equity ETF flows – Blend ETF 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 450,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Blend ETFs had the highest 4-week average inflows at $450mm."
+    },
+    {
+      "source": "Table T15 – Equity ETF flows net buys by style",
+      "target": "Equity ETF flows – Growth ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 230,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Growth ETFs saw a current week inflow of $230mm."
+    },
+    {
+      "source": "Table T13 – Equity ETF flows net buys by market capitalization",
+      "target": "Equity ETF flows – Large-cap ETF 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 580,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Large-cap ETFs had a 4-week average inflow of $580mm."
+    },
+    {
+      "source": "Table T13 – Equity ETF flows net buys by market capitalization",
+      "target": "Equity ETF flows – Mid-cap ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -10,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Mid-cap ETFs experienced a current week outflow of $10mm."
+    },
+    {
+      "source": "Table T12 – Equity ETF flows net buys by asset class",
+      "target": "Equity ETF flows – Equity asset class 4-week average net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 700,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Equity ETFs had a 4-week average inflow of $700mm."
+    },
+    {
+      "source": "Table T12 – Equity ETF flows net buys by asset class",
+      "target": "Equity ETF flows – Fixed Income ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -40,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Fixed Income ETFs shifted to a $40mm net outflow this week."
+    },
+    {
+      "source": "Table T14 – Equity ETF flows net buys by sector",
+      "target": "Equity ETF flows – Health Care ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 70,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Health Care ETFs had a current week inflow of $70mm."
+    },
+    {
+      "source": "Table T14 – Equity ETF flows net buys by sector",
+      "target": "Equity ETF flows – Technology ETF current week net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -190,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Technology ETFs saw a current week outflow of $190mm."
+    }
+  ],
+  "scenarios": []
+}

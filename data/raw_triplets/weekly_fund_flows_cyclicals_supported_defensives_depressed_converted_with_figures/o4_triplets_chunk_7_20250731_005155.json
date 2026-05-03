@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – WeeklyFundFlows Fund Positioning Share Snapshots",
+      "type": "Table",
+      "brief": "Snapshots of share of total assets for G10 economies",
+      "description": "Table provides selected years share data for Euro area, UK, Japan, Switzerland, Canada, and Australia",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Region | Share of Total Assets (%) |\n|------|--------|---------------------------|\n| 2014 | Euro area | 10.4 |\n| 2018 | Euro area | 10.7 |\n| 2022 | Euro area | 7.8 |\n| 2025 | Euro area | 9.0 |\n| 2010 | UK | 4.7 |\n| 2013 | UK | 5.4 |\n| 2025 | UK | 3.4 |\n| 2010 | Japan | 3.1 |\n| 2018 | Japan | 4.6 |\n| 2025 | Japan | 3.9 |\n| 2010 | Switzerland | 2.0 |\n| 2020 | Switzerland | 2.2 |\n| 2025 | Switzerland | 1.9 |\n| 2010 | Canada | 2.6 |\n| 2013 | Canada | 3.3 |\n| 2025 | Canada | 2.0 |\n| 2010 | Australia | 0.95 |\n| 2013 | Australia | 1.3 |\n| 2025 | Australia | 0.85 |",
+        "key_insight": "Euro area share fell from a peak of 10.7% in 2018 to a trough of 7.8% in 2022, then rebounded to 9.0%"
+      }
+    },
+    {
+      "name": "WeeklyFundFlows – Euro area Share Trough 2022",
+      "type": "Metric",
+      "brief": "Euro area share trough in late 2022",
+      "description": "Euro area share of total assets dropped to 7.8% in late 2022",
+      "properties": {
+        "unit": "%",
+        "value": 7.8,
+        "trough_date": "2022"
+      }
+    },
+    {
+      "name": "WeeklyFundFlows – Japan Share Peak 2018",
+      "type": "Metric",
+      "brief": "Japan share peak in 2018",
+      "description": "Japan share of total assets reached a peak of 4.6% in 2018",
+      "properties": {
+        "unit": "%",
+        "value": 4.6,
+        "peak_date": "2018"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – WeeklyFundFlows Fund Positioning Share Snapshots",
+      "target": "WeeklyFundFlows – Euro area Share Trough 2022",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 7.8,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table shows Euro area share trough at 7.8% in 2022"
+    },
+    {
+      "source": "Table T1 – WeeklyFundFlows Fund Positioning Share Snapshots",
+      "target": "WeeklyFundFlows – Japan Share Peak 2018",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 4.6,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table shows Japan share peak at 4.6% in 2018"
+    }
+  ],
+  "scenarios": []
+}

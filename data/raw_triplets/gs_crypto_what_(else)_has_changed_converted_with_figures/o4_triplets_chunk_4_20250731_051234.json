@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Crypto Annualized Basis History",
+      "type": "Table",
+      "brief": "Annualized futures basis for ETH and BTC (2021-2025)",
+      "description": "Key indicator of market sentiment via contango/backwardation trends",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date     | ETH Annualized Basis (%) | BTC Annualized Basis (%) |\n|----------|--------------------------|--------------------------|\n| Early 2021 | 25%                      | 15%                      |\n| Mar 2021   | 30%                      | 23%                      |\n| Apr 2021   | 20%                      | 18%                      |\n| May 2021   | 10%                      | 5%                       |\n| Jul 2021   | 15%                      | 10%                      |\n| Sep 2021   | 5%                       | 8%                       |\n| Oct 2021   | 15%                      | 12%                      |\n| Dec 2021   | 10%                      | 8%                       |\n| Jan 2022   | 5%                       | 5%                       |\n| Mar 2022   | 0%                       | 0%                       |\n| May 2022   | -5%                      | -5%                      |\n| Jul 2022   | -10%                     | -10%                     |\n| Sep 2022   | -15%                     | -10%                     |\n| Nov 2022   | -20%                     | -15%                     |\n| Dec 2022   | -18%                     | -12%                     |\n| Jan 2023   | -10%                     | -8%                      |\n| Mar 2023   | 0%                       | 0%                       |\n| May 2023   | 5%                       | 5%                       |\n| Jul 2023   | 10%                      | 8%                       |\n| Sep 2023   | 5%                       | 5%                       |\n| Nov 2023   | 15%                      | 12%                      |\n| Dec 2023   | 20%                      | 15%                      |\n| Jan 2024   | 15%                      | 10%                      |\n| Mar 2024   | 8%                       | 8%                       |\n| May 2024   | 12%                      | 5%                       |\n| Jul 2024   | 15%                      | 10%                      |\n| Sep 2024   | 10%                      | 8%                       |\n| Nov 2024   | 8%                       | 8%                       |\n| Jan 2025   | 7%                       | 8%                       |\n| Current    | 8%                       | 8%                       |",
+        "key_insight": "ETH and BTC futures basis shifted from strong contango over 30% and 20% in early 2021 to deep backwardation around -20% and -15% in late 2022, recovering to about 5-10% by 2025 with ETH more volatile."
+      }
+    },
+    {
+      "name": "Crypto Futures Basis Sentiment",
+      "type": "Factor",
+      "brief": "Market sentiment indicator from futures basis",
+      "description": "Bullish or bearish sentiment based on ETH and BTC futures premium/discount",
+      "properties": {
+        "driver": "annualized futures basis",
+        "lookback_days": 1825
+      }
+    },
+    {
+      "name": "Table T2 – Crypto Spot Price History",
+      "type": "Table",
+      "brief": "5-year spot price history for BTC and ETH",
+      "description": "Shows price volatility and bull market cycles in top two cryptocurrencies",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | BTCUSD Price ($) | ETHUSD Price ($) |\n|-----------|------------------|------------------|\n| Jul 2020  | 10,000           | 300              |\n| Oct 2020  | 12,500           | 380              |\n| Jan 2021  | 30,000           | 1,000            |\n| Feb 2021  | 48,000           | 1,700            |\n| Apr 2021  | 60,000           | 2,200            |\n| May 2021  | 64,000           | 4,000            |\n| Jul 2021  | 30,000           | 1,900            |\n| Aug 2021  | 48,000           | 3,200            |\n| Nov 2021  | 68,000           | 4,800            |\n| Jan 2022  | 40,000           | 3,000            |\n| Mar 2022  | 45,000           | 3,200            |\n| May 2022  | 30,000           | 2,000            |\n| Jun 2022  | 18,000           | 1,000            |\n| Sep 2022  | 20,000           | 1,400            |\n| Dec 2022  | 16,000           | 1,100            |\n| Mar 2023  | 28,000           | 1,800            |\n| Jun 2023  | 30,000           | 1,900            |\n| Sep 2023  | 26,000           | 1,600            |\n| Dec 2023  | 42,000           | 2,300            |\n| Feb 2024  | 58,000           | 3,200            |\n| Mar 2024  | 70,000           | 3,800            |\n| Apr 2024  | 65,000           | 3,000            |\n| Jul 2024  | 68,000           | 3,200            |\n| Oct 2024  | 85,000           | 3,000            |\n| Dec 2024  | 100,000          | 2,800            |\n| Jan 2025  | 115,000          | 2,500            |\n| Mar 2025  | 125,000          | 3,000            |\n| Apr 2025  | 100,000          | 3,500            |\n| Jul 2025  | 120,000          | 4,800            |",
+        "key_insight": "Bitcoin and Ethereum prices showed strong bull runs in late 2020-2021 and 2024-2025, with BTC reaching over $125,000 and ETH near $4,800 by July 2025 amid significant volatility."
+      }
+    },
+    {
+      "name": "Crypto BTCUSD Price Peak",
+      "type": "Metric",
+      "brief": "Bitcoin price peak in early 2025",
+      "description": "BTC reached over $125,000, signaling bull market resurgence",
+      "properties": {
+        "unit": "USD",
+        "value": 125000,
+        "as_of": "early 2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Crypto Annualized Basis History",
+      "target": "Crypto Futures Basis Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs market sentiment factor"
+    },
+    {
+      "source": "Table T2 – Crypto Spot Price History",
+      "target": "Crypto BTCUSD Price Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 125000,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table informs Bitcoin price peak metric"
+    }
+  ],
+  "scenarios": []
+}

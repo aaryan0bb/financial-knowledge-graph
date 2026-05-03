@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "Quest Diagnostics",
+      "type": "Company",
+      "brief": "Healthcare diagnostic services provider",
+      "description": "Provides diagnostic information services; focus of Barclays Equity Research report",
+      "properties": {
+        "ticker": "DGX",
+        "sector": "Healthcare",
+        "sub_sector": "U.S. Life Science & Diagnostic Tools",
+        "market_cap_USDbn": 19.8979,
+        "stock_rating": "Equal Weight",
+        "industry_view": "Neutral"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays Equity Research price target for Quest Diagnostics",
+      "properties": {
+        "value": 185.0,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - Share Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "Quest Diagnostics share price as of report date",
+      "properties": {
+        "value": 178.24,
+        "unit": "USD",
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 EPS estimate",
+      "description": "Barclays estimate of fiscal year 1 earnings per share for Quest Diagnostics",
+      "properties": {
+        "value": 9.75,
+        "unit": "USD",
+        "as_of": "FY1 (E)"
+      }
+    },
+    {
+      "name": "Quest Diagnostics - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 EPS estimate",
+      "description": "Barclays estimate of fiscal year 2 earnings per share for Quest Diagnostics",
+      "properties": {
+        "value": 10.63,
+        "unit": "USD",
+        "as_of": "FY2 (E)"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "US - Tariff announcement to Japan",
+      "type": "Event",
+      "brief": "15% tariff on Japan announced",
+      "description": "Recently announced 15% tariff on Japan imports",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_announcement",
+        "impact_value": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US - Tariff announcement to Philippines and Indonesia",
+      "type": "Event",
+      "brief": "19% tariff on Philippines and Indonesia",
+      "description": "Recently announced 19% tariff on Philippines and Indonesia imports",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_announcement",
+        "impact_value": 19,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US - Effective tariff rate",
+      "type": "Factor",
+      "brief": "US effective tariff rate projected to rise by 17pp",
+      "description": "Effective US tariff rate likely to rise by 17 percentage points by 2027",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17,
+        "driver": "trade policy"
+      }
+    },
+    {
+      "name": "US - Cumulative core PCE price increase",
+      "type": "Metric",
+      "brief": "Cumulative boost to core PCE prices",
+      "description": "Tariffs expected to boost US core PCE prices by around 1.7% cumulatively over next couple years",
+      "properties": {
+        "value": 1.7,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2025",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2025",
+      "description": "Forecast core PCE inflation of 3.3% yoy in December 2025",
+      "properties": {
+        "value": 3.3,
+        "unit": "%",
+        "as_of": "2025-12-31"
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2026",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2026",
+      "description": "Forecast core PCE inflation of 2.7% yoy in December 2026",
+      "properties": {
+        "value": 2.7,
+        "unit": "%",
+        "as_of": "2026-12-31"
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2027",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2027",
+      "description": "Forecast core PCE inflation of 2.4% yoy in December 2027",
+      "properties": {
+        "value": 2.4,
+        "unit": "%",
+        "as_of": "2027-12-31"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US - Tariff announcement to Japan",
+      "target": "US - Effective tariff rate",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Japan tariff announcement increases effective tariff rate"
+    },
+    {
+      "source": "US - Tariff announcement to Philippines and Indonesia",
+      "target": "US - Effective tariff rate",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Philippines and Indonesia tariff announcement increases effective tariff rate"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Cumulative core PCE price increase",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 1.7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Higher tariffs boost core PCE prices by around 1.7%"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 3.3% core PCE inflation in December 2025 forecast"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2026",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 2.7% core PCE inflation in December 2026 forecast"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2027",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 2.4% core PCE inflation in December 2027 forecast"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "Scenario 1",
+      "root_trigger": "US - Tariff announcement to Japan",
+      "probability": 0.675,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "US - Tariff announcement to Japan",
+          "target": "US - Effective tariff rate",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "US - Effective tariff rate",
+          "target": "US - Cumulative core PCE price increase",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": 1.7,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+{
+  "entities": [
+    {
+      "name": "US Equity Market – Southern Missouri Bancorp",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SMBC"
+      }
+    },
+    {
+      "name": "US Equity Market – QCR Holdings",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "QCRH"
+      }
+    },
+    {
+      "name": "US Equity Market – SL Green Realty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SLG"
+      }
+    },
+    {
+      "name": "US Equity Market – SLM",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SLM"
+      }
+    },
+    {
+      "name": "US Equity Market – Synovus",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SNV"
+      }
+    },
+    {
+      "name": "US Equity Market – MSCI",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "MSCI"
+      }
+    },
+    {
+      "name": "US Equity Market – Oscar Health",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OSCR"
+      }
+    },
+    {
+      "name": "US Equity Market – Nasdaq",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "NDAQ"
+      }
+    },
+    {
+      "name": "US Equity Market – Global Payments",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "GPN"
+      }
+    },
+    {
+      "name": "US Equity Market – NuScale Power",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SMR"
+      }
+    },
+    {
+      "name": "US Equity Market – Symbotic",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SYM"
+      }
+    },
+    {
+      "name": "US Equity Market – Otis Worldwide",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OTIS"
+      }
+    },
+    {
+      "name": "US Equity Market – Norfolk Southern",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "NSC"
+      }
+    },
+    {
+      "name": "US Equity Market – Union Pacific",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "UNP"
+      }
+    },
+    {
+      "name": "US Equity Market – Dow Inc.",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "DOW"
+      }
+    },
+    {
+      "name": "US Equity Market – Teck Resources",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "TECK"
+      }
+    },
+    {
+      "name": "US Equity Market – Rollins",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ROL"
+      }
+    },
+    {
+      "name": "US Equity Market – Equinor",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "EQNR"
+      }
+    },
+    {
+      "name": "US Equity Market – Ovintiv",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OVV"
+      }
+    },
+    {
+      "name": "US Equity Market – Kinder Morgan",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "KMI"
+      }
+    },
+    {
+      "name": "US Equity Market – Hess Midstream LP",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "HESM"
+      }
+    },
+    {
+      "name": "US Equity Market – Deckers Outdoor",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "DECK"
+      }
+    },
+    {
+      "name": "US Equity Market – Church & Dwight",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CHD"
+      }
+    },
+    {
+      "name": "US Equity Market – Churchill Downs",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CHDN"
+      }
+    },
+    {
+      "name": "US Equity Market – Coursera",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "COUR"
+      }
+    },
+    {
+      "name": "US Equity Market – Carvana",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CVNA"
+      }
+    },
+    {
+      "name": "US Equity Market – Energizer",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ENR"
+      }
+    },
+    {
+      "name": "US Equity Market – Elf Beauty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ELF"
+      }
+    },
+    {
+      "name": "US Equity Market – Ulta Beauty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ULTAZ"
+      }
+    },
+    {
+      "name": "US Equity Market – Lamb Weston",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "LW"
+      }
+    },
+    {
+      "name": "US Equity Market – SMBC Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $63",
+      "description": "Keefe Bruyette raised SMBC price target from $60 to $63",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 63,
+        "old_target": 60,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – QCR Holdings Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $92",
+      "description": "Keefe Bruyette raised QCR Holdings price target from $90 to $92",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 92,
+        "old_target": 90,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – SL Green Realty Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Scotiabank upgraded SL Green Realty to Outperform from Sector Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Sector Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market – SLM Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $43",
+      "description": "Barclays raised SLM price target from $38 to $43",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 43,
+        "old_target": 38,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Synovus Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Equal Weight",
+      "description": "Wells downgraded Synovus to Equal Weight from Overweight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Overweight",
+        "new_rating": "Equal Weight"
+      }
+    },
+    {
+      "name": "US Equity Market – MSCI Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Raymond James upgraded MSCI to Outperform from Market Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Market Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market – Oscar Health Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded on exchange uncertainty",
+      "description": "Baird downgraded Oscar Health on healthcare exchange uncertainty",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "affected_tickers": [
+          "OSCR"
+        ]
+      }
+    },
+    {
+      "name": "US Equity Market – Nasdaq Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Buy",
+      "description": "UBS upgraded Nasdaq to Buy from Neutral",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Neutral",
+        "new_rating": "Buy"
+      }
+    },
+    {
+      "name": "US Equity Market – Nasdaq Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $105",
+      "description": "Deutsche Bank raised Nasdaq price target from $97 to $105",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 105,
+        "old_target": 97,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Global Payments Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Mizuho upgraded Global Payments to Outperform from Neutral",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Neutral",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market – NuScale Power Coverage Initiation",
+      "type": "Event",
+      "brief": "Coverage initiated with Neutral rating",
+      "description": "BNP Paribas Exane initiated coverage on NuScale Power with a Neutral rating",
+      "properties": {
+        "date": null,
+        "event_type": "Coverage Initiation",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market – Symbotic Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Neutral",
+      "description": "Arete downgraded Symbotic to Neutral from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market – Otis Worldwide Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Peer Perform",
+      "description": "Wolfe Research upgraded Otis Worldwide to Peer Perform from Underperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Underperform",
+        "new_rating": "Peer Perform"
+      }
+    },
+    {
+      "name": "US Equity Market – Norfolk Southern Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Jefferies downgraded Norfolk Southern to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market – Union Pacific Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Buy",
+      "description": "Jefferies upgraded Union Pacific to Buy from Hold",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Hold",
+        "new_rating": "Buy"
+      }
+    },
+    {
+      "name": "US Equity Market – Dow Inc. Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to In Line",
+      "description": "Evercore ISI downgraded Dow Inc. to In Line from Outperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Outperform",
+        "new_rating": "In Line"
+      }
+    },
+    {
+      "name": "US Equity Market – Teck Resources Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Neutral",
+      "description": "JPMorgan downgraded Teck Resources to Neutral from Overweight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Overweight",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market – Rollins Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $60",
+      "description": "Barclays raised Rollins price target from $55 to $60",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 60,
+        "old_target": 55,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Equinor Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Pareto downgraded Equinor to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market – Ovintiv Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $57",
+      "description": "Barclays raised Ovintiv price target from $55 to $57",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 57,
+        "old_target": 55,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Kinder Morgan Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Wolfe Research upgraded Kinder Morgan to Outperform from Peer Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Peer Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market – Hess Midstream LP Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Overweight",
+      "description": "Wells Fargo upgraded Hess Midstream LP to Overweight from Equal Weight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Equal Weight",
+        "new_rating": "Overweight"
+      }
+    },
+    {
+      "name": "US Equity Market – Deckers Outdoor Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $134",
+      "description": "Barclays raised Deckers Outdoor price target from $128 to $134",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 134,
+        "old_target": 128,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Church & Dwight Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $97",
+      "description": "JPMorgan raised Church & Dwight price target from $92 to $97",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 97,
+        "old_target": 92,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Churchill Downs Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $131",
+      "description": "Barclays raised Churchill Downs price target from $127 to $131",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 131,
+        "old_target": 127,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Coursera Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Neutral",
+      "description": "BofA upgraded Coursera to Neutral from Underperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Underperform",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market – Carvana Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Oppenheimer upgraded Carvana to Outperform from Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market – Energizer Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $28",
+      "description": "JPMorgan raised Energizer price target from $27 to $28",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 28,
+        "old_target": 27,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Elf Beauty Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $132",
+      "description": "JPMorgan raised Elf Beauty price target from $123 to $132",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 132,
+        "old_target": 123,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market – Ulta Beauty Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Loop Capital downgraded Ulta Beauty to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market – Lamb Weston Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $68",
+      "description": "Barclays raised Lamb Weston price target from $61 to $68",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 68,
+        "old_target": 61,
+        "unit": "USD"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equity Market – SMBC Price Target Raised",
+      "target": "US Equity Market – Southern Missouri Bancorp",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $60 to $63"
+    },
+    {
+      "source": "US Equity Market – QCR Holdings Price Target Raised",
+      "target": "US Equity Market – QCR Holdings",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $90 to $92"
+    },
+    {
+      "source": "US Equity Market – SL Green Realty Rating Upgrade",
+      "target": "US Equity Market – SL Green Realty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Sector Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market – SLM Price Target Raised",
+      "target": "US Equity Market – SLM",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $38 to $43"
+    },
+    {
+      "source": "US Equity Market – Synovus Rating Downgrade",
+      "target": "US Equity Market – Synovus",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Overweight to Equal Weight"
+    },
+    {
+      "source": "US Equity Market – MSCI Rating Upgrade",
+      "target": "US Equity Market – MSCI",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Market Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market – Oscar Health Rating Downgrade",
+      "target": "US Equity Market – Oscar Health",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded due to healthcare exchange uncertainty"
+    },
+    {
+      "source": "US Equity Market – Nasdaq Rating Upgrade",
+      "target": "US Equity Market – Nasdaq",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Neutral to Buy"
+    },
+    {
+      "source": "US Equity Market – Nasdaq Price Target Raised",
+      "target": "US Equity Market – Nasdaq",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 8,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $97 to $105"
+    },
+    {
+      "source": "US Equity Market – Global Payments Rating Upgrade",
+      "target": "US Equity Market – Global Payments",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Neutral to Outperform"
+    },
+    {
+      "source": "US Equity Market – NuScale Power Coverage Initiation",
+      "target": "US Equity Market – NuScale Power",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Coverage initiated with Neutral rating"
+    },
+    {
+      "source": "US Equity Market – Symbotic Rating Downgrade",
+      "target": "US Equity Market – Symbotic",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Neutral"
+    },
+    {
+      "source": "US Equity Market – Otis Worldwide Rating Upgrade",
+      "target": "US Equity Market – Otis Worldwide",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Underperform to Peer Perform"
+    },
+    {
+      "source": "US Equity Market – Norfolk Southern Rating Downgrade",
+      "target": "US Equity Market – Norfolk Southern",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market – Union Pacific Rating Upgrade",
+      "target": "US Equity Market – Union Pacific",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Hold to Buy"
+    },
+    {
+      "source": "US Equity Market – Dow Inc. Rating Downgrade",
+      "target": "US Equity Market – Dow Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Outperform to In Line"
+    },
+    {
+      "source": "US Equity Market – Teck Resources Rating Downgrade",
+      "target": "US Equity Market – Teck Resources",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Overweight to Neutral"
+    },
+    {
+      "source": "US Equity Market – Rollins Price Target Raised",
+      "target": "US Equity Market – Rollins",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $55 to $60"
+    },
+    {
+      "source": "US Equity Market – Equinor Rating Downgrade",
+      "target": "US Equity Market – Equinor",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market – Ovintiv Price Target Raised",
+      "target": "US Equity Market – Ovintiv",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $55 to $57"
+    },
+    {
+      "source": "US Equity Market – Kinder Morgan Rating Upgrade",
+      "target": "US Equity Market – Kinder Morgan",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Peer Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market – Hess Midstream LP Rating Upgrade",
+      "target": "US Equity Market – Hess Midstream LP",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Equal Weight to Overweight"
+    },
+    {
+      "source": "US Equity Market – Deckers Outdoor Price Target Raised",
+      "target": "US Equity Market – Deckers Outdoor",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $128 to $134"
+    },
+    {
+      "source": "US Equity Market – Church & Dwight Price Target Raised",
+      "target": "US Equity Market – Church & Dwight",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $92 to $97"
+    },
+    {
+      "source": "US Equity Market – Churchill Downs Price Target Raised",
+      "target": "US Equity Market – Churchill Downs",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 4,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $127 to $131"
+    },
+    {
+      "source": "US Equity Market – Coursera Rating Upgrade",
+      "target": "US Equity Market – Coursera",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Underperform to Neutral"
+    },
+    {
+      "source": "US Equity Market – Carvana Rating Upgrade",
+      "target": "US Equity Market – Carvana",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market – Energizer Price Target Raised",
+      "target": "US Equity Market – Energizer",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $27 to $28"
+    },
+    {
+      "source": "US Equity Market – Elf Beauty Price Target Raised",
+      "target": "US Equity Market – Elf Beauty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 9,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $123 to $132"
+    },
+    {
+      "source": "US Equity Market – Ulta Beauty Rating Downgrade",
+      "target": "US Equity Market – Ulta Beauty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market – Lamb Weston Price Target Raised",
+      "target": "US Equity Market – Lamb Weston",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 7,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $61 to $68"
+    }
+  ],
+  "scenarios": []
+}

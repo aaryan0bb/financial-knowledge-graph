@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "MS_AIDataCenterInfra - GPUs",
+      "type": "Factor",
+      "brief": "Graphics processing units for AI workloads",
+      "description": "GPUs are hardware accelerators crucial for AI-driven data centers and require financing solutions",
+      "properties": {
+        "asset_type": "hardware_accelerator"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "Factor",
+      "brief": "New AI companies without investment-grade ratings",
+      "description": "Relatively new AI players rated below investment grade face skepticism in financing GPU purchases",
+      "properties": {
+        "rating": "non-IG"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Hyperscalers",
+      "type": "Factor",
+      "brief": "Major cloud and AI infrastructure providers",
+      "description": "Hyperscalers have ultra-high-quality credit profiles and ample cash to finance GPUs and data centers",
+      "properties": {
+        "credit_profile_quality": "ultra-high",
+        "cash_on_hand": "significant"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - GPU-Backed Loans",
+      "type": "Factor",
+      "brief": "Loans collateralized by GPUs",
+      "description": "GPU-backed loans amortize faster than chip useful life and are expected to be popular financing solutions",
+      "properties": {
+        "amortization_period_relation": "shorter_than_chip_useful_life"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Public Securitization",
+      "type": "Factor",
+      "brief": "Securitization of GPU-backed loans",
+      "description": "Public securitization could become a solution for GPU financing but likely not until later this decade",
+      "properties": {
+        "issue_timing": "later_this_decade"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - HY Unsecured Issuance",
+      "type": "Factor",
+      "brief": "High-yield unsecured debt issuance",
+      "description": "HY unsecured issuance is an option for GPU financing with rates in the high-single digits to mid-teens percent",
+      "properties": {
+        "rate_range": "high_single_digits_to_mid_teens_pct"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Investor Skepticism",
+      "type": "Factor",
+      "brief": "Negative investor sentiment",
+      "description": "Investors are skeptical about non-IG AI players’ ability to finance GPU purchases over time",
+      "properties": {
+        "direction": "negative"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Diverse Capital Pools",
+      "type": "Factor",
+      "brief": "Varied financing sources",
+      "description": "A broad array of capital pools can distribute credit risk away from corporate balance sheets",
+      "properties": {
+        "distribution": "diverse"
+      }
+    },
+    {
+      "name": "MS_AIDataCenterInfra - Macro Conditions",
+      "type": "Factor",
+      "brief": "Broader economic environment",
+      "description": "Macro conditions can affect credit appetite and financing costs",
+      "properties": {
+        "volatility": "high"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MS_AIDataCenterInfra - Investor Skepticism",
+      "target": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Skepticism hinders non-IG AI players’ GPU financing"
+    },
+    {
+      "source": "MS_AIDataCenterInfra - GPU-Backed Loans",
+      "target": "MS_AIDataCenterInfra - Non-IG AI Players",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "GPU-backed loans improve financing options for non-IG AI players"
+    },
+    {
+      "source": "MS_AIDataCenterInfra - Hyperscalers",
+      "target": "MS_AIDataCenterInfra - Macro Conditions",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Hyperscalers have lower sensitivity to macro conditions"
+    }
+  ],
+  "scenarios": []
+}

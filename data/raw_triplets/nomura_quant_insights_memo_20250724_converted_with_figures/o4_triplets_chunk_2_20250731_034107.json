@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "name": "JapanEquities-More liquid bank stocks",
+      "type": "Factor",
+      "brief": "Bank stocks with high market cap and trading volume",
+      "description": "Bank stocks in Japan with above-average liquidity",
+      "properties": {
+        "group": "more_liquid"
+      }
+    },
+    {
+      "name": "JapanEquities-Less liquid bank stocks",
+      "type": "Factor",
+      "brief": "Bank stocks with lower market cap and trading volume",
+      "description": "Bank stocks in Japan with below-average liquidity",
+      "properties": {
+        "group": "less_liquid"
+      }
+    },
+    {
+      "name": "JapanEquities-Value stocks",
+      "type": "Factor",
+      "brief": "Stocks with low price-to-book metrics",
+      "description": "Japanese value stocks seen catching up after rate rises",
+      "properties": {
+        "driver": "value"
+      }
+    },
+    {
+      "name": "JapanEquities-Yen interest rates",
+      "type": "Factor",
+      "brief": "Interest rates on Japanese yen-denominated bonds",
+      "description": "Yields on yen bonds have recently increased",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-Prime Minister Ishiba Resignation",
+      "type": "Event",
+      "brief": "Reports of PM Ishiba stepping down",
+      "description": "Potential resignation of Japan's Prime Minister Ishiba",
+      "properties": {
+        "date": null,
+        "event_type": "resignation",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "JapanEquities-Government leadership uncertainty",
+      "type": "Factor",
+      "brief": "Uncertainty over future Japanese government leadership",
+      "description": "Volatility risk from LDP leadership contest and PM change",
+      "properties": {
+        "driver": "political_instability",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-Rate hike trade",
+      "type": "Factor",
+      "brief": "Investor bets on further interest rate increases",
+      "description": "Resurgent rate hike trade in bond and equity markets",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "JapanEquities-JPY",
+      "type": "Instrument",
+      "brief": "Japanese yen currency",
+      "description": "FX currency used in USD/JPY pair",
+      "properties": {
+        "ticker": "JPY"
+      }
+    },
+    {
+      "name": "JapanEquities-USD/JPY spot rate",
+      "type": "Metric",
+      "brief": "Spot exchange rate of USD per JPY",
+      "description": "USD/JPY pair had edged lower by the memo date",
+      "properties": {
+        "unit": "JPY per USD",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "JapanEquities-USD/JPY risk reversal",
+      "type": "Metric",
+      "brief": "Risk reversal measure for USD/JPY options",
+      "description": "USD/JPY risk reversal has rebounded",
+      "properties": {
+        "unit": "volPts",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "JapanEquities-Nonresident investor JPY outlook",
+      "type": "Factor",
+      "brief": "Expectations of yen weakening by overseas investors",
+      "description": "Nonresident investors increasingly expect JPY to weaken",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "JapanEquities-More liquid bank stocks",
+      "target": "JapanEquities-Less liquid bank stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Outperformed less liquid bank stocks on preceding day"
+    },
+    {
+      "source": "JapanEquities-Yen interest rates",
+      "target": "JapanEquities-Value stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Yen rate rise driving value stocks catch-up"
+    },
+    {
+      "source": "JapanEquities-Prime Minister Ishiba Resignation",
+      "target": "JapanEquities-Government leadership uncertainty",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Resignation reports increase leadership uncertainty"
+    },
+    {
+      "source": "JapanEquities-Government leadership uncertainty",
+      "target": "JapanEquities-More liquid bank stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Leadership uncertainty could dampen liquid bank stocks performance"
+    },
+    {
+      "source": "JapanEquities-Rate hike trade",
+      "target": "JapanEquities-JPY",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Rate hike trade did not strengthen JPY"
+    },
+    {
+      "source": "JapanEquities-Nonresident investor JPY outlook",
+      "target": "JapanEquities-USD/JPY spot rate",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Investor expectations contribute to lower USD/JPY spot rate"
+    },
+    {
+      "source": "JapanEquities-USD/JPY spot rate",
+      "target": "JapanEquities-USD/JPY risk reversal",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Lower spot rate leads to risk reversal rebound"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "JapanEquities-Prime Minister Ishiba Resignation",
+      "probability": 0.9,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "JapanEquities-Prime Minister Ishiba Resignation",
+          "target": "JapanEquities-Government leadership uncertainty",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "JapanEquities-Government leadership uncertainty",
+          "target": "JapanEquities-More liquid bank stocks",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

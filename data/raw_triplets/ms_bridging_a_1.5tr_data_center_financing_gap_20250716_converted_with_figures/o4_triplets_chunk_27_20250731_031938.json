@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Gross New Issuance of Data Center Securitized Credit",
+      "type": "Table",
+      "brief": "Annual issuance trends of data center securitized credit",
+      "description": "Shows CMBS and ABS issuance for data center securitized credit from 2018 to 2025 YTD, highlighting surge and recovery",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | CMBS Issuance ($mm) | ABS Issuance ($mm) | Total Issuance ($mm) |\n|------|---------------------|--------------------|----------------------|\n| 2018 | $200                | $1,500             | $1,700               |\n| 2019 | $250                | $1,483             | $1,733               |\n| 2020 | $100                | $3,119             | $3,219               |\n| 2021 | $3,500              | $6,855             | $10,355              |\n| 2022 | $900                | $961               | $1,861               |\n| 2023 | $2,900              | $6,655             | $9,555               |\n| 2024 | $3,200              | $8,499             | $11,699              |\n| 2025 YTD | $5,200            | $6,950             | $12,150              |",
+        "key_insight": "Total issuance has generally trended upward with a surge to $10,355mm in 2021 and recovery to $12,150mm in 2025 YTD"
+      }
+    },
+    {
+      "name": "Data Center Securitized Credit Market",
+      "type": "Factor",
+      "brief": "Forecast financing supply for data center ABS and CMBS",
+      "description": "Estimated to provide around $150bn of ABS and CMBS financing to US data centers from 2025 to 2028",
+      "properties": {
+        "magnitude_usd_bn": 150
+      }
+    },
+    {
+      "name": "Data Center Total Issuance",
+      "type": "Metric",
+      "brief": "Total annual securitized credit issuance in 2025 YTD",
+      "description": "Total gross new issuance reached $12,150mm as of June 30, 2025",
+      "properties": {
+        "value": 12150,
+        "unit": "USD mm",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center Cumulative Securitized Debt Raised",
+      "type": "Metric",
+      "brief": "Total securitized debt raised since 2018",
+      "description": "Over $50bn of data center-backed debt raised through USD securitized credit since 2018",
+      "properties": {
+        "value": 50,
+        "unit": "USD bn",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center GSMS 2025-800D",
+      "type": "Instrument",
+      "brief": "CMBS issue backed by under-construction data center",
+      "description": "First securitized credit data center deal featuring a highly transitional data center",
+      "properties": {
+        "ticker": "GSMS 2025-800D"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Gross New Issuance of Data Center Securitized Credit",
+      "target": "Data Center Total Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12150,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows total issuance reached 12,150 USD mm in 2025 YTD"
+    }
+  ],
+  "scenarios": []
+}

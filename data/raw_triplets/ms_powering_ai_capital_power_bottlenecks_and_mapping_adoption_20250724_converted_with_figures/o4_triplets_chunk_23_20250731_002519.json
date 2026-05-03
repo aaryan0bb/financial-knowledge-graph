@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – WULF Compute Core Business Model Comparison",
+      "type": "Table",
+      "brief": "Comparison of WULF Compute's three business models",
+      "description": "Details operational and financial metrics for CSP, Colocation, and Build to Suit models",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Metric | Cloud Service Provider (CSP) | Colocation - Whitespace & Rack Ready | Build to Suit |\n|---|---|---|---|\n| Description | Shell data center and GPU clusters; space, power, cooling, fiber/internet, security, compute, storage and environment. | Shell data center; lease rack ready whitespace including redundant power, cooling, fiber/internet, and security | Data center built to spec; lease space, redundant power, cooling, fiber/internet, and security |\n| Customer | Multiple - Managed through cloud partner | Multiple - Enterprise and well funded startups | Single - Hyperscaler |\n| Contract Size | 0.1 - 50 MW | 0.5 - 100 MW+ | 100+ MW |\n| Contract Term | 1 - 36 months | 5 - 15 years | 15+ years with renewals |\n| O&M | WULF managed | WULF managed | Tenant managed |\n| Build Cost per MW | $27 - 30 million (1) | $6 - 8 million (1) | $2 - 4 million (4) |\n| Financing | Equity & Debt | Equity (initially) | Highly Bankable |\n| Revenue per MW | $11 - 18 million (2) | $1.3 - 1.8 million (3) | $0.2 - 0.5 million |\n| Margins | 70 - 80% | 65 - 75% | 90% + |\n| Valuation Range | 7-12x EBITDA | 10-15x EBITDA | 15-20x EBITDA |",
+        "key_insight": "The 'Build to Suit' model delivers lower build costs per MW ($2-4M), the highest margins (90%+), and premium valuations (15-20x EBITDA)."
+      }
+    },
+    {
+      "name": "WULF Compute Build to Suit Build Cost per MW",
+      "type": "Metric",
+      "brief": "Range of build cost per MW for Build to Suit model",
+      "description": "Build to Suit model incurs $2-4M per MW build costs",
+      "properties": {
+        "unit": "USD million per MW",
+        "as_of": "2025-07-24",
+        "min": 2,
+        "max": 4
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – WULF Compute Core Business Model Comparison",
+      "target": "WULF Compute Build to Suit Build Cost per MW",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights Build to Suit model's build cost per MW range"
+    }
+  ],
+  "scenarios": []
+}

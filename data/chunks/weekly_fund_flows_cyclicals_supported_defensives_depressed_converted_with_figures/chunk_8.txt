@@ -1,0 +1,164 @@
+Weekly Fund Flows 
+Goldman Sachs 
+
+Fund Positioning: Fixed Income Markets 
+
+                                                                                                                                 % 
+                                                                 %    %             Inflation-protected Share of Bond Assets 
+      % 
+                     Long Duration Share of Bond Assets                                                                          4.5 
+                                                                7.5   4.5 
+     7.5 
+
+     7.0                                                        7.0 
+
+                                                                6.5                                                             4.0 
+     6.5                                                              4.0 
+
+     6.0                                                        6.0 
+
+                                                                5.5 
+     5.5 
+                                                                      3.5                                                        3.5 
+
+     5.0                                                        5.0 
+
+     4.5                                                        4.5 
+                                                                      3.0                                                        3.0 
+      4.0                                                       4.0 
+
+     3.5 N                                                      3.5 
+
+                                                                      2.5                                                        2.5 
+      3.0                                                        3.0 
+                                                                          10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+         10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
+                                                                                                                                  % 
+                                                                 %     % 
+      %           IG Credit and Agg-Type Share of Bond Assets                         Government-only Share of Bond Assets 
+                                                                 54    14                                                        14 
+      54 
+
+                                                                                                                                 13 
+                                                                       13 
+                                                                 52 
+      52 
+
+                                                                       12                                                        12 
+                                                                 50 
+      50 
+                                                                                                                                 11 
+                                                                        11 
+                                                                 48 
+       48 
+                                                                       10                                                         10 
+
+                                                                 46 
+       46 
+                                                                                                                                  9 
+                                                                        9 
+
+                                                                 44                                                               8 
+       44                                                               8 
+
+       42                                                        42      7                                                        7 
+
+                                                                                                                                  6 
+       40                                                        40      6 
+                                                                          10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+         10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
+                                                                                                                                   % 
+       %                                                          %    %             Leveraged Loan Share of High Yield Bond 
+                      High Yield Bond and Leveraged Loan                                                                          30 
+       18                                                        18     30                 and Leveraged Loan Assets 
+                            Share of Bond Assets 
+
+                                                                 16 
+       16                                                               25                                                        25 
+
+                                                                 14 
+       14 
+                                                                                                                                  20 
+                                                                        20 
+
+                                                                  12 
+       12 
+
+                                                                        15                                                        15 
+
+       10                                                         10 
+
+                                                                        10                                                        10 
+        8                                                         8 
+
+                                                                                                                                  5 
+                                                                  6      5 
+        6 
+                                                                           10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+          10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
+  Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research 
+
+                                                                                                                                          8 
+                                                                                                                                           OO 
+  25 July 2025 
+
+    | Year | Category                                             | Share (%) |
+    |------|------------------------------------------------------|-----------|
+    | 2010 | Long Duration Share of Bond Assets                   | 3.4%      |
+    | 2012 | Long Duration Share of Bond Assets                   | 4.6%      |
+    | 2018 | Long Duration Share of Bond Assets                   | 3.8%      |
+    | 2022 | Long Duration Share of Bond Assets                   | 4.2%      |
+    | 2024 | Long Duration Share of Bond Assets                   | 7.3%      |
+    | 2025 | Long Duration Share of Bond Assets                   | 6.8%      |
+    | 2010 | Inflation-protected Share of Bond Assets             | 4.0%      |
+    | 2012 | Inflation-protected Share of Bond Assets             | 4.3%      |
+    | 2014 | Inflation-protected Share of Bond Assets             | 2.6%      |
+    | 2022 | Inflation-protected Share of Bond Assets             | 3.9%      |
+    | 2025 | Inflation-protected Share of Bond Assets             | 2.7%      |
+    | 2010 | IG Credit and Agg-Type Share of Bond Assets          | 40.5%     |
+    | 2015 | IG Credit and Agg-Type Share of Bond Assets          | 47.0%     |
+    | 2020 | IG Credit and Agg-Type Share of Bond Assets          | 51.0%     |
+    | 2025 | IG Credit and Agg-Type Share of Bond Assets          | 53.5%     |
+    | 2010 | Government-only Share of Bond Assets                 | 12.0%     |
+    | 2012 | Government-only Share of Bond Assets                 | 13.4%     |
+    | 2018 | Government-only Share of Bond Assets                 | 7.0%      |
+    | 2025 | Government-only Share of Bond Assets                 | 13.8%     |
+    | 2010 | High Yield Bond and Leveraged Loan Share of Bond Assets | 10.5%     |
+    | 2014 | High Yield Bond and Leveraged Loan Share of Bond Assets | 16.0%     |
+    | 2020 | High Yield Bond and Leveraged Loan Share of Bond Assets | 8.0%      |
+    | 2025 | High Yield Bond and Leveraged Loan Share of Bond Assets | 8.5%      |
+    | 2010 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 5.5%      |
+    | 2014 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 22.0%     |
+    | 2019 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 25.0%     |
+    | 2020 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 13.0%     |
+    | 2025 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 21.0%     |
+
+    Summary: This figure presents six line charts illustrating the "Share of Bond Assets" for various fixed income categories from 2010 to 2025. The Y-axis represents the percentage share, while the X-axis denotes the year. Key trends include a sharp surge in "Long Duration Share" from 2022 to a 2024 peak, before a slight dip, and a consistent upward trajectory for "IG Credit and Agg-Type Share" throughout the period. "Inflation-protected Share" showed volatility, peaking in 2012 and 2022, but generally trending lower since 2012. "Government-only Share" experienced a significant decline from 2012 to 2018, followed by a strong rebound to near-record highs by 2025. Conversely, "High Yield Bond and Leveraged Loan Share" declined significantly after a 2014 peak, while the "Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets" remained volatile with multiple peaks and troughs, ending moderately high.
+
+    Explanation: These charts provide insights into shifting fund positioning within fixed income markets. The recent surge in Long Duration and Government-only bond shares suggests investors are increasingly favoring duration exposure and assets perceived as safer, potentially indicating expectations of lower interest rates or a slowing economy. The decline in inflation-protected assets since 2022, following a period of strong performance, aligns with a moderating inflation outlook. The steady growth in IG Credit share reflects sustained demand for higher-quality corporate debt, contrasting with the general decline in High Yield and Leveraged Loan shares, which points to reduced appetite for riskier credit.
+
+    | Year | Long Duration Share of Bond Assets (%) | IG Credit & Agg-Type Share of Bond Assets (%) | High Yield Bond & Leveraged Loan Share of Bond Assets (%) | Inflation-protected Share of Bond Assets (%) | Government-only Share of Bond Assets (%) | Leveraged Loan Share of HY & LL Assets (%) |
+    |------|----------------------------------------|-----------------------------------------------|-----------------------------------------------------------|---------------------------------------------|------------------------------------------|--------------------------------------------|
+    | 2010 | 3.5                                    | 41.0                                          | 10.5                                                      | 2.8                                         | 10.0                                     | 10.0                                       |
+    | 2011 | 4.5                                    | 42.0                                          | 12.0                                                      | 3.0                                         | 9.5                                      | 12.0                                       |
+    | 2012 | 4.0                                    | 42.5                                          | 13.0                                                      | 3.2                                         | 9.0                                      | 14.0                                       |
+    | 2013 | 4.7                                    | 43.0                                          | 15.0                                                      | 3.0                                         | 9.5                                      | 17.0                                       |
+    | 2014 | 4.2                                    | 45.0                                          | 16.0                                                      | 2.9                                         | 9.0                                      | 20.0                                       |
+    | 2015 | 4.0                                    | 47.0                                          | 14.0                                                      | 3.0                                         | 8.5                                      | 18.0                                       |
+    | 2016 | 4.5                                    | 49.0                                          | 12.0                                                      | 3.2                                         | 8.0                                      | 15.0                                       |
+    | 2017 | 4.2                                    | 50.0                                          | 13.0                                                      | 3.5                                         | 8.0                                      | 18.0                                       |
+    | 2018 | 4.8                                    | 49.0                                          | 11.0                                                      | 3.8                                         | 7.5                                      | 14.0                                       |
+    | 2019 | 4.0                                    | 51.0                                          | 9.5                                                       | 3.5                                         | 7.0                                      | 10.0                                       |
+    | 2020 | 4.3                                    | 51.5                                          | 8.0                                                       | 3.0                                         | 6.5                                      | 8.0                                        |
+    | 2021 | 4.5                                    | 50.0                                          | 8.5                                                       | 3.5                                         | 7.0                                      | 10.0                                       |
+    | 2022 | 6.0                                    | 51.0                                          | 8.5                                                       | 3.8                                         | 7.5                                      | 11.0                                       |
+    | 2023 | 7.0                                    | 52.5                                          | 8.0                                                       | 4.0                                         | 8.0                                      | 12.0                                       |
+    | 2024 | 7.2                                    | 53.0                                          | 8.5                                                       | 4.2                                         | 8.5                                      | 13.0                                       |
+    | 2025 | 6.8                                    | 53.0                                          | 8.0                                                       | 4.0                                         | 8.5                                      | 12.5                                       |
+
+    Summary: This set of six line charts illustrates the evolution of fund positioning within fixed income markets from 2010 to 2025, with years on the X-axis and asset shares in percentages on the Y-axis. Key trends include a sharp increase in "Long Duration Share of Bond Assets" from 2021, reaching a peak around 7.2% in 2024. Concurrently, "IG Credit and Agg-Type Share of Bond Assets" has shown a consistent upward trend since 2014, reaching historical highs around 53% by 2024-2025. In contrast, "High Yield Bond and Leveraged Loan Share of Bond Assets" peaked around 16% in 2014 and has generally declined since, stabilizing around 8-8.5% in recent years. "Inflation-protected" and "Government-only" bond shares show more modest fluctuations, with the former trending slightly up recently while the latter generally declined until 2020 before a slight rebound. The "Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets" also saw a significant decline from its 2014 peak of 20% to a trough in 2020, followed by a gradual recovery.
+
+    Explanation: These trends in fixed income fund positioning reflect shifts in investor sentiment and macroeconomic expectations over the past decade and a half. The increasing allocation to long-duration and investment-grade (IG Credit & Agg-Type) bonds suggests a preference for quality and duration, possibly in anticipation of lower future interest rates or as a defensive play. Conversely, the decline in high-yield and leveraged loan shares, especially post-2014, indicates a decreasing appetite for higher-risk fixed income assets, consistent with periods of economic uncertainty or tightening credit conditions. The recent uptick in inflation-protected bonds might signal growing concerns about inflation.

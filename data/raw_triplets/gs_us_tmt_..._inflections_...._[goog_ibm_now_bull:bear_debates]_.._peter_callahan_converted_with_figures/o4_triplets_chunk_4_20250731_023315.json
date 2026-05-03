@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "TMT_ServiceNow",
+      "type": "Company",
+      "brief": "Enterprise cloud software provider",
+      "description": "ServiceNow is a cloud computing company specializing in enterprise IT operations management",
+      "properties": {
+        "ticker": "NOW",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT_Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google",
+      "description": "Alphabet Inc. is a technology conglomerate focusing on search, AI, and cloud",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "TMT"
+      }
+    },
+    {
+      "name": "TMT_ServiceNow Subscription Revenue Beat",
+      "type": "Metric",
+      "brief": "200 bps beat on subscription revenue and cRPO",
+      "description": "ServiceNow beat its subscription revenues and contracted RPO by 200 basis points",
+      "properties": {
+        "value": 200,
+        "unit": "bp",
+        "as_of": "2Q"
+      }
+    },
+    {
+      "name": "TMT_Alphabet 2Q Capex Growth",
+      "type": "Metric",
+      "brief": "70% y/y capex acceleration",
+      "description": "Alphabet's capital expenditure accelerated 70% year-over-year in Q2",
+      "properties": {
+        "value": 70,
+        "unit": "%",
+        "as_of": "2Q"
+      }
+    },
+    {
+      "name": "TMT_Alphabet 2025 Capex Outlook",
+      "type": "Metric",
+      "brief": "Raised capex outlook to $85bn for 2025",
+      "description": "Alphabet raised its 2025 capital expenditure outlook to $85 billion",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "2025",
+        "magnitude_%": 13
+      }
+    },
+    {
+      "name": "TMT_ServiceNow Q3 Guide Deceleration",
+      "type": "Metric",
+      "brief": "350 bps implied deceleration in Q3 guide",
+      "description": "ServiceNow's Q3 guide implies a deceleration of approximately 350 basis points",
+      "properties": {
+        "value": 350,
+        "unit": "bp",
+        "as_of": "3Q guide"
+      }
+    },
+    {
+      "name": "TMT_ServiceNow FY26 AI ACV Target",
+      "type": "Metric",
+      "brief": "$1bn AI ACV target for FY26",
+      "description": "ServiceNow aims to reach $1 billion AI annual contract value in fiscal year 2026",
+      "properties": {
+        "value": 1,
+        "unit": "USD bn",
+        "as_of": "FY26"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TMT_Alphabet 2Q Capex Growth",
+      "target": "TMT_Alphabet 2025 Capex Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 13,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Strong Q2 capex growth led Alphabet to raise its 2025 capex outlook"
+    }
+  ],
+  "scenarios": []
+}

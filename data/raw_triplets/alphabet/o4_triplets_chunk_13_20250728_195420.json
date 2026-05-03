@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet A (GOOGL)",
+      "type": "Company",
+      "brief": "Class A shares of Alphabet Inc.",
+      "description": "Represents the primary trading equity for Alphabet, tracked and covered by major analysts.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "Alphabet C (GOOG)",
+      "type": "Company",
+      "brief": "Class C shares of Alphabet Inc.",
+      "description": "Non-voting share class for Alphabet, actively tracked for price targets.",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "Table T1 – Alphabet C GOOG time series price vs objectives",
+      "type": "Table",
+      "brief": "GOOG stock price and Price Objectives from mid-2022 to mid-2025",
+      "description": "Time series of GOOG prices and BofA price objectives, highlighting trends and volatility.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | Price Objective (PO) | Approx. GOOG Price |\n|-----------|----------------------|--------------------|\n| 26-Jul-22 | US$125               | US$105             |\n| 3-Oct-22  | US$114               | US$95              |\n| 17-Jan-23 | US$116               | US$99              |\n| 30-Jan-23 | US$119               | US$106             |\n| 3-Feb-23  | US$125               | US$103             |\n| 26-Apr-23 | US$128               | US$109             |\n| 19-Jul-23 | US$142               | US$125             |\n| 26-Jul-23 | US$146               | US$129             |\n| 25-Oct-23 | US$149               | US$138             |\n| 11-Dec-23 | US$166               | US$155             |\n| 26-Jan-24 | US$175               | US$146             |\n| 31-Jan-24 | US$173               | US$148             |\n| 26-Apr-24 | US$200               | US$175             |\n| 17-Jul-24 | US$206               | US$185             |\n| 30-Oct-24 | US$210               | US$170             |\n| 14-Jan-25 | US$225               | US$195             |\n| 9-Apr-25  | US$185               | US$160             |\n| 25-Apr-25 | US$200               | US$170             |\n| 18-Jul-25 | US$210               | US$185             |",
+        "key_insight": "Both GOOG stock and Price Objectives rise strongly from 2022-2025, with POs leading the upward movement and short-term price volatility evident."
+      }
+    },
+    {
+      "name": "Table T2 – Alphabet A GOOGL price vs objectives time series",
+      "type": "Table",
+      "brief": "GOOGL price and Price Objectives from July 2022 to July 2025",
+      "description": "Chronological alignment of GOOGL price with BofA analyst price objectives over three years.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date       | Rating/Type | Price Objective (US$) |\n|:-----------|:------------|:----------------------|\n| 24-Jul-22  | B Post PO   | 2636                  |\n| 26-Jul-22  | PO          | 125                   |\n| 3-Oct-22   | PO          | 114                   |\n| 17-Jan-23  | PO          | 116                   |\n| 30-Jan-23  | PO          | 119                   |\n| 3-Feb-23   | PO          | 125                   |\n| 26-Apr-23  | PO          | 128                   |\n| 19-Jul-23  | PO          | 142                   |\n| 26-Jul-23  | PO          | 146                   |\n| 25-Oct-23  | PO          | 149                   |\n| 11-Dec-23  | PO          | 166                   |\n| 26-Jan-24  | PO          | 175                   |\n| 31-Jan-24  | PO          | 173                   |\n| 26-Apr-24  | PO          | 200                   |\n| 17-Jul-24  | PO          | 206                   |\n| 30-Oct-24  | PO          | 210                   |\n| 14-Jan-25  | PO          | 225                   |\n| 9-Apr-25   | PO          | 185                   |\n| 25-Apr-25  | PO          | 200                   |\n| 18-Jul-25  | PO          | 210                   |",
+        "key_insight": "GOOGL’s price and Price Objectives increased consistently 2022-2025, showing bullish analyst sentiment amid volatility."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Alphabet C GOOG time series price vs objectives",
+      "target": "Alphabet C (GOOG)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 210,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GOOG price and objectives increased with analyst upward trend 2022-2025."
+    },
+    {
+      "source": "Table T2 – Alphabet A GOOGL price vs objectives time series",
+      "target": "Alphabet A (GOOGL)",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 225,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "GOOGL price and analyst objectives trended up, reflecting strong performance."
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "US Equity Market GS Global Equities Call",
+      "type": "Event",
+      "brief": "Morning research call covering key market moves",
+      "description": "Goldman Sachs Global Equities Call with focus on futures, yields, FX, and commodity movements",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "research_call",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equity Market SPX futures",
+      "type": "Instrument",
+      "brief": "S&P 500 futures up 11bps",
+      "description": "S&P 500 futures rose by 11 basis points at open",
+      "properties": {
+        "ticker": "SPX futs",
+        "direction": "up",
+        "magnitude_bp": 11
+      }
+    },
+    {
+      "name": "US Equity Market NDX futures",
+      "type": "Instrument",
+      "brief": "Nasdaq-100 futures up 2bps",
+      "description": "Nasdaq-100 futures rose by 2 basis points at open",
+      "properties": {
+        "ticker": "NDX futs",
+        "direction": "up",
+        "magnitude_bp": 2
+      }
+    },
+    {
+      "name": "US Equity Market US 10YR yield",
+      "type": "Instrument",
+      "brief": "10-year U.S. Treasury yield up 1bp to 4.4138%",
+      "description": "U.S. 10-year Treasury yield rose by 1 basis point to 4.4138%",
+      "properties": {
+        "ticker": "10YR",
+        "direction": "up",
+        "magnitude_bp": 1,
+        "price": 4.4138
+      }
+    },
+    {
+      "name": "US Equity Market XBTUSD",
+      "type": "Instrument",
+      "brief": "Bitcoin down 200bps to $116k",
+      "description": "Bitcoin price fell by 200 basis points to $116,000",
+      "properties": {
+        "ticker": "XBTUSD",
+        "direction": "down",
+        "magnitude_bp": 200,
+        "price": 116000
+      }
+    },
+    {
+      "name": "US Equity Market WTI",
+      "type": "Instrument",
+      "brief": "WTI crude up 32bps to $66.24",
+      "description": "WTI crude oil futures rose by 32 basis points to $66.24",
+      "properties": {
+        "ticker": "WTI",
+        "direction": "up",
+        "magnitude_bp": 32,
+        "price": 66.24
+      }
+    },
+    {
+      "name": "US Equity Market Aug 1 Reciprocal Tariffs Deadline",
+      "type": "Event",
+      "brief": "Reciprocal tariffs deadlines on August 1, 2025",
+      "description": "Deadlines for reciprocal tariffs set for August 1, 2025, ahead of US-China trade discussions",
+      "properties": {
+        "date": "2025-08-01",
+        "event_type": "tariffs_deadline",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equity Market S&P 500 Next Week Implied Move",
+      "type": "Metric",
+      "brief": "S&P implied move of 1.51% through next Friday",
+      "description": "Market expects a 1.51% move in the S&P 500 by August 1, 2025",
+      "properties": {
+        "value": 1.51,
+        "unit": "%",
+        "as_of": "2025-08-01"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

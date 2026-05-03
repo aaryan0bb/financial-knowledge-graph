@@ -1,0 +1,38 @@
+{
+  "report": "re- risk taker call (notes) - Brian Garrett_converted_with_figures.txt",
+  "timestamp": "2025-07-31T01:48:31.137644",
+  "total_chunks": 4,
+  "total_entities": 27,
+  "total_relationships": 11,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 8,
+      "relationships": 4,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_014335.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 7,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_014513.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 7,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_014703.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 5,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_014829.json"
+    }
+  ]
+}

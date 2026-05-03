@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "Barclays Equity Research – Equifax Inc.",
+      "type": "Company",
+      "brief": "Credit bureau with disappointing government commentary",
+      "description": "Equifax's Q2 lending-driven upside failed to raise EPS guide amid slowing government revenue.",
+      "properties": {
+        "ticker": "EFX",
+        "sector": "Industrials",
+        "market_cap_USDbn": 29.6103
+      }
+    },
+    {
+      "name": "Barclays Equity Research – General Electric",
+      "type": "Company",
+      "brief": "Diversified industrial conglomerate hosting investor meeting",
+      "description": "GE hosted an investor meeting outlining 2028 outlook insights from its CFO and IR.",
+      "properties": {
+        "ticker": "GE",
+        "sector": "Industrials",
+        "market_cap_USDbn": 274.6538
+      }
+    },
+    {
+      "name": "Barclays Equity Research – Equifax Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Equifax",
+      "description": "Barclays sets price target for Equifax at mid-2025.",
+      "properties": {
+        "value": 240.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research – Equifax EPS FY1",
+      "type": "Metric",
+      "brief": "Equifax estimated EPS for fiscal year 1",
+      "description": "Forecasted EPS for Equifax FY1 by Barclays.",
+      "properties": {
+        "value": 7.59,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Barclays Equity Research – Equifax EPS FY2",
+      "type": "Metric",
+      "brief": "Equifax estimated EPS for fiscal year 2",
+      "description": "Forecasted EPS for Equifax FY2 by Barclays.",
+      "properties": {
+        "value": 8.9,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    },
+    {
+      "name": "Barclays Equity Research – General Electric Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for GE",
+      "description": "Barclays sets price target for GE at mid-2025.",
+      "properties": {
+        "value": 295.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research – General Electric EPS FY1",
+      "type": "Metric",
+      "brief": "GE estimated EPS for fiscal year 1",
+      "description": "Forecasted EPS for GE FY1 by Barclays.",
+      "properties": {
+        "value": 6.05,
+        "unit": "USD",
+        "as_of": "FY1"
+      }
+    },
+    {
+      "name": "Barclays Equity Research – General Electric EPS FY2",
+      "type": "Metric",
+      "brief": "GE estimated EPS for fiscal year 2",
+      "description": "Forecasted EPS for GE FY2 by Barclays.",
+      "properties": {
+        "value": 7.1,
+        "unit": "USD",
+        "as_of": "FY2"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

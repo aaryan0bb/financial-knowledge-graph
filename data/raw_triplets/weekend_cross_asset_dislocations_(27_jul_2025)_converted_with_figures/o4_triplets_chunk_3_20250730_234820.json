@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Volatility Expectations: S&P 500 Daily Implied Move and 1-Week Change",
+      "type": "Table",
+      "brief": "Daily implied move and weekly change for S&P 500",
+      "description": "Shows the S&P 500’s daily implied move and corresponding one-week change from July 28 to September 5.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | Daily Implied Move (as of 25-Jul close) | 1-week Change | Event                   |\n|---------|------------------------------------------|---------------|-------------------------|\n| 28-Jul  | 0.5%                                     | -0.1%         |                         |\n| 29-Jul  | 0.5%                                     | -0.1%         |                         |\n| 30-Jul  | 0.7%                                     | -0.1%         | FOMC                    |\n| 31-Jul  | 0.7%                                     | -0.1%         |                         |\n| 1-Aug   | 0.8%                                     | -0.1%         | ISM, Payrolls           |\n| 4-Aug   | 0.6%                                     | -0.1%         |                         |\n| 5-Aug   | 0.6%                                     | -0.1%         |                         |\n| 6-Aug   | 0.6%                                     | -0.1%         |                         |\n| 7-Aug   | 0.6%                                     | -0.1%         |                         |\n| 8-Aug   | 0.6%                                     | -0.1%         |                         |\n| 11-Aug  | 0.7%                                     | -0.1%         |                         |\n| 12-Aug  | 0.8%                                     | -0.1%         | CPI                     |\n| 13-Aug  | 0.6%                                     | -0.1%         |                         |\n| 14-Aug  | 0.6%                                     | -0.1%         |                         |\n| 15-Aug  | 0.5%                                     | -0.1%         |                         |\n| 18-Aug  | 0.9%                                     | -0.1%         |                         |\n| 19-Aug  | 0.7%                                     | -0.1%         |                         |\n| 20-Aug  | 0.7%                                     | -0.1%         |                         |\n| 21-Aug  | 0.7%                                     | -0.1%         |                         |\n| 22-Aug  | 0.8%                                     | -0.1%         |                         |\n| 25-Aug  | 0.7%                                     | -0.1%         |                         |\n| 26-Aug  | 0.7%                                     | -0.1%         |                         |\n| 27-Aug  | 0.7%                                     | -0.1%         |                         |\n| 28-Aug  | 1.0%                                     | -0.1%         | Earnings of AI Companies|\n| 29-Aug  | 0.8%                                     | -0.1%         |                         |\n| 2-Sep   | 0.9%                                     | -0.1%         |                         |\n| 3-Sep   | 0.8%                                     | -0.1%         |                         |\n| 4-Sep   | 0.8%                                     | -0.1%         |                         |\n| 5-Sep   | 0.8%                                     | -0.1%         |                         |",
+        "key_insight": "Daily implied move generally ranged from 0.6% to 0.9%, spiking to 1.0% on Earnings of AI Companies, while the 1-week change was persistently negative indicating declining volatility expectations."
+      }
+    },
+    {
+      "name": "Table T2 – Volatility Expectations: Average S&P 500 Single Stock 1-Month Put-Call Skew",
+      "type": "Table",
+      "brief": "Average single stock 1-month put-call skew",
+      "description": "Shows average single-stock put-call skew for the S&P 500 from January 2023 to March 2025.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | Put-Call Skew |\n|:-----|:--------------|\n| Jan-23 | 0.15          |\n| Feb-23 | 0.19          |\n| Apr-23 | 0.12          |\n| Jul-23 | 0.08          |\n| Oct-23 | 0.02          |\n| Dec-23 | 0.07          |\n| Jan-24 | 0.09          |\n| Feb-24 | 0.04          |\n| Apr-24 | 0.08          |\n| Jul-24 | 0.19          |\n| Aug-24 | 0.10          |\n| Oct-24 | 0.14          |\n| Dec-24 | 0.08          |\n| Feb-25 | 0.27          |\n| Mar-25 | 0.09          |",
+        "key_insight": "After spikes to ~0.19 in July 2024 and ~0.27 in February 2025, skew reverted to balanced positioning near 0.09 by period end."
+      }
+    },
+    {
+      "name": "Volatility Expectations – Weekly Decline",
+      "type": "Factor",
+      "brief": "Persistent negative one-week implied move changes",
+      "description": "Declining volatility expectations in equity markets from July 28 to September 5.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 0.1,
+        "lookback_days": 7
+      }
+    },
+    {
+      "name": "Volatility Expectations – Single Stock Skew Balanced Positioning",
+      "type": "Factor",
+      "brief": "Skew returned to neutral level by March 2025",
+      "description": "Single-stock option positioning returned to balanced level after spikes in July 2024 and February 2025.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 0.17
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Volatility Expectations: S&P 500 Daily Implied Move and 1-Week Change",
+      "target": "Volatility Expectations – Weekly Decline",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -0.1,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Highlights consistent negative weekly changes indicating declining volatility expectations"
+    },
+    {
+      "source": "Table T2 – Volatility Expectations: Average S&P 500 Single Stock 1-Month Put-Call Skew",
+      "target": "Volatility Expectations – Single Stock Skew Balanced Positioning",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 0.09,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Shows skew reverting to balanced level near 0.09 after spikes"
+    }
+  ],
+  "scenarios": []
+}

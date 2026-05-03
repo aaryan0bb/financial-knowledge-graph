@@ -1,0 +1,102 @@
+Morgan Stanley                                                                                                                                                  July 24, 2025 
+
+A Recent Schneider Electric Survey Shows Power Issues are Paramount 
+
+Key survey takeaways: 
+                                                                                    What's slowing down data center projects? 
+ "1. Grid constraints are the #1 barrier ...                                           Which obstacles to building more data centers are most significant right now, 
+                                                                                                     and what's driving the top overall concern? 
+2. New projects are bigger than ever: 
+
+Nearly half (48%) of respondents say                                               Utility capacity or transmission constraints 
+                                                                               40%            33%       19% 
+                                                                                                                  92%               Utility quoted long wait time for more power 
+their new data centers now average                                                                                                          46% 
+
+ 100+ MW, signaling an unprecedented                                       LAAA                      Permitting issues              Utility quoted high cost for more power 
+                                                                                  26%        30%         30%       86%                     43% 
+scale of development. 3. Longer lead                                                                                                Long lead time for on-site power generation equipment 
+                                                                                                                                     (e.g., turbines, engines) 
+                                                                                                      Fiber availability                   42% 
+times are the new normal: 44% report 
+                                                                                   26%        33%         26%      85° 
+                                                                                                                                    Utility power has unpredictable energy rates 
+utility wait times of 4+ years, while                                                                                                      42% 
+                                                                                                Access to computer chips 
+                                                                                                   34%      15%    81%              Utility power reliability is inadequate 
+demand is spilling into secondary                                                    32%                                                  32% 
+
+markets, stretching available capacity 4.                                                         Natural gas availability          Utility has given no written promise on delivery time 
+                                                                                     19%     23%        34%        76%                   32% 
+The Al boom is impacting sustainability                                                                                              Site layout issues (e.g., space, can't run distribution lines) 
+                                                                                                      Land availability                 27% 
+goals ... 5. Alternatives are emerging:                                               17% 
+                                                                                               30%       27%       74%              Not running into any challenges 
+                                                                                                                                       15% 
+62% of respondents reported exploring 
+                                                                                                     Public opposition              Utility does not enable sufficient renewable energy procurement 
+on-site power generation. With no                                                    16%     25%        33%        74%                 13% 
+                                                                                                                                    Not applicable / Don't know 
+slowdown in sight, data center operators                                                             Water availability               8% 
+                                                                                       21%    20%        32%       73% 
+are rethinking power procurement 
+                                                                         Extremely Significant Very Significant Somewhat Significant              Average number of responses given: 3.0 
+strategies" 
+Source: Report prepared on behalf of Schneider Electric.                                                                                                                          18 
+
+    | Obstacle / Specific Issue                                       | Extremely Significant (%) | Very Significant (%) | Somewhat Significant (%) | Total Significant (%) | Response Rate (%) |
+    |-----------------------------------------------------------------|---------------------------|----------------------|--------------------------|-----------------------|-------------------|
+    | Utility capacity or transmission constraints                    | 40                        | 33                   | 19                       | 92                    |                   |
+    | Permitting issues                                               | 26                        | 30                   | 30                       | 86                    |                   |
+    | Fiber availability                                              | 26                        | 33                   | 26                       | 85                    |                   |
+    | Access to computer chips                                        | 32                        | 34                   | 15                       | 81                    |                   |
+    | Natural gas availability                                        | 19                        | 23                   | 34                       | 76                    |                   |
+    | Land availability                                               | 17                        | 30                   | 27                       | 74                    |                   |
+    | Public opposition                                               | 16                        | 25                   | 33                       | 74                    |                   |
+    | Water availability                                              | 21                        | 20                   | 32                       | 73                    |                   |
+    | Utility quoted long wait time for more power                    |                           |                      |                          |                       | 46                |
+    | Utility quoted high cost for more power                         |                           |                      |                          |                       | 43                |
+    | Long lead time for on-site power generation equipment           |                           |                      |                          |                       | 42                |
+    | Utility power has unpredictable energy rates                    |                           |                      |                          |                       | 42                |
+    | Utility power reliability is inadequate                         |                           |                      |                          |                       | 32                |
+    | Utility has given no written promise on delivery time           |                           |                      |                          |                       | 32                |
+    | Site layout issues (e.g., space, can't run distribution lines)  |                           |                      |                          |                       | 27                |
+    | Not running into any challenges                                 |                           |                      |                          |                       | 15                |
+    | Utility does not enable sufficient renewable energy procurement |                           |                      |                          |                       | 13                |
+    | Not applicable / Don't know                                     |                           |                      |                          |                       | 8                 |
+
+    Summary: This chart presents survey findings from Schneider Electric, identifying the most significant obstacles to building more data centers and the key drivers behind the top concerns. The left panel details general obstacles, showing the breakdown of "Extremely," "Very," and "Somewhat Significant" responses, culminating in a "Total Significant" percentage. The right panel lists specific issues driving top concerns, with their respective response rates. The primary trend reveals that "Utility capacity or transmission constraints" are the overwhelmingly dominant obstacle, cited by 92% of respondents as significant. This is further elaborated by high percentages for "Utility quoted long wait time" (46%), "high cost" (43%), and "unpredictable energy rates" (42%), indicating power-related issues are paramount.
+
+    Explanation: This data contextualizes the "US Power Bottleneck" discussed on the preceding page, validating Morgan Stanley's view that grid access and power equipment are critical constraints. The survey results directly support the claim that "Grid constraints are the #1 barrier" and that "Longer lead times are the new normal," with 44% reporting utility wait times of 4+ years. This reinforces the challenge for data center operators in securing adequate and timely power, highlighting a fundamental impediment to sector growth.
+
+    | Obstacle | Extremely Significant | Very Significant | Somewhat Significant | Total Significant |
+    |---|---|---|---|---|
+    | Utility capacity or transmission constraints | 40% | 33% | 19% | 92% |
+    | Permitting issues | 26% | 30% | 30% | 86% |
+    | Fiber availability | 26% | 33% | 26% | 85% |
+    | Access to computer chips | 32% | 34% | 15% | 81% |
+    | Natural gas availability | 19% | 23% | 34% | 76% |
+    | Land availability | 17% | 30% | 27% | 74% |
+    | Public opposition | 16% | 25% | 33% | 74% |
+    | Water availability | 21% | 20% | 32% | 73% |
+
+    Summary: This chart, based on a Schneider Electric survey, illustrates the most significant obstacles to new data center projects. It is a stacked horizontal bar chart displaying percentages for "Extremely Significant," "Very Significant," and "Somewhat Significant" responses, culminating in a "Total Significant" percentage for each barrier. "Utility capacity or transmission constraints" stands out as the most critical issue, with 92% of respondents citing it as significant. Other major challenges include permitting issues (86%) and fiber availability (85%). All listed obstacles are deemed significant by over 70% of respondents, highlighting pervasive hurdles in data center development.
+
+    Explanation: The findings strongly support the "US Power Bottleneck" theme, emphasizing that grid constraints and long utility wait times are the primary impediments to data center expansion, especially given the unprecedented scale of new 100+ MW projects. This severe bottleneck, exacerbated by surging AI-driven demand, forces data center operators to reconsider power procurement and explore on-site generation alternatives, as conventional grid infrastructure struggles to keep pace.
+
+    | Obstacle                                                      | Percentage |
+    |---------------------------------------------------------------|------------|
+    | Utility quoted long wait time for more power                  | 46%        |
+    | Utility quoted high cost for more power                       | 43%        |
+    | Long lead time for on-site power generation equipment         | 42%        |
+    | Utility power has unpredictable energy rates                  | 42%        |
+    | Utility power reliability is inadequate                       | 32%        |
+    | Utility has given no written promise on delivery time         | 32%        |
+    | Site layout issues (e.g., space, can't run distribution lines)| 27%        |
+    | Not running into any challenges                               | 15%        |
+    | Utility does not enable sufficient renewable energy procurement| 13%        |
+    | Not applicable / Don't know                                   | 8%         |
+
+    Summary: This horizontal bar chart illustrates the most significant obstacles slowing down data center projects, based on a Schneider Electric survey. The x-axis implicitly represents the percentage of respondents, while the y-axis lists various challenges. The primary trend indicates that utility-related issues, specifically long wait times (46%) and high costs (43%) for power, are the most pressing concerns. Long lead times for on-site power generation equipment (42%) and unpredictable utility energy rates (42%) also feature prominently among the top challenges.
+
+    Explanation: The chart reinforces the findings of the Schneider Electric survey presented on the page, highlighting that "Grid constraints are the #1 barrier" to data center development. The data underscores that power supply and infrastructure issues are critical bottlenecks, contributing to longer lead times and higher costs for new data center projects, which is especially pertinent given the unprecedented scale of new builds (100+ MW) and the surging demand driven by AI.

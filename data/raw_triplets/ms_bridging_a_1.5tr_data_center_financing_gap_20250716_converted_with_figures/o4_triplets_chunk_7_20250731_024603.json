@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "DataCenterFinancing Table T4 – Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "type": "Table",
+      "brief": "Projected breakdown of $2.9tr data center capex 2025-2028",
+      "description": "Breakdown of global data center capex (ex. power) into internal cash flows, private credit, corporate debt, ABS & CMBS, and other capital",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category | Sub-Category/Source | Estimated Amount ($bn) |\n|---|---|---|\n| Cash Need | Total Global Capex on Data Centers (ex. Power) | 2,900 |\n| Financing Path | Hyperscaler Capex Funded with Cash Flows | 1,400 |\n| Financing Path | Corporate Debt | 200 |\n| Financing Path | ABS & CMBS | 150 |\n| Financing Path | Private Credit Opportunity | 800 |\n| Financing Path | Other Capital (PE, VC, Sovereign) | 350 |",
+        "key_insight": "Nearly half of the $2.9tr data center capex is funded by hyperscaler cash flows, with the remainder supplemented by private credit, corporate debt, ABS & CMBS, and other capital"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Global Capex CY25-CY28",
+      "type": "Metric",
+      "brief": "Total data center capex excluding power",
+      "description": "Estimated $2.9tr global capex on data centers from 2025 through 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2900,
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Hyperscaler Cash Flows CY25-CY28",
+      "type": "Metric",
+      "brief": "Capex funded by hyperscaler cash flows",
+      "description": "Estimated $1.4tr of data center capex funded internally from 2025 to 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 1400,
+        "as_of": "CY25-CY28"
+      }
+    },
+    {
+      "name": "DataCenterFinancing Private Credit Opportunity CY25-CY28",
+      "type": "Metric",
+      "brief": "Capex financed via private credit",
+      "description": "Estimated $800bn of data center capex financed through private credit from 2025 to 2028",
+      "properties": {
+        "unit": "USD bn",
+        "value": 800,
+        "as_of": "CY25-CY28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DataCenterFinancing Table T4 – Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Global Capex CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2900,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $2.9tr total data center capex need 2025-2028"
+    },
+    {
+      "source": "DataCenterFinancing Table T4 – Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Hyperscaler Cash Flows CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1400,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $1.4tr funded by hyperscaler cash flows 2025-2028"
+    },
+    {
+      "source": "DataCenterFinancing Table T4 – Estimated Financing Breakdown for Total Capex CY25-CY28",
+      "target": "DataCenterFinancing Private Credit Opportunity CY25-CY28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 800,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows $800bn financed via private credit 2025-2028"
+    }
+  ],
+  "scenarios": []
+}

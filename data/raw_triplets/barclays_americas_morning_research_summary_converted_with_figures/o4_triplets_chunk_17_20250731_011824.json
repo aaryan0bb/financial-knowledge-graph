@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "Barclays – Intuitive Surgical",
+      "type": "Company",
+      "brief": "Q2 sales and EPS results strong",
+      "description": "Intuitive Surgical delivered solid Q2 results driven by mix and margins, partly offset by volumes",
+      "properties": {
+        "ticker": "ISRG",
+        "sector": "Healthcare",
+        "market_cap_usdbn": 183.1517,
+        "rating_outlook": "Overweight",
+        "price_target_usd": 635.0
+      }
+    },
+    {
+      "name": "Barclays – ISRG Price",
+      "type": "Metric",
+      "brief": "Share price as of 22 Jul 2025",
+      "description": "Closing share price of ISRG on report date",
+      "properties": {
+        "unit": "USD",
+        "value": 511.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays – ISRG EPS FY1",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays estimate for FY1 EPS for ISRG",
+      "properties": {
+        "unit": "USD",
+        "value": 8.17,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Barclays – ISRG EPS FY2",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays estimate for FY2 EPS for ISRG",
+      "properties": {
+        "unit": "USD",
+        "value": 9.25,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Barclays – IQVIA",
+      "type": "Company",
+      "brief": "2Q'25 results strong in B2B segment",
+      "description": "IQVIA reported strong 2Q'25 results with robust B2B growth",
+      "properties": {
+        "ticker": "IQV",
+        "sector": "Healthcare",
+        "market_cap_usdbn": 32.4167,
+        "rating_outlook": "Equal Weight",
+        "price_target_usd": 185.0
+      }
+    },
+    {
+      "name": "Barclays – IQVIA Price",
+      "type": "Metric",
+      "brief": "Share price as of 22 Jul 2025",
+      "description": "Closing share price of IQVIA on report date",
+      "properties": {
+        "unit": "USD",
+        "value": 187.38,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "Barclays – IQVIA EPS FY1",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays estimate for FY1 EPS for IQVIA",
+      "properties": {
+        "unit": "USD",
+        "value": 11.82,
+        "as_of": "FY1(E)"
+      }
+    },
+    {
+      "name": "Barclays – IQVIA EPS FY2",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays estimate for FY2 EPS for IQVIA",
+      "properties": {
+        "unit": "USD",
+        "value": 13.24,
+        "as_of": "FY2(E)"
+      }
+    },
+    {
+      "name": "Barclays – IQVIA B2B Ratio 2Q'25",
+      "type": "Metric",
+      "brief": "2Q'25 B2B segment multiple",
+      "description": "B2B segment performance ratio for IQVIA in 2Q'25",
+      "properties": {
+        "unit": "ratio",
+        "value": 1.12,
+        "as_of": "2Q'25"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

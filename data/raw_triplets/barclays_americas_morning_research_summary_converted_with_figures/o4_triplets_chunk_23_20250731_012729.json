@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "Cummins Inc.",
+      "type": "Company",
+      "brief": "Manufacturer of diesel and natural gas engines",
+      "description": "Supplies mining engines and power systems, impacted by sanctions and supplier shifts.",
+      "properties": {
+        "ticker": "CMI",
+        "sector": "U.S. Machinery & Construction",
+        "market_cap_USDbn": 49.2129,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "D.R. Horton Inc.",
+      "type": "Company",
+      "brief": "U.S. homebuilding company",
+      "description": "Homebuilder with recently stagnant forward estimates despite stock rally.",
+      "properties": {
+        "ticker": "DHI",
+        "sector": "U.S. Homebuilding & Building Products",
+        "market_cap_USDbn": 47.1523,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "CMI Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Cummins",
+      "description": "Barclays sets price target on CMI at USD 387",
+      "properties": {
+        "unit": "USD",
+        "value": 387.0,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "CMI Share Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "Share price on reporting date",
+      "description": "Closing share price for CMI on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 357.25,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "CMI EPS FY1E",
+      "type": "Metric",
+      "brief": "Next fiscal year EPS forecast",
+      "description": "Barclays projects CMI EPS for FY1 at USD 21.47",
+      "properties": {
+        "unit": "USD",
+        "value": 21.47,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "CMI EPS FY2E",
+      "type": "Metric",
+      "brief": "Second-year EPS forecast",
+      "description": "Barclays projects CMI EPS for FY2 at USD 23.56",
+      "properties": {
+        "unit": "USD",
+        "value": 23.56,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "DHI Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for DHI",
+      "description": "Barclays sets price target on DHI at USD 110",
+      "properties": {
+        "unit": "USD",
+        "value": 110.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "DHI Share Price (22 Jul 2025)",
+      "type": "Metric",
+      "brief": "Share price on reporting date",
+      "description": "Closing share price for DHI on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 153.5,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "DHI EPS FY1E",
+      "type": "Metric",
+      "brief": "Next fiscal year EPS forecast",
+      "description": "Barclays projects DHI EPS for FY1 at USD 11.84",
+      "properties": {
+        "unit": "USD",
+        "value": 11.84,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "DHI EPS FY2E",
+      "type": "Metric",
+      "brief": "Second-year EPS forecast",
+      "description": "Barclays projects DHI EPS for FY2 at USD 11.23",
+      "properties": {
+        "unit": "USD",
+        "value": 11.23,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "CMI Belarus sanctions",
+      "type": "Event",
+      "brief": "Sanctions by Belarus end Cummins sales to Belaz",
+      "description": "Belarus-imposed sanctions halted CMI equipment sales to Belaz.",
+      "properties": {
+        "date": null,
+        "event_type": "sanctions",
+        "affected_tickers": [
+          "CMI"
+        ],
+        "region": "Belarus"
+      }
+    },
+    {
+      "name": "CMI equipment sales to Belaz",
+      "type": "Factor",
+      "brief": "Cummins engine sales to Belaz",
+      "description": "Sales of Cummins equipment to Belaz declined after sanctions.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "CMI Weichai equipment sales to Belaz",
+      "type": "Factor",
+      "brief": "Weichai becomes primary Belaz supplier",
+      "description": "Weichai replaced Cummins as primary equipment supplier to Belaz.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "CMI power-systems margins",
+      "type": "Factor",
+      "brief": "Margins on CMI power systems",
+      "description": "Cummins power-systems margins improved amid supplier shift and mix effects.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DHI stock price increase",
+      "type": "Factor",
+      "brief": "DHI share price jump",
+      "description": "DHI shares rose 17% on the reporting day while S&P was flat.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17
+      }
+    },
+    {
+      "name": "DHI ROTE",
+      "type": "Factor",
+      "brief": "Return on tangible equity",
+      "description": "ROTE declines to low-teens in 2026 projections.",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CMI Belarus sanctions",
+      "target": "CMI equipment sales to Belaz",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Belarus sanctions caused CMI sales to Belaz to end"
+    },
+    {
+      "source": "CMI equipment sales to Belaz",
+      "target": "CMI Weichai equipment sales to Belaz",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decline in CMI sales to Belaz led Weichai to become the primary supplier"
+    },
+    {
+      "source": "CMI Weichai equipment sales to Belaz",
+      "target": "CMI power-systems margins",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weichai supply shift contributed to improved power-systems margins at CMI"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "CMI Belarus sanctions",
+      "probability": 0.9,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "CMI Belarus sanctions",
+          "target": "CMI equipment sales to Belaz",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "CMI equipment sales to Belaz",
+          "target": "CMI Weichai equipment sales to Belaz",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 3,
+          "edge_type": "CAUSES",
+          "source": "CMI Weichai equipment sales to Belaz",
+          "target": "CMI power-systems margins",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

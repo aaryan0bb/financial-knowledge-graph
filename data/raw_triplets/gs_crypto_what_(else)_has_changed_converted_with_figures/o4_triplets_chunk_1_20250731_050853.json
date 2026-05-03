@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "Crypto Market – Bitcoin",
+      "type": "Instrument",
+      "brief": "Leading cryptocurrency asset",
+      "description": "Largest digital asset by market cap, significant market barometer",
+      "properties": {
+        "ticker": "BTCUSD"
+      }
+    },
+    {
+      "name": "Crypto Market – Ethereum",
+      "type": "Instrument",
+      "brief": "Smart contract platform token",
+      "description": "Second largest cryptocurrency by market cap, subject to recent outperformance",
+      "properties": {
+        "ticker": "ETHUSD"
+      }
+    },
+    {
+      "name": "Crypto Market – Bitcoin price retracement",
+      "type": "Event",
+      "brief": "Retracement from all-time high to recent low",
+      "description": "Bitcoin retraced from $123,200 ATH to $114,800 low on 25 July 2025",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "price_retracement",
+        "impact_value": -8400,
+        "unit": "USD",
+        "affected_tickers": [
+          "BTCUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market – Ethereum price surge in July 2025",
+      "type": "Event",
+      "brief": "50% price increase in July",
+      "description": "Ethereum rallied 50% in July 2025",
+      "properties": {
+        "date": null,
+        "event_type": "price_surge",
+        "impact_value": 50,
+        "unit": "%",
+        "affected_tickers": [
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market – Ethereum CME futures annualised premium",
+      "type": "Factor",
+      "brief": "Annualised premium of ETH futures over spot",
+      "description": "ETH CME futures annualised premium has traded above 10%, surpassing Bitcoin",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 10
+      }
+    },
+    {
+      "name": "Crypto Market – Basis rotation out of Bitcoin into Ethereum",
+      "type": "Event",
+      "brief": "Rotation of basis positions",
+      "description": "Shift of basis positions out of Bitcoin and into Ethereum",
+      "properties": {
+        "date": null,
+        "event_type": "basis_rotation",
+        "affected_tickers": [
+          "BTCUSD",
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Crypto Market – Institutional Ethereum purchases",
+      "type": "Event",
+      "brief": "US companies accumulation of ETH reserves",
+      "description": "Publicly traded US companies bought over $1.5bn of ETH in the last month",
+      "properties": {
+        "date": null,
+        "event_type": "purchase",
+        "amount": 1.5,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "ETHUSD"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 – Crypto Market – Daily Price Movements of Bitcoin and Ethereum",
+      "type": "Table",
+      "brief": "Daily BTC and ETH spot prices",
+      "description": "Time series of daily Bitcoin and Ethereum spot prices from Jan 1 to Jul 25, 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date         | BTCUSD Price | ETHUSD Price |\n|--------------|--------------|--------------|\n| Jan 01, 2025 | $93,000      | $3,100       |\n| Jan 15, 2025 | $102,000     | $3,000       |\n| Feb 01, 2025 | $118,000     | $3,600       |\n| Feb 15, 2025 | $90,000      | $2,500       |\n| Mar 01, 2025 | $80,000      | $2,500       |\n| Mar 15, 2025 | $85,000      | $2,600       |\n| Apr 01, 2025 | $78,000      | $2,200       |\n| Apr 15, 2025 | $75,000      | $2,000       |\n| May 01, 2025 | $100,000     | $3,000       |\n| May 15, 2025 | $110,000     | $3,500       |\n| Jun 01, 2025 | $105,000     | $3,300       |\n| Jun 15, 2025 | $100,000     | $3,000       |\n| Jul 01, 2025 | $115,000     | $3,600       |\n| Jul 15, 2025 | $123,000     | $3,800       |\n| Jul 25, 2025 | $116,500     | $3,700       |",
+        "key_insight": "Ethereum showed a more rapid and sustained ascent since April, culminating in a strong July surge to around $3,800, compared to Bitcoin's mid-July peak near $123,000 before retracing."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Crypto Market – Daily Price Movements of Bitcoin and Ethereum",
+      "target": "Crypto Market – Ethereum price surge in July 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table shows Ethereum gained 50% in July"
+    },
+    {
+      "source": "Crypto Market – Ethereum CME futures annualised premium",
+      "target": "Crypto Market – Basis rotation out of Bitcoin into Ethereum",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Higher ETH futures premium triggers basis rotation"
+    },
+    {
+      "source": "Crypto Market – Institutional Ethereum purchases",
+      "target": "Crypto Market – Ethereum",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Institutional purchases boost Ethereum demand"
+    }
+  ],
+  "scenarios": []
+}

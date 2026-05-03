@@ -1,0 +1,49 @@
+Morgan Stanley                                                                                  July 24, 2025 
+
+Hyperscaler cash flow and tax benefits from the OBBBA 
+
+                                                                        2025E    2026E   2027E    2028E 
+ Amazon: Largest Beneficiary with a 
+                                                        AMZN 
+                                                        Current FCF    30,209   48,046 61,519    83,820 
+ ~30% (~$15bn) Lift to '26 FCF 
+                                                        OBBBA Impact   14,873   14,636   14,539 11,325 
+                                                        FCF after OBBBA 45,083 62,682   76,058   95,146 
+                                                        % change         49%      30%     24%      14% 
+ Meta: Potential ~$8-10bn Tailwind to 
+                                                        GOOGL 
+  META FCF in Medium Term                               Current FCF    78,821   85,520   95,658 108,517 
+                                                        OBBBA Impact   24,724    4,170   6,047    5,372 
+                                                        FCF after OBBBA 103,545 89,690 101,705 113,888 
+  Google: Biggest Near-Term                             % change         31%       5%      6%       5% 
+
+ Beneficiary with $25bn Tailwind in                     META 
+                                                        Current FCF    44,872   47,429   56,538 70,439 
+ 2025, With Long-Term Tailwinds of $4-                  OBBBA Impact    9,893   10,351   10,149   8,140 
+                                                        FCF after OBBBA 54,765 57,780   66,687   78,579 
+ $6bn; beyond 2025, we see a $4bn-                      % change         22%      22%     18%      12% 
+
+ $6bn benefit to GOOGL (~5-6% uplift                    Source: Morgan Stanley Research estimates 
+
+ to FCF) 
+
+                                                                                                           33 
+
+    | Company | Metric          | 2025E  | 2026E  | 2027E  | 2028E  |
+    |---------|-----------------|--------|--------|--------|--------|
+    | AMZN    | Current FCF     | 30,209 | 48,046 | 61,519 | 83,820 |
+    |         | OBBBA Impact    | 14,873 | 14,636 | 14,539 | 11,325 |
+    |         | FCF after OBBBA | 45,083 | 62,682 | 76,058 | 95,146 |
+    |         | % change        | 49%    | 30%    | 24%    | 14%    |
+    | GOOGL   | Current FCF     | 78,821 | 85,520 | 95,658 | 108,517|
+    |         | OBBBA Impact    | 24,724 | 4,170  | 6,047  | 5,372  |
+    |         | FCF after OBBBA | 103,545| 89,690 | 101,705| 113,888|
+    |         | % change        | 31%    | 5%     | 6%     | 5%     |
+    | META    | Current FCF     | 44,872 | 47,429 | 56,538 | 70,439 |
+    |         | OBBBA Impact    | 9,893  | 10,351 | 10,149 | 8,140  |
+    |         | FCF after OBBBA | 54,765 | 57,780 | 66,687 | 78,579 |
+    |         | % change        | 22%    | 22%    | 18%    | 12%    |
+
+    Summary: The chart presents the projected Free Cash Flow (FCF) for Amazon (AMZN), Google (GOOGL), and Meta (META) from 2025 to 2028, specifically quantifying the "OBBBA Impact." It details "Current FCF," the "OBBBA Impact," "FCF after OBBBA," and the resulting "% change" for each company annually. A dominant trend is the substantial positive financial tailwind from OBBBA for all three hyperscalers. Google is poised for the largest near-term FCF boost, experiencing a 31% increase in 2025 due to a $24.7 billion OBBBA impact, though this percentage impact sharply declines in subsequent years. Amazon shows a robust FCF uplift, starting with a 49% increase in 2025 and gradually moderating to 14% by 2028, while Meta's FCF impact remains relatively consistent, ranging from 12% to 22% across the forecast period.
+
+    Explanation: This analysis highlights the significant financial advantages, particularly through tax benefits and enhanced cash flow, that major technology companies are expected to gain from the OBBBA legislation or policy. These quantified tailwinds demonstrate a material impact on their future Free Cash Flow, positioning these hyperscalers as key beneficiaries of the OBBBA and contributing positively to their financial outlook over the medium term.

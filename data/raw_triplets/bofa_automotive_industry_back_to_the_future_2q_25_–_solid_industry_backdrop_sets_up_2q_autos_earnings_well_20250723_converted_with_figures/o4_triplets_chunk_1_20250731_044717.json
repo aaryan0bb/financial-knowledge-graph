@@ -1,0 +1,408 @@
+{
+  "entities": [
+    {
+      "name": "Automotive Industry - ADNT",
+      "type": "Company",
+      "brief": "Tier-1 automotive supplier impacted by tariffs",
+      "description": "ADNT faces lower China tariff impact due to rate reduction",
+      "properties": {
+        "ticker": "ADNT",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - AXL",
+      "type": "Company",
+      "brief": "Coating supplier with exposure to GM platform T1XX",
+      "description": "Axalta may face impacts from decreased T1XX production",
+      "properties": {
+        "ticker": "AXL",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - APTV",
+      "type": "Company",
+      "brief": "Technology supplier for vehicle segments",
+      "description": "Aptiv's AS&UX segment may surprise given Mobileye results",
+      "properties": {
+        "ticker": "APTV",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - MBLY",
+      "type": "Company",
+      "brief": "Advanced vision supplier with strong preliminary sales growth",
+      "description": "Mobileye released preliminary Q2 results showing strong growth",
+      "properties": {
+        "ticker": "MBLY",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN",
+      "type": "Company",
+      "brief": "Electric vehicle manufacturer with recent capital injection",
+      "description": "Rivian received a $1bn capital injection from VW in Q2 2025",
+      "properties": {
+        "ticker": "RIVN",
+        "sector": "Car Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID",
+      "type": "Company",
+      "brief": "Electric luxury car maker awaiting demand post-IRA",
+      "description": "Lucid deliveries down 6% YOY; may receive $300m from Uber",
+      "properties": {
+        "ticker": "LCID",
+        "sector": "Car Manufacturers"
+      }
+    },
+    {
+      "name": "Automotive Industry - LEA",
+      "type": "Company",
+      "brief": "Auto seating supplier with raised price objective",
+      "description": "Price objective raised to $135 from $115 reflecting valuation shift",
+      "properties": {
+        "ticker": "LEA",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - VC",
+      "type": "Company",
+      "brief": "Auto parts supplier with increased valuation",
+      "description": "Visteon's PO raised to $130 from $110 on valuation year shift",
+      "properties": {
+        "ticker": "VC",
+        "sector": "Suppliers"
+      }
+    },
+    {
+      "name": "Automotive Industry - GPI",
+      "type": "Company",
+      "brief": "Auto parts dealer group with revised forecasts",
+      "description": "GPI's PO lowered to $560 from $565 reflecting trimmed EPS estimates",
+      "properties": {
+        "ticker": "GPI",
+        "sector": "Dealers"
+      }
+    },
+    {
+      "name": "Automotive Industry - MBLY Preliminary Results Release",
+      "type": "Event",
+      "brief": "Mobileye preliminary Q2 results released",
+      "description": "MBLY released preliminary Q2 sales growth results",
+      "properties": {
+        "date": null,
+        "event_type": "preliminary_results",
+        "affected_tickers": [
+          "APTV"
+        ]
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN Capital Injection",
+      "type": "Event",
+      "brief": "VW invests $1bn in Rivian",
+      "description": "Rivian received $1bn from VW at the end of Q2 2025",
+      "properties": {
+        "date": null,
+        "event_type": "capital_injection",
+        "impact_value": 1,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID Potential Capital Injection",
+      "type": "Event",
+      "brief": "Uber may inject $300m into Lucid",
+      "description": "Lucid could receive $300m from Uber post Q2",
+      "properties": {
+        "date": null,
+        "event_type": "capital_injection",
+        "impact_value": 0.3,
+        "unit": "USD bn"
+      }
+    },
+    {
+      "name": "Automotive Industry - MY26 Vehicles Introduction",
+      "type": "Event",
+      "brief": "Launch of model year 2026 vehicles",
+      "description": "Potential introduction of MY26 vehicles in the market",
+      "properties": {
+        "date": null,
+        "event_type": "vehicle_model_launch"
+      }
+    },
+    {
+      "name": "Automotive Industry - IRA Incentives Phase-Out",
+      "type": "Event",
+      "brief": "Expiration of IRA electric vehicle incentives",
+      "description": "Post IRA incentives phase-out may affect EV demand",
+      "properties": {
+        "date": null,
+        "event_type": "policy_phase_out"
+      }
+    },
+    {
+      "name": "Automotive Industry - China Tariffs",
+      "type": "Factor",
+      "brief": "Tariffs on Chinese goods",
+      "description": "Tariff announcements created initial industry concerns",
+      "properties": {
+        "direction": "down",
+        "driver": "tariffs"
+      }
+    },
+    {
+      "name": "Automotive Industry - Demand Pull-Forward",
+      "type": "Factor",
+      "brief": "Pull-forward of automotive demand",
+      "description": "Demand pull-forward likely drove early sales",
+      "properties": {
+        "direction": "up",
+        "driver": "demand pull-forward"
+      }
+    },
+    {
+      "name": "Automotive Industry - Lower OEM Incentives",
+      "type": "Factor",
+      "brief": "Slight reduction in OEM incentives",
+      "description": "OEMs offered slightly lower incentives in Q2 2025",
+      "properties": {
+        "direction": "down",
+        "driver": "incentives"
+      }
+    },
+    {
+      "name": "Automotive Industry - Favorable FX in Q2 2025",
+      "type": "Factor",
+      "brief": "Beneficial foreign exchange rates in Q2",
+      "description": "Suppliers may benefit from favorable FX in 2Q25",
+      "properties": {
+        "direction": "up",
+        "driver": "FX"
+      }
+    },
+    {
+      "name": "Automotive Industry - Pricing Stability",
+      "type": "Factor",
+      "brief": "Minimal OEM price increases",
+      "description": "Despite tariffs, OEM pricing remained largely unchanged",
+      "properties": {
+        "direction": "neutral",
+        "driver": "pricing"
+      }
+    },
+    {
+      "name": "Automotive Industry - Price Increases Potential",
+      "type": "Factor",
+      "brief": "Potential OEM price increases",
+      "description": "MY26 vehicles introduction could lead to higher OEM prices",
+      "properties": {
+        "direction": "up",
+        "driver": "pricing"
+      }
+    },
+    {
+      "name": "Automotive Industry - APTV AS&UX Upside Surprise Potential",
+      "type": "Factor",
+      "brief": "Upside surprise potential for AS&UX segment",
+      "description": "APTV's AS&UX segment may surprise positively given MBLY results",
+      "properties": {
+        "direction": "up",
+        "driver": "sales growth"
+      }
+    },
+    {
+      "name": "Automotive Industry - Potential Brand Shortages",
+      "type": "Factor",
+      "brief": "Possible inventory shortages for some brands",
+      "description": "Specific brand shortages may occur with MY26 introductions",
+      "properties": {
+        "driver": "inventory shortages"
+      }
+    },
+    {
+      "name": "Automotive Industry - LVP Forecast NAm Q2 2025",
+      "type": "Metric",
+      "brief": "North America light vehicle production",
+      "description": "North American LVP were roughly 4m units in Q2 2025",
+      "properties": {
+        "value": 4,
+        "unit": "million units",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - Sales YOY Growth Q2 2025",
+      "type": "Metric",
+      "brief": "Year-over-year sales growth",
+      "description": "Industry sales grew about 3% YOY in Q2 2025",
+      "properties": {
+        "value": 3,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - GM T1XX Production YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in T1XX platform output",
+      "description": "GM platform T1XX production declined 8% YOY in Q2 2025",
+      "properties": {
+        "value": -8,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - LCID Deliveries YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in Lucid deliveries",
+      "description": "LCID deliveries declined 6% YOY in Q2 2025",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - RIVN Deliveries YOY Change Q2 2025",
+      "type": "Metric",
+      "brief": "Change in Rivian deliveries",
+      "description": "Rivian deliveries fell 3% YOY in Q2 2025",
+      "properties": {
+        "value": -3,
+        "unit": "%",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - LVP Estimate Q3 2025",
+      "type": "Metric",
+      "brief": "Light vehicle production estimate for Q3",
+      "description": "LVP estimates for Q3 2025 are around 3.78m units",
+      "properties": {
+        "value": 3.78,
+        "unit": "million units",
+        "as_of": "3Q25"
+      }
+    },
+    {
+      "name": "Automotive Industry - Industry Production YoY Change Q4 2025",
+      "type": "Metric",
+      "brief": "Forecasted production decline YoY",
+      "description": "Industry production is expected to fall 7% YoY in Q4 2025",
+      "properties": {
+        "value": -7,
+        "unit": "%",
+        "as_of": "4Q25"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Automotive Industry - Demand Pull-Forward",
+      "target": "Automotive Industry - Sales YOY Growth Q2 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Demand pull-forward drove ~3% YOY sales growth in Q225"
+    },
+    {
+      "source": "Automotive Industry - GM T1XX Production YOY Change Q2 2025",
+      "target": "Automotive Industry - AXL",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": -8,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "8% YOY decline in GM T1XX production impacts Axalta"
+    },
+    {
+      "source": "Automotive Industry - MBLY Preliminary Results Release",
+      "target": "Automotive Industry - APTV AS&UX Upside Surprise Potential",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "MBLY preliminary results trigger APTV AS&UX segment upside surprise"
+    },
+    {
+      "source": "Automotive Industry - RIVN Capital Injection",
+      "target": "Automotive Industry - RIVN",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 1,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "VW’s $1bn injection strengthens Rivian"
+    },
+    {
+      "source": "Automotive Industry - LCID Potential Capital Injection",
+      "target": "Automotive Industry - LCID",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": 0.3,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Uber’s potential $300m injection could boost Lucid"
+    },
+    {
+      "source": "Automotive Industry - MY26 Vehicles Introduction",
+      "target": "Automotive Industry - Price Increases Potential",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "MY26 introduction could cause higher OEM prices"
+    },
+    {
+      "source": "Automotive Industry - China Tariffs",
+      "target": "Automotive Industry - Industry Production YoY Change Q4 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": -7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Tariffs expected to bite, reducing Q4 production by 7% YoY"
+    }
+  ],
+  "scenarios": []
+}

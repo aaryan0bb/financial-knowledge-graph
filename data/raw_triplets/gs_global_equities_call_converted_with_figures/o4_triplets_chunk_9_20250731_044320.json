@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "US Equity Market Speculative Trading Activity",
+      "type": "Factor",
+      "brief": "Spike in trades of unprofitable and high-multiple stocks",
+      "description": "Increased speculative trading volumes marked by heightened activity in unprofitable and high-multiple US stocks, echoing past market extremes and posing volatility risks.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – US Equity Market Key Financial Data for 12 Companies",
+      "type": "Table",
+      "brief": "Earnings watch metrics for 12 companies reporting on July 25, 2025",
+      "description": "Summarizes price, market cap, implied move, positioning score, and YTD performance for 12 companies across sectors ahead of July 25, 2025 earnings.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Ticker | Sector | Price | Market Cap ($M) | Next Report Date | Report Time | Implied Move | Positioning Score** | YTD |\n|--------|------------------|------------|-----------------|------------------|--------------|--------------|--------------------|-----------|\n| BAH    | Industrials      | $109.33    | $13,566M        | 7/25/2025        | Before Open  | 6.8%         | 3                  | -15.05%   |\n| SAIA   | Industrials      | $288.10    | $7,673M         | 7/25/2025        | Before Open  | 11.7%        | 4                  | -36.78%   |\n| LEA    | Industrials      | $104.00    | $5,560M        | 7/25/2025        | Before Open  | 1.9%         | 5                  | 9.82%     |\n| GNTX   | Industrials      | $22.94     | $5,157M        | 7/25/2025        | Before Open  | 3.5%         | 3                  | -20.15%   |\n| WNC    | Industrials      | $9.69      | $406M         | 7/25/2025        | Before Open  | 7.4%         | 2                  | -43.43%   |\n| PSX    | Energy/Utilities | $125.90    | $51,296M       | 7/25/2025        | Before Open  | 2.9%         | 3                  | 10.51%    |\n| POR    | Energy/Utilities | $40.02     | $4,383M        | 7/25/2025        | Before Open  | 3.6%         | 5                  | -8.25%    |\n| FCNCA  | Financials       | $2,123.59  | $27,845M       | 7/25/2025        | Before Open  | 6.0%         | 3                  | 0.50%     |\n| AON    | Financials       | $356.11    | $76,898M       | 7/25/2025        | Before Open  | 3.4%         | 4                  | -0.85%    |\n| CNC    | Healthcare       | $27.95     | $13,908M       | 7/25/2025        | Before Open  | 7.7%         | 2                  | -53.86%   |\n| HCA    | Healthcare       | $361.12    | $86,876M       | 7/25/2025        | Before Open  | 4.4%         | 7                  | 20.31%    |\n| CHTR   | TMT              | $382.08    | $58,496M       | 7/25/2025        | Before Open  | 7.4%         | 3                  | 11.47%    |",
+        "key_insight": "Implied moves span 1.9% to 11.7%, while YTD performance ranges from -53.86% (CNC) to +20.31% (HCA)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Equity Market Key Financial Data for 12 Companies",
+      "target": "US Equity Market Speculative Trading Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Earnings watch data informs view on speculative trading activity."
+    }
+  ],
+  "scenarios": []
+}

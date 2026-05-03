@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "Industrials – Canadian National Railway",
+      "type": "Company",
+      "brief": "North America Transportation company",
+      "description": "Operates freight rail networks in North America",
+      "properties": {
+        "ticker": "CNI",
+        "sector": "Transportation"
+      }
+    },
+    {
+      "name": "Industrials – American Airlines",
+      "type": "Company",
+      "brief": "Major US domestic airline",
+      "description": "Operates domestic passenger services in the US",
+      "properties": {
+        "ticker": "AAL",
+        "sector": "Airlines"
+      }
+    },
+    {
+      "name": "Industrials – Delta Air Lines",
+      "type": "Company",
+      "brief": "Major US domestic airline",
+      "description": "Operates domestic passenger services in the US",
+      "properties": {
+        "ticker": "DAL",
+        "sector": "Airlines"
+      }
+    },
+    {
+      "name": "Industrials – 2026 Targets Withdrawal",
+      "type": "Event",
+      "brief": "Withdrawal of 2026 targets for CNI",
+      "description": "Company withdrew its 2026 financial targets",
+      "properties": {
+        "date": null,
+        "event_type": "targets_withdrawn"
+      }
+    },
+    {
+      "name": "Industrials – 2025 Earnings Guidance Reduction",
+      "type": "Event",
+      "brief": "Reduction of 2025 earnings guidance for CNI",
+      "description": "Company reduced its earnings guidance for 2025",
+      "properties": {
+        "date": null,
+        "event_type": "guidance_reduction"
+      }
+    },
+    {
+      "name": "Industrials – Weaker than Expected Q2 Results",
+      "type": "Factor",
+      "brief": "Slight underperformance in Q2 results",
+      "description": "Second quarter results were slightly weaker than analyst expectations",
+      "properties": {
+        "direction": "down",
+        "driver": "earnings"
+      }
+    },
+    {
+      "name": "Industrials – Q3 2025 Domestic US Capacity Growth",
+      "type": "Metric",
+      "brief": "Domestic US capacity growth in Q3 2025",
+      "description": "Domestic US capacity growth remained unchanged week-on-week",
+      "properties": {
+        "unit": "%",
+        "as_of": "3Q25",
+        "value": 0.2
+      }
+    },
+    {
+      "name": "Industrials – Q4 2025 Domestic US Capacity Growth",
+      "type": "Metric",
+      "brief": "Domestic US capacity growth in Q4 2025 forecast",
+      "description": "Domestic US capacity growth increased by 1pt to 3.4%",
+      "properties": {
+        "unit": "%",
+        "as_of": "4Q25",
+        "value": 3.4
+      }
+    },
+    {
+      "name": "Industrials – Q4 2025 Expected Domestic Capacity Reduction",
+      "type": "Factor",
+      "brief": "Likely reduction in domestic Q4 capacity",
+      "description": "American and Delta likely to reduce domestic Q4 capacity over coming months",
+      "properties": {
+        "direction": "down",
+        "driver": "capacity"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Industrials – 2026 Targets Withdrawal",
+      "target": "Industrials – Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "2026 targets withdrawal will weigh on CN shares"
+    },
+    {
+      "source": "Industrials – 2025 Earnings Guidance Reduction",
+      "target": "Industrials – Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Reduced 2025 earnings guidance will weigh on CN shares"
+    },
+    {
+      "source": "Industrials – Weaker than Expected Q2 Results",
+      "target": "Industrials – Canadian National Railway",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 1,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Weaker-than-expected Q2 results will weigh on CN shares"
+    },
+    {
+      "source": "Industrials – Q4 2025 Expected Domestic Capacity Reduction",
+      "target": "Industrials – American Airlines",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "American Airlines likely to reduce domestic Q4 capacity"
+    },
+    {
+      "source": "Industrials – Q4 2025 Expected Domestic Capacity Reduction",
+      "target": "Industrials – Delta Air Lines",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Delta Air Lines likely to reduce domestic Q4 capacity"
+    }
+  ],
+  "scenarios": []
+}

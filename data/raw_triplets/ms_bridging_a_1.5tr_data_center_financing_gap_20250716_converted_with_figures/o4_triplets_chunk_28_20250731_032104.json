@@ -1,0 +1,215 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "type": "Table",
+      "brief": "Forecast of securitized issuance vs DC capacity",
+      "description": "Projection of total data center securitized issuance and new US DC capacity from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total Securitized Issuance ($bn) | US New Installed DC Capacity (GW) |\n|------|----------------------------------|-----------------------------------|\n| 2025 | 17                               | 11                                |\n| 2026 | 27                               | 16                                |\n| 2027 | 44                               | 20                                |\n| 2028 | 62                               | 22                                |",
+        "key_insight": "Total securitized issuance is forecast to increase from $17 bn in 2025 to $62 bn in 2028, while US DC capacity nearly doubles from 11 GW to 22 GW"
+      }
+    },
+    {
+      "name": "Data Center Securitization – Total Securitized Issuance",
+      "type": "Metric",
+      "brief": "Forecasted total securitized issuance in 2028",
+      "description": "Forecast total securitized credit issuance in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 62
+      }
+    },
+    {
+      "name": "Data Center Securitization – US New Installed DC Capacity",
+      "type": "Metric",
+      "brief": "Forecasted US new DC capacity in 2028",
+      "description": "Forecast US data center capacity installed in 2028",
+      "properties": {
+        "unit": "GW",
+        "as_of": "2028",
+        "value": 22
+      }
+    },
+    {
+      "name": "Table T2 – Data Center Securitization Securitized Capacity vs Global Ambition",
+      "type": "Table",
+      "brief": "Comparison of securitized vs planned capacity",
+      "description": "Estimated securitized capacity by ABS and CMBS compared to announced global ambition for leading issuers",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Issuer   | Est. Securitized Capacity by ABS (MW) | Est. Securitized Capacity by CMBS (MW) | Total Securitized Capacity (MW) | Announced Capacity Remaining (MW) | Total Global Capacity Ambition (MW) |\n|----------|---------------------------------------|----------------------------------------|---------------------------------|-----------------------------------|------------------------------------|\n| Aligned  | 250                                   | 10                                     | 260                             | 4740                              | 5000                               |\n| Stack    | 80                                    | 20                                     | 100                             | 3900                              | 4000                               |\n| Vantage  | 600                                   | 10                                     | 610                             | 1390                              | 2000                               |\n| Switch   | 150                                   | 80                                     | 230                             | 1770                              | 2000                               |\n| CyrusOne | 200                                   | 20                                     | 220                             | 780                               | 1000                               |",
+        "key_insight": "Leading issuers have securitized just around 10% of planned capacity, leaving the vast majority unsecuritized"
+      }
+    },
+    {
+      "name": "Data Center Securitization – Securitized Share of Planned Capacity",
+      "type": "Metric",
+      "brief": "Share of planned capacity securitized",
+      "description": "Proportion of issuers' planned global data center capacity that has been securitized to date",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "value": 10
+      }
+    },
+    {
+      "name": "Data Center Securitization – Vantage ABS Securitized Capacity",
+      "type": "Metric",
+      "brief": "Vantage's ABS securitized capacity",
+      "description": "Estimated capacity by ABS securitization for Vantage",
+      "properties": {
+        "unit": "MW",
+        "as_of": "2025-06-30",
+        "value": 600
+      }
+    },
+    {
+      "name": "Data Center Securitization – Aligned Total Global Capacity Ambition",
+      "type": "Metric",
+      "brief": "Aligned's global capacity ambition",
+      "description": "Announced total global capacity ambition for Aligned",
+      "properties": {
+        "unit": "MW",
+        "as_of": "2025-06-30",
+        "value": 5000
+      }
+    },
+    {
+      "name": "Table T3 – Data Center Securitization Estimated Annual Issuance Projection",
+      "type": "Table",
+      "brief": "Projected ABS and CMBS issuance",
+      "description": "Forecast of ABS, CMBS, and total securitized issuance for data centers from 2025 to 2028",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |\n|------|--------------------|---------------------|----------------------|\n| 2025 | $10                | $7                  | $17                  |\n| 2026 | $14                | $13                 | $27                  |\n| 2027 | $25                | $19                 | $44                  |\n| 2028 | $37                | $25                 | $62                  |",
+        "key_insight": "Annual issuance is set to rise from $17 bn in 2025 to $62 bn in 2028, with ABS as the largest component"
+      }
+    },
+    {
+      "name": "Data Center Securitization – ABS Issuance",
+      "type": "Metric",
+      "brief": "Forecasted ABS issuance in 2028",
+      "description": "Projected ABS issuance for data center securitization in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 37
+      }
+    },
+    {
+      "name": "Data Center Securitization – CMBS Issuance",
+      "type": "Metric",
+      "brief": "Forecasted CMBS issuance in 2028",
+      "description": "Projected CMBS issuance for data center securitization in 2028",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "2028",
+        "value": 25
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "target": "Data Center Securitization – Total Securitized Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 62,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Forecast issuance increases to $62 bn by 2028"
+    },
+    {
+      "source": "Table T1 – Data Center Securitization Total Securitized Issuance and Capacity Forecast",
+      "target": "Data Center Securitization – US New Installed DC Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 22,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Forecast capacity rises to 22 GW by 2028"
+    },
+    {
+      "source": "Table T2 – Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization – Securitized Share of Planned Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Issuers have securitized just around 10% of planned capacity"
+    },
+    {
+      "source": "Table T2 – Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization – Vantage ABS Securitized Capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 600,
+        "unit": "MW",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Vantage has approx. 600 MW securitized via ABS"
+    },
+    {
+      "source": "Table T2 – Data Center Securitization Securitized Capacity vs Global Ambition",
+      "target": "Data Center Securitization – Aligned Total Global Capacity Ambition",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 5000,
+        "unit": "MW",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Aligned has announced global capacity ambition of ~5000 MW"
+    },
+    {
+      "source": "Table T3 – Data Center Securitization Estimated Annual Issuance Projection",
+      "target": "Data Center Securitization – ABS Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 37,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "ABS issuance projected at $37 bn in 2028"
+    },
+    {
+      "source": "Table T3 – Data Center Securitization Estimated Annual Issuance Projection",
+      "target": "Data Center Securitization – CMBS Issuance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "CMBS issuance projected at $25 bn in 2028"
+    }
+  ],
+  "scenarios": []
+}

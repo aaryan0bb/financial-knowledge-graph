@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "Equity Markets–Table T1 – Money Markets Asset Under Management Jan 2020–Jul 2025",
+      "type": "Table",
+      "brief": "Shows evolution of money market AUM over time",
+      "description": "Tracks the steady growth of money market assets from $3.6T to $7.0T, highlighting liquidity build-up and redemption events.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | AUM (trillions) |\n|---|---|\n| Jan 2020 | 3.6 |\n| Apr 2020 | 4.8 |\n| Aug 2020 | 4.5 |\n| Dec 2020 | 4.4 |\n| Apr 2021 | 4.5 |\n| Aug 2021 | 4.5 |\n| Dec 2021 | 4.6 |\n| Apr 2022 | 4.4 |\n| Aug 2022 | 4.5 |\n| Dec 2022 | 4.7 |\n| Feb 2023 | 5.0 |\n| Apr 2023 | 5.4 |\n| Jun 2023 | 5.6 |\n| Aug 2023 | 5.8 |\n| Oct 2023 | 6.0 |\n| Dec 2023 | 6.1 |\n| Feb 2024 | 6.3 |\n| Apr 2024 | 6.5 |\n| Jun 2024 | 6.6 |\n| Aug 2024 | 6.7 |\n| Oct 2024 | 6.8 |\n| Dec 2024 | 6.9 |\n| Feb 2025 | 6.95 |\n| Apr 2025 | 6.98 |\n| Jul 2025 | 7.00 |",
+        "key_insight": "Money market AUM climbed from $3.6T in Jan 2020 to a record $7T in Jul 2025 due to persistent liquidity inflows."
+      }
+    },
+    {
+      "name": "Equity Markets–Money Market AUM",
+      "type": "Metric",
+      "brief": "Total assets under management in money markets",
+      "description": "Represents available liquidity; reached $7T in July 2025, providing a cash buffer for market conditions.",
+      "properties": {
+        "unit": "USD tn",
+        "as_of": "Jul 2025",
+        "value": 7.0
+      }
+    },
+    {
+      "name": "Equity Markets–Money Market Redemption Event Apr 2025",
+      "type": "Event",
+      "brief": "Large cash redemption from money markets",
+      "description": "During April 2–16, 2025, investors redeemed $151B, indicating tactical withdrawal from cash despite overall uptrend.",
+      "properties": {
+        "date": "2025-04-16",
+        "event_type": "Redemption",
+        "impact_value": 151,
+        "unit": "USD bn"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity Markets–Table T1 – Money Markets Asset Under Management Jan 2020–Jul 2025",
+      "target": "Equity Markets–Money Market AUM",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1,
+        "lag_days": null,
+        "impact_value": 7.0,
+        "unit": "USD tn",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table tracks the record rise in money market AUM to $7T in July 2025."
+    },
+    {
+      "source": "Equity Markets–Money Market Redemption Event Apr 2025",
+      "target": "Equity Markets–Money Market AUM",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 0,
+        "impact_value": -151,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "April 2025 redemption temporarily reduced total AUM despite ongoing uptrend."
+    }
+  ],
+  "scenarios": []
+}

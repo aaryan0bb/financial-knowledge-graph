@@ -1,0 +1,66 @@
+{
+  "report": "Weekend Cross-asset Dislocations (27-Jul-2025)_converted_with_figures.txt",
+  "timestamp": "2025-07-30T23:56:25.566913",
+  "total_chunks": 8,
+  "total_entities": 38,
+  "total_relationships": 20,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250730_234510.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250730_234658.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 4,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250730_234820.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 8,
+      "relationships": 7,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250730_234957.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250730_235216.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 10,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250730_235344.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250730_235458.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 4,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250730_235623.json"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "report": "GS US TMT- ... inflections .... [GOOG, IBM, NOW bull:bear debates] .. - Peter Callahan_converted_with_figures.txt",
+  "timestamp": "2025-07-31T02:37:18.440068",
+  "total_chunks": 6,
+  "total_entities": 53,
+  "total_relationships": 20,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_022838.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 7,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_022949.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 12,
+      "relationships": 6,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_3_20250731_023148.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 7,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_023315.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 14,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_023542.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 6,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_023716.json"
+    }
+  ]
+}

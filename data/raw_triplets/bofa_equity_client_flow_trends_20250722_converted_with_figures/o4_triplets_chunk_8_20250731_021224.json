@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "EquityInflows_Resurgence",
+      "type": "Event",
+      "brief": "Resurgence in equity inflows",
+      "description": "Resurgence in equity inflows across client types and sectors",
+      "properties": {
+        "date": null,
+        "event_type": "Resurgence"
+      }
+    },
+    {
+      "name": "EquityInflows_PrivateClients",
+      "type": "Factor",
+      "brief": "Private client buying behavior",
+      "description": "Private clients net buyers of equities last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_HedgeFunds",
+      "type": "Factor",
+      "brief": "Hedge fund buying behavior",
+      "description": "Hedge funds increased equity purchases last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_InstitutionalClients",
+      "type": "Factor",
+      "brief": "Institutional client selling behavior",
+      "description": "Institutional clients net sellers of equities last week",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "EquityInflows_Industrials",
+      "type": "Factor",
+      "brief": "Industrials sector net flows",
+      "description": "Industrials sector saw net buying across client types last week",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "EquityInflows_Financials",
+      "type": "Factor",
+      "brief": "Financials sector net flows",
+      "description": "Financials sector saw net buying across client types last week",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_PrivateClients",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers private client buying"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_HedgeFunds",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers hedge fund buying"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_InstitutionalClients",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence triggers institutional client selling"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_Industrials",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence leads to broad-based buying in Industrials"
+    },
+    {
+      "source": "EquityInflows_Resurgence",
+      "target": "EquityInflows_Financials",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Resurgence leads to broad-based buying in Financials"
+    }
+  ],
+  "scenarios": []
+}

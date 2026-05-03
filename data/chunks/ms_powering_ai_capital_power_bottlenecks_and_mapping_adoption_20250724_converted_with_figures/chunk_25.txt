@@ -1,0 +1,24 @@
+Morgan Stanley                                                                                    July 24, 2025 
+
+Is DeepSeek a Bearish Signal for Data Center Demand? 
+We believe the answer is no 
+1. More innovation drives more complex models, and consequently more demand for compute 
+2. The level of Al adoption is under-appreciated 
+3. The value of non-linear Al improvement is under-appreciated - a quote from Dario Amodei, CEO of 
+  Anthropic: "all else equal, scaling up the training of Al systems leads to smoothly better results on a range 
+  of cognitive tasks, across the board ... These differences tend to have huge implications in practice - another 
+ factor of 10 may correspond to the difference between an undergraduate and PhD skill level - and thus 
+  companies are investing heavily in training these models ... The field is constantly coming up with ideas, large 
+  and small, that make things more effective or efficient: it could be an improvement to the architecture of the 
+  model ... or simply a way of running the model more efficiently on the underlying hardware. New generations 
+  of hardware also have the same effect. What    this typically does is shift the curve: if the innovation is a 2x 
+  'compute multiplier' (CM), then it allows you to get 40% on a coding task for $5M instead of $10M; or 60% for 
+  $50M instead of $100M, etc ... Because the value of having a more intelligent system is so high, this 
+  shifting of the curve typically causes companies to spend more, not less, on training models: the 
+  gains in cost efficiency end up entirely devoted to training smarter models, limited only by the 
+  company's financial resources. People are naturally attracted to the idea that 'first something is expensive, 
+ then it gets cheaper' - as if Al is a single thing of constant quality, and when it gets cheaper, we'll use fewer 
+  chips to train it. But what's important is the scaling curve: when it shifts, we simply traverse it faster, because 
+  the value of what's at the end of the curve is so high." 
+
+                                                                                                             25

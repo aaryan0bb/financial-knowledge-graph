@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "Barclays Equity Research - Boston Scientific Corp.",
+      "type": "Company",
+      "brief": "Medical device company with strong Q2 cardio results and growth outlook",
+      "description": "Expecting mid-teens organic growth and EPS upside driven by Farapulse and Watchman adoption",
+      "properties": {
+        "ticker": "BSX",
+        "rating_outlook": "Overweight",
+        "market_cap_USDbn": 152.6197
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Danaher Corp.",
+      "type": "Company",
+      "brief": "Diversified science and tech company with mixed Q2 performance",
+      "description": "EPS beat but biotech miss likely to pressure shares despite other segment outperformance",
+      "properties": {
+        "ticker": "DHR",
+        "rating_outlook": "Overweight",
+        "market_cap_USDbn": 135.9854
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "Barclays reaffirmed price target for BSX at USD 125 based on growth outlook",
+      "properties": {
+        "value": 125.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX Stock Price",
+      "type": "Metric",
+      "brief": "Share price at report date",
+      "description": "BSX stock price on 22 July 2025 publication date",
+      "properties": {
+        "value": 103.16,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 estimated earnings per share",
+      "description": "Barclays forecast for BSX fiscal year 1 EPS",
+      "properties": {
+        "value": 2.91,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - BSX EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 estimated earnings per share",
+      "description": "Barclays forecast for BSX fiscal year 2 EPS",
+      "properties": {
+        "value": 3.41,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "Barclays set price target for DHR at USD 225 after Q2 review",
+      "properties": {
+        "value": 225.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR Stock Price",
+      "type": "Metric",
+      "brief": "Share price at report date",
+      "description": "DHR share price on 22 July 2025",
+      "properties": {
+        "value": 189.91,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "FY1 estimated earnings per share",
+      "description": "Barclays forecast for DHR fiscal year 1 EPS",
+      "properties": {
+        "value": 7.8,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - DHR EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "FY2 estimated earnings per share",
+      "description": "Barclays forecast for DHR fiscal year 2 EPS",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Q2 Cardio Results from JNJ & ABT",
+      "type": "Event",
+      "brief": "Strong Q2 cardio results from JNJ and ABT",
+      "description": "Johnson & Johnson and Abbott Labs reported strong Q2 cardio results beneficial for BSX",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_result",
+        "affected_tickers": [
+          "JNJ",
+          "ABT"
+        ]
+      }
+    },
+    {
+      "name": "Barclays Equity Research - Biotech Q2 Print Underperformance",
+      "type": "Factor",
+      "brief": "Danaher biotech segment Q2 underperformance",
+      "description": "Danaher's biotech segment missed expectations in Q2 causing softer print",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Barclays Equity Research - Q2 Cardio Results from JNJ & ABT",
+      "target": "Barclays Equity Research - Boston Scientific Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong Q2 cardio results from JNJ & ABT bode well for BSX's Q2 print"
+    },
+    {
+      "source": "Barclays Equity Research - Biotech Q2 Print Underperformance",
+      "target": "Barclays Equity Research - Danaher Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Biotech print underperformance expected to weigh on DHR shares"
+    }
+  ],
+  "scenarios": []
+}

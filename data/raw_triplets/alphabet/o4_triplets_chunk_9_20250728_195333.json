@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet",
+      "type": "Company",
+      "brief": "Global technology conglomerate, parent of Google",
+      "description": "Primary subject of the report, major earnings and valuation revisions center on this company.",
+      "properties": {
+        "sector": "Technology",
+        "ticker": "GOOG",
+        "market_cap_USDbn": 2373
+      }
+    },
+    {
+      "name": "Alphabet 2026 GAAP EPS",
+      "type": "Metric",
+      "brief": "Alphabet's projected GAAP EPS for 2026",
+      "description": "Critical earnings forecast informing new price target and valuation.",
+      "properties": {
+        "value": 10.91,
+        "unit": "USD",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Alphabet Implied Target Price / Share",
+      "type": "Metric",
+      "brief": "Implied price target per Alphabet share",
+      "description": "Updated price target per share, reflecting BofA analysts' view.",
+      "properties": {
+        "value": 217,
+        "unit": "USD",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Alphabet Table T3 – Valuation Bridge and Target Calculation",
+      "type": "Table",
+      "brief": "Summary of valuation drivers and price calculation",
+      "description": "Bridge from GAAP EPS to target price, with component line-items.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "Other Bets losses (mn)      | ($5,504)\nEstimated Tax Savings         | $936\nOther Bets Losses ex-Tax      | ($4,568)\n2025 Diluted Shares           | 12,169\nGAAP EPS Impact               | ($0.38)\n2026E Total GAAP EPS          | $10.60\nGAAP P/E                      | 18x\nAdjusted EPS                  | $10.91\nApplying a target PE multiple | 19x\nImplied Target Price / Share  | $205\nPlus YE26 cash/share          | $11.8\nImplied Target Price / Share  | $217",
+        "key_insight": "Applying a 19x multiple and adding cash, BofA sets a $217/share target price for Alphabet in 2026."
+      }
+    },
+    {
+      "name": "Alphabet Table T4 – Sum-of-the-Parts Valuation (2026)",
+      "type": "Table",
+      "brief": "Breakdown of Alphabet by segment and valuation multiples",
+      "description": "Detailed sum-of-the-parts valuation assigning metrics to Alphabet’s business segments.",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "             |  Mkt Cap | Revenue | P/S | Net income | P/E | Comment\nAlphabet Total| $2,373  | $382   | 6.2x| $127       | 19x | \nYouTube       | ($181)  | ($45)  |     | ($4.5)     | 40x| 4.0x revenues, 12% margin, 17% tax\nSubscription  | ($105)  | ($35)  |     | ($2.9)     |    | 3x P/S, 10% margin, 17% tax\nGoogle Cloud Profit/Losses | ($581) | ($73) | | ($12.5) | | 8x P/S, 20% margin, 17% tax\nWaymo         | ($50)   | $0     |     | $0.0       |    | potential tech value\nOther Bets losses|       | ($2)   |     | $4.6       |    | Waymo loss included, 17% tax\nYE'25 Cash & Equivalents | ($94) |     |     | ($2.3)   |    | 3% interest, 17% tax\nGoogle core services | $1,362 | $227 | 6.0x | $110 | 12x |",
+        "key_insight": "Core Google services are valued at 12x 2026E earnings, versus S&P 500 at 21.5x P/E, emphasizing attractiveness."
+      }
+    },
+    {
+      "name": "Alphabet Google core services 2026E earnings multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple for Alphabet's core services",
+      "description": "Alphabet core services command a 12x 2026E P/E multiple, which is considered attractive relative to the broad market.",
+      "properties": {
+        "value": 12,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "S&P 500 2026E P/E multiple",
+      "type": "Metric",
+      "brief": "Implied 2026 P/E for S&P 500",
+      "description": "Market benchmark for valuation attractiveness comparison.",
+      "properties": {
+        "value": 21.5,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Table T3 – Valuation Bridge and Target Calculation",
+      "target": "Alphabet Implied Target Price / Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 217,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table demonstrates basis for new $217 per share price target."
+    },
+    {
+      "source": "Alphabet Table T3 – Valuation Bridge and Target Calculation",
+      "target": "Alphabet 2026 GAAP EPS",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10.91,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table sets out the 2026 GAAP EPS estimates."
+    },
+    {
+      "source": "Alphabet Table T4 – Sum-of-the-Parts Valuation (2026)",
+      "target": "Alphabet Google core services 2026E earnings multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Table highlights 12x P/E for core Google services in 2026."
+    },
+    {
+      "source": "Alphabet Table T4 – Sum-of-the-Parts Valuation (2026)",
+      "target": "S&P 500 2026E P/E multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 21.5,
+        "unit": "x",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "S&P 500 2026E P/E provided for market comparison."
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Global Data Center Infrastructure Potential Shortfall in US Data Center Power 2025-28",
+      "type": "Table",
+      "brief": "Waterfall chart of US data center power shortfall 2025-28",
+      "description": "Illustrates projected 45 GW power deficit after accounting for construction and grid capacity",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category | Value (GW) |\n|-----------------------------------|------------|\n| US Power Needed, 2025-28          | 65         |\n| US DCs Under Construction         | (6)        |\n| Available US Grid Capacity        | (15)       |\n| Potential Shortfall               | (45)       |",
+        "key_insight": "Despite 6 GW from new data centers and 15 GW grid capacity, there is a 45 GW shortfall against 65 GW demand for US data centers 2025-28."
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "Metric",
+      "brief": "Projected power shortfall for US data centers",
+      "description": "Deficit between demand and supply leading to 45 GW shortfall for US data centers 2025-28",
+      "properties": {
+        "value": 45,
+        "unit": "GW",
+        "as_of": "2025-28"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Grid Access Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck due to grid access constraints",
+      "description": "Grid access identified as a bottleneck hindering growth of data center power supply",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Power Equipment Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from power equipment limitations",
+      "description": "Power equipment availability is constraining data center power provisioning",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Labor Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from labor constraints",
+      "description": "Labor shortage is limiting data center power installation and maintenance",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure Political Capital Bottleneck",
+      "type": "Factor",
+      "brief": "Bottleneck from political capital constraints",
+      "description": "Political capital challenges are hindering approvals and support for power projects",
+      "properties": {
+        "direction": "down",
+        "driver": "bottleneck"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Global Data Center Infrastructure Potential Shortfall in US Data Center Power 2025-28",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 45,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table quantifies the 45 GW potential shortfall in power for US data centers 2025-28"
+    },
+    {
+      "source": "Global Data Center Infrastructure Grid Access Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Grid access bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Power Equipment Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Power equipment bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Labor Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Labor bottleneck contributes to projected power shortfall"
+    },
+    {
+      "source": "Global Data Center Infrastructure Political Capital Bottleneck",
+      "target": "Global Data Center Infrastructure Potential Shortfall in Power for US Data Centers 2025-28",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Political capital bottleneck contributes to projected power shortfall"
+    }
+  ],
+  "scenarios": []
+}

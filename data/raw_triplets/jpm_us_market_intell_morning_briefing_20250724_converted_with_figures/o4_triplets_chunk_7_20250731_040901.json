@@ -1,0 +1,272 @@
+{
+  "entities": [
+    {
+      "name": "US Financial Market - Economic Data Releases July 22 2025",
+      "type": "Event",
+      "brief": "Multiple Fed survey releases",
+      "description": "Scheduled releases of Philadelphia and Richmond Fed indices reflecting regional manufacturing and business conditions.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Philly Fed Non-Mfg Activity",
+          "Richmond Fed Manufacturing Index",
+          "Richmond Fed Business Conditions"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Housing Data Releases July 23 2025",
+      "type": "Event",
+      "brief": "Mortgage and existing home sales reports",
+      "description": "Scheduled release of US mortgage applications and existing home sales reflecting housing market activity.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Mortgage Applications",
+          "Existing Home Sales"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Mixed Economic Indicators July 24 2025",
+      "type": "Event",
+      "brief": "Various PMI, Fed activity, jobless claims, and permits",
+      "description": "Scheduled releases including Chicago Fed, jobless claims, PMI surveys, home sales, Kansas City Fed, and building permits.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Chicago Fed National Activity Index",
+          "Initial Jobless Claims",
+          "Continuing Jobless Claims",
+          "PMI Manufacturing",
+          "PMI Services",
+          "PMI Composite",
+          "New Home Sales",
+          "Kansas City Fed Manufacturing Activity",
+          "Building Permits (revision)"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Orders and Survey Releases July 25 2025",
+      "type": "Event",
+      "brief": "Durable/capital goods orders and Fed services survey",
+      "description": "Scheduled releases of durable and capital goods orders, Kansas City Fed services index, and US economic survey.",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "Economic Indicator Releases",
+        "region": "US",
+        "indicators": [
+          "Durable Goods Orders",
+          "Capital Goods Orders",
+          "Kansas City Fed Services Activity",
+          "Bloomberg US Economic Survey"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Canada Industrial Production July 21 2025",
+      "type": "Event",
+      "brief": "Canada IP report",
+      "description": "Scheduled release of Canadian industrial production data reflecting manufacturing output.",
+      "properties": {
+        "date": "2025-07-21",
+        "event_type": "Economic Indicator Release",
+        "region": "Canada",
+        "indicators": [
+          "Industrial Production"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 21 2025",
+      "type": "Event",
+      "brief": "Earnings for focused US companies",
+      "description": "Scheduled earnings releases from key US companies including AGNC, ARE, and others.",
+      "properties": {
+        "date": "2025-07-21",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "AGNC",
+          "ARE",
+          "CLF",
+          "DPZ",
+          "MEDP",
+          "ROP",
+          "VZ"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 22 2025",
+      "type": "Event",
+      "brief": "Earnings for major US companies",
+      "description": "Scheduled earnings releases from major companies including BKR, COF, CRCL, and others.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "BKR",
+          "COF",
+          "CRCL",
+          "CSGP",
+          "DGX",
+          "DHI",
+          "DHR",
+          "EFX",
+          "ENPH",
+          "EQT",
+          "GM",
+          "HAL",
+          "IPG",
+          "IQV",
+          "ISRG",
+          "IVZ",
+          "KEY",
+          "KO",
+          "LMT",
+          "MSCI",
+          "NOC",
+          "PCAR",
+          "PEGA",
+          "PHM",
+          "PM",
+          "RTX",
+          "SHW",
+          "SYF",
+          "THC",
+          "TXN",
+          "VBTX"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 23 2025",
+      "type": "Event",
+      "brief": "Earnings for diversified US companies",
+      "description": "Scheduled earnings releases from companies including APH, BSX, CCI, and others.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "APH",
+          "BSX",
+          "CCI",
+          "CME",
+          "CMG",
+          "COOP",
+          "CSX",
+          "FAF",
+          "FCX",
+          "FI",
+          "GD",
+          "GEV",
+          "GOOGL",
+          "HAS",
+          "HLT",
+          "IBM",
+          "KNX",
+          "LII",
+          "LVS",
+          "LW",
+          "MCO",
+          "MOH",
+          "NEE",
+          "NLY",
+          "NOW",
+          "NTRS",
+          "ORLY",
+          "OTIS",
+          "QS",
+          "SEI",
+          "T",
+          "TDY",
+          "TMO",
+          "TMUS",
+          "TSLA",
+          "URI",
+          "VKTX"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 24 2025",
+      "type": "Event",
+      "brief": "Earnings for industrial and tech companies",
+      "description": "Scheduled earnings releases from companies including AAL, AMP, BX, and others.",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "AAL",
+          "AMP",
+          "BX",
+          "BYD",
+          "CHX",
+          "CNP",
+          "DAR",
+          "DECK",
+          "DLR",
+          "DOW",
+          "EW",
+          "FLEX",
+          "HON",
+          "INTC",
+          "KDP",
+          "LHX",
+          "LUV",
+          "NDAQ",
+          "NEM",
+          "POOL",
+          "SF",
+          "SLM",
+          "TRU",
+          "TSCO",
+          "TXT",
+          "UNP",
+          "VC",
+          "VLO",
+          "WAB",
+          "WST",
+          "WY"
+        ]
+      }
+    },
+    {
+      "name": "US Financial Market - Company Earnings Announcements July 25 2025",
+      "type": "Event",
+      "brief": "Earnings for varied US companies",
+      "description": "Scheduled earnings releases from companies including BAH, CHTR, CNC, and others.",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "Company Earnings Announcements",
+        "region": "US",
+        "affected_tickers": [
+          "BAH",
+          "CHTR",
+          "CNC",
+          "FIX",
+          "FLG",
+          "HCA",
+          "PSX",
+          "ROG",
+          "SAIA",
+          "SKX",
+          "XRX"
+        ]
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

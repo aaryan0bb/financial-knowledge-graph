@@ -1,0 +1,65 @@
+.   Dubravko notes that the current cycle isn't quite like 2021, but retail bounce levels similar to 
+      COVID and rate changes in 2024 are possible. 
+   . Trade deals before August 1st could sustain buying, potentially reaching past levels. August may 
+      provide clarity on macroeconomic conditions and trade deals if buying continues. 
+       RECOMMENDATION: Maintain a hedge on Momentum {JPMPURE Index} and negative Beta 
+      exposure {JPBPURE Index} until the end of the month. 
+
+SHORT INTEREST RETAIL FLOW 
+
+                      Short Interest Retail Flows 
+  8 
+
+ 6 
+
+ 4 
+
+ 2 
+
+ 0 
+
+ -2 
+
+ -4 
+ -6                    Vaccine         Inflation 
+
+ -8               Covid                        Rate 5% 
+4/13/2019 4/13/2020   4/13/2021 4/13/2022   4/13/2023 4/13/2024 4/13/2025 
+
+Source: JPM Delta-One 
+
+JPM MEME BASKET [JPXXMEME INDEX] vs. SPX vs. NDX 
+
+    | Date | Short Interest Retail Flows | Event/Annotation | Trend Line |
+    |---|---|---|---|
+    | 4/13/2019 | -2.5 | | |
+    | Jul 2019 | 1.5 | | |
+    | Oct 2019 | -0.5 | | |
+    | Feb 2020 | 3.0 | | |
+    | Mar 2020 | -7.5 | Covid dip | |
+    | Jun 2020 | -1.0 | | |
+    | Oct 2020 | 1.0 | | |
+    | Jan 2021 | 7.0 | Vaccine peak | |
+    | Apr 2021 | 3.0 | | 7.0 |
+    | Aug 2021 | -1.5 | | |
+    | Dec 2021 | 0.5 | | |
+    | Mar 2022 | 3.5 | Inflation peak | |
+    | Apr 2022 | 1.5 | | 4.5 |
+    | Aug 2022 | -3.0 | | |
+    | Dec 2022 | 0.5 | | |
+    | Mar 2023 | 3.5 | | |
+    | Apr 2023 | 1.5 | | 2.0 |
+    | Aug 2023 | -3.0 | | |
+    | Oct 2023 | -7.0 | Rate 5% dip | |
+    | Jan 2024 | 1.5 | | |
+    | Apr 2024 | -1.0 | | -0.5 |
+    | Aug 2024 | -3.5 | | |
+    | Dec 2024 | -2.0 | | |
+    | Feb 2025 | -1.5 | Current bounce | |
+    | Apr 2025 | -1.0 | | -1.5 |
+
+    Summary:
+    The chart, "Short Interest Retail Flows," displays a time series from April 2019 through April 2025, illustrating the cyclical nature of retail sentiment towards heavily shorted stocks. The Y-axis, ranging from -8 to 8, represents these flows, with positive values indicating retail buying and negative values indicating selling or covering. Key trends include significant cyclical swings and an overarching declining trend in the peaks of retail buying, as indicated by the red downtrend line starting from the 2021 peak. Notable inflection points show retail flows bottoming out and subsequently bouncing during periods like the "Covid" downturn (March 2020, to ~0), the "Rate 5%" event (October 2023, to ~+1.5), and a current bounce in early 2025. The highest retail buying peak occurred in early 2021 (Vaccine, ~7.0), followed by a lower peak in early 2022 (Inflation, ~3.5), suggesting diminishing strength in these bounces over time.
+
+    Explanation:
+    This chart directly supports the discussion on "MEME STOCKS," illustrating how "Retail buying is showing similarities to 2021 levels" and how "Historical instances of similar retail sentiment bounces occurred during COVID and when the 10-year yield hit 5%." The pattern of retail flows repeatedly recovering from negative sentiment to neutral or positive levels, particularly after significant market events, highlights their ongoing role as a "backstop to drawdowns in Equities," as described in the broader market context provided.

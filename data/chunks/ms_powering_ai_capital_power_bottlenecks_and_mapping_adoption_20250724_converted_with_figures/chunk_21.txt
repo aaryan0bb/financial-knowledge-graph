@@ -1,0 +1,25 @@
+Morgan Stanley                                                                                       July 24, 2025 
+
+Powering Al: Why "Time to Power" Has Been a Powerful Alpha Driver 
+
+  Definition of a "time to power" solution: any product that can result in data centers powering up more rapidly 
+  than the default approach (file a grid interconnection request) 
+
+     Many US grids now have a significant backlog of requests, and the typical grid connection time for data centers has 
+     increased from ~2-3 years to ~5-10 years 
+
+  Powering Al Alpha is driven by a fascinating collision of two worlds 
+
+     Al data centers: facility cost of ~$30m per megawatt, with rapidly depreciating chips 
+
+     A power plant often costs ~$2-3 million per megawatt, with a very long asset life 
+
+  Our "time to power" math suggests that the value of a 1-year time advantage is $3-4m per megawatt, more than the 
+  entire cost of most power plants 
+
+. The "de-bottlenecking" transactions we have seen appear to include large premia from the lens of the power 
+  world, but the premia appear relatively small from the lens of an Al player 
+
+  Bitcoin conversion: a few transactions at effective power price premia of >300% 
+
+Source: Morgan Stanley Research                                                                                  21

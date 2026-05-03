@@ -1,0 +1,362 @@
+{
+  "entities": [
+    {
+      "name": "MarketRisk-AMZN",
+      "type": "Company",
+      "brief": "AMZN year-to-date laggard",
+      "description": "AMZN up 5% YTD but lags peers amid tariff and flow headwinds",
+      "properties": {
+        "ticker": "AMZN",
+        "sector": "Consumer Discretionary",
+        "ytd_return_pct": 5,
+        "positioning_score": 7
+      }
+    },
+    {
+      "name": "MarketRisk-AAPL",
+      "type": "Company",
+      "brief": "AAPL clear outlier underweight",
+      "description": "AAPL down 17% YTD vs NDX +9% and largest mutual fund underweight",
+      "properties": {
+        "ticker": "AAPL",
+        "sector": "Technology",
+        "ytd_return_pct": -17,
+        "positioning_score": 4
+      }
+    },
+    {
+      "name": "MarketRisk-Tariff Uncertainties",
+      "type": "Factor",
+      "brief": "uncertain US-China tariffs",
+      "description": "tariff uncertainties have abated recently",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "MarketRisk-Technical Flow Headwinds",
+      "type": "Factor",
+      "brief": "technical and flow headwinds",
+      "description": "Bezos Form 4 filings and flow changes driving headwinds",
+      "properties": {
+        "driver": "flow",
+        "direction": "down"
+      }
+    },
+    {
+      "name": "MarketRisk-Mutual Fund Underweight",
+      "type": "Factor",
+      "brief": "mutual funds underweight AAPL",
+      "description": "AAPL is the largest mutual fund underweight per GIR",
+      "properties": {
+        "driver": "mutual fund"
+      }
+    },
+    {
+      "name": "MarketRisk-HF Relative Short",
+      "type": "Factor",
+      "brief": "hedge funds relative short AAPL",
+      "description": "AAPL is a popular hedge fund relative short contributing performance alpha",
+      "properties": {
+        "driver": "hedge fund",
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "Factor",
+      "brief": "Ongoing risk of extreme market upside moves",
+      "description": "Despite record highs and neutral positioning, tail risk persists",
+      "properties": {
+        "direction": "up",
+        "driver": "misaligned positioning"
+      }
+    },
+    {
+      "name": "Right Tail Risk: S&P 500 All-Time High Count",
+      "type": "Event",
+      "brief": "Count of S&P 500 record closing highs this year",
+      "description": "Indicates strong equity market but flags potential tail risk",
+      "properties": {
+        "date": "2025-07-27",
+        "event_type": "Index Performance",
+        "impact_value": 14,
+        "unit": "count",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Right Tail Risk: S&P 500 Forward 12M P/E Multiple",
+      "type": "Metric",
+      "brief": "Forward 12-month P/E multiple of the S&P 500",
+      "description": "High forward P/E at 22x signals lofty valuations",
+      "properties": {
+        "value": 22,
+        "unit": "multiple",
+        "as_of": "2025-07-27"
+      }
+    },
+    {
+      "name": "Right Tail Risk: Investor Positioning",
+      "type": "Factor",
+      "brief": "Current market participants' exposure stance",
+      "description": "Neutral hedge fund positioning amid high valuations",
+      "properties": {
+        "position": "neutral"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Right Tail Risk: US Fundamental L/S Asset Weighted Weekly Changes",
+      "type": "Table",
+      "brief": "Weekly changes in asset-weighted long/short leverage metrics",
+      "description": "Summary of weekly gross/net leverage and L/S ratio changes",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "US Fundamental L/S (Asset Weighted)\nLeverage                Gross %          Net %         L/S Ratio (MV)\n Current                 209.9            52.4            1.666\n  WoW Chg                -1.2pt           0.0pt            0.3%\n  MoM Chg                 0.1pt           1.8pt            1.8%\n  YTD Chg                13.3pt          -1.6pt            -5.2%\n Current 1-Yr Percentile 80%              51%              38%\n Current 3-Yr Percentile 93%                               13%\n Current 5-Yr Percentile 96%              34%              8%\nSource = GSPB",
+        "key_insight": "US Fundamental L/S gross leverage fell 1.2 pts to 209.9%, net leverage held at 52.4%, and L/S ratio rose 0.3% last week."
+      }
+    },
+    {
+      "name": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "Metric",
+      "brief": "Gross leverage of asset-weighted fundamental long/short funds",
+      "description": "Shows level of hedge fund gross exposure, key risk indicator",
+      "properties": {
+        "value": 209.9,
+        "unit": "%",
+        "as_of": "last week",
+        "percentile_3yr": 93
+      }
+    },
+    {
+      "name": "Right Tail Risk: Notional De-Grossing in US Single Stocks",
+      "type": "Factor",
+      "brief": "Largest notional de-grossing in six months for US single stocks",
+      "description": "Short covers outpaced long sales, driving de-grossing activity",
+      "properties": {
+        "percentile_5yr": 94,
+        "driver": "risk unwinds"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Weekly Notional Gross Flow Z-score US TMT Book",
+      "type": "Table",
+      "brief": "Weekly notional gross flow Z-scores for US TMT Prime Book",
+      "description": "Weekly Z-scores from early 2020 to July 2025 showing hedge fund de-grossing spikes like -7 in early 2021.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Weekly Notional Gross Flow (Z Score) |\n|---|---|\n| Jan 2020 | 0.5 |\n| Apr 2020 | 1.0 |\n| Jul 2020 | -0.5 |\n| Oct 2020 | 0.2 |\n| Jan 2021 | -7.2 |\n| Apr 2021 | 0.5 |\n| Jul 2021 | 0.2 |\n| Oct 2021 | -0.8 |\n| Jan 2022 | 1.5 |\n| Apr 2022 | -1.0 |\n| Jul 2022 | -0.8 |\n| Oct 2022 | -2.8 |\n| Jan 2023 | -0.5 |\n| Apr 2023 | 0.8 |\n| Jul 2023 | -0.2 |\n| Oct 2023 | 0.5 |\n| Jan 2024 | 0.5 |\n| Apr 2024 | 2.2 |\n| Jul 2024 | -3.0 |\n| Oct 2024 | 1.0 |\n| Jan 2025 | 2.5 |\n| Apr 2025 | 0.8 |\n| Jul 18-24, 2025 | -1.8 |",
+        "key_insight": "The chart highlights extreme de-grossing with a > -7 Z-score in early 2021, ~ -3 in late 2022 and mid-2024, and -1.8 in July 18-24, 2025."
+      }
+    },
+    {
+      "name": "US TMT Risk Unwinding Pace",
+      "type": "Factor",
+      "brief": "Hedge fund risk unwinding in US TMT at fastest pace since Jul '24",
+      "description": "Represents the pace of risk unwinding by hedge funds in US TMT stocks, at the 98th percentile over five years.",
+      "properties": {
+        "magnitude_percentile": 98,
+        "lookback_days": 1825,
+        "driver": "long_sales_outpacing_short_covers"
+      }
+    },
+    {
+      "name": "US TMT Semis & Semi Equip Net Exposure",
+      "type": "Metric",
+      "brief": "Semis & Semi Equip net exposure near five-year highs, 94th percentile",
+      "description": "Net exposure as % of total US Prime book for Semis & Semi Equip subsector.",
+      "properties": {
+        "value": 94,
+        "unit": "percentile",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US TMT Software & Services Net Exposure",
+      "type": "Metric",
+      "brief": "Software & Services net exposure near five-year lows, 2nd percentile",
+      "description": "Net exposure as % of total US Prime book for Software & Services subsector.",
+      "properties": {
+        "value": 2,
+        "unit": "percentile",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US TMT Microsoft Corp",
+      "type": "Company",
+      "brief": "Megacap tech company with strong secular trends",
+      "description": "Microsoft has added $650bn this year and is well positioned in AI and cloud.",
+      "properties": {
+        "ticker": "MSFT",
+        "sector": "Information Technology",
+        "market_cap_USDbn": 4000
+      }
+    },
+    {
+      "name": "US TMT Meta Platforms Inc",
+      "type": "Company",
+      "brief": "Major media company with robust ad environment",
+      "description": "Meta remains well-owned but shows a slight uptick in caution ahead of earnings.",
+      "properties": {
+        "ticker": "META",
+        "sector": "Communication Services"
+      }
+    },
+    {
+      "name": "US TMT Microsoft Earnings Report",
+      "type": "Event",
+      "brief": "Microsoft earnings report on July 30",
+      "description": "Scheduled quarterly earnings release for Microsoft.",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report",
+        "affected_tickers": [
+          "MSFT"
+        ]
+      }
+    },
+    {
+      "name": "US TMT Meta Platforms Earnings Report",
+      "type": "Event",
+      "brief": "Meta earnings report on July 30",
+      "description": "Scheduled quarterly earnings release for Meta.",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report",
+        "affected_tickers": [
+          "META"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MarketRisk-AMZN",
+      "target": "MarketRisk-Tariff Uncertainties",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AMZN exposed to tariff uncertainties"
+    },
+    {
+      "source": "MarketRisk-AMZN",
+      "target": "MarketRisk-Technical Flow Headwinds",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AMZN exposed to technical and flow headwinds"
+    },
+    {
+      "source": "MarketRisk-AAPL",
+      "target": "MarketRisk-Mutual Fund Underweight",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AAPL exposed to mutual fund underweight"
+    },
+    {
+      "source": "MarketRisk-AAPL",
+      "target": "MarketRisk-HF Relative Short",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AAPL exposed to hedge fund relative short"
+    },
+    {
+      "source": "Table T1 \u2013 Right Tail Risk: US Fundamental L/S Asset Weighted Weekly Changes",
+      "target": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": 7,
+        "impact_value": -1.2,
+        "unit": "pt",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows gross leverage fell 1.2 pts last week"
+    },
+    {
+      "source": "Right Tail Risk: S&P 500 Forward 12M P/E Multiple",
+      "target": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "High forward P/E multiple causes tail risk"
+    },
+    {
+      "source": "Right Tail Risk: Investor Positioning",
+      "target": "Right Tail Risk: Persistent Right Tail Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Neutral positioning amid record highs drives tail risk"
+    },
+    {
+      "source": "Right Tail Risk: Notional De-Grossing in US Single Stocks",
+      "target": "Right Tail Risk: US Fundamental L/S Gross Leverage",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 7,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "De-grossing activity drove drop in gross leverage"
+    },
+    {
+      "source": "Table T1 \u2013 Weekly Notional Gross Flow Z-score US TMT Book",
+      "target": "US TMT Risk Unwinding Pace",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": -7,
+        "unit": "sigma",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table data informs the extreme risk-unwinding pace in US TMT"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/right_tail_risk_remains_john_flood_converted_with_figures"
+}

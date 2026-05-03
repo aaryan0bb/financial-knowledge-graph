@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "Range Resources Corp",
+      "type": "Company",
+      "brief": "U.S. independent oil & gas company",
+      "description": "Beat 2Q25 forecasts and tweaked 2025 guidance",
+      "properties": {
+        "ticker": "RRC",
+        "market_cap_usd_bn": 8.5194,
+        "stock_rating": "Equal Weight",
+        "industry_view": "Positive"
+      }
+    },
+    {
+      "name": "RRC 2027 Cash Flow Benefit",
+      "type": "Metric",
+      "brief": "Expected USD100MM cash flow benefit",
+      "description": "2027 cash flow benefit of ~USD100MM from lower cash tax post OBBBA",
+      "properties": {
+        "value": 100,
+        "unit": "USD mm",
+        "as_of": "2027"
+      }
+    },
+    {
+      "name": "Table T1 – RRC 2Q25 Beat; Positive Tweaks to 2025",
+      "type": "Table",
+      "brief": "Summary of RRC 2Q25 results and guidance tweaks",
+      "description": "Highlights RRC's operational beat, guidance raise, and tax-driven cash flow benefit",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Stock Rating            Equal Weight          Good operational update with capex beating consensus and volumes in line. RRC\nIndustry View           Positive              raised its FY production guide marginally on slightly lower capex, while taking up\n                                              low end of NGL realizations guide. 2027 cash flow should benefit by ~$100MM from\nPrice Target            USD 44.00\n                                              lower cash tax post OBBBA passage.\nPrice (22 Jul 2025)     USD 35.65\nEPS FY1 (E)             3.40                  View full report on Barclays Live                               Back to Top\nEPS FY2 (E)             4.95\nMarket Cap (USD bn)     8.5194\nTicker                  RRC",
+        "key_insight": "RRC beat 2Q25 forecasts with capex above consensus, marginally raised its FY production guide, and expects ~$100MM 2027 cash flow benefit from lower cash tax"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – RRC 2Q25 Beat; Positive Tweaks to 2025",
+      "target": "RRC 2027 Cash Flow Benefit",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 100,
+        "unit": "USD mm",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights RRC expects 2027 cash flow benefit of USD100MM"
+    }
+  ],
+  "scenarios": []
+}

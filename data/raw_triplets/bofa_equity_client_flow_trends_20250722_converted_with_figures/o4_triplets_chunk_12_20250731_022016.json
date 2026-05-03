@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Equity flows: Energy sector cumulative flows 2017-2024",
+      "type": "Table",
+      "brief": "Cumulative ETF and single stock flows for Energy",
+      "description": "Shows divergence between ETF and single stock cumulative flows in Energy sector from 2017 to late 2024",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Cumulative ETF Flows ($mn) | Cumulative Single Stock Flows ($mn) |\n|---|---|---|\n| Jan 2017 | 0 | 0 |\n| Jul 2017 | 700 | -2000 |\n| Jan 2018 | 2500 | -1000 |\n| Jul 2019 | 3500 | 0 |\n| Jan 2020 | 4000 | -5000 |\n| Jul 2021 | 6000 | -4500 |\n| Jan 2022 | 5500 | -8000 |\n| Jul 2023 | 4800 | -6000 |\n| Jan 2024 | 4500 | -5500 |\n| End 2024 | 4000 | -5000 |",
+        "key_insight": "ETF cumulative flows peaked at ~$6,000mn in mid-2021 then declined to ~$4,000mn by late 2024, while single stock flows trough at -$8,000mn in early 2022 and recovered to -$5,000mn by late 2024."
+      }
+    },
+    {
+      "name": "Equity flows Energy ETF cumulative peak",
+      "type": "Metric",
+      "brief": "Peak ETF cumulative flow in Energy sector",
+      "description": "Highest cumulative ETF inflow of Energy sector around mid-2021",
+      "properties": {
+        "unit": "USD mn",
+        "value": 6000,
+        "as_of": "2021-06"
+      }
+    },
+    {
+      "name": "Equity flows Energy single stock cumulative trough",
+      "type": "Metric",
+      "brief": "Trough single stock cumulative flow in Energy sector",
+      "description": "Lowest cumulative single stock flow of Energy sector around early 2022",
+      "properties": {
+        "unit": "USD mn",
+        "value": -8000,
+        "as_of": "2022-01"
+      }
+    },
+    {
+      "name": "Table T2 – Equity flows: Financials sector cumulative flows 2016-2024",
+      "type": "Table",
+      "brief": "Cumulative ETF and single stock flows for Financials",
+      "description": "Shows divergence with strong single stock inflows versus flat-to-negative ETF flows in Financials sector from 2016 to 2024",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Single Stock Cumulative Flow ($mn) | ETF Cumulative Flow ($mn) |\n|------|------------------------------------|---------------------------|\n| 2016 | -2000 | 0 |\n| 2017 | 2000 | 500 |\n| 2018 | 18000 | 1500 |\n| 2019 | 35000 | 2500 |\n| 2020 | 40000 | 2000 |\n| 2021 | 48000 | 1000 |\n| 2022 | 47000 | 500 |\n| 2023 | 45000 | 0 |\n| 2024 | 50000 | -1000 |",
+        "key_insight": "Single stock flows in Financials rose steadily to ~$50,000mn by 2024, while ETF flows remained near zero and turned slightly negative by end-2024."
+      }
+    },
+    {
+      "name": "Equity flows Financials single stock cumulative 2024",
+      "type": "Metric",
+      "brief": "End-2024 single stock cumulative flow in Financials",
+      "description": "Cumulative single stock flow in Financials sector by end-2024",
+      "properties": {
+        "unit": "USD mn",
+        "value": 50000,
+        "as_of": "2024-12"
+      }
+    },
+    {
+      "name": "Equity flows Financials ETF cumulative end-2024",
+      "type": "Metric",
+      "brief": "End-2024 ETF cumulative flow in Financials",
+      "description": "Cumulative ETF flow in Financials sector by end-2024",
+      "properties": {
+        "unit": "USD mn",
+        "value": -1000,
+        "as_of": "2024-12"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Equity flows: Energy sector cumulative flows 2017-2024",
+      "target": "Equity flows Energy ETF cumulative peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 6000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Energy ETF peak cumulative flows"
+    },
+    {
+      "source": "Table T1 – Equity flows: Energy sector cumulative flows 2017-2024",
+      "target": "Equity flows Energy single stock cumulative trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -8000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Energy single stock trough cumulative flows"
+    },
+    {
+      "source": "Table T2 – Equity flows: Financials sector cumulative flows 2016-2024",
+      "target": "Equity flows Financials single stock cumulative 2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 50000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Financials single stock cumulative flows"
+    },
+    {
+      "source": "Table T2 – Equity flows: Financials sector cumulative flows 2016-2024",
+      "target": "Equity flows Financials ETF cumulative end-2024",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -1000,
+        "unit": "USD mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Financials ETF cumulative flows"
+    }
+  ],
+  "scenarios": []
+}

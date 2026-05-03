@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "name": "Alsea SAB de CV",
+      "type": "Company",
+      "brief": "Mexican restaurant operator posted solid 2Q25 sales and EBITDA beat",
+      "description": "Posted in-line sales across all regions with 5% EBITDA beat and FX tailwinds",
+      "properties": {
+        "ticker": "ALSEA.MX",
+        "sector": "Consumer",
+        "market_cap_MXNbn": 38.4092,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Alsea Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Alsea SAB de CV",
+      "description": "Barclays sets price target reflecting updated financial outlook",
+      "properties": {
+        "value": 50.0,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea Stock Price",
+      "type": "Metric",
+      "brief": "Share price on report date",
+      "description": "Stock traded at MXN 47.81 on 2025-07-22",
+      "properties": {
+        "value": 47.81,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea EPS FY1",
+      "type": "Metric",
+      "brief": "2026 EPS estimate for Alsea",
+      "description": "Earnings per share estimate for fiscal year 1 by Barclays",
+      "properties": {
+        "value": 3.18,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Alsea EPS FY2",
+      "type": "Metric",
+      "brief": "2027 EPS estimate for Alsea",
+      "description": "Earnings per share estimate for fiscal year 2 by Barclays",
+      "properties": {
+        "value": 3.86,
+        "unit": "MXN",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston Holdings, Inc.",
+      "type": "Company",
+      "brief": "U.S. food company preparing fiscal 4Q25 earnings",
+      "description": "Below consensus on top/bottom line for FY26, conservative guide rebuilds credibility",
+      "properties": {
+        "ticker": "LW",
+        "sector": "U.S. Food",
+        "market_cap_USDbn": 6.9387,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "Lamb Weston Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target for Lamb Weston",
+      "description": "Barclays sets price target at USD 61.00",
+      "properties": {
+        "value": 61.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston Stock Price",
+      "type": "Metric",
+      "brief": "Share price on report date",
+      "description": "Stock traded at USD 49.17 on 2025-07-22",
+      "properties": {
+        "value": 49.17,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston EPS FY1",
+      "type": "Metric",
+      "brief": "2026 EPS estimate for Lamb Weston",
+      "description": "Earnings per share estimate for fiscal year 1 by Barclays",
+      "properties": {
+        "value": 3.09,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Lamb Weston EPS FY2",
+      "type": "Metric",
+      "brief": "2027 EPS estimate for Lamb Weston",
+      "description": "Earnings per share estimate for fiscal year 2 by Barclays",
+      "properties": {
+        "value": 3.34,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds price target of MXN 50.00"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds stock price of MXN 47.81 as of report date"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea EPS FY1",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY1 EPS estimate of 3.18 MXN"
+    },
+    {
+      "source": "Alsea SAB de CV",
+      "target": "Alsea EPS FY2",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY2 EPS estimate of 3.86 MXN"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds price target of USD 61.00"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds stock price of USD 49.17 as of report date"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston EPS FY1",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY1 EPS estimate of 3.09 USD"
+    },
+    {
+      "source": "Lamb Weston Holdings, Inc.",
+      "target": "Lamb Weston EPS FY2",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Company holds FY2 EPS estimate of 3.34 USD"
+    }
+  ],
+  "scenarios": []
+}

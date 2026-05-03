@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Equity inflows resurgence: Large cap net buys (4-week avg)",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net equity flows for large caps",
+      "description": "Shows net buys from 2008 to mid-2025, highlighting peak flows and recent downturn",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date/Period | Net Buys (Mn $) |\n|---|---|\n| 2008 Early | -$1,000 |\n| 2008 Late | -$1,500 |\n| 2009 Mid | $1,500 |\n| 2010 Early | $500 |\n| 2011 Early | -$1,000 |\n| 2012 Mid | $800 |\n| 2013 Late | $1,000 |\n| 2014 Mid | -$500 |\n| 2015 Mid | $1,000 |\n| 2016 Early | -$1,500 |\n| 2017 Mid | $1,500 |\n| 2018 Early | $2,000 |\n| 2018 Late | $3,000 |\n| 2019 Mid | $2,500 |\n| 2020 Q1 | $3,000 |\n| 2020 Q2 | -$1,000 |\n| 2020 Q4 | $2,000 |\n| 2021 Q1 | $4,500 |\n| 2021 Q4 | $1,000 |\n| 2022 Q1 | -$1,500 |\n| 2022 Q3 | $4,000 |\n| 2023 Q1 | $3,000 |\n| 2023 Q4 | $4,000 |\n| 2024 Q1 | $4,000 |\n| 2024 Q2 | $6,000 |\n| 2024 Q4 | $7,000 |\n| 2025 Q1 | $7,000 |\n| 2025 Q2 | $2,000 |\n| 2025 Latest | -$500 |",
+        "key_insight": "Large-cap net buys rose steadily from 2018, peaking around $7,000 million in early 2025 before turning negative at -$500 million in mid-2025."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence – Large cap net buys",
+      "type": "Metric",
+      "brief": "4-week avg net buys flipped to -$500M in mid-2025",
+      "description": "Represents the inflection where large-cap net buys turned negative for the first time since March 2025",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "mid-2025",
+        "value": -500
+      }
+    },
+    {
+      "name": "Table T2 – Equity inflows resurgence: Small caps rolling 4-wk avg flows flip positive",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net buys for small caps indicating flip positive",
+      "description": "Shows volatile small-cap flows with sustained positive trend in 2024 and 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Small Cap Net Buys ($ mn) | Observation |\n|---|---|---|\n| 2008 | -200 to +400 | Highly volatile, large initial positive spike, then significant negative flows. |\n| 2009 | -100 to +200 | Mixed flows, moderate positive peaks. |\n| 2010 | -50 to +200 | Generally positive bias, occasional dips. |\n| 2011 | -200 to +100 | Predominantly negative flows. |\n| 2012 | -150 to +150 | Mixed, fluctuating around zero. |\n| 2013 | -100 to +200 | Mixed flows, some positive spikes. |\n| 2014 | -100 to +150 | Mixed, slight positive bias. |\n| 2015 | -200 to +550 | Major peak inflow in mid-year, otherwise mixed to negative. |\n| 2016 | -300 to +150 | Significant outflows, more pronounced negative periods. |\n| 2017 | -150 to +200 | Mixed, with moderate positive spikes. |\n| 2018 | -200 to +100 | Mixed, tending towards net outflows. |\n| 2019 | -150 to +400 | Strong positive spikes, otherwise mixed. |\n| 2020 | -150 to +400 | Strong positive spikes, particularly early in the year, then mixed. |\n| 2021 | -200 to +400 | Significant positive spikes, some notable outflows. |\n| 2022 | -200 to +200 | Mixed flows, fluctuating around zero. |\n| 2023 | -100 to +250 | Mixed but with more frequent positive flows. |\n| 2024 | -50 to +200 | Shift towards more consistent positive flows. |\n| 2025 | 0 to +200 | Sustained positive flows (\"flip positive\" as per title). |",
+        "key_insight": "Small-cap net buys have shown a sustained positive trend in 2024 and year-to-date 2025, marking a 'flip positive'."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence – Small cap flows flip positive",
+      "type": "Factor",
+      "brief": "Sustained positive small-cap net buys in 2024–25",
+      "description": "Small-cap net buys flipped positive in 2024 and remained positive through mid-2025",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T3 – Equity inflows resurgence: Mid caps rolling 4-wk avg outflows for four consecutive weeks",
+      "type": "Table",
+      "brief": "Rolling 4-week avg net buys for mid caps showing persistent outflows",
+      "description": "Highlights mid-cap peaks and sustained outflows up to mid-2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year/Period | Mid Cap Net Buys ($ mn) |\n|-------------|-------------------------|\n| 2008        | -200 to 200             |\n| Early 2009  | -600                    |\n| Mid 2009    | 200                     |\n| Late 2010   | -300                    |\n| Late 2011   | -400                    |\n| Late 2012   | 600                     |\n| Early 2013  | -100                    |\n| Mid 2015    | 500                     |\n| Early 2016  | -400                    |\n| Early 2017  | 500                     |\n| Early 2019  | 500                     |\n| Mid 2020    | 300                     |\n| Early 2021  | 400                     |\n| Early 2022  | 950 (Peak Inflows)      |\n| Late 2022   | -200                    |\n| Early 2023  | -600 (Peak Outflows)    |\n| Late 2023   | 50                      |\n| Early 2024  | -300                   |\n| Mid 2024    | 100                     |\n| Late 2024   | -100                    |\n| Early 2025  | 400                     |\n| Mid 2025    | -250 (Recent Outflows)  |",
+        "key_insight": "Mid-cap net buys peaked near $950mn in early 2022 before flipping to -$600mn in early 2023, and have persisted as outflows for four consecutive weeks through mid-2025."
+      }
+    },
+    {
+      "name": "Equity inflows resurgence – Mid cap persistent outflows",
+      "type": "Factor",
+      "brief": "Mid-cap net buys shifted to outflows through mid-2025",
+      "description": "Mid-cap net buys peaked in early 2022 then turned negative and persisted as outflows through mid-2025",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Equity inflows resurgence: Large cap net buys (4-week avg)",
+      "target": "Equity inflows resurgence – Large cap net buys",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -500,
+        "unit": "USD mn",
+        "non_linear": null
+      },
+      "description": "Table shows large-cap net buys flipped to -$500M in mid-2025"
+    },
+    {
+      "source": "Table T2 – Equity inflows resurgence: Small caps rolling 4-wk avg flows flip positive",
+      "target": "Equity inflows resurgence – Small cap flows flip positive",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Table shows sustained positive small-cap flows in 2024 and mid-2025"
+    },
+    {
+      "source": "Table T3 – Equity inflows resurgence: Mid caps rolling 4-wk avg outflows for four consecutive weeks",
+      "target": "Equity inflows resurgence – Mid cap persistent outflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null
+      },
+      "description": "Table shows persistent mid-cap outflows through mid-2025"
+    }
+  ],
+  "scenarios": []
+}

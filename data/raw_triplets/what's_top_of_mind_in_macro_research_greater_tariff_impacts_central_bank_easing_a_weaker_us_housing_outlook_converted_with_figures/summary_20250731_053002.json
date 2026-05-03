@@ -1,0 +1,45 @@
+{
+  "report": "What's Top of Mind in Macro Research_ Greater tariff impacts, central bank easing, a weaker US housing outlook_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:30:02.780590",
+  "total_chunks": 5,
+  "total_entities": 41,
+  "total_relationships": 23,
+  "total_scenarios": 2,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 6,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_1_20250731_052234.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 12,
+      "relationships": 8,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_2_20250731_052614.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 14,
+      "relationships": 5,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_052749.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 8,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250731_052954.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_053000.json"
+    }
+  ]
+}

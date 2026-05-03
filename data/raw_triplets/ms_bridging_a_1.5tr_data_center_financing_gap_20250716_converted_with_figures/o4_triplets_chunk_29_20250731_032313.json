@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "Data Center ABS – GPU ABS securitization",
+      "type": "Instrument",
+      "brief": "GPU lease-backed ABS instrument",
+      "description": "Amortizing ABS structure backed by GPU hardware leases",
+      "properties": {
+        "position": "amortizing",
+        "min_maturity_years": 4,
+        "max_maturity_years": 8
+      }
+    },
+    {
+      "name": "Data Center ABS – data center ABS securitization",
+      "type": "Instrument",
+      "brief": "Data center lease-backed ABS instrument",
+      "description": "Non-amortizing ABS issuance backed by long-lived data center assets",
+      "properties": {
+        "position": "non-amortizing",
+        "min_maturity_years": 20
+      }
+    },
+    {
+      "name": "Data Center ABS – chip useful shelf life",
+      "type": "Metric",
+      "brief": "Useful lifespan of GPU chips",
+      "description": "Determines amortization period for GPU ABS structures",
+      "properties": {
+        "unit": "years",
+        "min": 4,
+        "max": 8,
+        "as_of": "present"
+      }
+    },
+    {
+      "name": "Data Center ABS – data center useful life",
+      "type": "Metric",
+      "brief": "Typical lifespan of data center assets",
+      "description": "Informs maturity profile of data center ABS issuances",
+      "properties": {
+        "unit": "years",
+        "min": 20,
+        "as_of": "present"
+      }
+    },
+    {
+      "name": "Data Center ABS – average ABS market financing cost",
+      "type": "Metric",
+      "brief": "Average ABS issuer cost of capital",
+      "description": "Average financing cost for ABS issuers since 2022",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Data Center ABS – USD IG debt coupon rate",
+      "type": "Metric",
+      "brief": "4-7 year USD IG debt coupon range",
+      "description": "Benchmark coupon rates for investment-grade corporate debt",
+      "properties": {
+        "unit": "%",
+        "min": 4,
+        "max": 7,
+        "as_of": "4-7y"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center ABS – chip useful shelf life",
+      "target": "Data Center ABS – GPU ABS securitization",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Chip shelf life triggers amortizing structure of GPU ABS"
+    },
+    {
+      "source": "Data Center ABS – data center useful life",
+      "target": "Data Center ABS – data center ABS securitization",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Long data center life triggers non-amortizing ABS structure"
+    },
+    {
+      "source": "Data Center ABS – average ABS market financing cost",
+      "target": "Data Center ABS – USD IG debt coupon rate",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "ABS financing cost comparable to 4-7y USD IG debt coupons"
+    }
+  ],
+  "scenarios": []
+}

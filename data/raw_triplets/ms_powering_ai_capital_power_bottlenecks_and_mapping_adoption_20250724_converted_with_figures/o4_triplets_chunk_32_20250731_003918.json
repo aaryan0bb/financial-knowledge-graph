@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+      "type": "Event",
+      "brief": "230 KV transmission line fault causing data center load loss",
+      "description": "Lightning arrestor failure locked out a 230 KV line, leading to significant data center load disruption",
+      "properties": {
+        "date": "2024-07-10",
+        "event_type": "transmission_line_fault",
+        "impact_value": 1500,
+        "unit": "MW",
+        "region": "Eastern Interconnection"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "type": "Metric",
+      "brief": "Simultaneous loss of voltage-sensitive data center load",
+      "description": "Approximately 1,500 MW of voltage-sensitive data center load tripped offline during the 230 KV line fault",
+      "properties": {
+        "value": 1500,
+        "unit": "MW",
+        "as_of": "2024-07-10"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Voltage Rise Risk",
+      "type": "Factor",
+      "brief": "Rapid voltage increases on the Bulk Electric System",
+      "description": "Large load losses can cause voltage to increase rapidly, posing reliability risks",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure - Frequency Rise Risk",
+      "type": "Factor",
+      "brief": "System frequency increases due to imbalance of load and generation",
+      "description": "Large, simultaneous load losses can lead to frequency rises on the system",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+      "target": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 1500,
+        "unit": "MW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fault triggered simultaneous 1,500 MW voltage-sensitive load loss"
+    },
+    {
+      "source": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "target": "Data Center Infrastructure - Voltage Rise Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss causes rapid voltage increases on the system"
+    },
+    {
+      "source": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+      "target": "Data Center Infrastructure - Frequency Rise Risk",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Load loss leads to system frequency rises due to imbalance"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+      "probability": 0.72,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "Data Center Infrastructure - 230 KV Transmission Line Fault",
+          "target": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+          "lag_days": 0,
+          "prob": 0.9,
+          "impact_value": 1500,
+          "unit": "MW"
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "Data Center Infrastructure - Voltage-Sensitive Load Loss",
+          "target": "Data Center Infrastructure - Voltage Rise Risk",
+          "lag_days": 0,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

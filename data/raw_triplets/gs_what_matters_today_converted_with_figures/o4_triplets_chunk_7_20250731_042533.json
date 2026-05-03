@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T4 – S&P 500 Inclusion Effect by Stock Origin",
+      "type": "Table",
+      "brief": "Relative performance of S&P 500 index additions vs equal-weight index by origin",
+      "description": "Chart shows variation in announcement-day relative performance for S&P 500 additions based on stock origin since 2013",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Category           | Average Relative Performance (pp) | Median Relative Performance (pp) |\n|--------------------|-----------------------------------|----------------------------------|\n| From S&P 400       | -0.4                              | -0.7                             |\n| Not from S&P 400   | 5.3                               | 4.9                              |\n| All                | 1.7                               | 0.7                              |",
+        "key_insight": "Additions not from the S&P 400 have the highest announcement-day relative performance (5.3 pp average, 4.9 pp median)."
+      }
+    },
+    {
+      "name": "S&P 500 inclusion average relative performance – Not from S&P 400",
+      "type": "Metric",
+      "brief": "Average announcement-day relative performance for Not from S&P 400 additions",
+      "description": "Represents the average excess performance of stocks added to the S&P 500 not from the S&P 400 on announcement day",
+      "properties": {
+        "unit": "pp",
+        "value": 5.3,
+        "as_of": "announcement day since 2013"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T4 – S&P 500 Inclusion Effect by Stock Origin",
+      "target": "S&P 500 inclusion average relative performance – Not from S&P 400",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.3,
+        "unit": "pp",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Not from S&P 400 additions show 5.3 pp average relative performance"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Potential Shortfall in Power for US Data Centers, 2025-28",
+      "type": "Table",
+      "brief": "Illustrates projected power deficit for US data centers",
+      "description": "Waterfall chart showing reductions leading to a 45 GW shortfall from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Component                       | Value (GW) | Cumulative (GW) |\n|---------------------------------|------------|-----------------|\n| US Power Needed, 2025-28        | 65         | 65              |\n| US DCs Under Construction       | -5         | 60              |\n| Available US Grid Capacity      | -15        | 45              |\n| Potential Shortfall             | 45         | 45              |",
+        "key_insight": "US data centers face a projected 45 GW power shortfall from 2025 to 2028."
+      }
+    },
+    {
+      "name": "Data Center Power Shortfall",
+      "type": "Metric",
+      "brief": "Projected power deficit for US data centers",
+      "description": "Estimated unmet power demand of 45 GW for US data centers through 2028",
+      "properties": {
+        "value": 45,
+        "unit": "GW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Grid Constraints",
+      "type": "Factor",
+      "brief": "Grid constraints challenge data center expansion",
+      "description": "92% of survey respondents cite grid constraints as a challenge to data center growth",
+      "properties": {
+        "magnitude_percent": 92
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Potential Shortfall in Power for US Data Centers, 2025-28",
+      "target": "Data Center Power Shortfall",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 45,
+        "unit": "GW",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table quantifies the 45 GW power shortfall informing the power shortfall metric."
+    },
+    {
+      "source": "Data Center Grid Constraints",
+      "target": "Data Center Power Shortfall",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Grid constraints contribute to the power shortfall risk."
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,193 @@
+{
+  "entities": [
+    {
+      "name": "US Equity Speculative Trading Indicator",
+      "type": "Factor",
+      "brief": "Principal component of risky stocks' trading volumes",
+      "description": "Shows high-risk trading activity increases in US equity market",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "US Equity EV/Sales Multiple of Top 50 Volume Stocks",
+      "type": "Metric",
+      "brief": "Median EV/sales of most traded US stocks",
+      "description": "Median EV/sales multiple highlights high-multiple stock trading",
+      "properties": {
+        "unit": "x",
+        "value": 8,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Equity Call Option Share",
+      "type": "Metric",
+      "brief": "Call option share of total option volumes",
+      "description": "Call options accounted for significant share of option trading volumes",
+      "properties": {
+        "unit": "%",
+        "value": 61,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Equity Market Breadth",
+      "type": "Factor",
+      "brief": "Breadth of US equity market",
+      "description": "Market breadth remains extremely narrow, signaling risk",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equity Sentiment Indicator",
+      "type": "Factor",
+      "brief": "Investor positioning indicator for US equities",
+      "description": "Reflects neutral positioning across US equity investors",
+      "properties": {
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "US Equity S&P 500 Index",
+      "type": "Instrument",
+      "brief": "Benchmark index for US equity market",
+      "description": "S&P 500 index spot is at record highs",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "US Equity Market Drawdown",
+      "type": "Event",
+      "brief": "Decline in US equity market value",
+      "description": "Market drawdowns often follow spikes in speculative trading",
+      "properties": {
+        "date": null,
+        "event_type": "market_drawdown",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equity Near-Term Equity Returns",
+      "type": "Factor",
+      "brief": "Short-term US equity returns",
+      "description": "Above-average near-term returns follow sharp speculative spikes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equity Near-Term Volatility",
+      "type": "Factor",
+      "brief": "Short-term volatility in US equities",
+      "description": "Slightly elevated near-term volatility follows speculative spikes",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Near-Term Equity Returns",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Sharp indicator increases signal above-average near-term equity returns"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Near-Term Volatility",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Indicator spikes accompany slightly higher near-term volatility"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Market Drawdown",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Spikes in speculative trading eventually lead to market drawdowns"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Call Option Share",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Indicator rises coincide with call option share surging to 61%"
+    },
+    {
+      "source": "US Equity EV/Sales Multiple of Top 50 Volume Stocks",
+      "target": "US Equity Speculative Trading Indicator",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Median EV/Sales multiple closely tracks the Speculative Trading Indicator"
+    },
+    {
+      "source": "US Equity S&P 500 Index",
+      "target": "US Equity Market Breadth",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Record highs of S&P 500 coincide with narrow market breadth"
+    },
+    {
+      "source": "US Equity Sentiment Indicator",
+      "target": "US Equity Market Breadth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Neutral sentiment amid positioning has resulted in narrow market breadth"
+    }
+  ],
+  "scenarios": []
+}

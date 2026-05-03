@@ -1,0 +1,353 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet Inc.",
+      "type": "Company",
+      "brief": "Parent company of Google and Google Cloud",
+      "description": "Alphabet reported strong Q2 2025 results, significant investments, and ongoing growth in AI and cloud.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology",
+        "market_cap_USDbn": null,
+        "rating_outlook": null
+      }
+    },
+    {
+      "name": "Alphabet Inc. Google Cloud Platform",
+      "type": "Instrument",
+      "brief": "Alphabet's cloud infrastructure product (GCP)",
+      "description": "Reported strong new customer growth and increasing large deal activity in 2Q25.",
+      "properties": {
+        "ticker": null,
+        "notional_growth_qoq_%": 28
+      }
+    },
+    {
+      "name": "Alphabet Inc. Gemini",
+      "type": "Instrument",
+      "brief": "Alphabet's generative AI platform Gemini",
+      "description": "Gemini usage and app traction rising, driving enterprise adoption and app engagement.",
+      "properties": {
+        "monthly_active_users_mn": 450,
+        "yoy_usage_growth_x": 35
+      }
+    },
+    {
+      "name": "Alphabet Inc. Capex",
+      "type": "Metric",
+      "brief": "Capital expenditures for Q2 2025 and FY25",
+      "description": "Capex increased in Q2 2025, with FY25 guide raised and further increases expected in 2026.",
+      "properties": {
+        "value": 22.4,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Capex Guidance",
+      "type": "Metric",
+      "brief": "Raised FY25 capex guidance",
+      "description": "FY25 capex guidance raised to $85bn from $75bn to support infrastructure investment.",
+      "properties": {
+        "value": 85,
+        "unit": "USD bn",
+        "as_of": "FY25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Depreciation Expense Q3'25",
+      "type": "Metric",
+      "brief": "Expected acceleration in depreciation expense",
+      "description": "Depreciation expense growth expected to further accelerate in Q3’25 due to higher capex.",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "3Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Net Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Net revenue for Q2 2025",
+      "description": "Net revenue for Q2 2025 outpaced Street estimates.",
+      "properties": {
+        "value": 81.7,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. GAAP EPS 2Q25",
+      "type": "Metric",
+      "brief": "GAAP EPS for Q2 2025",
+      "description": "Alphabet reported Q2 2025 GAAP EPS; beat market expectations.",
+      "properties": {
+        "value": 2.31,
+        "unit": "USD",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Search Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Search segment revenue Q2 2025",
+      "description": "Q2 2025 search revenue up 12% y/y, driven by retail/financial verticals.",
+      "properties": {
+        "value": 54.2,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Subscriptions, Platforms, and Devices Revenue 2Q25",
+      "type": "Metric",
+      "brief": "SPD revenue in Q2 2025",
+      "description": "SPD revenue rose 20% y/y, outpacing consensus, led by YouTube and Google One.",
+      "properties": {
+        "value": 11.2,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Cloud Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Cloud revenue Q2 2025",
+      "description": "Cloud revenue beat, up 32% y/y; operating margin increased from prior year.",
+      "properties": {
+        "value": 13.6,
+        "unit": "USD bn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Cloud Backlog 2Q25",
+      "type": "Metric",
+      "brief": "Cloud business contracted backlog Q2 2025",
+      "description": "Cloud backlog up 38% y/y to $106bn, reflecting long-term committed demand.",
+      "properties": {
+        "value": 106,
+        "unit": "USD bn",
+        "yoy_growth_%": 38,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Cloud Operating Income 2Q25",
+      "type": "Metric",
+      "brief": "Google Cloud segment operating income",
+      "description": "Cloud operating income rose to $2.8bn with a margin increase.",
+      "properties": {
+        "value": 2.8,
+        "unit": "USD bn",
+        "margin_%": 20.7,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Large Cloud Deals 2Q25",
+      "type": "Metric",
+      "brief": "Volume of large ($250mn+) cloud deals",
+      "description": "$250mn+ cloud deals doubled y/y in Q2 2025, signifying enterprise adoption.",
+      "properties": {
+        "growth_yoy_x": 2,
+        "threshold_value": 250,
+        "threshold_unit": "USD mn",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Gemini App Monthly Active Users 2Q25",
+      "type": "Metric",
+      "brief": "Gemini app users as of Q2 2025",
+      "description": "Gemini app exceeded 450mn monthly active users, up from 400mn in May.",
+      "properties": {
+        "value": 450,
+        "unit": "mn users",
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Gemini App Daily Requests Growth Q2",
+      "type": "Metric",
+      "brief": "Gemini app daily usage growth from Q1 to Q2 2025",
+      "description": "Gemini app daily requests grew over 50% since Q1, reflecting increased engagement.",
+      "properties": {
+        "growth_since_Q1_%": 50,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. AI Overviews Query Uplift 2Q25",
+      "type": "Metric",
+      "brief": "AI Overviews impact on search queries",
+      "description": "AI Overviews now drive over 10% more queries globally for shown query types.",
+      "properties": {
+        "uplift_%": 10,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Ad Conversions via AI Max",
+      "type": "Metric",
+      "brief": "Ad conversion uplift from AI Max usage",
+      "description": "Advertisers using AI Max in Search see 14% more conversions.",
+      "properties": {
+        "uplift_%": 14,
+        "as_of": "2Q25"
+      }
+    },
+    {
+      "name": "Alphabet Inc. Ad Conversions via Smart Bidding Exploration",
+      "type": "Metric",
+      "brief": "Ad conversion uplift via Smart Bidding Exploration",
+      "description": "Smart Bidding Exploration yields 19% higher conversions for advertisers.",
+      "properties": {
+        "uplift_%": 19,
+        "as_of": "2Q25"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Inc. Gemini",
+      "target": "Alphabet Inc. Gemini App Monthly Active Users 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 450,
+        "unit": "mn users",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Gemini helps drive 450mn monthly active users for Gemini app."
+    },
+    {
+      "source": "Alphabet Inc. Gemini",
+      "target": "Alphabet Inc. Gemini App Daily Requests Growth Q2",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 50,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Gemini app daily requests grew over 50% since Q1."
+    },
+    {
+      "source": "Alphabet Inc. Google Cloud Platform",
+      "target": "Alphabet Inc. Cloud Revenue 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 13.6,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Google Cloud Platform contributes strongly to cloud revenue."
+    },
+    {
+      "source": "Alphabet Inc. Capex",
+      "target": "Alphabet Inc. Depreciation Expense Q3'25",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 90,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Higher capex investments expected to accelerate depreciation in Q3’25."
+    },
+    {
+      "source": "Alphabet Inc. Capex Guidance",
+      "target": "Alphabet Inc. Capex",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 85,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Raised capex guidance impacts forecasted capex for FY25."
+    },
+    {
+      "source": "Alphabet Inc. AI Overviews Query Uplift 2Q25",
+      "target": "Alphabet Inc. Search Revenue 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Overviews driving higher search queries supports search revenue uplift."
+    },
+    {
+      "source": "Alphabet Inc. Ad Conversions via AI Max",
+      "target": "Alphabet Inc. Net Revenue 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 14,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "AI Max campaigns increase ad conversions, supporting revenue growth."
+    },
+    {
+      "source": "Alphabet Inc. Ad Conversions via Smart Bidding Exploration",
+      "target": "Alphabet Inc. Net Revenue 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Smart Bidding Exploration lifts ad conversions, benefitting revenue."
+    },
+    {
+      "source": "Alphabet Inc. Gemini",
+      "target": "Alphabet Inc. Subscriptions, Platforms, and Devices Revenue 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Gemini drives SPD revenue growth in Q2 2025."
+    },
+    {
+      "source": "Alphabet Inc. Cloud Backlog 2Q25",
+      "target": "Alphabet Inc. Cloud Revenue 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 106,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Cloud backlog signals future committed revenue."
+    }
+  ],
+  "scenarios": []
+}

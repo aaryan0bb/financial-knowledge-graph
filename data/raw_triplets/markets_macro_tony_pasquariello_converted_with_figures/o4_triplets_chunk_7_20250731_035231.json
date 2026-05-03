@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "Table T16 – US Equities Power Up America Basket Performance",
+      "type": "Table",
+      "brief": "Performance of 'Power Up America' basket over Aug 2024–Jul 2025",
+      "description": "Displays index and moving averages, highlighting peak, trough, and nine-week rally",
+      "properties": {
+        "table_id": "T16",
+        "table_content": "| Date                  | GSCBMSAL Index | Purple MA | Green MA | Yellow MA |\n|-----------------------|----------------|-----------|----------|-----------|\n| Aug 2024              | ~175           | ~170      | ~165     | ~160      |\n| Sep 2024              | ~185           | ~180      | ~175     | ~170      |\n| Oct 2024              | ~195           | ~190      | ~185     | ~175      |\n| Nov 2024              | ~205           | ~200      | ~195     | ~180      |\n| Dec 2024              | ~210           | ~205      | ~200     | ~185      |\n| Jan 2025              | ~220           | ~215      | ~205     | ~190      |\n| Early Feb 2025 (Peak) | ~230           | ~220      | ~215     | ~195      |\n| Mid Feb 2025          | ~200           | ~215      | ~210     | ~195      |\n| Mar 2025              | ~160           | ~190      | ~180     | ~190      |\n| Early Apr 2025 (Trough) | ~140         | ~165      | ~155     | ~185      |\n| May 2025              | ~175           | ~160      | ~155     | ~180      |\n| Jun 2025              | ~205           | ~185      | ~175     | ~185      |\n| Early Jul 2025        | ~220           | ~200      | ~190     | ~188      |\n| Jul 25, 2025 (Current) | 226.24        | 207.63    | 196.96   | 188.63    |",
+        "key_insight": "The basket peaked around Feb 2025 at ~230, declined to ~140 by early April, then rallied nine consecutive weeks to 226.24"
+      }
+    },
+    {
+      "name": "US Equities GSCBMSAL Index",
+      "type": "Instrument",
+      "brief": "Basket of popular shorted stocks",
+      "description": "Index tracking performance of heavily shorted stocks",
+      "properties": {
+        "ticker": "GSCBMSAL Index",
+        "current_value": 226.24,
+        "unit": "indexPts"
+      }
+    },
+    {
+      "name": "US Equities Recent nine-week rally",
+      "type": "Factor",
+      "brief": "Index up nine consecutive weeks",
+      "description": "GSCBMSAL Index has gained for nine straight weeks",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 63
+      }
+    },
+    {
+      "name": "US Equities Potential short squeeze",
+      "type": "Event",
+      "brief": "Possible short squeeze scenario",
+      "description": "Sustained rally may trigger a short squeeze on popular shorts",
+      "properties": {
+        "date": null,
+        "event_type": "short_squeeze",
+        "affected_tickers": [
+          "GSCBMSAL Index"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T16 – US Equities Power Up America Basket Performance",
+      "target": "US Equities GSCBMSAL Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 226.24,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights index peak, trough, and nine-week rally to 226.24"
+    },
+    {
+      "source": "US Equities Recent nine-week rally",
+      "target": "US Equities Potential short squeeze",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Sustained rally could trigger a short squeeze scenario"
+    }
+  ],
+  "scenarios": []
+}

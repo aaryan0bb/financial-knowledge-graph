@@ -1,0 +1,80 @@
+{
+  "report": "GS Global Equities Call_converted_with_figures.txt",
+  "timestamp": "2025-07-31T04:44:35.047120",
+  "total_chunks": 10,
+  "total_entities": 92,
+  "total_relationships": 50,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 8,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_043037.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 0,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_043046.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 9,
+      "relationships": 7,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_043151.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 3,
+      "relationships": 7,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_4_20250731_043424.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 3,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250731_043528.json"
+    },
+    {
+      "chunk": "chunk_6",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_6_20250731_043620.json"
+    },
+    {
+      "chunk": "chunk_7",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_7_20250731_043732.json"
+    },
+    {
+      "chunk": "chunk_8",
+      "entities": 61,
+      "relationships": 31,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_8_20250731_044130.json"
+    },
+    {
+      "chunk": "chunk_9",
+      "entities": 2,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_9_20250731_044320.json"
+    },
+    {
+      "chunk": "chunk_10",
+      "entities": 2,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_10_20250731_044433.json"
+    }
+  ]
+}

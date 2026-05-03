@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "US Equity Market – Speculative Trading Indicator Spike",
+      "type": "Factor",
+      "brief": "Sharp rise in speculative trading",
+      "description": "Marked increase in speculative trading activity indicating market extremes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – S&P 500 Return Comparison by Horizon",
+      "type": "Table",
+      "brief": "Comparison of S&P 500 returns across time horizons",
+      "description": "Compares unconditional returns with those after spikes in speculative trading",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Horizon | Unconditional Return | Return After Speculative Increase (N=21) |\n|---------|----------------------|------------------------------------------|\n| 3m      | 2%                   | 4%                                       |\n| 6m      | 4%                   | 7%                                       |\n| 12m     | 8%                   | 12%                                      |\n| 24m     | 16%                  | 7%                                       |\n| 36m     | 24%                  | 6%                                       |",
+        "key_insight": "Sharp increases in speculative trading link to higher short-term but lower long-term S&P 500 returns."
+      }
+    },
+    {
+      "name": "US Equity Market – S&P 500 Return Following Speculative Spike at 12m",
+      "type": "Metric",
+      "brief": "12-month S&P 500 return after speculative trading spike",
+      "description": "Average 12-month return of the S&P 500 after spikes in speculative trading",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "as_of": "12m"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – S&P 500 Return Comparison by Horizon",
+      "target": "US Equity Market – S&P 500 Return Following Speculative Spike at 12m",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows 12m returns rise to 12% after speculative trading spikes"
+    },
+    {
+      "source": "US Equity Market – Speculative Trading Indicator Spike",
+      "target": "US Equity Market – S&P 500 Return Following Speculative Spike at 12m",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative trading spikes typically signal higher short-term S&P 500 returns"
+    }
+  ],
+  "scenarios": []
+}

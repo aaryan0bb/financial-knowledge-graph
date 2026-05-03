@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "DataCenter-AssetBasedFinance",
+      "type": "Factor",
+      "brief": "Secured financing by assets' cash flows",
+      "description": "Encompasses secured lending by contractual cash flows, critical for data center financing",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "DataCenter-FinancingLeaseCost",
+      "type": "Metric",
+      "brief": "Annual lease cost as percentage of upfront cost",
+      "description": "Data center lease costs typically range mid- to high-single-digit percent of upfront investment",
+      "properties": {
+        "unit": "%",
+        "min": 7,
+        "max": 10,
+        "as_of": null
+      }
+    },
+    {
+      "name": "Table T1 – DataCenter What is asset-backed finance?",
+      "type": "Table",
+      "brief": "Core attributes of Asset-Based Finance",
+      "description": "Defines ABF's key features: collateral range, growth potential, bespoke IG structures, low correlation to other asset classes",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Core Concept | Key Attribute/Benefit |\n|--------------|-----------------------|\n| ABF          | Wide Collateral Range |\n| ABF          | Huge Growth Potential |\n| ABF          | Bespoke Structures & Potential for IG Rating |\n| ABF          | Low Correlation to Other Asset Classes |",
+        "key_insight": "Asset-Based Finance offers wide collateral range, substantial growth potential, bespoke IG structures, and low correlation to other asset classes."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – DataCenter What is asset-backed finance?",
+      "target": "DataCenter-AssetBasedFinance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table defines the core attributes of Asset-Based Finance"
+    }
+  ],
+  "scenarios": []
+}

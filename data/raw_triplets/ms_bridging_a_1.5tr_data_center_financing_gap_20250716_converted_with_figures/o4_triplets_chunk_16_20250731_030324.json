@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "Data Center Financing – GPU & Custom Silicon Cost per MW 2024",
+      "type": "Metric",
+      "brief": "Cost per MW for GPUs & custom silicon in 2024",
+      "description": "Average capital cost per MW for GPUs & custom silicon in 2024",
+      "properties": {
+        "value": 19.2,
+        "unit": "USD mm/MW",
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "Data Center Financing – GPU & Custom Silicon Cost per MW 2028",
+      "type": "Metric",
+      "brief": "Projected cost per MW for GPUs & custom silicon in 2028",
+      "description": "Estimated average capital cost per MW for GPUs & custom silicon in 2028",
+      "properties": {
+        "value": 13.7,
+        "unit": "USD mm/MW",
+        "as_of": "2028"
+      }
+    },
+    {
+      "name": "Data Center Financing – Power Bottleneck",
+      "type": "Factor",
+      "brief": "Insufficient power capacity risk for data centers",
+      "description": "Risk that insufficient power capacity in the US will limit data center build",
+      "properties": {
+        "driver": "power capacity"
+      }
+    },
+    {
+      "name": "Data Center Financing – US GenAI Workload Share Forecast",
+      "type": "Event",
+      "brief": "Forecast that 55% of GenAI workloads will be in the US",
+      "description": "Estimation that 55% of GenAI workloads will be situated in the US",
+      "properties": {
+        "date": null,
+        "event_type": "forecast",
+        "impact_value": 55,
+        "unit": "%",
+        "region": "US"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Data Center Financing – GPU & Custom Silicon Cost per MW 2024",
+      "target": "Data Center Financing – GPU & Custom Silicon Cost per MW 2028",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -5.5,
+        "unit": "USD mm/MW",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Cost per MW declines by 5.5 USD mm/MW from 2024 to 2028"
+    },
+    {
+      "source": "Data Center Financing – Power Bottleneck",
+      "target": "Data Center Financing – US GenAI Workload Share Forecast",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Power constraints may reduce the share of GenAI workloads in the US"
+    }
+  ],
+  "scenarios": []
+}

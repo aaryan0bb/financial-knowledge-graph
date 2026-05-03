@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Cumulative Flows of China ETFs Jul 2024–Jul 2025",
+      "type": "Table",
+      "brief": "Time-series of cumulative net flows for China ETFs",
+      "description": "Shows volatility and resurgence in investor flows for key China ETF products",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Month | Cumulative Flows ($bn) |\n|---|---|\n| Jul 2024 | -0.5 |\n| Aug 2024 | -2.0 |\n| Sep 2024 | -3.0 |\n| Early Oct 2024 | -3.5 |\n| Late Oct 2024 | +8.5 |\n| Nov 2024 | +5.5 |\n| Dec 2024 | +3.5 |\n| Jan 2025 | +2.8 |\n| Feb 2025 | +3.2 |\n| Mar 2025 | +4.2 |\n| Early Apr 2025 | +4.5 |\n| Late Apr 2025 | +0.5 |\n| May 2025 | +0.6 |\n| Jun 2025 | +0.9 |\n| Jul 2025 | +1.8 |",
+        "key_insight": "Cumulative flows peaked at +$8.5bn in late October 2024, declined to +$0.5bn in April 2025, and recovered to +$1.8bn by July 2025"
+      }
+    },
+    {
+      "name": "China ETF investor interest resurgence",
+      "type": "Factor",
+      "brief": "Renewed investor demand for China ETFs",
+      "description": "Surge in cumulative flows confirms renewed interest from investors",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Cumulative Flows of China ETFs Jul 2024–Jul 2025",
+      "target": "China ETF investor interest resurgence",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs resurgence of China ETF investor interest"
+    }
+  ],
+  "scenarios": []
+}

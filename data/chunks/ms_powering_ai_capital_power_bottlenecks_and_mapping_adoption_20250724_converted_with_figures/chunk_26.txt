@@ -1,0 +1,36 @@
+Morgan Stanley                                                                          July 24, 2025 
+
+GPU Replacement Cycle - Innovation Drives Depreciation Risk 
+
+The cost per unit of                  DC Capital Cost - Dollar per teraFLOPS 
+computational power      $14.00 
+(technically, capital 
+                         $12.00 
+cost divided by 
+
+teraFLOPs) has been      $10.00 
+dropping rapidly; over 
+a 6-year period, we      $8.00 
+
+would expect the 
+                         $6.00 
+capital cost per unit of 
+computational power      $4.00 
+to drop by ~90% 
+                         $2.00 
+                                      1 
+                           $- 
+                                   Hopper        Blackwell       "B+1"         "B+2" 
+
+Source: Morgan Stanley Research                                                                    26 
+
+    | Generation | Capital Cost per TeraFLOP ($) |
+    |---|---|
+    | Hopper | 12.00 |
+    | Blackwell | 6.00 |
+    | "B+1" | 3.00 |
+    | "B+2" | 1.50 |
+
+    Summary: This bar chart, titled "DC Capital Cost - Dollar per teraFLOPS," illustrates the significant decline in the capital cost per unit of computational power across different generations of GPUs. The X-axis categorizes hardware generations from Hopper to projected "B+2," while the Y-axis quantifies the cost in dollars per teraFLOP. A strong downward trend is apparent, with the cost approximately halving from Hopper ($12.00) to Blackwell ($6.00), and continuing to halve through the projected "B+1" ($3.00) and "B+2" ($1.50) generations.
+
+    Explanation: This rapid depreciation in the cost per unit of computational power highlights the "Innovation Drives Depreciation Risk" in data center capital investments. As technology advances, newer GPU generations offer dramatically improved efficiency, making older hardware economically less viable. This trend, however, doesn't necessarily reduce overall data center spend; rather, the context suggests that these cost efficiencies typically enable companies to train increasingly sophisticated AI models, thereby driving higher overall demand for compute despite the lower unit cost.

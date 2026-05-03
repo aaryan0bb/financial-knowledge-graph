@@ -1,0 +1,323 @@
+{
+  "entities": [
+    {
+      "name": "US Equities – S&P 500",
+      "type": "Metric",
+      "brief": "U.S. large-cap equity index",
+      "description": "Benchmark index trading at multi-week highs",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US Equities – Growth/Inflation Tradeoff",
+      "type": "Factor",
+      "brief": "tradeoff between growth and inflation",
+      "description": "Appears unattractive per economic outlook",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities – Retail Investor Risk Appetite",
+      "type": "Factor",
+      "brief": "retail investors hunting risky assets",
+      "description": "Retail investors have become rapacious",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities – Back End Rates",
+      "type": "Factor",
+      "brief": "long-term interest rates",
+      "description": "Back end rates continue to simmer",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities – Bull Market",
+      "type": "Factor",
+      "brief": "ongoing bull market trend",
+      "description": "Primary market trend remains higher",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equities – MSFT Earnings",
+      "type": "Event",
+      "brief": "Microsoft earnings report",
+      "description": "Scheduled next week Wednesday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "MSFT"
+        ]
+      }
+    },
+    {
+      "name": "US Equities – META Earnings",
+      "type": "Event",
+      "brief": "Meta Platforms earnings report",
+      "description": "Scheduled next week Wednesday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "META"
+        ]
+      }
+    },
+    {
+      "name": "US Equities – AMZN Earnings",
+      "type": "Event",
+      "brief": "Amazon earnings report",
+      "description": "Scheduled next week Thursday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "AMZN"
+        ]
+      }
+    },
+    {
+      "name": "US Equities – AAPL Earnings",
+      "type": "Event",
+      "brief": "Apple earnings report",
+      "description": "Scheduled next week Thursday",
+      "properties": {
+        "date": null,
+        "event_type": "earnings",
+        "affected_tickers": [
+          "AAPL"
+        ]
+      }
+    },
+    {
+      "name": "US Equities – FOMC Meeting",
+      "type": "Event",
+      "brief": "Federal Reserve FOMC meeting",
+      "description": "Key Fed meeting with potential dissent",
+      "properties": {
+        "date": null,
+        "event_type": "meeting",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equities – Fed Governors Dissent",
+      "type": "Event",
+      "brief": "Fed governors voting dissent",
+      "description": "First time since 1993 two governors dissent",
+      "properties": {
+        "date": null,
+        "event_type": "dissent",
+        "count": 2
+      }
+    },
+    {
+      "name": "US Equities – US Payrolls Release",
+      "type": "Event",
+      "brief": "U.S. payrolls data release",
+      "description": "Labor market approaching stall speed",
+      "properties": {
+        "date": null,
+        "event_type": "payroll_report",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equities – Tariff Deadline EU",
+      "type": "Event",
+      "brief": "EU tariff deadline",
+      "description": "Deadline with highest stakes",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_deadline",
+        "region": "EU"
+      }
+    },
+    {
+      "name": "US Equities – US Labor Market",
+      "type": "Factor",
+      "brief": "U.S. labor market",
+      "description": "Approaching stall speed",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities – Equity Implied Volatility",
+      "type": "Factor",
+      "brief": "short-dated equity implied volatility",
+      "description": "Has been hammered recently",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities – Interest Rate Implied Volatility",
+      "type": "Factor",
+      "brief": "short-dated rate implied volatility",
+      "description": "Has been hammered recently",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities – Cheap Gamma",
+      "type": "Factor",
+      "brief": "cheap gamma exposure",
+      "description": "Cheap gamma due to low short-dated vol",
+      "properties": {
+        "driver": "volatility_down"
+      }
+    },
+    {
+      "name": "US Equities – NDX Options",
+      "type": "Instrument",
+      "brief": "options on Nasdaq-100 index",
+      "description": "Short-dated options with cheap gamma",
+      "properties": {
+        "ticker": "NDX",
+        "maturity": "short-dated",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Equities – QQQ Options",
+      "type": "Instrument",
+      "brief": "options on QQQ ETF",
+      "description": "Short-dated options with cheap gamma",
+      "properties": {
+        "ticker": "QQQ",
+        "maturity": "short-dated",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Equities – S&P 500 Consolidation Risk",
+      "type": "Factor",
+      "brief": "risk of S&P 500 pullback",
+      "description": "Consolidation due after 15-week rally",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities – Short-Term Risk/Reward Profile",
+      "type": "Factor",
+      "brief": "short-term risk/reward profile",
+      "description": "Risk/reward profile becoming tricky",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equities – S&P 500",
+      "target": "US Equities – S&P 500 Consolidation Risk",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Extended rally likely triggers consolidation risk"
+    },
+    {
+      "source": "US Equities – S&P 500 Consolidation Risk",
+      "target": "US Equities – Short-Term Risk/Reward Profile",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Consolidation risk impacts short-term risk/reward"
+    },
+    {
+      "source": "US Equities – Equity Implied Volatility",
+      "target": "US Equities – Cheap Gamma",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low equity vol causes cheap gamma"
+    },
+    {
+      "source": "US Equities – Interest Rate Implied Volatility",
+      "target": "US Equities – Cheap Gamma",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Low rate vol causes cheap gamma"
+    },
+    {
+      "source": "US Equities – FOMC Meeting",
+      "target": "US Equities – Fed Governors Dissent",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "FOMC meeting likely triggers governors' dissent"
+    },
+    {
+      "source": "US Equities – US Payrolls Release",
+      "target": "US Equities – US Labor Market",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Payrolls release triggers labor market stall"
+    },
+    {
+      "source": "US Equities – Retail Investor Risk Appetite",
+      "target": "US Equities – Short-Term Risk/Reward Profile",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "High retail risk appetite impacts R/R profile"
+    }
+  ],
+  "scenarios": []
+}

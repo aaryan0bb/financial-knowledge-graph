@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "Fiserv Inc.",
+      "type": "Company",
+      "brief": "Global payments technology provider",
+      "description": "Provides financial services technology and processing solutions globally",
+      "properties": {
+        "ticker": "FI"
+      }
+    },
+    {
+      "name": "Fiserv Inc. Q1 FY2025 earnings release",
+      "type": "Event",
+      "brief": "Q1 FY2025 earnings report release",
+      "description": "First quarter FY2025 financial results announcement including performance and guidance",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "FI"
+        ]
+      }
+    },
+    {
+      "name": "Fiserv Inc. adjusted EPS",
+      "type": "Metric",
+      "brief": "Adjusted earnings per share",
+      "description": "Q1 FY2025 adjusted EPS ahead of consensus",
+      "properties": {
+        "value": 2.47,
+        "unit": "USD",
+        "as_of": "Q1FY2025"
+      }
+    },
+    {
+      "name": "Fiserv Inc. organic revenue growth guidance",
+      "type": "Metric",
+      "brief": "FY2025 organic revenue growth guidance",
+      "description": "Fiscal 2025 organic revenue growth guidance revised down to ~10%",
+      "properties": {
+        "value": 10,
+        "unit": "%",
+        "as_of": "FY2025"
+      }
+    },
+    {
+      "name": "Fiserv Inc. adjusted EPS guidance",
+      "type": "Metric",
+      "brief": "FY2025 adjusted EPS guidance",
+      "description": "Fiscal 2025 adjusted EPS guidance increased slightly to $10.15–$10.30",
+      "properties": {
+        "unit": "USD",
+        "as_of": "FY2025",
+        "min": 10.15,
+        "max": 10.3
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fiserv Inc. Q1 FY2025 earnings release",
+      "target": "Fiserv Inc. adjusted EPS",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 2.47,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Earnings release reveals adjusted EPS of $2.47"
+    },
+    {
+      "source": "Fiserv Inc. Q1 FY2025 earnings release",
+      "target": "Fiserv Inc. organic revenue growth guidance",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Earnings release revises organic growth guidance to 10%"
+    }
+  ],
+  "scenarios": []
+}

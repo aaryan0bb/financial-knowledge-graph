@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "name": "US Financial Market – White House AI Action Plan",
+      "type": "Event",
+      "brief": "Policy plan to strengthen AI and semiconductor sector",
+      "description": "US government action plan outlining measures to boost AI infrastructure and semiconductor manufacturing",
+      "properties": {
+        "date": null,
+        "event_type": "action_plan"
+      }
+    },
+    {
+      "name": "US Financial Market – Boost to Domestic Semiconductor Production",
+      "type": "Factor",
+      "brief": "Increased domestic semiconductor manufacturing support",
+      "description": "Policy measures to streamline regulations and drive capital investment in semiconductor fabs and R&D",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – Enhanced Export Controls & Supply Chain Security",
+      "type": "Factor",
+      "brief": "Stricter export controls on semiconductor exports",
+      "description": "Policy to plug supply chain control gaps and protect IP while meeting global AI demand",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – Investment in AI & DC Infrastructure",
+      "type": "Factor",
+      "brief": "Spending on AI datacenters and infrastructure",
+      "description": "Plan to build high-security datacenters and robust AI infrastructure backbone",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – MegaCap Tech Equities",
+      "type": "Factor",
+      "brief": "Long positions in mega cap technology stocks",
+      "description": "Analyst recommendation to take long exposure to mega cap tech equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – Cyclical Equities",
+      "type": "Factor",
+      "brief": "Long positions in cyclical stocks",
+      "description": "Analyst recommendation to take long exposure to cyclical equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – High Beta Plays",
+      "type": "Factor",
+      "brief": "Long positions in high beta assets",
+      "description": "Analyst recommendation to take long exposure to high beta plays",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – Australia Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Australian equities",
+      "description": "Analyst recommendation to take long positions in the Australian equity market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – China Tech Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Chinese tech stocks",
+      "description": "Analyst recommendation to take long positions in China technology equities",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – Japan Equity Market",
+      "type": "Factor",
+      "brief": "Positive outlook on Japanese equities",
+      "description": "Analyst recommendation to take long positions in the Japanese equity market",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – US Outperformance vs RoW",
+      "type": "Factor",
+      "brief": "US expected to outperform rest of world",
+      "description": "Analyst sentiment that US markets will outperform the rest of the world in the near term",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Financial Market – VIX",
+      "type": "Instrument",
+      "brief": "CBOE Volatility Index positions as hedge",
+      "description": "Long positions in VIX or VIX products used to hedge near-term market downside",
+      "properties": {
+        "ticker": "VIX",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market – SPX Put Options",
+      "type": "Instrument",
+      "brief": "Long SPX put options as hedge",
+      "description": "Long SPX put positions recommended for near-term downside protection",
+      "properties": {
+        "ticker": "SPX",
+        "instrument_type": "put",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market – SPX Put Spreads",
+      "type": "Instrument",
+      "brief": "Long SPX put spreads as hedge",
+      "description": "Long SPX put spread positions recommended for near-term downside protection",
+      "properties": {
+        "ticker": "SPX",
+        "instrument_type": "put spread",
+        "position": "long"
+      }
+    },
+    {
+      "name": "US Financial Market – US 10-Year Yield Hit 5%",
+      "type": "Event",
+      "brief": "10-year Treasury yield reached 5%",
+      "description": "US 10-year Treasury yield hit 5% at the end of 2023",
+      "properties": {
+        "date": null,
+        "event_type": "interest_rate_threshold",
+        "impact_value": 5,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US Financial Market – Retail Buying in High Short Interest Stocks",
+      "type": "Factor",
+      "brief": "Retail purchases in high short interest stocks",
+      "description": "Retail buying in high short interest equities has recovered to neutral or slightly positive levels",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Financial Market – White House AI Action Plan",
+      "target": "US Financial Market – Boost to Domestic Semiconductor Production",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers higher semiconductor production"
+    },
+    {
+      "source": "US Financial Market – White House AI Action Plan",
+      "target": "US Financial Market – Enhanced Export Controls & Supply Chain Security",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers stricter export controls and supply chain security"
+    },
+    {
+      "source": "US Financial Market – White House AI Action Plan",
+      "target": "US Financial Market – Investment in AI & DC Infrastructure",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "AI Action Plan triggers increased AI and datacenter infrastructure investment"
+    },
+    {
+      "source": "US Financial Market – US 10-Year Yield Hit 5%",
+      "target": "US Financial Market – Retail Buying in High Short Interest Stocks",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Yield hitting 5% impacted retail buying in short interest stocks"
+    }
+  ],
+  "scenarios": []
+}

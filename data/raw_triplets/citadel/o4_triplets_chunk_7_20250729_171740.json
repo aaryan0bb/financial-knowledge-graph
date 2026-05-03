@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "Equity Market – Longest Retail Weekly Option Buying Streaks on Record Table",
+      "type": "Table",
+      "brief": "Table of historical retail option buying streaks.",
+      "description": "Shows the seven longest streaks of retail weekly option buying since Jan 2020, including current 12-week streak as of Apr 2025.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Weeks |\n|------|-------|\n| Jan 2020 | 12 |\n| Jul 2020 | 17 |\n| Nov 2020 | 17 |\n| Mar 2021 | 23 |\n| Aug 2021 | 16 |\n| Nov 2023 | 24 |\n| Apr 2025 | 12 |",
+        "key_insight": "Current retail option buying streak reached 12 weeks in April 2025, only the 7th such streak since 2020, with prior average duration at 18 weeks."
+      }
+    },
+    {
+      "name": "Equity Market – Institutional Options Put/Call Direction Ratio by Week Table",
+      "type": "Table",
+      "brief": "Weekly institutional put/call direction ratios Jan–Jul 2025.",
+      "description": "Displays Citadel Securities clients’ weekly put/call ratios from Jan to Jul 2025, emphasizing sustained bearish positioning from May–Jul.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date      | Put/Call Ratio |\n|-----------|----------------|\n| Jan 06    | -13%           |\n| Jan 13    | -8%            |\n| Jan 20    | -13%           |\n| Jan 27    | 7%             |\n| Feb 03    | -28%           |\n| Feb 10    | 12%            |\n| Feb 17    | 13%            |\n| Feb 24    | -12%           |\n| Mar 03    | 3%             |\n| Mar 10    | 21%            |\n| Mar 17    | 5%             |\n| Mar 24    | -23%           |\n| Mar 31    | 14%            |\n| Apr 07    | 9%             |\n| Apr 14    | -5%            |\n| Apr 21    | 15%            |\n| Apr 28    | -9%            |\n| May 05    | -17%           |\n| May 12    | -27%           |\n| May 19    | -10%           |\n| May 26    | -1%            |\n| Jun 02    | 12%            |\n| Jun 09    | -2%            |\n| Jun 16    | -13%           |\n| Jun 23    | -6%            |\n| Jun 30    | -10%           |\n| Jul 07    | -18%           |\n| Jul 14    | -2%            |",
+        "key_insight": "Institutional investors showed persistent bearishness between May and July 2025, as evidenced by the negative put/call direction ratios."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity Market – Longest Retail Weekly Option Buying Streaks on Record Table",
+      "target": "Equity Market – Retail Option Buying Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "weeks",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table reveals a 12-week retail option buying streak as of April 2025."
+    },
+    {
+      "source": "Equity Market – Institutional Options Put/Call Direction Ratio by Week Table",
+      "target": "Equity Market – Institutional Bearish Market Positioning",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -27,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table documents sustained bearish institutional positioning, peaking at -27% in May 2025."
+    }
+  ],
+  "scenarios": []
+}

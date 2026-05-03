@@ -1,0 +1,1674 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 US Equity Market Speculative Trading Components Percentile Ranks",
+      "type": "Table",
+      "brief": "Current percentile rank of speculative trading components since 1990",
+      "description": "Bar chart showing percentile ranks of penny stocks, high EV/sales multiples, unprofitable stocks, and the composite indicator.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Component                               | %ile Rank vs. History since 1990 |\n|-----------------------------------------|----------------------------------|\n| Penny stocks                            | 98%                              |\n| Stocks with EV/sales multiples > 10x    | 96%                              |\n| Unprofitable stocks                     | 85%                              |\n| Speculative Trading Indicator           | 88%                              |",
+        "key_insight": "All components and the composite indicator are at very elevated percentile ranks versus history since 1990."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 US Equity Market Speculative Trading Indicator",
+      "type": "Table",
+      "brief": "Indexed STI values from 1990 to mid-2025",
+      "description": "Line chart data for the Speculative Trading Indicator showing two historical peaks and recent rise.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Speculative Trading Indicator |\n|------|-------------------------------|\n| 1990 | 100                           |\n| 1993 | 90                            |\n| 1996 | 85                            |\n| 1999 | 150                           |\n| Jan 2000 | 210                         |\n| 2001 | 100                           |\n| 2003 | 80                            |\n| 2005 | 70                            |\n| 2007 | 60                            |\n| 2009 | 50                            |\n| 2011 | 60                            |\n| 2013 | 70                            |\n| 2015 | 80                            |\n| 2017 | 75                            |\n| 2019 | 90                            |\n| Early 2020 | 95                        |\n| Mid 2020 | 115                         |\n| Feb 2021 | 195                        |\n| Mid 2021 | 130                         |\n| End 2021 | 90                          |\n| Early 2022 | 75                        |\n| Mid 2022 | 70                          |\n| End 2022 | 80                          |\n| Early 2023 | 90                        |\n| Mid 2023 | 100                         |\n| Early 2024 | 105                       |\n| Mid 2024 | 110                         |\n| Latest (mid-2025) | 115                  |",
+        "key_insight": "The STI peaked around 210 in January 2000 and 195 in February 2021, with the latest reading at 115 in mid-2025."
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Equity Market Institutional Flows vs SPX",
+      "type": "Table",
+      "brief": "Aggregate flows for Long Only and Hedge Funds vs S&P 500",
+      "description": "Chart shows net selling by institutional investors despite SPX rally",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Agg LO (K$) | Agg HF (K$) | SPX Index |\n|---|---|---|---|\n| 1/6/2022 | -10,000 | 1,000 | 4700 |\n| 3/6/2022 | 5,000 | 0 | 4300 |\n| 5/6/2022 | 5,000 | -5,000 | 4100 |\n| 7/6/2022 | -20,000 | -15,000 | 3800 |\n| 9/6/2022 | -35,000 | -18,000 | 3900 |\n| 11/6/2022 | -45,000 | -10,000 | 4200 |\n| 1/6/2023 | -48,000 | -15,000 | 4300 |\n| 3/6/2023 | -45,000 | -10,000 | 4300 |\n| 5/6/2023 | -35,000 | -8,000 | 4500 |\n| 7/6/2023 | -20,000 | -5,000 | 4600 |\n| 9/6/2023 | -25,000 | -8,000 | 4700 |\n| 11/6/2023 | -20,000 | -5,000 | 4900 |\n| 1/6/2024 | -10,000 | 0 | 5300 |\n| 3/6/2024 | -30,000 | -15,000 | 5500 |\n| 5/6/2024 | -40,000 | -25,000 | 5800 |\n| 7/6/2024 | -45,000 | -30,000 | 5500 |\n| 9/6/2024 | -55,000 | -35,000 | 5700 |\n| 11/6/2024 | -45,000 | -25,000 | 6000 |\n| 1/6/2025 | -40,000 | -20,000 | 6000 |\n| 3/6/2025 | -55,000 | -25,000 | 6200 |\n| 5/6/2025 | -50,000 | -30,000 | 6300 |\n| 7/6/2025 | -45,000 | -28,000 | 6400 |\n| End-Jul 2025 | -42,000 | -27,000 | 6480 |",
+        "key_insight": "Both Long Only and Hedge Funds remained net sellers while the SPX rose to record highs by mid-2025."
+      }
+    },
+    {
+      "name": "US Equity Market Institutional Net Selling Trend",
+      "type": "Factor",
+      "brief": "Institutional investors largely net sellers",
+      "description": "Trend of sustained net selling by institutional investors from 2022 to 2025",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Southern Missouri Bancorp",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SMBC"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 QCR Holdings",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "QCRH"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 SL Green Realty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SLG"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 SLM",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SLM"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Synovus",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SNV"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 MSCI",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "MSCI"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Oscar Health",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OSCR"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Nasdaq",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "NDAQ"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Global Payments",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "GPN"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 NuScale Power",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SMR"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Symbotic",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "SYM"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Otis Worldwide",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OTIS"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Norfolk Southern",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "NSC"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Union Pacific",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "UNP"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Dow Inc.",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "DOW"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Teck Resources",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "TECK"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Rollins",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ROL"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Equinor",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "EQNR"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Ovintiv",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "OVV"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Kinder Morgan",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "KMI"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Hess Midstream LP",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "HESM"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Deckers Outdoor",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "DECK"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Church & Dwight",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CHD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Churchill Downs",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CHDN"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Coursera",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "COUR"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Carvana",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "CVNA"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Energizer",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ENR"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Elf Beauty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ELF"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Ulta Beauty",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "ULTAZ"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Lamb Weston",
+      "type": "Company",
+      "brief": "US equity stock",
+      "description": "Broker action indicates analyst sentiment",
+      "properties": {
+        "ticker": "LW"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 SMBC Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $63",
+      "description": "Keefe Bruyette raised SMBC price target from $60 to $63",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 63,
+        "old_target": 60,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 QCR Holdings Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $92",
+      "description": "Keefe Bruyette raised QCR Holdings price target from $90 to $92",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 92,
+        "old_target": 90,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 SL Green Realty Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Scotiabank upgraded SL Green Realty to Outperform from Sector Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Sector Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 SLM Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $43",
+      "description": "Barclays raised SLM price target from $38 to $43",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 43,
+        "old_target": 38,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Synovus Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Equal Weight",
+      "description": "Wells downgraded Synovus to Equal Weight from Overweight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Overweight",
+        "new_rating": "Equal Weight"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 MSCI Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Raymond James upgraded MSCI to Outperform from Market Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Market Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Oscar Health Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded on exchange uncertainty",
+      "description": "Baird downgraded Oscar Health on healthcare exchange uncertainty",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "affected_tickers": [
+          "OSCR"
+        ]
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Nasdaq Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Buy",
+      "description": "UBS upgraded Nasdaq to Buy from Neutral",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Neutral",
+        "new_rating": "Buy"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Nasdaq Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $105",
+      "description": "Deutsche Bank raised Nasdaq price target from $97 to $105",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 105,
+        "old_target": 97,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Global Payments Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Mizuho upgraded Global Payments to Outperform from Neutral",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Neutral",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 NuScale Power Coverage Initiation",
+      "type": "Event",
+      "brief": "Coverage initiated with Neutral rating",
+      "description": "BNP Paribas Exane initiated coverage on NuScale Power with a Neutral rating",
+      "properties": {
+        "date": null,
+        "event_type": "Coverage Initiation",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Symbotic Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Neutral",
+      "description": "Arete downgraded Symbotic to Neutral from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Otis Worldwide Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Peer Perform",
+      "description": "Wolfe Research upgraded Otis Worldwide to Peer Perform from Underperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Underperform",
+        "new_rating": "Peer Perform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Norfolk Southern Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Jefferies downgraded Norfolk Southern to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Union Pacific Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Buy",
+      "description": "Jefferies upgraded Union Pacific to Buy from Hold",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Hold",
+        "new_rating": "Buy"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Dow Inc. Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to In Line",
+      "description": "Evercore ISI downgraded Dow Inc. to In Line from Outperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Outperform",
+        "new_rating": "In Line"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Teck Resources Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Neutral",
+      "description": "JPMorgan downgraded Teck Resources to Neutral from Overweight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Overweight",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Rollins Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $60",
+      "description": "Barclays raised Rollins price target from $55 to $60",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 60,
+        "old_target": 55,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Equinor Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Pareto downgraded Equinor to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Ovintiv Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $57",
+      "description": "Barclays raised Ovintiv price target from $55 to $57",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 57,
+        "old_target": 55,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Kinder Morgan Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Wolfe Research upgraded Kinder Morgan to Outperform from Peer Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Peer Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Hess Midstream LP Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Overweight",
+      "description": "Wells Fargo upgraded Hess Midstream LP to Overweight from Equal Weight",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Equal Weight",
+        "new_rating": "Overweight"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Deckers Outdoor Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $134",
+      "description": "Barclays raised Deckers Outdoor price target from $128 to $134",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 134,
+        "old_target": 128,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Church & Dwight Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $97",
+      "description": "JPMorgan raised Church & Dwight price target from $92 to $97",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 97,
+        "old_target": 92,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Churchill Downs Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $131",
+      "description": "Barclays raised Churchill Downs price target from $127 to $131",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 131,
+        "old_target": 127,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Coursera Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Neutral",
+      "description": "BofA upgraded Coursera to Neutral from Underperform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Underperform",
+        "new_rating": "Neutral"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Carvana Rating Upgrade",
+      "type": "Event",
+      "brief": "Rating upgraded to Outperform",
+      "description": "Oppenheimer upgraded Carvana to Outperform from Perform",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Upgrade",
+        "old_rating": "Perform",
+        "new_rating": "Outperform"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Energizer Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $28",
+      "description": "JPMorgan raised Energizer price target from $27 to $28",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 28,
+        "old_target": 27,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Elf Beauty Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $132",
+      "description": "JPMorgan raised Elf Beauty price target from $123 to $132",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 132,
+        "old_target": 123,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Ulta Beauty Rating Downgrade",
+      "type": "Event",
+      "brief": "Rating downgraded to Hold",
+      "description": "Loop Capital downgraded Ulta Beauty to Hold from Buy",
+      "properties": {
+        "date": null,
+        "event_type": "Rating Downgrade",
+        "old_rating": "Buy",
+        "new_rating": "Hold"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Lamb Weston Price Target Raised",
+      "type": "Event",
+      "brief": "Price target increased to $68",
+      "description": "Barclays raised Lamb Weston price target from $61 to $68",
+      "properties": {
+        "date": null,
+        "event_type": "Price Target Raised",
+        "new_target": 68,
+        "old_target": 61,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Equity Market GS US Quality Pair Index Performance Volatility and Drawdown",
+      "type": "Table",
+      "brief": "Index peaked and then declined sharply",
+      "description": "Performance of GS US Quality Pair Index from Jul 2023 to Jul 2025; peaked at 148.13 in Apr 2024 and declined to 132.84 by Jul 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | GS US Quality Pair Index |\n|-----------|--------------------------|\n| Jul 2023  | 130.13 (Low)             |\n| Aug 2023  | ~135                     |\n| Sep 2023  | ~140                     |\n| Oct 2023  | ~145                     |\n| Nov 2023  | ~137                     |\n| Dec 2023  | ~140                     |\n| Jan 2024  | ~135                     |\n| Feb 2024  | ~140                     |\n| Mar 2024  | ~145                     |\n| Apr 2024  | 148.13 (High)            |\n| May 2024  | ~140                     |\n| Jun 2024  | ~135                     |\n| Jul 2024  | ~132                     |\n| Aug 2024  | ~138                     |\n| Sep 2024  | ~142                     |\n| Oct 2024  | ~140                     |\n| Nov 2024  | ~138                     |\n| Dec 2024  | ~140                     |\n| Jan 2025  | ~144                     |\n| Feb 2025  | ~142                     |\n| Mar 2025  | ~140                     |\n| Apr 2025  | ~145                     |\n| May 2025  | ~142                     |\n| Jun 2025  | ~138                     |\n| Jul 2025  | 132.84 (Last)            |",
+        "key_insight": "GS US Quality Pair Index peaked at 148.13 in April 2024 then declined sharply to 132.84 by July 2025"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Sharp Drawdown in Quality Pair Index",
+      "type": "Factor",
+      "brief": "Sharp drawdown from ~145 to 132.84 in Jul 2025",
+      "description": "Drawdown indicates headwinds for quality assets despite broad market strength",
+      "properties": {
+        "magnitude_indexPts": 12.16,
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equity Market Speculative Trading Activity",
+      "type": "Factor",
+      "brief": "Spike in trades of unprofitable and high-multiple stocks",
+      "description": "Increased speculative trading volumes marked by heightened activity in unprofitable and high-multiple US stocks, echoing past market extremes and posing volatility risks.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Equity Market Key Financial Data for 12 Companies",
+      "type": "Table",
+      "brief": "Earnings watch metrics for 12 companies reporting on July 25, 2025",
+      "description": "Summarizes price, market cap, implied move, positioning score, and YTD performance for 12 companies across sectors ahead of July 25, 2025 earnings.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Ticker | Sector | Price | Market Cap ($M) | Next Report Date | Report Time | Implied Move | Positioning Score** | YTD |\n|--------|------------------|------------|-----------------|------------------|--------------|--------------|--------------------|-----------|\n| BAH    | Industrials      | $109.33    | $13,566M        | 7/25/2025        | Before Open  | 6.8%         | 3                  | -15.05%   |\n| SAIA   | Industrials      | $288.10    | $7,673M         | 7/25/2025        | Before Open  | 11.7%        | 4                  | -36.78%   |\n| LEA    | Industrials      | $104.00    | $5,560M        | 7/25/2025        | Before Open  | 1.9%         | 5                  | 9.82%     |\n| GNTX   | Industrials      | $22.94     | $5,157M        | 7/25/2025        | Before Open  | 3.5%         | 3                  | -20.15%   |\n| WNC    | Industrials      | $9.69      | $406M         | 7/25/2025        | Before Open  | 7.4%         | 2                  | -43.43%   |\n| PSX    | Energy/Utilities | $125.90    | $51,296M       | 7/25/2025        | Before Open  | 2.9%         | 3                  | 10.51%    |\n| POR    | Energy/Utilities | $40.02     | $4,383M        | 7/25/2025        | Before Open  | 3.6%         | 5                  | -8.25%    |\n| FCNCA  | Financials       | $2,123.59  | $27,845M       | 7/25/2025        | Before Open  | 6.0%         | 3                  | 0.50%     |\n| AON    | Financials       | $356.11    | $76,898M       | 7/25/2025        | Before Open  | 3.4%         | 4                  | -0.85%    |\n| CNC    | Healthcare       | $27.95     | $13,908M       | 7/25/2025        | Before Open  | 7.7%         | 2                  | -53.86%   |\n| HCA    | Healthcare       | $361.12    | $86,876M       | 7/25/2025        | Before Open  | 4.4%         | 7                  | 20.31%    |\n| CHTR   | TMT              | $382.08    | $58,496M       | 7/25/2025        | Before Open  | 7.4%         | 3                  | 11.47%    |",
+        "key_insight": "Implied moves span 1.9% to 11.7%, while YTD performance ranges from -53.86% (CNC) to +20.31% (HCA)."
+      }
+    },
+    {
+      "name": "US Equity Speculative Trading Indicator",
+      "type": "Factor",
+      "brief": "Principal component of risky stocks' trading volumes",
+      "description": "Shows high-risk trading activity increases in US equity market",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "US Equity EV/Sales Multiple of Top 50 Volume Stocks",
+      "type": "Metric",
+      "brief": "Median EV/sales of most traded US stocks",
+      "description": "Median EV/sales multiple highlights high-multiple stock trading",
+      "properties": {
+        "unit": "x",
+        "value": 8,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Equity Call Option Share",
+      "type": "Metric",
+      "brief": "Call option share of total option volumes",
+      "description": "Call options accounted for significant share of option trading volumes",
+      "properties": {
+        "unit": "%",
+        "value": 61,
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Equity Market Breadth",
+      "type": "Factor",
+      "brief": "Breadth of US equity market",
+      "description": "Market breadth remains extremely narrow, signaling risk",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equity Sentiment Indicator",
+      "type": "Factor",
+      "brief": "Investor positioning indicator for US equities",
+      "description": "Reflects neutral positioning across US equity investors",
+      "properties": {
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "US Equity S&P 500 Index",
+      "type": "Instrument",
+      "brief": "Benchmark index for US equity market",
+      "description": "S&P 500 index spot is at record highs",
+      "properties": {
+        "ticker": "SPX"
+      }
+    },
+    {
+      "name": "US Equity Market Drawdown",
+      "type": "Event",
+      "brief": "Decline in US equity market value",
+      "description": "Market drawdowns often follow spikes in speculative trading",
+      "properties": {
+        "date": null,
+        "event_type": "market_drawdown",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equity Near-Term Equity Returns",
+      "type": "Factor",
+      "brief": "Short-term US equity returns",
+      "description": "Above-average near-term returns follow sharp speculative spikes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equity Near-Term Volatility",
+      "type": "Factor",
+      "brief": "Short-term volatility in US equities",
+      "description": "Slightly elevated near-term volatility follows speculative spikes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Equity Market GS Global Equities Call",
+      "type": "Event",
+      "brief": "Morning research call covering key market moves",
+      "description": "Goldman Sachs Global Equities Call with focus on futures, yields, FX, and commodity movements",
+      "properties": {
+        "date": "2025-07-25",
+        "event_type": "research_call",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Equity Market SPX futures",
+      "type": "Instrument",
+      "brief": "S&P 500 futures up 11bps",
+      "description": "S&P 500 futures rose by 11 basis points at open",
+      "properties": {
+        "ticker": "SPX futs",
+        "direction": "up",
+        "magnitude_bp": 11
+      }
+    },
+    {
+      "name": "US Equity Market NDX futures",
+      "type": "Instrument",
+      "brief": "Nasdaq-100 futures up 2bps",
+      "description": "Nasdaq-100 futures rose by 2 basis points at open",
+      "properties": {
+        "ticker": "NDX futs",
+        "direction": "up",
+        "magnitude_bp": 2
+      }
+    },
+    {
+      "name": "US Equity Market US 10YR yield",
+      "type": "Instrument",
+      "brief": "10-year U.S. Treasury yield up 1bp to 4.4138%",
+      "description": "U.S. 10-year Treasury yield rose by 1 basis point to 4.4138%",
+      "properties": {
+        "ticker": "10YR",
+        "direction": "up",
+        "magnitude_bp": 1,
+        "price": 4.4138
+      }
+    },
+    {
+      "name": "US Equity Market XBTUSD",
+      "type": "Instrument",
+      "brief": "Bitcoin down 200bps to $116k",
+      "description": "Bitcoin price fell by 200 basis points to $116,000",
+      "properties": {
+        "ticker": "XBTUSD",
+        "direction": "down",
+        "magnitude_bp": 200,
+        "price": 116000
+      }
+    },
+    {
+      "name": "US Equity Market WTI",
+      "type": "Instrument",
+      "brief": "WTI crude up 32bps to $66.24",
+      "description": "WTI crude oil futures rose by 32 basis points to $66.24",
+      "properties": {
+        "ticker": "WTI",
+        "direction": "up",
+        "magnitude_bp": 32,
+        "price": 66.24
+      }
+    },
+    {
+      "name": "US Equity Market Aug 1 Reciprocal Tariffs Deadline",
+      "type": "Event",
+      "brief": "Reciprocal tariffs deadlines on August 1, 2025",
+      "description": "Deadlines for reciprocal tariffs set for August 1, 2025, ahead of US-China trade discussions",
+      "properties": {
+        "date": "2025-08-01",
+        "event_type": "tariffs_deadline",
+        "region": "global"
+      }
+    },
+    {
+      "name": "US Equity Market S&P 500 Next Week Implied Move",
+      "type": "Metric",
+      "brief": "S&P implied move of 1.51% through next Friday",
+      "description": "Market expects a 1.51% move in the S&P 500 by August 1, 2025",
+      "properties": {
+        "value": 1.51,
+        "unit": "%",
+        "as_of": "2025-08-01"
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 Speculative Trading Indicator Spike",
+      "type": "Factor",
+      "brief": "Sharp rise in speculative trading",
+      "description": "Marked increase in speculative trading activity indicating market extremes",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 S&P 500 Return Comparison by Horizon",
+      "type": "Table",
+      "brief": "Comparison of S&P 500 returns across time horizons",
+      "description": "Compares unconditional returns with those after spikes in speculative trading",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Horizon | Unconditional Return | Return After Speculative Increase (N=21) |\n|---------|----------------------|------------------------------------------|\n| 3m      | 2%                   | 4%                                       |\n| 6m      | 4%                   | 7%                                       |\n| 12m     | 8%                   | 12%                                      |\n| 24m     | 16%                  | 7%                                       |\n| 36m     | 24%                  | 6%                                       |",
+        "key_insight": "Sharp increases in speculative trading link to higher short-term but lower long-term S&P 500 returns."
+      }
+    },
+    {
+      "name": "US Equity Market \u2013 S&P 500 Return Following Speculative Spike at 12m",
+      "type": "Metric",
+      "brief": "12-month S&P 500 return after speculative trading spike",
+      "description": "Average 12-month return of the S&P 500 after spikes in speculative trading",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "as_of": "12m"
+      }
+    },
+    {
+      "name": "USEquity \u2013 Boundless Bio Inc.",
+      "type": "Company",
+      "brief": "Biotech company rated Early-Stage",
+      "description": "Boundless Bio Inc. recently received an Early-Stage rating, indicating early development phase",
+      "properties": {
+        "ticker": "BOL",
+        "rating_outlook": "Early-Stage"
+      }
+    },
+    {
+      "name": "USEquity \u2013 Arcutis Biotherapeutics Inc.",
+      "type": "Company",
+      "brief": "Biotherapeutics firm rated Neutral",
+      "description": "Arcutis Biotherapeutics Inc. received a Neutral rating in the latest analyst update",
+      "properties": {
+        "ticker": "ARQ",
+        "rating_outlook": "Neutral"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Penny Stocks Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 98,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Penny stocks at 98th percentile relative to history since 1990."
+    },
+    {
+      "source": "Table T1 \u2013 US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Stocks with EV/sales multiples >10x Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 96,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "High EV/sales multiple stocks at 96th percentile of trading volume."
+    },
+    {
+      "source": "Table T1 \u2013 US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Speculative Trading Indicator Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 88,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Composite indicator at 88th percentile of historical activity."
+    },
+    {
+      "source": "Table T2 \u2013 US Equity Market Speculative Trading Indicator",
+      "target": "US Equity Market Speculative Trading Indicator Peak Jan 2000",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 210,
+        "unit": "indexPts",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows STI peaked at 210 in January 2000."
+    },
+    {
+      "source": "Table T2 \u2013 US Equity Market Speculative Trading Indicator",
+      "target": "US Equity Market Speculative Trading Indicator Peak Feb 2021",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 195,
+        "unit": "indexPts",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows STI peaked at 195 in February 2021."
+    },
+    {
+      "source": "US Equity Market Recent Speculative Activity Increase",
+      "target": "US Equity Market Above-Average Near-Term Equity Returns",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative activity spikes often precede above-average near-term equity returns."
+    },
+    {
+      "source": "US Equity Market Recent Speculative Activity Increase",
+      "target": "US Equity Market Poor Medium-Term Outlook",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative spikes associated with poor medium-term market sustainability."
+    },
+    {
+      "source": "Table T1 \u2013 US Equity Market Institutional Flows vs SPX",
+      "target": "US Equity Market Institutional Net Selling Trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Institutional flows show sustained net selling despite SPX rally"
+    },
+    {
+      "source": "US Equity Market \u2013 SMBC Price Target Raised",
+      "target": "US Equity Market \u2013 Southern Missouri Bancorp",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 3,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $60 to $63"
+    },
+    {
+      "source": "US Equity Market \u2013 QCR Holdings Price Target Raised",
+      "target": "US Equity Market \u2013 QCR Holdings",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $90 to $92"
+    },
+    {
+      "source": "US Equity Market \u2013 SL Green Realty Rating Upgrade",
+      "target": "US Equity Market \u2013 SL Green Realty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Sector Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market \u2013 SLM Price Target Raised",
+      "target": "US Equity Market \u2013 SLM",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $38 to $43"
+    },
+    {
+      "source": "US Equity Market \u2013 Synovus Rating Downgrade",
+      "target": "US Equity Market \u2013 Synovus",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Overweight to Equal Weight"
+    },
+    {
+      "source": "US Equity Market \u2013 MSCI Rating Upgrade",
+      "target": "US Equity Market \u2013 MSCI",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Market Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market \u2013 Oscar Health Rating Downgrade",
+      "target": "US Equity Market \u2013 Oscar Health",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded due to healthcare exchange uncertainty"
+    },
+    {
+      "source": "US Equity Market \u2013 Nasdaq Rating Upgrade",
+      "target": "US Equity Market \u2013 Nasdaq",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Neutral to Buy"
+    },
+    {
+      "source": "US Equity Market \u2013 Nasdaq Price Target Raised",
+      "target": "US Equity Market \u2013 Nasdaq",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 8,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $97 to $105"
+    },
+    {
+      "source": "US Equity Market \u2013 Global Payments Rating Upgrade",
+      "target": "US Equity Market \u2013 Global Payments",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Neutral to Outperform"
+    },
+    {
+      "source": "US Equity Market \u2013 NuScale Power Coverage Initiation",
+      "target": "US Equity Market \u2013 NuScale Power",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Coverage initiated with Neutral rating"
+    },
+    {
+      "source": "US Equity Market \u2013 Symbotic Rating Downgrade",
+      "target": "US Equity Market \u2013 Symbotic",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Neutral"
+    },
+    {
+      "source": "US Equity Market \u2013 Otis Worldwide Rating Upgrade",
+      "target": "US Equity Market \u2013 Otis Worldwide",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Underperform to Peer Perform"
+    },
+    {
+      "source": "US Equity Market \u2013 Norfolk Southern Rating Downgrade",
+      "target": "US Equity Market \u2013 Norfolk Southern",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market \u2013 Union Pacific Rating Upgrade",
+      "target": "US Equity Market \u2013 Union Pacific",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Hold to Buy"
+    },
+    {
+      "source": "US Equity Market \u2013 Dow Inc. Rating Downgrade",
+      "target": "US Equity Market \u2013 Dow Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Outperform to In Line"
+    },
+    {
+      "source": "US Equity Market \u2013 Teck Resources Rating Downgrade",
+      "target": "US Equity Market \u2013 Teck Resources",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Overweight to Neutral"
+    },
+    {
+      "source": "US Equity Market \u2013 Rollins Price Target Raised",
+      "target": "US Equity Market \u2013 Rollins",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $55 to $60"
+    },
+    {
+      "source": "US Equity Market \u2013 Equinor Rating Downgrade",
+      "target": "US Equity Market \u2013 Equinor",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market \u2013 Ovintiv Price Target Raised",
+      "target": "US Equity Market \u2013 Ovintiv",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 2,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $55 to $57"
+    },
+    {
+      "source": "US Equity Market \u2013 Kinder Morgan Rating Upgrade",
+      "target": "US Equity Market \u2013 Kinder Morgan",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Peer Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market \u2013 Hess Midstream LP Rating Upgrade",
+      "target": "US Equity Market \u2013 Hess Midstream LP",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Equal Weight to Overweight"
+    },
+    {
+      "source": "US Equity Market \u2013 Deckers Outdoor Price Target Raised",
+      "target": "US Equity Market \u2013 Deckers Outdoor",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 6,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $128 to $134"
+    },
+    {
+      "source": "US Equity Market \u2013 Church & Dwight Price Target Raised",
+      "target": "US Equity Market \u2013 Church & Dwight",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $92 to $97"
+    },
+    {
+      "source": "US Equity Market \u2013 Churchill Downs Price Target Raised",
+      "target": "US Equity Market \u2013 Churchill Downs",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 4,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $127 to $131"
+    },
+    {
+      "source": "US Equity Market \u2013 Coursera Rating Upgrade",
+      "target": "US Equity Market \u2013 Coursera",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Underperform to Neutral"
+    },
+    {
+      "source": "US Equity Market \u2013 Carvana Rating Upgrade",
+      "target": "US Equity Market \u2013 Carvana",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating upgraded from Perform to Outperform"
+    },
+    {
+      "source": "US Equity Market \u2013 Energizer Price Target Raised",
+      "target": "US Equity Market \u2013 Energizer",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 1,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $27 to $28"
+    },
+    {
+      "source": "US Equity Market \u2013 Elf Beauty Price Target Raised",
+      "target": "US Equity Market \u2013 Elf Beauty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 9,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $123 to $132"
+    },
+    {
+      "source": "US Equity Market \u2013 Ulta Beauty Rating Downgrade",
+      "target": "US Equity Market \u2013 Ulta Beauty",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Rating downgraded from Buy to Hold"
+    },
+    {
+      "source": "US Equity Market \u2013 Lamb Weston Price Target Raised",
+      "target": "US Equity Market \u2013 Lamb Weston",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 7,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Price target raised from $61 to $68"
+    },
+    {
+      "source": "Table T1 \u2013 US Equity Market GS US Quality Pair Index Performance Volatility and Drawdown",
+      "target": "US Equity Market \u2013 Sharp Drawdown in Quality Pair Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 12.16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights sharp drawdown magnitude"
+    },
+    {
+      "source": "Table T1 \u2013 US Equity Market Key Financial Data for 12 Companies",
+      "target": "US Equity Market Speculative Trading Activity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Earnings watch data informs view on speculative trading activity."
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Near-Term Equity Returns",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Sharp indicator increases signal above-average near-term equity returns"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Near-Term Volatility",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Indicator spikes accompany slightly higher near-term volatility"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Market Drawdown",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Spikes in speculative trading eventually lead to market drawdowns"
+    },
+    {
+      "source": "US Equity Speculative Trading Indicator",
+      "target": "US Equity Call Option Share",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Indicator rises coincide with call option share surging to 61%"
+    },
+    {
+      "source": "US Equity EV/Sales Multiple of Top 50 Volume Stocks",
+      "target": "US Equity Speculative Trading Indicator",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Median EV/Sales multiple closely tracks the Speculative Trading Indicator"
+    },
+    {
+      "source": "US Equity S&P 500 Index",
+      "target": "US Equity Market Breadth",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Record highs of S&P 500 coincide with narrow market breadth"
+    },
+    {
+      "source": "US Equity Sentiment Indicator",
+      "target": "US Equity Market Breadth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Neutral sentiment amid positioning has resulted in narrow market breadth"
+    },
+    {
+      "source": "Table T1 \u2013 S&P 500 Return Comparison by Horizon",
+      "target": "US Equity Market \u2013 S&P 500 Return Following Speculative Spike at 12m",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table shows 12m returns rise to 12% after speculative trading spikes"
+    },
+    {
+      "source": "US Equity Market \u2013 Speculative Trading Indicator Spike",
+      "target": "US Equity Market \u2013 S&P 500 Return Following Speculative Spike at 12m",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative trading spikes typically signal higher short-term S&P 500 returns"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/gs_global_equities_call_converted_with_figures"
+}

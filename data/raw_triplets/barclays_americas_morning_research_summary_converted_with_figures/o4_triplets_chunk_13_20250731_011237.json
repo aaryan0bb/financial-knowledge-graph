@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "SYF - Synchrony Financial",
+      "type": "Company",
+      "brief": "2Q25 earnings review: positive credit trends",
+      "description": "Credit conditions in-line with long-term targets and Amazon partnership renewal support loan growth in FY26 and FY27",
+      "properties": {
+        "ticker": "SYF",
+        "market_cap_usd_bn": 26.8972,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "SYF - Positive Credit Trends",
+      "type": "Factor",
+      "brief": "Positive credit trends",
+      "description": "Credit conditions align with long-term targets, supporting BNPL and Walmart partnership-driven growth",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "SYF - Loan Growth FY26-FY27",
+      "type": "Metric",
+      "brief": "Loan growth expected in FY26 and FY27",
+      "description": "Expected increase in loan growth supported by credit trends and partnerships",
+      "properties": {
+        "unit": null,
+        "as_of": "FY26-FY27"
+      }
+    },
+    {
+      "name": "TRV - The Travelers Companies, Inc.",
+      "type": "Company",
+      "brief": "2Q25 call takeaways: cautious underwriting margin outlook",
+      "description": "Strong profitability but anticipated pressure on underwriting margins leads to cautious view of outer-year performance",
+      "properties": {
+        "ticker": "TRV",
+        "market_cap_usd_bn": 60.0612,
+        "rating_outlook": "Equal Weight"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "SYF - Positive Credit Trends",
+      "target": "SYF - Loan Growth FY26-FY27",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Positive credit trends support loan growth in FY26 and FY27"
+    }
+  ],
+  "scenarios": []
+}

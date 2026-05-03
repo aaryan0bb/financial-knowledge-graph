@@ -1,0 +1,208 @@
+{
+  "entities": [
+    {
+      "name": "Barclays - Blink Charging",
+      "type": "Company",
+      "brief": "Electric vehicle charging infrastructure provider",
+      "description": "Operator of charging networks; model update influences outlook",
+      "properties": {
+        "ticker": "BLNK",
+        "sector": "Power & Utilities",
+        "market_cap_USDbn": 0.1192,
+        "rating_outlook": "Equal Weight"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target per share",
+      "description": "2025 target set by Barclays Equity Research",
+      "properties": {
+        "unit": "USD",
+        "value": 1.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Price",
+      "type": "Metric",
+      "brief": "Share price as of report date",
+      "description": "Market price on 22 Jul 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 1.16,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging EPS FY1E",
+      "type": "Metric",
+      "brief": "Forecast FY1 EPS",
+      "description": "Estimated EPS for next fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.64,
+        "as_of": "FY1E"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging EPS FY2E",
+      "type": "Metric",
+      "brief": "Forecast FY2 EPS",
+      "description": "Estimated EPS for second fiscal year",
+      "properties": {
+        "unit": "USD",
+        "value": -0.52,
+        "as_of": "FY2E"
+      }
+    },
+    {
+      "name": "Barclays - Blink Charging Industry View",
+      "type": "Factor",
+      "brief": "Analyst sentiment on industry trends",
+      "description": "Barclays Equity Research views Power & Utilities trends positively",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "positive"
+      }
+    },
+    {
+      "name": "Barclays - US Power & Utilities Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on U.S. Power & Utilities",
+      "description": "Analyst reiterates positive outlook on sector",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "positive"
+      }
+    },
+    {
+      "name": "Barclays - US Power & Utilities P/E Discount",
+      "type": "Factor",
+      "brief": "Sector valuation relative to peers",
+      "description": "Sector now trading at a discount to peers based on P/E",
+      "properties": {
+        "driver": "P/E discount",
+        "magnitude_%": 20
+      }
+    },
+    {
+      "name": "Barclays - UK Food Inflation",
+      "type": "Factor",
+      "brief": "Yearly change in food prices",
+      "description": "Food inflation in UK now over 5%",
+      "properties": {
+        "driver": "Food inflation",
+        "direction": "up",
+        "magnitude_%": 5
+      }
+    },
+    {
+      "name": "Barclays - European Food Retail Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on European food retail",
+      "description": "Industry view for European grocery market is neutral",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "Barclays - European General Retail Industry View",
+      "type": "Factor",
+      "brief": "Sector sentiment on European general retail",
+      "description": "Industry view for European general retail is neutral",
+      "properties": {
+        "driver": "Industry View",
+        "direction": "neutral"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Industry View",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Company sentiment exposure"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company price target"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company share price"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging EPS FY1E",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company FY1 EPS forecast"
+    },
+    {
+      "source": "Barclays - Blink Charging",
+      "target": "Barclays - Blink Charging EPS FY2E",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Company FY2 EPS forecast"
+    },
+    {
+      "source": "Barclays - UK Food Inflation",
+      "target": "Barclays - European Food Retail Industry View",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "Inflation influences neutral view on food retail"
+    }
+  ],
+  "scenarios": []
+}

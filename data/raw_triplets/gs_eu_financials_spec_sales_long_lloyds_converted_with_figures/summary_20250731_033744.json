@@ -1,0 +1,31 @@
+{
+  "report": "GS EU FINANCIALS SPEC SALES- LONG LLOYDS_converted_with_figures.txt",
+  "timestamp": "2025-07-31T03:37:44.828887",
+  "total_chunks": 3,
+  "total_entities": 25,
+  "total_relationships": 16,
+  "total_scenarios": 1,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 8,
+      "relationships": 5,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_033428.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 8,
+      "relationships": 3,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_033551.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 9,
+      "relationships": 8,
+      "scenarios": 1,
+      "file": "o4_triplets_chunk_3_20250731_033742.json"
+    }
+  ]
+}

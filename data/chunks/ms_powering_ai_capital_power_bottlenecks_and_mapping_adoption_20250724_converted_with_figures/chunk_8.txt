@@ -1,0 +1,77 @@
+Morgan Stanley                                                                                               July 24, 2025 
+
+Securitized           Credit Markets to finance $150bn through 2028 
+
+               We see an increasing rate of securitization, from 10% at present growing to 25% by 
+                2028; developers achieve competitive financing costs through securitization 
+
+      Est. Annual Issuance for DC Securitized Credit                   Est. Financing Costs by Market 
+
+                                                                                 -US DC ABS 
+                  ABS Issuance CMBS Issuance 
+       $70                                                        10.00%                HY Corp 4-7y 
+                                                                   9.00% -       -US IG Corp 4-7y, A/BBB 
+       $60 
+                                                                   8.00% 
+
+       $50                                  $25                   7.00% 
+                                                                   6.00% 
+       $40 
+                                                                  5.00% 
+       $bn                         $19 
+       $30                                                        4.00% 
+                                                                   3.00% 
+       $20               $13 
+                                            $37 
+                                                                   2.00% 
+                $7                 $25 
+       $10                                                         1.00% 
+                         $14 
+               $10 
+                                                                   0.00% 
+        $0 
+                                                                         2018 2019 2020 2021   2022 2023 2024 2025 
+               2025     2026      2027      2028 
+
+Source: Intex, Morgan Stanley Research estimates                                                                           8 
+
+    | Year | ABS Issuance ($bn) | CMBS Issuance ($bn) | Total Issuance ($bn) |
+    |------|--------------------|---------------------|----------------------|
+    | 2025 | $10                | $7                  | $17                  |
+    | 2026 | $14                | $13                 | $27                  |
+    | 2027 | $25                | $19                 | $44                  |
+    | 2028 | $37                | $25                 | $62                  |
+
+    Summary: This stacked bar chart, titled "Est. Annual Issuance for DC Securitized Credit," illustrates the projected annual issuance of securitized credit, broken down into ABS (Asset-Backed Securities) and CMBS (Commercial Mortgage-Backed Securities), from 2025 to 2028. The X-axis represents the years, while the Y-axis indicates the issuance volume in billions of dollars. Both ABS and CMBS issuance show a consistent upward trend over the forecast period. Total estimated annual issuance grows significantly, from $17 billion in 2025 to $62 billion in 2028, with ABS consistently forming the larger component of the total.
+
+    Explanation: The chart visualizes Morgan Stanley's projection that securitized credit markets will finance a total of $150 billion through 2028, aligning with the page's overall theme of increasing securitization in data center (DC) financing. This growth is expected to drive the securitization rate from 10% at present to 25% by 2028, providing competitive financing costs for developers with ambitious global growth plans, as further elaborated on page 9.
+
+    | Year | US DC ABS (%) | US HY Corp 4-7y (%) | US IG Corp 4-7y, A/BBB (%) |
+    |------|---------------|---------------------|----------------------------|
+    | 2018 | 4.5           | 7.5                 | 4.1                        |
+    | 2019 | 3.8           | 7.2                 | 3.8                        |
+    | 2020 | 2.5           | 6.7                 | 3.2                        |
+    | 2021 | 3.3           | 5.9                 | 2.0                        |
+    | 2022 | 5.2           | 7.5                 | 4.2                        |
+    | 2023 | 6.6           | 8.8                 | 5.5                        |
+    | 2024 | 5.6           | 8.2                 | 5.1                        |
+    | 2025 | 5.4           | 8.0                 | 5.1                        |
+
+    Summary: This line chart displays the estimated financing costs across three different market segments (US DC ABS, US HY Corp 4-7y, and US IG Corp 4-7y, A/BBB) from 2018 to projected 2025. All three categories show a general decline in financing costs from 2018 to a trough in 2021, followed by a sharp increase reaching a peak in 2023, then a slight moderation towards 2025. US High Yield Corporate debt consistently exhibits the highest financing costs, while US DC ABS and US Investment Grade Corporate debt demonstrate more competitive and often similar cost profiles, particularly around 2019 and 2025.
+
+    Explanation: The chart on "Est. Financing Costs by Market" supports the broader narrative that securitized credit markets are crucial for financing future data center capacity. By comparing US DC ABS costs to traditional corporate debt, the figure illustrates that securitization can offer competitive financing rates, especially when costs are lower than or comparable to Investment Grade corporate debt, thereby incentivizing its increasing adoption by developers seeking efficient capital for growth.
+
+    | Year | US DC ABS | US HY Corp 4-7y | US IG Corp 4-7y, A/BBB |
+    |------|-----------|-----------------|------------------------|
+    | 2018 | 4.5%      | 7.5%            | 4.1%                   |
+    | 2019 | 3.8%      | 7.2%            | 3.7%                   |
+    | 2020 | 2.5%      | 6.7%            | 3.2%                   |
+    | 2021 | 3.3%      | 5.9%            | 2.1%                   |
+    | 2022 | 5.2%      | 7.5%            | 4.3%                   |
+    | 2023 | 6.6%      | 8.8%            | 5.5%                   |
+    | 2024 | 5.7%      | 8.2%            | 5.1%                   |
+    | 2025 | 5.4%      | 8.1%            | 5.2%                   |
+
+    Summary: This line chart displays the Estimated Financing Costs by Market for three different debt types: US DC ABS, US HY Corp 4-7y, and US IG Corp 4-7y, A/BBB, spanning the years 2018 to 2025. The Y-axis represents the financing cost as a percentage (from 0% to 10%), while the X-axis denotes the year. All three categories show a general decline in costs from 2018 to 2021, with US IG Corp reaching a low of 2.1% in 2021, and US DC ABS hitting its lowest at 2.5% in 2020. Subsequently, costs for all types rose sharply into 2023, with US HY Corp peaking at 8.8%, before moderating slightly in 2024 and 2025. US HY Corp consistently maintained the highest financing costs throughout the period.
+
+    Explanation: The chart illustrates the competitive financing costs offered by securitized credit, specifically US Data Center Asset-Backed Securities (DC ABS), in comparison to traditional corporate bonds. While DC ABS costs were initially the lowest, the data shows a convergence or slight crossing with Investment Grade Corporate bond costs in later years, especially after 2021, reflecting broader market interest rate movements. This visual evidence supports the broader narrative on the page that developers achieve competitive financing costs through securitization, even as market dynamics shift.

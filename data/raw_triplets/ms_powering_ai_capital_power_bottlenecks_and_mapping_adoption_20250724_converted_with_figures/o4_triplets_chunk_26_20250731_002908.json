@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "DataCenter AI Infrastructure Innovation Drives Depreciation Risk",
+      "type": "Factor",
+      "brief": "Risk from rapid GPU depreciation due to innovation",
+      "description": "Innovation-driven GPU cost declines increase depreciation risk for data center investments",
+      "properties": {
+        "driver": "innovation",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – DataCenter AI Infrastructure DC Capital Cost - Dollar per teraFLOPS",
+      "type": "Table",
+      "brief": "Capital cost per teraFLOP across GPU generations",
+      "description": "Table shows cost per teraFLOP halving from Hopper to B+2 generations due to GPU innovation",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Generation | Capital Cost per TeraFLOP ($) |\n|---|---|\n| Hopper | 12.00 |\n| Blackwell | 6.00 |\n| \"B+1\" | 3.00 |\n| \"B+2\" | 1.50 |",
+        "key_insight": "Capital cost per teraFLOP halves each generation, from $12 in Hopper to $1.50 in B+2"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – DataCenter AI Infrastructure DC Capital Cost - Dollar per teraFLOPS",
+      "target": "DataCenter AI Infrastructure Innovation Drives Depreciation Risk",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Declining GPU capital costs inform depreciation risk"
+    }
+  ],
+  "scenarios": []
+}

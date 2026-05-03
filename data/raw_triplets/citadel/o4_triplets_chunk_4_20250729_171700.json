@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "Equity S&P 500 Table T1 – July 2025 daily indexed S&P 500 performance",
+      "type": "Table",
+      "brief": "S&P 500 daily indexed performance during July 2025",
+      "description": "Shows the S&P 500 indexed daily values for each day in July 2025, highlighting an early-month rally, mid-month dip, and late-month recovery.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | S&P 500 Index |\n|---|---|\n| Jul 01 | 100.30 |\n| Jul 02 | 100.45 |\n| Jul 03 | 100.70 |\n| Jul 04 | 100.95 |\n| Jul 05 | 101.35 |\n| Jul 06 | 101.20 |\n| Jul 07 | 101.28 |\n| Jul 08 | 101.58 |\n| Jul 09 | 101.70 |\n| Jul 10 | 101.85 |\n| Jul 11 | 101.98 |\n| Jul 12 | 102.10 |\n| Jul 13 | 102.18 |\n| Jul 14 | 102.20 |\n| Jul 15 | 102.25 |\n| Jul 16 | 102.20 |\n| Jul 17 | 102.00 |\n| Jul 18 | 101.90 |\n| Jul 19 | 101.80 |\n| Jul 20 | 101.75 |\n| Jul 21 | 101.68 |\n| Jul 22 | 101.62 |\n| Jul 23 | 101.78 |\n| Jul 24 | 101.90 |\n| Jul 25 | 102.05 |\n| Jul 26 | 102.10 |\n| Jul 27 | 102.18 |\n| Jul 28 | 102.22 |\n| Jul 29 | 102.30 |",
+        "key_insight": "S&P 500 displays historical July pattern: rally into mid-month, dip, then further gains into end-of-month."
+      }
+    },
+    {
+      "name": "Equity S&P 500 Metric – S&P 500 Indexed Value July 29 2025",
+      "type": "Metric",
+      "brief": "S&P 500 index value at July 29, 2025",
+      "description": "Represents the indexed value of S&P 500 at the end of July, confirming upward seasonal trend.",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "2025-07-29",
+        "value": 102.3
+      }
+    },
+    {
+      "name": "Equity VIX Metric – Spot VIX July 2025",
+      "type": "Metric",
+      "brief": "Spot VIX value in July 2025",
+      "description": "Spot VIX is 16 as of July 2025, marking a low seasonal point linked to increased systematic equity demand.",
+      "properties": {
+        "unit": "indexPts",
+        "as_of": "2025-07-23",
+        "value": 16
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity S&P 500 Table T1 – July 2025 daily indexed S&P 500 performance",
+      "target": "Equity S&P 500 Metric – S&P 500 Indexed Value July 29 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 102.3,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table informs headline S&P 500 indexed value at July 29."
+    },
+    {
+      "source": "Equity S&P 500 Table T1 – July 2025 daily indexed S&P 500 performance",
+      "target": "Equity VIX Metric – Spot VIX July 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Low July VIX informs non-fundamental equity demand pattern."
+    }
+  ],
+  "scenarios": []
+}

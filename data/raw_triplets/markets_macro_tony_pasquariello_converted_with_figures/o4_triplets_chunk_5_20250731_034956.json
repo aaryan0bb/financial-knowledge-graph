@@ -1,0 +1,201 @@
+{
+  "entities": [
+    {
+      "name": "US Equities real personal consumption stagnation",
+      "type": "Factor",
+      "brief": "Stagnation in real personal consumption",
+      "description": "Real personal consumption has been flat on net for six months, rare outside recession",
+      "properties": {
+        "direction": "flat",
+        "lookback_days": 180
+      }
+    },
+    {
+      "name": "US Equities housing activity slowdown",
+      "type": "Factor",
+      "brief": "Sharp slowdown in housing activity",
+      "description": "Overall construction spending falling faster over past year than post-2008 bust",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Equities H1 real GDP growth estimate",
+      "type": "Metric",
+      "brief": "Tracking estimate for H1 real GDP growth",
+      "description": "Estimated H1 real GDP growth of 1.1%, about a percentage point below potential",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "H1"
+      }
+    },
+    {
+      "name": "US Equities H2 real GDP growth forecast",
+      "type": "Metric",
+      "brief": "Forecast for H2 real GDP growth",
+      "description": "Expected H2 real GDP growth pace similar to H1 at 1.1%",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "H2"
+      }
+    },
+    {
+      "name": "US Equities tariff-related price increases drag",
+      "type": "Factor",
+      "brief": "Drag on real income from tariffs",
+      "description": "Tariff-related price increases eating into real income",
+      "properties": {
+        "direction": "down",
+        "driver": "tariffs"
+      }
+    },
+    {
+      "name": "Japan Equities US-Japan trade deal",
+      "type": "Event",
+      "brief": "Trade agreement between US and Japan",
+      "description": "Elimination of volume restrictions on Japanese exports under new trade deal",
+      "properties": {
+        "date": null,
+        "event_type": "trade_agreement",
+        "region": "US & Japan"
+      }
+    },
+    {
+      "name": "Japan Equities NKY Index",
+      "type": "Instrument",
+      "brief": "Nikkei 225 index",
+      "description": "NKY index broke above 40,000 on trade deal optimism",
+      "properties": {
+        "ticker": "NKY"
+      }
+    },
+    {
+      "name": "Japan Equities TPX Index",
+      "type": "Instrument",
+      "brief": "Topix index",
+      "description": "TPX index took out prior highs after trade deal",
+      "properties": {
+        "ticker": "TPX"
+      }
+    },
+    {
+      "name": "Japan Equities local technicals",
+      "type": "Factor",
+      "brief": "Local technical support from systematic traders",
+      "description": "Technical indicators from systematic community remain supportive",
+      "properties": {
+        "direction": "up",
+        "driver": "technical analysis"
+      }
+    },
+    {
+      "name": "Global Equities systematic long/short performance retracement",
+      "type": "Factor",
+      "brief": "Retracement in systematic long/short strategies",
+      "description": "High gross exposure long/short performance has retraced sharply",
+      "properties": {
+        "direction": "down",
+        "driver": "positioning"
+      }
+    },
+    {
+      "name": "Global Equities momentum factor pressure",
+      "type": "Factor",
+      "brief": "Downward pressure on momentum factor",
+      "description": "Momentum factor under immense global pressure recently",
+      "properties": {
+        "direction": "down",
+        "region": "global"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Equities real personal consumption stagnation",
+      "target": "US Equities H1 real GDP growth estimate",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Weak consumption stagnation pushed down H1 GDP growth estimate to 1.1%"
+    },
+    {
+      "source": "US Equities tariff-related price increases drag",
+      "target": "US Equities H2 real GDP growth forecast",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariff price increases offset boost, weighing on H2 GDP growth forecast"
+    },
+    {
+      "source": "Japan Equities US-Japan trade deal",
+      "target": "Japan Equities NKY Index",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 40000,
+        "unit": "indexPts",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Trade deal drove NKY to break above 40,000"
+    },
+    {
+      "source": "Japan Equities US-Japan trade deal",
+      "target": "Japan Equities TPX Index",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Trade deal propelled TPX to new highs"
+    },
+    {
+      "source": "Japan Equities local technicals",
+      "target": "Japan Equities NKY Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Supportive local technicals underpin NKY breakout"
+    },
+    {
+      "source": "Global Equities systematic long/short performance retracement",
+      "target": "Global Equities momentum factor pressure",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Retracement in systematic L/S performance contributed to momentum pressure"
+    }
+  ],
+  "scenarios": []
+}

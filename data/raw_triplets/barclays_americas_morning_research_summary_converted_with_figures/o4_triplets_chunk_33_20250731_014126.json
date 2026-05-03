@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "TXN - Texas Instruments, Inc.",
+      "type": "Company",
+      "brief": "Analog semiconductor manufacturer",
+      "description": "Company admitted to shallower auto recovery and industrial pull-forwards; rated Underweight by Barclays",
+      "properties": {
+        "ticker": "TXN",
+        "sector": "U.S. Semiconductors & Semiconductor Capital Equipment",
+        "market_cap_USDbn": 195.2488
+      }
+    },
+    {
+      "name": "TXN - Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for TXN",
+      "properties": {
+        "value": 125.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - Stock Price",
+      "type": "Metric",
+      "brief": "Spot share price",
+      "description": "Closing share price as of 22 July 2025",
+      "properties": {
+        "value": 214.92,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Analyst EPS estimate for current fiscal year",
+      "properties": {
+        "value": 5.42,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "TXN - EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Analyst EPS estimate for next fiscal year",
+      "properties": {
+        "value": 6.23,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds price target of USD125"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds share price as of 22 July 2025"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - EPS FY1 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds FY1 EPS estimate"
+    },
+    {
+      "source": "TXN - Texas Instruments, Inc.",
+      "target": "TXN - EPS FY2 (E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Holds FY2 EPS estimate"
+    }
+  ],
+  "scenarios": []
+}

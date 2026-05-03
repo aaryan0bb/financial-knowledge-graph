@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "Table T25 – DataCenter Annual US Spend by Workload Type",
+      "type": "Table",
+      "brief": "Annual US spend segmented by GenAI and non-AI workloads",
+      "description": "Stacked bar chart shows annual US spend on data center infrastructure rising from 2025 to 2028, driven by GenAI.",
+      "properties": {
+        "table_id": "T25",
+        "table_content": "| Year | Total GenAI Workload Spend ($mm) | Total Non-AI Workload Spend ($mm) | Total Annual US Spend ($mm) |\n|------|----------------------------------|-----------------------------------|-----------------------------|\n| 2025e | $234,819 | $51,242 | $286,062 |\n| 2026e | $323,852 | $57,175 | $381,027 |\n| 2027e | $401,000 | $63,850 | $464,850 |\n| 2028e | $436,675 | $70,679 | $507,354 |",
+        "key_insight": "Annual US spend on data center infrastructure increases consistently from 2025 to 2028, driven predominantly by GenAI workload spend."
+      }
+    },
+    {
+      "name": "Table T26 – DataCenter Annual US Capital Spend by Asset Type",
+      "type": "Table",
+      "brief": "Projected annual US capital spend segmented by DC infrastructure and hardware",
+      "description": "Stacked bar chart shows annual US data center capex rising from 2025e to 2028e, with chips & servers cost as the larger portion.",
+      "properties": {
+        "table_id": "T26",
+        "table_content": "| Year | Capital Cost of DCs, Excl. Chips + Servers ($mm) | Capital Cost of Chips + Servers ($mm) | Total Annual Spend ($mm) |\n|------|--------------------------------------------------|---------------------------------------|--------------------------|\n| 2025e | $128,185 | $157,877 | $286,062 |\n| 2026e | $169,222 | $211,805 | $381,027 |\n| 2027e | $210,252 | $254,598 | $464,850 |\n| 2028e | $245,968 | $261,386 | $507,354 |",
+        "key_insight": "Annual US data center capex rises from $286 billion in 2025e to $507 billion in 2028e, with chips & servers cost as the larger portion."
+      }
+    },
+    {
+      "name": "DataCenter GenAI Workload Spend",
+      "type": "Metric",
+      "brief": "GenAI workload spend in 2028e",
+      "description": "2028 GenAI workload spend dominates annual US data center infrastructure spend.",
+      "properties": {
+        "value": 436675,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    },
+    {
+      "name": "DataCenter Capital Cost of Chips + Servers",
+      "type": "Metric",
+      "brief": "Chips & servers capital cost in 2028e",
+      "description": "2028 capital cost of chips and servers is the largest portion of annual US data center capex.",
+      "properties": {
+        "value": 261386,
+        "unit": "USD mm",
+        "as_of": "2028e"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T25 – DataCenter Annual US Spend by Workload Type",
+      "target": "DataCenter GenAI Workload Spend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "GenAI workload spend drives annual US spend trend"
+    },
+    {
+      "source": "Table T26 – DataCenter Annual US Capital Spend by Asset Type",
+      "target": "DataCenter Capital Cost of Chips + Servers",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Chips & servers cost drives total US capex trend"
+    }
+  ],
+  "scenarios": []
+}

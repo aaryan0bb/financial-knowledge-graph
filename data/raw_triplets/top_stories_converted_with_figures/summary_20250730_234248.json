@@ -1,0 +1,45 @@
+{
+  "report": "Top Stories_converted_with_figures.txt",
+  "timestamp": "2025-07-30T23:42:48.269251",
+  "total_chunks": 5,
+  "total_entities": 73,
+  "total_relationships": 14,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 3,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250730_233502.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 16,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250730_233712.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 11,
+      "relationships": 2,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250730_233835.json"
+    },
+    {
+      "chunk": "chunk_4",
+      "entities": 27,
+      "relationships": 0,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_4_20250730_234107.json"
+    },
+    {
+      "chunk": "chunk_5",
+      "entities": 16,
+      "relationships": 8,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_5_20250730_234246.json"
+    }
+  ]
+}

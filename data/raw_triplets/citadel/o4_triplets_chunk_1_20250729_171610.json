@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "Equity Market Dynamics S&P 500",
+      "type": "Factor",
+      "brief": "S&P 500 equity market highs and volatility",
+      "description": "Primary market trend watched for all-time highs and potential for a 'blow-off' top, underpinned by technicals and sector laggards.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 19
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Concentration Table T1 – Q2 S&P 500 Earnings Reporting Intensity",
+      "type": "Table",
+      "brief": "Concentration timeline of S&P 500 market cap reporting Q2 earnings",
+      "description": "Visualizes the percentage of S&P 500 market cap announcing Q2 earnings by week, peaking significantly during the week of July 28th.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Week    | % of SPX Market Cap |\n|---------|---------------------|\n| Jul 14  | 4.2%                |\n| Jul 21  | 17.9%               |\n| Jul 28  | 38.8%               |\n| Aug 04  | 13.1%               |\n| Aug 11  | 1.2%                |\n| Aug 18  | 3.7%                |\n| Aug 25  | 9.1%                |",
+        "key_insight": "Nearly 39% of the S&P 500 market capitalization reports Q2 earnings during the week of July 28th, concentrating market-moving information in a single week."
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Peak Reporting Week Metric",
+      "type": "Metric",
+      "brief": "Peak corporate earnings reports concentration in a single week",
+      "description": "Represents the peak intensity of S&P 500 Q2 earnings reporting, with 38.8% of market cap reporting during the week of July 28th.",
+      "properties": {
+        "value": 38.8,
+        "unit": "%",
+        "as_of": "Jul 28"
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Alphabet Inc.",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, reporting Q2 earnings",
+      "description": "Alphabet comprises 3.62% of the S&P 500 and is among first M7 to report Q2 earnings, affecting market sentiment.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Communications",
+        "market_cap_weight_pct": 3.62
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Tesla Inc.",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, reporting Q2 earnings",
+      "description": "Tesla comprises 1.8% of the S&P 500 and is among the first M7 to report Q2 earnings, impacting sector performance.",
+      "properties": {
+        "ticker": "TSLA",
+        "sector": "Consumer Discretionary",
+        "market_cap_weight_pct": 1.8
+      }
+    },
+    {
+      "name": "Equity Market Dynamics Nvidia Corporation",
+      "type": "Company",
+      "brief": "Major S&P 500 component, Magnificent 7 member, last to report Q2 earnings",
+      "description": "Nvidia is the last of the Magnificent 7 to report Q2 earnings, scheduled for August 27th.",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Information Technology",
+        "market_cap_weight_pct": null
+      }
+    },
+    {
+      "name": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "Event",
+      "brief": "Majority of S&P 500 market cap reporting Q2 earnings by late August",
+      "description": "By August 29th, 88% of S&P 500 market capitalization will have reported Q2 earnings; 18% reporting during the current week.",
+      "properties": {
+        "date": "2025-08-29",
+        "event_type": "Earnings Season Completion",
+        "impact_value": 88,
+        "unit": "%"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Equity Market Dynamics S&P 500 Q2 Earnings Concentration Table T1 – Q2 S&P 500 Earnings Reporting Intensity",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Peak Reporting Week Metric",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 38.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 100
+      },
+      "description": "Table identifies 38.8% SPX market cap peak earnings reporting in week of July 28th."
+    },
+    {
+      "source": "Equity Market Dynamics Alphabet Inc.",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 3.62,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Alphabet's Q2 report meaningfully affects SPX market cap during earnings season."
+    },
+    {
+      "source": "Equity Market Dynamics Tesla Inc.",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Tesla's Q2 report impacts SPX earnings season sentiment and market cap."
+    },
+    {
+      "source": "Equity Market Dynamics Nvidia Corporation",
+      "target": "Equity Market Dynamics S&P 500 Q2 Earnings Season Event",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Nvidia's Q2 earnings conclusion marks end of M7 reporting in earnings season."
+    }
+  ],
+  "scenarios": []
+}

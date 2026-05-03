@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "TMT – Google CapEx",
+      "type": "Metric",
+      "brief": "Projected capital expenditure for Google in 2026",
+      "description": "Google's planned capex of around $102 bn for 2026",
+      "properties": {
+        "unit": "USD bn",
+        "value": 102,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "TMT – Google D&A",
+      "type": "Metric",
+      "brief": "Projected depreciation & amortization for Google in 2026",
+      "description": "Google's projected D&A of approximately $33 bn reflecting 44% y/y growth",
+      "properties": {
+        "unit": "USD bn",
+        "value": 33,
+        "as_of": "2026",
+        "growth_pct": 44
+      }
+    },
+    {
+      "name": "TMT – Google Cloud Revenue Growth",
+      "type": "Metric",
+      "brief": "Year-on-year growth of Google Cloud revenue",
+      "description": "Google Cloud revenue growth rate inflecting to 32% y/y",
+      "properties": {
+        "unit": "%",
+        "value": 32,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "TMT – GenAI Investment Sentiment",
+      "type": "Factor",
+      "brief": "Investor sentiment toward GenAI investments",
+      "description": "Investors comfortable green lighting GenAI investments",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT – Enterprise Tech Spending Inflection",
+      "type": "Factor",
+      "brief": "Emerging inflection in enterprise IT spending",
+      "description": "Notable positive inflections in IT and enterprise technology spending",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT – IBM CEO Optimism",
+      "type": "Factor",
+      "brief": "Shift in IBM CEO's sentiment",
+      "description": "IBM CEO moved from cautious optimism to optimism about the macro environment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TMT – ServiceNow CEO AI Demand View",
+      "type": "Factor",
+      "brief": "ServiceNow CEO's view on AI demand environment",
+      "description": "ServiceNow CEO said demand environment is wide open for AI innovation",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TMT – Google CapEx",
+      "target": "TMT – Google D&A",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Higher capex drives increased D&A expense"
+    },
+    {
+      "source": "TMT – Google Cloud Revenue Growth",
+      "target": "TMT – GenAI Investment Sentiment",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Google Cloud growth informs investor GenAI sentiment"
+    },
+    {
+      "source": "TMT – Enterprise Tech Spending Inflection",
+      "target": "TMT – IBM CEO Optimism",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Enterprise tech spending inflection triggered IBM CEO optimism"
+    },
+    {
+      "source": "TMT – Enterprise Tech Spending Inflection",
+      "target": "TMT – ServiceNow CEO AI Demand View",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Enterprise tech spending inflection triggered ServiceNow CEO AI demand view"
+    }
+  ],
+  "scenarios": []
+}

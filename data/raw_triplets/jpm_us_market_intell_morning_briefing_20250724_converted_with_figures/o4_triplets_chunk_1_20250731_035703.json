@@ -1,0 +1,260 @@
+{
+  "entities": [
+    {
+      "name": "US Market – Alphabet Inc.",
+      "type": "Company",
+      "brief": "Ticker GOOG tech giant",
+      "description": "Leading tech company driving AI interest post-earnings",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market – Broadcom Inc.",
+      "type": "Company",
+      "brief": "Ticker AVGO semiconductor firm",
+      "description": "Device maker benefiting from increased capex demand",
+      "properties": {
+        "ticker": "AVGO",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market – NVIDIA Corporation",
+      "type": "Company",
+      "brief": "Ticker NVDA AI chip leader",
+      "description": "Graphics and AI chip developer boosted by capital spending trends",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "US Market – Tesla Inc.",
+      "type": "Company",
+      "brief": "Ticker TSLA EV manufacturer",
+      "description": "Electric vehicle maker with choppy guidance causing stock drop",
+      "properties": {
+        "ticker": "TSLA",
+        "sector": "Consumer Discretionary"
+      }
+    },
+    {
+      "name": "US Market – Technology Sector",
+      "type": "Factor",
+      "brief": "Technology sector performance",
+      "description": "Sector led futures higher in U.S. trading",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market – AI Theme",
+      "type": "Factor",
+      "brief": "AI thematic investing trend",
+      "description": "Investment focus on AI driving tech sector momentum",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market – Capital Expenditure Boost",
+      "type": "Factor",
+      "brief": "Increased capex in tech sector",
+      "description": "Capital spending rise supports semiconductor firms",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Market – GOOG Earnings Release",
+      "type": "Event",
+      "brief": "Alphabet quarterly earnings release",
+      "description": "Earnings report that spurred AI theme resurgence",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_release",
+        "affected_tickers": [
+          "AVGO",
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "name": "US Market – Tesla Guidance Update",
+      "type": "Event",
+      "brief": "Tesla guidance announcement",
+      "description": "Company guidance causing 6% stock decline",
+      "properties": {
+        "date": null,
+        "event_type": "guidance_release",
+        "impact_value": -6,
+        "unit": "%",
+        "affected_tickers": [
+          "TSLA"
+        ]
+      }
+    },
+    {
+      "name": "US Market – Russia-Ukraine Talks",
+      "type": "Event",
+      "brief": "Diplomatic negotiations between Russia and Ukraine",
+      "description": "Talks leading to ceasefire and prisoner swap discussions",
+      "properties": {
+        "date": null,
+        "event_type": "diplomatic_talks",
+        "outcomes": [
+          "ceasefire",
+          "prisoner_swap",
+          "leadership_meeting"
+        ]
+      }
+    },
+    {
+      "name": "US Market – TSLA Daily Return",
+      "type": "Metric",
+      "brief": "Daily stock return for Tesla",
+      "description": "TSLA shares fell on choppy guidance",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market – WTI Price",
+      "type": "Metric",
+      "brief": "WTI crude oil price per barrel",
+      "description": "West Texas Intermediate price after 130bps rise",
+      "properties": {
+        "value": 66.1,
+        "unit": "USD",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market – U.S. 10Y Treasury Yield",
+      "type": "Metric",
+      "brief": "10-year U.S. Treasury yield",
+      "description": "Yield on 10-year note at close",
+      "properties": {
+        "value": 4.392,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "US Market – VIX Index",
+      "type": "Metric",
+      "brief": "CBOE Volatility Index level",
+      "description": "VIX level indicating market volatility",
+      "properties": {
+        "value": 15.3,
+        "unit": "indexPts",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Market – GOOG Earnings Release",
+      "target": "US Market – AI Theme",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "GOOG earnings release triggered AI theme resurgence"
+    },
+    {
+      "source": "US Market – AI Theme",
+      "target": "US Market – Technology Sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "AI theme is driving tech sector performance"
+    },
+    {
+      "source": "US Market – Capital Expenditure Boost",
+      "target": "US Market – Broadcom Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CapEx boost benefiting Broadcom"
+    },
+    {
+      "source": "US Market – Capital Expenditure Boost",
+      "target": "US Market – NVIDIA Corporation",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "CapEx boost benefiting NVIDIA"
+    },
+    {
+      "source": "US Market – Tesla Guidance Update",
+      "target": "US Market – TSLA Daily Return",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": -6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Tesla guidance update triggered 6% stock drop"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "US Market – GOOG Earnings Release",
+      "probability": 0.8,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "US Market – GOOG Earnings Release",
+          "target": "US Market – AI Theme",
+          "lag_days": 0,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "US Market – AI Theme",
+          "target": "US Market – Technology Sector",
+          "lag_days": 0,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

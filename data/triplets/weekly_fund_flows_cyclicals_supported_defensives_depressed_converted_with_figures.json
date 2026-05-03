@@ -1,0 +1,927 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 WeeklyFundFlows Fund Positioning Share Snapshots",
+      "type": "Table",
+      "brief": "Snapshots of share of total assets for G10 economies",
+      "description": "Table provides selected years share data for Euro area, UK, Japan, Switzerland, Canada, and Australia",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Region | Share of Total Assets (%) |\n|------|--------|---------------------------|\n| 2014 | Euro area | 10.4 |\n| 2018 | Euro area | 10.7 |\n| 2022 | Euro area | 7.8 |\n| 2025 | Euro area | 9.0 |\n| 2010 | UK | 4.7 |\n| 2013 | UK | 5.4 |\n| 2025 | UK | 3.4 |\n| 2010 | Japan | 3.1 |\n| 2018 | Japan | 4.6 |\n| 2025 | Japan | 3.9 |\n| 2010 | Switzerland | 2.0 |\n| 2020 | Switzerland | 2.2 |\n| 2025 | Switzerland | 1.9 |\n| 2010 | Canada | 2.6 |\n| 2013 | Canada | 3.3 |\n| 2025 | Canada | 2.0 |\n| 2010 | Australia | 0.95 |\n| 2013 | Australia | 1.3 |\n| 2025 | Australia | 0.85 |",
+        "key_insight": "Euro area share fell from a peak of 10.7% in 2018 to a trough of 7.8% in 2022, then rebounded to 9.0%"
+      }
+    },
+    {
+      "name": "WeeklyFundFlows \u2013 Euro area Share Trough 2022",
+      "type": "Metric",
+      "brief": "Euro area share trough in late 2022",
+      "description": "Euro area share of total assets dropped to 7.8% in late 2022",
+      "properties": {
+        "unit": "%",
+        "value": 7.8,
+        "trough_date": "2022"
+      }
+    },
+    {
+      "name": "WeeklyFundFlows \u2013 Japan Share Peak 2018",
+      "type": "Metric",
+      "brief": "Japan share peak in 2018",
+      "description": "Japan share of total assets reached a peak of 4.6% in 2018",
+      "properties": {
+        "unit": "%",
+        "value": 4.6,
+        "peak_date": "2018"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Fund Flows",
+      "type": "Table",
+      "brief": "Weekly global fund flows snapshot",
+      "description": "Fund flows by asset class and region for week ending July 23, 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "<TRUNCATED: first 10 rows only>",
+        "key_insight": "Significant inflows into fixed income funds contrasted with modest equity flows",
+        "table_type": "Ratios",
+        "full_rows": 49
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Total Fixed Income",
+      "type": "Metric",
+      "brief": "Four-week sum of fixed income fund inflows",
+      "description": "Represents strong demand for fixed income investments",
+      "properties": {
+        "value": 86605,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Total Equity",
+      "type": "Metric",
+      "brief": "Four-week sum of equity fund flows",
+      "description": "Indicates modest equity investment trends",
+      "properties": {
+        "value": 29084,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Government Bond Funds",
+      "type": "Metric",
+      "brief": "Four-week sum of government bond fund flows",
+      "description": "Reflects strong demand for government bonds",
+      "properties": {
+        "value": 7345,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Inflation-Protected Securities",
+      "type": "Metric",
+      "brief": "Four-week sum of inflation-protected securities flows",
+      "description": "Signals hedging against inflation expectations",
+      "properties": {
+        "value": 448,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 High Beta Funds",
+      "type": "Metric",
+      "brief": "Four-week sum of high beta fund flows",
+      "description": "Indicates investor preference for cyclical assets",
+      "properties": {
+        "value": 10923,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Global equity fund net flows",
+      "type": "Metric",
+      "brief": "Net flows into global equity funds",
+      "description": "Weekly net flows of USD 6 bn into global equity funds for week ending July 23, 2025.",
+      "properties": {
+        "value": 6,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Global fixed income fund net flows",
+      "type": "Metric",
+      "brief": "Net flows into global fixed income funds",
+      "description": "Weekly net flows of USD 27 bn into global fixed income funds for week ending July 23, 2025.",
+      "properties": {
+        "value": 27,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Money market fund asset change",
+      "type": "Metric",
+      "brief": "Increase in money market fund assets",
+      "description": "Weekly increase of USD 14 bn in money market fund assets for week ending July 23, 2025.",
+      "properties": {
+        "value": 14,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Repatriation from US assets",
+      "type": "Factor",
+      "brief": "Investors repatriating from US assets",
+      "description": "Increased repatriation of investments from US equities across Europe and Asia.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Demand for global fixed income funds",
+      "type": "Factor",
+      "brief": "Strong demand for fixed income investments",
+      "description": "Investors showed robust demand for government and corporate bond products.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Net outflows in US equity funds",
+      "type": "Event",
+      "brief": "US equity fund outflows",
+      "description": "Net outflows from US equity funds for week ending July 23, 2025.",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "net outflow",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Preference for cyclical sectors",
+      "type": "Factor",
+      "brief": "Investor preference for cyclical sectors",
+      "description": "Since early July, investors favored cyclical sectors over defensive ones.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Weekly Fund Flows \u2013 Net selling of defensive funds",
+      "type": "Factor",
+      "brief": "Net selling of defensive sector funds",
+      "description": "Investors have been net sellers of defensive sector funds since early July.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Fund Positioning: Equity Markets Equity Sector Fund Asset Share Trends",
+      "type": "Table",
+      "brief": "Sector fund asset share trends 2010\u20132025",
+      "description": "Six line charts showing share of equity sector fund assets from 2010 to 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Financials Share (%) | Industrials Share (%) | Tech Share (%) | Telecom Share (%) | Health Care & Biotech Share (%) | Energy Share (%) |\n|---|---|---|---|---|---|---|\n| 2010 | 6.5 | 1.0 | 9.5 | 1.6 | 13.5 | 15.0 |\n| 2011 | 5.5 | 1.2 | 9.0 | 1.4 | 10.0 | 14.0 |\n| 2012 | 4.0 | 1.0 | 7.0 | 1.2 | 9.0 | 16.0 |\n| 2013 | 7.5 | 1.4 | 7.5 | 0.9 | 13.0 | 14.0 |\n| 2014 | 8.5 | 2.1 | 9.0 | 0.8 | 16.0 | 15.0 |\n| 2015 | 7.5 | 1.5 | 11.0 | 0.9 | 21.0 | 12.0 |\n| 2016 | 8.0 | 1.2 | 15.0 | 0.7 | 14.0 | 9.0 |\n| 2017 | 9.5 | 2.2 | 19.0 | 0.6 | 14.0 | 7.0 |\n| 2018 | 12.5 | 2.8 | 23.0 | 1.2 | 15.0 | 5.0 |\n| 2019 | 9.0 | 2.0 | 24.5 | 1.6 | 17.5 | 4.0 |\n| 2020 | 8.0 | 1.6 | 20.0 | 1.6 | 15.0 | 3.5 |\n| 2021 | 10.0 | 2.3 | 24.0 | 1.0 | 16.0 | 6.0 |\n| 2022 | 9.0 | 1.9 | 20.0 | 0.9 | 15.0 | 8.5 |\n| 2023 | 8.0 | 2.0 | 25.0 | 1.4 | 13.5 | 6.5 |\n| 2024 | 9.0 | 2.6 | 31.0 | 1.6 | 11.5 | 5.5 |\n| 2025 | 9.5 | 3.3 | 34.0 | 1.7 | 9.8 | 5.0 |",
+        "key_insight": "Tech sector share rose to over 30% by 2025, while Energy sector share declined to around 3.5% in 2020 before rebounding slightly"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Fund Positioning: Equity Markets Equity Sector Fund Asset Share Dynamics",
+      "type": "Table",
+      "brief": "Sector fund share dynamics 2010\u20132025",
+      "description": "Six line charts depicting evolving equity sector fund shares over the period",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Financials Share (%) | Industrials Share (%) | Tech Share (%) | Telecom Share (%) | Health Care & Biotech Share (%) | Energy Share (%) |\n|------|----------------------|-----------------------|----------------|-------------------|---------------------------------|------------------|\n| 2010 | 6.5                  | 1.8                   | 9.0            | 1.0               | 13.5                            | 10.0             |\n| 2011 | 5.0                  | 1.8                   | 9.5            | 1.0               | 10.0                            | 10.0             |\n| 2012 | 4.0                  | 1.9                   | 8.5            | 1.1               | 9.0                             | 9.0              |\n| 2013 | 7.0                  | 2.0                   | 7.5            | 1.2               | 10.0                            | 8.0              |\n| 2014 | 8.0                  | 2.2                   | 8.0            | 1.2               | 14.0                            | 7.0              |\n| 2015 | 8.5                  | 2.5                   | 9.0            | 1.0               | 20.0                            | 6.0              |\n| 2016 | 12.5                 | 2.2                   | 12.0           | 0.8               | 18.0                            | 5.0              |\n| 2017 | 10.0                 | 2.0                   | 18.0           | 0.9               | 14.0                            | 4.0              |\n| 2018 | 9.0                  | 2.0                   | 22.0           | 0.8               | 14.5                            | 4.0              |\n| 2019 | 8.0                  | 2.2                   | 24.0           | 0.7               | 15.0                            | 4.0              |\n| 2020 | 10.5                 | 2.5                   | 25.0           | 0.6               | 17.0                            | 6.0              |\n| 2021 | 9.0                  | 2.8                   | 24.0           | 0.6               | 16.0                            | 8.0              |\n| 2022 | 8.0                  | 2.6                   | 20.0           | 0.6               | 15.0                            | 11.0             |\n| 2023 | 8.0                  | 2.8                   | 26.0           | 0.5               | 13.0                            | 14.0             |\n| 2024 | 9.5                  | 3.0                   | 32.0           | 0.5               | 11.5                            | 12.0             |\n| 2025 | 9.0                  | 3.0                   | 34.0           | 0.5               | 10.0                            | 10.0             |",
+        "key_insight": "Tech share climbed from about 9% in 2010 to over 34% by 2025, accelerating after 2022 while Telecom share declined to around 0.5%"
+      }
+    },
+    {
+      "name": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "Factor",
+      "brief": "Tech sector fund asset share increased",
+      "description": "Reflects accelerating share of equity sector fund assets allocated to Tech, surpassing 30% by 2025",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 25.0
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Fund Flow Asset Share Trends 2010-2025",
+      "type": "Table",
+      "brief": "Six time series charts of asset share trends",
+      "description": "Shows percentage shares of equities, money market, and regional assets from 2010 to 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Equity Share (%) | Money Mkt Share (%) | US Share (%) | EM Share (%) | China Share (%) | EM ex. China Share (%) |\n|------|------------------|---------------------|--------------|--------------|-----------------|------------------------|\n| 2010 | 72.0             | 31.0                | 65.0         | 11.8         | 2.2             | 9.6                    |\n| 2011 | 68.5             | 27.5                | 63.5         | 13.5         | 1.7             | 11.8                   |\n| 2012 | 65.5             | 24.5                | 62.0         | 12.0         | 2.0             | 10.0                   |\n| 2013 | 66.0             | 22.0                | 63.0         | 10.8         | 2.0             | 8.8                    |\n| 2014 | 70.8             | 19.0                | 61.5         | 9.5          | 1.8             | 7.7                    |\n| 2015 | 69.5             | 18.0                | 62.5         | 9.5          | 2.2             | 7.3                    |\n| 2016 | 68.0             | 17.0                | 63.5         | 10.0         | 2.0             | 8.0                    |\n| 2017 | 69.0             | 17.5                | 64.5         | 10.5         | 2.2             | 8.3                    |\n| 2018 | 70.0             | 16.0                | 66.0         | 10.0         | 2.4             | 7.6                    |\n| 2019 | 68.5             | 15.0                | 67.0         | 9.5          | 2.0             | 7.5                    |\n| 2020 | 66.0             | 20.5                | 65.5         | 9.8          | 2.5             | 7.3                    |\n| 2021 | 72.0             | 16.0                | 69.5         | 10.5         | 3.2             | 7.3                    |\n| 2022 | 72.5             | 17.5                | 67.0         | 9.8          | 2.7             | 7.1                    |\n| 2023 | 74.5             | 18.5                | 68.5         | 9.5          | 2.8             | 6.7                    |\n| 2024 | 75.0             | 17.0                | 70.0         | 9.0          | 2.1             | 6.9                    |\n| 2025 | 75.5             | 17.5                | 67.0         | 9.5          | 2.7             | 6.8                    |",
+        "key_insight": "Equity and US shares rose while money market, EM and EM ex. China shares declined to their lowest by 2025."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Global Fund Flow Equity US and China Share Trends",
+      "type": "Table",
+      "brief": "Time series of Equity, US, and China shares",
+      "description": "Shows share trends in Equity, US, and China assets from 2010 to mid-2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Equity Share (%) | US Share (%) | China Share (%) |\n|---|---|---|---|\n| 2010 | 72.0 | 66.0 | 2.0 |\n| 2011 | 68.0 | 63.0 | 2.2 |\n| 2012 (trough) | 65.5 | 62.0 | 1.9 |\n| 2013 | 67.0 | 63.5 | 1.8 |\n| 2014 | 70.0 | 64.0 | 2.1 |\n| 2015 | 69.5 | 64.5 | 2.4 |\n| 2016 | 68.0 | 63.0 | 2.0 |\n| 2017 | 70.0 | 64.5 | 2.1 |\n| 2018 (trough) | 68.5 | 62.0 | 1.9 |\n| 2019 | 71.0 | 65.0 | 2.5 |\n| 2020 (early trough) | 66.5 | 63.0 | 2.8 |\n| 2020 (late) | 71.0 | 66.0 | 3.0 |\n| 2021 (peak) | 73.5 | 69.5 | 3.2 |\n| 2022 (early) | 71.5 | 67.5 | 2.8 |\n| 2023 (mid) | 73.0 | 68.0 | 2.3 |\n| 2024 (early peak) | 74.5 | 69.5 | 2.1 |\n| 2024 (late drop) | 73.5 | 66.0 | 2.6 |\n| 2025 (current) | 75.5 | 67.5 | 2.7 |",
+        "key_insight": "Equity share nears peak after dips, US share peaked in early 2024 before declining then rebounding, and China share surged to 3.2% in 2021 then recovered by mid-2025."
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Global Fund Flow Money Market EM and EM ex China Share Trends",
+      "type": "Table",
+      "brief": "Time series of Money Market, EM, and EM ex. China shares",
+      "description": "Illustrates declines and rebounds in money market and EM asset shares from 2010 to 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | Money Market Fund Share (%) | EM Share (%) | EM ex. China Share (%) |\n|--------|---------------------------|--------------|------------------------|\n| 2010   | 31.0                      | 11.5         | 9.8                    |\n| 2011   | 27.0                      | 13.5         | 11.2                   |\n| 2012   | 23.5                      | 12.5         | 10.5                   |\n| 2013   | 20.5                      | 11.5         | 9.5                    |\n| 2014   | 18.0                      | 10.5         | 8.5                    |\n| 2015   | 17.0                      | 9.5          | 7.5                    |\n| 2016   | 16.5                      | 9.2          | 7.5                    |\n| 2017   | 15.0                      | 10.5         | 8.2                    |\n| 2018   | 15.5                      | 11.0         | 8.0                    |\n| 2019   | 16.0                      | 9.5          | 7.5                    |\n| 2020   | 20.5                      | 10.5         | 6.5                    |\n| 2021   | 15.0                      | 10.0         | 7.3                    |\n| 2022   | 17.0                      | 9.5          | 7.0                    |\n| 2023   | 18.0                      | 9.0          | 6.7                    |\n| 2024   | 17.5                      | 8.8          | 6.2                    |\n| 2025   | 17.0                      | 9.5          | 6.8                    |",
+        "key_insight": "Money market share fell to 15% by 2017, spiked above 20% in 2020 then stabilized around 17%, while EM and EM ex. China shares declined to 2024 lows before rebounding into 2025."
+      }
+    },
+    {
+      "name": "Global Fund Flow Equity Share",
+      "type": "Metric",
+      "brief": "Equity share of global mutual fund assets",
+      "description": "Percentage share of equities within global mutual fund assets",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Global Fund Flow Money Market Fund Share",
+      "type": "Metric",
+      "brief": "Money market share of global mutual fund assets",
+      "description": "Percentage share of money market funds within global mutual fund assets",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows Goldman Sachs",
+      "type": "Company",
+      "brief": "Global investment bank",
+      "description": "Publisher of weekly fund flow report",
+      "properties": {
+        "ticker": "GS"
+      }
+    },
+    {
+      "name": "Global Fund Flows Post-Pandemic Recovery Optimism",
+      "type": "Factor",
+      "brief": "Optimism after pandemic",
+      "description": "Investor optimism driving recovery flows post-pandemic",
+      "properties": {
+        "driver": "post-pandemic recovery optimism"
+      }
+    },
+    {
+      "name": "Global Fund Flows Accommodative Monetary Policies",
+      "type": "Factor",
+      "brief": "Central bank policy easing",
+      "description": "Monetary easing accommodating markets",
+      "properties": {
+        "driver": "accommodative monetary policies"
+      }
+    },
+    {
+      "name": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "Event",
+      "brief": "Peak inflows across asset classes",
+      "description": "Strong fund inflows in 2020-2021 across multiple categories",
+      "properties": {
+        "date": null,
+        "event_type": "inflow_peak",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Global Fund Flows Rising Inflation",
+      "type": "Factor",
+      "brief": "Inflation increase",
+      "description": "Rising inflation levels driving market correction",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Fund Flows Rising Interest Rates",
+      "type": "Factor",
+      "brief": "Interest rate hikes",
+      "description": "Rising interest rates driving outflows",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Fund Flows Sharp Outflows 2022",
+      "type": "Event",
+      "brief": "Significant outflows across asset classes",
+      "description": "Sharp fund outflows in 2022 across multiple categories",
+      "properties": {
+        "date": "2022",
+        "event_type": "outflow_spike",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Global Fund Flows Market Uncertainty",
+      "type": "Factor",
+      "brief": "Broad investor uncertainty",
+      "description": "Elevated market uncertainty impacting allocation decisions",
+      "properties": {
+        "driver": "market uncertainty"
+      }
+    },
+    {
+      "name": "Global Fund Flows Strategic Re-evaluation of Investment Prospects",
+      "type": "Factor",
+      "brief": "Portfolio strategy review",
+      "description": "Investors re-evaluating investment prospects",
+      "properties": {
+        "driver": "strategic re-evaluation of investment prospects"
+      }
+    },
+    {
+      "name": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "Event",
+      "brief": "Mixed to negative fund flows",
+      "description": "Mixed or negative fund flow trends in early 2025",
+      "properties": {
+        "date": null,
+        "event_type": "mixed_negative_flows",
+        "region": "global"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "type": "Table",
+      "brief": "Foreign flows by domicile into US equity funds (4wma)",
+      "description": "Tracks 4-week moving average foreign inflows from Euro area and Rest of world ex. US, highlighting peaks in late 2024 and reversal in Q2 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Rest of world ex. US Flows ($bn) | Euro area Flows ($bn) |\n|------------|----------------------------------|-----------------------|\n| Jan-24     | +0.8                             | +0.2                  |\n| Feb-24     | +1.2                             | +1.0                  |\n| Mar-24     | +0.7                             | +0.2                  |\n| Apr-24     | +0.5                             | -0.5                  |\n| May-24     | +0.9                             | +0.8                  |\n| Jun-24     | +1.2                             | +1.2                  |\n| Jul-24     | +1.5                             | +1.7                  |\n| Aug-24     | +1.8                             | +1.5                  |\n| Sep-24     | +1.8                             | +1.0                  |\n| Early Oct-24 | +1.5                           | +0.5                  |\n| Mid-Oct-24 | +0.5                             | +1.5                  |\n| Late Oct-24| -0.8                             | +2.5                  |\n| Mid-Nov-24 | +0.8                             | +6.0                  |\n| Late Nov-24| +2.0                             | +8.1                  |\n| Dec-24     | +2.5                             | +5.5                  |\n| Jan-25     | +3.0                             | +3.5                  |\n| Mid-Feb-25 | +2.0                             | +1.0                  |\n| Mid-Mar-25 | +2.5                             | +0.5                  |\n| Apr-25     | +1.0                             | -2.5                  |\n| Mid-May-25 | +0.5                             | -1.0                  |\n| Jun-25     | +0.5                             | -0.5                  |\n| Jul-25     | +0.7                             | +0.0                  |",
+        "key_insight": "Euro area flows peaked at +8.1bn in late Nov 2024 and Rest of world ex. US peaked at +3.0bn in Jan 2025 before both turned negative in Q2 2025"
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "type": "Table",
+      "brief": "4wma cyclical vs defensive equity fund flows",
+      "description": "Shows 4-week moving average flows for Cyclicals ex. Tech and Defensives, highlighting peaks, troughs, and divergence through July 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date         | Cyclicals ex. Tech ($bn) | Defensives ($bn) |\n|--------------|--------------------------|------------------|\n| Jul-24       | -0.4                     | -0.4             |\n| Mid-Aug-24   | 0.4                      | 0.0              |\n| Sep-24       | -1.8                     | -0.5             |\n| Mid-Sep-24   | -1.2                     | -1.2             |\n| Oct-24       | -0.7                     | -1.3             |\n| Early Nov-24 | -0.2                     | -0.5             |\n| Late Nov-24  | 2.6                      | -0.9             |\n| Early Dec-24 | 1.0                      | -0.8             |\n| Mid-Jan-25   | -0.2                     | -0.2             |\n| Early Feb-25 | -0.5                     | -0.3             |\n| Mid-Feb-25   | 1.4                      | -0.9             |\n| Early Mar-25 | 0.8                      | 0.1              |\n| Mid-Mar-25   | 0.2                      | 0.5              |\n| Late Mar-25  | -0.1                     | 0.0              |\n| Early Apr-25 | -0.2                     | -0.2             |\n| Mid-Apr-25   | -0.6                     | -0.5             |\n| Late Apr-25  | -1.2                     | -0.8             |\n| Early May-25 | -3.4                     | -2.0             |\n| Mid-May-25   | -2.0                     | -1.2             |\n| Late May-25  | -1.0                     | -1.0             |\n| Early Jun-25 | -0.2                     | -0.5             |\n| Mid-Jun-25   | 0.8                      | 0.2              |\n| Late Jun-25  | 1.5                      | 0.5              |\n| Early Jul-25 | 2.0                      | 0.0              |\n| Mid-Jul-25   | 2.8                      | -1.0             |",
+        "key_insight": "Cyclical flows peaked at +2.6bn in late Nov 2024 and troughed at -3.4bn in early May 2025 while defensive flows remained near zero with a modest peak of +0.5bn in mid-Mar 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Euro area flows peak",
+      "type": "Metric",
+      "brief": "Peak Euro area inflows in late Nov 2024",
+      "description": "Euro area foreign flows into US equity funds peaked at +$8.1bn, indicating strong late-2024 demand",
+      "properties": {
+        "unit": "USD bn",
+        "value": 8.1,
+        "as_of": "Late Nov 2024"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Rest of world ex. US flows peak",
+      "type": "Metric",
+      "brief": "Peak Rest of world ex. US inflows in Jan 2025",
+      "description": "Rest of world ex. US foreign flows into US equity funds peaked at +$3.0bn in January 2025",
+      "properties": {
+        "unit": "USD bn",
+        "value": 3.0,
+        "as_of": "Jan 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Euro area flows trough",
+      "type": "Metric",
+      "brief": "Trough Euro area inflows in Apr 2025",
+      "description": "Euro area foreign flows into US equity funds troughed at -$2.5bn in April 2025, reflecting early 2025 outflows",
+      "properties": {
+        "unit": "USD bn",
+        "value": -2.5,
+        "as_of": "Apr 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Cyclical flows peak",
+      "type": "Metric",
+      "brief": "Peak cyclical flows in late Nov 2024",
+      "description": "Cyclical equity fund flows peaked at +$2.6bn in late November 2024 before declining",
+      "properties": {
+        "unit": "USD bn",
+        "value": 2.6,
+        "as_of": "Late Nov 2024"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Cyclical flows trough",
+      "type": "Metric",
+      "brief": "Trough cyclical flows in early May 2025",
+      "description": "Cyclical equity fund flows troughed at -$3.4bn in early May 2025 during rotation",
+      "properties": {
+        "unit": "USD bn",
+        "value": -3.4,
+        "as_of": "Early May 2025"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Defensive flows peak",
+      "type": "Metric",
+      "brief": "Peak defensive flows in mid-Mar 2025",
+      "description": "Defensive equity fund flows peaked at +$0.5bn in mid-March 2025 amid market volatility",
+      "properties": {
+        "unit": "USD bn",
+        "value": 0.5,
+        "as_of": "Mid Mar 2025"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Global Fund Flows FX Flows",
+      "type": "Table",
+      "brief": "Weekly cross-border FX fund flows by region",
+      "description": "Breakdown of four-week sum and weekly FX flows across currencies and regions",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "|               | 4wk sum | 23-Jul | 16-Jul | 9-Jul | 2-Jul | 4wk avg | 23-Jul % AUM | Z-score of 4wk sum |\n|---------------|---------|--------|--------|-------|-------|---------|--------------|--------------------|\n| Total         | 78,381  | 24,695 | 18,841 | 19,058| 15,788| 0.15    | 0.19         | 2.20               |\n| G10           | 41,136  | 13,691 | 12,694 | 7,380 | 7,371 | 0.12    | 0.16         | 1.43               |\n| USD           | 17,938  | 6,283  | 5,544  | 2,865 | 3,246 | 0.09    | 0.13         | 0.35               |\n| EUR           | 6,722   | 2,210  | 2,039  | 1,494 | 978   | 0.15    | 0.20         | 2.00               |\n| GBP           | 6,227   | 1,696  | 2,019  | 1,144 | 1,367 | 0.17    | 0.19         | 2.43               |\n| JPY           | 3,566   | 1,330  | 1,466  | 445   | 325   | 0.12    | 0.18         | 1.76               |\n| ...           | ...     | ...    | ...    | ...   | ...   | ...     | ...          | ...                |",
+        "key_insight": "Four-week sum of FX flows reached USD 78,381m, led by G10 at USD 41,136m"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 Total FX Flows",
+      "type": "Metric",
+      "brief": "4-week sum of cross-border FX fund flows",
+      "description": "Aggregate cross-border equity and fixed income flows over four weeks ending July 23, 2025",
+      "properties": {
+        "value": 78381,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Global Fund Flows \u2013 G10 FX Flows",
+      "type": "Metric",
+      "brief": "4-week sum of G10 currency FX fund flows",
+      "description": "Cross-border fund flows for G10 currencies over four weeks ending July 23, 2025",
+      "properties": {
+        "value": 41136,
+        "unit": "USD m",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Goldman Sachs",
+      "type": "Company",
+      "brief": "Global investment bank and asset manager",
+      "description": "Provider of the fixed income fund flows analysis",
+      "properties": {
+        "ticker": "GS"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 GS Fixed Income Share of Bond Assets by Category",
+      "type": "Table",
+      "brief": "Bond asset shares for select fixed income categories from 2010 to 2025",
+      "description": "Shows how investors adjusted their bond allocations among duration, credit, government, high yield, and inflation-protected segments, highlighting risk and duration preferences.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Category                                             | Share (%) |\n|------|------------------------------------------------------|-----------|\n| 2010 | Long Duration Share of Bond Assets                   | 3.4%      |\n| 2012 | Long Duration Share of Bond Assets                   | 4.6%      |\n| 2018 | Long Duration Share of Bond Assets                   | 3.8%      |\n| 2022 | Long Duration Share of Bond Assets                   | 4.2%      |\n| 2024 | Long Duration Share of Bond Assets                   | 7.3%      |\n| 2025 | Long Duration Share of Bond Assets                   | 6.8%      |\n| 2010 | Inflation-protected Share of Bond Assets             | 4.0%      |\n| 2012 | Inflation-protected Share of Bond Assets             | 4.3%      |\n| 2014 | Inflation-protected Share of Bond Assets             | 2.6%      |\n| 2022 | Inflation-protected Share of Bond Assets             | 3.9%      |\n| 2025 | Inflation-protected Share of Bond Assets             | 2.7%      |\n| 2010 | IG Credit and Agg-Type Share of Bond Assets          | 40.5%     |\n| 2015 | IG Credit and Agg-Type Share of Bond Assets          | 47.0%     |\n| 2020 | IG Credit and Agg-Type Share of Bond Assets          | 51.0%     |\n| 2025 | IG Credit and Agg-Type Share of Bond Assets          | 53.5%     |\n| 2010 | Government-only Share of Bond Assets                 | 12.0%     |\n| 2012 | Government-only Share of Bond Assets                 | 13.4%     |\n| 2018 | Government-only Share of Bond Assets                 | 7.0%      |\n| 2025 | Government-only Share of Bond Assets                 | 13.8%     |\n| 2010 | High Yield Bond and Leveraged Loan Share of Bond Assets | 10.5%     |\n| 2014 | High Yield Bond and Leveraged Loan Share of Bond Assets | 16.0%     |\n| 2020 | High Yield Bond and Leveraged Loan Share of Bond Assets | 8.0%      |\n| 2025 | High Yield Bond and Leveraged Loan Share of Bond Assets | 8.5%      |\n| 2010 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 5.5%      |\n| 2014 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 22.0%     |\n| 2019 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 25.0%     |\n| 2020 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 13.0%     |\n| 2025 | Leveraged Loan Share of High Yield Bond and Leveraged Loan Assets | 21.0%     |",
+        "key_insight": "By 2025, Long Duration and IG Credit shares reached multi-year highs, Government-only shares rebounded, and High Yield and Inflation-protected shares underperformed amid volatility."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 GS Fixed Income Evolution of Fund Positioning 2010-2025",
+      "type": "Table",
+      "brief": "Annual bond asset share trends across fixed income categories",
+      "description": "Depicts multi-year shifts in bond asset shares, reflecting evolving investor sentiment toward quality, duration, and risk in fixed income markets.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Long Duration Share of Bond Assets (%) | IG Credit & Agg-Type Share of Bond Assets (%) | High Yield Bond & Leveraged Loan Share of Bond Assets (%) | Inflation-protected Share of Bond Assets (%) | Government-only Share of Bond Assets (%) | Leveraged Loan Share of HY & LL Assets (%) |\n|------|----------------------------------------|-----------------------------------------------|-----------------------------------------------------------|---------------------------------------------|------------------------------------------|--------------------------------------------|\n| 2010 | 3.5                                    | 41.0                                          | 10.5                                                      | 2.8                                         | 10.0                                     | 10.0                                       |\n| 2011 | 4.5                                    | 42.0                                          | 12.0                                                      | 3.0                                         | 9.5                                      | 12.0                                       |\n| 2012 | 4.0                                    | 42.5                                          | 13.0                                                      | 3.2                                         | 9.0                                      | 14.0                                       |\n| 2013 | 4.7                                    | 43.0                                          | 15.0                                                      | 3.0                                         | 9.5                                      | 17.0                                       |\n| 2014 | 4.2                                    | 45.0                                          | 16.0                                                      | 2.9                                         | 9.0                                      | 20.0                                       |\n| 2015 | 4.0                                    | 47.0                                          | 14.0                                                      | 3.0                                         | 8.5                                      | 18.0                                       |\n| 2016 | 4.5                                    | 49.0                                          | 12.0                                                      | 3.2                                         | 8.0                                      | 15.0                                       |\n| 2017 | 4.2                                    | 50.0                                          | 13.0                                                      | 3.5                                         | 8.0                                      | 18.0                                       |\n| 2018 | 4.8                                    | 49.0                                          | 11.0                                                      | 3.8                                         | 7.5                                      | 14.0                                       |\n| 2019 | 4.0                                    | 51.0                                          | 9.5                                                       | 3.5                                         | 7.0                                      | 10.0                                       |\n| 2020 | 4.3                                    | 51.5                                          | 8.0                                                       | 3.0                                         | 6.5                                      | 8.0                                        |\n| 2021 | 4.5                                    | 50.0                                          | 8.5                                                       | 3.5                                         | 7.0                                      | 10.0                                       |\n| 2022 | 6.0                                    | 51.0                                          | 8.5                                                       | 3.8                                         | 7.5                                      | 11.0                                       |\n| 2023 | 7.0                                    | 52.5                                          | 8.0                                                       | 4.0                                         | 8.0                                      | 12.0                                       |\n| 2024 | 7.2                                    | 53.0                                          | 8.5                                                       | 4.2                                         | 8.5                                      | 13.0                                       |\n| 2025 | 6.8                                    | 53.0                                          | 8.0                                                       | 4.0                                         | 8.5                                      | 12.5                                       |",
+        "key_insight": "Long Duration and IG Credit shares rose sharply to peaks by 2024-2025, Government-only shares rebounded, while High Yield and Leveraged Loan shares declined and Inflation-protected shares were volatile."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 WeeklyFundFlows Fund Positioning Share Snapshots",
+      "target": "WeeklyFundFlows \u2013 Euro area Share Trough 2022",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 7.8,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table shows Euro area share trough at 7.8% in 2022"
+    },
+    {
+      "source": "Table T1 \u2013 WeeklyFundFlows Fund Positioning Share Snapshots",
+      "target": "WeeklyFundFlows \u2013 Japan Share Peak 2018",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "confidence": 90,
+        "impact_value": 4.6,
+        "unit": "%",
+        "lag_days": null,
+        "non_linear": null
+      },
+      "description": "Table shows Japan share peak at 4.6% in 2018"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows",
+      "target": "Global Fund Flows \u2013 Total Fixed Income",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 86605,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights 4-week fixed income inflows of $86,605m"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows",
+      "target": "Global Fund Flows \u2013 Total Equity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 29084,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week equity fund flows of $29,084m"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows",
+      "target": "Global Fund Flows \u2013 Government Bond Funds",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7345,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week government bond fund inflows of $7,345m"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows",
+      "target": "Global Fund Flows \u2013 Inflation-Protected Securities",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 448,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week inflation-protected securities flows of $448m"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows",
+      "target": "Global Fund Flows \u2013 High Beta Funds",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10923,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows 4-week high beta fund inflows of $10,923m"
+    },
+    {
+      "source": "Weekly Fund Flows \u2013 Repatriation from US assets",
+      "target": "Weekly Fund Flows \u2013 Net outflows in US equity funds",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Repatriation from US assets causes net outflows in US equity funds"
+    },
+    {
+      "source": "Weekly Fund Flows \u2013 Demand for global fixed income funds",
+      "target": "Weekly Fund Flows \u2013 Global fixed income fund net flows",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strong demand for fixed income drives inflows into fixed income funds"
+    },
+    {
+      "source": "Weekly Fund Flows \u2013 Preference for cyclical sectors",
+      "target": "Weekly Fund Flows \u2013 Net selling of defensive funds",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Preference for cyclical sectors causes net selling of defensive funds"
+    },
+    {
+      "source": "Table T1 \u2013 Fund Positioning: Equity Markets Equity Sector Fund Asset Share Trends",
+      "target": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 34.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table highlights Tech sector share rising to over 30% by 2025"
+    },
+    {
+      "source": "Table T2 \u2013 Fund Positioning: Equity Markets Equity Sector Fund Asset Share Dynamics",
+      "target": "Fund Positioning: Equity Markets Tech Sector Share Rise",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 34.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Tech share climbing from around 9% in 2010 to over 34% by 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flow Asset Share Trends 2010-2025",
+      "target": "Global Fund Flow Equity Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T1 informs increase in Equity share"
+    },
+    {
+      "source": "Table T2 \u2013 Global Fund Flow Equity US and China Share Trends",
+      "target": "Global Fund Flow Equity Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T2 informs overall upward Equity share trend"
+    },
+    {
+      "source": "Table T3 \u2013 Global Fund Flow Money Market EM and EM ex China Share Trends",
+      "target": "Global Fund Flow Money Market Fund Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T3 informs significant money market share decline and spike"
+    },
+    {
+      "source": "Global Fund Flows Post-Pandemic Recovery Optimism",
+      "target": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Post-pandemic optimism drove inflows in 2020-2021"
+    },
+    {
+      "source": "Global Fund Flows Accommodative Monetary Policies",
+      "target": "Global Fund Flows Strong Inflows 2020-2021",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Accommodative monetary policies drove inflows in 2020-2021"
+    },
+    {
+      "source": "Global Fund Flows Rising Inflation",
+      "target": "Global Fund Flows Sharp Outflows 2022",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Rising inflation drove sharp outflows in 2022"
+    },
+    {
+      "source": "Global Fund Flows Rising Interest Rates",
+      "target": "Global Fund Flows Sharp Outflows 2022",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Rising interest rates drove sharp outflows in 2022"
+    },
+    {
+      "source": "Global Fund Flows Market Uncertainty",
+      "target": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Market uncertainty drove mixed-negative flows in early 2025"
+    },
+    {
+      "source": "Global Fund Flows Strategic Re-evaluation of Investment Prospects",
+      "target": "Global Fund Flows Mixed-Negative Flow Trends Early 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.65,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 65
+      },
+      "description": "Strategic re-evaluation drove mixed-negative flows in early 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows \u2013 Euro area flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.1,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Euro area flows peaked at +$8.1bn in late Nov 2024"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows \u2013 Rest of world ex. US flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.0,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Rest of world ex. US flows peaked at +$3.0bn in Jan 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows Foreign Flows into US Equity Funds by Domicile",
+      "target": "Global Fund Flows \u2013 Euro area flows trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -2.5,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows Euro area flows reached trough of -$2.5bn in Apr 2025"
+    },
+    {
+      "source": "Table T2 \u2013 Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows \u2013 Cyclical flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.6,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows cyclical flows peaked at +$2.6bn in late Nov 2024"
+    },
+    {
+      "source": "Table T2 \u2013 Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows \u2013 Cyclical flows trough",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -3.4,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows cyclical flows troughed at -$3.4bn in early May 2025"
+    },
+    {
+      "source": "Table T2 \u2013 Global Fund Flows Flows into Cyclical vs Defensive Equity Funds",
+      "target": "Global Fund Flows \u2013 Defensive flows peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 0.5,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows defensive flows peaked at +$0.5bn in mid-Mar 2025"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows FX Flows",
+      "target": "Global Fund Flows \u2013 Total FX Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 78381,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows total four-week FX flow sum"
+    },
+    {
+      "source": "Table T1 \u2013 Global Fund Flows FX Flows",
+      "target": "Global Fund Flows \u2013 G10 FX Flows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 41136,
+        "unit": "USD m",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows G10 four-week FX flow sum"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/weekly_fund_flows_cyclicals_supported_defensives_depressed_converted_with_figures"
+}

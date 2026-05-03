@@ -1,0 +1,615 @@
+{
+  "entities": [
+    {
+      "name": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "type": "Factor",
+      "brief": "Overweight-rated stocks with materiality and exposure increases",
+      "description": "Focuses on >$30bn market cap stocks with attractive risk-reward and high AI rate of change alpha signal",
+      "properties": {
+        "strategy_number": 1
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "type": "Factor",
+      "brief": "New core to thesis stocks >$30bn market cap",
+      "description": "Targets >$30bn market cap companies aligned to key AI thematic investment theses",
+      "properties": {
+        "strategy_number": 2
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "type": "Factor",
+      "brief": "AI adopters with strong pricing power",
+      "description": "Selects companies breaking away with pricing power to capture AI-driven benefits",
+      "properties": {
+        "strategy_number": 3
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "type": "Factor",
+      "brief": "Stocks central to AI proliferation with high materiality and pricing power",
+      "description": "Broad approach covering enablers, adopters, and infrastructure plays for AI theme",
+      "properties": {
+        "strategy_number": 4
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - S&P Global",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - EssilorLuxottica",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Siemens Energy",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Ecolab",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Zijin Mining Group",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Titan Company",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Amazon.com",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies with high AI materiality",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - SAP",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - IBM",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - ASM International",
+      "type": "Company",
+      "brief": ">$30bn market cap stock in AI data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "market_cap_gt_usd_bn": 30
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Microsoft",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power and high AI materiality",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong",
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Marriott International",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - DoorDash",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Rolls-Royce",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Home Depot",
+      "type": "Company",
+      "brief": "AI adopter with strong pricing power in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "pricing_power": "strong"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - NVIDIA",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Apple",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Meta Platforms",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Alphabet",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Broadcom",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - TSMC",
+      "type": "Company",
+      "brief": "Central to AI proliferation with high materiality in data center infrastructure strategies",
+      "description": "Included in Morgan Stanley's AI thematic investment strategies under data center infrastructure theme",
+      "properties": {
+        "ticker": null,
+        "ai_materiality": "high"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - S&P Global",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds S&P Global"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - EssilorLuxottica",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds EssilorLuxottica"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Siemens Energy",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Siemens Energy"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Ecolab",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Ecolab"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Zijin Mining Group",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Zijin Mining Group"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Johnson Controls International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #1 Overweight-rated Stocks with Materiality & Exposure Increases",
+      "target": "Global Data Center Infrastructure - Titan Company",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #1 holds Titan Company"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - Amazon.com",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds Amazon.com"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - SAP",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds SAP"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - IBM",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds IBM"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - Johnson Controls International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds Johnson Controls International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #2 Core to Thesis Stocks",
+      "target": "Global Data Center Infrastructure - ASM International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #2 holds ASM International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Microsoft",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Microsoft"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Marriott International",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Marriott International"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - DoorDash",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds DoorDash"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Rolls-Royce",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Rolls-Royce"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #3 AI Adopters with Strong Pricing Power",
+      "target": "Global Data Center Infrastructure - Home Depot",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #3 holds Home Depot"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - NVIDIA",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds NVIDIA"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Microsoft",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Microsoft"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Apple",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Apple"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Amazon.com",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Amazon.com"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Meta Platforms",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Meta Platforms"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Alphabet",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Alphabet"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - Broadcom",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds Broadcom"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Strategy #4 High AI Materiality & Pricing Power Stocks",
+      "target": "Global Data Center Infrastructure - TSMC",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strategy #4 holds TSMC"
+    }
+  ],
+  "scenarios": []
+}

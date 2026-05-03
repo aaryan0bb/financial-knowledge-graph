@@ -1,0 +1,52 @@
+Morgan Stanley                                                                                                                           July 24, 2025 
+
+Al    Infrastructure: Total Cumulative Spend of >$3 Trillion Through 2028 
+
+  · ~ $2.6 trillion for data centers, including chips and servers, through 2028 
+
+     >110 gigawatts (GW) of power needed through 2028; at $2-3/watt, power plants would cost ~$210-330b 
+
+     Power grid spend on Al is more difficult to isolate, but is likely in the hundreds of billions through 2028 
+
+      Est. Total Global Data Center Spend p.a. ($mm), by type                   Est. Total Global Data Center Spend p.a. ($mm), by workload 
+
+            $1,000,000 Total                                                               $1,000,000 
+                          Capital Cost of Chips + Servers ($m)                                          Total GenAl Workload Spend 
+             $900,000 Total Capital Cost of DCs, Exl. Chips + Servers ($m)                  $900,000    Total non-Al Workload Spend 
+
+             $800,000                                                                       $800,000 
+             $700,000                                                                       $700,000 
+             $600,000                                                                       $600,000 
+             $500,000                                                                       $500,000 
+             $400,000                                                                       $400,000 
+             $300,000                                                                       $300,000 
+             $200,000                                                                       $200,000 
+             $100,000                                                                       $100,000 
+                  $0                                                                            $0 
+                       2024e   2025e    2026e   2027e    2028e                                       2024e    2025e   2026e   2027e    2028e 
+
+Source: Eikon, Morgan Stanley Research. Past performance is no guarantee of future results. Results shown do not include transaction costs.              14 
+
+    | Year | Total GenAI Workload Spend ($mm) | Total non-AI Workload Spend ($mm) | Total Spend ($mm) |
+    |------|----------------------------------|-----------------------------------|-------------------|
+    | 2024e | $225,000                         | $75,000                           | $300,000          |
+    | 2025e | $400,000                         | $90,000                           | $490,000          |
+    | 2026e | $510,000                         | $90,000                           | $600,000          |
+    | 2027e | $620,000                         | $100,000                          | $720,000          |
+    | 2028e | $760,000                         | $130,000                          | $890,000          |
+
+    Summary: This stacked bar chart illustrates the estimated annual global data center spend from 2024e to 2028e, broken down by workload type: Total GenAI Workload Spend and Total non-AI Workload Spend. The X-axis represents the years, while the Y-axis indicates the spend in millions of dollars, ranging up to $1,000,000mm ($1 trillion). The primary trend shows a significant and continuous increase in total data center spend, driven predominantly by the exponential growth in GenAI workload spend. GenAI workload spend is projected to surge from $225 billion in 2024e to $760 billion in 2028e, rapidly becoming the largest component of total spend, while non-AI workload spend shows more modest growth.
+
+    Explanation: This chart provides a granular view of the projected annual investment in global data center infrastructure, specifically highlighting the dramatic shift towards AI-related workloads. It directly supports the page's assertion that "AI Infrastructure: Total Cumulative Spend of >$3 Trillion Through 2028," demonstrating how annual expenditures, particularly for GenAI, are rapidly escalating to contribute to this massive cumulative investment in computational power.
+
+    | Year | Data Centers, Excl. Chips + Servers ($B) | Chips + Servers ($B) | Total Data Center Spend ($B) |
+    |------|------------------------------------------|----------------------|------------------------------|
+    | 2024e| 125                                      | 175                  | 300                          |
+    | 2025e| 210                                      | 285                  | 495                          |
+    | 2026e| 270                                      | 330                  | 600                          |
+    | 2027e| 325                                      | 400                  | 725                          |
+    | 2028e| 420                                      | 475                  | 895                          |
+
+    Summary: This stacked bar chart, titled "Est. Total Global Data Center Spend p.a. ($mm), by type", projects the annual capital expenditure on data centers from 2024e to 2028e. The X-axis represents the years, while the Y-axis shows the spend in millions of dollars (effectively billions, as $1,000,000mm is $1 trillion). Each bar is segmented into "Total Capital Cost of DCs, Excl. Chips + Servers" (blue) and "Total Capital Cost of Chips + Servers" (beige). The chart depicts a strong, continuous upward trend in total annual data center spend, escalating from approximately $300 billion in 2024e to an estimated $895 billion by 2028e. Both components contribute significantly to this growth, with the cost of chips and servers generally accounting for a larger portion of the total annual spend.
+
+    Explanation: The chart illustrates a critical aspect of AI infrastructure development: the enormous capital investment in data centers required to support current and future AI capabilities. This projected annual spend contributes to the broader estimate of over $3 trillion in total cumulative AI infrastructure spend through 2028, as highlighted in the surrounding text. The breakdown into physical data center costs and specialized hardware (chips and servers) underscores the dual capital intensity of building out the foundational compute necessary for the widespread adoption and advancement of AI.

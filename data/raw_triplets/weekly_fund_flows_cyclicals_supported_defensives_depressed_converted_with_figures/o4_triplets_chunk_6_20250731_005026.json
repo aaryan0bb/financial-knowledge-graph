@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Global Fund Flow Asset Share Trends 2010-2025",
+      "type": "Table",
+      "brief": "Six time series charts of asset share trends",
+      "description": "Shows percentage shares of equities, money market, and regional assets from 2010 to 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Equity Share (%) | Money Mkt Share (%) | US Share (%) | EM Share (%) | China Share (%) | EM ex. China Share (%) |\n|------|------------------|---------------------|--------------|--------------|-----------------|------------------------|\n| 2010 | 72.0             | 31.0                | 65.0         | 11.8         | 2.2             | 9.6                    |\n| 2011 | 68.5             | 27.5                | 63.5         | 13.5         | 1.7             | 11.8                   |\n| 2012 | 65.5             | 24.5                | 62.0         | 12.0         | 2.0             | 10.0                   |\n| 2013 | 66.0             | 22.0                | 63.0         | 10.8         | 2.0             | 8.8                    |\n| 2014 | 70.8             | 19.0                | 61.5         | 9.5          | 1.8             | 7.7                    |\n| 2015 | 69.5             | 18.0                | 62.5         | 9.5          | 2.2             | 7.3                    |\n| 2016 | 68.0             | 17.0                | 63.5         | 10.0         | 2.0             | 8.0                    |\n| 2017 | 69.0             | 17.5                | 64.5         | 10.5         | 2.2             | 8.3                    |\n| 2018 | 70.0             | 16.0                | 66.0         | 10.0         | 2.4             | 7.6                    |\n| 2019 | 68.5             | 15.0                | 67.0         | 9.5          | 2.0             | 7.5                    |\n| 2020 | 66.0             | 20.5                | 65.5         | 9.8          | 2.5             | 7.3                    |\n| 2021 | 72.0             | 16.0                | 69.5         | 10.5         | 3.2             | 7.3                    |\n| 2022 | 72.5             | 17.5                | 67.0         | 9.8          | 2.7             | 7.1                    |\n| 2023 | 74.5             | 18.5                | 68.5         | 9.5          | 2.8             | 6.7                    |\n| 2024 | 75.0             | 17.0                | 70.0         | 9.0          | 2.1             | 6.9                    |\n| 2025 | 75.5             | 17.5                | 67.0         | 9.5          | 2.7             | 6.8                    |",
+        "key_insight": "Equity and US shares rose while money market, EM and EM ex. China shares declined to their lowest by 2025."
+      }
+    },
+    {
+      "name": "Table T2 – Global Fund Flow Equity US and China Share Trends",
+      "type": "Table",
+      "brief": "Time series of Equity, US, and China shares",
+      "description": "Shows share trends in Equity, US, and China assets from 2010 to mid-2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Equity Share (%) | US Share (%) | China Share (%) |\n|---|---|---|---|\n| 2010 | 72.0 | 66.0 | 2.0 |\n| 2011 | 68.0 | 63.0 | 2.2 |\n| 2012 (trough) | 65.5 | 62.0 | 1.9 |\n| 2013 | 67.0 | 63.5 | 1.8 |\n| 2014 | 70.0 | 64.0 | 2.1 |\n| 2015 | 69.5 | 64.5 | 2.4 |\n| 2016 | 68.0 | 63.0 | 2.0 |\n| 2017 | 70.0 | 64.5 | 2.1 |\n| 2018 (trough) | 68.5 | 62.0 | 1.9 |\n| 2019 | 71.0 | 65.0 | 2.5 |\n| 2020 (early trough) | 66.5 | 63.0 | 2.8 |\n| 2020 (late) | 71.0 | 66.0 | 3.0 |\n| 2021 (peak) | 73.5 | 69.5 | 3.2 |\n| 2022 (early) | 71.5 | 67.5 | 2.8 |\n| 2023 (mid) | 73.0 | 68.0 | 2.3 |\n| 2024 (early peak) | 74.5 | 69.5 | 2.1 |\n| 2024 (late drop) | 73.5 | 66.0 | 2.6 |\n| 2025 (current) | 75.5 | 67.5 | 2.7 |",
+        "key_insight": "Equity share nears peak after dips, US share peaked in early 2024 before declining then rebounding, and China share surged to 3.2% in 2021 then recovered by mid-2025."
+      }
+    },
+    {
+      "name": "Table T3 – Global Fund Flow Money Market EM and EM ex China Share Trends",
+      "type": "Table",
+      "brief": "Time series of Money Market, EM, and EM ex. China shares",
+      "description": "Illustrates declines and rebounds in money market and EM asset shares from 2010 to 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | Money Market Fund Share (%) | EM Share (%) | EM ex. China Share (%) |\n|--------|---------------------------|--------------|------------------------|\n| 2010   | 31.0                      | 11.5         | 9.8                    |\n| 2011   | 27.0                      | 13.5         | 11.2                   |\n| 2012   | 23.5                      | 12.5         | 10.5                   |\n| 2013   | 20.5                      | 11.5         | 9.5                    |\n| 2014   | 18.0                      | 10.5         | 8.5                    |\n| 2015   | 17.0                      | 9.5          | 7.5                    |\n| 2016   | 16.5                      | 9.2          | 7.5                    |\n| 2017   | 15.0                      | 10.5         | 8.2                    |\n| 2018   | 15.5                      | 11.0         | 8.0                    |\n| 2019   | 16.0                      | 9.5          | 7.5                    |\n| 2020   | 20.5                      | 10.5         | 6.5                    |\n| 2021   | 15.0                      | 10.0         | 7.3                    |\n| 2022   | 17.0                      | 9.5          | 7.0                    |\n| 2023   | 18.0                      | 9.0          | 6.7                    |\n| 2024   | 17.5                      | 8.8          | 6.2                    |\n| 2025   | 17.0                      | 9.5          | 6.8                    |",
+        "key_insight": "Money market share fell to 15% by 2017, spiked above 20% in 2020 then stabilized around 17%, while EM and EM ex. China shares declined to 2024 lows before rebounding into 2025."
+      }
+    },
+    {
+      "name": "Global Fund Flow Equity Share",
+      "type": "Metric",
+      "brief": "Equity share of global mutual fund assets",
+      "description": "Percentage share of equities within global mutual fund assets",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Global Fund Flow Money Market Fund Share",
+      "type": "Metric",
+      "brief": "Money market share of global mutual fund assets",
+      "description": "Percentage share of money market funds within global mutual fund assets",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Global Fund Flow Asset Share Trends 2010-2025",
+      "target": "Global Fund Flow Equity Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T1 informs increase in Equity share"
+    },
+    {
+      "source": "Table T2 – Global Fund Flow Equity US and China Share Trends",
+      "target": "Global Fund Flow Equity Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T2 informs overall upward Equity share trend"
+    },
+    {
+      "source": "Table T3 – Global Fund Flow Money Market EM and EM ex China Share Trends",
+      "target": "Global Fund Flow Money Market Fund Share",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table T3 informs significant money market share decline and spike"
+    }
+  ],
+  "scenarios": []
+}

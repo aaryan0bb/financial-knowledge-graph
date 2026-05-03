@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "US Large-Cap Banks – ZION",
+      "type": "Company",
+      "brief": "Barclays-covered US large-cap bank",
+      "description": "Zions Bancorporation under Barclays coverage",
+      "properties": {
+        "ticker": "ZION",
+        "sector": "U.S. Large-Cap Banks",
+        "market_cap_USDbn": 8.3894,
+        "rating_outlook": "Underweight"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – ZION Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays target price for ZION",
+      "properties": {
+        "value": 61.0,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – ZION Price",
+      "type": "Metric",
+      "brief": "Market price",
+      "description": "ZION share price on report date",
+      "properties": {
+        "value": 56.85,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – ZION EPS FY1 (E)",
+      "type": "Metric",
+      "brief": "Next-fiscal-year EPS estimate",
+      "description": "Barclays EPS forecast for ZION FY1",
+      "properties": {
+        "value": 5.65,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – ZION EPS FY2 (E)",
+      "type": "Metric",
+      "brief": "Following-fiscal-year EPS estimate",
+      "description": "Barclays EPS forecast for ZION FY2",
+      "properties": {
+        "value": 5.6,
+        "unit": "USD",
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – Capital Markets Revenues",
+      "type": "Factor",
+      "brief": "2Q25 segment revenues",
+      "description": "Capital markets revenues posted 4th best quarter on record, above expectations",
+      "properties": {
+        "direction": "up",
+        "driver": "trading and IB fees"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – Trading and IB Fees",
+      "type": "Factor",
+      "brief": "Fee revenue drivers",
+      "description": "Trading and investment banking fees contributed to revenue gains",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – Trading Backdrop",
+      "type": "Factor",
+      "brief": "Market trading environment",
+      "description": "Trading backdrop remains constructive",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – IB Pipelines",
+      "type": "Factor",
+      "brief": "M&A & IPO deal pipelines",
+      "description": "Investment banking pipelines, especially M&A & IPO, are strong",
+      "properties": {
+        "direction": "up",
+        "driver": "M&A & IPO"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – Market Sentiment",
+      "type": "Factor",
+      "brief": "Investor sentiment",
+      "description": "Market sentiment is much improved",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "US Large-Cap Banks – 2025 Outlook",
+      "type": "Factor",
+      "brief": "Outlook for 2025",
+      "description": "Expect a robust 2025 for investment banks",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "US Large-Cap Banks – Trading and IB Fees",
+      "target": "US Large-Cap Banks – Capital Markets Revenues",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Fees drove capital markets revenues"
+    },
+    {
+      "source": "US Large-Cap Banks – Trading Backdrop",
+      "target": "US Large-Cap Banks – 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Constructive trading backdrop supports robust outlook"
+    },
+    {
+      "source": "US Large-Cap Banks – IB Pipelines",
+      "target": "US Large-Cap Banks – 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Strong IB pipelines support 2025 outlook"
+    },
+    {
+      "source": "US Large-Cap Banks – Market Sentiment",
+      "target": "US Large-Cap Banks – 2025 Outlook",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Improved market sentiment supports outlook"
+    }
+  ],
+  "scenarios": []
+}

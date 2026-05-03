@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "NXPI – NXP Semiconductors NV",
+      "type": "Company",
+      "brief": "Semiconductor manufacturer with confidence in cycle upturn",
+      "description": "Aligns with investor sentiment of cycle recovery with a likely channel re-stock in 2H.",
+      "properties": {
+        "ticker": "NXPI",
+        "sector": "Technology",
+        "market_cap_USDbn": 57.5993,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "NXPI – EPS FY1",
+      "type": "Metric",
+      "brief": "NXPI estimated earnings per share for FY1",
+      "description": "Analyst estimate for fiscal year 1 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 10.22,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI – EPS FY2",
+      "type": "Metric",
+      "brief": "NXPI estimated earnings per share for FY2",
+      "description": "Analyst estimate for fiscal year 2 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 12.4,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI – Price Target",
+      "type": "Metric",
+      "brief": "Barclays price target for NXPI",
+      "description": "Analyst price target set by Barclays.",
+      "properties": {
+        "unit": "USD",
+        "value": 220.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI – Share Price",
+      "type": "Metric",
+      "brief": "NXPI share price",
+      "description": "Market price on 22 July 2025.",
+      "properties": {
+        "unit": "USD",
+        "value": 228.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "NXPI – Cycle Recovery",
+      "type": "Factor",
+      "brief": "Investor sentiment on cycle recovery",
+      "description": "Sentiment of a cycle upturn driving recovery expectations.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "NXPI – Channel Re-Stock",
+      "type": "Factor",
+      "brief": "Expected channel restocking in 2H",
+      "description": "Likely increase in channel inventory restocking in the second half.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ORCL – Oracle Corp.",
+      "type": "Company",
+      "brief": "Cloud and enterprise software provider witnessing contract reacceleration",
+      "description": "Confirmed 4.5 GW OpenAI capacity deal as part of Stargate, bolstering reacceleration.",
+      "properties": {
+        "ticker": "ORCL",
+        "sector": "U.S. Software",
+        "market_cap_USDbn": 668.8112,
+        "rating_outlook": "Overweight"
+      }
+    },
+    {
+      "name": "ORCL – EPS FY1",
+      "type": "Metric",
+      "brief": "ORCL estimated earnings per share for FY1",
+      "description": "Analyst estimate for fiscal year 1 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 6.66,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL – EPS FY2",
+      "type": "Metric",
+      "brief": "ORCL estimated earnings per share for FY2",
+      "description": "Analyst estimate for fiscal year 2 EPS.",
+      "properties": {
+        "unit": "USD",
+        "value": 7.89,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL – Price Target",
+      "type": "Metric",
+      "brief": "Barclays price target for ORCL",
+      "description": "Analyst price target set by Barclays.",
+      "properties": {
+        "unit": "USD",
+        "value": 221.0,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL – Share Price",
+      "type": "Metric",
+      "brief": "ORCL share price",
+      "description": "Market price on 22 July 2025.",
+      "properties": {
+        "unit": "USD",
+        "value": 238.11,
+        "as_of": "2025-07-22"
+      }
+    },
+    {
+      "name": "ORCL – 4.5 GW OpenAI Stargate Contract Signed",
+      "type": "Event",
+      "brief": "Oracle contract with OpenAI for 4.5 GW capacity",
+      "description": "OpenAI CEO Sam Altman confirmed a 4.5 GW capacity deal with Oracle as part of Stargate.",
+      "properties": {
+        "date": "2025-07-22",
+        "event_type": "contract_signed",
+        "impact_value": 4.5,
+        "unit": "GW",
+        "affected_tickers": [
+          "ORCL"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "NXPI – Cycle Recovery",
+      "target": "NXPI – NXP Semiconductors NV",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Cycle recovery sentiment impacts NXPI outlook"
+    },
+    {
+      "source": "NXPI – Channel Re-Stock",
+      "target": "NXPI – NXP Semiconductors NV",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": null,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Expected channel restocking impacts NXPI inventory outlook"
+    },
+    {
+      "source": "ORCL – 4.5 GW OpenAI Stargate Contract Signed",
+      "target": "ORCL – Oracle Corp.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 4.5,
+        "unit": "GW",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Stargate contract with OpenAI impacts Oracle reacceleration"
+    }
+  ],
+  "scenarios": []
+}

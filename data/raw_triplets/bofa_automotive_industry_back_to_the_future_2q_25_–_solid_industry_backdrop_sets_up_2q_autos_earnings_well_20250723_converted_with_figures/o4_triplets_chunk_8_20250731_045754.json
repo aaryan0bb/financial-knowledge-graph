@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "name": "automotive_industry_2Q25-Adient Plc",
+      "type": "Company",
+      "brief": "Auto supplier facing production volume pressures",
+      "description": "ADNT faces production and market pressures, offset partly by cost cuts",
+      "properties": {
+        "ticker": "ADNT",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle",
+      "type": "Company",
+      "brief": "Auto supplier with recovering volumes",
+      "description": "AXL priced on EV/EBITDA multiple amid production volume recovery",
+      "properties": {
+        "ticker": "AXL",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Price Objective",
+      "type": "Metric",
+      "brief": "Forecast price target",
+      "description": "Analyst price objective based on 3.5x EV/EBITDA on FY2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 17.5,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple used in price target",
+      "description": "3.5x EV/EBITDA on FY2026 estimates, lower end of historical range",
+      "properties": {
+        "unit": "multiple",
+        "value": 3.5,
+        "as_of": "FY2026"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle Price Objective",
+      "type": "Metric",
+      "brief": "Forecast price target",
+      "description": "Price objective based on roughly 3.5x EV/EBITDA on 2026 estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 4.5,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "type": "Metric",
+      "brief": "Valuation multiple for price target",
+      "description": "Roughly 3.5x EV/EBITDA on 2026 estimates, below 4.5x historical average",
+      "properties": {
+        "unit": "multiple",
+        "value": 3.5,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "type": "Factor",
+      "brief": "Pressure on production volumes",
+      "description": "Current pressures on production volumes weighing on performance",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+      "type": "Factor",
+      "brief": "Cost reduction measures",
+      "description": "Actions taken to partially mitigate volume pressures",
+      "properties": {
+        "driver": "mitigate production volume pressures"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Challenging Market Environment (Europe & China)",
+      "type": "Factor",
+      "brief": "Tough European and Chinese markets",
+      "description": "Challenging market environment in Europe and China weighing on valuation",
+      "properties": {
+        "region": "Europe, China",
+        "direction": "down"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-Adient Plc Contract Extension Risk",
+      "type": "Factor",
+      "brief": "Risk of prolonging unprofitable contracts",
+      "description": "Risk of contract extensions prolonging unprofitable metal contracts",
+      "properties": {
+        "driver": "unprofitable metal contracts"
+      }
+    },
+    {
+      "name": "automotive_industry_2Q25-American Axle Production Volume Recovery",
+      "type": "Factor",
+      "brief": "Recovery in production volumes",
+      "description": "Forthcoming US/NA and global production volume recovery",
+      "properties": {
+        "region": "US/NA, Global",
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "automotive_industry_2Q25-Adient Plc EV/EBITDA Multiple",
+      "target": "automotive_industry_2Q25-Adient Plc Price Objective",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs ADNT price objective"
+    },
+    {
+      "source": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "target": "automotive_industry_2Q25-American Axle Price Objective",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "EV/EBITDA multiple informs AXL price objective"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Production volume pressures weigh on ADNT performance"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+      "target": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Cost cutting actions partially mitigate production pressures"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Challenging Market Environment (Europe & China)",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Challenging market environment weighs on ADNT valuation"
+    },
+    {
+      "source": "automotive_industry_2Q25-Adient Plc Contract Extension Risk",
+      "target": "automotive_industry_2Q25-Adient Plc",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Contract extension risk weighs on ADNT valuation"
+    },
+    {
+      "source": "automotive_industry_2Q25-American Axle Production Volume Recovery",
+      "target": "automotive_industry_2Q25-American Axle EV/EBITDA Multiple",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Production volume recovery informs EV/EBITDA multiple"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "scenario_1",
+      "root_trigger": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "IMPACTS",
+          "source": "automotive_industry_2Q25-Adient Plc Cost Cutting Actions",
+          "target": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "IMPACTS",
+          "source": "automotive_industry_2Q25-Adient Plc Production Volume Pressure",
+          "target": "automotive_industry_2Q25-Adient Plc",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

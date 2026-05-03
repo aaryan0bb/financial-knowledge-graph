@@ -1,0 +1,375 @@
+{
+  "entities": [
+    {
+      "name": "PNR – Pentair plc",
+      "type": "Company",
+      "brief": "Reported inline Q2 profit and raised EPS guide",
+      "description": "Pentair reported in-line Q2 2025 operating profit and increased its FY25 adjusted EPS guidance",
+      "properties": {
+        "ticker": "PNR",
+        "sector": "Industrials",
+        "market_cap_USDbn": 17.2539
+      }
+    },
+    {
+      "name": "PHM – PulteGroup Inc.",
+      "type": "Company",
+      "brief": "Outlook little changed with cautious EPS cuts",
+      "description": "PulteGroup stock rose 12% but firm cut FY26 EPS estimates due to affordability and inventory pressures",
+      "properties": {
+        "ticker": "PHM",
+        "sector": "U.S. Homebuilding & Building Products",
+        "market_cap_USDbn": 24.2858
+      }
+    },
+    {
+      "name": "PNR – Stock Rating",
+      "type": "Factor",
+      "brief": "Analyst recommendation category",
+      "description": "Barclays stock rating for Pentair",
+      "properties": {
+        "rating": "Overweight"
+      }
+    },
+    {
+      "name": "PNR – Industry View",
+      "type": "Factor",
+      "brief": "Sector outlook from Barclays",
+      "description": "Barclays industry view on Pentair",
+      "properties": {
+        "view": "Neutral"
+      }
+    },
+    {
+      "name": "PHM – Stock Rating",
+      "type": "Factor",
+      "brief": "Analyst recommendation category",
+      "description": "Barclays stock rating for PulteGroup",
+      "properties": {
+        "rating": "Equal Weight"
+      }
+    },
+    {
+      "name": "PHM – Industry View",
+      "type": "Factor",
+      "brief": "Sector outlook from Barclays",
+      "description": "Barclays industry view on PulteGroup",
+      "properties": {
+        "view": "Positive"
+      }
+    },
+    {
+      "name": "PNR – Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for Pentair",
+      "properties": {
+        "unit": "USD",
+        "value": 117.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PNR – Stock Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "Pentair share price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 104.87,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PNR – Q2 2025 adjusted EPS",
+      "type": "Metric",
+      "brief": "Actual adjusted EPS for Q2 2025",
+      "description": "Pentair reported Q2 2025 adjusted EPS versus estimates",
+      "properties": {
+        "unit": "USD",
+        "value": 1.39,
+        "as_of": "Q2 2025"
+      }
+    },
+    {
+      "name": "PNR – FY1 EPS estimate (FY25E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays EPS estimate for Pentair fiscal 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 4.86,
+        "as_of": "FY25E"
+      }
+    },
+    {
+      "name": "PNR – FY2 EPS estimate (FY26E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays EPS estimate for Pentair fiscal 2026",
+      "properties": {
+        "unit": "USD",
+        "value": 5.4,
+        "as_of": "FY26E"
+      }
+    },
+    {
+      "name": "PHM – Price Target",
+      "type": "Metric",
+      "brief": "Analyst price target",
+      "description": "Barclays price target for PulteGroup",
+      "properties": {
+        "unit": "USD",
+        "value": 98.0,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PHM – Stock Price",
+      "type": "Metric",
+      "brief": "Current share price",
+      "description": "PulteGroup share price on 22 July 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 121.17,
+        "as_of": "22 July 2025"
+      }
+    },
+    {
+      "name": "PHM – FY1 EPS estimate (FY26E)",
+      "type": "Metric",
+      "brief": "Fiscal year 1 EPS estimate",
+      "description": "Barclays EPS estimate for PulteGroup fiscal 2026",
+      "properties": {
+        "unit": "USD",
+        "value": 11.35,
+        "as_of": "FY26E"
+      }
+    },
+    {
+      "name": "PHM – FY2 EPS estimate (FY27E)",
+      "type": "Metric",
+      "brief": "Fiscal year 2 EPS estimate",
+      "description": "Barclays EPS estimate for PulteGroup fiscal 2027",
+      "properties": {
+        "unit": "USD",
+        "value": 10.96,
+        "as_of": "FY27E"
+      }
+    },
+    {
+      "name": "PHM – Stock Price Increase 12%",
+      "type": "Event",
+      "brief": "Stock rose 12% on report date",
+      "description": "PulteGroup stock rose 12% while S&P remained flat",
+      "properties": {
+        "date": "22 July 2025",
+        "event_type": "stock_movement",
+        "impact_value": 12,
+        "unit": "%",
+        "affected_tickers": [
+          "PHM"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – Stock Rating",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair holds an Overweight stock rating"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – Industry View",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays views Pentair's industry as Neutral"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair has a price target of USD 117 as of 22 July 2025"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair share price was USD 104.87 on 22 July 2025"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – Q2 2025 adjusted EPS",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Pentair reported adjusted EPS of USD 1.39 in Q2 2025"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – FY1 EPS estimate (FY25E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates Pentair EPS at USD 4.86 for FY25E"
+    },
+    {
+      "source": "PNR – Pentair plc",
+      "target": "PNR – FY2 EPS estimate (FY26E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates Pentair EPS at USD 5.40 for FY26E"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – Stock Rating",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup holds an Equal Weight stock rating"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – Industry View",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays views PulteGroup's industry as Positive"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – Price Target",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup has a price target of USD 98 as of 22 July 2025"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – Stock Price",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "PulteGroup share price was USD 121.17 on 22 July 2025"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – FY1 EPS estimate (FY26E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates PulteGroup EPS at USD 11.35 for FY26E"
+    },
+    {
+      "source": "PHM – PulteGroup Inc.",
+      "target": "PHM – FY2 EPS estimate (FY27E)",
+      "type": "HOLDS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Barclays estimates PulteGroup EPS at USD 10.96 for FY27E"
+    },
+    {
+      "source": "PHM – Stock Price Increase 12%",
+      "target": "PHM – PulteGroup Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 12,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "PulteGroup stock rose 12% on 22 July 2025"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "GOOGL – Google",
+      "type": "Company",
+      "brief": "Search and cloud technology giant",
+      "description": "Major technology company driving growth through AI and cloud initiatives",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "GOOGL – Bull sentiment",
+      "type": "Factor",
+      "brief": "Investor optimism driven by valuation and growth",
+      "description": "Bull camp sentiment due to cheap valuation and growth metrics",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GOOGL – Bear sentiment",
+      "type": "Factor",
+      "brief": "Investor caution due to capital and regulatory risks",
+      "description": "Bear camp sentiment from rising capex and regulatory overhang",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GOOGL – GAAP EPS ex-cash multiple",
+      "type": "Metric",
+      "brief": "Forward GAAP EPS ex-cash valuation multiple",
+      "description": "Forward 2026 GAAP EPS ex-cash multiple indicating valuation",
+      "properties": {
+        "value": 18,
+        "unit": "x",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GOOGL – YouTube y/y growth rate",
+      "type": "Metric",
+      "brief": "Year-over-year YouTube revenue growth",
+      "description": "Indicates strong YouTube growth driven by Shorts and subscriptions",
+      "properties": {
+        "value": 13,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "GOOGL – Cloud operating margin expansion",
+      "type": "Metric",
+      "brief": "Year-over-year operating margin expansion for Google Cloud",
+      "description": "Operating margins expanded by 900 basis points y/y in Cloud segment",
+      "properties": {
+        "value": 900,
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "GOOGL – share buyback pacing",
+      "type": "Metric",
+      "brief": "Annual share repurchase pacing",
+      "description": "Share buyback pacing down to $13.6bn from $15–16bn",
+      "properties": {
+        "value": 13.6,
+        "unit": "USD bn",
+        "as_of": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "GOOGL – GAAP EPS ex-cash multiple",
+      "target": "GOOGL – Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Low GAAP EPS multiple triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL – YouTube y/y growth rate",
+      "target": "GOOGL – Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Strong YouTube growth triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL – Cloud operating margin expansion",
+      "target": "GOOGL – Bull sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Cloud margin expansion triggers bullish investor sentiment"
+    },
+    {
+      "source": "GOOGL – share buyback pacing",
+      "target": "GOOGL – Bear sentiment",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Reduction in buyback pacing triggers bearish investor sentiment"
+    }
+  ],
+  "scenarios": []
+}

@@ -1,0 +1,524 @@
+{
+  "entities": [
+    {
+      "name": "Global Data Center Infrastructure - AI exposure",
+      "type": "Factor",
+      "brief": "Degree of company AI involvement",
+      "description": "Extent to which companies increase AI utilization",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - AI materiality",
+      "type": "Factor",
+      "brief": "Significance of AI to company operations",
+      "description": "Magnitude of AI’s material impact across companies",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased AI exposure count",
+      "type": "Metric",
+      "brief": "Number of stocks with increased AI exposure",
+      "description": "Count of stocks that raised AI exposure",
+      "properties": {
+        "value": 412,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased AI materiality count",
+      "type": "Metric",
+      "brief": "Number of stocks with increased AI materiality",
+      "description": "Count of stocks experiencing greater AI materiality",
+      "properties": {
+        "value": 259,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Stocks increased both AI exposure and materiality count",
+      "type": "Metric",
+      "brief": "Stocks increasing both AI exposure and materiality",
+      "description": "Number of stocks that raised both exposure and materiality to AI",
+      "properties": {
+        "value": 102,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased AI exposure",
+      "type": "Metric",
+      "brief": "Market cap of stocks raising AI exposure",
+      "description": "Aggregate market cap of stocks increasing AI exposure",
+      "properties": {
+        "value": 8.7,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased AI materiality",
+      "type": "Metric",
+      "brief": "Market cap of stocks raising AI materiality",
+      "description": "Aggregate market cap of stocks increasing AI materiality",
+      "properties": {
+        "value": 8.5,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Market cap of stocks increased both AI exposure and materiality",
+      "type": "Metric",
+      "brief": "Market cap of stocks increasing both AI exposure and materiality",
+      "description": "Aggregate market cap of stocks raising both exposure and materiality to AI",
+      "properties": {
+        "value": 2.4,
+        "unit": "USD tn",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "Factor",
+      "brief": "Consumer Durables & Apparel industry segment",
+      "description": "Companies producing durable consumer goods and apparel",
+      "properties": {
+        "sector": "Consumer Durables & Apparel"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Discretionary sector",
+      "type": "Factor",
+      "brief": "Consumer Discretionary industry segment",
+      "description": "Companies in consumer discretionary goods and services",
+      "properties": {
+        "sector": "Consumer Discretionary"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Real Estate sector",
+      "type": "Factor",
+      "brief": "Real Estate industry segment",
+      "description": "Companies holding or developing real estate assets",
+      "properties": {
+        "sector": "Real Estate"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - REITs",
+      "type": "Factor",
+      "brief": "Real Estate Investment Trusts",
+      "description": "Companies owning and managing income-generating real estate",
+      "properties": {
+        "sector": "REITs"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Insurance sector",
+      "type": "Factor",
+      "brief": "Insurance industry segment",
+      "description": "Companies offering insurance products and services",
+      "properties": {
+        "sector": "Insurance"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Financial Services sector",
+      "type": "Factor",
+      "brief": "Financial Services industry segment",
+      "description": "Companies providing financial services",
+      "properties": {
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "Factor",
+      "brief": "Asia Pacific geographic region",
+      "description": "Countries in Asia Pacific region",
+      "properties": {
+        "region": "Asia Pacific"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel exposure increase rate",
+      "type": "Metric",
+      "brief": "Increase rate of AI exposure for Consumer Durables & Apparel stocks",
+      "description": "Percentage of Consumer Durables & Apparel stocks that saw AI exposure rise",
+      "properties": {
+        "value": 30,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel materiality increase rate",
+      "type": "Metric",
+      "brief": "Increase rate of AI materiality for Consumer Durables & Apparel stocks",
+      "description": "Percentage of Consumer Durables & Apparel stocks that saw AI materiality rise",
+      "properties": {
+        "value": 10,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Durables & Apparel Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Consumer Durables & Apparel companies as AI Adopters",
+      "description": "Proportion of Consumer Durables & Apparel stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 44,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Consumer Discretionary Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Consumer Discretionary companies as AI Adopters",
+      "description": "Proportion of Consumer Discretionary stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 47,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - REITs exposure percent",
+      "type": "Metric",
+      "brief": "Percent of REITs more exposed to AI",
+      "description": "Proportion of REITs with increased AI exposure",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Insurance Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Insurance companies as AI Adopters",
+      "description": "Proportion of Insurance stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 71,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Financial Services Adopters percent",
+      "type": "Metric",
+      "brief": "Percent of Financial Services companies as AI Adopters",
+      "description": "Proportion of Financial Services stocks qualifying as AI Adopters",
+      "properties": {
+        "value": 73,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific net AI exposure increase count",
+      "type": "Metric",
+      "brief": "Net companies added to AI exposure in Asia Pacific",
+      "description": "Number of Asia Pacific stocks that increased AI exposure",
+      "properties": {
+        "value": 104,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Asia Pacific AI materiality increase count",
+      "type": "Metric",
+      "brief": "Asia Pacific stocks with rising AI materiality",
+      "description": "Number of Asia Pacific stocks that increased AI materiality",
+      "properties": {
+        "value": 30,
+        "unit": "companies",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "type": "Factor",
+      "brief": "Alpha generated by AI materiality",
+      "description": "Outperformance linked to AI materiality among companies",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Relative price performance",
+      "type": "Factor",
+      "brief": "Relative price performance indicator",
+      "description": "Comparison of price movements relative to peers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - Earnings revisions",
+      "type": "Factor",
+      "brief": "Earnings revisions metric",
+      "description": "Broker earnings estimate revisions influenced by AI materiality",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Global Data Center Infrastructure - 4th AI Mapping Exercise report",
+      "type": "Event",
+      "brief": "Fourth AI mapping exercise report publication",
+      "description": "Morgan Stanley’s 4th AI mapping exercise report release",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "report_release"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased AI exposure count",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 412,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "412 stocks increased AI exposure"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased AI materiality count",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 259,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "259 stocks increased AI materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Stocks increased both AI exposure and materiality count",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 102,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "102 stocks increased both AI exposure and materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased AI exposure",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.7,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$8.7tn market cap saw AI exposure gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased AI materiality",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 8.5,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$8.5tn market cap saw AI materiality gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Market cap of stocks increased both AI exposure and materiality",
+      "target": "Global Data Center Infrastructure - AI exposure",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.4,
+        "unit": "USD tn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "$2.4tn market cap saw both AI exposure and materiality gains"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - AI materiality",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Increased AI exposure leads to higher AI materiality"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "AI materiality drives alpha generation"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "target": "Global Data Center Infrastructure - Relative price performance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Alpha from AI materiality affects relative price performance"
+    },
+    {
+      "source": "Global Data Center Infrastructure - Alpha from AI materiality",
+      "target": "Global Data Center Infrastructure - Earnings revisions",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Alpha from AI materiality influences earnings revisions"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI exposure rose by 30% in Consumer Durables & Apparel stocks"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Consumer Durables & Apparel sector",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 10,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI materiality rose by 10% in Consumer Durables & Apparel stocks"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI exposure",
+      "target": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 104,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI exposure increased by 104 companies in Asia Pacific"
+    },
+    {
+      "source": "Global Data Center Infrastructure - AI materiality",
+      "target": "Global Data Center Infrastructure - Asia Pacific region",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "companies",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "AI materiality increased for 30 companies in Asia Pacific"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Global Data Center Infrastructure - AI exposure",
+      "probability": 0.9,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "Global Data Center Infrastructure - AI exposure",
+          "target": "Global Data Center Infrastructure - AI materiality",
+          "lag_days": null,
+          "prob": 0.9,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "Global Data Center Infrastructure - AI materiality",
+          "target": "Global Data Center Infrastructure - Alpha from AI materiality",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 3,
+          "edge_type": "IMPACTS",
+          "source": "Global Data Center Infrastructure - Alpha from AI materiality",
+          "target": "Global Data Center Infrastructure - Earnings revisions",
+          "lag_days": null,
+          "prob": 0.75,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

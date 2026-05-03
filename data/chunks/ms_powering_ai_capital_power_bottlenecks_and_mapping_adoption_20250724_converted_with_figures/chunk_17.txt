@@ -1,0 +1,42 @@
+Morgan Stanley                                                                                                                       July 24, 2025 
+
+The US Power Bottleneck 
+
+                                                                                       Potential Shortfall in Power for US Data Centers, 2025-28 
+Our Powering Al model is a helpful tool to                        70 
+                                                                               65 
+understand the drivers of data center power 
+                                                                  60 
+demand growth - our power demand                                                                    (6) 
+numbers are above consensus 
+                                                                  50 
+
+We see multiple bottlenecks to data center                                                                               (15) 
+                                                                  40 
+growth in the US and Europe: (A) grid access, 
+
+(B) power equipment, (C) labor, and (D) 
+                                                                  30 
+political capital 
+
+                                                                  20 
+What are the best "time to power" solutions? 
+
+(A) siting at nuclear power plants, (B) natural 
+                                                                  10 
+gas-fired plants and fuel cells, (C) conversion 
+of crypto and industrial sites                                                                                                                (45) 
+                                                                        US Power Needed, 2025-28 US DCs Under Construction Available US Grid Capacity Potential Shortfall 
+
+Source: Morgan Stanley Research                                                                                                                     17 
+
+    | Category | Value (GW) |
+    |-----------------------------------|------------|
+    | US Power Needed, 2025-28          | 65         |
+    | US DCs Under Construction         | (6)        |
+    | Available US Grid Capacity        | (15)       |
+    | Potential Shortfall               | (45)       |
+
+    Summary: This waterfall chart, titled "Potential Shortfall in Power for US Data Centers, 2025-28," illustrates the projected power deficit in the United States. The X-axis delineates categories contributing to or detracting from power availability, while the Y-axis quantifies power in Gigawatts (GW). The chart begins with a substantial "US Power Needed" of 65 GW. This demand is then partially offset by power from "US DCs Under Construction" (6 GW) and "Available US Grid Capacity" (15 GW), leading to a significant "Potential Shortfall" of 45 GW, highlighting the large anticipated deficit.
+
+    Explanation: The chart directly quantifies Morgan Stanley's analysis of "The US Power Bottleneck," showing that despite new data center construction and existing grid capacity, the demand for power, particularly for AI-driven data centers, is expected to far outstrip supply. This projected 45 GW deficit by 2028 underscores a critical infrastructure challenge, aligning with the broader context on the page that identifies grid access, power equipment, and labor as significant bottlenecks to data center growth in the US.

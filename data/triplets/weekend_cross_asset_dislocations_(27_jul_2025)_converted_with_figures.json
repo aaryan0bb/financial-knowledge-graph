@@ -1,0 +1,712 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 Market Metrics Ten-Year Percentiles Overview",
+      "type": "Table",
+      "brief": "Current 10-year percentiles and historical ranges for key market metrics",
+      "description": "Highlights percentile standings for volatility, skew, credit, liquidity, positioning, and inflation indicators",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Category                | Metric                       | Current 10y Percentile | 1-Year 25th Percentile | 1-Year 75th Percentile |\n|-------------------------|------------------------------|------------------------|------------------------|------------------------|\n| Implied Volatility      | SPX                          | 75                     | 45                     | 80                     |\n| Implied Volatility      | SX5E                         | 50                     | 35                     | 65                     |\n| Implied Volatility      | N225                         | 65                     | 20                     | 75                     |\n| Implied Volatility      | HSCE                         | 60                     | 20                     | 75                     |\n| Implied Volatility      | FXI                          | 60                     | 20                     | 75                     |\n| Implied Volatility      | EEM                          | 10                     | 5                      | 55                     |\n| Implied Volatility      | HYG                          | 5                      | 5                      | 50                     |\n| Implied Volatility      | TLT                          | 40                     | 15                     | 70                     |\n| Implied Volatility      | USO                          | 15                     | 10                     | 60                     |\n| Implied Volatility      | GLD                          | 65                     | 55                     | 75                     |\n| Implied Volatility      | SP500 avg stk implied vol    | 60                     | 55                     | 80                     |\n| Implied Volatility      | VIX                          | 35                     | 45                     | 80                     |\n| Implied Volatility      | VVIX                         | 35                     | 35                     | 75                     |\n| Implied Volatility      | Eq factor vol                | 60                     | 55                     | 75                     |\n| Skew and Correlation    | Avg Stock put-call norm skew | 20                     | 15                     | 45                     |\n| Skew and Correlation    | SPX put-call norm skew       | 30                     | 20                     | 50                     |\n| Skew and Correlation    | USO put-call norm skew       | 15                     | 10                     | 55                     |\n| Skew and Correlation    | SPX 3m impl corr             | 10                     | 10                     | 25                     |\n| Skew and Correlation    | SPX 3m real corr             | 28                     | 28                     | 85                     |\n| Credit and Rates        | CDX IG 5Y                    | 12                     | 10                     | 40                     |\n| Credit and Rates        | CDX HY 5Y                    | 20                     | 15                     | 50                     |\n| Credit and Rates        | iTraxxMain                   | 28                     | 25                     | 45                     |\n| Liquidity and Funding   | Single stock liquidity       | 30                     | 10                     | 35                     |\n| Liquidity and Funding   | HYG Volume/5-day Vol         | 95                     | 68                     | 98                     |\n| Liquidity and Funding   | LQD Volume/5-day Vol         | 95                     | 70                     | 98                     |\n| Liquidity and Funding   | Avg Funding Sprd (3,6m)      | 90                     | 85                     | 95                     |\n| Flows and Positioning   | CFTC Asset Mgr Net           | 80                     | 70                     | 95                     |\n| Flows and Positioning   | CFTC Hedge Fd Net            | 25                     | 20                     | 45                     |\n| Flows and Positioning   | Retail SHARES % of $ vol     | 50                     | 45                     | 75                     |\n| Flows and Positioning   | Retail OPTIONS % of $ vol    | 20                     | 18                     | 70                     |\n| Inflation Swaps         | US 10Y Infl                  | 80                     | 60                     | 75                     |\n| Inflation Swaps         | JP 10Y Infl                  | 95                     | 90                     | 98                     |",
+        "key_insight": "HYG implied volatility is at the 5th percentile, whereas HYG volume-to-volatility ratios and JP 10-year inflation swaps are at the 95th percentiles."
+      }
+    },
+    {
+      "name": "Market HYG Implied Volatility",
+      "type": "Metric",
+      "brief": "HYG implied volatility at its 5th percentile",
+      "description": "Reflects exceptionally low implied volatility for HYG, indicating complacency risk",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 5
+      }
+    },
+    {
+      "name": "Market HYG Volume/5-day Vol",
+      "type": "Metric",
+      "brief": "HYG trading liquidity at its 95th percentile",
+      "description": "Indicates robust HYG volume-to-volatility liquidity, signaling strong market liquidity",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 95
+      }
+    },
+    {
+      "name": "Market JP 10Y Inflation Swaps",
+      "type": "Metric",
+      "brief": "Japanese 10-year inflation swaps at its 95th percentile",
+      "description": "Shows elevated Japanese inflation expectations priced into swap markets",
+      "properties": {
+        "unit": "percentile",
+        "as_of": "Current 10Y Percentile",
+        "value": 95
+      }
+    },
+    {
+      "name": "Table T1 \u2013 MacroOptions Macro asset class implied volatility trends",
+      "type": "Table",
+      "brief": "Shows implied volatility ratios to historical average for five macro asset classes.",
+      "description": "Ratios plotted from Dec 2024 to Jul 2025, highlighting a synchronized spike in April and subsequent decline below norms by July.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | 5Y CDX HY 3mo | HY Bonds (HYG) 1mo | 5Y CDX IG 3mo | 10Y Treas (IEF) 1mo | S&P 500 (SPY) 1mo |\n|---------|---------------|--------------------|---------------|---------------------|-------------------|\n| 20Dec24 | 0.9           | 0.7                | 0.8           | 0.9                 | 0.9               |\n| 1Jan25  | 0.9           | 0.8                | 0.8           | 1.0                 | 1.0               |\n| 15Jan25 | 0.8           | 0.6                | 0.7           | 0.9                 | 0.9               |\n| 1Feb25  | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |\n| 15Feb25 | 0.8           | 0.5                | 0.7           | 0.9                 | 0.9               |\n| 1Mar25  | 0.9           | 0.7                | 0.8           | 1.0                 | 1.0               |\n| 15Mar25 | 1.0           | 0.9                | 0.9           | 1.1                 | 1.2               |\n| 1Apr25  | 1.2           | 1.2                | 1.2           | 1.4                 | 1.5               |\n| 8Apr25  | 1.4           | 1.9                | 1.3           | 2.3                 | 2.8               |\n| 15Apr25 | 1.3           | 1.5                | 1.2           | 1.8                 | 2.2               |\n| 22Apr25 | 1.0           | 1.0                | 1.0           | 1.3                 | 1.4               |\n| 1May25  | 0.9           | 0.8                | 0.8           | 1.1                 | 1.2               |\n| 15May25 | 0.9           | 0.7                | 0.8           | 1.0                 | 1.1               |\n| 1Jun25  | 0.9           | 0.6                | 0.8           | 1.0                 | 1.0               |\n| 15Jun25 | 1.0           | 0.5                | 0.9           | 1.0                 | 0.9               |\n| 1Jul25  | 0.9           | 0.5                | 0.9           | 0.9                 | 0.9               |\n| 15Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |\n| 22Jul25 | 0.9           | 0.5                | 0.8           | 0.9                 | 0.9               |",
+        "key_insight": "All asset classes spiked in implied volatility in early April 2025, with SPY peaking at 2.8\u00d7 and HYG at 1.9\u00d7 their historical averages, then declined to or below the long-term average by July 2025."
+      }
+    },
+    {
+      "name": "MacroOptions volatility spike early April 2025",
+      "type": "Event",
+      "brief": "Synchronized implied volatility spike across 5 asset classes.",
+      "description": "Early April 2025 volatility spike peaked at SPY 2.8\u00d7 and HYG 1.9\u00d7 historical averages across credit, rates, and equities.",
+      "properties": {
+        "date": null,
+        "event_type": "volatility_spike",
+        "affected_tickers": [
+          "SPY",
+          "HYG",
+          "IEF",
+          "5Y CDX HY",
+          "5Y CDX IG"
+        ]
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Hyperscaler Capex & Total Returns",
+      "type": "Table",
+      "brief": "Trends in capex estimates and total returns for US hyperscalers and AI chip designers",
+      "description": "Shows step-wise upward revisions in 2025/2026 capex estimates and volatile total returns from Jan-24 to Jul-25",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | 2025 Capex ($bn) | 2026 Capex ($bn) | AI Chip Designers Return (%) | US Hyperscalers Return (%) |\n|:-----|:-----------------|:-----------------|:-----------------------------|:---------------------------|\n| Jan-24 | 185 | 195 | 10 | 15 |\n| Feb-24 | 190 | 200 | 25 | 20 |\n| Mar-24 | 195 | 205 | 20 | 25 |\n| Apr-24 | 230 | 240 | 30 | 20 |\n| May-24 | 235 | 255 | 35 | 25 |\n| Jun-24 | 240 | 260 | 50 | 35 |\n| Jul-24 | 245 | 265 | 40 | 30 |\n| Aug-24 | 245 | 270 | 45 | 35 |\n| Sep-24 | 250 | 275 | 50 | 35 |\n| Oct-24 | 255 | 280 | 60 | 40 |\n| Nov-24 | 295 | 320 | 65 | 45 |\n| Dec-24 | 300 | 335 | 70 | 50 |\n| Jan-25 | 305 | 340 | 80 | 50 |\n| Feb-25 | 345 | 350 | 90 | 55 |\n| Mar-25 | 350 | 360 | 50 | 30 |\n| Apr-25 | 355 | 365 | 20 | 15 |\n| May-25 | 360 | 375 | 40 | 30 |\n| Jun-25 | 370 | 385 | 60 | 45 |\n| Jul-25 | 380 | 410 | 80 | 55 |",
+        "key_insight": "2025 and 2026 capex estimates for US hyperscalers have been revised steadily upward, with 2026 capex consistently higher"
+      }
+    },
+    {
+      "name": "US Hyperscaler 2025 Capex Estimate",
+      "type": "Metric",
+      "brief": "Projected 2025 capex for US hyperscalers",
+      "description": "Aggregate capex estimate for US hyperscalers in 2025 according to GS",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jul-25",
+        "value": 380
+      }
+    },
+    {
+      "name": "US Hyperscaler 2026 Capex Estimate",
+      "type": "Metric",
+      "brief": "Projected 2026 capex for US hyperscalers",
+      "description": "Aggregate capex estimate for US hyperscalers in 2026 according to GS",
+      "properties": {
+        "unit": "USD bn",
+        "as_of": "Jul-25",
+        "value": 410
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Tariff Payments Annualized Tariff Revenue Trends",
+      "type": "Table",
+      "brief": "Annualized tariff revenue from Jul 2024 to Jul 2025",
+      "description": "Shows revenue remained stable then accelerated to 345bn USD by July 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date       | Annualized Tariff Revenue ($b) |\n|------------|--------------------------------|\n| 1-Jul-24   | 90                             |\n| 1-Aug-24   | 95                             |\n| 1-Sep-24   | 105                            |\n| 1-Oct-24   | 100                            |\n| 1-Nov-24   | 105                            |\n| 1-Dec-24   | 100                            |\n| 1-Jan-25   | 95                             |\n| 15-Jan-25  | 100                            |\n| 1-Feb-25   | 105                            |\n| 1-Mar-25   | 110                            |\n| 15-Mar-25  | 115                            |\n| 1-Apr-25   | 120                            |\n| 15-Apr-25  | 130                            |\n| 1-May-25   | 190                            |\n| 10-May-25  | 205                            |\n| 20-May-25  | 220                            |\n| 1-Jun-25   | 280                            |\n| 10-Jun-25  | 285                            |\n| 20-Jun-25  | 320                            |\n| 1-Jul-25   | 330                            |\n| 20-Jul-25  | 345                            |",
+        "key_insight": "Annualized tariff revenue surged from a stable $95\u2013115bn range to $345bn by July 2025."
+      }
+    },
+    {
+      "name": "US Tariff Payments Stable Revenue Range",
+      "type": "Metric",
+      "brief": "Revenue between 95bn and 115bn USD from Jul 2024 to Apr 2025",
+      "description": "Annualized tariff revenue fluctuated within a stable range over that period",
+      "properties": {
+        "unit": "USD bn",
+        "min": 95,
+        "max": 115,
+        "as_of": "2025-04-01",
+        "trough_date": "2024-07-01",
+        "peak_date": "2025-04-01"
+      }
+    },
+    {
+      "name": "US Tariff Payments Revenue Peak",
+      "type": "Metric",
+      "brief": "Revenue peaked at 345bn USD by July 2025",
+      "description": "Annualized tariff revenue reached peak by late July 2025",
+      "properties": {
+        "unit": "USD bn",
+        "value": 345,
+        "as_of": "2025-07-20"
+      }
+    },
+    {
+      "name": "US Tariff Payments M/M Growth",
+      "type": "Factor",
+      "brief": "One percent month-over-month increase in tariff payments",
+      "description": "Tariff payments were only up 1% m/m, indicating slowed growth",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 1,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "AI Capex Estimate Revision",
+      "type": "Factor",
+      "brief": "Aggregate AI capex guidance revised up for 2025 and 2026",
+      "description": "Positive tech earnings drove higher capex estimates for AI services",
+      "properties": {
+        "direction": "up",
+        "periods": [
+          2025,
+          2026
+        ]
+      }
+    },
+    {
+      "name": "AI Capex \u2013 Tech Earnings Reports",
+      "type": "Event",
+      "brief": "First week of technology sector earnings reports",
+      "description": "Recent technology earnings reports led to capex guidance revisions",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report"
+      }
+    },
+    {
+      "name": "AI Capex \u2013 Tax Bill Expensing Feature Tailwind",
+      "type": "Factor",
+      "brief": "Immediate expensing feature of recent tax bill acting as capex tailwind",
+      "description": "Tax legislation enabled immediate capex expensing, supporting capex spending",
+      "properties": {
+        "direction": "up",
+        "driver": "tax_bill_expensing"
+      }
+    },
+    {
+      "name": "Financial Markets - Demand in N225 Futures",
+      "type": "Factor",
+      "brief": "Demand softened among professional investors in N225",
+      "description": "Lower demand indicated by decreasing funding spreads for N225 futures",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Financial Markets - Demand in STOXX50E Futures",
+      "type": "Factor",
+      "brief": "Demand marginally strengthened in STOXX50E futures/swaps",
+      "description": "Increased demand indicated by stable funding spreads for STOXX50E futures",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Financial Markets - N225 Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for N225 futures/swaps",
+      "description": "Represents financing cost for N225 positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - STOXX50E Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for STOXX50E futures/swaps",
+      "description": "Represents financing cost for STOXX50E positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - SPX Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for SPX futures/swaps",
+      "description": "Represents financing cost for SPX positions",
+      "properties": {
+        "unit": "bp",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - Front Month WTI Oil Price",
+      "type": "Metric",
+      "brief": "Front Month WTI oil price time series",
+      "description": "Tracks oil price fluctuations from January 2010 to mid-2025",
+      "properties": {
+        "unit": "USD",
+        "as_of": null
+      }
+    },
+    {
+      "name": "Financial Markets - Oil Options Positioning",
+      "type": "Factor",
+      "brief": "Oil put-call skew near long-term average",
+      "description": "Balanced skew suggests neutral sentiment in oil options",
+      "properties": {
+        "direction": "neutral"
+      }
+    },
+    {
+      "name": "Financial Markets - STOXX50E Funding Spread Trough",
+      "type": "Event",
+      "brief": "STOXX50E funding spread hit a low of ~30 bps",
+      "description": "Trough in STOXX50E financing cost observed in January 2025",
+      "properties": {
+        "date": null,
+        "event_type": "funding_spread_trough",
+        "impact_value": 30,
+        "unit": "bp",
+        "affected_tickers": [
+          "STOXX50E"
+        ]
+      }
+    },
+    {
+      "name": "Financial Markets - SPX Funding Spread Spike",
+      "type": "Event",
+      "brief": "SPX funding spread spiked to ~95 bps",
+      "description": "Spike in SPX financing cost observed in mid-April 2025",
+      "properties": {
+        "date": null,
+        "event_type": "funding_spread_spike",
+        "impact_value": 95,
+        "unit": "bp",
+        "affected_tickers": [
+          "SPX"
+        ]
+      }
+    },
+    {
+      "name": "Financial Markets - WTI Oil Price Peak",
+      "type": "Event",
+      "brief": "WTI oil price peaked around $110",
+      "description": "Oil price reached peak levels in 2014 and early 2022, marking market highs",
+      "properties": {
+        "date": null,
+        "event_type": "price_peak",
+        "impact_value": 110,
+        "unit": "USD"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 ETF Sentiment Cumulative Net Inflows by Category",
+      "type": "Table",
+      "brief": "Cumulative net ETF inflows by category from Jan\u2013Jul 2025",
+      "description": "Time series of cumulative net inflows for individual, professional, and corporate bond ETFs",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | Individual Investor ETF flows (cumulative $) | Professional Investors ETF flows (cumulative $) | Corporate bond ETF flows (cumulative $) |\n|---|---|---|---|\n| 1Jan25 | $0b | $0b | $0b |\n| 1Feb25 | $25b | -$5b | $2b |\n| 1Mar25 | $55b | -$15b | $5b |\n| Mid-Mar25 | $60b | -$20b | $6b |\n| Late-Mar25 | $115b | -$30b | $7b |\n| 1Apr25 | $100b | -$40b | $7b |\n| 1May25 | $125b | -$35b | $5b |\n| Mid-May25 | $120b | -$50b | $8b |\n| 1Jun25 | $120b | -$45b | $10b |\n| Late-Jun25 | $110b | -$35b | $10b |\n| Early-Jul25 | $145b | -$40b | $11b |\n| 1Jul25 | $150b | -$40b | $12b |\n| Mid-Jul25 | $160b | -$40b | $14b |\n| Late-Jul25 | $165b | -$40b | $15b |",
+        "key_insight": "Individual investor ETF flows show a rising cumulative inflow with sharp surges in late March and late June/early July, while professional investors remain in net outflow and corporate bond ETFs exhibit modest steady inflows."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 ETF Sentiment Funding Spreads vs SPX Level",
+      "type": "Table",
+      "brief": "SPX level and funding spreads for professional investors Feb 2024\u2013Jul 2025",
+      "description": "Time series of S&P 500 index levels (LHS) and average funding spreads (RHS) showing a divergence mid-2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | SPX Level | Funding Spread (bps) |\n|---|---|---|\n| 1-Feb-24 | 4850 | 48 |\n| 1-Mar-24 | 5100 | 58 |\n| 1-Apr-24 | 5350 | 70 |\n| 1-May-24 | 5450 | 80 |\n| 1-Jun-24 | 5600 | 88 |\n| 1-Jul-24 | 5700 | 95 |\n| 1-Aug-24 | 5850 | 105 |\n| 1-Sep-24 | 6000 | 115 |\n| 1-Oct-24 | 6050 | 125 |\n| 1-Nov-24 | 6100 | 130 |\n| 1-Dec-24 | 6000 | 110 |\n| 1-Jan-25 | 5850 | 90 |\n| 1-Feb-25 | 5600 | 70 |\n| 1-Mar-25 | 5250 | 50 |\n| 1-Apr-25 | 5400 | 55 |\n| 1-May-25 | 5800 | 58 |\n| 1-Jun-25 | 6050 | 60 |\n| 1-Jul-25 | 6300 | 65 |\n| Mid-Jul-25 | 6350 | 62 |",
+        "key_insight": "Funding spreads fell sharply into March 2025 while SPX only modestly corrected and then resumed higher, leading to a mid-2025 divergence."
+      }
+    },
+    {
+      "name": "ETF Sentiment \u2013 Individual Investors Cumulative Net Inflow",
+      "type": "Metric",
+      "brief": "Individual investor ETF cumulative net inflows",
+      "description": "Cumulative net inflows reached $150bn by July 1, 2025",
+      "properties": {
+        "value": 150,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "ETF Sentiment \u2013 Professional Investors Cumulative Net Flow",
+      "type": "Metric",
+      "brief": "Professional investor ETF cumulative net outflows",
+      "description": "Professional investors remained in net outflows of $40bn by July 1, 2025",
+      "properties": {
+        "value": -40,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "ETF Sentiment \u2013 Corporate Bond ETF Cumulative Net Inflow",
+      "type": "Metric",
+      "brief": "Corporate bond ETF cumulative net inflows",
+      "description": "Corporate bond ETFs saw cumulative net inflows of $12bn by July 1, 2025",
+      "properties": {
+        "value": 12,
+        "unit": "USD bn",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "Market \u2013 SPX Level",
+      "type": "Metric",
+      "brief": "S&P 500 index level",
+      "description": "SPX reached 6300 index points by July 1, 2025",
+      "properties": {
+        "value": 6300,
+        "unit": "indexPts",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "Market \u2013 Average Funding Spread",
+      "type": "Metric",
+      "brief": "Average funding spread for professional investors",
+      "description": "Funding spread was 65 bps by July 1, 2025",
+      "properties": {
+        "value": 65,
+        "unit": "bps",
+        "as_of": "2025-07-01"
+      }
+    },
+    {
+      "name": "MonetaryPolicy \u2013 US Federal Reserve Rate Cuts Resumption",
+      "type": "Event",
+      "brief": "Resumption of Fed rate cuts",
+      "description": "Expected resumption of Fed rate cuts prompting professional investors to re-risk positions",
+      "properties": {
+        "date": null,
+        "event_type": "RateCut",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Volatility Expectations: S&P 500 Daily Implied Move and 1-Week Change",
+      "type": "Table",
+      "brief": "Daily implied move and weekly change for S&P 500",
+      "description": "Shows the S&P 500\u2019s daily implied move and corresponding one-week change from July 28 to September 5.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date    | Daily Implied Move (as of 25-Jul close) | 1-week Change | Event                   |\n|---------|------------------------------------------|---------------|-------------------------|\n| 28-Jul  | 0.5%                                     | -0.1%         |                         |\n| 29-Jul  | 0.5%                                     | -0.1%         |                         |\n| 30-Jul  | 0.7%                                     | -0.1%         | FOMC                    |\n| 31-Jul  | 0.7%                                     | -0.1%         |                         |\n| 1-Aug   | 0.8%                                     | -0.1%         | ISM, Payrolls           |\n| 4-Aug   | 0.6%                                     | -0.1%         |                         |\n| 5-Aug   | 0.6%                                     | -0.1%         |                         |\n| 6-Aug   | 0.6%                                     | -0.1%         |                         |\n| 7-Aug   | 0.6%                                     | -0.1%         |                         |\n| 8-Aug   | 0.6%                                     | -0.1%         |                         |\n| 11-Aug  | 0.7%                                     | -0.1%         |                         |\n| 12-Aug  | 0.8%                                     | -0.1%         | CPI                     |\n| 13-Aug  | 0.6%                                     | -0.1%         |                         |\n| 14-Aug  | 0.6%                                     | -0.1%         |                         |\n| 15-Aug  | 0.5%                                     | -0.1%         |                         |\n| 18-Aug  | 0.9%                                     | -0.1%         |                         |\n| 19-Aug  | 0.7%                                     | -0.1%         |                         |\n| 20-Aug  | 0.7%                                     | -0.1%         |                         |\n| 21-Aug  | 0.7%                                     | -0.1%         |                         |\n| 22-Aug  | 0.8%                                     | -0.1%         |                         |\n| 25-Aug  | 0.7%                                     | -0.1%         |                         |\n| 26-Aug  | 0.7%                                     | -0.1%         |                         |\n| 27-Aug  | 0.7%                                     | -0.1%         |                         |\n| 28-Aug  | 1.0%                                     | -0.1%         | Earnings of AI Companies|\n| 29-Aug  | 0.8%                                     | -0.1%         |                         |\n| 2-Sep   | 0.9%                                     | -0.1%         |                         |\n| 3-Sep   | 0.8%                                     | -0.1%         |                         |\n| 4-Sep   | 0.8%                                     | -0.1%         |                         |\n| 5-Sep   | 0.8%                                     | -0.1%         |                         |",
+        "key_insight": "Daily implied move generally ranged from 0.6% to 0.9%, spiking to 1.0% on Earnings of AI Companies, while the 1-week change was persistently negative indicating declining volatility expectations."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Volatility Expectations: Average S&P 500 Single Stock 1-Month Put-Call Skew",
+      "type": "Table",
+      "brief": "Average single stock 1-month put-call skew",
+      "description": "Shows average single-stock put-call skew for the S&P 500 from January 2023 to March 2025.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date | Put-Call Skew |\n|:-----|:--------------|\n| Jan-23 | 0.15          |\n| Feb-23 | 0.19          |\n| Apr-23 | 0.12          |\n| Jul-23 | 0.08          |\n| Oct-23 | 0.02          |\n| Dec-23 | 0.07          |\n| Jan-24 | 0.09          |\n| Feb-24 | 0.04          |\n| Apr-24 | 0.08          |\n| Jul-24 | 0.19          |\n| Aug-24 | 0.10          |\n| Oct-24 | 0.14          |\n| Dec-24 | 0.08          |\n| Feb-25 | 0.27          |\n| Mar-25 | 0.09          |",
+        "key_insight": "After spikes to ~0.19 in July 2024 and ~0.27 in February 2025, skew reverted to balanced positioning near 0.09 by period end."
+      }
+    },
+    {
+      "name": "Volatility Expectations \u2013 Weekly Decline",
+      "type": "Factor",
+      "brief": "Persistent negative one-week implied move changes",
+      "description": "Declining volatility expectations in equity markets from July 28 to September 5.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 0.1,
+        "lookback_days": 7
+      }
+    },
+    {
+      "name": "Volatility Expectations \u2013 Single Stock Skew Balanced Positioning",
+      "type": "Factor",
+      "brief": "Skew returned to neutral level by March 2025",
+      "description": "Single-stock option positioning returned to balanced level after spikes in July 2024 and February 2025.",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 0.17
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market HYG Implied Volatility",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 5,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Highlights HYG implied volatility at its 5th percentile"
+    },
+    {
+      "source": "Table T1 \u2013 Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market HYG Volume/5-day Vol",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 95,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Shows HYG volume-to-volatility ratios at its 95th percentile"
+    },
+    {
+      "source": "Table T1 \u2013 Market Metrics Ten-Year Percentiles Overview",
+      "target": "Market JP 10Y Inflation Swaps",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 95,
+        "unit": "percentile",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Indicates Japanese 10Y inflation expectations at its 95th percentile"
+    },
+    {
+      "source": "Table T1 \u2013 MacroOptions Macro asset class implied volatility trends",
+      "target": "MacroOptions volatility spike early April 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": 2.8,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Table informs volatility spike event highlighting SPY peak."
+    },
+    {
+      "source": "Table T1 \u2013 US Hyperscaler Capex & Total Returns",
+      "target": "US Hyperscaler 2025 Capex Estimate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table shows step-wise upward revisions in 2025 capex estimates"
+    },
+    {
+      "source": "Table T1 \u2013 US Hyperscaler Capex & Total Returns",
+      "target": "US Hyperscaler 2026 Capex Estimate",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Table shows step-wise upward revisions in 2026 capex estimates"
+    },
+    {
+      "source": "Table T1 \u2013 US Tariff Payments Annualized Tariff Revenue Trends",
+      "target": "US Tariff Payments Revenue Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 1.0,
+        "lag_days": null,
+        "impact_value": 345,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 100
+      },
+      "description": "Table highlights revenue peaking at 345bn USD by late July 2025"
+    },
+    {
+      "source": "AI Capex \u2013 Tech Earnings Reports",
+      "target": "AI Capex Estimate Revision",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Tech earnings reports drove upward revision of AI capex estimates"
+    },
+    {
+      "source": "AI Capex \u2013 Tax Bill Expensing Feature Tailwind",
+      "target": "AI Capex Estimate Revision",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tax bill expensing feature acted as tailwind for AI capex estimates"
+    },
+    {
+      "source": "Financial Markets - Demand in N225 Futures",
+      "target": "Financial Markets - N225 Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Softened demand reduces N225 funding spreads"
+    },
+    {
+      "source": "Financial Markets - Demand in STOXX50E Futures",
+      "target": "Financial Markets - STOXX50E Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Strengthened demand supports STOXX50E funding spreads"
+    },
+    {
+      "source": "Table T1 \u2013 ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment \u2013 Individual Investors Cumulative Net Inflow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows individual investor ETF inflow trend"
+    },
+    {
+      "source": "Table T1 \u2013 ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment \u2013 Professional Investors Cumulative Net Flow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows professional investor ETF outflow trend"
+    },
+    {
+      "source": "Table T1 \u2013 ETF Sentiment Cumulative Net Inflows by Category",
+      "target": "ETF Sentiment \u2013 Corporate Bond ETF Cumulative Net Inflow",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows corporate bond ETF inflow trend"
+    },
+    {
+      "source": "Table T2 \u2013 ETF Sentiment Funding Spreads vs SPX Level",
+      "target": "Market \u2013 SPX Level",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows SPX level trend"
+    },
+    {
+      "source": "Table T2 \u2013 ETF Sentiment Funding Spreads vs SPX Level",
+      "target": "Market \u2013 Average Funding Spread",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows funding spread trend"
+    },
+    {
+      "source": "Market \u2013 SPX Level",
+      "target": "Market \u2013 Average Funding Spread",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Higher SPX levels coincide with lower funding spreads"
+    },
+    {
+      "source": "MonetaryPolicy \u2013 US Federal Reserve Rate Cuts Resumption",
+      "target": "ETF Sentiment \u2013 Professional Investors Cumulative Net Flow",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Fed rate cuts expected to trigger professional investors to re-risk and increase ETF flows"
+    },
+    {
+      "source": "Table T1 \u2013 Volatility Expectations: S&P 500 Daily Implied Move and 1-Week Change",
+      "target": "Volatility Expectations \u2013 Weekly Decline",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -0.1,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Highlights consistent negative weekly changes indicating declining volatility expectations"
+    },
+    {
+      "source": "Table T2 \u2013 Volatility Expectations: Average S&P 500 Single Stock 1-Month Put-Call Skew",
+      "target": "Volatility Expectations \u2013 Single Stock Skew Balanced Positioning",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 0.09,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Shows skew reverting to balanced level near 0.09 after spikes"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/weekend_cross_asset_dislocations_(27_jul_2025)_converted_with_figures"
+}

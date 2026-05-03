@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Equity Market Speculative Trading Components Percentile Ranks",
+      "type": "Table",
+      "brief": "Current percentile rank of speculative trading components since 1990",
+      "description": "Bar chart showing percentile ranks of penny stocks, high EV/sales multiples, unprofitable stocks, and the composite indicator.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Component                               | %ile Rank vs. History since 1990 |\n|-----------------------------------------|----------------------------------|\n| Penny stocks                            | 98%                              |\n| Stocks with EV/sales multiples > 10x    | 96%                              |\n| Unprofitable stocks                     | 85%                              |\n| Speculative Trading Indicator           | 88%                              |",
+        "key_insight": "All components and the composite indicator are at very elevated percentile ranks versus history since 1990."
+      }
+    },
+    {
+      "name": "Table T2 – US Equity Market Speculative Trading Indicator",
+      "type": "Table",
+      "brief": "Indexed STI values from 1990 to mid-2025",
+      "description": "Line chart data for the Speculative Trading Indicator showing two historical peaks and recent rise.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Speculative Trading Indicator |\n|------|-------------------------------|\n| 1990 | 100                           |\n| 1993 | 90                            |\n| 1996 | 85                            |\n| 1999 | 150                           |\n| Jan 2000 | 210                         |\n| 2001 | 100                           |\n| 2003 | 80                            |\n| 2005 | 70                            |\n| 2007 | 60                            |\n| 2009 | 50                            |\n| 2011 | 60                            |\n| 2013 | 70                            |\n| 2015 | 80                            |\n| 2017 | 75                            |\n| 2019 | 90                            |\n| Early 2020 | 95                        |\n| Mid 2020 | 115                         |\n| Feb 2021 | 195                        |\n| Mid 2021 | 130                         |\n| End 2021 | 90                          |\n| Early 2022 | 75                        |\n| Mid 2022 | 70                          |\n| End 2022 | 80                          |\n| Early 2023 | 90                        |\n| Mid 2023 | 100                         |\n| Early 2024 | 105                       |\n| Mid 2024 | 110                         |\n| Latest (mid-2025) | 115                  |",
+        "key_insight": "The STI peaked around 210 in January 2000 and 195 in February 2021, with the latest reading at 115 in mid-2025."
+      }
+    },
+    "metric_entities_start"
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Penny Stocks Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 98,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Penny stocks at 98th percentile relative to history since 1990."
+    },
+    {
+      "source": "Table T1 – US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Stocks with EV/sales multiples >10x Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 96,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "High EV/sales multiple stocks at 96th percentile of trading volume."
+    },
+    {
+      "source": "Table T1 – US Equity Market Speculative Trading Components Percentile Ranks",
+      "target": "US Equity Market Speculative Trading Indicator Percentile Rank",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 88,
+        "unit": "percentile",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Composite indicator at 88th percentile of historical activity."
+    },
+    {
+      "source": "Table T2 – US Equity Market Speculative Trading Indicator",
+      "target": "US Equity Market Speculative Trading Indicator Peak Jan 2000",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 210,
+        "unit": "indexPts",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows STI peaked at 210 in January 2000."
+    },
+    {
+      "source": "Table T2 – US Equity Market Speculative Trading Indicator",
+      "target": "US Equity Market Speculative Trading Indicator Peak Feb 2021",
+      "type": "INFORMS",
+      "properties": {
+        "impact_value": 195,
+        "unit": "indexPts",
+        "probability": 0.9,
+        "lag_days": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Shows STI peaked at 195 in February 2021."
+    },
+    {
+      "source": "US Equity Market Recent Speculative Activity Increase",
+      "target": "US Equity Market Above-Average Near-Term Equity Returns",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative activity spikes often precede above-average near-term equity returns."
+    },
+    {
+      "source": "US Equity Market Recent Speculative Activity Increase",
+      "target": "US Equity Market Poor Medium-Term Outlook",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Speculative spikes associated with poor medium-term market sustainability."
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "US Equity Market Recent Speculative Activity Increase",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "TRIGGERS",
+          "source": "US Equity Market Recent Speculative Activity Increase",
+          "target": "US Equity Market Above-Average Near-Term Equity Returns",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "TRIGGERS",
+          "source": "US Equity Market Recent Speculative Activity Increase",
+          "target": "US Equity Market Poor Medium-Term Outlook",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

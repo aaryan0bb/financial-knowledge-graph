@@ -1,0 +1,290 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet Paid Click Growth 2Q25",
+      "type": "Metric",
+      "brief": "Paid click growth accelerated in Q2 2025",
+      "description": "Alphabet's paid click growth accelerated 2pts quarter-over-quarter to 4% year-over-year in Q2 2025, from 2% in Q1.",
+      "properties": {
+        "value": 4,
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "change_qoq_pts": 2
+      }
+    },
+    {
+      "name": "Alphabet YouTube Shorts Revenue Parity US 2Q25",
+      "type": "Metric",
+      "brief": "YouTube Shorts ad revenue per hour parity in US",
+      "description": "YouTube Shorts now deliver the same ad revenue per hour as traditional in-stream ads in the US, as of Q2 2025.",
+      "properties": {
+        "unit": "USD per hour",
+        "as_of": "2025-06-30",
+        "revenue_parity": true
+      }
+    },
+    {
+      "name": "Alphabet ex-FX Search Growth 2Q25",
+      "type": "Metric",
+      "brief": "Ex-FX Search revenue growth decelerated in Q2 2025",
+      "description": "Ex-FX Search growth decelerated 1pt quarter-over-quarter to 11% year-over-year in Q2 2025, from 12% in Q1 2025.",
+      "properties": {
+        "value": 11,
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "change_qoq_pts": -1
+      }
+    },
+    {
+      "name": "Alphabet Capex Estimate 2025",
+      "type": "Metric",
+      "brief": "2025 Capital Expenditure estimate raised",
+      "description": "Alphabet's 2025 Capex estimate raised to $86bn from $76bn.",
+      "properties": {
+        "value": 86,
+        "unit": "USD bn",
+        "as_of": "2025",
+        "prior_estimate": 76
+      }
+    },
+    {
+      "name": "Alphabet Free Cash Flow Estimate 2025",
+      "type": "Metric",
+      "brief": "2025 FCF estimate lowered",
+      "description": "Alphabet's 2025 FCF estimate reduced to $62bn from $71bn.",
+      "properties": {
+        "value": 62,
+        "unit": "USD bn",
+        "as_of": "2025",
+        "prior_estimate": 71
+      }
+    },
+    {
+      "name": "Alphabet Depreciation and Amortization Growth 2Q25",
+      "type": "Metric",
+      "brief": "D&A growth accelerated in Q2 2025",
+      "description": "Depreciation & Amortization year-over-year growth accelerated to 35% in Q2 2025 from 31% in Q1, expected to further accelerate in Q3.",
+      "properties": {
+        "value": 35,
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "prior_q_value": 31
+      }
+    },
+    {
+      "name": "Alphabet Negative Catalysts Event Aug 2025",
+      "type": "Event",
+      "brief": "Potential negative catalysts for Alphabet in Aug 2025",
+      "description": "Event risk for Alphabet in Aug 2025 including OpenAI ads/browser, Meta new products, DoJ search case remedy ruling.",
+      "properties": {
+        "date": "2025-08",
+        "event_type": "Potential negative catalysts",
+        "affected_tickers": [
+          "Alphabet",
+          "Meta",
+          "OpenAI"
+        ],
+        "region": "Global"
+      }
+    },
+    {
+      "name": "Alphabet YouTube Revenue 2Q25",
+      "type": "Metric",
+      "brief": "YouTube revenues in Q2 2025",
+      "description": "YouTube revenues grew 13% y/y in Q2 2025, beating Street's 11% estimate, with an 8pt easier comp.",
+      "properties": {
+        "value": 13,
+        "unit": "%",
+        "as_of": "2025-06-30",
+        "street_estimate": 11
+      }
+    },
+    {
+      "name": "Meta Advertising Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Meta advertising revenue estimate for Q2 2025",
+      "description": "Meta's Q2 2025 advertising revenue estimated at $44.5bn (up 16% y/y); Street at $43.7bn.",
+      "properties": {
+        "value": 44.5,
+        "unit": "USD bn",
+        "as_of": "2025-06-30",
+        "yoy_growth": 16,
+        "street_estimate": 43.7
+      }
+    },
+    {
+      "name": "Meta Revenue Guidance Upper End 2Q25",
+      "type": "Metric",
+      "brief": "Meta 2Q25 revenue guidance upper end",
+      "description": "Meta could report at or above upper end of 2Q guidance ($45.5bn); 3Q guidance upper end expected $1bn higher.",
+      "properties": {
+        "value": 45.5,
+        "unit": "USD bn",
+        "as_of": "2025-06-30",
+        "next_quarter_delta": 1
+      }
+    },
+    {
+      "name": "Alphabet Network Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Alphabet Network revenues in Q2 2025",
+      "description": "Google network revenue was $7.4bn (vs Street $7.2bn); growth accelerated by 1pt to down 1% y/y.",
+      "properties": {
+        "value": 7.4,
+        "unit": "USD bn",
+        "as_of": "2025-06-30",
+        "yoy_growth": -1
+      }
+    },
+    {
+      "name": "Alphabet YouTube Revenue Beat 2Q25",
+      "type": "Metric",
+      "brief": "YouTube revenue $9.8bn beat Street’s $9.5bn in 2Q25",
+      "description": "YouTube revenue was $9.8bn (vs Street $9.5bn) in Q2 2025.",
+      "properties": {
+        "value": 9.8,
+        "unit": "USD bn",
+        "as_of": "2025-06-30",
+        "street_estimate": 9.5
+      }
+    },
+    {
+      "name": "Alphabet YouTube ex-FX Growth 2Q25",
+      "type": "Metric",
+      "brief": "YouTube ex-FX revenue growth stable in Q2 2025",
+      "description": "YouTube ex-FX growth stable at around 12% in Q2 2025.",
+      "properties": {
+        "value": 12,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Pinterest Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Pinterest 2Q25 revenue and growth",
+      "description": "Pinterest 2Q25 estimated revenue $980mn (vs Street $974mn), up 15% y/y, decelerating 1pt q/q. Street y/y: 14%",
+      "properties": {
+        "value": 980,
+        "unit": "USD mn",
+        "as_of": "2025-06-30",
+        "yoy_growth": 15,
+        "street_estimate": 974
+      }
+    },
+    {
+      "name": "Snap Ad Revenue 2Q25",
+      "type": "Metric",
+      "brief": "Snap ad revenue for Q2 2025",
+      "description": "Snap Q2 2025 ad revenue expected at $1,162mn (vs Street $1,186mn), 3% y/y, down 6pts q/q.",
+      "properties": {
+        "value": 1162,
+        "unit": "USD mn",
+        "as_of": "2025-06-30",
+        "yoy_growth": 3,
+        "street_estimate": 1186
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Paid Click Growth 2Q25",
+      "target": "Alphabet ex-FX Search Growth 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Paid click growth acceleration impacts overall ex-FX Search revenue growth."
+    },
+    {
+      "source": "Alphabet Growing Capex Estimate 2025",
+      "target": "Alphabet Free Cash Flow Estimate 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": 0,
+        "impact_value": 62,
+        "unit": "USD bn",
+        "non_linear": false,
+        "confidence": 85
+      },
+      "description": "Rising Capex leads to lower FCF for 2025."
+    },
+    {
+      "source": "Alphabet Growing Capex Estimate 2025",
+      "target": "Alphabet Depreciation and Amortization Growth 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 35,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Higher Capex drives higher future depreciation and amortization."
+    },
+    {
+      "source": "Alphabet Negative Catalysts Event Aug 2025",
+      "target": "Alphabet ex-FX Search Growth 2Q25",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Potential negative catalysts could decelerate search growth."
+    },
+    {
+      "source": "Alphabet YouTube Revenue 2Q25",
+      "target": "Meta Advertising Revenue 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 13,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 75
+      },
+      "description": "Alphabet's YouTube revenue beat serves as positive read for Meta's ad trends."
+    },
+    {
+      "source": "Alphabet Network Revenue 2Q25",
+      "target": "Pinterest Revenue 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 980,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Strong Alphabet network results inform stable ad market for Pinterest."
+    },
+    {
+      "source": "Alphabet YouTube Revenue Beat 2Q25",
+      "target": "Snap Ad Revenue 2Q25",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 1162,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 70
+      },
+      "description": "Positive YouTube revenue beat signals stable ad market for Snap."
+    }
+  ],
+  "scenarios": []
+}

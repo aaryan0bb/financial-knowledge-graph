@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "name": "Financial Services – Invesco Ltd.",
+      "type": "Company",
+      "brief": "2Q25 review: sustained value creation focus",
+      "description": "Flows strong; management sees QQQ fee contribution; focused on growth, capital return, and deleveraging",
+      "properties": {
+        "ticker": "IVZ",
+        "rating_outlook": "Equal Weight",
+        "market_cap_USDbn": 9.5106
+      }
+    },
+    {
+      "name": "Financial Services – KeyCorp",
+      "type": "Company",
+      "brief": "2Q25 EPS slightly ahead on fees and NII",
+      "description": "Higher fees and NII offset by provisions decline; upped 2025 NII, NIM, and loan guides",
+      "properties": {
+        "ticker": "KEY",
+        "rating_outlook": "Equal Weight",
+        "market_cap_USDbn": 20.5051
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

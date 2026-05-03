@@ -1,0 +1,31 @@
+{
+  "report": "RIGHT TAIL RISK REMAINS - John Flood_converted_with_figures.txt",
+  "timestamp": "2025-07-31T05:39:47.088858",
+  "total_chunks": 3,
+  "total_entities": 21,
+  "total_relationships": 9,
+  "total_scenarios": 0,
+  "chunk_breakdown": [
+    {
+      "chunk": "chunk_1",
+      "entities": 7,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_1_20250731_053706.json"
+    },
+    {
+      "chunk": "chunk_2",
+      "entities": 8,
+      "relationships": 1,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_2_20250731_053848.json"
+    },
+    {
+      "chunk": "chunk_3",
+      "entities": 6,
+      "relationships": 4,
+      "scenarios": 0,
+      "file": "o4_triplets_chunk_3_20250731_053945.json"
+    }
+  ]
+}

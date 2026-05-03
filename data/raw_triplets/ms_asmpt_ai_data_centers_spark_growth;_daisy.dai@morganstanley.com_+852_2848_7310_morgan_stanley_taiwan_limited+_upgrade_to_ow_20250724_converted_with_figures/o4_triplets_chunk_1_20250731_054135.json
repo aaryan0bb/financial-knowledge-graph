@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "ASMPT Ltd",
+      "type": "Company",
+      "brief": "Mainstream semiconductor tool provider",
+      "description": "Provides die bonders, wire bonders and molding equipment",
+      "properties": {
+        "ticker": "0522.HK",
+        "region": "Asia Pacific"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - NVIDIA",
+      "type": "Company",
+      "brief": "Chip designer launching HVDC data center power infrastructure",
+      "description": "Leading transition to 800 V HVDC power for 1 MW IT racks",
+      "properties": {
+        "ticker": "NVDA",
+        "sector": "Semiconductor"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Rating Upgrade",
+      "type": "Event",
+      "brief": "Morgan Stanley rating upgrade",
+      "description": "Upgraded ASMPT Ltd from equal-weight to overweight by Morgan Stanley",
+      "properties": {
+        "date": "2025-07-24",
+        "event_type": "Rating Upgrade",
+        "from_rating": "Equal-weight",
+        "to_rating": "Overweight"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - AI data centers",
+      "type": "Factor",
+      "brief": "Data centers using AI",
+      "description": "Expected to drive mainstream semiconductor tool growth over next 2-3 years",
+      "properties": {
+        "direction": "up",
+        "time_horizon_years": "2-3"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - TCB solutions growth",
+      "type": "Factor",
+      "brief": "Growth in chip-to-substrate solutions",
+      "description": "Strong growth representing ~10% of company mix in 2024",
+      "properties": {
+        "magnitude_%": 10,
+        "as_of": "2024"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - China advanced packaging and HBM investments",
+      "type": "Factor",
+      "brief": "China capex in advanced packaging and HBM",
+      "description": "Ongoing investments in advanced packaging and HBM technologies benefit ASMPT",
+      "properties": {
+        "region": "China",
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Mainstream semiconductor tool growth",
+      "type": "Factor",
+      "brief": "Growth in mainstream semiconductor tool market",
+      "description": "Expected revitalization of ASMPT's tool market from AI data centers",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Auto & industrial mix ratio",
+      "type": "Metric",
+      "brief": "Proportion of auto and industrial segment mix",
+      "description": "Dropped to historical low of 23% in 2023 from 41% in 1H22",
+      "properties": {
+        "unit": "%",
+        "value": 23,
+        "as_of": "2023"
+      }
+    },
+    {
+      "name": "Table T1 – ASMPT Ltd Income Statement",
+      "type": "Table",
+      "brief": "Fiscal year forecast for EPS, revenue, EBITDA, net income and P/E",
+      "description": "Model forecasts show strong growth in EPS, revenue and net income over 2025-27",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "Fiscal Year Ending      12/24  12/25e  12/26e  12/27e\nEPS (HK$)**            0.83    1.19    3.81    4.70\nPrior EPS (HK$)**       0.88    3.65    4.18\nEPS (HK$)§             1.34    1.81    3.50    5.01\nRevenue, net (HK$ mn) 13,229  13,876  16,150  17,385\nEBITDA (HK$ mn)        1,141   1,359   2,928   3,531\nModelWare net inc (HK$ mn) 345   498    1,585   1,958\nP/E                     89.8    58.8    18.4    14.9",
+        "key_insight": "Raised 2025/26/27 EPS forecasts by 36%, 4%, and 12% respectively",
+        "table_type": "Income Statement",
+        "full_rows": 7
+      }
+    },
+    {
+      "name": "ASMPT Ltd - Revenue, net 2026 forecast",
+      "type": "Metric",
+      "brief": "Net revenue forecast for 2026",
+      "description": "Forecast revenue of HK$16,150 million in fiscal 2026",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 16150,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - EBITDA 2026 forecast",
+      "type": "Metric",
+      "brief": "EBITDA forecast for 2026",
+      "description": "Forecast EBITDA of HK$2,928 million in fiscal 2026",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 2928,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "ASMPT Ltd - ModelWare net income 2026 forecast",
+      "type": "Metric",
+      "brief": "ModelWare net income forecast for 2026",
+      "description": "Forecast net income of HK$1,585 million by Morgan Stanley ModelWare",
+      "properties": {
+        "unit": "HK$ mn",
+        "value": 1585,
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - Revenue, net 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 16150,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 revenue of HK$16,150 million"
+    },
+    {
+      "source": "Table T1 – ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - EBITDA 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2928,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 EBITDA of HK$2,928 million"
+    },
+    {
+      "source": "Table T1 – ASMPT Ltd Income Statement",
+      "target": "ASMPT Ltd - ModelWare net income 2026 forecast",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1585,
+        "unit": "HK$ mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table forecasts 2026 ModelWare net income of HK$1,585 million"
+    },
+    {
+      "source": "ASMPT Ltd - AI data centers",
+      "target": "ASMPT Ltd - Mainstream semiconductor tool growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "AI data centers drive mainstream tool market growth"
+    },
+    {
+      "source": "ASMPT Ltd - Rating Upgrade",
+      "target": "ASMPT Ltd - AI data centers",
+      "type": "EXPOSED_TO",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Upgrade driven by expected AI data center growth"
+    }
+  ],
+  "scenarios": []
+}

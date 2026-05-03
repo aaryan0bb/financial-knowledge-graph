@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "type": "Table",
+      "brief": "VIX monthly performance seasonal line chart since 1990",
+      "description": "Shows typical VIX seasonality, with lowest volatility in July and a rebound peaking in October; impacts rules-based equity demand.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Month | VIX Performance |\n|-------|-----------------|\n| Jan   | 18.40           |\n| Feb   | 18.50           |\n| Mar   | 18.20           |\n| Apr   | 17.10           |\n| May   | 17.20           |\n| Jun   | 17.05           |\n| Jul   | 16.65           |\n| Aug   | 17.00           |\n| Sep   | 17.80           |\n| Oct   | 18.90           |\n| Nov   | 17.40           |\n| Dec   | 17.95           |",
+        "key_insight": "July typically marks the annual VIX low (~16.65), with a sharp rebound peaking in October (~18.90), reflecting a strong historical seasonal volatility pattern."
+      }
+    },
+    {
+      "name": "EquitiesMarket-Longest-Retail-Cash-Buying-Streaks-Chart",
+      "type": "Table",
+      "brief": "Retail cash buying streaks bar chart tracked by Citadel Securities",
+      "description": "Highlights five periods of sustained retail daily cash equity buying, with June 2025 being the longest streak in the past four years.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date of Streak | Buying Streak (Days) |\n|----------------|----------------------|\n| Apr 2017       | 25                   |\n| Jan 2020       | 21                   |\n| Nov 2020       | 32                   |\n| Mar 2021       | 23                   |\n| Jun 2025       | 19                   |",
+        "key_insight": "The 19-day retail cash equities buying streak in June 2025 is the fifth longest on record and the longest in the past four years, signaling robust retail demand."
+      }
+    },
+    {
+      "name": "EquitiesMarket-VIX-July-Low",
+      "type": "Metric",
+      "brief": "VIX seasonal July low value",
+      "description": "July represents the typical annual low for VIX, with a value of 16.65.",
+      "properties": {
+        "unit": null,
+        "value": 16.65,
+        "as_of": "July"
+      }
+    },
+    {
+      "name": "EquitiesMarket-VIX-October-Peak",
+      "type": "Metric",
+      "brief": "VIX seasonal October peak value",
+      "description": "October shows the yearly peak for VIX, at 18.90.",
+      "properties": {
+        "unit": null,
+        "value": 18.9,
+        "as_of": "October"
+      }
+    },
+    {
+      "name": "EquitiesMarket-RetailBuyingStreak-June2025",
+      "type": "Event",
+      "brief": "Sustained retail cash equity buying June 2025",
+      "description": "Retail investors bought cash equities for 19 consecutive trading sessions as of June 2025, the longest streak since 2021.",
+      "properties": {
+        "date": "2025-06",
+        "event_type": "RetailCashBuyingStreak",
+        "impact_value": 19,
+        "unit": "days"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "target": "EquitiesMarket-VIX-July-Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 16.65,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Chart shows July VIX low of 16.65 is typical seasonal minimum."
+    },
+    {
+      "source": "EquitiesMarket-VIX-Monthly-Performance-Chart",
+      "target": "EquitiesMarket-VIX-October-Peak",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 18.9,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Chart highlights October as the typical VIX peak at 18.90."
+    },
+    {
+      "source": "EquitiesMarket-Longest-Retail-Cash-Buying-Streaks-Chart",
+      "target": "EquitiesMarket-RetailBuyingStreak-June2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 19,
+        "unit": "days",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Bar chart shows 19-day retail buying streak in June 2025 as longest since 2021."
+    }
+  ],
+  "scenarios": []
+}

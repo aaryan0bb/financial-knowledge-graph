@@ -1,0 +1,764 @@
+{
+  "entities": [
+    {
+      "name": "GS Macro \u2013 September rate cut",
+      "type": "Event",
+      "brief": "projected Fed rate cut in September",
+      "description": "anticipated federal funds rate reduction in September",
+      "properties": {
+        "date": null,
+        "event_type": "rate_cut",
+        "region": "US"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 US housing outlook",
+      "type": "Factor",
+      "brief": "outlook for US housing market",
+      "description": "expected weak housing market due to faltering demand and supply absorption issues",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 residential investment growth",
+      "type": "Factor",
+      "brief": "growth in US residential investment",
+      "description": "forecast to remain weak for the remainder of the year",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 mortgage rate rebound",
+      "type": "Factor",
+      "brief": "recent rebound in mortgage rates",
+      "description": "increase in mortgage rates undermining residential investment",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 national home price change (2025)",
+      "type": "Metric",
+      "brief": "forecast home price increase for 2025",
+      "description": "projected 0.2% rise in national home prices during December-over-December 2025",
+      "properties": {
+        "value": 0.2,
+        "unit": "%",
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 national home price change (2026)",
+      "type": "Metric",
+      "brief": "forecast home price increase for 2026",
+      "description": "projected 0.8% rise in national home prices during December-over-December 2026",
+      "properties": {
+        "value": 0.8,
+        "unit": "%",
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 US net immigration rate (April 2025)",
+      "type": "Metric",
+      "brief": "annualized US net immigration pace in April",
+      "description": "estimated at 0.6 million annualized immigrants in April 2025",
+      "properties": {
+        "value": 0.6,
+        "unit": "mn",
+        "as_of": "April 2025"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 US net immigration rate (June 2025)",
+      "type": "Metric",
+      "brief": "annualized US net immigration pace in June",
+      "description": "estimated at 0.5 million annualized immigrants in June 2025",
+      "properties": {
+        "value": 0.5,
+        "unit": "mn",
+        "as_of": "June 2025"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 US net immigration slowdown",
+      "type": "Factor",
+      "brief": "gradual slowdown in US net immigration",
+      "description": "decline from 0.6mn in April to 0.5mn in June indicates slowing immigration",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 breakeven payroll job growth rate (current)",
+      "type": "Metric",
+      "brief": "current payroll growth needed to stabilize unemployment",
+      "description": "estimated 90k payroll jobs per month needed to keep unemployment stable in July 2025",
+      "properties": {
+        "value": 90,
+        "unit": "k per month",
+        "as_of": "July 2025"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 breakeven payroll job growth rate (end-2025)",
+      "type": "Metric",
+      "brief": "projected payroll growth needed to stabilize unemployment by end-2025",
+      "description": "expected to lower to 70k per month by end-2025",
+      "properties": {
+        "value": 70,
+        "unit": "k per month",
+        "as_of": "end-2025"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 Japanese Upper House elections outcome",
+      "type": "Event",
+      "brief": "result of recent Japanese Upper House elections",
+      "description": "narrow loss of ruling coalition majority in Japan's Upper House elections",
+      "properties": {
+        "date": null,
+        "event_type": "election",
+        "region": "Japan",
+        "result": "narrow loss of majority"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 minority government continuation",
+      "type": "Factor",
+      "brief": "continuation of minority government in Japan",
+      "description": "expectation that current ruling coalition will govern as a minority in Japan",
+      "properties": {
+        "direction": "continued",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "GS Macro \u2013 fiscal policy bias",
+      "type": "Factor",
+      "brief": "bias in Japanese fiscal policy",
+      "description": "expansionary bias expected from opposition proposals on tax cuts and social security",
+      "properties": {
+        "direction": "expansionary",
+        "region": "Japan"
+      }
+    },
+    {
+      "name": "US - Tariff announcement to Japan",
+      "type": "Event",
+      "brief": "15% tariff on Japan announced",
+      "description": "Recently announced 15% tariff on Japan imports",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_announcement",
+        "impact_value": 15,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US - Tariff announcement to Philippines and Indonesia",
+      "type": "Event",
+      "brief": "19% tariff on Philippines and Indonesia",
+      "description": "Recently announced 19% tariff on Philippines and Indonesia imports",
+      "properties": {
+        "date": null,
+        "event_type": "tariff_announcement",
+        "impact_value": 19,
+        "unit": "%"
+      }
+    },
+    {
+      "name": "US - Effective tariff rate",
+      "type": "Factor",
+      "brief": "US effective tariff rate projected to rise by 17pp",
+      "description": "Effective US tariff rate likely to rise by 17 percentage points by 2027",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17,
+        "driver": "trade policy"
+      }
+    },
+    {
+      "name": "US - Cumulative core PCE price increase",
+      "type": "Metric",
+      "brief": "Cumulative boost to core PCE prices",
+      "description": "Tariffs expected to boost US core PCE prices by around 1.7% cumulatively over next couple years",
+      "properties": {
+        "value": 1.7,
+        "unit": "%",
+        "as_of": null
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2025",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2025",
+      "description": "Forecast core PCE inflation of 3.3% yoy in December 2025",
+      "properties": {
+        "value": 3.3,
+        "unit": "%",
+        "as_of": "2025-12-31"
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2026",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2026",
+      "description": "Forecast core PCE inflation of 2.7% yoy in December 2026",
+      "properties": {
+        "value": 2.7,
+        "unit": "%",
+        "as_of": "2026-12-31"
+      }
+    },
+    {
+      "name": "US - Core PCE inflation Dec 2027",
+      "type": "Metric",
+      "brief": "yoy core PCE inflation for December 2027",
+      "description": "Forecast core PCE inflation of 2.4% yoy in December 2027",
+      "properties": {
+        "value": 2.4,
+        "unit": "%",
+        "as_of": "2027-12-31"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 US Tariff Historical and Forecasted Policy Impact",
+      "type": "Table",
+      "brief": "Waterfall of effective tariff rate impacts",
+      "description": "Illustrates cumulative and forecasted tariff rate changes to 17 pp by 2027",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Tariff Policy | Incremental Impact (pp) | Cumulative Impact (pp) | Timeframe |\n|:----------------------------------|:------------------------|:-----------------------|:--------------------------|\n| 20% China | 1.0 | 1.0 | Implemented to date |\n| 25% CA/MX non-USMCA | 0.8 | 1.8 | Implemented to date |\n| 50% Steel & aluminum | 1.2 | 3.0 | Implemented to date |\n| 25% Autos & auto parts | 1.5 | 4.5 | Implemented to date |\n| 10% Baseline | 4.5 | 9.0 | Implemented to date |\n| Additional 5% baseline | 1.0 | 10.0 | GS forecast (2025) |\n| 50% Copper, critical minerals | 1.0 | 11.0 | GS forecast (2025) |\n| 25% Electronics, lumber | 2.5 | 13.5 | GS forecast (2025) |\n| 25% Heavy trucks, aircraft | 1.0 | 14.5 | GS forecast (2026-2027) |\n| 25% Pharma | 2.0 | 16.5 | GS forecast (2026-2027) |\n| Total | N/A | 17.0 | By 2027 |",
+        "key_insight": "The US effective tariff rate is projected to reach approximately 17 pp by 2027."
+      }
+    },
+    {
+      "name": "US Tariff Burden Increase",
+      "type": "Factor",
+      "brief": "Projected rise in US effective tariff rate",
+      "description": "Goldman projects tariffs will cumulatively raise the effective rate to 17 pp by 2027.",
+      "properties": {
+        "direction": "up",
+        "magnitude_%": 17
+      }
+    },
+    {
+      "name": "Downside Risk to Euro Area Growth",
+      "type": "Factor",
+      "brief": "Potential reduced euro area growth from tariff impacts",
+      "description": "Higher US tariffs are expected to increase downside risk to euro area growth forecasts for the remainder of the year.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "ECB Meeting",
+      "type": "Event",
+      "brief": "Scheduled European Central Bank meeting",
+      "description": "Meeting to review policy with little expected change.",
+      "properties": {
+        "date": null,
+        "event_type": "Monetary Policy Meeting",
+        "region": "Euro area"
+      }
+    },
+    {
+      "name": "ECB Rate Cut to 1.75%",
+      "type": "Event",
+      "brief": "Final ECB rate cut projection",
+      "description": "Goldman expects one last cut to 1.75% in September given trade policy risks.",
+      "properties": {
+        "date": null,
+        "event_type": "Rate Cut",
+        "impact_value": 1.75,
+        "unit": "%",
+        "region": "Euro area"
+      }
+    },
+    {
+      "name": "US Growth Slowdown",
+      "type": "Factor",
+      "brief": "Economic slowdown in first half of 2025",
+      "description": "Slowing growth in 1H25 and labor market risks strengthen case for Fed easing.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fed Rate Cut by 25 bp",
+      "type": "Event",
+      "brief": "Next projected Fed rate cut",
+      "description": "Fed is expected to cut rates by 25 bp in September pending tariff shock and labor data.",
+      "properties": {
+        "date": null,
+        "event_type": "Rate Cut",
+        "impact_value": 25,
+        "unit": "bp",
+        "region": "US"
+      }
+    },
+    {
+      "name": "US Treasury Yields Decline",
+      "type": "Factor",
+      "brief": "Expected drop in US Treasury yields",
+      "description": "Fed easing is projected to push down Treasury yields.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "US Dollar Decline",
+      "type": "Factor",
+      "brief": "Projected US dollar weakness",
+      "description": "Fed rate cuts should weaken the dollar.",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Global Equities Rally",
+      "type": "Factor",
+      "brief": "Expected increase in global equity markets",
+      "description": "Fed easing is expected to boost global equities.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Gold Price Increase",
+      "type": "Factor",
+      "brief": "Anticipated gold price rise",
+      "description": "Gold is expected to rally on Fed easing.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "BoE Rate Cut",
+      "type": "Event",
+      "brief": "Bank of England next rate cut",
+      "description": "BoE is expected to cut rates at its August 7 meeting given UK disinflation.",
+      "properties": {
+        "date": "2025-08-07",
+        "event_type": "Rate Cut",
+        "region": "UK"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Macro global economic performance from 2018 to 2026",
+      "type": "Table",
+      "brief": "Global CAI and GDP performance 2018\u20132026",
+      "description": "Displays global Current Activity Indicator and historical GDP trends, highlighting the 2020 V-shaped contraction and forecasted stabilization at modest growth rates.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year/Period       | Current Activity Indicator (mo, ann.) (%) | Historical GDP (yoy) (%) | Q1 2025 GDP (yoy) (%) | GS Q2 2025 GDP Estimate (yoy) (%) | Global GDP Forecast (%) |\n|---|---|---|---|---|---|\n| 2018              | 2.5                                      | 3.0                     | N/A                   | N/A                               | N/A                    |\n| Early 2019        | 1.5                                      | 2.5                     | N/A                   | N/A                               | N/A                    |\n| Early 2020 (Trough)| -30.0                                   | -10.0                   | N/A                   | N/A                               | N/A                    |\n| Late 2020 (Peak)  | 22.0                                     | 12.0                    | N/A                   | N/A                               | N/A                    |\n| Early 2021        | 10.0                                     | 5.0                     | N/A                   | N/A                               | N/A                    |\n| Mid-2021          | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2022              | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2023              | 2.0                                      | 2.0                     | N/A                   | N/A                               | N/A                    |\n| 2024              | 2.5                                      | 2.5                     | N/A                   | N/A                               | N/A                    |\n| 2025 Q1           | 2.0                                      | 2.0                     | 2.0                   | N/A                               | N/A                    |\n| 2025 Q2           | N/A                                      | N/A                     | N/A                   | 1.5                               | N/A                    |\n| 2025 (Annual)     | N/A                                      | N/A                     | N/A                   | N/A                               | 2.4                    |\n| 2026 (Annual)     | N/A                                      | N/A                     | N/A                   | N/A                               | 2.3                    |",
+        "key_insight": "The global economy experienced a dramatic V-shaped contraction in early to late 2020 followed by stabilization at modest 2\u20133% growth in 2025\u20132026."
+      }
+    },
+    {
+      "name": "Table T2 \u2013 Macro China economic performance from 2019 to 2027",
+      "type": "Table",
+      "brief": "China\u2019s CAI and GDP performance 2019\u20132027",
+      "description": "Shows China\u2019s Current Activity Indicator and GDP volatility around pandemic, troughs and rebounds, with forecasts easing from 4.7% to 3.9%.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | Data Point | Current Activity Indicator (mo, ann. % Chg.) | GDP Growth (yoy % Chg.) |\n|---|---|---|---|\n| 2019 | Average     | 6.0                                        | 6.0                   |\n| 2020 | Start       | 5.0                                        | 5.0                   |\n| 2020 | Trough      | -30.0                                      | -5.0                  |\n| 2020 | Peak        | 28.0                                       | 18.0                  |\n| 2020 | End         | 5.0                                        | 5.0                   |\n| 2021 | Peak        | 18.0                                       | 10.0                  |\n| 2021 | Trough      | 0.0                                        | 2.0                   |\n| 2021 | Average     | 5.0                                        | 5.0                   |\n| 2022 | Peak        | 12.0                                       | 5.0                   |\n| 2022 | Trough      | -15.0                                      | 2.0                   |\n| 2022 | Average     | 3.0                                        | 3.5                   |\n| 2023 | Peak        | 14.0                                       | 7.0                   |\n| 2023 | Average     | 7.0                                        | 5.0                   |\n| 2024 | Average     | 4.5                                        | 4.5                   |\n| 2025 | Mid-year    | 4.0                                        | 4.0                   |\n| 2025 | GS Forecast | N/A                                        | 4.7                   |\n| 2026 | GS Forecast | N/A                                        | 3.9                   |\n| 2027 | GS Forecast | N/A                                        | 3.9                   |",
+        "key_insight": "China\u2019s economy showed extreme CAI and GDP swings during 2020\u20132023 with troughs and rebounds, then stabilized with GDP forecasts easing from 4.7% in 2025 to 3.9% in 2026."
+      }
+    },
+    {
+      "name": "Table T3 \u2013 Macro Euro area GDP vs CAI 2019-2027",
+      "type": "Table",
+      "brief": "Euro area CAI and GDP fluctuations",
+      "description": "Illustrates Euro area CAI and GDP plunges in mid-2020 and subsequent rebounds, with forecasts of modest growth in 2025\u20132026.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Period              | Current Activity Indicator (mo, ann.) (% Chg.) | Historical GDP (yoy) (% Chg.) | Euro area GDP Forecast (% Chg.) |\n|---|---|---|---|\n| 2019               | 1.5                                         | 1.5                       | N/A                             |\n| Early 2020         | 1.0                                         | 0.5                       | N/A                             |\n| Mid 2020           | -30.0                                       | -17.0                     | N/A                             |\n| Late 2020          | 28.0                                        | 2.0                       | N/A                             |\n| Early 2021         | -1.0                                        | -1.0                      | N/A                             |\n| Mid 2021           | 7.0                                         | 14.0                      | N/A                             |\n| Late 2021          | 2.0                                         | 2.0                       | N/A                             |\n| 2022               | 1.5                                         | 1.5                       | N/A                             |\n| 2023               | 0.5                                         | 0.5                       | N/A                             |\n| 2024               | 0.5                                         | 0.5                       | N/A                             |\n| Q1 2025            | N/A                                         | 1.0                       | N/A                             |\n| Q2 2025 (GS Est.)  | 0.8                                         | N/A                       | N/A                             |\n| **2025**           | N/A                                         | N/A                       | 1.0                             |\n| **2026**           | N/A                                         | N/A                       | 1.1                             |",
+        "key_insight": "The Euro area saw CAI and GDP plunge to -30% and -17% in mid-2020, then rebound sharply and stabilize near 0\u20131% with GDP growth forecasts of 1.0% in 2025 and 1.1% in 2026."
+      }
+    },
+    {
+      "name": "Table T4 \u2013 Macro US GDP vs CAI 2019-2027",
+      "type": "Table",
+      "brief": "US CAI and GDP growth trends",
+      "description": "Traces US CAI and GDP volatility during pandemic and stabilization thereafter, forecasting consistent 1.6% GDP growth.",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year/Period                 | Current Activity Indicator (% Chg. mo, ann.) | Historical/Forecasted GDP (% Chg. yoy) |\n|---|---|---|\n| 2019                        | 2.5%                                         | 2.0%                                  |\n| 2020 Q1 (Pre-Crisis)        | 2.0%                                         | 2.0%                                  |\n| 2020 Q2 (Trough)            | -30.0%                                       | -10.0%                                |\n| 2021 Q1 (Rebound Peak)      | 24.0%                                        | 12.0%                                 |\n| 2021 H2                     | 5.0%                                         | 5.0%                                  |\n| 2022 H1                     | 1.0%                                         | 2.0%                                  |\n| 2022 H2                     | 1.5%                                         | 1.5%                                  |\n| 2023 H1                     | 1.5%                                         | 1.5%                                  |\n| 2023 H2                     | 2.0%                                         | 1.5%                                  |\n| 2024 H1                     | 1.5%                                         | 2.0%                                  |\n| 2024 H2                     | 0.5%                                         | 2.0%                                  |\n| 2025 Q1 (Actual)            | 0.0%                                         | 0.5%                                  |\n| 2025 Q2 (GS Estimate)       | 0.5%                                         | 1.0%                                  |\n| 2025 Forecast (Annual)      | N/A                                          | 1.6%                                  |\n| 2026 Forecast (Annual)      | N/A                                          | 1.6%                                  |",
+        "key_insight": "US CAI dropped to -30% in 2020 and rebounded to 24% by early 2021, with GDP also dipping then recovering, stabilizing between 0% and 3%, and forecasts of 1.6% for 2025 and 2026."
+      }
+    },
+    {
+      "name": "Macro \u2013 Global GDP Forecast 2025",
+      "type": "Metric",
+      "brief": "Forecasted global GDP growth for 2025",
+      "description": "Goldman Sachs forecasts global GDP growth of 2.4% in 2025.",
+      "properties": {
+        "unit": "%",
+        "value": 2.4,
+        "as_of": "2025"
+      }
+    },
+    {
+      "name": "Macro \u2013 China GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted China GDP growth for 2026",
+      "description": "Goldman Sachs forecasts China\u2019s GDP growth to ease to 3.9% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 3.9,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Macro \u2013 Euro area GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted Euro area GDP growth for 2026",
+      "description": "Goldman Sachs forecasts Euro area GDP growth of 1.1% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 1.1,
+        "as_of": "2026"
+      }
+    },
+    {
+      "name": "Macro \u2013 US GDP Forecast 2026",
+      "type": "Metric",
+      "brief": "Forecasted US GDP growth for 2026",
+      "description": "Goldman Sachs forecasts US GDP growth of 1.6% in 2026.",
+      "properties": {
+        "unit": "%",
+        "value": 1.6,
+        "as_of": "2026"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "GS Macro \u2013 mortgage rate rebound",
+      "target": "GS Macro \u2013 residential investment growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.85,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 85
+      },
+      "description": "Mortgage rate rebound led to faltering residential investment"
+    },
+    {
+      "source": "GS Macro \u2013 residential investment growth",
+      "target": "GS Macro \u2013 US housing outlook",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Weak residential investment informs the weak US housing outlook"
+    },
+    {
+      "source": "GS Macro \u2013 US net immigration slowdown",
+      "target": "GS Macro \u2013 breakeven payroll job growth rate (end-2025)",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 20,
+        "unit": "k per month",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Immigration slowdown lowers breakeven rate by 20k per month"
+    },
+    {
+      "source": "GS Macro \u2013 Japanese Upper House elections outcome",
+      "target": "GS Macro \u2013 minority government continuation",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Election result causes ruling coalition to continue in minority"
+    },
+    {
+      "source": "GS Macro \u2013 Japanese Upper House elections outcome",
+      "target": "GS Macro \u2013 fiscal policy bias",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Election outcome portends expansionary bias in Japanese fiscal policy"
+    },
+    {
+      "source": "US - Tariff announcement to Japan",
+      "target": "US - Effective tariff rate",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Japan tariff announcement increases effective tariff rate"
+    },
+    {
+      "source": "US - Tariff announcement to Philippines and Indonesia",
+      "target": "US - Effective tariff rate",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Philippines and Indonesia tariff announcement increases effective tariff rate"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Cumulative core PCE price increase",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 1.7,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Higher tariffs boost core PCE prices by around 1.7%"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2025",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 3.3% core PCE inflation in December 2025 forecast"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2026",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 2.7% core PCE inflation in December 2026 forecast"
+    },
+    {
+      "source": "US - Effective tariff rate",
+      "target": "US - Core PCE inflation Dec 2027",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Tariffs contribute to 2.4% core PCE inflation in December 2027 forecast"
+    },
+    {
+      "source": "Table T1 \u2013 US Tariff Historical and Forecasted Policy Impact",
+      "target": "US Tariff Burden Increase",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 17,
+        "unit": "pp",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Tariff policies cumulatively drive a 17 pp increase in US effective tariff rate"
+    },
+    {
+      "source": "US Tariff Burden Increase",
+      "target": "Downside Risk to Euro Area Growth",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Higher tariff burden increases downside risk to euro area growth forecasts"
+    },
+    {
+      "source": "Downside Risk to Euro Area Growth",
+      "target": "ECB Rate Cut to 1.75%",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": 1.75,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Downside growth risk likely triggers a final ECB rate cut"
+    },
+    {
+      "source": "US Growth Slowdown",
+      "target": "Fed Rate Cut by 25 bp",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": 25,
+        "unit": "bp",
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "US growth slowdown heightens case for a Fed rate cut"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "US Treasury Yields Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should push down Treasury yields"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "US Dollar Decline",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should weaken the dollar"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "Global Equities Rally",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed easing is expected to boost global equities"
+    },
+    {
+      "source": "Fed Rate Cut by 25 bp",
+      "target": "Gold Price Increase",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Fed rate cuts should lift gold prices"
+    },
+    {
+      "source": "Table T1 \u2013 Macro global economic performance from 2018 to 2026",
+      "target": "Macro \u2013 Global GDP Forecast 2025",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 2.4,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs global GDP forecast for 2025"
+    },
+    {
+      "source": "Table T2 \u2013 Macro China economic performance from 2019 to 2027",
+      "target": "Macro \u2013 China GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 3.9,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs China GDP forecast for 2026"
+    },
+    {
+      "source": "Table T3 \u2013 Macro Euro area GDP vs CAI 2019-2027",
+      "target": "Macro \u2013 Euro area GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.1,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs Euro area GDP forecast for 2026"
+    },
+    {
+      "source": "Table T4 \u2013 Macro US GDP vs CAI 2019-2027",
+      "target": "Macro \u2013 US GDP Forecast 2026",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 1.6,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs US GDP forecast for 2026"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/what's_top_of_mind_in_macro_research_greater_tariff_impacts_central_bank_easing_a_weaker_us_housing_outlook_converted_with_figures"
+}

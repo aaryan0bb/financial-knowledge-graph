@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "Global Equity Markets – Japan NKY",
+      "type": "Instrument",
+      "brief": "Nikkei 225 index jumped 1.59%",
+      "description": "Japan’s NKY rose 1.59% to 41,826.34 index points",
+      "properties": {
+        "ticker": "NKY",
+        "change_pct": 1.59,
+        "last": 41826.34,
+        "last_unit": "indexPts"
+      }
+    },
+    {
+      "name": "Global Equity Markets – Ethereum",
+      "type": "Instrument",
+      "brief": "Ethereum price increased 1.61%",
+      "description": "Ethereum climbed 1.61% to 3,627.30 USD",
+      "properties": {
+        "ticker": "Ethereum",
+        "change_pct": 1.61,
+        "last": 3627.3,
+        "last_unit": "USD"
+      }
+    },
+    {
+      "name": "Global Equity Markets – Copper",
+      "type": "Instrument",
+      "brief": "Copper futures up 1.73%",
+      "description": "Copper advanced 1.73% to 589.50 USD",
+      "properties": {
+        "ticker": "Copper",
+        "change_pct": 1.73,
+        "last": 589.5,
+        "last_unit": "USD"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

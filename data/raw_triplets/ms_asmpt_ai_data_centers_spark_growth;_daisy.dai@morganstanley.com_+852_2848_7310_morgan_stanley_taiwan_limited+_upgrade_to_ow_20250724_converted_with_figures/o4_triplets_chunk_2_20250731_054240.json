@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Future GW-scale data center architecture",
+      "type": "Table",
+      "brief": "Hierarchical data center power delivery architecture featuring voltage step-down and advanced materials.",
+      "description": "Outlines multi-stage power conversion from MV AC to serverboard core, leveraging SiC and GaN components and energy storage to enable high-power AI data centers.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Stage/Location   | Component/Function         | Voltage Transformation             | Key Materials/Description                                           |\n|------------------|----------------------------|------------------------------------|---------------------------------------------------------------------|\n| Infrastructure   | AC/DC Converter            | MV AC Grid Input to 800V DC Output | Utilizes SiC and High Power Modules                                 |\n|                  | Long Duration Energy Storage | 800V DC Bus to V_bat             | Lithium-ion Batteries (Li-ion), requires SiC for DC/DC conversion   |\n| Hall             | DC/DC Converter            | 800V DC Bus                        | Connects medium duration storage to the 800V bus                   |\n|                  | Medium Duration Energy Storage | 800V DC Bus to V_bat             | Super Capacitors / New Battery Chemistry, requires SiC for DC/DC conversion |\n| Row / IT Rack    | DC/DC Converter            | 800V DC Bus                        | Connects short duration storage to the 800V bus                    |\n|                  | Short Duration Energy Storage | 800V DC Bus to V_bat             | Electrolytic Capacitors, requires SiC for DC/DC conversion          |\n| Serverboard      | HV IBC (High Voltage IBC)  | 800V DC Input to 54V/12V DC Output | Employs GaN for efficient high-voltage conversion                   |\n|                  | LV IBC (Low Voltage IBC)   | 54V DC Input to 12V/6V DC Output   | Uses GaN, Silicon (Si), and Control ICs                             |\n|                  | VRM (Voltage Regulator Module)| 12V/6V DC Input to Core Voltage  | Employs Silicon (Si) and Control ICs for final power delivery       |\n| System-wide      | Safety Breakers            | Across 800V DC Bus                 | Ensures system safety at various stages                             |",
+        "key_insight": "The Future GW-scale data center architecture progressively steps down voltage from an MV AC grid to core levels (800V DC→54V→12V/6V), integrating SiC and GaN materials with distributed energy storage at each stage."
+      }
+    },
+    {
+      "name": "ASMPT advanced manufacturing tools demand",
+      "type": "Factor",
+      "brief": "Growing need for wire bonders and die bonders",
+      "description": "Increasing demand for ASMPT's wire bonders and die bonders driven by AI data center power architecture.",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "ASMPT auto & industrial revenue mix",
+      "type": "Metric",
+      "brief": "Percentage of revenue from auto & industrial segment",
+      "description": "Auto and industrial segment mix declined to 23% in 1H25, hitting trough.",
+      "properties": {
+        "unit": "%",
+        "as_of": "1H25",
+        "value": 23
+      }
+    },
+    {
+      "name": "ASMPT computers revenue mix",
+      "type": "Metric",
+      "brief": "Percentage of revenue from computers segment",
+      "description": "Computers segment surpassed auto and industrial to contribute 30% of revenue in 1H25.",
+      "properties": {
+        "unit": "%",
+        "as_of": "1H25",
+        "value": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Future GW-scale data center architecture",
+      "target": "ASMPT advanced manufacturing tools demand",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Power architecture drives demand for advanced manufacturing tools"
+    }
+  ],
+  "scenarios": []
+}

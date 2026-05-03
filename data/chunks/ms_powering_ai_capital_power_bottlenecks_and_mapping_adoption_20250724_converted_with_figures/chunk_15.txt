@@ -1,0 +1,41 @@
+Morgan Stanley                                                                                     July 24, 2025 
+
+The "Return" Side of the GenAI ROI Equation 
+GenAl will drive a ~$1 Trillion Revenue Opportunity by 2028 
+
+                                                          Enterprise Software ($B) Consumer Internet ($B) 
+· We see $401B in GenAl 
+ Software spend by 2028, 
+ from $16B in 2024 
+
+. GenAl Software could 
+ represent ~22% of Total 
+                                                                                                   $683 
+ Software spending by 2028 
+
+  We see $683B in GenAI 
+ Consumer spending by                                                                   $416 
+ 2028, from $29B in 2024 
+
+                                                                            $228 
+  GenAl Consumer spending                                                                         $401 
+ is likely led by Ecommerce,                $11        $29 
+                                                                  $94                   $256 
+ Search, and Autonomous                         $4         $16              $148 
+                                                                  $59 
+                                           2023       2024       2025       2026       2027        2028 
+
+Source: Company data, Morgan Stanley Research                                                                  15 
+
+    | Year | Enterprise Software ($B) | Consumer Internet ($B) |
+    |------|--------------------------|------------------------|
+    | 2023 | 4                        | 11                     |
+    | 2024 | 16                       | 29                     |
+    | 2025 | 59                       | 94                     |
+    | 2026 | 148                      | 228                    |
+    | 2027 | 256                      | 416                    |
+    | 2028 | 401                      | 683                    |
+
+    Summary: This stacked bar chart illustrates the projected GenAI revenue opportunity across two key segments: Enterprise Software and Consumer Internet, from 2023 to 2028. The X-axis represents the years, while the Y-axis denotes revenue in billions of dollars. Both segments show a remarkable exponential growth trend over the forecast period, with Consumer Internet consistently contributing a larger share to the total revenue compared to Enterprise Software. The growth accelerates significantly each year, culminating in a substantial revenue projection for 2028 for both categories.
+
+    Explanation: The chart directly addresses the "Return" side of the GenAI ROI equation, projecting a total revenue opportunity nearing $1 trillion by 2028. This rapid expansion in both enterprise and consumer-facing AI applications highlights the vast market potential and widespread adoption of generative AI technologies, building upon the infrastructure investments discussed on preceding pages.

@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "USMarket Market Bullishness",
+      "type": "Factor",
+      "brief": "Tactical bullish market outlook",
+      "description": "Prevailing bullish sentiment informed by macro, earnings, and trade factors",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Resilient Macro Data",
+      "type": "Factor",
+      "brief": "Strong macroeconomic data",
+      "description": "Resilient US macro indicators support bullish thesis",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Positive Earnings Growth",
+      "type": "Factor",
+      "brief": "Corporate earnings trending positive",
+      "description": "Earnings growth among companies is robust",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "USMarket Thawing Trade Rhetoric",
+      "type": "Factor",
+      "brief": "Improving trade relations rhetoric",
+      "description": "Trade discussions between US and partners are warming",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "USMarket Resilient Macro Data",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Resilient macro data impacts market bullishness"
+    },
+    {
+      "source": "USMarket Positive Earnings Growth",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Positive earnings growth impacts market bullishness"
+    },
+    {
+      "source": "USMarket Thawing Trade Rhetoric",
+      "target": "USMarket Market Bullishness",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Thawing trade rhetoric impacts market bullishness"
+    }
+  ],
+  "scenarios": []
+}

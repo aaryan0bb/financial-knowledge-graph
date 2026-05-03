@@ -1,0 +1,226 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – ASMPT – Auto Suppliers' Inventory Days are Normalizing",
+      "type": "Table",
+      "brief": "Auto suppliers' DOI normalized post-pandemic with stable averages",
+      "description": "Shows Days on Inventory and Q/Q 4Q Avg. trending towards historical norms",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | DOI | 10-Year Median | Q/Q 4Q Avg. |\n|---|---|---|---|\n| 1Q 2015 | 25 | 43 | 0.5 |\n| 2Q 2015 | 37 | 43 | 3.5 |\n| 1Q 2016 | 36 | 43 | 0.5 |\n| 1Q 2017 | 37 | 43 | 0.5 |\n| 1Q 2018 | 38 | 43 | 0.5 |\n| 1Q 2019 | 40 | 43 | 0.5 |\n| 2Q 2019 | 42 | 43 | 0.5 |\n| 3Q 2019 | 43 | 43 | 0.5 |\n| 4Q 2019 | 44 | 43 | 0.5 |\n| 1Q 2020 | 44 | 43 | 7.5 |\n| 2Q 2020 | 57 | 43 | 3.5 |\n| 3Q 2020 | 53 | 43 | 0.5 |\n| 4Q 2020 | 50 | 43 | 0.5 |\n| 1Q 2021 | 42 | 43 | -5.0 |\n| 2Q 2021 | 50 | 43 | 4.0 |\n| 3Q 2021 | 58 | 43 | 3.0 |\n| 4Q 2021 | 60 | 43 | 2.0 |\n| 1Q 2022 | 58 | 43 | 1.5 |\n| 2Q 2022 | 55 | 43 | 0.5 |\n| 3Q 2022 | 54 | 43 | -0.5 |\n| 4Q 2022 | 53 | 43 | -0.5 |\n| 1Q 2023 | 52 | 43 | -0.5 |\n| 2Q 2023 | 50 | 43 | -0.5 |\n| 3Q 2023 | 48 | 43 | 0.0 |\n| 4Q 2023 | 50 | 43 | 0.0 |\n| 1Q 2024 | 53 | 43 | 0.5 |\n| 2Q 2024 | 54 | 43 | 0.5 |\n| 3Q 2024 | 53 | 43 | 0.5 |\n| 4Q 2024 | 52 | 43 | 0.0 |\n| 1Q 2025 | N/A | 43 | 0.0 |",
+        "key_insight": "Auto suppliers' Days on Inventory have normalized since late 2021 with Q/Q 4Q Avg. stabilizing near zero"
+      }
+    },
+    {
+      "name": "Table T2 – ASMPT – Segmental revenue mix (%)",
+      "type": "Table",
+      "brief": "Shift in ASMPT revenue composition toward Computers segment",
+      "description": "Decline in Auto + Industrial share offset by growth in Computers mix",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Period | Auto + Industrial (%) | Communication (%) | Computers (%) | Consumer (%) | Others (%) |\n|--------|-----------------------|-------------------|---------------|--------------|------------|\n| 1H22   | 34                    | 18                | 8             | 22           | 18         |\n| 2H22   | 41                    | 13                | 8             | 18           | 20         |\n| 1H23   | 41                    | 12                | 10            | 15           | 22         |\n| 2H23   | 35                    | 12                | 13            | 15           | 25         |\n| 1H24   | 38                    | 15                | 10            | 15           | 22         |\n| 2H24   | 26                    | 14                | 24            | 14           | 22         |\n| 1H25   | 23                    | 12                | 30            | 15           | 20         |",
+        "key_insight": "Auto + Industrial share dropped to 23% in 1H25, while Computers share rose to 30%"
+      }
+    },
+    {
+      "name": "Table T3 – ASMPT – Auto OEMs",
+      "type": "Table",
+      "brief": "Auto OEM DOI and Q/Q 4Q Avg. spiked then normalized",
+      "description": "Shows extreme swings in inventory metrics around 2020-2021, normalizing by 2025",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Period | DOI (Days) | 10-Year Median DOI (Days) | Q/Q 4Q Avg. |\n|--------|------------|---------------------------|-------------|\n| 2013 1Q | 49         | 55.5                      | 0.5         |\n| 2013 4Q | 50         | 55.5                      | 0.0         |\n| 2014 4Q | 55         | 55.5                      | 0.5         |\n| 2015 4Q | 52         | 55.5                      | 0.5         |\n| 2016 4Q | 56         | 55.5                      | 0.0         |\n| 2017 4Q | 54         | 55.5                      | 0.0         |\n| 2018 4Q | 56         | 55.5                      | 0.5         |\n| 2019 4Q | 57         | 55.5                      | 0.0         |\n| 2020 1Q | 55         | 55.5                      | 5.5         |\n| 2020 2Q | 61         | 55.5                      | 0.5         |\n| 2020 3Q | 57         | 55.5                      | -0.5        |\n| 2020 4Q | 51         | 55.5                      | -3.0        |\n| 2021 1Q | 44         | 55.5                      | -4.5        |\n| 2021 2Q | 48         | 55.5                      | -1.0        |\n| 2021 3Q | 51         | 55.5                      | 0.0         |\n| 2021 4Q | 53         | 55.5                      | 1.5         |\n| 2022 1Q | 56         | 55.5                      | 1.5         |\n| 2022 2Q | 58         | 55.5                      | 0.5         |\n| 2022 3Q | 57         | 55.5                      | 0.0         |\n| 2022 4Q | 57         | 55.5                      | 0.0         |\n| 2023 4Q | 54         | 55.5                      | -0.5        |\n| 2024 4Q | 53         | 55.5                      | 0.0         |\n| 2025 1Q | 55         | 55.5                      | 0.0         |",
+        "key_insight": "Q/Q 4Q Avg. spiked to 5.5% in 1Q 2020 preceding a DOI peak at 61 days, then normalized post-2021"
+      }
+    },
+    {
+      "name": "Table T4 – ASMPT – Auto and Industrial Revenue",
+      "type": "Table",
+      "brief": "Auto and Industrial segment revenues hit record lows in 1H25",
+      "description": "Shows sharp decline to HK$983mn and HK$524mn for Auto and Industrial in 1H25",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Period | Auto Revenue (HK$mn) | Industrial Revenue (HK$mn) |\n|---|---|---|\n| 1H22 | 2,094 | 1,466 |\n| 2H22 | 1,972 | 1,632 |\n| 1H23 | 1,798 | 1,407 |\n| 2H23 | 1,435 | 944 |\n| 1H24 | 1,555 | 907 |\n| 2H24 | 1,090 | 680 |\n| 1H25 | 983 | 524 |",
+        "key_insight": "Auto and Industrial revenues declined to record lows of HK$983mn and HK$524mn in 1H25"
+      }
+    },
+    {
+      "name": "ASMPT – Auto Suppliers' Days on Inventory",
+      "type": "Metric",
+      "brief": "Peak days on inventory for auto suppliers",
+      "description": "Peak DOI indicates inventory digestion extremes affecting ASMPT demand",
+      "properties": {
+        "unit": "days",
+        "value": 60,
+        "as_of": "4Q 2021"
+      }
+    },
+    {
+      "name": "ASMPT – Auto + Industrial mix",
+      "type": "Metric",
+      "brief": "Share of Auto + Industrial segment in revenue mix",
+      "description": "Decline in Auto + Industrial revenue share reflects shifting demand drivers",
+      "properties": {
+        "unit": "%",
+        "value": 23,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT – Computers mix",
+      "type": "Metric",
+      "brief": "Share of Computers segment in revenue mix",
+      "description": "Growth in Computers revenue share driven by AI data center demand",
+      "properties": {
+        "unit": "%",
+        "value": 30,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT – Auto OEM Q/Q 4Q Avg",
+      "type": "Metric",
+      "brief": "Quarter-over-Quarter four-quarter average change for Auto OEM DOI",
+      "description": "Spike in Q/Q average indicates volatility in OEM inventory dynamics",
+      "properties": {
+        "unit": "%",
+        "value": 5.5,
+        "as_of": "1Q 2020"
+      }
+    },
+    {
+      "name": "ASMPT – Auto OEM Days on Inventory",
+      "type": "Metric",
+      "brief": "Days on Inventory for Auto OEMs at peak",
+      "description": "Peak OEM DOI shows extreme inventory build-up during pandemic",
+      "properties": {
+        "unit": "days",
+        "value": 61,
+        "as_of": "2Q 2020"
+      }
+    },
+    {
+      "name": "ASMPT – Auto segment revenue",
+      "type": "Metric",
+      "brief": "Auto segment semi-annual revenue",
+      "description": "Decline in Auto segment revenue highlights sector weakness",
+      "properties": {
+        "unit": "HK$mn",
+        "value": 983,
+        "as_of": "1H25"
+      }
+    },
+    {
+      "name": "ASMPT – Industrial segment revenue",
+      "type": "Metric",
+      "brief": "Industrial segment semi-annual revenue",
+      "description": "Decline in Industrial segment revenue underscores demand softness",
+      "properties": {
+        "unit": "HK$mn",
+        "value": 524,
+        "as_of": "1H25"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – ASMPT – Auto Suppliers' Inventory Days are Normalizing",
+      "target": "ASMPT – Auto Suppliers' Days on Inventory",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 60,
+        "unit": "days",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows auto suppliers' DOI peaked at 60 days in 4Q 2021"
+    },
+    {
+      "source": "Table T2 – ASMPT – Segmental revenue mix (%)",
+      "target": "ASMPT – Auto + Industrial mix",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 23,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Auto + Industrial segment share dropped to 23% in 1H25"
+    },
+    {
+      "source": "Table T2 – ASMPT – Segmental revenue mix (%)",
+      "target": "ASMPT – Computers mix",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 30,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Computers segment share rose to 30% in 1H25"
+    },
+    {
+      "source": "Table T3 – ASMPT – Auto OEMs",
+      "target": "ASMPT – Auto OEM Q/Q 4Q Avg",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 5.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Q/Q 4Q Avg spiked to 5.5% in 1Q 2020"
+    },
+    {
+      "source": "Table T3 – ASMPT – Auto OEMs",
+      "target": "ASMPT – Auto OEM Days on Inventory",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 61,
+        "unit": "days",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "DOI peaked at 61 days in 2Q 2020"
+    },
+    {
+      "source": "Table T4 – ASMPT – Auto and Industrial Revenue",
+      "target": "ASMPT – Auto segment revenue",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 983,
+        "unit": "HK$mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Auto revenue fell to HK$983mn in 1H25"
+    },
+    {
+      "source": "Table T4 – ASMPT – Auto and Industrial Revenue",
+      "target": "ASMPT – Industrial segment revenue",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 524,
+        "unit": "HK$mn",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Industrial revenue fell to HK$524mn in 1H25"
+    }
+  ],
+  "scenarios": []
+}

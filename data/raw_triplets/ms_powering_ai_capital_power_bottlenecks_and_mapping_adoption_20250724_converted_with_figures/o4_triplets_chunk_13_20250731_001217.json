@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – AI Exponential Increase in Task Length",
+      "type": "Table",
+      "brief": "Exponential increase in AI task lengths from 2020 to 2025",
+      "description": "AI models' task completion lengths have accelerated, doubling every seven months and reaching one hour by 2025.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| AI Model/Event | Year | Task Length (approx.) |\n|---|---|---|\n| GPT 2 | 2020 | 0 mins |\n| GPT 3 | 2020 | 0 mins |\n| GPT 3.5 | 2022 | 2 mins |\n| GPT 4 | 2023 | 8 mins |\n| Sonnet 3.5 | 2024 | 20 mins |\n| o1 | 2024 | 40 mins |\n| Sonnet 3.7 | 2025 | 60 mins (1 hour) |",
+        "key_insight": "AI task lengths have doubled every seven months, reaching 60 minutes by 2025"
+      }
+    },
+    {
+      "name": "AI Task Length",
+      "type": "Metric",
+      "brief": "Duration of tasks AI models can complete",
+      "description": "Represents the approximate time AI agents can autonomously complete tasks, highlighting capability growth.",
+      "properties": {
+        "value": 60,
+        "unit": "minutes",
+        "as_of": "2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – AI Exponential Increase in Task Length",
+      "target": "AI Task Length",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 90
+      },
+      "description": "Table informs exponential increase in AI task length"
+    }
+  ],
+  "scenarios": []
+}

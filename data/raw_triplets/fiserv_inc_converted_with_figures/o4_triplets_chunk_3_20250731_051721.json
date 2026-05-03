@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "Fiserv Inc.",
+      "type": "Company",
+      "brief": "Global payments technology provider",
+      "description": "Issuer of the reported earnings releasing Q2 results",
+      "properties": {
+        "ticker": "FI",
+        "sector": "Financial Technology"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Q2 2025 Earnings Release",
+      "type": "Event",
+      "brief": "Release of Q2 2025 earnings report",
+      "description": "Event where earnings, guidance, and forecasts were updated",
+      "properties": {
+        "date": "2025-07-23",
+        "event_type": "earnings_release",
+        "region": "US"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Non-GAAP EPS Q2 2025",
+      "type": "Metric",
+      "brief": "Diluted non-GAAP earnings per share",
+      "description": "Actual diluted EPS for Q2 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 2.47,
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Effective Tax Rate Decrease",
+      "type": "Factor",
+      "brief": "Lower effective tax rate",
+      "description": "Reduction in effective tax rate contributed to earnings beat",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Merchant Segment Challenges",
+      "type": "Factor",
+      "brief": "Missed revenue and margin expectations",
+      "description": "Underperformance in small business and enterprise merchant segments",
+      "properties": {
+        "segments": [
+          "Small Business",
+          "Enterprise"
+        ]
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Organic Growth Guidance FY 2025",
+      "type": "Metric",
+      "brief": "Revised organic growth guidance",
+      "description": "Updated guidance cut from 10-12% range to about 10%",
+      "properties": {
+        "unit": "%",
+        "value": 10,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – EPS Forecast Q2 2025",
+      "type": "Metric",
+      "brief": "Updated diluted EPS forecast",
+      "description": "Revised forecast for non-GAAP EPS for Q2 2025",
+      "properties": {
+        "unit": "USD",
+        "value": 2.44,
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Fiserv Inc. – Stock Underperformance",
+      "type": "Event",
+      "brief": "Potential near-term stock underperformance",
+      "description": "Underperformance risk due to merchant segment challenges",
+      "properties": {
+        "date": null,
+        "event_type": "price_underperformance",
+        "region": "US"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fiserv Inc. – Effective Tax Rate Decrease",
+      "target": "Fiserv Inc. – Non-GAAP EPS Q2 2025",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 0.03,
+        "unit": "USD",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Lower tax rate drove slight EPS beat"
+    },
+    {
+      "source": "Fiserv Inc. – Merchant Segment Challenges",
+      "target": "Fiserv Inc. – Stock Underperformance",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 60
+      },
+      "description": "Merchant segment challenges may drive stock underperformance"
+    }
+  ],
+  "scenarios": []
+}

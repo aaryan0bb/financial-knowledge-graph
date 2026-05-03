@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Google Overall Prime Book Gross Leverage MoM Change",
+      "type": "Table",
+      "brief": "Month-over-month change in prime book gross leverage",
+      "description": "Shows volatility with a -7% July 2025 decline as a de-risking signal",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Month/Period | Monthly Change (% pts) |\n|---|---|---|\n| 2016 | Peak | +13.5 |\n| 2016 | Trough | -4.5 |\n| 2018 | Trough | -4.0 |\n| 2019 | Peak | +7.5 |\n| 2019 | Trough | -7.5 |\n| 2020 | Peak | +7.5 |\n| 2021 | Trough | -4.5 |\n| 2022 | Peak | +3.0 |\n| 2022 | Trough | -12.0 |\n| 2023 | Peak | +13.5 |\n| 2023 | Trough | -6.5 |\n| 2024 | Jan | +3.0 |\n| 2024 | Feb | +0.5 |\n| 2024 | Mar | -0.5 |\n| 2024 | Apr | -4.0 |\n| 2024 | May | +3.0 |\n| 2024 | Jun | -6.0 |\n| 2024 | Jul | +6.0 |\n| 2024 | Aug | -1.0 |\n| 2024 | Sep | +0.5 |\n| 2024 | Oct | -3.0 |\n| 2024 | Nov | +5.0 |\n| 2024 | Dec | +3.0 |\n| 2025 | Jan | -3.0 |\n| 2025 | Feb | +4.0 |\n| 2025 | Mar | +0.5 |\n| 2025 | Apr | +3.0 |\n| 2025 | May | -1.0 |\n| 2025 | Jun | +5.0 |\n| 2025 | Jul MTD Decline | -7.0 |",
+        "key_insight": "The -7% decline in July 2025 MTD is one of the largest monthly decreases, indicating a de-risking trend."
+      }
+    },
+    {
+      "name": "Table T2 – Google Prime Book US Single Stocks 1-Day Notional Short Flow",
+      "type": "Table",
+      "brief": "Daily 1-Day Notional Short Flow Z-score for US single stocks",
+      "description": "Highlights spikes of short covering with +1.8 Z-score on July 22, 2025",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Date (Approx.) | 1-Day Notional Short Flow (Z Score) | Implication          |\n|----------------|-------------------------------------|----------------------|\n| Aug 2024 (Early) | +1.5                                | Short Covering       |\n| Aug 2024 (Mid)   | -0.8                                | Shorting Activity    |\n| Sep 2024 (Early) | -1.0                                | Shorting Activity    |\n| Sep 2024 (Late)  | +0.3                                | Short Covering       |\n| Oct 2024 (Mid)   | +2.0                                | Short Covering       |\n| Oct 2024 (Late)  | -0.8                                | Shorting Activity    |\n| Nov 2024 (Early) | +0.5                                | Short Covering       |\n| Nov 2024 (Late)  | -1.8                                | Shorting Activity    |\n| Dec 2024 (Early) | +1.2                                | Short Covering       |\n| Dec 2024 (Mid)   | -3.2                                | Strong Shorting      |\n| Dec 2024 (Late)  | +0.5                                | Short Covering       |\n| Jan 2025 (Early) | +2.2                                | Short Covering       |\n| Jan 2025 (Mid)   | -1.0                                | Shorting Activity    |\n| Jan 2025 (Late)  | +1.8                                | Short Covering       |\n| Feb 2025 (Early) | +1.0                                | Short Covering       |\n| Feb 2025 (Late)  | -0.5                                | Shorting Activity    |\n| Mar 2025 (Peak)  | +3.8                                | Strong Short Covering|\n| Mar 2025 (Trough) | -2.8                                | Strong Shorting      |\n| Mar 2025 (Late)  | +0.5                                | Short Covering       |\n| Apr 2025 (Early) | +2.0                                | Short Covering       |\n| Apr 2025 (Mid)   | -1.5                                | Shorting Activity    |\n| May 2025 (Peak)  | +3.2                                | Strong Short Covering|\n| May 2025 (Trough) | -2.0                                | Strong Shorting      |\n| Jun 2025 (Early) | -1.5                                | Shorting Activity    |\n| Jun 2025 (Late)  | +1.0                                | Short Covering       |\n| Jul 2025 (Early) | +0.8                                | Short Covering       |\n| Jul 22, 2025     | +1.8                                | Strong Short Covering|\n| Jul 2025 (Late)  | +0.5                                | Short Covering       |",
+        "key_insight": "As of July 22, 2025, the Z-score reached +1.8, indicating strong short covering."
+      }
+    },
+    {
+      "name": "Google De-risking Trend",
+      "type": "Factor",
+      "brief": "Broad market de-leveraging trend",
+      "description": "Significant reduction in prime book exposure indicates de-risking",
+      "properties": {
+        "direction": "down",
+        "magnitude_%": 7.0
+      }
+    },
+    {
+      "name": "Google Short Squeeze",
+      "type": "Factor",
+      "brief": "Intense short covering environment",
+      "description": "Periods of strong short covering driven by retail participation",
+      "properties": {
+        "direction": "up",
+        "magnitude_sigma": 1.8
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Google Overall Prime Book Gross Leverage MoM Change",
+      "target": "Google De-risking Trend",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": -7.0,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Decline in gross leverage informs de-risking trend"
+    },
+    {
+      "source": "Table T2 – Google Prime Book US Single Stocks 1-Day Notional Short Flow",
+      "target": "Google Short Squeeze",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": 1.8,
+        "unit": "sigma",
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Short flow Z-score informs short squeeze"
+    },
+    {
+      "source": "Google De-risking Trend",
+      "target": "Google Short Squeeze",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "De-risking trend triggers short squeeze conditions"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Google De-risking Trend",
+      "probability": 0.7,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "INFORMS",
+          "source": "Table T1 – Google Overall Prime Book Gross Leverage MoM Change",
+          "target": "Google De-risking Trend",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": -7.0,
+          "unit": "%"
+        },
+        {
+          "hop": 2,
+          "edge_type": "TRIGGERS",
+          "source": "Google De-risking Trend",
+          "target": "Google Short Squeeze",
+          "lag_days": null,
+          "prob": 0.7,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

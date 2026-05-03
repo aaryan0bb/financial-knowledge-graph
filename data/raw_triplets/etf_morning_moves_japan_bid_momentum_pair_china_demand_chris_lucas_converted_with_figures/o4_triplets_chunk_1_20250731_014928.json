@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "Japan ETFs Demand",
+      "type": "Factor",
+      "brief": "Strong demand for Japanese ETFs",
+      "description": "Desk flows illustrated strong demand for Japan ETFs amid momentum trading",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Japan ETFs EWJ",
+      "type": "Instrument",
+      "brief": "iShares MSCI Japan ETF",
+      "description": "ETF tracking Japanese equities, saw one of its busiest sessions YTD",
+      "properties": {
+        "ticker": "EWJ"
+      }
+    },
+    {
+      "name": "Japan ETFs BBJP",
+      "type": "Instrument",
+      "brief": "JPMorgan BetaBuilders Japan ETF",
+      "description": "ETF tracking Japanese equities, saw one of its busiest sessions YTD",
+      "properties": {
+        "ticker": "BBJP"
+      }
+    },
+    {
+      "name": "GOOGL pre-market price change",
+      "type": "Metric",
+      "brief": "GOOGL price movement post earnings",
+      "description": "GOOGL was up 3.6% in pre-market after earnings",
+      "properties": {
+        "value": 3.6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "TSLA pre-market price change",
+      "type": "Metric",
+      "brief": "TSLA price movement post earnings",
+      "description": "TSLA was down 6% in pre-market after earnings",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japan ETFs Demand",
+      "target": "Japan ETFs EWJ",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Strong demand drives increased EWJ trading"
+    },
+    {
+      "source": "Japan ETFs Demand",
+      "target": "Japan ETFs BBJP",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Strong demand drives increased BBJP trading"
+    }
+  ],
+  "scenarios": []
+}

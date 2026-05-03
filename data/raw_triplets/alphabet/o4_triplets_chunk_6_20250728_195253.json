@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet-Google Cloud 2Q25 Revenue",
+      "type": "Metric",
+      "brief": "Google Cloud's Q2 2025 revenue growth",
+      "description": "Google Cloud revenue rose 32% y/y in Q2 2025, surpassing Street estimates of 27%, with growth accelerating.",
+      "properties": {
+        "value": 32,
+        "unit": "%",
+        "as_of": "2025-06-30"
+      }
+    },
+    {
+      "name": "Alphabet-Google Cloud Demand-Supply Environment 2Q25",
+      "type": "Factor",
+      "brief": "Tight demand-supply in Google Cloud in 2Q25",
+      "description": "Management reported tight demand-supply for Google Cloud Q2 2025; implies strong link between expansion and growth.",
+      "properties": {
+        "direction": "tight",
+        "lookback_days": 90
+      }
+    },
+    {
+      "name": "Alphabet-Cloud Capacity Deployment 2Q25",
+      "type": "Factor",
+      "brief": "Capacity deployment as a cloud growth driver",
+      "description": "Correlation noted between capacity deployment and cloud growth for Alphabet in Q2 2025.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 90
+      }
+    },
+    {
+      "name": "Amazon-AWS Revenue Growth 2H25 Projection",
+      "type": "Metric",
+      "brief": "Street expects AWS revenue growth in 2H 2025",
+      "description": "Street expects AWS revenue to grow 17% y/y in 2H 2025, on a tougher y/y comp.",
+      "properties": {
+        "value": 17,
+        "unit": "%",
+        "as_of": "2025-12-31"
+      }
+    },
+    {
+      "name": "Amazon-AWS Capex Spend Past 5 Quarters",
+      "type": "Metric",
+      "brief": "AWS accelerating capex spend over past five quarters",
+      "description": "AWS capex spend has accelerated over the past five quarters, possibly driving 2H 2025 revenue gains.",
+      "properties": {
+        "direction": "up",
+        "lookback_days": 450
+      }
+    },
+    {
+      "name": "Amazon-AWS Proprietary Infrastructure Attractiveness 2Q25",
+      "type": "Factor",
+      "brief": "Risk: AWS infrastructure less attractive to AI customers",
+      "description": "Risk that AWS proprietary infrastructure is less attractive to AI clients and Amazon could lose AI market share.",
+      "properties": {
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet-Google Cloud Demand-Supply Environment 2Q25",
+      "target": "Alphabet-Google Cloud 2Q25 Revenue",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": 0,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Tight demand-supply environment drives strong Google Cloud Q2 revenue growth."
+    },
+    {
+      "source": "Alphabet-Cloud Capacity Deployment 2Q25",
+      "target": "Alphabet-Google Cloud 2Q25 Revenue",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 0,
+        "impact_value": 32,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Capacity deployment is strongly correlated with Google Cloud's Q2 growth."
+    },
+    {
+      "source": "Amazon-AWS Capex Spend Past 5 Quarters",
+      "target": "Amazon-AWS Revenue Growth 2H25 Projection",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": 180,
+        "impact_value": 17,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 80
+      },
+      "description": "Accelerating AWS capex spend may lead to 2H 2025 revenue acceleration."
+    },
+    {
+      "source": "Amazon-AWS Proprietary Infrastructure Attractiveness 2Q25",
+      "target": "Amazon-AWS Revenue Growth 2H25 Projection",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 180,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": true,
+        "confidence": 70
+      },
+      "description": "Less attractive AWS infrastructure for AI may limit revenue growth."
+    }
+  ],
+  "scenarios": []
+}

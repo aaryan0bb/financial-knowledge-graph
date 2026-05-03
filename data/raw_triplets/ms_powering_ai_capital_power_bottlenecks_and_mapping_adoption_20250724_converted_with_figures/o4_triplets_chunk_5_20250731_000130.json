@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "Morgan Stanley",
+      "type": "Company",
+      "brief": "Global financial services firm",
+      "description": "Author of the report and major credit markets participant",
+      "properties": {
+        "ticker": "MS",
+        "sector": "Financial Services"
+      }
+    },
+    {
+      "name": "Morgan Stanley – Real yields",
+      "type": "Factor",
+      "brief": "Positive real yields",
+      "description": "Real yields have been positive driving credit inflows",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Morgan Stanley – Private credit inflows",
+      "type": "Factor",
+      "brief": "Inflows into private credit funds",
+      "description": "Credit markets seeing significant inflows led by private credit",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Morgan Stanley – Private credit capacity",
+      "type": "Factor",
+      "brief": "Capacity of credit markets to finance needs",
+      "description": "Ability of private credit markets to meet financing demands",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – Global Private Debt Fund AUM",
+      "type": "Table",
+      "brief": "Growth and deployment of global private debt fund AUM",
+      "description": "Shows rising global private debt fund AUM and deployment rates from 2008 to 2024*",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | Total AUM ($B) | % Deployed |\n|------|----------------|------------|\n| 2008 | $280           | 64%        |\n| 2009 | $380           | 68%        |\n| 2010 | $410           | 70%        |\n| 2011 | $430           | 68%        |\n| 2012 | $480           | 66%        |\n| 2013 | $510           | 65%        |\n| 2014 | $540           | 62%        |\n| 2015 | $600           | 61%        |\n| 2016 | $680           | 58%        |\n| 2017 | $830           | 59%        |\n| 2018 | $960           | 61%        |\n| 2019 | $1,030         | 64%        |\n| 2020 | $1,200         | 66%        |\n| 2021 | $1,470         | 68%        |\n| 2022 | $1,600         | 70%        |\n| 2023 | $1,720         | 71%        |\n| 2024*| $1,820         | 71%        |",
+        "key_insight": "Global private debt fund AUM accelerated from ~$600B in 2015 to $1.82T by 2024*, with deployment rates recovering to 71%."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Morgan Stanley – Real yields",
+      "target": "Morgan Stanley – Private credit inflows",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Positive real yields have driven inflows into private credit"
+    },
+    {
+      "source": "Morgan Stanley – Private credit inflows",
+      "target": "Morgan Stanley – Private credit capacity",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.8,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 80
+      },
+      "description": "Increasing private credit inflows enhance financing capacity"
+    },
+    {
+      "source": "Table T1 – Global Private Debt Fund AUM",
+      "target": "Morgan Stanley – Private credit capacity",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table shows robust growth and deployment supporting private credit capacity"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "root_trigger": "Morgan Stanley – Real yields",
+      "probability": 0.64,
+      "steps": [
+        {
+          "hop": 1,
+          "edge_type": "CAUSES",
+          "source": "Morgan Stanley – Real yields",
+          "target": "Morgan Stanley – Private credit inflows",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        },
+        {
+          "hop": 2,
+          "edge_type": "CAUSES",
+          "source": "Morgan Stanley – Private credit inflows",
+          "target": "Morgan Stanley – Private credit capacity",
+          "lag_days": null,
+          "prob": 0.8,
+          "impact_value": null,
+          "unit": null
+        }
+      ]
+    }
+  ]
+}

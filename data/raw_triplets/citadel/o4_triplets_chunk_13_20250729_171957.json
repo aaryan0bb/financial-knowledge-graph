@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "EquityMarkets-Table T1 – NDX September Historical Daily Performance",
+      "type": "Table",
+      "brief": "NDX daily performance during September since 1985",
+      "description": "Shows historical September daily moves for Nasdaq 100, highlighting seasonal weakness.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date | NDX Performance |\n|---|---|\n| Sep 01 | 100.17 |\n| Sep 02 | 100.52 |\n| Sep 03 | 100.00 |\n| Sep 04 | 99.95 |\n| Sep 05 | 99.55 |\n| Sep 06 | 99.30 |\n| Sep 07 | 99.50 |\n| Sep 08 | 99.60 |\n| Sep 09 | 99.78 |\n| Sep 10 | 100.10 |",
+        "key_insight": "NDX typically peaks in early September before sustained declines, ending the month near lows."
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX September Peak Performance",
+      "type": "Metric",
+      "brief": "Highest NDX normalized performance in September",
+      "description": "Shows NDX reached its monthly peak around September 13th at 100.70.",
+      "properties": {
+        "value": 100.7,
+        "unit": "indexPts",
+        "as_of": "Sep 13"
+      }
+    },
+    {
+      "name": "EquityMarkets-NDX September Monthly Low",
+      "type": "Metric",
+      "brief": "Lowest NDX normalized performance in September",
+      "description": "NDX closed at its lowest point of the month, 98.72, on September 28th.",
+      "properties": {
+        "value": 98.72,
+        "unit": "indexPts",
+        "as_of": "Sep 28"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EquityMarkets-Table T1 – NDX September Historical Daily Performance",
+      "target": "EquityMarkets-NDX September Peak Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 100.7,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows the peak NDX value occurred around Sep 13 at 100.70 index points."
+    },
+    {
+      "source": "EquityMarkets-Table T1 – NDX September Historical Daily Performance",
+      "target": "EquityMarkets-NDX September Monthly Low",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 98.72,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table shows NDX closed near monthly low of 98.72 on Sep 28."
+    }
+  ],
+  "scenarios": []
+}

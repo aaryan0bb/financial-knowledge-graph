@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – Data Center Infrastructure – Projected FCF and OBBBA Impact",
+      "type": "Table",
+      "brief": "Projected FCF and OBBBA impact for hyperscalers",
+      "description": "Chart showing projected FCF and OBBBA impact for Amazon, Google, and Meta from 2025 to 2028",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Company | Metric          | 2025E  | 2026E  | 2027E  | 2028E  |\n|---------|-----------------|--------|--------|--------|--------|\n| AMZN    | Current FCF     | 30,209 | 48,046 | 61,519 | 83,820 |\n|         | OBBBA Impact    | 14,873 | 14,636 | 14,539 | 11,325 |\n|         | FCF after OBBBA | 45,083 | 62,682 | 76,058 | 95,146 |\n|         | % change        | 49%    | 30%    | 24%    | 14%    |\n| GOOGL   | Current FCF     | 78,821 | 85,520 | 95,658 | 108,517|\n|         | OBBBA Impact    | 24,724 | 4,170  | 6,047  | 5,372  |\n|         | FCF after OBBBA | 103,545| 89,690 | 101,705| 113,888|\n|         | % change        | 31%    | 5%     | 6%     | 5%     |\n| META    | Current FCF     | 44,872 | 47,429 | 56,538 | 70,439 |\n|         | OBBBA Impact    | 9,893  | 10,351 | 10,149 | 8,140  |\n|         | FCF after OBBBA | 54,765 | 57,780 | 66,687 | 78,579 |\n|         | % change        | 22%    | 22%    | 18%    | 12%    |",
+        "key_insight": "Google is poised for the largest near-term FCF boost at 31% in 2025 from a $24.7bn OBBBA impact"
+      }
+    },
+    {
+      "name": "Data Center Infrastructure – Google 2025 FCF increase",
+      "type": "Metric",
+      "brief": "Google 2025 FCF % increase due to OBBBA",
+      "description": "Google experiences a 31% increase in FCF in 2025 from OBBBA impact",
+      "properties": {
+        "value": 31,
+        "unit": "%",
+        "as_of": "2025"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Data Center Infrastructure – Projected FCF and OBBBA Impact",
+      "target": "Data Center Infrastructure – Google 2025 FCF increase",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 31,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Table highlights Google’s largest near-term FCF boost of 31% in 2025 from OBBBA"
+    }
+  ],
+  "scenarios": []
+}

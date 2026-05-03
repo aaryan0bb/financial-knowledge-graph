@@ -1,0 +1,496 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 \u2013 Cumulative Flows of China ETFs Jul 2024\u2013Jul 2025",
+      "type": "Table",
+      "brief": "Time-series of cumulative net flows for China ETFs",
+      "description": "Shows volatility and resurgence in investor flows for key China ETF products",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Month | Cumulative Flows ($bn) |\n|---|---|\n| Jul 2024 | -0.5 |\n| Aug 2024 | -2.0 |\n| Sep 2024 | -3.0 |\n| Early Oct 2024 | -3.5 |\n| Late Oct 2024 | +8.5 |\n| Nov 2024 | +5.5 |\n| Dec 2024 | +3.5 |\n| Jan 2025 | +2.8 |\n| Feb 2025 | +3.2 |\n| Mar 2025 | +4.2 |\n| Early Apr 2025 | +4.5 |\n| Late Apr 2025 | +0.5 |\n| May 2025 | +0.6 |\n| Jun 2025 | +0.9 |\n| Jul 2025 | +1.8 |",
+        "key_insight": "Cumulative flows peaked at +$8.5bn in late October 2024, declined to +$0.5bn in April 2025, and recovered to +$1.8bn by July 2025"
+      }
+    },
+    {
+      "name": "China ETF investor interest resurgence",
+      "type": "Factor",
+      "brief": "Renewed investor demand for China ETFs",
+      "description": "Surge in cumulative flows confirms renewed interest from investors",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Chart C1 \u2013 Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "type": "Chart",
+      "brief": "20-day performance difference between SPMO and IWM",
+      "description": "Line chart showing extreme volatility and frequent reversals in SPMO vs IWM performance",
+      "properties": {
+        "chart_id": "C1",
+        "x_axis": "Date",
+        "y_axis": "Performance Difference %",
+        "period_start": "2024-12-31",
+        "period_end": "2025-07-29",
+        "key_insight": "Extreme volatility with peaks at ~7.5% and troughs at ~-2.5%"
+      }
+    },
+    {
+      "name": "Momentum Factor Peak 20-Day Performance",
+      "type": "Metric",
+      "brief": "Mid-May peak of SPMO vs IWM performance",
+      "description": "Peak 20-day performance difference reached ~7.5% on May 7, 2025",
+      "properties": {
+        "value": 7.5,
+        "unit": "%",
+        "as_of": "2025-05-07",
+        "peak_date": "2025-05-07"
+      }
+    },
+    {
+      "name": "Momentum Factor Trough 20-Day Performance",
+      "type": "Metric",
+      "brief": "Late-July trough of SPMO vs IWM performance",
+      "description": "Trough 20-day performance difference reached ~-2.5% on July 29, 2025",
+      "properties": {
+        "value": -2.5,
+        "unit": "%",
+        "as_of": "2025-07-29",
+        "trough_date": "2025-07-29"
+      }
+    },
+    {
+      "name": "Momentum Factor Net Inflows (SPMO & MTUM)",
+      "type": "Metric",
+      "brief": "Combined net inflows to SPMO and MTUM over past month",
+      "description": "SPMO and MTUM collectively added $1.5bn in new money over the past month",
+      "properties": {
+        "value": 1.5,
+        "unit": "USD bn",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "Momentum Cohort MTD Performance",
+      "type": "Metric",
+      "brief": "Momentum cohort down 3.6% month-to-date",
+      "description": "Quant community momentum cohort is down 3.6% MTD, on track for worst month in almost 5 years",
+      "properties": {
+        "value": -3.6,
+        "unit": "%",
+        "as_of": "2025-07-23"
+      }
+    },
+    {
+      "name": "China ETF Creation Cycle",
+      "type": "Event",
+      "brief": "Resumption of creation cycle for China ETFs",
+      "description": "China ETFs are starting to re-enter a creation cycle",
+      "properties": {
+        "date": null,
+        "event_type": "creation_cycle",
+        "region": "China",
+        "affected_tickers": [
+          "China ETF MCHI",
+          "China ETF KWEB"
+        ]
+      }
+    },
+    {
+      "name": "China ETF MCHI",
+      "type": "Instrument",
+      "brief": "MSCI China ETF",
+      "description": "Major China ETF product MCHI",
+      "properties": {
+        "ticker": "MCHI"
+      }
+    },
+    {
+      "name": "China ETF KWEB",
+      "type": "Instrument",
+      "brief": "KraneShares CSI China Internet ETF",
+      "description": "Major China ETF product KWEB",
+      "properties": {
+        "ticker": "KWEB"
+      }
+    },
+    {
+      "name": "Table T1 \u2013 Japan ETF AUM Trends July 2024-Aug 2025",
+      "type": "Table",
+      "brief": "Japan ETF AUM from Jul 2024 to Aug 2025",
+      "description": "Shows AUM decline to 27.5bn and strong recovery to 36bn",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | Japan ETF AUM ($bn) |\n|-----------|---------------------|\n| Jul 2024  | 35.5                |\n| Mid Aug 2024 | 28.5                |\n| Sep 2024  | 34.8                |\n| Oct 2024  | 32.5                |\n| Nov 2024  | 31.0                |\n| Dec 2024  | 29.5                |\n| Jan 2025  | 29.0                |\n| Feb 2025  | 31.5                |\n| Mar 2025  | 31.0                |\n| Early Apr 2025 | 27.5                |\n| Late Apr 2025 | 31.0                |\n| May 2025  | 33.5                |\n| Jun 2025  | 34.0                |\n| Early Jul 2025 | 33.0                |\n| Late Jul 2025 | 35.5                |\n| Early Aug 2025 | 35.8                |",
+        "key_insight": "AUM for Japan ETFs fell to 27.5 USD bn in April 2025 then recovered sharply to nearly 36 USD bn by early August 2025, reflecting strong investor demand for Japanese equities."
+      }
+    },
+    {
+      "name": "Japan equities demand",
+      "type": "Factor",
+      "brief": "Surge in Japan ETF AUM indicates investor preference",
+      "description": "Strong demand for Japanese equities reflected in rising ETF AUM",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "momentum drawdown",
+      "type": "Factor",
+      "brief": "Prolonged decline in momentum factor performance",
+      "description": "Continued drawdown in momentum stocks",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "China ETF demand",
+      "type": "Factor",
+      "brief": "Emerging demand for China ETFs",
+      "description": "Increased interest in China ETFs indicating market resurgence",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "TSLA uncertainty",
+      "type": "Factor",
+      "brief": "Increased uncertainty for Tesla",
+      "description": "Policy changes and tariff pressures heighten TSLA uncertainty",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "GOOGL earnings beat",
+      "type": "Event",
+      "brief": "GOOGL reported a ~6% EPS beat",
+      "description": "Alphabet's earnings beat expectations by approximately 6%",
+      "properties": {
+        "date": null,
+        "event_type": "earnings_report",
+        "impact_value": 6,
+        "unit": "%",
+        "affected_tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "name": "GOOGL 2025 capex upward revision",
+      "type": "Event",
+      "brief": "GOOGL revised 2025 capex up by $10bn",
+      "description": "Alphabet increased 2025 capital expenditure guidance by USD 10 billion",
+      "properties": {
+        "date": null,
+        "event_type": "capex_revision",
+        "impact_value": 10,
+        "unit": "USD bn",
+        "affected_tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "name": "Trump administration ends EV incentives",
+      "type": "Event",
+      "brief": "US ended electric vehicle incentives",
+      "description": "Trump administration ends EV incentives, affecting automakers",
+      "properties": {
+        "date": null,
+        "event_type": "policy_end",
+        "region": "US",
+        "affected_tickers": [
+          "TSLA"
+        ]
+      }
+    },
+    {
+      "name": "SPMO",
+      "type": "Instrument",
+      "brief": "One of the largest momentum factor products",
+      "description": "Momentum factor product used for long-leg exposure",
+      "properties": {
+        "ticker": "SPMO"
+      }
+    },
+    {
+      "name": "MTUM",
+      "type": "Instrument",
+      "brief": "One of the largest momentum factor products",
+      "description": "Momentum factor product used for long-leg exposure",
+      "properties": {
+        "ticker": "MTUM"
+      }
+    },
+    {
+      "name": "IWM",
+      "type": "Instrument",
+      "brief": "ETF used as hedge against momentum factor",
+      "description": "Russell 2000 ETF often used to hedge momentum exposures",
+      "properties": {
+        "ticker": "IWM"
+      }
+    },
+    {
+      "name": "ARKK",
+      "type": "Instrument",
+      "brief": "ETF used as hedge against momentum factor",
+      "description": "ARK Innovation ETF used to hedge momentum exposures",
+      "properties": {
+        "ticker": "ARKK"
+      }
+    },
+    {
+      "name": "GGLL",
+      "type": "Instrument",
+      "brief": "Leveraged single-stock product",
+      "description": "Leveraged complex product tracking earnings movers",
+      "properties": {
+        "ticker": "GGLL"
+      }
+    },
+    {
+      "name": "TSLL",
+      "type": "Instrument",
+      "brief": "Inverse single-stock product",
+      "description": "Inverse complex product tracking earnings movers",
+      "properties": {
+        "ticker": "TSLL"
+      }
+    },
+    {
+      "name": "Japan ETFs Demand",
+      "type": "Factor",
+      "brief": "Strong demand for Japanese ETFs",
+      "description": "Desk flows illustrated strong demand for Japan ETFs amid momentum trading",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Japan ETFs EWJ",
+      "type": "Instrument",
+      "brief": "iShares MSCI Japan ETF",
+      "description": "ETF tracking Japanese equities, saw one of its busiest sessions YTD",
+      "properties": {
+        "ticker": "EWJ"
+      }
+    },
+    {
+      "name": "Japan ETFs BBJP",
+      "type": "Instrument",
+      "brief": "JPMorgan BetaBuilders Japan ETF",
+      "description": "ETF tracking Japanese equities, saw one of its busiest sessions YTD",
+      "properties": {
+        "ticker": "BBJP"
+      }
+    },
+    {
+      "name": "GOOGL pre-market price change",
+      "type": "Metric",
+      "brief": "GOOGL price movement post earnings",
+      "description": "GOOGL was up 3.6% in pre-market after earnings",
+      "properties": {
+        "value": 3.6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    },
+    {
+      "name": "TSLA pre-market price change",
+      "type": "Metric",
+      "brief": "TSLA price movement post earnings",
+      "description": "TSLA was down 6% in pre-market after earnings",
+      "properties": {
+        "value": -6,
+        "unit": "%",
+        "as_of": "2025-07-24"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 \u2013 Cumulative Flows of China ETFs Jul 2024\u2013Jul 2025",
+      "target": "China ETF investor interest resurgence",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Table informs resurgence of China ETF investor interest"
+    },
+    {
+      "source": "Chart C1 \u2013 Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "target": "Momentum Factor Peak 20-Day Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 7.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Chart highlights mid-May peak of ~7.5%"
+    },
+    {
+      "source": "Chart C1 \u2013 Momentum Factor 20-Day Performance (SPMO vs IWM)",
+      "target": "Momentum Factor Trough 20-Day Performance",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -2.5,
+        "unit": "%",
+        "non_linear": null,
+        "confidence": 90
+      },
+      "description": "Chart highlights late-July trough of ~-2.5%"
+    },
+    {
+      "source": "China ETF Creation Cycle",
+      "target": "China ETF MCHI",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Buyers of MCHI indicate resumed creation cycle"
+    },
+    {
+      "source": "China ETF Creation Cycle",
+      "target": "China ETF KWEB",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "Buyers of KWEB indicate resumed creation cycle"
+    },
+    {
+      "source": "Table T1 \u2013 Japan ETF AUM Trends July 2024-Aug 2025",
+      "target": "Japan equities demand",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 36,
+        "unit": "USD bn",
+        "non_linear": null,
+        "confidence": 95
+      },
+      "description": "AUM surge to ~36 USD bn informs strong demand for Japanese equities"
+    },
+    {
+      "source": "momentum drawdown",
+      "target": "SPMO",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Momentum drawdown triggers increased interest in SPMO"
+    },
+    {
+      "source": "momentum drawdown",
+      "target": "MTUM",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Momentum drawdown triggers increased interest in MTUM"
+    },
+    {
+      "source": "momentum drawdown",
+      "target": "IWM",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Momentum drawdown triggers IWM hedging flows"
+    },
+    {
+      "source": "momentum drawdown",
+      "target": "ARKK",
+      "type": "TRIGGERS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": 0,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Momentum drawdown triggers ARKK hedging flows"
+    },
+    {
+      "source": "Trump administration ends EV incentives",
+      "target": "TSLA uncertainty",
+      "type": "CAUSES",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "End of EV incentives causes increased TSLA uncertainty"
+    },
+    {
+      "source": "Japan ETFs Demand",
+      "target": "Japan ETFs EWJ",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Strong demand drives increased EWJ trading"
+    },
+    {
+      "source": "Japan ETFs Demand",
+      "target": "Japan ETFs BBJP",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.75,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 75
+      },
+      "description": "Strong demand drives increased BBJP trading"
+    }
+  ],
+  "file_path": "/Users/aaryangoyal/Desktop/Aaryan_folder/triplet_extraction/triplets/etf_morning_moves_japan_bid_momentum_pair_china_demand_chris_lucas_converted_with_figures"
+}

@@ -1,0 +1,158 @@
+Goldman Sachs                                                                                                        Weekly Fund Flows 
+
+Global Fund Flow Trends 
+
+    $bn                                                      $bn    $bn                                                       $bn 
+                        Global Flows to Equities                                      Global Flows to Fixed Income 
+      50                                                      50     30                                                       30 
+
+                                                                                                      -4-week moving avg. 
+                                    -4-week moving avg.              25                                                       25 
+      40                                                      40                                      -   1-year moving avg. 
+                                         1-year moving avg. 
+                                                                     20                                                       20 
+
+      30                                                     30       15                                                      15 
+
+                                                                      10                                                      10 
+      20                                                     20 
+                                                                      5                                                       5 
+      10                                                      10 
+                                                                      0                                                       0 
+
+                                                                      -5                                                      -5 
+       0                                                      0 
+
+                                                                     -10                                                      -10 
+     -10                                                      -10 
+                                                                     -15                                                      -15 
+
+     -20                                                     -20     -20                                                      -20 
+       2017 2018   2019 2020 2021   2022 2023 2024   2025              2017 2018   2019 2020 2021   2022 2023 2024 2025 
+
+    $bn                                                      $bn    $bn                                                       $bn 
+                       Global Flows to EM Equities                                 Flows to US Inflation-Protected Bonds 
+    20                                                         20    2.0                                                      2.0 
+
+            -4-week moving avg.                                                                         -4-week moving avg. 
+                                                                     1.5                                                      1.5 
+            -   1-year moving avg.                             15 
+    15                                                                                                 -1-year moving avg. 
+
+                                                                     1.0                                                      1.0 
+
+    10                                                         10 
+                                                                     0.5                                                      0.5 
+
+     5                                                         5     0.0                                                      0.0 
+
+                                                                    -0.5                                                      -0.5 
+     0                                                         0 
+
+                                                                    -1.0                                                      -1.0 
+
+     -5                                                        -5 
+                                                                     -1.5                                                     -1.5 
+
+   -10                                                         -10 -2.0                                                       -2.0 
+     2017   2018 2019   2020 2021 2022    2023 2024 2025               2017 2018   2019 2020 2021   2022 2023   2024 2025 
+
+    $bn                                                       $bn    $bn                                                      $bn 
+                        FX Flows to the Euro area                                          FX Flows to China 
+     3                                                         3     6                                                         6 
+                                                                           -4-week moving avg. 
+                          -4-week moving avg. 
+                                                                     5         1-year moving avg.                              5 
+     2                      1-year moving avg.                 2 
+                                                                     4                                                         4 
+
+     1                                                         1     3                                                         3 
+
+                                                                      2                                                        2 
+     0                                                         0 
+                                                                      1                                                        1 
+
+     -1                                                        -1    0                                                         0 
+
+                                                                     -1                                                        -1 
+     -2                                                        -2 
+                                                                     -2                                                        -2 
+
+     -3                                                        -3    -3                                                        -3 
+     2017   2018 2019 2020    2021 2022 2023    2024 2025             2017 2018   2019 2020   2021 2022   2023 2024   2025 
+
+Source: EPFR, Goldman Sachs Global Investment Research 
+
+25 July 2025                                                                                                                         5 
+
+    | Asset Class/Region           | Metric             | Year/Period | Approx. Flows ($bn) |
+    |------------------------------|--------------------|-------------|---------------------|
+    | Global Flows to Equities     | 4-week moving avg. | 2021 (peak) | 42                  |
+    | Global Flows to Equities     | 4-week moving avg. | 2022 (trough) | -10                 |
+    | Global Flows to Equities     | 4-week moving avg. | 2024 (peak) | 25                  |
+    | Global Flows to Equities     | 4-week moving avg. | Early 2025  | 15                  |
+    | Global Flows to Equities     | 1-year moving avg. | 2021 (peak) | 22                  |
+    | Global Flows to Equities     | 1-year moving avg. | Early 2025  | 12                  |
+    | Global Flows to Fixed Income | 4-week moving avg. | 2020 (peak) | 25                  |
+    | Global Flows to Fixed Income | 4-week moving avg. | 2022 (trough) | -17                 |
+    | Global Flows to Fixed Income | 4-week moving avg. | 2024 (peak) | 20                  |
+    | Global Flows to Fixed Income | 4-week moving avg. | Early 2025  | 5                   |
+    | Global Flows to Fixed Income | 1-year moving avg. | 2020 (peak) | 10                  |
+    | Global Flows to Fixed Income | 1-year moving avg. | Early 2025  | 10                  |
+    | Global Flows to EM Equities  | 4-week moving avg. | 2020 (peak) | 16                  |
+    | Global Flows to EM Equities  | 4-week moving avg. | 2022 (trough) | -5                  |
+    | Global Flows to EM Equities  | 4-week moving avg. | 2024 (peak) | 11                  |
+    | Global Flows to EM Equities  | 4-week moving avg. | Early 2025  | -5                  |
+    | Global Flows to EM Equities  | 1-year moving avg. | 2020 (peak) | 5                   |
+    | Global Flows to EM Equities  | 1-year moving avg. | Early 2025  | 0                   |
+    | US Inflation-Protected Bonds | 4-week moving avg. | 2021 (peak) | 1.7                 |
+    | US Inflation-Protected Bonds | 4-week moving avg. | 2022 (trough) | -1.5                |
+    | US Inflation-Protected Bonds | 4-week moving avg. | Early 2025  | 0.5                 |
+    | US Inflation-Protected Bonds | 1-year moving avg. | 2021 (peak) | 1                   |
+    | US Inflation-Protected Bonds | 1-year moving avg. | Early 2025  | 0.5                 |
+    | FX Flows to the Euro area    | 4-week moving avg. | 2019 (trough) | -2.5                |
+    | FX Flows to the Euro area    | 4-week moving avg. | 2021 (peak) | 2                   |
+    | FX Flows to the Euro area    | 4-week moving avg. | Early 2025  | 1.5                 |
+    | FX Flows to China            | 4-week moving avg. | 2021 (peak) | 5                   |
+    | FX Flows to China            | 4-week moving avg. | 2022 (trough) | -2.5                |
+    | FX Flows to China            | 4-week moving avg. | 2024 (peak) | 4.5                 |
+    | FX Flows to China            | 4-week moving avg. | Early 2025  | 0                   |
+
+    Summary: The figure comprises six time-series charts illustrating "Weekly Fund Flows" in billions of USD for various asset classes and regions, spanning from 2017 to early 2025. Each chart displays a "4-week moving average" (dark blue line) capturing short-term volatility and a "1-year moving average" (light blue line) for longer-term trends. Categories covered include Global Equities, Global Fixed Income, Global EM Equities, US Inflation-Protected Bonds, and FX Flows to the Euro area and China. A predominant trend across all charts is the significant week-to-week volatility in flows, often with sharp reversals, particularly notable in global equities, fixed income, and FX flows to China. Most categories experienced strong inflows culminating in peaks around 2020-2021, followed by periods of substantial outflows or decelerating inflows into mid-2022, with mixed or largely negative trends observed in early 2025.
+
+    Explanation: These detailed fund flow patterns offer insights into global investor sentiment and evolving asset allocation strategies. The strong inflows observed in 2020-2021 across most asset classes likely reflected post-pandemic recovery optimism and accommodative monetary policies, while the subsequent sharp outflows in 2022 could indicate a market correction driven by rising inflation and interest rates. The recent mixed to negative flow trends in early 2025 suggest ongoing market uncertainty or a strategic re-evaluation of investment prospects, consistent with a dynamic macroeconomic environment.
+
+    | Flow Type                     | Year | 4-Week Moving Avg. ($bn) | 1-Year Moving Avg. ($bn) |
+    |-------------------------------|------|--------------------------|--------------------------|
+    | Global Flows to Equities      | 2017 | 5.0                      | 2.5                      |
+    | Global Flows to Equities      | 2019 | -5.0                     | 0.0                      |
+    | Global Flows to Equities      | 2021 | 40.0                     | 20.0                     |
+    | Global Flows to Equities      | 2024 | 25.0                     | 15.0                     |
+    | Global Flows to Equities      | 2025 | -5.0                     | 5.0                      |
+    | Global Flows to Fixed Income  | 2017 | 10.0                     | 10.0                     |
+    | Global Flows to Fixed Income  | 2020 | 20.0                     | 15.0                     |
+    | Global Flows to Fixed Income  | 2022 | -5.0                     | 0.0                      |
+    | Global Flows to Fixed Income  | 2024 | 10.0                     | 10.0                     |
+    | Global Flows to Fixed Income  | 2025 | 5.0                      | 7.0                      |
+    | Global Flows to EM Equities   | 2017 | 2.0                      | 1.0                      |
+    | Global Flows to EM Equities   | 2019 | -5.0                     | -2.0                     |
+    | Global Flows to EM Equities   | 2021 | 8.0                      | 4.0                      |
+    | Global Flows to EM Equities   | 2024 | 15.0                     | 2.0                      |
+    | Global Flows to EM Equities   | 2025 | -5.0                     | 0.0                      |
+    | Flows to US Inflation-Protected Bonds | 2017 | 0.5                      | 0.5                      |
+    | Flows to US Inflation-Protected Bonds | 2020 | 0.0                      | 0.2                      |
+    | Flows to US Inflation-Protected Bonds | 2023 | 1.5                      | 1.0                      |
+    | Flows to US Inflation-Protected Bonds | 2025 | 0.5                      | 0.7                      |
+    | FX Flows to the Euro area     | 2017 | 0.5                      | 0.0                      |
+    | FX Flows to the Euro area     | 2019 | -2.0                     | -0.5                     |
+    | FX Flows to the Euro area     | 2022 | -1.0                     | 0.0                      |
+    | FX Flows to the Euro area     | 2025 | 1.5                      | 0.8                      |
+    | FX Flows to China             | 2017 | 0.5                      | 1.0                      |
+    | FX Flows to China             | 2021 | 3.0                      | 2.0                      |
+    | FX Flows to China             | 2023 | -2.0                     | -1.0                     |
+    | FX Flows to China             | 2024 | 3.0                      | 0.5                      |
+    | FX Flows to China             | 2025 | -1.0                     | 0.0                      |
+
+    Summary: The figure comprises six time-series charts depicting global and regional fund flows in billions of USD from 2017 to mid-2025, each showing 4-week and 1-year moving averages. Global Equity flows experienced significant peaks in inflows during 2021 and 2024, but have recently seen a sharp reversal into outflows in 2025. Global Fixed Income flows generally maintained positive trends, with a notable surge in 2020 and sustained inflows from late 2022 into 2025. Flows to EM Equities were highly volatile, with a large inflow spike in late 2024 followed by a pronounced decline in early 2025. FX Flows to China exhibited substantial outflows in 2022-2023, saw a rebound in 2024, but have turned negative again in 2025, contrasting with a more consistent positive trend in FX Flows to the Euro area in late 2024 and early 2025.
+
+    Explanation: These charts offer a comprehensive view of investor positioning and sentiment across various asset classes and regions, complementing the weekly FX flow data presented on the previous page. The observed shifts, such as the recent pivot from equity inflows to outflows, especially in emerging markets and China, suggest a responsive recalibration of investment strategies. Such movements typically reflect evolving economic outlooks, changes in monetary policy expectations, and geopolitical developments, providing critical insights into broader market risk appetite and capital allocation trends up to July 2025.

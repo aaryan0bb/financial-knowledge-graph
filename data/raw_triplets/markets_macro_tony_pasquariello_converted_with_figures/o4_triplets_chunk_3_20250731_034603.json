@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "S&P 500 – Long US Equity Position",
+      "type": "Factor",
+      "brief": "Position betting on rising US equities",
+      "description": "Modest long bias on US equities amid fiscal conversation",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 – Long Stores-of-Value Position",
+      "type": "Factor",
+      "brief": "Position in stores-of-value assets",
+      "description": "Modestly long stores-of-value amid fiscal conversation",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 – Short US Dollar Position",
+      "type": "Factor",
+      "brief": "Short position on the US dollar",
+      "description": "Modestly short US dollar amid fiscal conversation",
+      "properties": {
+        "direction": "down"
+      }
+    },
+    {
+      "name": "S&P 500 – Global Yield Curve Steepening",
+      "type": "Factor",
+      "brief": "Bias towards global yield curve steepening",
+      "description": "Expectation of steeper yield curves globally",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "S&P 500 – Discretionary Hedge Fund US Equity Net Selling",
+      "type": "Factor",
+      "brief": "Discretionary hedge funds sold US equities for four weeks",
+      "description": "Four consecutive weeks of US equity selling by discretionary hedge funds",
+      "properties": {
+        "direction": "down",
+        "lookback_days": 28
+      }
+    },
+    {
+      "name": "S&P 500 – Systematic Trading US Equity Demand Past Month",
+      "type": "Factor",
+      "brief": "Systematic community demand in US equities",
+      "description": "USD 99bn demand in past month by systematic trading community",
+      "properties": {
+        "magnitude_usd_bn": 99,
+        "lookback_days": 30
+      }
+    },
+    {
+      "name": "S&P 500 – Systematic Trading US Equity Demand Next Month Forecast",
+      "type": "Factor",
+      "brief": "Forecast demand in US equities by systematic trading",
+      "description": "Expected USD 89bn demand next month by systematic trading community",
+      "properties": {
+        "magnitude_usd_bn": 89
+      }
+    },
+    {
+      "name": "S&P 500 – Seasonal Demand Slowdown Jul-Aug",
+      "type": "Factor",
+      "brief": "Seasonal slowdown in stock demand from July to August",
+      "description": "Ferocity of demand expected to slow as July transitions to August",
+      "properties": {
+        "direction": "down",
+        "season_period": "Jul-Aug"
+      }
+    },
+    {
+      "name": "S&P 500 – Corporate Repurchase Execution Peak in August",
+      "type": "Factor",
+      "brief": "Peak corporate share repurchase execution in August",
+      "description": "August is the single most active month for executed repurchases",
+      "properties": {
+        "month": "August",
+        "magnitude_peak": true
+      }
+    },
+    {
+      "name": "S&P 500 – Earnings Beat Rate Current Period",
+      "type": "Metric",
+      "brief": "Percentage of S&P names beating estimates",
+      "description": "65% of S&P names have beaten final estimates by >1 std dev",
+      "properties": {
+        "value": 65,
+        "unit": "%",
+        "as_of": "Reporting period"
+      }
+    },
+    {
+      "name": "S&P 500 – Earnings Beat Rate Long-Term Average",
+      "type": "Metric",
+      "brief": "Long-term average earnings beat rate",
+      "description": "Long-term average beat rate of S&P names is 48%",
+      "properties": {
+        "value": 48,
+        "unit": "%",
+        "as_of": "Long-term average"
+      }
+    },
+    {
+      "name": "S&P 500 – Consensus Earnings Growth Estimate",
+      "type": "Metric",
+      "brief": "Consensus earnings growth estimate",
+      "description": "Consensus estimate for earnings growth is +4%",
+      "properties": {
+        "value": 4,
+        "unit": "%",
+        "as_of": "Consensus"
+      }
+    },
+    {
+      "name": "S&P 500 – Trump 2.0 Policy Impact",
+      "type": "Event",
+      "brief": "Trump 2.0 policy impact on companies",
+      "description": "New policy changes impacting companies like GM and Verizon",
+      "properties": {
+        "date": null,
+        "event_type": "Policy",
+        "affected_tickers": [
+          "GM",
+          "VZ"
+        ]
+      }
+    },
+    {
+      "name": "S&P 500 – General Motors",
+      "type": "Company",
+      "brief": "Automaker experiencing selloff on tariffs",
+      "description": "GM sold off due to Trump 2.0 tariff policies",
+      "properties": {
+        "ticker": "GM",
+        "sector": "Automotive"
+      }
+    },
+    {
+      "name": "S&P 500 – Verizon Communications",
+      "type": "Company",
+      "brief": "Telecom company rallying on expense deductions",
+      "description": "Verizon rallied due to Trump 2.0 expense deduction policies",
+      "properties": {
+        "ticker": "VZ",
+        "sector": "Telecommunications"
+      }
+    },
+    {
+      "name": "S&P 500 – Alphabet Inc.",
+      "type": "Company",
+      "brief": "Tech company focused on AI innovation",
+      "description": "Alphabet's demand environment is wide open for AI innovation",
+      "properties": {
+        "ticker": "GOOG",
+        "sector": "Technology"
+      }
+    },
+    {
+      "name": "S&P 500 – AI Innovation Demand Environment",
+      "type": "Factor",
+      "brief": "Demand environment for AI innovation",
+      "description": "Wide open demand environment for AI innovation as noted by NOW",
+      "properties": {
+        "direction": "up"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "S&P 500 – Trump 2.0 Policy Impact",
+      "target": "S&P 500 – General Motors",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Policy impacts GM leading to selloff"
+    },
+    {
+      "source": "S&P 500 – Trump 2.0 Policy Impact",
+      "target": "S&P 500 – Verizon Communications",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.7,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": null,
+        "confidence": 70
+      },
+      "description": "Policy impacts Verizon via expense deductions"
+    },
+    {
+      "source": "S&P 500 – AI Innovation Demand Environment",
+      "target": "S&P 500 – Alphabet Inc.",
+      "type": "IMPACTS",
+      "properties": {
+        "probability": 0.6,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 60
+      },
+      "description": "AI demand environment influences Alphabet's price reaction"
+    }
+  ],
+  "scenarios": []
+}

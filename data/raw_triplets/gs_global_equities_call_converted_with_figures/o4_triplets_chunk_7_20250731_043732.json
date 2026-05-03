@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "Table T1 – US Equity Market GS US Quality Pair Index Performance Volatility and Drawdown",
+      "type": "Table",
+      "brief": "Index peaked and then declined sharply",
+      "description": "Performance of GS US Quality Pair Index from Jul 2023 to Jul 2025; peaked at 148.13 in Apr 2024 and declined to 132.84 by Jul 2025",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Date      | GS US Quality Pair Index |\n|-----------|--------------------------|\n| Jul 2023  | 130.13 (Low)             |\n| Aug 2023  | ~135                     |\n| Sep 2023  | ~140                     |\n| Oct 2023  | ~145                     |\n| Nov 2023  | ~137                     |\n| Dec 2023  | ~140                     |\n| Jan 2024  | ~135                     |\n| Feb 2024  | ~140                     |\n| Mar 2024  | ~145                     |\n| Apr 2024  | 148.13 (High)            |\n| May 2024  | ~140                     |\n| Jun 2024  | ~135                     |\n| Jul 2024  | ~132                     |\n| Aug 2024  | ~138                     |\n| Sep 2024  | ~142                     |\n| Oct 2024  | ~140                     |\n| Nov 2024  | ~138                     |\n| Dec 2024  | ~140                     |\n| Jan 2025  | ~144                     |\n| Feb 2025  | ~142                     |\n| Mar 2025  | ~140                     |\n| Apr 2025  | ~145                     |\n| May 2025  | ~142                     |\n| Jun 2025  | ~138                     |\n| Jul 2025  | 132.84 (Last)            |",
+        "key_insight": "GS US Quality Pair Index peaked at 148.13 in April 2024 then declined sharply to 132.84 by July 2025"
+      }
+    },
+    {
+      "name": "US Equity Market – Sharp Drawdown in Quality Pair Index",
+      "type": "Factor",
+      "brief": "Sharp drawdown from ~145 to 132.84 in Jul 2025",
+      "description": "Drawdown indicates headwinds for quality assets despite broad market strength",
+      "properties": {
+        "magnitude_indexPts": 12.16,
+        "direction": "down"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – US Equity Market GS US Quality Pair Index Performance Volatility and Drawdown",
+      "target": "US Equity Market – Sharp Drawdown in Quality Pair Index",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 12.16,
+        "unit": "indexPts",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Table highlights sharp drawdown magnitude"
+    }
+  ],
+  "scenarios": []
+}

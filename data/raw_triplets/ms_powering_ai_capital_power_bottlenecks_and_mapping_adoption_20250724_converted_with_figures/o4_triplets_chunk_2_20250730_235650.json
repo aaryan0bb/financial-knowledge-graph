@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "Morgan Stanley",
+      "type": "Company",
+      "brief": "Global investment bank",
+      "description": "Underwrites financing for AI infrastructure investments",
+      "properties": {
+        "ticker": "MS",
+        "sector": "Financial Services"
+      }
+    }
+  ],
+  "relationships": [],
+  "scenarios": []
+}

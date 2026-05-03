@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "Equity Inflows",
+      "type": "Factor",
+      "brief": "Resurgence in equity inflows led by client buying",
+      "description": "Represents renewed increase in equity inflows across sectors driven by retail and hedge fund clients",
+      "properties": {
+        "direction": "up"
+      }
+    },
+    {
+      "name": "Table T1 – Equity Inflows: Utilities outflows; ETF inflows",
+      "type": "Table",
+      "brief": "Utilities sector cumulative ETF and single stock flows 2017-2024",
+      "description": "Highlights sustained utility stock outflows and volatile but modest ETF flows over time",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Year | ETF Cumulative Flows ($mn) | Single Stock Cumulative Flows ($mn) |\n|---|---|---|\n| Early 2017 | 0 | 0 |\n| Mid-2017 | -250 | -4500 |\n| Late-2017 | -300 | -5000 |\n| Early-2018 | -200 | -5500 |\n| Mid-2018 | 0 | -7000 |\n| Late-2018 | -400 | -5000 |\n| Early-2019 | -200 | -6000 |\n| Mid-2019 | -500 | -4000 |\n| Early-2020 | -800 | -4500 |\n| Mid-2020 | 200 | -5000 |\n| Early-2021 | 900 | -5000 |\n| Mid-2021 | 0 | -5500 |\n| Late-2021 | -800 | -6000 |\n| Early-2022 | -500 | -6500 |\n| Mid-2022 | 0 | -6500 |\n| Late-2022 | 800 | -6000 |\n| Early-2023 | 900 | -6000 |\n| Mid-2023 | 400 | -5800 |\n| Late-2023 | -800 | -3000 |\n| Early-2024 | 400 | -5000 |\n| Mid-2024 | 500 | -6000 |\n| Late-2024 | 450 | -6000 |",
+        "key_insight": "Utilities single stock flows show sustained large cumulative outflows, while ETF flows fluctuated near zero with peaks around $900mn and troughs near -$800mn"
+      }
+    },
+    {
+      "name": "Table T2 – Equity Inflows: Real Estate net buy swings",
+      "type": "Table",
+      "brief": "Real Estate sector cumulative ETF and single stock net buys 2016-2024",
+      "description": "Shows volatile single stock swings and sustained ETF outflows in Real Estate from 2016 to 2024",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Year | ETF Cumulative Net Buys ($ mn) | Single Stock Cumulative Net Buys ($ mn) |\n|---|---|---|\n| 2016 | 0 | 0 |\n| 2017 mid | -300 | -3000 |\n| 2018 mid | -700 | -6000 |\n| 2019 mid | -1000 | -8000 |\n| 2019 late | -1200 | -8500 |\n| 2020 early | -1500 | -7000 |\n| 2020 mid | -2000 | -3000 |\n| 2020 late | -1900 | 0 |\n| 2021 mid | -1500 | 1000 |\n| 2022 early | -1800 | 2000 |\n| 2022 mid | -2500 | 2400 |\n| 2022 late | -3500 | 1000 |\n| 2023 mid | -3000 | -500 |\n| 2023 late | -3500 | -1000 |\n| 2024 mid | -4000 | -1800 |\n| 2024 late | -4500 | -2000 |",
+        "key_insight": "Real Estate single stock flows swung from deep cumulative outflows to inflows around mid-2022 before reversing back to outflows by late 2024, while ETF flows remained consistently negative"
+      }
+    },
+    {
+      "name": "Table T3 – Equity Inflows: Utilities long-term outflows vs ETFs",
+      "type": "Table",
+      "brief": "Utilities sector long-term ETF and single stock flows 2016-2024",
+      "description": "Illustrates sustained single stock outflows and relatively flat ETF accumulation over the long term",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Year | ETF Cumulative Flow ($mn) | Single Stock Cumulative Flow ($mn) |\n|---|---|---|\n| 2016 | 0 | 0 |\n| 2017 | 500 | -1000 |\n| 2018 | 1500 | -500 |\n| 2019 | 1000 | -1500 |\n| 2020 | 1800 | -3000 |\n| 2020.5 | 1000 | -1000 |\n| 2021 | 0 | -5000 |\n| 2021.5 | 500 | -2000 |\n| 2022 | 0 | -7000 |\n| 2023 | -200 | -7500 |\n| 2024 | 200 | -7800 |",
+        "key_insight": "Utilities single stock flows show accelerating long-term cumulative outflows reaching nearly -$8bn by 2024, while ETF flows peaked around $1.8bn in 2020 then fluctuated near zero"
+      }
+    },
+    {
+      "name": "Table T4 – Equity Inflows: Tech cumulative flows by asset type",
+      "type": "Table",
+      "brief": "Tech sector cumulative flows by ETF vs single stock 2017-2024",
+      "description": "Highlights divergence with massive single stock inflows versus modest ETF accumulation",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Year | Asset Type | Cumulative Flow ($ mn) |\n|---|---|---|\n| 2017 Early | ETF | 0 |\n| 2017 Early | Single Stock | 0 |\n| 2017 End | ETF | 5,000 |\n| 2017 End | Single Stock | -5,000 |\n| 2018 Mid | ETF | 2,000 |\n| 2018 Mid | Single Stock | 5,000 |\n| 2018 End | ETF | 3,000 |\n| 2018 End | Single Stock | 10,000 |\n| 2019 Mid | ETF | 5,000 |\n| 2019 Mid | Single Stock | 15,000 |\n| 2020 Mid | ETF | 8,000 |\n| 2020 Mid | Single Stock | 10,000 |\n| 2021 Mid | ETF | 5,000 |\n| 2021 Mid | Single Stock | 20,000 |\n| 2022 Mid | ETF | 6,000 |\n| 2022 Mid | Single Stock | 60,000 |\n| 2023 Mid | ETF | 3,000 |\n| 2023 Mid | Single Stock | 80,000 |\n| 2024 Mid | ETF | 2,000 |\n| 2024 Mid | Single Stock | 100,000 |\n| 2024 End | ETF | 1,000 |\n| 2024 End | Single Stock | 110,000 |",
+        "key_insight": "Technology asset type flows show single stock cumulative inflows accelerating to $110bn by end-2024, while ETF flows remained modest"
+      }
+    },
+    {
+      "name": "Table T5 – Equity Inflows: Comm Services single stock rebound",
+      "type": "Table",
+      "brief": "Communication Services ETF vs single stock flows 2016-2024",
+      "description": "Shows dramatic single stock recovery against steady ETF accumulation in Communication Services",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Year | Single Stock Cum. Net Buys ($ mn) | ETF Cum. Net Buys ($ mn) |\n|------|-----------------------------------|--------------------------|\n| 2016 | 0                                 | 0                        |\n| 2017 | -5k                               | 5k                       |\n| 2018 | -10k                              | 8k                       |\n| 2019 | -15k                              | 9k                       |\n| 2020 | -20k                              | 10k                      |\n| 2021 | -10k                              | 12k                      |\n| 2022 | 0                                 | 12k                      |\n| 2023 | 40k                               | 12k                      |\n| 2024 | 72k                               | 16k                      |",
+        "key_insight": "Communication Services single stock flows reversed from -20k trough in 2020 to +72k by 2024, while ETF flows rose modestly"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Table T1 – Equity Inflows: Utilities outflows; ETF inflows",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights divergent flows in the Utilities sector"
+    },
+    {
+      "source": "Table T2 – Equity Inflows: Real Estate net buy swings",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Shows volatile Real Estate flow trends"
+    },
+    {
+      "source": "Table T3 – Equity Inflows: Utilities long-term outflows vs ETFs",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Illustrates long-term Utilities outflows versus ETF flows"
+    },
+    {
+      "source": "Table T4 – Equity Inflows: Tech cumulative flows by asset type",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights Tech sector asset-type flow divergence"
+    },
+    {
+      "source": "Table T5 – Equity Inflows: Comm Services single stock rebound",
+      "target": "Equity Inflows",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": null,
+        "unit": null,
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Highlights Communication Services single stock rebound versus ETF flows"
+    }
+  ],
+  "scenarios": []
+}

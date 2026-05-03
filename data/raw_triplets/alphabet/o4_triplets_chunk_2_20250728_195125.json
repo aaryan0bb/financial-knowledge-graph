@@ -1,0 +1,209 @@
+{
+  "entities": [
+    {
+      "name": "Alphabet",
+      "type": "Company",
+      "brief": "Global technology company known for search, cloud, AI.",
+      "description": "Alphabet leads in digital advertising, cloud, and AI; benefits from strong margins and global reach.",
+      "properties": {
+        "ticker": "GOOGL",
+        "sector": "Internet/e-Commerce",
+        "market_cap_USDbn": null,
+        "rating_outlook": null
+      }
+    },
+    {
+      "name": "Alphabet Table T1 – Business Performance KPIs by Year",
+      "type": "Table",
+      "brief": "Annual metrics: capital returns, margins, FCF.",
+      "description": "Tracks Alphabet's return on capital, margins, and free cash flow 2023A-2027E.",
+      "properties": {
+        "table_id": "T1",
+        "table_content": "| Metric | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---|---|---|---|---|---|\nReturn on Capital Employed | 31.0% | 37.2% | 35.9% | 28.4% | 25.1% \nReturn on Equity | 27.4% | 35.3% | 35.0% | 26.9% | 23.2% \nOperating Margin | 42.8% | 45.8% | 46.2% | 46.0% | 44.5% \nFree Cash Flow | 69,495 | 72,764 | 61,956 | 81,279 | 98,328 \n",
+        "key_insight": "Alphabet's returns and margins are projected to remain robust, with Free Cash Flow recovering strongly after a dip in 2025E.",
+        "table_type": "Ratios",
+        "full_rows": 4
+      }
+    },
+    {
+      "name": "Alphabet Table T2 – Quality of Earnings Metrics",
+      "type": "Table",
+      "brief": "Cash/asset quality, tax, debt/equity ratios.",
+      "description": "Shows Alphabet's cash realization, asset replacement, tax rate, and net debt/equity 2023A-2027E.",
+      "properties": {
+        "table_id": "T2",
+        "table_content": "| Metric | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---|---|---|---|---|---|\nCash Realization Ratio | 1.4x | 1.3x | 1.2x | 1.4x | 1.5x \nAsset Replacement Ratio | 2.4x | 3.4x | 4.0x | 3.1x | 2.5x \nTax Rate | 13.9% | 16.4% | 17.1% | 16.6% | 16.6% \nNet Debt-to-Equity Ratio | 1.2% | 1.7% | -0.4% | -9.8% | -17.7% \n",
+        "key_insight": "Alphabet's quality of earnings remains strong, with net debt-to-equity set to turn substantially negative by 2027E.",
+        "table_type": "Ratios",
+        "full_rows": 4
+      }
+    },
+    {
+      "name": "Alphabet Table T3 – Income Statement",
+      "type": "Table",
+      "brief": "Headline P&L items and changes, 2023A-2027E.",
+      "description": "Covers Alphabet's annual sales, gross profit, EBITDA, net income, and growth rates.",
+      "properties": {
+        "table_id": "T3",
+        "table_content": "| Metric | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---|---|---|---|---|---|\nSales | 256,508 | 295,118 | 336,859 | 381,736 | 428,536\n% Change | 9.7% | 15.1% | 14.1% | 13.3% | 12.3%\nGross Profit | 174,062 | 203,712 | 234,817 | 262,898 | 289,781\n% Change | 11.1% | 17.0% | 15.3% | 12.0% | 10.2%\nEBITDA | 123,410 | 150,486 | 176,761 | 206,552 | 234,440\n% Change | 12.3% | 21.9% | 17.5% | 16.9% | 13.5%\nNet Income (Adj) | 73,783 | 100,076 | 122,418 | 127,355 | 138,097\n% Change | 23.0% | 35.6% | 22.3% | 4.0% | 8.4%\n",
+        "key_insight": "Alphabet's sales and profits are forecast to grow at double-digit rates through 2027E, supporting strong earnings growth.",
+        "table_type": "Income Statement",
+        "full_rows": 8
+      }
+    },
+    {
+      "name": "Alphabet Table T4 – Free Cash Flow Data",
+      "type": "Table",
+      "brief": "FCF bridge: NI, capex, working capital, 2023A-2027E.",
+      "description": "Breaks down FCF calculations per year, showing underlying NI, D&A, capex, working capital.",
+      "properties": {
+        "table_id": "T4",
+        "table_content": "| Metric | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---|---|---|---|---|---|\nNet Income from Cont Operations (GAAP) | 73,795 | 100,118 | 122,393 | 127,304 | 138,057\nDepreciation & Amortization | 13,699 | 15,311 | 21,131 | 31,072 | 43,572\nChange in Working Capital | -3,845 | -9,343 | -7,615 | -5,745 | -5,083\nOther Adjustments, Net | 18,097 | 19,213 | 11,589 | 26,452 | 29,442\nCapital Expenditure | -32,251 | -52,535 | -85,542 | -97,805 | -107,661\nFree Cash Flow | 69,495 | 72,764 | 61,956 | 81,279 | 98,328\n% Change | 15.8% | 4.7% | -14.9% | 31.2% | 21.0%\n",
+        "key_insight": "Alphabet's free cash flow is projected to rebound in 2026E after a dip in 2025E, supported by rising NI and D&A.",
+        "table_type": "Cash Flow",
+        "full_rows": 7
+      }
+    },
+    {
+      "name": "Alphabet Table T5 – Balance Sheet Data",
+      "type": "Table",
+      "brief": "Key balance sheet items, 2023A-2027E.",
+      "description": "Details Alphabet's yearly evolution of assets, liabilities, and equity.",
+      "properties": {
+        "table_id": "T5",
+        "table_content": "| Metric | 2023A | 2024A | 2025E | 2026E | 2027E |\n|---|---|---|---|---|---|\nCash & Equivalents | 24,048 | 24,048 | 43,456 | 93,471 | 157,407\nTrade Receivables | 47,964 | 47,964 | 60,215 | 67,682 | 75,694\nOther Current Assets | 99,518 | 99,518 | 88,336 | 90,430 | 92,789\nProperty, Plant & Equipment | 134,345 | 134,345 | 237,484 | 304,244 | 368,393\nOther Non-Current Assets | 96,517 | 96,517 | 133,006 | 133,806 | 134,606\nTotal Assets | 402,392 | 402,392 | 562,499 | 689,634 | 828,888\nShort-Term Debt | 0 | 0 | 0 | 0 | 0\nOther Current Liabilities | 81,814 | 81,814 | 93,939 | 106,386 | 120,305\n",
+        "key_insight": "Total Assets and Cash are projected to increase significantly by 2027E, with no short-term debt.",
+        "table_type": "Balance Sheet",
+        "full_rows": 8
+      }
+    },
+    {
+      "name": "Alphabet Sales 2025E",
+      "type": "Metric",
+      "brief": "2025E projected sales metric.",
+      "description": "Alphabet's sales are projected to reach $336,859 million in 2025E.",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2025E",
+        "value": 336859
+      }
+    },
+    {
+      "name": "Alphabet Operating Margin 2025E",
+      "type": "Metric",
+      "brief": "Projected operating margin for 2025E.",
+      "description": "Operating margin expected at 46.2% for 2025E.",
+      "properties": {
+        "unit": "%",
+        "as_of": "2025E",
+        "value": 46.2
+      }
+    },
+    {
+      "name": "Alphabet Free Cash Flow 2026E",
+      "type": "Metric",
+      "brief": "Rebound in free cash flow projected for 2026E.",
+      "description": "Free cash flow anticipated to reach $81,279 million in 2026E after prior dip.",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2026E",
+        "value": 81279
+      }
+    },
+    {
+      "name": "Alphabet Net Debt-to-Equity Ratio 2027E",
+      "type": "Metric",
+      "brief": "Strong negative net debt-to-equity by 2027E.",
+      "description": "Alphabet's net debt-to-equity ratio projected at -17.7%, showing strong net cash.",
+      "properties": {
+        "unit": "%",
+        "as_of": "2027E",
+        "value": -17.7
+      }
+    },
+    {
+      "name": "Alphabet Total Assets 2027E",
+      "type": "Metric",
+      "brief": "Expected total assets at end-2027E.",
+      "description": "Total assets projected to rise to $828,888 million by 2027E.",
+      "properties": {
+        "unit": "USD mn",
+        "as_of": "2027E",
+        "value": 828888
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Alphabet Table T1 – Business Performance KPIs by Year",
+      "target": "Alphabet Operating Margin 2025E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 46.2,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Table provides projected 2025E operating margin for Alphabet."
+    },
+    {
+      "source": "Alphabet Table T3 – Income Statement",
+      "target": "Alphabet Sales 2025E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.95,
+        "lag_days": null,
+        "impact_value": 336859,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 95
+      },
+      "description": "Income Statement table includes the 2025E sales projection for Alphabet."
+    },
+    {
+      "source": "Alphabet Table T4 – Free Cash Flow Data",
+      "target": "Alphabet Free Cash Flow 2026E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 81279,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "FCF Table details the projected 2026E free cash flow recovery for Alphabet."
+    },
+    {
+      "source": "Alphabet Table T2 – Quality of Earnings Metrics",
+      "target": "Alphabet Net Debt-to-Equity Ratio 2027E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": -17.7,
+        "unit": "%",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Quality of Earnings highlights strongly negative net debt-to-equity in 2027E."
+    },
+    {
+      "source": "Alphabet Table T5 – Balance Sheet Data",
+      "target": "Alphabet Total Assets 2027E",
+      "type": "INFORMS",
+      "properties": {
+        "probability": 0.9,
+        "lag_days": null,
+        "impact_value": 828888,
+        "unit": "USD mn",
+        "non_linear": false,
+        "confidence": 90
+      },
+      "description": "Balance Sheet table contains 2027E total assets projection for Alphabet."
+    }
+  ],
+  "scenarios": []
+}
